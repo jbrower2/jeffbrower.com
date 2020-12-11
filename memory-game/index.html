@@ -262,7 +262,6 @@ function buildPage() {
   emojis["Food & Drink"]["food-prepared"].enabled = true;
   emojis["Food & Drink"]["food-marine"].enabled = true;
   emojis["Food & Drink"]["food-sweet"].enabled = true;
-  emojis["Food & Drink"]["drink"].enabled = true;
   emojis["Food & Drink"]["dishware"].enabled = true;
   emojis["Travel & Places"]["place-geographic"].enabled = true;
   emojis["Travel & Places"]["place-building"].enabled = true;
@@ -335,9 +334,29 @@ function buildPage() {
         b.enabled && enabledEmojis.push(...b);
       });
     });
+    for (const badEmoji of ["👙"]) {
+        const index = enabledEmojis.indexOf(badEmoji);
+        if (index !== -1) array.splice(index, 1);
+    }
+
+    const emojiList = [];
+    const getNewEmoji = () => {
+        if (!emojiList.length) {
+            console.log("Refreshing emoji list...");
+            emojiList.push(...enabledEmojis);
+            for (let i = 0; i < emojiList.length; i++) {
+                const j = Math.floor(Math.random() * emojiList.length);
+                if (i === j) continue;
+                const temp = emojiList[i];
+                emojiList[i] = emojiList[j];
+                emojiList[j] = temp;
+            }
+        }
+        return emojiList.pop();
+    };
 
     const reset = (emoji) => {
-      emoji.innerText = enabledEmojis[Math.floor(Math.random() * enabledEmojis.length)];
+      emoji.innerText = getNewEmoji();
       emoji.style.transition = "initial";
       emoji.style.left = Math.random()*100 + "vw";
       emoji.style.top = "-2em";
