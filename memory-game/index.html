@@ -336,7 +336,7 @@ function buildPage() {
     });
     for (const badEmoji of ["👙"]) {
         const index = enabledEmojis.indexOf(badEmoji);
-        if (index !== -1) array.splice(index, 1);
+        if (index !== -1) enabledEmojis.splice(index, 1);
     }
 
     const emojiList = [];
