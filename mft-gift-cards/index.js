@@ -62503,8 +62503,17 @@ window.addEventListener("load", () => {
         height: 58,
       });
 
-      doc.font("Helvetica", 12); // height: 13.872
-      doc.text(formattedCode, 0, 58, { width: 153, align: "center" });
+      const textOptions = { width: 153, align: "center" };
+
+      let fontSize = 12;
+      doc.font("Helvetica", fontSize);
+      const width12 = doc.widthOfString(formattedCode, textOptions);
+
+      if (width12 > 150) {
+        doc.font("Helvetica", (fontSize * 150) / width12);
+      }
+
+      doc.text(formattedCode, 0, 58, textOptions);
     }
 
     doc.end();
