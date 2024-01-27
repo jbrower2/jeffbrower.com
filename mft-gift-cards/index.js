@@ -62505,7 +62505,7 @@ window.addEventListener("load", () => {
 
       const textOptions = { width: 153, align: "center" };
 
-      let fontSize = 12;
+      let fontSize = 14;
       doc.font("Helvetica", fontSize);
       const width12 = doc.widthOfString(formattedCode, textOptions);
 
