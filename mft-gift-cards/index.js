@@ -62488,7 +62488,7 @@ window.addEventListener("load", () => {
     const count = document.getElementById("numCount").value;
     for (let i = 0; i < count; i++) {
       const rawCode = getCode();
-      const formattedCode = rawCode.replace(/(...)(?!$)/g, "$1-");
+      const formattedCode = rawCode.replace(/(...)(?!$)/g, "$1 ");
 
       const qrCode = QRCode.create(`shopify-giftcard-v1-${rawCode}`, {
         errorCorrectionLevel: "H",
@@ -62498,14 +62498,14 @@ window.addEventListener("load", () => {
       doc.addPage();
 
       const imageBlob = await new Promise((resolve) => canvas.toBlob(resolve));
-      doc.image(await imageBlob.arrayBuffer(), 47.5, 0, {
-        width: 58,
-        height: 58,
+      doc.image(await imageBlob.arrayBuffer(), 49, 0, {
+        width: 55,
+        height: 55,
       });
 
       const textOptions = { width: 153, align: "center" };
 
-      let fontSize = 14;
+      let fontSize = 16;
       doc.font("Helvetica", fontSize);
       const width12 = doc.widthOfString(formattedCode, textOptions);
 
