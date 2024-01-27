@@ -62509,8 +62509,8 @@ window.addEventListener("load", () => {
       doc.font("Helvetica", fontSize);
       const width12 = doc.widthOfString(formattedCode, textOptions);
 
-      if (width12 > 150) {
-        doc.font("Helvetica", (fontSize * 150) / width12);
+      if (width12 > 140) {
+        doc.font("Helvetica", (fontSize * 140) / width12);
       }
 
       doc.text(formattedCode, 0, 55, textOptions);
