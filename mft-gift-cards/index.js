@@ -62444,7 +62444,7 @@ module.exports = function whichTypedArray(value) {
 
 }).call(this)}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 },{"available-typed-arrays":88,"call-bind":124,"call-bind/callBound":123,"for-each":173,"gopd":178,"has-tostringtag/shams":184}],327:[function(require,module,exports){
-const LETTERS = "0123456789ABCDEFGHJKMNPQRSTVWXYZ";
+const LETTERS = "23456789ABCDEFGHJKMNPQRSTVWXYZ";
 
 const badwords = require("badwords-list");
 const blobStream = require("blob-stream");
