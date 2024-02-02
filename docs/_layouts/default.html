@@ -7,6 +7,9 @@
   {% if page.favicon %}
   <link rel="shortcut icon" href="{{ page.favicon }}">
   {% endif %}
+  {% if page.script %}
+  <script src="{{ page.script }}"></script>
+  {% endif %}
   <style>
     body {
       font-family: sans-serif;
