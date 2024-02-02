@@ -39,6 +39,10 @@ table {
   height: 100%;
 }
 
+tr {
+  height: 25%;
+}
+
 td {
   perspective: 500px;
 }
