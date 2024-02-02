@@ -10,11 +10,15 @@
   {% if page.script %}
   <script src="{{ page.script }}"></script>
   {% endif %}
+  {% if page.style %}
+  <link rel="stylesheet" href="{{ page.style }}">
+  {% else %}
   <style>
     body {
       font-family: sans-serif;
     }
   </style>
+  {% endif %}
 </head>
 
 <body>
