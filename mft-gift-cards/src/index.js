@@ -61,7 +61,7 @@ window.addEventListener("load", () => {
       });
 
       if (includeMoney) {
-        doc.font("Helvetica", 72);
+        doc.font("Helvetica", 48);
         doc.text("$____", 55, 0, { width: 98 });
       }
 
