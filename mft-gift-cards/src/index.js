@@ -29,6 +29,9 @@ function getCode() {
 
 window.addEventListener("load", () => {
   document.getElementById("btnGenerate").addEventListener("click", async () => {
+    const includeMoney = document.getElementById("chkMoney").checked;
+    console.log(includeMoney);
+
     const doc = new PDFDocument({
       size: [153, 72],
       autoFirstPage: false,
@@ -52,10 +55,15 @@ window.addEventListener("load", () => {
       doc.addPage();
 
       const imageBlob = await new Promise((resolve) => canvas.toBlob(resolve));
-      doc.image(await imageBlob.arrayBuffer(), 49, 0, {
+      doc.image(await imageBlob.arrayBuffer(), includeMoney ? 0 : 49, 0, {
         width: 55,
         height: 55,
       });
+
+      if (includeMoney) {
+        doc.font("Helvetica", 72);
+        doc.text("$____", 55, 0, { width: 98 });
+      }
 
       const textOptions = { width: 153, align: "center" };
 
