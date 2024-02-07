@@ -62476,7 +62476,6 @@ function getCode() {
 window.addEventListener("load", () => {
   document.getElementById("btnGenerate").addEventListener("click", async () => {
     const includeMoney = document.getElementById("chkMoney").checked;
-    console.log(includeMoney);
 
     const doc = new PDFDocument({
       size: [153, 72],
