@@ -62501,14 +62501,14 @@ window.addEventListener("load", () => {
       doc.addPage();
 
       const imageBlob = await new Promise((resolve) => canvas.toBlob(resolve));
-      doc.image(await imageBlob.arrayBuffer(), includeMoney ? 0 : 49, 0, {
+      doc.image(await imageBlob.arrayBuffer(), includeMoney ? 5 : 49, 0, {
         width: 55,
         height: 55,
       });
 
       if (includeMoney) {
-        doc.font("Helvetica", 28);
-        doc.text("$____", 55, 0, { width: 98 });
+        doc.font("Helvetica", 24);
+        doc.text("$____", 60, 16, { width: 98 });
       }
 
       const textOptions = { width: 153, align: "center" };
