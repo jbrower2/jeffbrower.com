@@ -1,3 +1,7 @@
+---
+title: My Mother's Girlhood
+---
+
 # Preface
 
 <p style="text-align:center">By Nancy Stone Clark</p>
