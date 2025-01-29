@@ -49,6 +49,7 @@ window.addEventListener("load", () => {
       const qrCode = QRCode.create(`shopify-giftcard-v1-${rawCode}`, {
         errorCorrectionLevel: "H",
       });
+      /** @type {HTMLCanvasElement} */
       const canvas = await QRCode.toCanvas(qrCode.segments);
 
       doc.addPage();
