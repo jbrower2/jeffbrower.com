@@ -1,0 +1,108 @@
+<html>
+<head>
+	<title>Base64 Encoder/Decoder</title>
+	<link rel="icon" type="image/gif" href="http://www.JSON.org/favicon.gif" />
+	<script>
+		function decode(input) {
+			try {
+				return utf8to16(atob(input));
+			} catch (e) {
+				return "Error:\n" + e.message;
+			}
+		}
+
+		function encode(input) {
+			try {
+				return btoa(utf16to8(input));
+			} catch (e) {
+				return "Error:\n" + e.message;
+			}
+		}
+
+		function utf16to8(str) {
+			var out, i, len, c;
+
+			out = [];
+			len = str.length;
+			for(i = 0; i < len; i++) {
+				c = str.charCodeAt(i);
+				if (c < 0x0080) {
+					out.push(str.charAt(i));
+				} else if (c < 0x0800) {
+					out.push(
+						String.fromCodePoint(0xC0 | (c >> 6)),
+						String.fromCodePoint(0x80 | (c & 0x3F))
+					);
+				} else if (c < 0xD800 || c >= 0xE000) {
+					out.push(
+						String.fromCodePoint(0xE0 | (c >> 12)),
+						String.fromCodePoint(0x80 | ((c >>  6) & 0x3F)),
+						String.fromCodePoint(0x80 | (c & 0x3F))
+					);
+				} else {
+					c = 0x10000 + (((c & 0x03FF) << 10) | (str.charCodeAt(++i) & 0x03FF));
+					out.push(
+						String.fromCodePoint(0xF0 | (c >> 18)),
+						String.fromCodePoint(0x80 | ((c >> 12) & 0x3F)),
+						String.fromCodePoint(0x80 | ((c >> 6) & 0x3F)),
+						String.fromCodePoint(0x80 | (c & 0x3F))
+					);
+				}
+			}
+			return out.join("");
+		}
+
+		function utf8to16(str) {
+			var out, i, len, c;
+			var c2, c3, c4;
+
+			out = [];
+			len = str.length;
+			i = 0;
+			while(i < len) {
+				c = str.charCodeAt(i++);
+				switch(c >> 4) {
+					case 15:
+						c2 = str.charCodeAt(i++);
+						c3 = str.charCodeAt(i++);
+						c4 = str.charCodeAt(i++);
+						out.push(String.fromCodePoint(
+							((c & 0x07) << 18) |
+							((c2 & 0x3F) << 12) |
+							((c3 & 0x3F) << 6) |
+							(c4 & 0x3F)
+						));
+						break;
+					case 14:
+						c2 = str.charCodeAt(i++);
+						c3 = str.charCodeAt(i++);
+						out.push(String.fromCodePoint(
+							((c & 0x0F) << 12) |
+							((c2 & 0x3F) << 6) |
+							(c3 & 0x3F)
+						));
+						break;
+					case 12: case 13:
+						c2 = str.charCodeAt(i++);
+						out.push(String.fromCodePoint(
+							((c & 0x1F) << 6) |
+							(c2 & 0x3F)
+						));
+						break;
+					default:
+						out.push(String.fromCodePoint(c));
+						break;
+				}
+			}
+
+			return out.join("");
+		}
+	</script>
+</head>
+<body>
+	<textarea id="input" style="width:100%;height:50%"></textarea><br/>
+	<input type="button" value="Decode" onclick="output.innerText=decode(input.value)" />
+	<input type="button" value="Encode" onclick="output.innerText=encode(input.value)" />
+	<pre id="output"></pre>
+</body>
+</html>
