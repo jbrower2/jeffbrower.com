@@ -1,0 +1,224 @@
+<html>
+<head>
+    <script type="text/javascript">
+        // d=t*(vi+a*t/2) -> a=2*(d/t-vi)/t -> vi=d/t-a*t/2 -> t=(-vi +/- sqrt(vi^2-2*a*d))/a
+        // d=t*(vf-a*t/2) -> a=2*(vf-d/t)/t -> vf=d/t+a*t/2 -> t=(vf +/- sqrt(vf^2+2*a*d))/a
+        // a=(vf-vi)/t -> t=(vf-vi)/a -> vf=vi+a*t -> vi=vf-a*t
+        // vf^2=vi^2+2*a*d -> vi^2=vf^2-2*a*d -> a=(vf-vi)*(vf+vi)/(2*d) -> d=(vf-vi)*(vf+vi)/(2*a)
+        // vi=2*d/t-vf -> vf=2*d/t-vi -> d=t*(vi+vf)/2 -> t=2*d/(vi+vf)
+
+        // a = 1
+        // vi = 2
+        // vf = 4
+        // d = 6
+        // t = 2
+
+        // d = vi*t + a*t^2/2
+        // 0 = t^2*(a/2) + t*(vi) + (-d)
+        // t = (-(vi) +/- sqrt((vi)^2 - 4*(a/2)*(-d)))/(2*(a/2))
+        // t = (-vi +/- sqrt(vi^2+2*a*d))/a
+
+        // d = vf*t - a*t^2/2
+        // 0 = t^2*(-a/2) + t*(vf) + (-d)
+        // t = (-(vf) +/- sqrt((vf)^2 - 4*(-a/2)*(-d)))/(2*(-a/2))
+        // t = (vf +/- sqrt(vf^2-2*a*d))/a
+
+        function throwError(message) {
+            alert(message);
+            throw message;
+        }
+
+        function toNumber(s) {
+            if (s === null || s === "" || typeof s === "undefined")
+                return null;
+            var n = Number(s);
+            if (isNaN(n))
+                throwError("Not a number: " + s + " (" + (typeof s) + ")");
+            return n;
+        }
+
+        function showSolutions(array) {
+            if (typeof array !== "object") {
+                alert("No solutions");
+                return;
+            }
+            if (!Array.isArray(array))
+                throwError("Not an array: " + array);
+            var s = "";
+            if (array.length === 0)
+                s += "No solutions";
+            else if (array.length === 1) {
+                var solution = array[0];
+                for (var prop in solution) {
+                    s += prop + ": " + solution[prop] + "\n";
+                }
+            } else {
+                var i = 0;
+                for (var solution of array) {
+                    s += "Solution " + ++i + "\n";
+                    for (var prop in solution) {
+                        s += "    " + prop + ": " + solution[prop] + "\n";
+                    }
+                }
+            }
+            alert(s);
+        }
+
+        function calculateValues() {
+            var a = toNumber(document.getElementById("txtA").value);
+            var vi = toNumber(document.getElementById("txtVi").value);
+            var vf = toNumber(document.getElementById("txtVf").value);
+            var d = toNumber(document.getElementById("txtD").value);
+            var t = toNumber(document.getElementById("txtT").value);
+
+            if (a === null) {
+                if (vi === null) {
+                    if (vf === null || d === null || t === null)
+                        throwError("Too many unknowns.");
+                    // vf/d/t - verified
+                    showSolutions([{
+                        a: 2*(vf-d/t)/t,
+                        vi: 2*d/t-vf
+                    }]);
+                } else if (vf === null) {
+                    if (d === null || t === null)
+                        throwError("Too many unknowns.");
+                    // vi/d/t - verified
+                    showSolutions([{
+                        a: 2*(d/t-vi)/t,
+                        vf: 2*d/t-vi
+                    }]);
+                } else if (d === null) {
+                    if (t === null)
+                        throwError("Too many unknowns.");
+                    // vi/vf/t - verified
+                    showSolutions([{
+                        a: (vf-vi)/t,
+                        d: t*(vi+vf)/2
+                    }]);
+                } else if (t !== null)
+                    throwError("Too many knowns.");
+                else {
+                    // vi/vf/d - verified
+                    showSolutions([{
+                        a: (vf-vi)*(vf+vi)/(2*d),
+                        t: 2*d/(vi+vf)
+                    }]);
+                }
+            } else if (vi === null) {
+                if (vf === null) {
+                    if (d === null || t === null)
+                        throwError("Too many unknowns.");
+                    // a/d/t - verified
+                    showSolutions([{
+                        vi: d/t-a*t/2,
+                        vf: d/t+a*t/2
+                    }]);
+                } else if (d === null) {
+                    if (t === null)
+                        throwError("Too many unknowns.");
+                    // a/vf/t - verified
+                    showSolutions([{
+                        vi: vf-a*t,
+                        d: t*(vf-a*t/2)
+                    }]);
+                } else if (t !== null)
+                    throwError("Too many knowns.");
+                else {
+                    // a/vf/d - verified
+                    var s = Math.sqrt(vf*vf-2*a*d);
+                    if (isNaN(s))
+                        showSolutions();
+                    else {
+                        var t1 = (vf-s)/a, t2 = (vf+s)/a;
+                        if (t2 < t1) {
+                            var temp = t1;
+                            t1 = t2;
+                            t2 = temp;
+                        }
+                        showSolutions([{
+                            vi: vf-a*t1,
+                            t: t1
+                        }, {
+                            vi: vf-a*t2,
+                            t: t2
+                        }]);
+                    }
+                }
+            } else if (vf === null) {
+                if (d === null) {
+                    if (t === null)
+                        throwError("Too many unknowns.");
+                    // a/vi/t - verified
+                    showSolutions([{
+                        vf: vi+a*t,
+                        d: t*(vi+a*t/2)
+                    }]);
+                } else if (t !== null)
+                    throwError("Too many knowns.");
+                else {
+                    // a/vi/d - verified
+                    var s = Math.sqrt(vi*vi+2*a*d);
+                    if (isNaN(s))
+                        showSolutions();
+                    else {
+                        var t1 = (-vi-s)/a, t2 = (-vi+s)/a;
+                        if (t2 < t1) {
+                            var temp = t1;
+                            t1 = t2;
+                            t2 = temp;
+                        }
+                        showSolutions([{
+                            vf: vi+a*t1,
+                            t: t1
+                        }, {
+                            vf: vi+a*t2,
+                            t: t2
+                        }]);
+                    }
+                }
+            } else if (d !== null || t !== null)
+                throwError("Too many knowns.");
+            else {
+                // a/vi/vf - verified
+                showSolutions([{
+                    d: (vf-vi)*(vf+vi)/(2*a),
+                    t: (vf-vi)/a
+                }]);
+            }
+        }
+    </script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>a</td>
+            <td><input type="text" id="txtA" /></td>
+            <td><sup>m</sup>/<sub>s<sup>2</sup></sub></td>
+        </tr>
+        <tr>
+            <td>v<sub>i</sub></td>
+            <td><input type="text" id="txtVi" /></td>
+            <td><sup>m</sup>/<sub>s</sub></td>
+        </tr>
+        <tr>
+            <td>v<sub>f</sub></td>
+            <td><input type="text" id="txtVf" /></td>
+            <td><sup>m</sup>/<sub>s</sub></td>
+        </tr>
+        <tr>
+            <td>d</td>
+            <td><input type="text" id="txtD" /></td>
+            <td>m</td>
+        </tr>
+        <tr>
+            <td>t</td>
+            <td><input type="text" id="txtT" /></td>
+            <td>s</td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="button" value="Calculate" onclick="calculateValues()" /></td>
+        </tr>
+    </table>
+</body>
+</html>
