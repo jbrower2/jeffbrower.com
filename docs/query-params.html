@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title>JSON Formatter</title>
+	<link rel="icon" type="image/gif" href="http://www.JSON.org/favicon.gif" />
+</head>
+<body>
+</body>
+<script>
+  const ul = document.body.appendChild(document.createElement("ul"));
+  for (const [key, value] of new URLSearchParams(location.search)) {
+    const a = ul.appendChild(document.createElement("li")).appendChild(document.createElement("a"));
+    a.innerText = key;
+    a.href = "#";
+    a.onclick = () => navigator.clipboard.writeText(value);
+  }
+</script>
+</html>
