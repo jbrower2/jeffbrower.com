@@ -1,7 +1,8 @@
 {
   "scripts": {
     "parse": "node scripts/parse-recipes.js",
-    "build": "esbuild src/index.jsx --bundle --outfile=../docs/recipes/index.js --jsx=automatic --minify --target=es2018"
+    "build": "esbuild src/index.jsx --bundle --outfile=../docs/recipes/index.js --jsx=automatic --target=es2018 --sourcemap --define:process.env.NODE_ENV=\\\"development\\\"",
+    "build:prod": "esbuild src/index.jsx --bundle --outfile=../docs/recipes/index.js --jsx=automatic --target=es2018 --minify --define:process.env.NODE_ENV=\\\"production\\\""
   },
   "dependencies": {
     "react": "^18.3.1",
