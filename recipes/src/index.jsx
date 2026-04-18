@@ -8,7 +8,7 @@ function mount() {
   createRoot(container).render(
     <HashRouter>
       <App />
-    </HashRouter>
+    </HashRouter>,
   );
 }
 

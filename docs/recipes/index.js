@@ -31451,6 +31451,7 @@
     {
       name: "Nana's Rocky Road Candies",
       slug: "nanas-rocky-road-candies",
+      show: true,
       servings: 36,
       yield: "36 candies",
       ingredients: [
@@ -34944,7 +34945,7 @@
     const filtered = (0, import_react.useMemo)(() => {
       const q = filter.trim().toLowerCase();
       return recipes_default.filter((r) => {
-        if (!showAll && r.show !== true) return false;
+        if (!showAll && !r.show) return false;
         if (q && !r.name.toLowerCase().includes(q)) return false;
         return true;
       });
@@ -34959,27 +34960,51 @@
           value: filter,
           onChange: (e) => setFilter(e.target.value),
           autoFocus: true,
-          style: { width: "100%", padding: "6px 10px", fontSize: "1rem", boxSizing: "border-box" }
+          style: {
+            width: "100%",
+            padding: "6px 10px",
+            fontSize: "1rem",
+            boxSizing: "border-box"
+          }
         }
       ),
-      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", { style: { opacity: 0.7, margin: "8px 0", display: "flex", justifyContent: "space-between", alignItems: "center" }, children: [
-        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("label", { style: { display: "inline-flex", alignItems: "center", gap: "6px" }, children: [
-          /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
-            "input",
-            {
-              type: "checkbox",
-              checked: showAll,
-              onChange: (e) => setShowAll(e.target.checked)
-            }
-          ),
-          "Show All"
-        ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [
-          filtered.length,
-          " of ",
-          showAll ? recipes_default.length : recipes_default.filter((r) => r.show === true).length
-        ] })
-      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
+        "p",
+        {
+          style: {
+            opacity: 0.7,
+            margin: "8px 0",
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center"
+          },
+          children: [
+            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
+              "label",
+              {
+                style: { display: "inline-flex", alignItems: "center", gap: "6px" },
+                children: [
+                  /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+                    "input",
+                    {
+                      type: "checkbox",
+                      checked: showAll,
+                      onChange: (e) => setShowAll(e.target.checked)
+                    }
+                  ),
+                  "Show All"
+                ]
+              }
+            ),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [
+              filtered.length,
+              " of",
+              " ",
+              showAll ? recipes_default.length : recipes_default.filter((r) => r.show).length
+            ] })
+          ]
+        }
+      ),
       /* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", { style: { listStyle: "none", padding: 0, margin: 0 }, children: filtered.map((r) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { style: { padding: "4px 0" }, children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, { to: `/${r.slug}`, children: r.name }) }, r.slug)) })
     ] });
   }

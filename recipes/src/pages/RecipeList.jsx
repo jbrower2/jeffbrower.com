@@ -9,7 +9,7 @@ export default function RecipeList() {
   const filtered = useMemo(() => {
     const q = filter.trim().toLowerCase();
     return recipes.filter((r) => {
-      if (!showAll && r.show !== true) return false;
+      if (!showAll && !r.show) return false;
       if (q && !r.name.toLowerCase().includes(q)) return false;
       return true;
     });
@@ -24,10 +24,25 @@ export default function RecipeList() {
         value={filter}
         onChange={(e) => setFilter(e.target.value)}
         autoFocus
-        style={{ width: "100%", padding: "6px 10px", fontSize: "1rem", boxSizing: "border-box" }}
+        style={{
+          width: "100%",
+          padding: "6px 10px",
+          fontSize: "1rem",
+          boxSizing: "border-box",
+        }}
       />
-      <p style={{ opacity: 0.7, margin: "8px 0", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-        <label style={{ display: "inline-flex", alignItems: "center", gap: "6px" }}>
+      <p
+        style={{
+          opacity: 0.7,
+          margin: "8px 0",
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+        }}
+      >
+        <label
+          style={{ display: "inline-flex", alignItems: "center", gap: "6px" }}
+        >
           <input
             type="checkbox"
             checked={showAll}
@@ -36,7 +51,8 @@ export default function RecipeList() {
           Show All
         </label>
         <span>
-          {filtered.length} of {showAll ? recipes.length : recipes.filter((r) => r.show === true).length}
+          {filtered.length} of{" "}
+          {showAll ? recipes.length : recipes.filter((r) => r.show).length}
         </span>
       </p>
       <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>

@@ -10,7 +10,10 @@ function gcd(a, b) {
 export class Fraction {
   constructor(num, den) {
     if (den === 0) throw new Error("Fraction denominator cannot be 0");
-    if (den < 0) { num = -num; den = -den; }
+    if (den < 0) {
+      num = -num;
+      den = -den;
+    }
     const g = gcd(num, den);
     this.num = num / g;
     this.den = den / g;
@@ -20,7 +23,9 @@ export class Fraction {
     const s = String(str).trim();
     let m;
     if ((m = s.match(/^(\d+)\s+(\d+)\/(\d+)$/))) {
-      const whole = +m[1], num = +m[2], den = +m[3];
+      const whole = +m[1],
+        num = +m[2],
+        den = +m[3];
       return new Fraction(whole * den + num, den);
     }
     if ((m = s.match(/^(\d+)\/(\d+)$/))) {
@@ -32,8 +37,12 @@ export class Fraction {
     throw new Error(`Cannot parse fraction: "${str}"`);
   }
 
-  times(f) { return new Fraction(this.num * f.num, this.den * f.den); }
-  div(f)   { return new Fraction(this.num * f.den, this.den * f.num); }
+  times(f) {
+    return new Fraction(this.num * f.num, this.den * f.den);
+  }
+  div(f) {
+    return new Fraction(this.num * f.den, this.den * f.num);
+  }
 
   toString() {
     if (this.num === 0) return "0";
