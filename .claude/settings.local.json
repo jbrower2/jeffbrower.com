@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep \"\\\\.txt$\")",
+      "Bash(grep -E '\\\\.\\(js|css|html\\)$')",
+      "Bash(node scripts/parse-recipes.js)",
+      "Bash(awk -F: '{print $1}' /Volumes/nasty/docs/recipes/Recipes.txt)",
+      "Bash(awk -F: '{print $1}' /Volumes/nasty/docs/recipes/Backup.txt)",
+      "Bash(node *)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(python3 *)",
+      "Bash(curl -sI http://127.0.0.1:8765/test.html)",
+      "Bash(curl -s http://127.0.0.1:8765/test.html)",
+      "Bash(kill %1)",
+      "Bash(pkill -f \"python3 -m http.server 8765\")",
+      "Bash(xargs -r kill -9)",
+      "Bash(curl -sI http://127.0.0.1:8765/recipes/test.html)",
+      "Bash(curl -sI http://127.0.0.1:8765/docs/recipes/index.js)",
+      "Bash(npm uninstall *)"
+    ]
+  }
+}
