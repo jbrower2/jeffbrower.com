@@ -215,6 +215,7 @@ addRecipe("sugar-cookies", ["Dessert/Cookies"]);
 addRecipe("sweet-potato-pie", ["Dessert/Pie"]);
 addRecipe("tiramisu", ["Dessert/Cake"]);
 addRecipe("triple-chocolate-brownies", ["Dessert/Brownies"]);
+addRecipe("twice-baked-potatoes", ["Side Dish"], true);
 addRecipe("vanilla-buttercream-frosting", ["Dessert/Frosting/Frosting"]);
 addRecipe("vanilla-cake", ["Dessert/Cake"]);
 addRecipe("vanilla-frosting-whoopie-pie-filling", [

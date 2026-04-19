@@ -25213,6 +25213,13 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     }
   });
 
+  // src/data/twice-baked-potatoes.md
+  var require_twice_baked_potatoes = __commonJS({
+    "src/data/twice-baked-potatoes.md"(exports, module) {
+      module.exports = "# Twice-Baked Potatoes\n\n- **Servings:** {12}\n- **Yield:** {8} potatoes\n- [Source](https://www.foodnetwork.com/recipes/ree-drummond/twice-baked-potatoes-recipe-1925596)\n- **Prep Time:** 30 minutes\n- **Cook Time:** 1 hour 20 minutes\n- **Total Time:** 1 hour 50 minutes\n\n## Ingredients\n\n- {8} baking potatoes, washed\n- {3} tablespoons canola oil\n- {2} sticks salted butter\n- {1} cup bacon bits (fry your own!)\n- {1} cup sour cream\n- {1} cup Cheddar or Jack cheese (or a mix of both), plus more for topping\n- {1} cup whole milk\n- {2} teaspoons seasoned salt\n- {3} green onions, sliced\n- Freshly ground black pepper\n\n## Instructions\n\n1. Preheat the oven to 400 degrees F.\n1. Place the potatoes on a baking sheet. Rub them with the canola oil and bake for 1 hour, making sure they're sufficiently cooked through.\n1. Slice the butter into pats. Place in a large mixing bowl and add the bacon bits and sour cream. Remove the potatoes from the oven. Lower the heat to 350 degrees F.\n1. With a sharp knife, cut each potato in half lengthwise. Scrape out the insides into the mixing bowl, being careful not to tear the shell. Leave a small rim of potato intact for support. Lay the hollowed out potato shells on a baking sheet.\n1. Smash the potatoes into the butter, bacon and sour cream. Add the cheese, milk, seasoned salt, green onions and black pepper to taste and mix together well. (IMPORTANT: If you plan to freeze the twice-baked potatoes, do NOT add the green onions.)\n1. Fill the potato shells with the filling. I like to fill the shells so they look abundant and heaping. Top each potato with a little more grated cheese and pop 'em in the oven until the potato is warmed through, 15 to 20 minutes.\n";
+    }
+  });
+
   // src/data/vanilla-buttercream-frosting.md
   var require_vanilla_buttercream_frosting = __commonJS({
     "src/data/vanilla-buttercream-frosting.md"(exports, module) {
@@ -28360,6 +28367,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./sweet-potato-pie.md": () => require_sweet_potato_pie(),
     "./tiramisu.md": () => require_tiramisu(),
     "./triple-chocolate-brownies.md": () => require_triple_chocolate_brownies(),
+    "./twice-baked-potatoes.md": () => require_twice_baked_potatoes(),
     "./vanilla-buttercream-frosting.md": () => require_vanilla_buttercream_frosting(),
     "./vanilla-cake.md": () => require_vanilla_cake(),
     "./vanilla-frosting-whoopie-pie-filling.md": () => require_vanilla_frosting_whoopie_pie_filling(),
@@ -28586,6 +28594,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("sweet-potato-pie", ["Dessert/Pie"]);
   addRecipe("tiramisu", ["Dessert/Cake"]);
   addRecipe("triple-chocolate-brownies", ["Dessert/Brownies"]);
+  addRecipe("twice-baked-potatoes", ["Side Dish"], true);
   addRecipe("vanilla-buttercream-frosting", ["Dessert/Frosting/Frosting"]);
   addRecipe("vanilla-cake", ["Dessert/Cake"]);
   addRecipe("vanilla-frosting-whoopie-pie-filling", [
