@@ -177,6 +177,7 @@ addRecipe("ice-cream", ["Dessert/Ice Cream"]);
 addRecipe("iced-gingerbread-oatmeal-cookies", ["Dessert/Cookies"], true);
 addRecipe("key-lime-pie", ["Dessert/Pie"]);
 addRecipe("kickin-cajun-seasoning-mix", ["Seasoning"], true);
+addRecipe("kings-hawaiian-french-toast", ["Breakfast"], true);
 addRecipe("lemon-cookies", ["Dessert/Cookies"]);
 addRecipe("lemon-glaze", ["Dessert/Frosting/Icing"]);
 addRecipe("lemon-lime-sorbet", ["Dessert/Ice Cream"]);
