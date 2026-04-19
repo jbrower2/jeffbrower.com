@@ -25227,7 +25227,7 @@ Combine base flavors with the listed additions.
   // src/data/pumpkin-drop-cookies.md
   var require_pumpkin_drop_cookies = __commonJS({
     "src/data/pumpkin-drop-cookies.md"(exports, module) {
-      module.exports = "# Pumpkin Drop Cookies\n\n- **Servings:** {48}\n- **Yield:** {48} cookies\n\n## Ingredients\n\n- {1/2} cup Butter, softened\n- {3/4} cup Sugar\n- {3/4} cup Brown Sugar, packed\n- {2} Egg\n- {15} oz Canned Pumpkin\n- {2 1/2} cup All-purpose Flour\n- {2 1/2} tsp Baking Powder\n- {1} tsp Baking Soda\n- {1} tsp Salt\n- {1} tsp Cinnamon\n- {1} tsp Allspice\n- {1} tsp Nutmeg\n- {1} cup Raisins\n\n## Instructions\n\n1. Heat oven to 375\xBA\n1. Grease cookie sheet with shortening\n1. Mix butter and sugars in large bowl with spoon\n1. Beat in eggs\n1. Stir in pumpkin\n1. Stir in remaining ingredients except raisins\n1. Fold in raisins\n1. Drop dough by tablespoonfuls about 2 inches apart onto cookie sheet\n1. Bake 10 to 12 minutes or until set and golden\n1. Cool 1 to 2 minutes; remove from cookie sheet to wire rack\n";
+      module.exports = "# Pumpkin Drop Cookies\n\n- **Servings:** {48}\n- **Yield:** {48} cookies\n- [Source](https://www.bettycrocker.com/recipes/pumpkin-drop-cookies/0098c652-0203-440c-a15d-97914bc5c591)\n- **Prep Time:** 10 minutes\n- **Total Time:** 1 hour 10 minutes\n\n## Ingredients\n\n- {1/2} cup butter or margarine, softened\n- {3/4} cup granulated sugar\n- {3/4} cup packed brown sugar\n- {2} eggs\n- {1} can (15 ounces) pumpkin (not pumpkin pie mix)\n- {2 1/2} cups all-purpose flour\n- {2 1/2} teaspoons baking powder\n- {1} teaspoon baking soda\n- {1} teaspoon salt\n- {1} teaspoon ground cinnamon\n- {1/4} teaspoon ground allspice\n- {1/4} teaspoon ground nutmeg\n- {1} cup raisins\n\n## Instructions\n\n1. Heat oven to 375\xB0F. Grease cookie sheet with shortening.\n1. Mix butter and sugars in large bowl with spoon. Beat in eggs one at a time. Stir in pumpkin until well combined.\n1. Add the dry ingredients to the wet ingredients. Fold in raisins.\n1. Drop dough by tablespoonfuls about 2 inches apart onto cookie sheet.\n1. Bake 10 to 12 minutes or until set and golden. Cool 1 to 2 minutes; remove from cookie sheet to wire rack.\n";
     }
   });
 
@@ -28877,7 +28877,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("pumpkin-cheesecake-flavoring", ["Dessert/Cake/Cheesecake"]);
   addRecipe("pumpkin-cupcakes", ["Dessert/Cupcakes"]);
   addRecipe("pumpkin-donuts", ["Dessert/Donuts"]);
-  addRecipe("pumpkin-drop-cookies", ["Dessert/Cookies"]);
+  addRecipe("pumpkin-drop-cookies", ["Dessert/Cookies"], true);
   addRecipe("pumpkin-pastry-cream", ["Dessert/Frosting/Custard"]);
   addRecipe("pumpkin-pie", ["Dessert/Pie"]);
   addRecipe("pumpkin-spice-cake", ["Dessert/Cake"]);

@@ -213,7 +213,7 @@ addRecipe("pumpkin-cannolis", ["Dessert/Cannolis/Filling"]);
 addRecipe("pumpkin-cheesecake-flavoring", ["Dessert/Cake/Cheesecake"]);
 addRecipe("pumpkin-cupcakes", ["Dessert/Cupcakes"]);
 addRecipe("pumpkin-donuts", ["Dessert/Donuts"]);
-addRecipe("pumpkin-drop-cookies", ["Dessert/Cookies"]);
+addRecipe("pumpkin-drop-cookies", ["Dessert/Cookies"], true);
 addRecipe("pumpkin-pastry-cream", ["Dessert/Frosting/Custard"]);
 addRecipe("pumpkin-pie", ["Dessert/Pie"]);
 addRecipe("pumpkin-spice-cake", ["Dessert/Cake"]);
