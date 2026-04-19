@@ -155,6 +155,7 @@ const shown = new Set([
   "cinnamon-rolls",
   "cream-cheese-frosting",
   "easy-green-chicken-enchiladas",
+  "favorite-chocolate-buttercream",
   "nanas-rocky-road-candies",
   "southwestern-egg-casserole",
 ]);

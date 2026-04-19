@@ -24173,6 +24173,13 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
     }
   });
 
+  // src/data/favorite-chocolate-buttercream.md
+  var require_favorite_chocolate_buttercream = __commonJS({
+    "src/data/favorite-chocolate-buttercream.md"(exports, module) {
+      module.exports = "# Favorite Chocolate Buttercream\n\nThis is my favorite chocolate buttercream recipe. It's incredibly rich, creamy, silky, smooth, and easy to work with for decorating cakes and cupcakes!\n\n- **Servings:** {16}\n- **Yield:** {2 1/2} cups, enough to frost {16} cupcakes\n- [Source](https://sallysbakingaddiction.com/favorite-chocolate-buttercream/)\n- **Prep Time:** 5 minutes\n- **Total Time:** 5 minutes\n\n## Ingredients\n\n- {1} cup ({16} Tbsp; {226} g) unsalted butter, softened to room temperature\n- {3 1/2} cups ({420} g) confectioners' sugar\n- {1/2} cup ({41} g) unsweetened natural or dutch-process cocoa powder\n- {3} Tablespoons ({45} ml) heavy cream or milk, at room temperature\n- {1/8} teaspoon salt\n- {2} teaspoons pure vanilla extract\n\n## Instructions\n\n1. With a handheld or stand mixer fitted with a paddle or whisk attachment, beat the butter on medium speed until creamy, about 2 minutes. Add confectioners' sugar, cocoa powder, heavy cream, salt, and vanilla extract. Beat on low speed for 30 seconds, then increase to high speed and beat for 1 full minute. Add 1/4 cup more confectioners' sugar or cocoa powder if frosting is too thin or another Tablespoon of cream if frosting is too thick. Taste. Beat in another pinch of salt if desired.\n1. Use immediately or cover tightly and store for up to 1 week in the refrigerator or up to 3 months in the freezer. After freezing, thaw in the refrigerator then beat the frosting on medium speed for a few seconds so it's creamy again. After thawing or refrigerating, beating in a splash of heavy cream or milk will help thin the frosting out again, if needed.\n\n## Notes\n\n- **Quantity:** This recipe makes enough to frost 12\u201316 cupcakes or a thin layer on a 9\xD713-inch quarter sheet cake.\n";
+    }
+  });
+
   // src/data/fortune-cookies.md
   var require_fortune_cookies = __commonJS({
     "src/data/fortune-cookies.md"(exports, module) {
@@ -27793,6 +27800,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./eggnog-custard-pie.md": () => require_eggnog_custard_pie(),
     "./eggnog-fudge.md": () => require_eggnog_fudge(),
     "./espresso-brownies.md": () => require_espresso_brownies(),
+    "./favorite-chocolate-buttercream.md": () => require_favorite_chocolate_buttercream(),
     "./fortune-cookies.md": () => require_fortune_cookies(),
     "./funnel-cake.md": () => require_funnel_cake(),
     "./gelato.md": () => require_gelato(),
@@ -28038,6 +28046,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "cinnamon-rolls",
     "cream-cheese-frosting",
     "easy-green-chicken-enchiladas",
+    "favorite-chocolate-buttercream",
     "nanas-rocky-road-candies",
     "southwestern-egg-casserole"
   ]);
