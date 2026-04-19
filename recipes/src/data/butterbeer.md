@@ -2,7 +2,7 @@
 
 - **Servings:** {4}
 - **Yield:** {4} glasses
-- [Source](https://web.archive.org/web/20100706204640/http://www.clickorlando.com/news/24096094/detail.html)
+- [Source](http://www.clickorlando.com/news/24096094/detail.html)
 
 ## Ingredients
 
