@@ -23602,6 +23602,13 @@
     }
   });
 
+  // src/data/apple-cider-doughnuts.md
+  var require_apple_cider_doughnuts = __commonJS({
+    "src/data/apple-cider-doughnuts.md"(exports, module) {
+      module.exports = "# Apple Cider Doughnuts\n\nA batch of these apple cider doughnuts will have you feeling like it's peak fall season, no matter the time of year.\n\n- **Servings:** {12}\n- **Yield:** {12} doughnuts plus doughnut holes\n- [Source](https://www.tasteofhome.com/recipes/apple-cider-doughnuts/)\n- **Prep Time:** 40 minutes\n- **Chill Time:** 1 hour\n- **Cook Time:** 5 minutes per batch\n\n## Ingredients\n\n- {2} cups apple cider\n- {3} cups all-purpose flour\n- {1/2} cup whole wheat flour\n- {2/3} cup packed brown sugar\n- {2} teaspoons baking powder\n- {3/4} teaspoon salt\n- {1/2} teaspoon baking soda\n- {1/4} teaspoon each ground cardamom, nutmeg, cinnamon and allspice\n- {2} large eggs, room temperature\n- {6} tablespoons butter, melted and cooled\n- Oil for deep-fat frying\n- Chocolate glaze or maple glaze, optional\n\n## Instructions\n\n1. In a small saucepan, bring cider to a rapid boil; cook over high heat until reduced by half, about 12 minutes. Cool completely.\n1. Whisk together flours, brown sugar, baking powder, salt, baking soda and spices. In a separate bowl, whisk eggs, melted butter and cooled cider; stir into dry ingredients just until moistened (dough will be sticky). Refrigerate, covered, until firm enough to shape, about 1 hour.\n1. Divide dough in half. On a floured surface, pat each portion to 1/2-in. thickness; cut with a floured 3-in. doughnut cutter.\n1. In an electric skillet or deep fryer, heat oil to 325\xB0. Fry doughnuts, a few at a time, until golden brown, 2-3 minutes on each side. Fry doughnut holes, a few at time, until golden brown and cooked through, about 1 minute on each side. Drain on paper towels; cool slightly. If desired, dip doughnuts into glaze or sugar of your choice.\n";
+    }
+  });
+
   // src/data/apple-cider.md
   var require_apple_cider = __commonJS({
     "src/data/apple-cider.md"(exports, module) {
@@ -28226,6 +28233,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   var globRequire_md = __glob({
     "./almond-pastry-cream.md": () => require_almond_pastry_cream(),
     "./apple-bread.md": () => require_apple_bread(),
+    "./apple-cider-doughnuts.md": () => require_apple_cider_doughnuts(),
     "./apple-cider.md": () => require_apple_cider(),
     "./apple-fritters.md": () => require_apple_fritters(),
     "./apple-muffins.md": () => require_apple_muffins(),
@@ -28449,6 +28457,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("almond-pastry-cream", ["Dessert/Frosting/Custard"]);
   addRecipe("apple-bread", ["Dessert/Bread"]);
   addRecipe("apple-cider", ["Drink"], true);
+  addRecipe("apple-cider-doughnuts", ["Dessert/Donuts"], true);
   addRecipe("apple-fritters", ["Dessert/Donuts"]);
   addRecipe("apple-muffins", ["Dessert/Muffins"]);
   addRecipe("apple-pear-pie", ["Dessert/Pie"]);

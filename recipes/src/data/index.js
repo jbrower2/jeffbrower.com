@@ -54,6 +54,7 @@ function addRecipe(slug, categories, shown) {
 addRecipe("almond-pastry-cream", ["Dessert/Frosting/Custard"]);
 addRecipe("apple-bread", ["Dessert/Bread"]);
 addRecipe("apple-cider", ["Drink"], true);
+addRecipe("apple-cider-doughnuts", ["Dessert/Donuts"], true);
 addRecipe("apple-fritters", ["Dessert/Donuts"]);
 addRecipe("apple-muffins", ["Dessert/Muffins"]);
 addRecipe("apple-pear-pie", ["Dessert/Pie"]);
