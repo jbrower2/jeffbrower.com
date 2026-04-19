@@ -202,6 +202,7 @@ addRecipe("pineapple-pumpkin-bread-muffins", [
   "Dessert/Bread",
   "Dessert/Muffins",
 ]);
+addRecipe("pinwheel-cookies", ["Dessert/Cookies"], true);
 addRecipe("pizzelles", ["Dessert/Cookies/Pizzelles"]);
 addRecipe("prime-rib", ["Main Dish"], true);
 addRecipe("prime-rib-2", ["Main Dish"], true);

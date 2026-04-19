@@ -25147,6 +25147,13 @@ Combine base flavors with the listed additions.
     }
   });
 
+  // src/data/pinwheel-cookies.md
+  var require_pinwheel_cookies = __commonJS({
+    "src/data/pinwheel-cookies.md"(exports, module) {
+      module.exports = "# Fun Old Fashioned Pinwheel Cookies\n\nThese pinwheel cookies have a delightful old fashioned look that is totally cute but very tasty, too! Our recipe makes a full batch of nearly 5-dozen delicious pinwheel cookies from scratch, using simple steps that are easier to follow than most recipes, although it does require a bit of patience. Trust us though, these pinwheel cookies are absolutely worth the wait! They're perfect for handing out to friends and family during the holidays, a great treat to take to a party, and easy to pack up for a little one to take to school.\n\n- **Servings:** {60}\n- **Yield:** {60} cookies ({5} dozen)\n- [Source](https://wilton.com/fun-old-fashioned-pinwheel-cookies-recipe/WLRECIP-430.html)\n- **Prep Time:** 40 minutes\n- **Total Time:** 5 hours\n\n## Ingredients\n\n- {3} cups all-purpose flour\n- {1/2} teaspoon baking powder\n- {1/2} teaspoon salt\n- {1} cup unsalted butter, softened\n- {1 1/3} cups granulated sugar\n- {2} eggs\n- {2} teaspoons vanilla extract\n- {2} ounces unsweetened chocolate\n- white sparkling sugar, for coating\n\n## Instructions\n\n1. In one large mixing bowl, stir together the dry ingredients: flour, baking powder and salt.\n1. In another large mixing bowl, add softened butter and sugar, then mix with an electric mixer until light and fluffy, about 2 minutes. Next add eggs, one at a time, beating after each addition; then add vanilla. Finally, add flour mixture from the other large bowl and beat on low with mixer until just combined.\n1. Divide combined dough in half. Form one half into a 4 in. by 4 in. square; wrap it in plastic wrap and set the vanilla dough aside. Return the other half to the mixer; add melted chocolate to the dough in the mixer and beat it just until combined. Next form this chocolate dough into a 4 in. by 4 in. square and wrap it in plastic wrap. Take both squares of dough and refrigerate them for at least 30 minutes.\n1. Once 30 minutes have passed, on parchment paper, roll vanilla dough into a 16 in. x 12 in. rectangle about 1/8 in. thick. On another sheet of parchment paper, roll chocolate dough into a 16 in. x 12 in. rectangle about 1/8 in. thick.\n1. Carefully place chocolate dough on top of vanilla dough and peel away parchment. Cut the combined dough in half horizontally.\n1. Roll each cut half into a tight log and roll in colored sugar to coat dough log.\n1. Wrap dough logs in plastic wrap and then refrigerate for at least 3 hours. Dough logs can be left in the refrigerator as long as overnight.\n1. When ready, preheat the oven to 350\xB0F. Line cookie sheets with parchment paper.\n1. Slice dough logs into 1/4 in. pieces. Space them 1 in. apart on as many cookie sheets as needed. Bake for 8\u201310 minutes, or until vanilla portions of the pinwheel cookie dough is lightly golden.\n1. Remove pinwheel cookies from the oven, then cool.\n";
+    }
+  });
+
   // src/data/pizzelles.md
   var require_pizzelles = __commonJS({
     "src/data/pizzelles.md"(exports, module) {
@@ -28589,6 +28596,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./pie-crust.md": () => require_pie_crust(),
     "./pineapple-cookies.md": () => require_pineapple_cookies(),
     "./pineapple-pumpkin-bread-muffins.md": () => require_pineapple_pumpkin_bread_muffins(),
+    "./pinwheel-cookies.md": () => require_pinwheel_cookies(),
     "./pizzelles.md": () => require_pizzelles(),
     "./prime-rib-2.md": () => require_prime_rib_2(),
     "./prime-rib.md": () => require_prime_rib(),
@@ -28842,6 +28850,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "Dessert/Bread",
     "Dessert/Muffins"
   ]);
+  addRecipe("pinwheel-cookies", ["Dessert/Cookies"], true);
   addRecipe("pizzelles", ["Dessert/Cookies/Pizzelles"]);
   addRecipe("prime-rib", ["Main Dish"], true);
   addRecipe("prime-rib-2", ["Main Dish"], true);
