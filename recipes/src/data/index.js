@@ -73,6 +73,7 @@ addRecipe("blueberry-pie", ["Dessert/Pie"]);
 addRecipe("boston-cream", ["Dessert/Frosting/Custard"]);
 addRecipe("brown-butter-frosting", ["Dessert/Frosting/Frosting"]);
 addRecipe("brown-butter-frosting-icing", ["Dessert/Frosting/Frosting"]);
+addRecipe("brown-sugar-glazed-salmon", ["Main Dish"], true);
 addRecipe("butter-pecan-fudge", ["Dessert/Fudge"]);
 addRecipe("butterbeer", ["Drink"]);
 addRecipe("cake-batter-fudge", ["Dessert/Fudge"]);

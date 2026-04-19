@@ -23767,6 +23767,13 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
     }
   });
 
+  // src/data/brown-sugar-glazed-salmon.md
+  var require_brown_sugar_glazed_salmon = __commonJS({
+    "src/data/brown-sugar-glazed-salmon.md"(exports, module) {
+      module.exports = "# Brown Sugar-Glazed Salmon\n\n- **Servings:** {4}\n- [Source](https://www.tasteofhome.com/recipes/brown-sugar-glazed-salmon/)\n- **Prep Time:** 20 minutes\n- **Cook Time:** 5 minutes\n\n## Ingredients\n\n- {1} salmon fillet ({1} pound)\n- {1/4} teaspoon salt\n- {1/4} teaspoon pepper\n- {3} tablespoons brown sugar\n- {4} teaspoons Dijon mustard\n- {1} tablespoon reduced-sodium soy sauce\n- {1} teaspoon rice vinegar\n\n## Instructions\n\n1. Preheat oven to 425\xB0. Cut salmon into 4 portions; place in a foil-lined 15x10x1-in. pan. Sprinkle with salt and pepper. Roast 10 minutes. Remove from oven; preheat broiler.\n1. In a small saucepan, mix remaining ingredients; bring just to a boil. Brush over salmon. Broil salmon 6 in. from heat until fish just begins to flake easily with a fork, 1\u20132 minutes.\n";
+    }
+  });
+
   // src/data/butter-pecan-fudge.md
   var require_butter_pecan_fudge = __commonJS({
     "src/data/butter-pecan-fudge.md"(exports, module) {
@@ -28376,6 +28383,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./boston-cream.md": () => require_boston_cream(),
     "./brown-butter-frosting-icing.md": () => require_brown_butter_frosting_icing(),
     "./brown-butter-frosting.md": () => require_brown_butter_frosting(),
+    "./brown-sugar-glazed-salmon.md": () => require_brown_sugar_glazed_salmon(),
     "./butter-pecan-fudge.md": () => require_butter_pecan_fudge(),
     "./butterbeer.md": () => require_butterbeer(),
     "./cake-batter-fudge.md": () => require_cake_batter_fudge(),
@@ -28609,6 +28617,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("boston-cream", ["Dessert/Frosting/Custard"]);
   addRecipe("brown-butter-frosting", ["Dessert/Frosting/Frosting"]);
   addRecipe("brown-butter-frosting-icing", ["Dessert/Frosting/Frosting"]);
+  addRecipe("brown-sugar-glazed-salmon", ["Main Dish"], true);
   addRecipe("butter-pecan-fudge", ["Dessert/Fudge"]);
   addRecipe("butterbeer", ["Drink"]);
   addRecipe("cake-batter-fudge", ["Dessert/Fudge"]);
