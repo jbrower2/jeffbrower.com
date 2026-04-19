@@ -153,6 +153,7 @@ const shown = new Set([
   "carrot-cake",
   "cinnamon-rolls",
   "cream-cheese-frosting",
+  "easy-green-chicken-enchiladas",
   "nanas-rocky-road-candies",
   "southwestern-egg-casserole",
 ]);
