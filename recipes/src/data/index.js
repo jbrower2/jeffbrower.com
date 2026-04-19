@@ -55,7 +55,6 @@ const notShown = [
   "cookie-dough-frosting",
   "cookies-and-cream-fudge",
   "cornbread-muffins",
-  "cream-cheese-frosting",
   "cream-puffs",
   "donut-glaze",
   "donuts",
@@ -152,6 +151,7 @@ const notShown = [
 const shown = new Set([
   "carrot-cake-cupcakes",
   "carrot-cake",
+  "cream-cheese-frosting",
   "nanas-rocky-road-candies",
 ]);
 

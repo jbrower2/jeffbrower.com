@@ -2,7 +2,7 @@
 
 Soft, moist, and perfectly spiced, my carrot cake recipe has been a reader favorite for years! This cake is beginner friendly and surprisingly simple to make. Top it off with my cream cheese frosting (recipe included below) for what will be truly the best carrot cake of your life!
 
-- **Servings:** {14} slices
+- **Servings:** {14}
 - **Yield:** {14} slices
 - [Source](https://sugarspunrun.com/best-carrot-cake-recipe/)
 - **Prep Time:** 30 minutes

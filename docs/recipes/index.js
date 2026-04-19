@@ -23752,7 +23752,7 @@
   // src/data/carrot-cake-cupcakes.md
   var require_carrot_cake_cupcakes = __commonJS({
     "src/data/carrot-cake-cupcakes.md"(exports, module) {
-      module.exports = "# Carrot Cake Cupcakes\n\nA moist and fluffy carrot cake cupcakes recipe! Perfect for Easter or any time of year, these are sure to be the star of your dessert table.\n\n- **Servings:** {12} cupcakes\n- **Yield:** {12} cupcakes\n- [Source](https://sugarspunrun.com/carrot-cake-cupcakes/)\n- **Prep Time:** 25 minutes\n- **Cook Time:** 20 minutes\n- **Total Time:** 45 minutes\n\n## Ingredients\n\n- {1 1/4} cups ({157} g) all-purpose flour\n- {1/2} cup ({100} g) granulated sugar\n- {1/2} cup ({100} g) light brown sugar packed\n- {3/4} teaspoon baking soda\n- {1/2} teaspoon baking powder\n- {1/2} teaspoon salt\n- {1} teaspoon cinnamon\n- {1/4} teaspoon nutmeg\n- {3/4} cups ({180} ml) avocado, vegetable, or canola oil\n- {2} large eggs room temperature\n- {1 1/2} teaspoons vanilla extract\n- {2} Tablespoons milk\n- {1 1/2} cups ({170} g) grated carrots\n- {1/2} cup ({60} g) chopped walnuts or pecans, optional\n- {1} batch [Cream Cheese Frosting](#/cream-cheese-frosting)\n\n## Instructions\n\n1. Preheat oven to 350F (175C) and line a 12-count muffin pans with paper liners.\n1. In the bowl of a stand mixer (or in a large bowl using an electric mixer), whisk together flour, sugars, baking powder, baking soda, salt, cinnamon and nutmeg.\n1. all-purpose flour, granulated sugar, light brown sugar packed, baking soda, baking powder, salt, cinnamon, nutmeg\n1. Stir in oil. Add eggs, one at a time, pausing to scrape down sides of the bowl after each addition. Beat until well-combined.\n1. avocado, vegetable, or canola oil, large eggs\n1. Stir in vanilla extract and milk.\n1. vanilla extract, milk\n1. Add carrots and nuts (if using). and stir until combined.\n1. grated carrots, chopped walnuts or pecans, optional\n1. Evenly divide batter into cupcake liners, filling each 2/3-3/4 of the way full. Transfer to oven and bake on 350F (175C) for 20 minutes or until a toothpick inserted in the center comes out clean or with moist crumbs.\n1. Allow to cool in the baking tin for 5 minutes before carefully removing to a cooling rack to cool completely before decorating with cream cheese frosting\\*.\n1. [Cream Cheese Frosting](#/cream-cheese-frosting)\n\n## Notes\n\n\\*Cream cheese frosting recipe will decorate 12 cupcakes if you use as much frosting as seen in the photos. If you plan to just spread the frosting on the cupcakes, you can probably get away with cutting the frosting recipe in half.\n\n**Storing:** Store in an airtight container in the refrigerator for up to 5 days.\n";
+      module.exports = "# Carrot Cake Cupcakes\n\nA moist and fluffy carrot cake cupcakes recipe! Perfect for Easter or any time of year, these are sure to be the star of your dessert table.\n\n- **Servings:** {12}\n- **Yield:** {12} cupcakes\n- [Source](https://sugarspunrun.com/carrot-cake-cupcakes/)\n- **Prep Time:** 25 minutes\n- **Cook Time:** 20 minutes\n- **Total Time:** 45 minutes\n\n## Ingredients\n\n- {1 1/4} cups ({157} g) all-purpose flour\n- {1/2} cup ({100} g) granulated sugar\n- {1/2} cup ({100} g) light brown sugar packed\n- {3/4} teaspoon baking soda\n- {1/2} teaspoon baking powder\n- {1/2} teaspoon salt\n- {1} teaspoon cinnamon\n- {1/4} teaspoon nutmeg\n- {3/4} cups ({180} ml) avocado, vegetable, or canola oil\n- {2} large eggs room temperature\n- {1 1/2} teaspoons vanilla extract\n- {2} Tablespoons milk\n- {1 1/2} cups ({170} g) grated carrots\n- {1/2} cup ({60} g) chopped walnuts or pecans, optional\n- {1} batch [Cream Cheese Frosting](#/cream-cheese-frosting)\n\n## Instructions\n\n1. Preheat oven to 350F (175C) and line a 12-count muffin pans with paper liners.\n1. In the bowl of a stand mixer (or in a large bowl using an electric mixer), whisk together flour, sugars, baking powder, baking soda, salt, cinnamon and nutmeg.\n1. all-purpose flour, granulated sugar, light brown sugar packed, baking soda, baking powder, salt, cinnamon, nutmeg\n1. Stir in oil. Add eggs, one at a time, pausing to scrape down sides of the bowl after each addition. Beat until well-combined.\n1. avocado, vegetable, or canola oil, large eggs\n1. Stir in vanilla extract and milk.\n1. vanilla extract, milk\n1. Add carrots and nuts (if using). and stir until combined.\n1. grated carrots, chopped walnuts or pecans, optional\n1. Evenly divide batter into cupcake liners, filling each 2/3-3/4 of the way full. Transfer to oven and bake on 350F (175C) for 20 minutes or until a toothpick inserted in the center comes out clean or with moist crumbs.\n1. Allow to cool in the baking tin for 5 minutes before carefully removing to a cooling rack to cool completely before decorating with cream cheese frosting\\*.\n1. [Cream Cheese Frosting](#/cream-cheese-frosting)\n\n## Notes\n\n\\*Cream cheese frosting recipe will decorate 12 cupcakes if you use as much frosting as seen in the photos. If you plan to just spread the frosting on the cupcakes, you can probably get away with cutting the frosting recipe in half.\n\n**Storing:** Store in an airtight container in the refrigerator for up to 5 days.\n";
     }
   });
 
@@ -23763,7 +23763,7 @@
 
 Soft, moist, and perfectly spiced, my carrot cake recipe has been a reader favorite for years! This cake is beginner friendly and surprisingly simple to make. Top it off with my cream cheese frosting (recipe included below) for what will be truly the best carrot cake of your life!
 
-- **Servings:** {14} slices
+- **Servings:** {14}
 - **Yield:** {14} slices
 - [Source](https://sugarspunrun.com/best-carrot-cake-recipe/)
 - **Prep Time:** 30 minutes
@@ -24077,7 +24077,45 @@ Soft, moist, and perfectly spiced, my carrot cake recipe has been a reader favor
   // src/data/cream-cheese-frosting.md
   var require_cream_cheese_frosting = __commonJS({
     "src/data/cream-cheese-frosting.md"(exports, module) {
-      module.exports = "# Cream Cheese Frosting\n\n- **Servings:** {24}\n- **Yield:** {3} cups\n\n## Ingredients\n\n- {1} lb Cream Cheese\n- {2} stick Butter, softened\n- {1} tsp Vanilla Extract, softened\n- {4} cup Confectioners' Sugar, sifted\n\n## Instructions\n\n1. In a large mixing bowl, beat the cream cheese, butter and vanilla together until smooth\n1. Add the sugar and on low speed, beat until incorporated\n1. Increase the speed to high and mix until very light and fluffy\n";
+      module.exports = `# Cream Cheese Frosting
+
+This is my all time FAVORITE Cream Cheese Frosting Recipe! Just 5 ingredients!
+
+This recipe will cover either one 2-layer 8" or 9" cake, 24 cupcakes, or generously frost (as much frosting as in the photos) 12 cupcakes.
+
+Please see note regarding thickness.
+
+- **Servings:** {24}
+- **Yield:** {24} cupcakes, or {2} layers of cake
+- [Source](https://sugarspunrun.com/cream-cheese-frosting/)
+- **Prep Time:** 10 minutes
+- **Total Time:** 10 minutes
+
+## Ingredients
+
+- {1/2} cup ({1} stick) unsalted butter softened ({113} g)
+- {8} oz cream cheese softened (brick-style, not spreadable) ({226} g)
+- {1} teaspoon vanilla extract
+- {1/4} teaspoon salt
+- {2} cups powdered sugar\\* ({250} g)
+
+## Instructions
+
+1. Combine butter and cream cheese in the bowl of a stand mixer (or you may use an electric mixer) and beat until creamy, well-combined, and lump-free.
+1. Add vanilla extract and salt and stir well to combine.
+1. With mixer on low, gradually add powdered sugar until completely combined.
+1. Use to frost completely cooled cake or cupcakes.
+
+## Notes
+
+**Modified from source:** This version halves the powdered sugar (source calls for {4} cups / {500} g \u2014 too sweet at that ratio).
+
+As mentioned in the post, this is a sturdy and pipe-able frosting that will hold its shape and is comparable to buttercream in texture. It's wonderful for decorating! Many cream cheese recipes use less sugar and are far looser because of it; this icing as-written is less sweet than buttercream, but if you want an even less sweet frosting you can use less sugar and just add to taste (you'll need at least two cups).
+
+Frosting that is too thick and too sweet is often caused by accidentally over-measuring the powdered sugar, it should be weighed or measured the same way that flour is measured. If you accidentally make your frosting too thick, you can thin it by adding a splash of heavy cream or milk at a time until the desired consistency is reached.
+
+\\*If you plan to pipe the frosting with a small tip, I recommend sifting the powdered sugar (after measuring).
+`;
     }
   });
 
@@ -27856,7 +27894,6 @@ Soft, moist, and perfectly spiced, my carrot cake recipe has been a reader favor
     "cookie-dough-frosting",
     "cookies-and-cream-fudge",
     "cornbread-muffins",
-    "cream-cheese-frosting",
     "cream-puffs",
     "donut-glaze",
     "donuts",
@@ -27950,8 +27987,9 @@ Soft, moist, and perfectly spiced, my carrot cake recipe has been a reader favor
     "whoopie-pies"
   ];
   var shown = /* @__PURE__ */ new Set([
-    "carrot-cake",
     "carrot-cake-cupcakes",
+    "carrot-cake",
+    "cream-cheese-frosting",
     "nanas-rocky-road-candies"
   ]);
   function nameFromMarkdown(md) {

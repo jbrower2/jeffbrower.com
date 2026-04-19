@@ -2,7 +2,7 @@
 
 A moist and fluffy carrot cake cupcakes recipe! Perfect for Easter or any time of year, these are sure to be the star of your dessert table.
 
-- **Servings:** {12} cupcakes
+- **Servings:** {12}
 - **Yield:** {12} cupcakes
 - [Source](https://sugarspunrun.com/carrot-cake-cupcakes/)
 - **Prep Time:** 25 minutes
