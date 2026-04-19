@@ -25375,6 +25375,13 @@ Super soft peanut butter cookies stuffed with Reese's Peanut Butter Cups and dri
     }
   });
 
+  // src/data/rivers-banana-bread.md
+  var require_rivers_banana_bread = __commonJS({
+    "src/data/rivers-banana-bread.md"(exports, module) {
+      module.exports = "# Rivers Banana Bread\n\n- **Servings:** {10}\n- **Yield:** {1} loaf\n- **Cook Time:** 60 minutes\n\n## Ingredients\n\n- {3} ripe bananas\n- {1/3} cup butter, melted\n- {1/2} cup sugar\n- {1} egg, beaten\n- {1} tsp vanilla\n- {1} tsp baking soda\n- {1} tsp salt\n- {1 1/2} cup flour\n- {1/2} cup mini chocolate chips\n\n## Instructions\n\n1. Preheat oven to 350\xB0F.\n1. Mash bananas until smooth.\n1. Add melted butter and stir.\n1. Add sugar, egg, vanilla, baking soda, salt, and flour. Stir until smooth.\n1. Add chocolate chips.\n1. Add to greased loaf pan and top with extra chocolate chips.\n1. Bake for 60 minutes or until toothpick is clean.\n";
+    }
+  });
+
   // src/data/rocky-road-fudge.md
   var require_rocky_road_fudge = __commonJS({
     "src/data/rocky-road-fudge.md"(exports, module) {
@@ -28710,6 +28717,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./red-velvet-cupcakes.md": () => require_red_velvet_cupcakes(),
     "./red-velvet-fudge.md": () => require_red_velvet_fudge(),
     "./rice-krispie-treats.md": () => require_rice_krispie_treats(),
+    "./rivers-banana-bread.md": () => require_rivers_banana_bread(),
     "./rocky-road-fudge.md": () => require_rocky_road_fudge(),
     "./rule-of-3-garlic-buffalo-wing-sauce.md": () => require_rule_of_3_garlic_buffalo_wing_sauce(),
     "./sherbet.md": () => require_sherbet(),
@@ -28970,6 +28978,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("red-velvet-cupcakes", ["Dessert/Cupcakes"]);
   addRecipe("red-velvet-fudge", ["Dessert/Fudge"]);
   addRecipe("rice-krispie-treats", ["Dessert/Candy"], true);
+  addRecipe("rivers-banana-bread", ["Dessert/Bread"], true);
   addRecipe("rocky-road-fudge", ["Dessert/Fudge"]);
   addRecipe("rule-of-3-garlic-buffalo-wing-sauce", ["Seasoning"], true);
   addRecipe("sherbet", ["Dessert/Ice Cream"]);
