@@ -25287,6 +25287,13 @@ Combine base flavors with the listed additions.
     }
   });
 
+  // src/data/raspberry-thumbprint-cookies.md
+  var require_raspberry_thumbprint_cookies = __commonJS({
+    "src/data/raspberry-thumbprint-cookies.md"(exports, module) {
+      module.exports = "# Raspberry Thumbprint Cookies\n\nThese thumbprint cookies are filled with raspberry jam and drizzled with a sweet glaze. They look so pretty on a cookie tray and taste delicious!\n\n- **Servings:** {36}\n- **Yield:** {36} cookies ({3} dozen)\n- [Source](https://www.allrecipes.com/recipe/10222/raspberry-and-almond-shortbread-thumbprints/)\n- **Prep Time:** 30 minutes\n- **Cook Time:** 15 minutes\n- **Total Time:** 45 minutes\n\n## Ingredients\n\n- {1} cup butter, softened\n- {2/3} cup white sugar\n- {1 1/4} teaspoons almond extract, divided\n- {2} cups all-purpose flour\n- {1/2} cup seedless raspberry jam\n- {1/2} cup confectioners' sugar\n- {1} teaspoon milk\n\n## Instructions\n\n1. Preheat the oven to 350\xB0F.\n1. Beat butter and white sugar together in a medium bowl until creamy. Mix in {1/2} teaspoon almond extract. Add flour and mix until dough comes together.\n1. Form dough into 1\xBD-inch balls and place on ungreased cookie sheets about 2 inches apart. Use your thumb to press down and make a dent in the center of each ball, then fill with jam.\n1. Bake in batches in the preheated oven until edges are lightly browned, about 14 to 18 minutes; allow to cool on cookie sheet for a few minutes.\n1. Mix confectioners' sugar, milk, and remaining {3/4} teaspoon almond extract together in a medium bowl until smooth; drizzle lightly over warm cookies.\n";
+    }
+  });
+
   // src/data/red-velvet-cupcakes.md
   var require_red_velvet_cupcakes = __commonJS({
     "src/data/red-velvet-cupcakes.md"(exports, module) {
@@ -28630,6 +28637,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./qdoba-three-cheese-queso-copycat.md": () => require_qdoba_three_cheese_queso_copycat(),
     "./rainbow-cookies.md": () => require_rainbow_cookies(),
     "./raspberry-cheesecake-flavoring.md": () => require_raspberry_cheesecake_flavoring(),
+    "./raspberry-thumbprint-cookies.md": () => require_raspberry_thumbprint_cookies(),
     "./red-velvet-cupcakes.md": () => require_red_velvet_cupcakes(),
     "./red-velvet-fudge.md": () => require_red_velvet_fudge(),
     "./rice-krispie-treats.md": () => require_rice_krispie_treats(),
@@ -28886,6 +28894,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("qdoba-three-cheese-queso-copycat", ["Appetizer"], true);
   addRecipe("rainbow-cookies", ["Dessert/Cookies"]);
   addRecipe("raspberry-cheesecake-flavoring", ["Dessert/Cake/Cheesecake"]);
+  addRecipe("raspberry-thumbprint-cookies", ["Dessert/Cookies"], true);
   addRecipe("red-velvet-cupcakes", ["Dessert/Cupcakes"]);
   addRecipe("red-velvet-fudge", ["Dessert/Fudge"]);
   addRecipe("rice-krispie-treats", ["Dessert/Candy"], true);
