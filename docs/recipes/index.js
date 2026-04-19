@@ -25259,6 +25259,13 @@ Combine base flavors with the listed additions.
     }
   });
 
+  // src/data/rule-of-3-garlic-buffalo-wing-sauce.md
+  var require_rule_of_3_garlic_buffalo_wing_sauce = __commonJS({
+    "src/data/rule-of-3-garlic-buffalo-wing-sauce.md"(exports, module) {
+      module.exports = "# Rule of 3 - Garlic Buffalo Wing Sauce\n\n- **Servings:** {24}\n- [Source](https://www.allrecipes.com/recipe/244750/rule-of-3-garlic-buffalo-wing-sauce/)\n- **Prep Time:** 5 minutes\n- **Cook Time:** 5 minutes\n- **Total Time:** 10 minutes\n\n## Ingredients\n\n- {3} tablespoons butter\n- {3} tablespoons garlic powder\n- {3} cups hot pepper sauce (such as Frank's RedHot\xAE)\n- {3} tablespoons white vinegar\n\n## Instructions\n\n1. Melt butter in a saucepan over low heat; stir in garlic powder until dissolved. Add hot sauce and vinegar to butter mixture; bring to a boil. Remove saucepan from heat.\n";
+    }
+  });
+
   // src/data/sherbet.md
   var require_sherbet = __commonJS({
     "src/data/sherbet.md"(exports, module) {
@@ -28535,6 +28542,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./red-velvet-fudge.md": () => require_red_velvet_fudge(),
     "./rice-krispie-treats.md": () => require_rice_krispie_treats(),
     "./rocky-road-fudge.md": () => require_rocky_road_fudge(),
+    "./rule-of-3-garlic-buffalo-wing-sauce.md": () => require_rule_of_3_garlic_buffalo_wing_sauce(),
     "./sherbet.md": () => require_sherbet(),
     "./shortbread-cookies.md": () => require_shortbread_cookies(),
     "./snickerdoodles.md": () => require_snickerdoodles(),
@@ -28778,6 +28786,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("red-velvet-fudge", ["Dessert/Fudge"]);
   addRecipe("rice-krispie-treats", ["Dessert/Candy"], true);
   addRecipe("rocky-road-fudge", ["Dessert/Fudge"]);
+  addRecipe("rule-of-3-garlic-buffalo-wing-sauce", ["Seasoning"], true);
   addRecipe("sherbet", ["Dessert/Ice Cream"]);
   addRecipe("shortbread-cookies", ["Dessert/Cookies"]);
   addRecipe("snickerdoodles", ["Dessert/Cookies"]);
