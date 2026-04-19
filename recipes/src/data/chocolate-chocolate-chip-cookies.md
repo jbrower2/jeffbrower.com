@@ -1,34 +1,36 @@
 # Chocolate Chocolate Chip Cookies
 
-- **Servings:** {24}
-- **Yield:** {24} cookies
+These chewy chocolate chocolate chip cookies are made with cocoa powder and chocolate chips to guarantee chocolaty flavor in every bite. My kids love them!
+
+- **Servings:** {48}
+- **Yield:** {48} cookies
+- [Source](https://www.allrecipes.com/recipe/9827/chocolate-chocolate-chip-cookies-i/)
+- **Prep Time:** 15 minutes
+- **Cook Time:** 10 minutes
+- **Total Time:** 25 minutes
 
 ## Ingredients
 
-- {1 1/4} cup All-purpose Flour
-- {1} tsp Baking Powder
-- {1/2} tsp Salt
-- {1/4} tsp Baking Soda
-- {1} stick Butter
-- {6} oz Bittersweet Chocolate, chopped
-- {2} Egg
-- {1} Egg Yolk
-- {1} cup Brown Sugar, packed
-- {2} tsp Vanilla Extract
-- {12} oz Chocolate Chips
+- {1 1/2} cups white sugar
+- {1} cup butter, softened
+- {2} large eggs
+- {2} teaspoons vanilla extract
+- {2} cups all-purpose flour
+- {2/3} cup cocoa powder
+- {3/4} teaspoon baking soda
+- {1/4} teaspoon salt
+- {2} cups semisweet chocolate chips
+- {1/2} cup chopped walnuts (optional)
 
 ## Instructions
 
-1. Whisk the flour, baking powder, salt, baking soda, and cloves together in a medium bowl
-1. Melt the butter in a saucepan over medium heat
-1. Remove pan from the heat, and add the bittersweet chocolate, set aside until melted
-1. Whisk the eggs, yolk, brown sugar, and vanilla together in a medium bowl then slowly whisk in melted chocolate mixture
-1. Stir in the flour mixture to make a loose dough
-1. Don't over work the dough
-1. Fold in the chips
-1. Cover with plastic wrap and refrigerate until firm, about 2 hours
-1. Preheat oven to 350 degrees F
-1. Line a baking sheet with parchment paper
-1. Form dough into balls, about 2 inches or 1 1/2 ounces each, and put on the prepared baking sheets, leaving a couple inches between the cookies
-1. Bake until outside is crackly, but the center is still moist, about 13 to 15 minutes
-1. Cool on a rack
+1. Preheat the oven to 350 degrees F (175 degrees C).
+1. Beat sugar, butter, eggs, and vanilla in a large bowl until light and fluffy.
+1. Combine flour, cocoa powder, baking soda, and salt in another bowl; stir into butter mixture until well blended.
+1. Stir chocolate chips and walnuts into dough until evenly distributed. Drop rounded tablespoonfuls of dough 2 inches apart onto ungreased baking sheets.
+1. Bake in the preheated oven just until set, 8 to 10 minutes. Cool slightly on the cookie sheets before transferring to wire racks to cool completely.
+
+## Notes
+
+- **For the chewiest texture:** remove cookies when the centers still look slightly underbaked. They'll continue to set as they cool.
+- **Serving:** serve warm with a scoop of vanilla ice cream for an easy dessert.

@@ -24005,10 +24005,17 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
     }
   });
 
+  // src/data/chocolate-chocolate-chip-cookies-old.md
+  var require_chocolate_chocolate_chip_cookies_old = __commonJS({
+    "src/data/chocolate-chocolate-chip-cookies-old.md"(exports, module) {
+      module.exports = "# Chocolate Chocolate Chip Cookies (old)\n\n- **Servings:** {24}\n- **Yield:** {24} cookies\n\n## Ingredients\n\n- {1 1/4} cup All-purpose Flour\n- {1} tsp Baking Powder\n- {1/2} tsp Salt\n- {1/4} tsp Baking Soda\n- {1} stick Butter\n- {6} oz Bittersweet Chocolate, chopped\n- {2} Egg\n- {1} Egg Yolk\n- {1} cup Brown Sugar, packed\n- {2} tsp Vanilla Extract\n- {12} oz Chocolate Chips\n\n## Instructions\n\n1. Whisk the flour, baking powder, salt, baking soda, and cloves together in a medium bowl\n1. Melt the butter in a saucepan over medium heat\n1. Remove pan from the heat, and add the bittersweet chocolate, set aside until melted\n1. Whisk the eggs, yolk, brown sugar, and vanilla together in a medium bowl then slowly whisk in melted chocolate mixture\n1. Stir in the flour mixture to make a loose dough\n1. Don't over work the dough\n1. Fold in the chips\n1. Cover with plastic wrap and refrigerate until firm, about 2 hours\n1. Preheat oven to 350 degrees F\n1. Line a baking sheet with parchment paper\n1. Form dough into balls, about 2 inches or 1 1/2 ounces each, and put on the prepared baking sheets, leaving a couple inches between the cookies\n1. Bake until outside is crackly, but the center is still moist, about 13 to 15 minutes\n1. Cool on a rack\n";
+    }
+  });
+
   // src/data/chocolate-chocolate-chip-cookies.md
   var require_chocolate_chocolate_chip_cookies = __commonJS({
     "src/data/chocolate-chocolate-chip-cookies.md"(exports, module) {
-      module.exports = "# Chocolate Chocolate Chip Cookies\n\n- **Servings:** {24}\n- **Yield:** {24} cookies\n\n## Ingredients\n\n- {1 1/4} cup All-purpose Flour\n- {1} tsp Baking Powder\n- {1/2} tsp Salt\n- {1/4} tsp Baking Soda\n- {1} stick Butter\n- {6} oz Bittersweet Chocolate, chopped\n- {2} Egg\n- {1} Egg Yolk\n- {1} cup Brown Sugar, packed\n- {2} tsp Vanilla Extract\n- {12} oz Chocolate Chips\n\n## Instructions\n\n1. Whisk the flour, baking powder, salt, baking soda, and cloves together in a medium bowl\n1. Melt the butter in a saucepan over medium heat\n1. Remove pan from the heat, and add the bittersweet chocolate, set aside until melted\n1. Whisk the eggs, yolk, brown sugar, and vanilla together in a medium bowl then slowly whisk in melted chocolate mixture\n1. Stir in the flour mixture to make a loose dough\n1. Don't over work the dough\n1. Fold in the chips\n1. Cover with plastic wrap and refrigerate until firm, about 2 hours\n1. Preheat oven to 350 degrees F\n1. Line a baking sheet with parchment paper\n1. Form dough into balls, about 2 inches or 1 1/2 ounces each, and put on the prepared baking sheets, leaving a couple inches between the cookies\n1. Bake until outside is crackly, but the center is still moist, about 13 to 15 minutes\n1. Cool on a rack\n";
+      module.exports = "# Chocolate Chocolate Chip Cookies\n\nThese chewy chocolate chocolate chip cookies are made with cocoa powder and chocolate chips to guarantee chocolaty flavor in every bite. My kids love them!\n\n- **Servings:** {48}\n- **Yield:** {48} cookies\n- [Source](https://www.allrecipes.com/recipe/9827/chocolate-chocolate-chip-cookies-i/)\n- **Prep Time:** 15 minutes\n- **Cook Time:** 10 minutes\n- **Total Time:** 25 minutes\n\n## Ingredients\n\n- {1 1/2} cups white sugar\n- {1} cup butter, softened\n- {2} large eggs\n- {2} teaspoons vanilla extract\n- {2} cups all-purpose flour\n- {2/3} cup cocoa powder\n- {3/4} teaspoon baking soda\n- {1/4} teaspoon salt\n- {2} cups semisweet chocolate chips\n- {1/2} cup chopped walnuts (optional)\n\n## Instructions\n\n1. Preheat the oven to 350 degrees F (175 degrees C).\n1. Beat sugar, butter, eggs, and vanilla in a large bowl until light and fluffy.\n1. Combine flour, cocoa powder, baking soda, and salt in another bowl; stir into butter mixture until well blended.\n1. Stir chocolate chips and walnuts into dough until evenly distributed. Drop rounded tablespoonfuls of dough 2 inches apart onto ungreased baking sheets.\n1. Bake in the preheated oven just until set, 8 to 10 minutes. Cool slightly on the cookie sheets before transferring to wire racks to cool completely.\n\n## Notes\n\n- **For the chewiest texture:** remove cookies when the centers still look slightly underbaked. They'll continue to set as they cool.\n- **Serving:** serve warm with a scoop of vanilla ice cream for an easy dessert.\n";
     }
   });
 
@@ -28276,6 +28283,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./chocolate-chip-cookie-dough-fudge.md": () => require_chocolate_chip_cookie_dough_fudge(),
     "./chocolate-chip-cookies.md": () => require_chocolate_chip_cookies(),
     "./chocolate-chip-cupcakes.md": () => require_chocolate_chip_cupcakes(),
+    "./chocolate-chocolate-chip-cookies-old.md": () => require_chocolate_chocolate_chip_cookies_old(),
     "./chocolate-chocolate-chip-cookies.md": () => require_chocolate_chocolate_chip_cookies(),
     "./chocolate-cinnamon-fudge.md": () => require_chocolate_cinnamon_fudge(),
     "./chocolate-covered-pretzels.md": () => require_chocolate_covered_pretzels(),
@@ -28499,7 +28507,8 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("chocolate-chip-cookie-dough-fudge", ["Dessert/Fudge"]);
   addRecipe("chocolate-chip-cookies", ["Dessert/Cookies"]);
   addRecipe("chocolate-chip-cupcakes", ["Dessert/Cupcakes"]);
-  addRecipe("chocolate-chocolate-chip-cookies", ["Dessert/Cookies"]);
+  addRecipe("chocolate-chocolate-chip-cookies", ["Dessert/Cookies"], true);
+  addRecipe("chocolate-chocolate-chip-cookies-old", ["Dessert/Cookies"]);
   addRecipe("chocolate-cinnamon-fudge", ["Dessert/Fudge"]);
   addRecipe("chocolate-covered-pretzels", ["Dessert/Candy"]);
   addRecipe("chocolate-cream-pie", ["Dessert/Pie"]);
