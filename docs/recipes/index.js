@@ -24937,6 +24937,13 @@ Combine base flavors with the listed additions.
     }
   });
 
+  // src/data/mrs-siggs-snickerdoodles.md
+  var require_mrs_siggs_snickerdoodles = __commonJS({
+    "src/data/mrs-siggs-snickerdoodles.md"(exports, module) {
+      module.exports = "# Mrs. Sigg's Snickerdoodles\n\nTry this snickerdoodle recipe for soft and chewy cinnamon-sugar cookies that everyone will enjoy. With crispy edges, chewy centers, and a deliciously spiced sugar coating, these cookies are a crowd please for sure. These snickerdoodle cookies have become very popular with my friends at church \u2014 and my pastor loves them. You will too!\n\n- **Servings:** {48}\n- **Yield:** {48} cookies\n- [Source](https://www.allrecipes.com/recipe/10687/mrs-siggs-snickerdoodles/)\n- **Prep Time:** 20 minutes\n- **Cook Time:** 10 minutes\n- **Total Time:** 30 minutes\n\n## Ingredients\n\n### Cookies\n\n- {1 1/2} cups white sugar\n- {1/2} cup butter, softened\n- {1/2} cup shortening\n- {2} large eggs\n- {2} teaspoons vanilla extract\n- {2 3/4} cups all-purpose flour\n- {2} teaspoons cream of tartar\n- {1} teaspoon baking soda\n- {1/4} teaspoon salt\n\n### Cinnamon-Sugar Coating\n\n- {2} tablespoons white sugar\n- {2} teaspoons ground cinnamon\n\n## Instructions\n\n1. Preheat the oven to 400\xB0F.\n1. **Make cookies:** Beat sugar, butter, shortening, eggs, and vanilla in a large bowl until smooth and creamy.\n1. Whisk flour, cream of tartar, baking soda, and salt together in a separate bowl. Gradually mix dry ingredients mixture into the wet ingredients just until combined.\n1. Shape dough into walnut-sized balls.\n1. **Make cinnamon-sugar:** Combine sugar and cinnamon in a small bowl or zip-top plastic bag.\n1. Place dough balls in cinnamon-sugar and roll or shake until coated. Place 2 inches apart on ungreased baking sheets.\n1. Bake in the preheated oven until set but not too hard, 8 to 10 minutes, switching racks halfway through.\n1. Remove from the oven and immediately transfer to wire racks to cool.\n";
+    }
+  });
+
   // src/data/nanas-brownie-balls.md
   var require_nanas_brownie_balls = __commonJS({
     "src/data/nanas-brownie-balls.md"(exports, module) {
@@ -28569,6 +28576,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./mint-chocolate-fudge.md": () => require_mint_chocolate_fudge(),
     "./molasses-cookies.md": () => require_molasses_cookies(),
     "./monkey-bread.md": () => require_monkey_bread(),
+    "./mrs-siggs-snickerdoodles.md": () => require_mrs_siggs_snickerdoodles(),
     "./nanas-brownie-balls.md": () => require_nanas_brownie_balls(),
     "./nanas-rocky-road-candies.md": () => require_nanas_rocky_road_candies(),
     "./nutella-frosting.md": () => require_nutella_frosting(),
@@ -28820,6 +28828,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("mint-chocolate-fudge", ["Dessert/Fudge"]);
   addRecipe("molasses-cookies", ["Dessert/Cookies"]);
   addRecipe("monkey-bread", ["Dessert/Bread"]);
+  addRecipe("mrs-siggs-snickerdoodles", ["Dessert/Cookies"], true);
   addRecipe("nanas-brownie-balls", ["Dessert/Candy"], true);
   addRecipe("nanas-rocky-road-candies", ["Dessert/Candy"], true);
   addRecipe("nutella-frosting", ["Dessert/Frosting/Frosting"]);

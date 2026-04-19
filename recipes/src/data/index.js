@@ -172,6 +172,7 @@ addRecipe("mashed-potatoes", ["Side Dish"], true);
 addRecipe("mint-chocolate-fudge", ["Dessert/Fudge"]);
 addRecipe("molasses-cookies", ["Dessert/Cookies"]);
 addRecipe("monkey-bread", ["Dessert/Bread"]);
+addRecipe("mrs-siggs-snickerdoodles", ["Dessert/Cookies"], true);
 addRecipe("nanas-brownie-balls", ["Dessert/Candy"], true);
 addRecipe("nanas-rocky-road-candies", ["Dessert/Candy"], true);
 addRecipe("nutella-frosting", ["Dessert/Frosting/Frosting"]);
