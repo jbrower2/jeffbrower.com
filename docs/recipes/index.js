@@ -25372,6 +25372,13 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     }
   });
 
+  // src/data/texas-roadhouse-rolls.md
+  var require_texas_roadhouse_rolls = __commonJS({
+    "src/data/texas-roadhouse-rolls.md"(exports, module) {
+      module.exports = "# Texas Roadhouse Rolls Copycat Recipe\n\nSoft, fluffy, and buttery, just like Texas Roadhouse, but made in your kitchen. Easy to make and kid-approved!\n\n- **Servings:** {12}\n- **Yield:** {12} rolls\n- [Source](https://therecipecritic.com/texas-roadhouse-rolls/)\n- **Prep Time:** 10 minutes\n- **Cook Time:** 20 minutes\n- **Proofing Time:** 1 hour 20 minutes\n- **Total Time:** 1 hour 50 minutes\n\n## Ingredients\n\n- {1} packet ({2 1/4} teaspoons) active dry yeast\n- {1} teaspoon sugar\n- {1/4} cup warm water\n- {1} cup milk\n- {1} tablespoon melted butter\n- {1/4} cup sugar\n- {3} to {4} cups all-purpose flour\n- {1} egg\n- {1} teaspoon salt\n- [Texas Cinnamon Butter](#/texas-cinnamon-butter)\n\n## Instructions\n\n1. Add {1} packet active dry yeast, {1} teaspoon sugar, and {1/4} cup warm water to the bowl of a stand mixer. Whisk and cover the bowl with a towel for 5 minutes to proof, the yeast should become frothy.\n1. While the yeast proofs, add the milk and melted butter to a microwave-safe dish. Microwave for 45 seconds and stir until the butter is melted. Let the milk mixture sit at room temperature until it cools to lukewarm.\n1. Once the yeast is frothy and the milk is cooled, add the milk mixture to the yeast along with the {1/4} cup sugar, {2} cups of the flour, egg, and salt. Using the dough hook, mix on medium-low speed until the dough starts to come together.\n1. Add more flour 1/4 cup at a time until the dough pulls away from the mixer, it should be slightly sticky but easy to handle.\n1. Lightly oil a bowl and place the dough into it. Cover the dough, and let it rest for 45 minutes to 1 hour to proof and double in size.\n1. Lightly flour a work surface and dump the dough out onto it. Roll the dough out into a 1/2-inch thick rectangle, about 10x8 inches.\n1. Cut the rectangle into {12} equal pieces. Place the dough pieces onto a parchment-lined baking sheet. Cover the rolls and let them proof for 20 minutes.\n1. While the rolls proof, preheat the oven to 350\xB0F. When the rolls are ready, bake them for 15\u201318 minutes until they are golden brown.\n1. Serve the rolls warm with [Texas Cinnamon Butter](#/texas-cinnamon-butter) and enjoy!\n";
+    }
+  });
+
   // src/data/tiramisu.md
   var require_tiramisu = __commonJS({
     "src/data/tiramisu.md"(exports, module) {
@@ -28561,6 +28568,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./sweet-corn-guacamole.md": () => require_sweet_corn_guacamole(),
     "./sweet-potato-pie.md": () => require_sweet_potato_pie(),
     "./texas-cinnamon-butter.md": () => require_texas_cinnamon_butter(),
+    "./texas-roadhouse-rolls.md": () => require_texas_roadhouse_rolls(),
     "./tiramisu.md": () => require_tiramisu(),
     "./triple-chocolate-brownies.md": () => require_triple_chocolate_brownies(),
     "./twice-baked-potatoes.md": () => require_twice_baked_potatoes(),
@@ -28806,6 +28814,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("sweet-corn-guacamole", ["Appetizer"], true);
   addRecipe("sweet-potato-pie", ["Dessert/Pie"]);
   addRecipe("texas-cinnamon-butter", ["Seasoning"], true);
+  addRecipe("texas-roadhouse-rolls", ["Side Dish"], true);
   addRecipe("tiramisu", ["Dessert/Cake"]);
   addRecipe("triple-chocolate-brownies", ["Dessert/Brownies"]);
   addRecipe("twice-baked-potatoes", ["Side Dish"], true);

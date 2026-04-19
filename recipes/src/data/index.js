@@ -230,6 +230,7 @@ addRecipe("sugar-cookies", ["Dessert/Cookies"]);
 addRecipe("sweet-corn-guacamole", ["Appetizer"], true);
 addRecipe("sweet-potato-pie", ["Dessert/Pie"]);
 addRecipe("texas-cinnamon-butter", ["Seasoning"], true);
+addRecipe("texas-roadhouse-rolls", ["Side Dish"], true);
 addRecipe("tiramisu", ["Dessert/Cake"]);
 addRecipe("triple-chocolate-brownies", ["Dessert/Brownies"]);
 addRecipe("twice-baked-potatoes", ["Side Dish"], true);
