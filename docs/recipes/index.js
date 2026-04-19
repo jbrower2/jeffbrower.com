@@ -24352,6 +24352,13 @@ These easy Hot Chocolate Cookies are always a hit! Made with real hot cocoa, thi
     }
   });
 
+  // src/data/marry-me-snickerdoodles.md
+  var require_marry_me_snickerdoodles = __commonJS({
+    "src/data/marry-me-snickerdoodles.md"(exports, module) {
+      module.exports = "# Marry Me Snickerdoodles\n\n- **Servings:** {12}\n- **Yield:** {8}\u2013{12} cookies\n\n## Ingredients\n\n- {3 1/4} cup all-purpose flour\n- {1} tsp baking soda\n- {1} tsp salt\n- {1 1/2} tsp cream of tartar\n- {1} cup unsalted butter, softened\n- {1 1/3} cup sugar\n- {1/3} cup packed light brown sugar\n- {2} large eggs\n- {2} tsp vanilla\n- cinnamon sugar mixture, for coating\n\n## Instructions\n\n1. Whisk together the flour, baking soda, salt, and cream of tartar.\n1. In a separate bowl, combine the butter, sugar, brown sugar, eggs, and vanilla.\n1. Mix the wet ingredients into the dry until you have a cookie dough batter.\n1. Form into balls and coat in cinnamon sugar mixture. Make sure to spread out on the cookie sheet.\n1. Bake at 350\xB0F for 11-13 minutes, or 9 minutes for gooey cookies. Enjoy!\n";
+    }
+  });
+
   // src/data/marshmallow-frosting.md
   var require_marshmallow_frosting = __commonJS({
     "src/data/marshmallow-frosting.md"(exports, module) {
@@ -27873,6 +27880,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./maple-cream-cheese-frosting.md": () => require_maple_cream_cheese_frosting(),
     "./maple-syrup-bread-muffins.md": () => require_maple_syrup_bread_muffins(),
     "./maple-walnut-fudge.md": () => require_maple_walnut_fudge(),
+    "./marry-me-snickerdoodles.md": () => require_marry_me_snickerdoodles(),
     "./marshmallow-frosting.md": () => require_marshmallow_frosting(),
     "./mascarpone-frosting.md": () => require_mascarpone_frosting(),
     "./mint-chocolate-fudge.md": () => require_mint_chocolate_fudge(),
@@ -28103,6 +28111,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "easy-green-chicken-enchiladas",
     "favorite-chocolate-buttercream",
     "hot-chocolate-cookies",
+    "marry-me-snickerdoodles",
     "nanas-rocky-road-candies",
     "rice-krispie-treats",
     "southwestern-egg-casserole"
