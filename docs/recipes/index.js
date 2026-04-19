@@ -24180,6 +24180,13 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
     }
   });
 
+  // src/data/copycat-chick-fil-a-lemonade.md
+  var require_copycat_chick_fil_a_lemonade = __commonJS({
+    "src/data/copycat-chick-fil-a-lemonade.md"(exports, module) {
+      module.exports = "# Copycat Chick-fil-A Lemonade\n\nThis Copycat Chick-fil-A Lemonade is just what you need to quench your summertime thirst! Super easy, it's a sweet 'n tart drink that is so refreshing!\n\n- **Servings:** {4}\n- [Source](https://therecipecritic.com/copycat-chick-fil-lemonade/)\n- **Prep Time:** 10 minutes\n- **Chill Time:** 1 hour\n- **Total Time:** 1 hour 10 minutes\n\n## Ingredients\n\n- {1 3/4} cup lemon juice, about 7\u20138 large lemons, freshly squeezed\n- {1} cup sugar\n- {5} cups cold water\n\n## Instructions\n\n1. In a large pitcher, mix sugar and lemon juice until blended. Add the cold water and mix. Chill in the fridge for at least an hour. Enjoy!\n";
+    }
+  });
+
   // src/data/cornbread-muffins.md
   var require_cornbread_muffins = __commonJS({
     "src/data/cornbread-muffins.md"(exports, module) {
@@ -28467,6 +28474,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./coffee-pastry-cream.md": () => require_coffee_pastry_cream(),
     "./cookie-dough-frosting.md": () => require_cookie_dough_frosting(),
     "./cookies-and-cream-fudge.md": () => require_cookies_and_cream_fudge(),
+    "./copycat-chick-fil-a-lemonade.md": () => require_copycat_chick_fil_a_lemonade(),
     "./cornbread-muffins.md": () => require_cornbread_muffins(),
     "./cream-cheese-frosting.md": () => require_cream_cheese_frosting(),
     "./cream-puffs.md": () => require_cream_puffs(),
@@ -28706,6 +28714,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("coffee-pastry-cream", ["Dessert/Frosting/Custard"]);
   addRecipe("cookie-dough-frosting", ["Dessert/Frosting/Frosting"]);
   addRecipe("cookies-and-cream-fudge", ["Dessert/Fudge"]);
+  addRecipe("copycat-chick-fil-a-lemonade", ["Drink"], true);
   addRecipe("cornbread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
   addRecipe("cream-cheese-frosting", ["Dessert/Frosting/Frosting"], true);
   addRecipe("cream-puffs", ["Dessert/Pastry"]);

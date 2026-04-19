@@ -122,6 +122,7 @@ addRecipe("cinnamon-rolls-old", ["Dessert/Donuts"]);
 addRecipe("coffee-pastry-cream", ["Dessert/Frosting/Custard"]);
 addRecipe("cookie-dough-frosting", ["Dessert/Frosting/Frosting"]);
 addRecipe("cookies-and-cream-fudge", ["Dessert/Fudge"]);
+addRecipe("copycat-chick-fil-a-lemonade", ["Drink"], true);
 addRecipe("cornbread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
 addRecipe("cream-cheese-frosting", ["Dessert/Frosting/Frosting"], true);
 addRecipe("cream-puffs", ["Dessert/Pastry"]);
