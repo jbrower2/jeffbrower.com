@@ -24628,6 +24628,13 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
     }
   });
 
+  // src/data/rice-krispie-treats.md
+  var require_rice_krispie_treats = __commonJS({
+    "src/data/rice-krispie-treats.md"(exports, module) {
+      module.exports = "# Rice Krispie Treats\n\nThick and gooey Rice Krispie Treats are a classic no-bake dessert filled with sweet buttery marshmallows and crispy rice cereal crunch. A family-favorite recipe!\n\n- **Servings:** {16}\n- **Yield:** {16} treats\n- [Source](https://natashaskitchen.com/rice-krispie-treats-recipe/)\n- **Prep Time:** 10 minutes\n- **Cook Time:** 15 minutes\n- **Total Time:** 25 minutes\n\n## Ingredients\n\n- {8} Tbsp unsalted butter, plus more to grease pan\n- {16} oz mini marshmallows, divided into {6} cups and {2} cups\\*\n- {1} tsp vanilla extract\n- {1/2} tsp fine sea salt\n- {7} cups crispy rice cereal\\*\n\n## Instructions\n\n1. Butter and line a 9x9 baking dish with parchment paper (you can use a 9x13 but the squares won't be as thick).\n1. In a large pot or dutch oven, melt butter over medium/low heat. Add {6} cups marshmallows and stir just until completely melted (don't overcook or the mixture will harden).\n1. Remove the pan from the heat and immediately stir in vanilla and salt. Working quickly stir in the cereal then fold in the remaining {2} cups marshmallows until well coated and the added marshmallows just start to melt but are still chunky.\n1. Immediately transfer the mixture to the prepared pan, place a piece of plastic wrap or parchment paper over the top to prevent sticking and lightly pressing it evenly into the pan.\n1. Set aside to cool completely to room temperature (about 1 hour), then slice into squares and enjoy.\n\n## Notes\n\n- **Storage:** Cover and store at room temperature for up to 3 days. (Refrigeration is not recommended as the treats harden too much.)\n- **\\*Gluten-free:** Make sure the marshmallows and cereal you use are marked gluten-free.\n";
+    }
+  });
+
   // src/data/rocky-road-fudge.md
   var require_rocky_road_fudge = __commonJS({
     "src/data/rocky-road-fudge.md"(exports, module) {
@@ -27865,6 +27872,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./raspberry-cheesecake-flavoring.md": () => require_raspberry_cheesecake_flavoring(),
     "./red-velvet-cupcakes.md": () => require_red_velvet_cupcakes(),
     "./red-velvet-fudge.md": () => require_red_velvet_fudge(),
+    "./rice-krispie-treats.md": () => require_rice_krispie_treats(),
     "./rocky-road-fudge.md": () => require_rocky_road_fudge(),
     "./sherbet.md": () => require_sherbet(),
     "./shortbread-cookies.md": () => require_shortbread_cookies(),
@@ -28048,6 +28056,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "easy-green-chicken-enchiladas",
     "favorite-chocolate-buttercream",
     "nanas-rocky-road-candies",
+    "rice-krispie-treats",
     "southwestern-egg-casserole"
   ]);
   function nameFromMarkdown(md) {
