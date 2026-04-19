@@ -25058,6 +25058,13 @@ Combine base flavors with the listed additions.
     }
   });
 
+  // src/data/qdoba-queso-dip.md
+  var require_qdoba_queso_dip = __commonJS({
+    "src/data/qdoba-queso-dip.md"(exports, module) {
+      module.exports = "# Qdoba Queso Dip\n\nHad this dip today and it was soooo gooood! Found a copycat recipe for it at yahoo answers. Putting it here to try to duplicate later.\n\n- **Servings:** {1}\n- **Yield:** {1} batch\n- [Source](https://www.food.com/recipe/qdoba-queso-dip-318668)\n- **Total Time:** 2 hours 2 minutes\n\n## Ingredients\n\n- {1} cup shredded monterey jack cheese\n- {1} cup American cheese\n- {1} cup shredded cheddar cheese\n- {3} roasted poblano peppers (finely chopped)\n- {8} ounces tomatoes (finely chopped)\n- {1} cup heavy cream\n- {1 1/2} teaspoons ground garlic\n- salt\n\n## Instructions\n\n1. Combine all of the ingredients in crockpot.\n1. Cover and cook on low for about 2 hours, stirring occasionally, or until cheese is melted.\n1. Thin with more milk or cream if necessary.\n1. Taste and adjust seasoning.\n1. For additional flavor, add finely chopped onion, ground cumin, chopped roasted red pepper, etc.\n1. Serve hot from crock with tortilla chips.\n";
+    }
+  });
+
   // src/data/rainbow-cookies.md
   var require_rainbow_cookies = __commonJS({
     "src/data/rainbow-cookies.md"(exports, module) {
@@ -28335,6 +28342,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./pumpkin-pie.md": () => require_pumpkin_pie(),
     "./pumpkin-spice-cake.md": () => require_pumpkin_spice_cake(),
     "./pumpkin-whoopie-pies.md": () => require_pumpkin_whoopie_pies(),
+    "./qdoba-queso-dip.md": () => require_qdoba_queso_dip(),
     "./rainbow-cookies.md": () => require_rainbow_cookies(),
     "./raspberry-cheesecake-flavoring.md": () => require_raspberry_cheesecake_flavoring(),
     "./red-velvet-cupcakes.md": () => require_red_velvet_cupcakes(),
@@ -28389,6 +28397,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "Dessert/Pastry",
     "Dessert/Pie",
     "Dessert/Pie/Pie Crusts",
+    "Appetizer",
     "Drink",
     "Main Dish",
     "Side Dish"
@@ -28559,6 +28568,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("pumpkin-pie", ["Dessert/Pie"]);
   addRecipe("pumpkin-spice-cake", ["Dessert/Cake"]);
   addRecipe("pumpkin-whoopie-pies", ["Dessert/Cake/Whoopie Pies"]);
+  addRecipe("qdoba-queso-dip", ["Appetizer"], true);
   addRecipe("rainbow-cookies", ["Dessert/Cookies"]);
   addRecipe("raspberry-cheesecake-flavoring", ["Dessert/Cake/Cheesecake"]);
   addRecipe("red-velvet-cupcakes", ["Dessert/Cupcakes"]);

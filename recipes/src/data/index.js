@@ -22,6 +22,7 @@ const CATEGORIES = new Set([
   "Dessert/Pastry",
   "Dessert/Pie",
   "Dessert/Pie/Pie Crusts",
+  "Appetizer",
   "Drink",
   "Main Dish",
   "Side Dish",
@@ -196,6 +197,7 @@ addRecipe("pumpkin-pastry-cream", ["Dessert/Frosting/Custard"]);
 addRecipe("pumpkin-pie", ["Dessert/Pie"]);
 addRecipe("pumpkin-spice-cake", ["Dessert/Cake"]);
 addRecipe("pumpkin-whoopie-pies", ["Dessert/Cake/Whoopie Pies"]);
+addRecipe("qdoba-queso-dip", ["Appetizer"], true);
 addRecipe("rainbow-cookies", ["Dessert/Cookies"]);
 addRecipe("raspberry-cheesecake-flavoring", ["Dessert/Cake/Cheesecake"]);
 addRecipe("red-velvet-cupcakes", ["Dessert/Cupcakes"]);

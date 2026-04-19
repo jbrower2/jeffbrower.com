@@ -25,7 +25,11 @@
       "Bash(git mv *)",
       "Bash(curl -sS http://localhost:8765/ -o /dev/null -w \"%{http_code}\\\\n\")",
       "Bash(curl -sS http://localhost:8765/index.js -o /dev/null -w \"%{http_code}\\\\n\")",
-      "Bash(curl -sS http://localhost:8765/index.js)"
+      "Bash(curl -sS http://localhost:8765/index.js)",
+      "WebSearch",
+      "WebFetch(domain:www.food.com)",
+      "WebFetch(domain:web.archive.org)",
+      "WebFetch(domain:www.copymethat.com)"
     ]
   }
 }
