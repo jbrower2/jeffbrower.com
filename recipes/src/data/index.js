@@ -149,7 +149,11 @@ const notShown = [
   "whoopie-pies",
 ];
 
-const shown = new Set(["nanas-rocky-road-candies"]);
+const shown = new Set([
+  "carrot-cake-cupcakes",
+  "carrot-cake",
+  "nanas-rocky-road-candies",
+]);
 
 function nameFromMarkdown(md) {
   const firstLine = md.split("\n", 1)[0];
