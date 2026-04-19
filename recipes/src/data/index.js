@@ -231,6 +231,7 @@ addRecipe("rice-krispie-treats", ["Dessert/Candy"], true);
 addRecipe("rivers-banana-bread", ["Dessert/Bread"], true);
 addRecipe("rocky-road-fudge", ["Dessert/Fudge"]);
 addRecipe("rule-of-3-garlic-buffalo-wing-sauce", ["Seasoning"], true);
+addRecipe("salsa-morada", ["Seasoning"], true);
 addRecipe("sherbet", ["Dessert/Ice Cream"]);
 addRecipe("shortbread-cookies", ["Dessert/Cookies"]);
 addRecipe("snickerdoodles", ["Dessert/Cookies"]);

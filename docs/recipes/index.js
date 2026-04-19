@@ -25396,6 +25396,13 @@ Super soft peanut butter cookies stuffed with Reese's Peanut Butter Cups and dri
     }
   });
 
+  // src/data/salsa-morada.md
+  var require_salsa_morada = __commonJS({
+    "src/data/salsa-morada.md"(exports, module) {
+      module.exports = "# Salsa Morada with Buena Mulata Peppers\n\nWhile hot and spicy, Buena Mulata has a lingering floral flavor that sets it apart from all other peppers of this type.\n\n- **Servings:** {16}\n- [Source](https://www.motherearthgardener.com/food/salsa-morada-buena-mulata-peppers-zmaz16szsbak/)\n\n## Ingredients\n\n- {1 1/2} lb. sweet green peppers, seeded and chopped\n- {8} oz. violet Buena Mulata peppers, seeded and chopped\n- {1} cup sugar\n- {1 1/2} tablespoons pickling salt\n- {2} tablespoons powdered unsweetened chocolate\n- {1 1/2} cups vinegar\n- {2} teaspoons ground coriander\n- {1} tablespoon ground hot chili pepper (optional)\n\n## Instructions\n\n1. Put the green pepper, Buena Mulata, sugar, salt, chocolate, vinegar, and coriander in a heavy preserving pan. Cover and boil gently for 20 minutes.\n1. Remove from the heat and stand 2 to 3 hours, or until the peppers are completely soft. Puree to a smooth creamy consistency.\n1. Reheat in a clean preserving pan and bring to a boil. Cook 3 minutes and then adjust the heat with additional pepper to taste.\n1. Pour into hot sterilized jars and seal.\n";
+    }
+  });
+
   // src/data/sherbet.md
   var require_sherbet = __commonJS({
     "src/data/sherbet.md"(exports, module) {
@@ -28720,6 +28727,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./rivers-banana-bread.md": () => require_rivers_banana_bread(),
     "./rocky-road-fudge.md": () => require_rocky_road_fudge(),
     "./rule-of-3-garlic-buffalo-wing-sauce.md": () => require_rule_of_3_garlic_buffalo_wing_sauce(),
+    "./salsa-morada.md": () => require_salsa_morada(),
     "./sherbet.md": () => require_sherbet(),
     "./shortbread-cookies.md": () => require_shortbread_cookies(),
     "./snickerdoodles.md": () => require_snickerdoodles(),
@@ -28981,6 +28989,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("rivers-banana-bread", ["Dessert/Bread"], true);
   addRecipe("rocky-road-fudge", ["Dessert/Fudge"]);
   addRecipe("rule-of-3-garlic-buffalo-wing-sauce", ["Seasoning"], true);
+  addRecipe("salsa-morada", ["Seasoning"], true);
   addRecipe("sherbet", ["Dessert/Ice Cream"]);
   addRecipe("shortbread-cookies", ["Dessert/Cookies"]);
   addRecipe("snickerdoodles", ["Dessert/Cookies"]);
