@@ -24860,6 +24860,13 @@ Combine base flavors with the listed additions.
     }
   });
 
+  // src/data/mashed-potatoes.md
+  var require_mashed_potatoes = __commonJS({
+    "src/data/mashed-potatoes.md"(exports, module) {
+      module.exports = "# Mashed Potatoes\n\nFluffy, creamy and buttery, these are absolutely PERFECT every time.\n\n- **Servings:** {10}\n- [Source](https://www.spendwithpennies.com/how-to-make-mashed-potatoes/)\n- **Prep Time:** 15 minutes\n- **Cook Time:** 20 minutes\n- **Total Time:** 35 minutes\n\n## Ingredients\n\n- {4} pounds potatoes, russet or Yukon gold\n- {3} cloves garlic, optional\n- {1/3} cup melted salted butter\n- {1} cup milk or cream\n- salt, to taste\n- black pepper, to taste\n\n## Instructions\n\n1. Peel and quarter potatoes, place in a pot of cold salted water.\n1. Add cloves of garlic (if using) and bring to a boil; cook uncovered 15 minutes or until fork-tender. Drain well.\n1. Heat milk on the stove top (or in the microwave) until warm.\n1. Add butter to the potatoes and begin mashing. Pour in heated milk a little at a time while using a potato masher to reach desired consistency.\n1. Season with salt and pepper. Serve hot.\n\n## Notes\n\n- **Drain well:** Let potatoes sit about 5 minutes to completely drain, or drain well and return them to the warm pot for a few minutes to make sure all liquid is evaporated.\n- **Mash by hand:** Use a hand masher or a potato ricer for the creamiest potatoes. A hand mixer, stand mixer, or food processor can work, but may break down the starches and cause a gummy texture.\n- **Add butter!:** This is not a place to skimp. Use salted butter and lots of it (or use unsalted and season to taste).\n- **Heat the milk:** Heat milk/cream before adding \u2014 it keeps the potatoes hot and absorbs better. Add a little at a time to reach the right consistency.\n- **Make ahead:** Cool completely, then store in an air-tight container in the refrigerator. To reheat, spread into a greased casserole dish and dot with butter. Bake at 325\xB0F until the butter melts and the potatoes are heated through, about 35\u201340 minutes. Bake uncovered for a browned crust.\n";
+    }
+  });
+
   // src/data/mint-chocolate-fudge.md
   var require_mint_chocolate_fudge = __commonJS({
     "src/data/mint-chocolate-fudge.md"(exports, module) {
@@ -28453,6 +28460,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./marry-me-snickerdoodles.md": () => require_marry_me_snickerdoodles(),
     "./marshmallow-frosting.md": () => require_marshmallow_frosting(),
     "./mascarpone-frosting.md": () => require_mascarpone_frosting(),
+    "./mashed-potatoes.md": () => require_mashed_potatoes(),
     "./mint-chocolate-fudge.md": () => require_mint_chocolate_fudge(),
     "./molasses-cookies.md": () => require_molasses_cookies(),
     "./monkey-bread.md": () => require_monkey_bread(),
@@ -28689,6 +28697,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("marry-me-snickerdoodles", ["Dessert/Cookies"], true);
   addRecipe("marshmallow-frosting", ["Dessert/Frosting/Frosting"]);
   addRecipe("mascarpone-frosting", ["Dessert/Frosting/Frosting"]);
+  addRecipe("mashed-potatoes", ["Side Dish"], true);
   addRecipe("mint-chocolate-fudge", ["Dessert/Fudge"]);
   addRecipe("molasses-cookies", ["Dessert/Cookies"]);
   addRecipe("monkey-bread", ["Dessert/Bread"]);

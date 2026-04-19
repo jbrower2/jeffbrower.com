@@ -161,6 +161,7 @@ addRecipe("maple-walnut-fudge", ["Dessert/Fudge"]);
 addRecipe("marry-me-snickerdoodles", ["Dessert/Cookies"], true);
 addRecipe("marshmallow-frosting", ["Dessert/Frosting/Frosting"]);
 addRecipe("mascarpone-frosting", ["Dessert/Frosting/Frosting"]);
+addRecipe("mashed-potatoes", ["Side Dish"], true);
 addRecipe("mint-chocolate-fudge", ["Dessert/Fudge"]);
 addRecipe("molasses-cookies", ["Dessert/Cookies"]);
 addRecipe("monkey-bread", ["Dessert/Bread"]);
