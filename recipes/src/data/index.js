@@ -24,6 +24,7 @@ const CATEGORIES = new Set([
   "Dessert/Pie/Pie Crusts",
   "Appetizer",
   "Drink",
+  "Holidays/Fennelly Thanksgiving 2025",
   "Main Dish",
   "Seasoning",
   "Side Dish",
@@ -87,6 +88,11 @@ addRecipe("carrot-cake-cupcakes", ["Dessert/Cupcakes"], true);
 addRecipe("cheesecake", ["Dessert/Cake/Cheesecake"]);
 addRecipe("cheesecake-shell", ["Dessert/Cake/Cheesecake/Shells"]);
 addRecipe("cheesy-hashbrown-casserole", ["Side Dish"], true);
+addRecipe(
+  "cheesy-hasselback-potato-gratin",
+  ["Side Dish", "Holidays/Fennelly Thanksgiving 2025"],
+  true,
+);
 addRecipe("cherry-banana-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
 addRecipe("cherry-pie", ["Dessert/Pie"]);
 addRecipe("chocolate-brownies", ["Dessert/Brownies"]);
