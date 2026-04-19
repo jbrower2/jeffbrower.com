@@ -7,9 +7,11 @@
 
 - {4} cup Sugar
 - {1/2} cup Unsweetened Cocoa Powder
-- {2} cup Buttermilk
+- {1} cup Buttermilk
+- {1} cup Sweetened Condensed Milk
 - {3/4} stick Butter
 - {2} tsp Vanilla Extract
+- Red Food Coloring
 
 ## Instructions
 

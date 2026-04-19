@@ -19,7 +19,13 @@
       "Bash(curl -sI http://127.0.0.1:8765/docs/recipes/index.js)",
       "Bash(npm uninstall *)",
       "Bash(sed -E 's/.*\"\\\\.\\\\/\\([^\"]+\\)\\\\.md\".*/\\\\1/')",
-      "Read(//tmp/**)"
+      "Read(//tmp/**)",
+      "Bash(sed 's/\\\\.htm$//')",
+      "Bash(awk -F. '{ *)",
+      "Bash(git mv *)",
+      "Bash(curl -sS http://localhost:8765/ -o /dev/null -w \"%{http_code}\\\\n\")",
+      "Bash(curl -sS http://localhost:8765/index.js -o /dev/null -w \"%{http_code}\\\\n\")",
+      "Bash(curl -sS http://localhost:8765/index.js)"
     ]
   }
 }

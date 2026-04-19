@@ -23595,6 +23595,13 @@
     }
   });
 
+  // src/data/apple-bread.md
+  var require_apple_bread = __commonJS({
+    "src/data/apple-bread.md"(exports, module) {
+      module.exports = "# Apple Bread\n\n- **Servings:** {18}\n- **Yield:** {1} loaf\n\n## Ingredients\n\n- {3/8} cup Pecans, chopped\n- {1 1/8} cup Brown Sugar\n- {3/4} tsp Cinnamon\n- {1 1/2} cup All-purpose Flour\n- {1 1/2} cup Whole Wheat Flour\n- {1/2} tbsp Baking Soda\n- {3/4} tsp Salt\n- {3/8} cup Canola Oil\n- {3} Egg\n- {1 1/2} cup Applesauce\n- {1/2} tbsp Vanilla Extract\n- {1 1/8} cup Buttermilk\n- {1 1/2} Apple\n\n## Instructions\n\n1. Preheat the oven to 325 degrees F\n1. Coat a 9x5x3 inch loaf pan with butter\n1. In a small bowl, mix together the pecans, 2 tablespoons of the brown sugar and the cinnamon\n1. In a medium bowl, whisk together the all-purpose and whole wheat flour, baking soda and salt\n1. In a large bowl, whisk the remaining 3/4 cup sugar and the oil until combined\n1. Add the eggs, one at a time, whisking well after each addition\n1. Whisk in the applesauce and vanilla\n1. Whisk in the flour mixture in two batches, alternating with the buttermilk\n1. Whisk just until combined\n1. Gently stir in the apple chunks\n1. Pour the batter into the prepared loaf pan and sprinkle with the pecan mixture\n1. Tap the pan on the counter a few times to remove any air bubbles\n1. Bake until a wooden pick inserted in center comes out clean, 1 hour to 1 hour and 10 minutes\n1. Let cool on a wire rack for 15 minutes\n1. Remove from pan and let cool completely on the rack\n";
+    }
+  });
+
   // src/data/apple-fritters.md
   var require_apple_fritters = __commonJS({
     "src/data/apple-fritters.md"(exports, module) {
@@ -24047,6 +24054,20 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
     }
   });
 
+  // src/data/chocolate-pumpkin-cake.md
+  var require_chocolate_pumpkin_cake = __commonJS({
+    "src/data/chocolate-pumpkin-cake.md"(exports, module) {
+      module.exports = "# Chocolate Pumpkin Cake\n\n- **Servings:** {12}\n- **Yield:** {1} 2-layer cake\n\n## Ingredients\n\n- {1 3/4} cup All-purpose Flour\n- {3/4} cup Unsweetened Cocoa Powder\n- {2} tsp Baking Powder\n- {1} tsp Baking Soda\n- {1/2} tbsp Cinnamon\n- {1/2} tsp Nutmeg\n- {1/2} cup Buttermilk\n- {1} cup Pumpkin Puree\n- {1} tsp Vanilla Extract\n- {1 1/2} stick Butter, softened\n- {1} cup Brown Sugar\n- {1} cup Sugar\n- {3} Egg\n- Frosting\n\n## Instructions\n\n1. Heat oven to 350 degrees F\n1. Lightly butter three 8-inch cake pans and fit each bottom with an 8-inch circle of parchment paper\n1. Lightly butter the parchment paper\n1. Set aside\n1. Sift the flour, cocoa, baking powder, baking soda, cinnamon, and nutmeg in a large bowl and set aside\n1. Combine the buttermilk, pumpkin, and vanilla in a medium bowl and set aside\n1. Beat the butter and sugars together in a large bowl, with an electric mixer set on medium speed, until fluffy\n1. Add the eggs, one at a time, beating well after each addition, until the mixture is smooth and light\n1. Alternately add the flour mixture and buttermilk mixture, blending well after each addition\n1. Divide the batter among the pans and bake about 35 minutes until a wooden skewer inserted into the middle comes out clean\n1. Cool the cakes in the pan for 20 minutes\n1. Remove cakes and cool\n1. Trim each of the layers\n1. Place one layer on a cake plate and top with one third of the frosting\n1. Repeat with the second and third layers\n1. To ensure that the cake layers do not shift, cut three skewers to 1/4 inch shorter than the full height of the cake and insert them before icing the top layer\n1. Refrigerate until ready to serve\n";
+    }
+  });
+
+  // src/data/chocolate-pumpkin-cupcakes.md
+  var require_chocolate_pumpkin_cupcakes = __commonJS({
+    "src/data/chocolate-pumpkin-cupcakes.md"(exports, module) {
+      module.exports = "# Chocolate Pumpkin Cupcakes\n\n- **Servings:** {12}\n- **Yield:** {24} cupcakes\n\n## Ingredients\n\n- {1 3/4} cup All-purpose Flour\n- {3/4} cup Unsweetened Cocoa Powder\n- {2} tsp Baking Powder\n- {1} tsp Baking Soda\n- {1/2} tbsp Cinnamon\n- {1/2} tsp Nutmeg\n- {1/2} cup Buttermilk\n- {1} cup Pumpkin Puree\n- {1} tsp Vanilla Extract\n- {1 1/2} stick Butter, softened\n- {1} cup Brown Sugar\n- {1} cup Sugar\n- {3} Egg\n- Frosting\n\n## Instructions\n\n1. Heat oven to 375 degrees F\n1. Place cupcake liners in standard cupcake tins\n1. Set aside\n1. Sift the flour, cocoa, baking powder, baking soda, cinnamon, and nutmeg in a large bowl and set aside\n1. Combine the buttermilk, pumpkin, and vanilla in a medium bowl and set aside\n1. Beat the butter and sugars together in a large bowl, with an electric mixer set on medium speed, until fluffy\n1. Add the eggs, one at a time, beating well after each addition, until the mixture is smooth and light\n1. Alternately add the flour mixture and buttermilk mixture, blending well after each addition\n1. Fill each cupcake tin with 1/4 cup of batter and bake about 22 minutes\n1. Cool the cupcakes in the pan for 20 minutes\n1. Remove cupcakes and cool\n1. Refrigerate until ready to serve\n";
+    }
+  });
+
   // src/data/chocolate-truffles.md
   var require_chocolate_truffles = __commonJS({
     "src/data/chocolate-truffles.md"(exports, module) {
@@ -24271,7 +24292,363 @@ These easy Hot Chocolate Cookies are always a hit! Made with real hot cocoa, thi
   // src/data/ice-cream.md
   var require_ice_cream = __commonJS({
     "src/data/ice-cream.md"(exports, module) {
-      module.exports = "# Ice Cream\n\n- **Servings:** {8}\n- **Yield:** {1} qt\n\n## Ingredients\n\n- {1} cup Milk, whole\n- {3/4} cup Sugar\n- {2} cup Heavy Cream\n- {1/16} tsp Salt\n- {1} Vanilla Bean, split lengthwise\n- {6} Egg Yolk\n- {3/4} tsp Vanilla Extract\n\n## Instructions\n\n1. Warm the milk, sugar, 1 cup of the heavy cream and the salt in a medium saucepan over low heat, stirring until the sugar is dissolved\n1. Scrape the seeds from the vanilla bean into the milk mixture and add the bean to the mixture as well\n1. Cover, remove from the heat and let steep at room temperature for 30 minutes\n1. Pour the remaining 1 cup heavy cream into a large bowl and place a fine-mesh sieve on top\n1. Whisk the egg yolks in a medium bowl\n1. Slowly pour the warmed milk mixture into the egg yolks, whisking constantly\n1. Scrape the mixture back into the saucepan\n1. Place the saucepan over medium heat and stir constantly with a rubber spatula, being sure to scrape the bottom of the pan as you stir, until the mixture thickens and coats the back of the spatula, a few minutes\n1. The mixture should register 170 to 175 degrees F on an instant-read digital thermometer\n1. Pour the custard through the fine-mesh sieve and stir it into the cream\n1. Add in additional ingredients\n1. Place the vanilla bean into the custard, stir in the vanilla extract, and place the bowl over an ice bath\n1. Stir occasionally, until the mixture is cool\n1. Cover and transfer the custard to the refrigerator until completely chilled, at least 8 hours or overnight\n1. When ready to churn the ice cream, remove the vanilla bean from the custard and freeze the mixture in your ice cream maker according to the manufacturer's instructions\n1. Transfer to a freezer-safe container and store in the freezer\n";
+      module.exports = `# Ice Cream
+
+- **Servings:** {8}
+- **Yield:** {1} qt
+
+## Ingredients
+
+- {1} cup Milk, whole
+- {3/4} cup Sugar
+- {2} cup Heavy Cream
+- {1/16} tsp Salt
+- {1} Vanilla Bean, split lengthwise
+- {6} Egg Yolk
+- {3/4} tsp Vanilla Extract
+
+## Instructions
+
+1. Warm the milk, sugar, 1 cup of the heavy cream and the salt in a medium saucepan over low heat, stirring until the sugar is dissolved
+1. Scrape the seeds from the vanilla bean into the milk mixture and add the bean to the mixture as well
+1. Cover, remove from the heat and let steep at room temperature for 30 minutes
+1. Pour the remaining 1 cup heavy cream into a large bowl and place a fine-mesh sieve on top
+1. Whisk the egg yolks in a medium bowl
+1. Slowly pour the warmed milk mixture into the egg yolks, whisking constantly
+1. Scrape the mixture back into the saucepan
+1. Place the saucepan over medium heat and stir constantly with a rubber spatula, being sure to scrape the bottom of the pan as you stir, until the mixture thickens and coats the back of the spatula, a few minutes
+1. The mixture should register 170 to 175 degrees F on an instant-read digital thermometer
+1. Pour the custard through the fine-mesh sieve and stir it into the cream
+1. Add in additional ingredients
+1. Place the vanilla bean into the custard, stir in the vanilla extract, and place the bowl over an ice bath
+1. Stir occasionally, until the mixture is cool
+1. Cover and transfer the custard to the refrigerator until completely chilled, at least 8 hours or overnight
+1. When ready to churn the ice cream, remove the vanilla bean from the custard and freeze the mixture in your ice cream maker according to the manufacturer's instructions
+1. Transfer to a freezer-safe container and store in the freezer
+
+## Flavors
+
+Add any of the following at the "additional ingredients" step.
+
+### Apple
+
+- {4} Chopped Apples, blended
+
+### Apricot
+
+- {4} lb Pitted Apricots, blended
+
+### Avocado
+
+- {4} Pitted Avocados, blended
+- {2} tsp Orange Zest
+
+### Banana
+
+- {3} Mashed Bananas, blended
+
+### Blueberry
+
+- {4} cup Blueberries, blended
+
+### Butter
+
+- {2} tbsp Melted Butter
+
+### Cake Batter
+
+- {1} cup Cake Mix
+- {2} Beaten Egg Yolks
+
+Or use {16} oz of prepared cake batter.
+
+### Cantaloupe
+
+- {4} cup Chopped Cantaloupe, blended
+
+### Caramel
+
+- {1 1/2} cup Melted Caramel
+
+### Cherry
+
+- {16} oz Cherries, blended
+- {6} oz Lemonade Concentrate
+
+### Chocolate
+
+- {1/2} cup Cocoa Powder
+
+### Cinnamon
+
+- {1 1/2} tbsp Cinnamon
+
+### Coconut
+
+- {2} cup Packed Coconut
+
+### Coffee
+
+- {4} tbsp Coffee Granules
+
+### Cookie Dough
+
+- {3/4} cup Butter
+- {3/4} cup Brown Sugar
+- {1/2} cup Sugar
+- {3} tbsp Heavy Cream
+- {1} tsp Vanilla Extract
+- {1/2} tsp Salt
+- {1} cup All-purpose Flour
+- {1} cup Mini Chocolate Chips
+
+1. Combine the butter and both sugars in a mixing bowl and beat on medium speed until light and fluffy, 2 to 3 minutes
+1. Add the cream, vanilla and salt, and mix for another minute or so, until combined
+1. Scrape the sides of the bowl, then reduce the mixer speed to low and gradually add the flour, mixing just until incorporated
+1. Using a rubber spatula, stir in the chocolate chips
+1. Refrigerate for at least 30 minutes, or up to 2 days
+
+### Cranberry
+
+- {4} cup Cranberries, blended
+
+### Cream Cheese
+
+- {16} oz Cream Cheese
+
+### Double Chocolate
+
+- {1 1/2} cup Cocoa Powder
+- {3} oz Chopped Bittersweet Chocolate
+
+### Eggnog
+
+- {4} cup Eggnog
+
+### Elderberry
+
+- {4} cup Elderberries, blended
+- {2} tbsp Lemon Juice
+
+### Gooseberry
+
+- {3} lb Gooseberries, blended
+- {1} cup Elderflower Cordial
+
+### Grape
+
+- {3} lb Red Seedless Grapes, blended
+- {2} cup Grape Juice
+
+### Grapefruit
+
+- {3} cup Grapefruit, blended
+- {1} tsp Fresh Mint
+
+### Guava
+
+- {1 1/2} lb Guavas, blended
+
+### Honey
+
+- {1 1/2} cup Brown Sugar
+- {4} tbsp Honey
+
+### Honeydew
+
+- {4} Honeydews, blended
+- {4} tbsp Lime Juice
+
+### Honeysuckle
+
+- {2} qt Honeysuckles
+
+1. Add the honeysuckles to the cream mixture in a saucepan and simmer
+1. Place the mixture in the fridge overnight
+1. Strain out the honeysuckles
+
+### Key Lime
+
+- {2} tsp Lime Zest
+- {2/3} cup Key Lime Juice
+- {1} cup Crushed Graham Cracker
+
+### Lemon
+
+- {3/4} cup Lemon Juice
+- {1} tbsp Lemon Zest
+
+### Lime
+
+- {2} tsp Lime Zest
+- {2/3} cup Lime Juice
+
+### Lychee
+
+- {3} cup Chopped Lychee, blended
+- {3/4} cup Lemon Juice
+
+### Mango
+
+- {3} Mangoes, blended
+
+### Maple
+
+- {1 1/2} cup Maple Syrup
+
+### Marshmallow
+
+- {20} oz Marshmallows
+
+1. Place on baking sheet in middle rack of oven at 350 F for 3-4 minutes
+1. Place on top rack and broil for 2-3 minutes until brown
+
+### Mint
+
+- {1} tsp Peppermint Extract
+
+### Olive
+
+- {1/3} cup Sliced Black Olives, blended
+
+### Orange
+
+- {3} cup Orange Juice
+- {2} tsp Orange Zest
+
+### Peach
+
+- {5} cup Fresh or Frozen Peaches, blended
+- {2} tbsp Lemon Juice
+
+### Peanut Butter
+
+- {1} cup Peanut Butter
+
+### Pear
+
+- {6} Chopped Pears, blended
+- {3} tbsp Lemon Juice
+
+### Pineapple
+
+- {2} cup Chopped Pineapple, blended
+
+### Pistachio
+
+- {3} cup Ground Pistachios
+- {1} cup Chopped Pistachios
+
+### Plum
+
+- {6} cup Pitted Plums, blended
+
+### Pomegranate
+
+- {3/4} cup Pomegranate Juice, blended
+- {1/3} cup Lime Juice
+
+### Pumpkin
+
+- {15} oz Pumpkin Puree
+- {1} tsp Cinnamon
+
+### Raspberry
+
+- {5} cup Raspberries, blended
+
+### Rhubarb
+
+- {3} cup Diced Rhubarb
+- {1/8} cup Lemon Juice
+
+### Root Beer
+
+- {2} liter Root Beer, reduced to {3} cup by boiling
+
+### Star Fruit
+
+- {16} Star Fruits, blended
+- {2} tsp Orange Zest
+
+### Strawberry
+
+- {5} cup Strawberries, blended
+- {2} tbsp Lemon Juice
+
+### Tangerine
+
+- {24} Tangerines
+
+1. Zest {10} tangerines
+1. Juice all of the tangerines, including the ones you zested
+1. Combine
+
+### Watermelon
+
+- {4} cup Chopped, Seedless Watermelon, blended
+- {1/4} cup Lime Juice
+
+## Compound Flavors
+
+Combine base flavors with the listed additions.
+
+### Apple Pie
+
+- Apple
+- Cinnamon
+- {1} cup Graham Crackers
+
+### Birthday Party
+
+- Cake Batter
+- {1/2} cup Rainbow Sprinkles
+
+### Brownie Batter
+
+- Chocolate or Double Chocolate
+- {16} oz Brownie Batter
+
+### Caramel Macchiato
+
+- Caramel
+- Coffee
+
+### Cinnamon Bun Batter
+
+- Cinnamon
+- {16} oz Cinnamon Bun Batter
+
+### Fluff-a-Nutter
+
+- Marshmallow
+- Peanut Butter
+
+### Mocha
+
+- Chocolate or Double Chocolate
+- Coffee
+
+### Pumpkin Pie
+
+- Pumpkin
+- {1} tsp Ginger
+- {1/2} tsp Nutmeg
+- {1} cup Graham Crackers
+
+### Rocky Road
+
+- Chocolate or Double Chocolate
+- {1/2} cup Peanuts
+- {1} cup Marshmallows
+
+### S'Mores
+
+- Chocolate or Double Chocolate
+- Marshmallow
+- Peanut Butter
+- {1} cup Graham Crackers
+`;
     }
   });
 
@@ -24684,7 +25061,7 @@ These easy Hot Chocolate Cookies are always a hit! Made with real hot cocoa, thi
   // src/data/red-velvet-fudge.md
   var require_red_velvet_fudge = __commonJS({
     "src/data/red-velvet-fudge.md"(exports, module) {
-      module.exports = "# Red Velvet Fudge\n\n- **Servings:** {32}\n- **Yield:** {64} pieces\n\n## Ingredients\n\n- {4} cup Sugar\n- {1/2} cup Unsweetened Cocoa Powder\n- {2} cup Buttermilk\n- {3/4} stick Butter\n- {2} tsp Vanilla Extract\n\n## Instructions\n\n1. Using a 8x8 pan, line pan with wax parchment paper or wax paper\n1. Make sure you have some extra on all four sides\n1. Combine sugar, cocoa, buttermilk, sweet condensed milk, and food coloring in a non stick pan\n1. (I used a big pot) Stir to combine\n1. Bring to a boil, stirring constantly, but do not scrape down the sides\n1. (to avoid getting crystallized sugar in fudge)\n1. Using a well calibrated thermometer, make sure the fudge gets up to 238 degrees\n1. Reduce heat and allow fudge to simmer\n1. DO NOT STIR\n1. At all\n1. Like seriously dont even touch the pan\n1. Allow fudge to cool to 110 degrees and add butter and vanilla\n1. Beat by hand or use electric mixer until fudge loses its sheen\n1. (I used an electric mixer for 20 minutes\n1. Not kidding\n1. Some folks say this stage takes 3-5 minutes.)\n1. Place in prepared pan and allow to cool, usually 1-2 hours\n";
+      module.exports = "# Red Velvet Fudge\n\n- **Servings:** {32}\n- **Yield:** {64} pieces\n\n## Ingredients\n\n- {4} cup Sugar\n- {1/2} cup Unsweetened Cocoa Powder\n- {1} cup Buttermilk\n- {1} cup Sweetened Condensed Milk\n- {3/4} stick Butter\n- {2} tsp Vanilla Extract\n- Red Food Coloring\n\n## Instructions\n\n1. Using a 8x8 pan, line pan with wax parchment paper or wax paper\n1. Make sure you have some extra on all four sides\n1. Combine sugar, cocoa, buttermilk, sweet condensed milk, and food coloring in a non stick pan\n1. (I used a big pot) Stir to combine\n1. Bring to a boil, stirring constantly, but do not scrape down the sides\n1. (to avoid getting crystallized sugar in fudge)\n1. Using a well calibrated thermometer, make sure the fudge gets up to 238 degrees\n1. Reduce heat and allow fudge to simmer\n1. DO NOT STIR\n1. At all\n1. Like seriously dont even touch the pan\n1. Allow fudge to cool to 110 degrees and add butter and vanilla\n1. Beat by hand or use electric mixer until fudge loses its sheen\n1. (I used an electric mixer for 20 minutes\n1. Not kidding\n1. Some folks say this stage takes 3-5 minutes.)\n1. Place in prepared pan and allow to cool, usually 1-2 hours\n";
     }
   });
 
@@ -24766,9 +25143,9 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     }
   });
 
-  // src/data/spritzgeb-ck-cookies.md
-  var require_spritzgeb_ck_cookies = __commonJS({
-    "src/data/spritzgeb-ck-cookies.md"(exports, module) {
+  // src/data/spritzgeback-cookies.md
+  var require_spritzgeback_cookies = __commonJS({
+    "src/data/spritzgeback-cookies.md"(exports, module) {
       module.exports = "# Spritzgeb\xE4ck Cookies\n\n- **Servings:** {72}\n- **Yield:** {72} cookies\n\n## Ingredients\n\n- {4} stick Butter\n- {1 1/4} tsp Salt\n- {1} cup Sugar\n- {2} Egg\n- {1} tsp Vanilla Extract\n- {4} cup All-purpose Flour\n\n## Instructions\n\n1. Preheat oven to 375 degrees F\n1. Refrigerate UNGREASED cookie sheets until ready to use\n1. NOTE: Pressing the dough out onto cool, ungreased baking sheets makes it possible for each application to stick on contact\n1. You will need to clean off the cookie sheets between batches\n1. In a large bowl, mix butter until creamy\n1. Either use your electric mixer or beat by hand\n1. Gradually add sugar; beating until light and fluffy\n1. Cream the butter and sugar together thoroughly before beating in the egg\n1. Add eggs and beat well; stir in vanilla extract\n1. Gradually add flour to mixture, beating well after each addition\n1. The secret lies in the dough, which should be neither too soft nor too firm\n1. It it is too soft, the cookies will have no definition, and if the dough is to firm, the cookies will bake too dry\n1. To test the dough's consistency before baking a batch, press a small amount of dough through the cookie press cylinder\n1. If the dough is too soft so that it doesn't go through cleanly, chill the dough for about 15 minutes\n1. If the dough seems too firm, stir into the dough about 1 or 2 teaspoons whole milk\n1. If dough becomes too soft during use, refrigerate dough about 5 minutes or until firm enough to hold its shape (the dough will crumble if it is too cold, and it won't stick to the cookie sheet)\n";
     }
   });
@@ -27799,6 +28176,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   // require("./**/*.md") in src/data/index.js
   var globRequire_md = __glob({
     "./almond-pastry-cream.md": () => require_almond_pastry_cream(),
+    "./apple-bread.md": () => require_apple_bread(),
     "./apple-fritters.md": () => require_apple_fritters(),
     "./apple-muffins.md": () => require_apple_muffins(),
     "./apple-pear-pie.md": () => require_apple_pear_pie(),
@@ -27849,6 +28227,8 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./chocolate-orange-fudge.md": () => require_chocolate_orange_fudge(),
     "./chocolate-pastry-cream.md": () => require_chocolate_pastry_cream(),
     "./chocolate-peppermint-pizzelles.md": () => require_chocolate_peppermint_pizzelles(),
+    "./chocolate-pumpkin-cake.md": () => require_chocolate_pumpkin_cake(),
+    "./chocolate-pumpkin-cupcakes.md": () => require_chocolate_pumpkin_cupcakes(),
     "./chocolate-truffles.md": () => require_chocolate_truffles(),
     "./churros.md": () => require_churros(),
     "./cinnamon-bread-muffins.md": () => require_cinnamon_bread_muffins(),
@@ -27942,7 +28322,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./snickerdoodles.md": () => require_snickerdoodles(),
     "./sorbet.md": () => require_sorbet(),
     "./southwestern-egg-casserole.md": () => require_southwestern_egg_casserole(),
-    "./spritzgeb-ck-cookies.md": () => require_spritzgeb_ck_cookies(),
+    "./spritzgeback-cookies.md": () => require_spritzgeback_cookies(),
     "./strawberry-rhubarb-pie.md": () => require_strawberry_rhubarb_pie(),
     "./sugar-cookies.md": () => require_sugar_cookies(),
     "./sweet-potato-pie.md": () => require_sweet_potato_pie(),
@@ -27961,197 +28341,354 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   });
 
   // src/data/index.js
-  var notShown = [
-    "almond-pastry-cream",
-    "apple-fritters",
-    "apple-muffins",
-    "apple-pear-pie",
-    "banana-bread-muffins",
-    "banana-cream-pie",
-    "banana-orange-bread-muffins",
-    "biscotti",
-    "black-and-white-cookies",
-    "blonde-brownies",
-    "blueberry-bread-muffins",
-    "blueberry-pie",
-    "boston-cream",
-    "brown-butter-frosting-icing",
-    "brown-butter-frosting",
-    "butter-pecan-fudge",
-    "butterbeer",
-    "cake-batter-fudge",
-    "candy-cane-fudge",
-    "candy-corn",
-    "cannoli-filling",
-    "cannoli-shells",
-    "caramel-shortbread-cookies",
-    "cheesecake-shell",
-    "cheesecake",
-    "cherry-banana-bread-muffins",
-    "cherry-pie",
-    "chocolate-brownies",
-    "chocolate-buttercream-frosting",
-    "chocolate-cake",
-    "chocolate-cannoli-shells",
-    "chocolate-cannolis",
-    "chocolate-cheesecake",
-    "chocolate-chip-cinnamon-pizzelles",
-    "chocolate-chip-cookie-dough-fudge",
-    "chocolate-chip-cookies",
-    "chocolate-chip-cupcakes",
-    "chocolate-chocolate-chip-cookies",
-    "chocolate-cinnamon-fudge",
-    "chocolate-covered-pretzels",
-    "chocolate-cream-pie",
-    "chocolate-donuts",
-    "chocolate-eclairs",
-    "chocolate-fudge",
-    "chocolate-icing",
-    "chocolate-orange-fudge",
-    "chocolate-pastry-cream",
-    "chocolate-peppermint-pizzelles",
-    "chocolate-truffles",
-    "churros",
-    "cinnamon-bread-muffins",
-    "cinnamon-rolls-old",
-    "coffee-pastry-cream",
-    "cookie-dough-frosting",
-    "cookies-and-cream-fudge",
-    "cornbread-muffins",
-    "cream-puffs",
-    "donut-glaze",
-    "donuts",
-    "double-chocolate-gelato",
-    "eggnog-custard-pie",
-    "eggnog-fudge",
-    "espresso-brownies",
-    "fortune-cookies",
-    "funnel-cake",
-    "gelato",
-    "ginger-snaps",
-    "gingerbread-cookies",
-    "grape-pie",
-    "ice-cream",
-    "key-lime-pie",
-    "lemon-cookies",
-    "lemon-glaze",
-    "lemon-lime-sorbet",
-    "lemon-meringue-pie",
-    "lemon-pastry-cream",
-    "lemon-poppyseed-bread",
-    "lime-sherbet",
-    "maple-cream-cheese-frosting",
-    "maple-syrup-bread-muffins",
-    "maple-walnut-fudge",
-    "marshmallow-frosting",
-    "mascarpone-frosting",
-    "mint-chocolate-fudge",
-    "molasses-cookies",
-    "monkey-bread",
-    "nutella-frosting",
-    "nutella-fudge",
-    "oatmeal-raisin-cookies",
-    "orange-brownies",
-    "orange-cinnamon-swirl-bread-muffins",
-    "orange-creamsicle-fudge",
-    "orange-pastry-cream",
-    "orange-rolls",
-    "oreo-graham-cracker-pie-crust",
-    "peach-pie",
-    "peanut-brittle",
-    "peanut-butter-chocolate-chip-bacon-cookies",
-    "peanut-butter-cookies",
-    "peanut-butter-fudge",
-    "peanut-butter-pie",
-    "peanut-swirl-brownies",
-    "pecan-pie",
-    "peppermint-bark",
-    "peppermint-cannolis",
-    "peppermint-glaze",
-    "pie-crust",
-    "pineapple-cookies",
-    "pineapple-pumpkin-bread-muffins",
-    "pizzelles",
-    "pumpkin-bread-muffins",
-    "pumpkin-butterscotch-fudge",
-    "pumpkin-cannolis",
-    "pumpkin-cheesecake-flavoring",
-    "pumpkin-cupcakes",
-    "pumpkin-donuts",
-    "pumpkin-drop-cookies",
-    "pumpkin-pastry-cream",
-    "pumpkin-pie",
-    "pumpkin-spice-cake",
-    "pumpkin-whoopie-pies",
-    "rainbow-cookies",
-    "raspberry-cheesecake-flavoring",
-    "red-velvet-cupcakes",
-    "red-velvet-fudge",
-    "rocky-road-fudge",
-    "sherbet",
-    "shortbread-cookies",
-    "snickerdoodles",
-    "sorbet",
-    "spritzgeb-ck-cookies",
-    "strawberry-rhubarb-pie",
-    "sugar-cookies",
-    "sweet-potato-pie",
-    "tiramisu",
-    "triple-chocolate-brownies",
-    "vanilla-buttercream-frosting",
-    "vanilla-cake",
-    "vanilla-frosting-whoopie-pie-filling",
-    "vanilla-fudge",
-    "vanilla-icing",
-    "vanilla-pastry-cream",
-    "velveeta-fudge",
-    "watermelon-pie",
-    "white-chocolate-cheesecake",
-    "whoopie-pies"
-  ];
-  var shown = /* @__PURE__ */ new Set([
-    "best-chocolate-cupcakes",
-    "carrot-cake-cupcakes",
-    "carrot-cake",
-    "cinnamon-rolls",
-    "cream-cheese-frosting",
-    "easy-green-chicken-enchiladas",
-    "favorite-chocolate-buttercream",
-    "hot-chocolate-cookies",
-    "iced-gingerbread-oatmeal-cookies",
-    "marry-me-snickerdoodles",
-    "nanas-rocky-road-candies",
-    "prime-rib",
-    "rice-krispie-treats",
-    "southwestern-egg-casserole"
+  var CATEGORIES = /* @__PURE__ */ new Set([
+    "Breakfast",
+    "Dessert/Bread",
+    "Dessert/Brownies",
+    "Dessert/Cake",
+    "Dessert/Cake/Cheesecake",
+    "Dessert/Cake/Cheesecake/Shells",
+    "Dessert/Cake/WhoopiePies",
+    "Dessert/Candy",
+    "Dessert/Cannolis/Filling",
+    "Dessert/Cannolis/Shells",
+    "Dessert/Cookies",
+    "Dessert/Cookies/Pizzelles",
+    "Dessert/Cupcakes",
+    "Dessert/Donuts",
+    "Dessert/Frosting/Custard",
+    "Dessert/Frosting/Frosting",
+    "Dessert/Frosting/Icing",
+    "Dessert/Fudge",
+    "Dessert/IceCream",
+    "Dessert/Muffins",
+    "Dessert/Pastry",
+    "Dessert/Pie",
+    "Dessert/Pie/PieCrusts",
+    "Drink",
+    "Main Dish"
   ]);
+  var recipes = [];
   function nameFromMarkdown(md) {
     const firstLine = md.split("\n", 1)[0];
     return firstLine.replace(/^#\s*/, "").trim();
   }
-  var data_default = [...notShown, ...shown].sort().map((slug) => {
+  function addRecipe(slug, categories, shown) {
+    for (const c of categories) {
+      if (!CATEGORIES.has(c)) {
+        throw new Error(`Unknown category "${c}" for ${slug}`);
+      }
+    }
     const markdown = globRequire_md(`./${slug}.md`);
-    return {
+    recipes.push({
       slug,
       name: nameFromMarkdown(markdown),
-      show: shown.has(slug),
+      show: shown === true,
+      categories,
       markdown
-    };
-  });
+    });
+  }
+  addRecipe("almond-pastry-cream", ["Dessert/Frosting/Custard"]);
+  addRecipe("apple-bread", ["Dessert/Bread"]);
+  addRecipe("apple-fritters", ["Dessert/Donuts"]);
+  addRecipe("apple-muffins", ["Dessert/Muffins"]);
+  addRecipe("apple-pear-pie", ["Dessert/Pie"]);
+  addRecipe("banana-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
+  addRecipe("banana-cream-pie", ["Dessert/Pie"]);
+  addRecipe("banana-orange-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
+  addRecipe("best-chocolate-cupcakes", ["Dessert/Cupcakes"], true);
+  addRecipe("biscotti", ["Dessert/Cookies"]);
+  addRecipe("black-and-white-cookies", ["Dessert/Cookies"]);
+  addRecipe("blonde-brownies", ["Dessert/Brownies"]);
+  addRecipe("blueberry-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
+  addRecipe("blueberry-pie", ["Dessert/Pie"]);
+  addRecipe("boston-cream", ["Dessert/Frosting/Custard"]);
+  addRecipe("brown-butter-frosting", ["Dessert/Frosting/Frosting"]);
+  addRecipe("brown-butter-frosting-icing", ["Dessert/Frosting/Frosting"]);
+  addRecipe("butter-pecan-fudge", ["Dessert/Fudge"]);
+  addRecipe("butterbeer", ["Drink"]);
+  addRecipe("cake-batter-fudge", ["Dessert/Fudge"]);
+  addRecipe("candy-cane-fudge", ["Dessert/Fudge"]);
+  addRecipe("candy-corn", ["Dessert/Candy"]);
+  addRecipe("cannoli-filling", ["Dessert/Cannolis/Filling"]);
+  addRecipe("cannoli-shells", ["Dessert/Cannolis/Shells"]);
+  addRecipe("caramel-shortbread-cookies", ["Dessert/Cookies"]);
+  addRecipe("carrot-cake", ["Dessert/Cake"], true);
+  addRecipe("carrot-cake-cupcakes", ["Dessert/Cupcakes"], true);
+  addRecipe("cheesecake", ["Dessert/Cake/Cheesecake"]);
+  addRecipe("cheesecake-shell", ["Dessert/Cake/Cheesecake/Shells"]);
+  addRecipe("cherry-banana-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
+  addRecipe("cherry-pie", ["Dessert/Pie"]);
+  addRecipe("chocolate-brownies", ["Dessert/Brownies"]);
+  addRecipe("chocolate-buttercream-frosting", ["Dessert/Frosting/Frosting"]);
+  addRecipe("chocolate-cake", ["Dessert/Cake"]);
+  addRecipe("chocolate-cannoli-shells", ["Dessert/Cannolis/Shells"]);
+  addRecipe("chocolate-cannolis", ["Dessert/Cannolis/Filling"]);
+  addRecipe("chocolate-cheesecake", ["Dessert/Cake/Cheesecake"]);
+  addRecipe("chocolate-chip-cinnamon-pizzelles", ["Dessert/Cookies/Pizzelles"]);
+  addRecipe("chocolate-chip-cookie-dough-fudge", ["Dessert/Fudge"]);
+  addRecipe("chocolate-chip-cookies", ["Dessert/Cookies"]);
+  addRecipe("chocolate-chip-cupcakes", ["Dessert/Cupcakes"]);
+  addRecipe("chocolate-chocolate-chip-cookies", ["Dessert/Cookies"]);
+  addRecipe("chocolate-cinnamon-fudge", ["Dessert/Fudge"]);
+  addRecipe("chocolate-covered-pretzels", ["Dessert/Candy"]);
+  addRecipe("chocolate-cream-pie", ["Dessert/Pie"]);
+  addRecipe("chocolate-donuts", ["Dessert/Donuts"]);
+  addRecipe("chocolate-eclairs", ["Dessert/Pastry"]);
+  addRecipe("chocolate-fudge", ["Dessert/Fudge"]);
+  addRecipe("chocolate-icing", ["Dessert/Frosting/Icing"]);
+  addRecipe("chocolate-orange-fudge", ["Dessert/Fudge"]);
+  addRecipe("chocolate-pastry-cream", ["Dessert/Frosting/Custard"]);
+  addRecipe("chocolate-peppermint-pizzelles", ["Dessert/Cookies/Pizzelles"]);
+  addRecipe("chocolate-pumpkin-cake", ["Dessert/Cake"]);
+  addRecipe("chocolate-pumpkin-cupcakes", ["Dessert/Cupcakes"]);
+  addRecipe("chocolate-truffles", ["Dessert/Candy"]);
+  addRecipe("churros", ["Dessert/Pastry"]);
+  addRecipe("cinnamon-bread-muffins", ["Dessert/Bread"]);
+  addRecipe("cinnamon-rolls", ["Dessert/Donuts"], true);
+  addRecipe("cinnamon-rolls-old", ["Dessert/Donuts"]);
+  addRecipe("coffee-pastry-cream", ["Dessert/Frosting/Custard"]);
+  addRecipe("cookie-dough-frosting", ["Dessert/Frosting/Frosting"]);
+  addRecipe("cookies-and-cream-fudge", ["Dessert/Fudge"]);
+  addRecipe("cornbread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
+  addRecipe("cream-cheese-frosting", ["Dessert/Frosting/Frosting"], true);
+  addRecipe("cream-puffs", ["Dessert/Pastry"]);
+  addRecipe("donut-glaze", ["Dessert/Donuts"]);
+  addRecipe("donuts", ["Dessert/Donuts"]);
+  addRecipe("double-chocolate-gelato", ["Dessert/IceCream"]);
+  addRecipe("easy-green-chicken-enchiladas", ["Main Dish"], true);
+  addRecipe("eggnog-custard-pie", ["Dessert/Pie"]);
+  addRecipe("eggnog-fudge", ["Dessert/Fudge"]);
+  addRecipe("espresso-brownies", ["Dessert/Brownies"]);
+  addRecipe(
+    "favorite-chocolate-buttercream",
+    ["Dessert/Frosting/Frosting"],
+    true
+  );
+  addRecipe("fortune-cookies", ["Dessert/Cookies"]);
+  addRecipe("funnel-cake", ["Dessert/Donuts"]);
+  addRecipe("gelato", ["Dessert/IceCream"]);
+  addRecipe("ginger-snaps", ["Dessert/Cookies"]);
+  addRecipe("gingerbread-cookies", ["Dessert/Cookies"]);
+  addRecipe("grape-pie", ["Dessert/Pie"]);
+  addRecipe("hot-chocolate-cookies", ["Dessert/Cookies"], true);
+  addRecipe("ice-cream", ["Dessert/IceCream"]);
+  addRecipe("iced-gingerbread-oatmeal-cookies", ["Dessert/Cookies"], true);
+  addRecipe("key-lime-pie", ["Dessert/Pie"]);
+  addRecipe("lemon-cookies", ["Dessert/Cookies"]);
+  addRecipe("lemon-glaze", ["Dessert/Frosting/Icing"]);
+  addRecipe("lemon-lime-sorbet", ["Dessert/IceCream"]);
+  addRecipe("lemon-meringue-pie", ["Dessert/Pie"]);
+  addRecipe("lemon-pastry-cream", ["Dessert/Frosting/Custard"]);
+  addRecipe("lemon-poppyseed-bread", ["Dessert/Bread"]);
+  addRecipe("lime-sherbet", ["Dessert/IceCream"]);
+  addRecipe("maple-cream-cheese-frosting", ["Dessert/Frosting/Frosting"]);
+  addRecipe("maple-syrup-bread-muffins", ["Dessert/Bread"]);
+  addRecipe("maple-walnut-fudge", ["Dessert/Fudge"]);
+  addRecipe("marry-me-snickerdoodles", ["Dessert/Cookies"], true);
+  addRecipe("marshmallow-frosting", ["Dessert/Frosting/Frosting"]);
+  addRecipe("mascarpone-frosting", ["Dessert/Frosting/Frosting"]);
+  addRecipe("mint-chocolate-fudge", ["Dessert/Fudge"]);
+  addRecipe("molasses-cookies", ["Dessert/Cookies"]);
+  addRecipe("monkey-bread", ["Dessert/Bread"]);
+  addRecipe("nanas-rocky-road-candies", ["Dessert/Candy"], true);
+  addRecipe("nutella-frosting", ["Dessert/Frosting/Frosting"]);
+  addRecipe("nutella-fudge", ["Dessert/Fudge"]);
+  addRecipe("oatmeal-raisin-cookies", ["Dessert/Cookies"]);
+  addRecipe("orange-brownies", ["Dessert/Brownies"]);
+  addRecipe("orange-cinnamon-swirl-bread-muffins", ["Dessert/Bread"]);
+  addRecipe("orange-creamsicle-fudge", ["Dessert/Fudge"]);
+  addRecipe("orange-pastry-cream", ["Dessert/Frosting/Custard"]);
+  addRecipe("orange-rolls", ["Dessert/Donuts"]);
+  addRecipe("oreo-graham-cracker-pie-crust", ["Dessert/Pie/PieCrusts"]);
+  addRecipe("peach-pie", ["Dessert/Pie"]);
+  addRecipe("peanut-brittle", ["Dessert/Candy"]);
+  addRecipe("peanut-butter-chocolate-chip-bacon-cookies", ["Dessert/Cookies"]);
+  addRecipe("peanut-butter-cookies", ["Dessert/Cookies"]);
+  addRecipe("peanut-butter-fudge", ["Dessert/Fudge"]);
+  addRecipe("peanut-butter-pie", ["Dessert/Pie"]);
+  addRecipe("peanut-swirl-brownies", ["Dessert/Brownies"]);
+  addRecipe("pecan-pie", ["Dessert/Pie"]);
+  addRecipe("peppermint-bark", ["Dessert/Candy"]);
+  addRecipe("peppermint-cannolis", ["Dessert/Cannolis/Filling"]);
+  addRecipe("peppermint-glaze", ["Dessert/Frosting/Icing"]);
+  addRecipe("pie-crust", ["Dessert/Pie/PieCrusts"]);
+  addRecipe("pineapple-cookies", ["Dessert/Cookies"]);
+  addRecipe("pineapple-pumpkin-bread-muffins", [
+    "Dessert/Bread",
+    "Dessert/Muffins"
+  ]);
+  addRecipe("pizzelles", ["Dessert/Cookies/Pizzelles"]);
+  addRecipe("prime-rib", ["Main Dish"], true);
+  addRecipe("pumpkin-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
+  addRecipe("pumpkin-butterscotch-fudge", ["Dessert/Fudge"]);
+  addRecipe("pumpkin-cannolis", ["Dessert/Cannolis/Filling"]);
+  addRecipe("pumpkin-cheesecake-flavoring", ["Dessert/Cake/Cheesecake"]);
+  addRecipe("pumpkin-cupcakes", ["Dessert/Cupcakes"]);
+  addRecipe("pumpkin-donuts", ["Dessert/Donuts"]);
+  addRecipe("pumpkin-drop-cookies", ["Dessert/Cookies"]);
+  addRecipe("pumpkin-pastry-cream", ["Dessert/Frosting/Custard"]);
+  addRecipe("pumpkin-pie", ["Dessert/Pie"]);
+  addRecipe("pumpkin-spice-cake", ["Dessert/Cake"]);
+  addRecipe("pumpkin-whoopie-pies", ["Dessert/Cake/WhoopiePies"]);
+  addRecipe("rainbow-cookies", ["Dessert/Cookies"]);
+  addRecipe("raspberry-cheesecake-flavoring", ["Dessert/Cake/Cheesecake"]);
+  addRecipe("red-velvet-cupcakes", ["Dessert/Cupcakes"]);
+  addRecipe("red-velvet-fudge", ["Dessert/Fudge"]);
+  addRecipe("rice-krispie-treats", ["Dessert/Candy"], true);
+  addRecipe("rocky-road-fudge", ["Dessert/Fudge"]);
+  addRecipe("sherbet", ["Dessert/IceCream"]);
+  addRecipe("shortbread-cookies", ["Dessert/Cookies"]);
+  addRecipe("snickerdoodles", ["Dessert/Cookies"]);
+  addRecipe("sorbet", ["Dessert/IceCream"]);
+  addRecipe("southwestern-egg-casserole", ["Breakfast"], true);
+  addRecipe("spritzgeback-cookies", ["Dessert/Cookies"]);
+  addRecipe("strawberry-rhubarb-pie", ["Dessert/Pie"]);
+  addRecipe("sugar-cookies", ["Dessert/Cookies"]);
+  addRecipe("sweet-potato-pie", ["Dessert/Pie"]);
+  addRecipe("tiramisu", ["Dessert/Cake"]);
+  addRecipe("triple-chocolate-brownies", ["Dessert/Brownies"]);
+  addRecipe("vanilla-buttercream-frosting", ["Dessert/Frosting/Frosting"]);
+  addRecipe("vanilla-cake", ["Dessert/Cake"]);
+  addRecipe("vanilla-frosting-whoopie-pie-filling", [
+    "Dessert/Frosting/Frosting"
+  ]);
+  addRecipe("vanilla-fudge", ["Dessert/Fudge"]);
+  addRecipe("vanilla-icing", ["Dessert/Frosting/Frosting"]);
+  addRecipe("vanilla-pastry-cream", ["Dessert/Frosting/Custard"]);
+  addRecipe("velveeta-fudge", ["Dessert/Fudge"]);
+  addRecipe("watermelon-pie", ["Dessert/Pie"]);
+  addRecipe("white-chocolate-cheesecake", ["Dessert/Cake/Cheesecake"]);
+  addRecipe("whoopie-pies", ["Dessert/Cake/WhoopiePies"]);
+  var data_default = recipes;
 
   // src/pages/RecipeList.jsx
   var import_jsx_runtime = __toESM(require_jsx_runtime());
+  function buildTree(items) {
+    const root = { children: /* @__PURE__ */ new Map(), recipes: [], path: [] };
+    for (const r of items) {
+      for (const cat of r.categories) {
+        const segments = cat.split("/");
+        let node = root;
+        for (const seg of segments) {
+          if (!node.children.has(seg)) {
+            node.children.set(seg, {
+              children: /* @__PURE__ */ new Map(),
+              recipes: [],
+              path: [...node.path, seg]
+            });
+          }
+          node = node.children.get(seg);
+        }
+        node.recipes.push(r);
+      }
+    }
+    return root;
+  }
+  function countDistinct(node) {
+    const slugs = /* @__PURE__ */ new Set();
+    function visit(n) {
+      for (const r of n.recipes) slugs.add(r.slug);
+      for (const child of n.children.values()) visit(child);
+    }
+    visit(node);
+    return slugs.size;
+  }
+  function ancestorsWithMatch(root, matchSet) {
+    const keys = /* @__PURE__ */ new Set();
+    function visit(node) {
+      let hasMatch = false;
+      for (const r of node.recipes) if (matchSet.has(r.slug)) hasMatch = true;
+      for (const child of node.children.values()) {
+        if (visit(child)) hasMatch = true;
+      }
+      if (hasMatch && node.path.length > 0) {
+        keys.add(node.path.join("/"));
+      }
+      return hasMatch;
+    }
+    visit(root);
+    return keys;
+  }
+  function TreeNode({ node, expanded, toggle, forceExpand, name, filter }) {
+    const key = node.path.join("/");
+    const isOpen = forceExpand.has(key) || expanded.has(key);
+    const count = countDistinct(node);
+    return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", { style: { listStyle: "none", margin: "2px 0" }, children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
+        "button",
+        {
+          onClick: () => toggle(key),
+          style: {
+            background: "none",
+            border: "none",
+            padding: "2px 0",
+            cursor: "pointer",
+            font: "inherit",
+            color: "inherit",
+            textAlign: "left",
+            width: "100%"
+          },
+          children: [
+            isOpen ? "\u25BE" : "\u25B8",
+            " ",
+            name,
+            " (",
+            count,
+            ")"
+          ]
+        }
+      ),
+      isOpen && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", { style: { listStyle: "none", padding: 0, margin: "0 0 0 16px" }, children: [
+        [...node.children.entries()].map(([childName, child]) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+          TreeNode,
+          {
+            node: child,
+            name: childName,
+            expanded,
+            toggle,
+            forceExpand,
+            filter
+          },
+          childName
+        )),
+        node.recipes.map((r) => {
+          if (filter && !r.name.toLowerCase().includes(filter)) return null;
+          return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { style: { padding: "2px 0" }, children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, { to: `/${r.slug}`, children: r.name }) }, r.slug);
+        })
+      ] })
+    ] });
+  }
   function RecipeList() {
     const [filter, setFilter] = (0, import_react.useState)("");
     const [showAll, setShowAll] = (0, import_react.useState)(false);
-    const filtered = (0, import_react.useMemo)(() => {
-      const q2 = filter.trim().toLowerCase();
-      return data_default.filter((r) => {
-        if (!showAll && !r.show) return false;
-        if (q2 && !r.name.toLowerCase().includes(q2)) return false;
-        return true;
+    const [expanded, setExpanded] = (0, import_react.useState)(/* @__PURE__ */ new Set());
+    const visibleRecipes = (0, import_react.useMemo)(
+      () => showAll ? data_default : data_default.filter((r) => r.show),
+      [showAll]
+    );
+    const tree = (0, import_react.useMemo)(() => buildTree(visibleRecipes), [visibleRecipes]);
+    const q2 = filter.trim().toLowerCase();
+    const matchingSlugs = (0, import_react.useMemo)(() => {
+      if (!q2) return null;
+      return new Set(
+        visibleRecipes.filter((r) => r.name.toLowerCase().includes(q2)).map((r) => r.slug)
+      );
+    }, [q2, visibleRecipes]);
+    const forceExpand = (0, import_react.useMemo)(() => {
+      if (!matchingSlugs) return /* @__PURE__ */ new Set();
+      return ancestorsWithMatch(tree, matchingSlugs);
+    }, [tree, matchingSlugs]);
+    function toggle(key) {
+      setExpanded((prev) => {
+        const next = new Set(prev);
+        if (next.has(key)) next.delete(key);
+        else next.add(key);
+        return next;
       });
-    }, [filter, showAll]);
+    }
+    const totalDistinct = visibleRecipes.length;
+    const matchCount = matchingSlugs ? matchingSlugs.size : totalDistinct;
     return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
       /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", { children: "Recipes" }),
       /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
@@ -28199,15 +28736,25 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
               }
             ),
             /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [
-              filtered.length,
-              " of",
-              " ",
-              showAll ? data_default.length : data_default.filter((r) => r.show).length
+              matchCount,
+              " of ",
+              totalDistinct
             ] })
           ]
         }
       ),
-      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", { style: { listStyle: "none", padding: 0, margin: 0 }, children: filtered.map((r) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { style: { padding: "4px 0" }, children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, { to: `/${r.slug}`, children: r.name }) }, r.slug)) })
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", { style: { listStyle: "none", padding: 0, margin: 0 }, children: [...tree.children.entries()].map(([name, child]) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+        TreeNode,
+        {
+          node: child,
+          name,
+          expanded,
+          toggle,
+          forceExpand,
+          filter: q2
+        },
+        name
+      )) })
     ] });
   }
 
