@@ -149,6 +149,7 @@ const notShown = [
 ];
 
 const shown = new Set([
+  "best-chocolate-cupcakes",
   "carrot-cake-cupcakes",
   "carrot-cake",
   "cinnamon-rolls",
