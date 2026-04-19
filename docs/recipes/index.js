@@ -24054,6 +24054,13 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
     }
   });
 
+  // src/data/chocolate-crinkle-cookies.md
+  var require_chocolate_crinkle_cookies = __commonJS({
+    "src/data/chocolate-crinkle-cookies.md"(exports, module) {
+      module.exports = "# Chocolate Crinkle Cookies\n\nThese simple, chewy, chocolaty little cookies are supremely satisfying.\n\n- **Servings:** {48}\n- **Yield:** {48} cookies ({4} dozen)\n- [Source](https://www.womansday.com/food-recipes/food-drinks/recipes/a12352/chocolate-crinkle-cookies-recipe-wdy1213/)\n- **Prep Time:** 25 minutes\n- **Total Time:** 45 minutes\n\n## Ingredients\n\n- {4} oz. bittersweet chocolate\n- {1 1/2} cups all-purpose flour\n- {1/2} cup unsweetened cocoa\n- {1 1/2} tsp. baking powder\n- {1/4} tsp. kosher salt\n- {1/2} cup unsalted butter\n- {1} cup firmly packed dark brown sugar\n- {2} large eggs\n- {1} tsp. pure vanilla extract\n- {1/2} cup confectioners' sugar\n\n## Instructions\n\n1. Line 2 baking sheets with parchment paper. Melt the chocolate according to package directions; let cool. In a medium bowl, whisk together the flour, cocoa, baking powder, and salt.\n1. Using an electric mixer, beat the butter and brown sugar until light and fluffy, about 3 minutes. Beat in the eggs and vanilla, then the cooled chocolate.\n1. Reduce the mixer speed to low and gradually add the flour mixture, mixing just until incorporated.\n1. Place the confectioners' sugar in a small bowl. Drop a slightly heaping tablespoon of dough into the confectioners' sugar (the dough will be soft) and roll to coat and form into a ball; repeat with remaining dough. Place the dough balls on a prepared baking sheet and refrigerate until chilled, about 30 minutes and up to 4 days.\n1. Heat oven to 350\xB0F. Lightly toss the chilled cookie dough balls in confectioners' sugar and arrange on the prepared baking sheets, spacing them 2 inches apart. Bake, rotating the position of the pans halfway through, until the cookies are puffed, cracked, and just set around the edges, 9 to 11 minutes. Let cool on the sheets for 3 minutes, then transfer to a wire rack to cool completely.\n\n## Notes\n\n- **Freeze:** Roll and freeze the cookies for up to 3 months, then bake (from frozen) as directed.\n";
+    }
+  });
+
   // src/data/chocolate-donuts.md
   var require_chocolate_donuts = __commonJS({
     "src/data/chocolate-donuts.md"(exports, module) {
@@ -28484,6 +28491,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./chocolate-cinnamon-fudge.md": () => require_chocolate_cinnamon_fudge(),
     "./chocolate-covered-pretzels.md": () => require_chocolate_covered_pretzels(),
     "./chocolate-cream-pie.md": () => require_chocolate_cream_pie(),
+    "./chocolate-crinkle-cookies.md": () => require_chocolate_crinkle_cookies(),
     "./chocolate-donuts.md": () => require_chocolate_donuts(),
     "./chocolate-eclairs.md": () => require_chocolate_eclairs(),
     "./chocolate-fudge.md": () => require_chocolate_fudge(),
@@ -28727,6 +28735,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("chocolate-chocolate-chip-cookies-old", ["Dessert/Cookies"]);
   addRecipe("chocolate-cinnamon-fudge", ["Dessert/Fudge"]);
   addRecipe("chocolate-covered-pretzels", ["Dessert/Candy"]);
+  addRecipe("chocolate-crinkle-cookies", ["Dessert/Cookies"], true);
   addRecipe("chocolate-cream-pie", ["Dessert/Pie"]);
   addRecipe("chocolate-donuts", ["Dessert/Donuts"]);
   addRecipe("chocolate-eclairs", ["Dessert/Pastry"]);

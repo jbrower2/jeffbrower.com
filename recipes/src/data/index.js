@@ -103,6 +103,7 @@ addRecipe("chocolate-chocolate-chip-cookies", ["Dessert/Cookies"], true);
 addRecipe("chocolate-chocolate-chip-cookies-old", ["Dessert/Cookies"]);
 addRecipe("chocolate-cinnamon-fudge", ["Dessert/Fudge"]);
 addRecipe("chocolate-covered-pretzels", ["Dessert/Candy"]);
+addRecipe("chocolate-crinkle-cookies", ["Dessert/Cookies"], true);
 addRecipe("chocolate-cream-pie", ["Dessert/Pie"]);
 addRecipe("chocolate-donuts", ["Dessert/Donuts"]);
 addRecipe("chocolate-eclairs", ["Dessert/Pastry"]);
