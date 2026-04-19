@@ -24275,6 +24275,13 @@ These easy Hot Chocolate Cookies are always a hit! Made with real hot cocoa, thi
     }
   });
 
+  // src/data/iced-gingerbread-oatmeal-cookies.md
+  var require_iced_gingerbread_oatmeal_cookies = __commonJS({
+    "src/data/iced-gingerbread-oatmeal-cookies.md"(exports, module) {
+      module.exports = "# Iced Gingerbread Oatmeal Cookies\n\n- **Servings:** {22}\n- **Yield:** {22} cookies\n- **Chill Time:** 30 minutes\n- **Cook Time:** 9-11 minutes\n\n## Ingredients\n\n- {1} cup unsalted butter, melted\n- {1} cup brown sugar\n- {1/2} cup granulated sugar\n- {1} egg + {1} egg yolk\n- {1} Tbsp vanilla extract\n- {2} Tbsp molasses\n- {1 1/2} cups old fashioned oats, blended to break up the oats (not blended into flour)\n- {2} cups all purpose flour\n- {2} tsp cinnamon\n- {2} tsp ginger\n- {1/4} tsp nutmeg\n- {3/4} tsp salt\n- {1/2} tsp baking soda\n- {1/2} tsp baking powder\n\n### Glaze\n\n- {1 1/2} cups powdered sugar\n- {2}-{3} Tbsp milk\n- {1/2} tsp vanilla extract\n\n## Instructions\n\n1. Whisk together the melted butter and sugars, then whisk in the rest of the wet ingredients.\n1. Fold in the dry ingredients.\n1. Scoop with a 2 tablespoon cookie scoop and chill for 30 minutes.\n1. Bake at 350\xB0F for 9-11 minutes.\n1. Once cool, dip in glaze and let set at least an hour.\n";
+    }
+  });
+
   // src/data/key-lime-pie.md
   var require_key_lime_pie = __commonJS({
     "src/data/key-lime-pie.md"(exports, module) {
@@ -27869,6 +27876,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./grape-pie.md": () => require_grape_pie(),
     "./hot-chocolate-cookies.md": () => require_hot_chocolate_cookies(),
     "./ice-cream.md": () => require_ice_cream(),
+    "./iced-gingerbread-oatmeal-cookies.md": () => require_iced_gingerbread_oatmeal_cookies(),
     "./key-lime-pie.md": () => require_key_lime_pie(),
     "./lemon-cookies.md": () => require_lemon_cookies(),
     "./lemon-glaze.md": () => require_lemon_glaze(),
@@ -28111,6 +28119,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "easy-green-chicken-enchiladas",
     "favorite-chocolate-buttercream",
     "hot-chocolate-cookies",
+    "iced-gingerbread-oatmeal-cookies",
     "marry-me-snickerdoodles",
     "nanas-rocky-road-candies",
     "rice-krispie-treats",
