@@ -23623,6 +23623,13 @@
     }
   });
 
+  // src/data/b-and-ls-strawberry-smoothie.md
+  var require_b_and_ls_strawberry_smoothie = __commonJS({
+    "src/data/b-and-ls-strawberry-smoothie.md"(exports, module) {
+      module.exports = "# B and L's Strawberry Smoothie\n\nThis strawberry smoothie recipe blends strawberries with milk, yogurt, sugar, and vanilla for an icy-cold treat. You'll love it!\n\n- **Servings:** {2}\n- [Source](https://www.allrecipes.com/recipe/20792/b-and-ls-strawberry-smoothie/)\n- **Prep Time:** 5 minutes\n- **Total Time:** 5 minutes\n\n## Ingredients\n\n- {8} strawberries, hulled\n- {1/2} cup skim milk\n- {1/2} cup plain yogurt\n- {3} tablespoons white sugar\n- {2} teaspoons vanilla extract\n- {6} cubes ice, crushed\n\n## Instructions\n\n1. Combine strawberries, milk, yogurt, sugar, and vanilla in a blender. Add ice and blend until smooth and creamy.\n1. Pour into glasses and serve immediately.\n";
+    }
+  });
+
   // src/data/banana-bread-muffins.md
   var require_banana_bread_muffins = __commonJS({
     "src/data/banana-bread-muffins.md"(exports, module) {
@@ -28187,6 +28194,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./apple-fritters.md": () => require_apple_fritters(),
     "./apple-muffins.md": () => require_apple_muffins(),
     "./apple-pear-pie.md": () => require_apple_pear_pie(),
+    "./b-and-ls-strawberry-smoothie.md": () => require_b_and_ls_strawberry_smoothie(),
     "./banana-bread-muffins.md": () => require_banana_bread_muffins(),
     "./banana-cream-pie.md": () => require_banana_cream_pie(),
     "./banana-orange-bread-muffins.md": () => require_banana_orange_bread_muffins(),
@@ -28402,6 +28410,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("apple-fritters", ["Dessert/Donuts"]);
   addRecipe("apple-muffins", ["Dessert/Muffins"]);
   addRecipe("apple-pear-pie", ["Dessert/Pie"]);
+  addRecipe("b-and-ls-strawberry-smoothie", ["Drink"], true);
   addRecipe("banana-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
   addRecipe("banana-cream-pie", ["Dessert/Pie"]);
   addRecipe("banana-orange-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
