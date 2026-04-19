@@ -1,6 +1,7 @@
 {
   "scripts": {
     "parse": "node scripts/parse-recipes.js",
+    "generate-md": "node scripts/generate-markdown.js",
     "build": "esbuild src/index.jsx --bundle --outfile=../docs/recipes/index.js --jsx=automatic --target=es2018 --sourcemap --define:process.env.NODE_ENV=\\\"development\\\"",
     "build:prod": "esbuild src/index.jsx --bundle --outfile=../docs/recipes/index.js --jsx=automatic --target=es2018 --minify --define:process.env.NODE_ENV=\\\"production\\\""
   },
@@ -10,6 +11,7 @@
     "react-router-dom": "^6.26.0"
   },
   "devDependencies": {
-    "esbuild": "^0.23.0"
+    "esbuild": "^0.23.0",
+    "prettier": "^3.8.3"
   }
 }

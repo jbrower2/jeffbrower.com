@@ -18,7 +18,9 @@ export default function RecipeDetail() {
     return (
       <div>
         <p>Recipe not found.</p>
-        <p><Link to="/">← Back to all recipes</Link></p>
+        <p>
+          <Link to="/">← Back to all recipes</Link>
+        </p>
       </div>
     );
   }
@@ -39,7 +41,9 @@ export default function RecipeDetail() {
 
   return (
     <div>
-      <p><Link to="/">← All recipes</Link></p>
+      <p>
+        <Link to="/">← All recipes</Link>
+      </p>
       <h1>{recipe.name}</h1>
 
       {original != null && (
@@ -86,9 +90,13 @@ export default function RecipeDetail() {
       </ul>
 
       <h2>Instructions</h2>
-      <p style={{ whiteSpace: "pre-wrap", lineHeight: 1.6 }}>{recipe.instructions}</p>
+      <p style={{ whiteSpace: "pre-wrap", lineHeight: 1.6 }}>
+        {recipe.instructions}
+      </p>
 
-      <p><Link to="/">← All recipes</Link></p>
+      <p>
+        <Link to="/">← All recipes</Link>
+      </p>
     </div>
   );
 }
