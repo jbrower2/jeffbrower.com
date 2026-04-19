@@ -195,6 +195,7 @@ addRecipe("pineapple-pumpkin-bread-muffins", [
 ]);
 addRecipe("pizzelles", ["Dessert/Cookies/Pizzelles"]);
 addRecipe("prime-rib", ["Main Dish"], true);
+addRecipe("prime-rib-2", ["Main Dish"], true);
 addRecipe("pumpkin-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
 addRecipe("pumpkin-butterscotch-fudge", ["Dessert/Fudge"]);
 addRecipe("pumpkin-cannolis", ["Dessert/Cannolis/Filling"]);

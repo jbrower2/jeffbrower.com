@@ -25091,6 +25091,13 @@ Combine base flavors with the listed additions.
     }
   });
 
+  // src/data/prime-rib-2.md
+  var require_prime_rib_2 = __commonJS({
+    "src/data/prime-rib-2.md"(exports, module) {
+      module.exports = "# Prime Rib (2)\n\nGarlic butter herb prime rib is melt in your mouth tender, cooked to medium-rare perfection, and marbled with fat. The seared garlic butter herb crust is incredible!\n\n- **Servings:** {8}\n- [Source](https://therecipecritic.com/prime_rib_recipe/)\n- **Prep Time:** 5 minutes\n- **Cook Time:** 1 hour\n- **Total Time:** 1 hour 5 minutes\n\n## Ingredients\n\n- {2} to {6} pounds bone in prime rib, boned and tied\n- {1} cup butter, softened\n- {5} cloves garlic, minced\n- {1} Tablespoon thyme, finely chopped\n- {1} Tablespoon oregano, finely chopped\n- {1} Tablespoon rosemary, finely chopped\n- {1} Tablespoon salt\n- {1} teaspoon pepper\n\n## Instructions\n\n1. Remove the prime rib from the refrigerator 2 hours before cooking and let it rest at room temperature. Place the bone side down on the cutting board. Using a sharp knife, slice along the curve of the bones to separate from the meat, stopping about 1/2 inch from the bottom, still leaving the bones connected. Preheat the oven to 450\xB0F.\n1. Using butcher's twine, tie the roast every 2 inches around, securing the bones against the roast.\n1. In a small bowl, mix the butter, garlic, thyme, oregano, rosemary, salt, and pepper.\n1. Rub the butter mixture on the outside of your prime rib. Place it in a roasting pan or large skillet with the fat side up.\n1. Bake the roast for 15 minutes, then reduce the temperature to 325\xB0F. It is about 15 minutes per pound of meat. Bake until it reaches an internal temperature of 110 degrees.\n1. Remove the prime rib from the oven and let it rest with foil for at least 20 minutes. The temperature will be 130\xB0F for a medium-rare prime rib.\n\n## Notes\n\n- **Refrigerate:** Store cooled prime rib in an airtight container in the refrigerator for up to 5\u20137 days.\n- **Freeze:** Once completely cooled, place slices in a ziplock freezer bag, press out the air, and lay flat in the freezer for up to 1 month. Thaw overnight in the refrigerator before reheating.\n- **Reheat:** After thawing, warm in the oven at 350\xB0F for 12\u201315 minutes, or until it reaches your desired internal temperature.\n";
+    }
+  });
+
   // src/data/prime-rib.md
   var require_prime_rib = __commonJS({
     "src/data/prime-rib.md"(exports, module) {
@@ -28476,6 +28483,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./pineapple-cookies.md": () => require_pineapple_cookies(),
     "./pineapple-pumpkin-bread-muffins.md": () => require_pineapple_pumpkin_bread_muffins(),
     "./pizzelles.md": () => require_pizzelles(),
+    "./prime-rib-2.md": () => require_prime_rib_2(),
     "./prime-rib.md": () => require_prime_rib(),
     "./pumpkin-bread-muffins.md": () => require_pumpkin_bread_muffins(),
     "./pumpkin-butterscotch-fudge.md": () => require_pumpkin_butterscotch_fudge(),
@@ -28715,6 +28723,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   ]);
   addRecipe("pizzelles", ["Dessert/Cookies/Pizzelles"]);
   addRecipe("prime-rib", ["Main Dish"], true);
+  addRecipe("prime-rib-2", ["Main Dish"], true);
   addRecipe("pumpkin-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
   addRecipe("pumpkin-butterscotch-fudge", ["Dessert/Fudge"]);
   addRecipe("pumpkin-cannolis", ["Dessert/Cannolis/Filling"]);
