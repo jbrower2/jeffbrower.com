@@ -25199,6 +25199,13 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     }
   });
 
+  // src/data/sweet-corn-guacamole.md
+  var require_sweet_corn_guacamole = __commonJS({
+    "src/data/sweet-corn-guacamole.md"(exports, module) {
+      module.exports = "# Sweet Corn Guacamole\n\nCool, chunky avocado meets sweet corn in this simple, sassy guacamole.\n\n- **Servings:** {1}\n- **Yield:** {1} batch\n- [Source](https://www.kitchentreaty.com/sweet-corn-guacamole/)\n- **Prep Time:** 7 minutes\n- **Cook Time:** 3 minutes\n- **Total Time:** 10 minutes\n\n## Ingredients\n\n- {2} medium cobs of corn, about {1} cup corn kernels\n- {2} medium ripe avocados\n- {2} tablespoons lime juice, about {1} or {2} medium limes, depending on juiciness\n- {1} teaspoon finely minced garlic, about {1} small clove\n- Handful fresh cilantro, about {1/2} cup loosely packed leaves, finely chopped\n- {1/2} teaspoon kosher salt, plus more to taste\n\n## Instructions\n\n1. Place a large pot of water on the stove over high heat and bring to a boil. Peel the husks off the corn and wash. Add corn and boil for three minutes. Remove from water and cool.\n1. With a sharp knife, carefully cut the kernels from the cob.\n1. Place corn in a medium bowl and add the rest of the ingredients. Stir with a fork until slightly creamy but pieces of avocado are still intact.\n1. Taste and add additional salt if desired. Serve with chips, fresh veggies, or ridiculously (yet awesomely) spicy vegan chipotle sausage.\n";
+    }
+  });
+
   // src/data/sweet-potato-pie.md
   var require_sweet_potato_pie = __commonJS({
     "src/data/sweet-potato-pie.md"(exports, module) {
@@ -28372,6 +28379,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./spritzgeback-cookies.md": () => require_spritzgeback_cookies(),
     "./strawberry-rhubarb-pie.md": () => require_strawberry_rhubarb_pie(),
     "./sugar-cookies.md": () => require_sugar_cookies(),
+    "./sweet-corn-guacamole.md": () => require_sweet_corn_guacamole(),
     "./sweet-potato-pie.md": () => require_sweet_potato_pie(),
     "./tiramisu.md": () => require_tiramisu(),
     "./triple-chocolate-brownies.md": () => require_triple_chocolate_brownies(),
@@ -28600,6 +28608,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("spritzgeback-cookies", ["Dessert/Cookies"]);
   addRecipe("strawberry-rhubarb-pie", ["Dessert/Pie"]);
   addRecipe("sugar-cookies", ["Dessert/Cookies"]);
+  addRecipe("sweet-corn-guacamole", ["Appetizer"], true);
   addRecipe("sweet-potato-pie", ["Dessert/Pie"]);
   addRecipe("tiramisu", ["Dessert/Cake"]);
   addRecipe("triple-chocolate-brownies", ["Dessert/Brownies"]);

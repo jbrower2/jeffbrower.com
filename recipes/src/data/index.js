@@ -213,6 +213,7 @@ addRecipe("southwestern-egg-casserole", ["Breakfast"], true);
 addRecipe("spritzgeback-cookies", ["Dessert/Cookies"]);
 addRecipe("strawberry-rhubarb-pie", ["Dessert/Pie"]);
 addRecipe("sugar-cookies", ["Dessert/Cookies"]);
+addRecipe("sweet-corn-guacamole", ["Appetizer"], true);
 addRecipe("sweet-potato-pie", ["Dessert/Pie"]);
 addRecipe("tiramisu", ["Dessert/Cake"]);
 addRecipe("triple-chocolate-brownies", ["Dessert/Brownies"]);
