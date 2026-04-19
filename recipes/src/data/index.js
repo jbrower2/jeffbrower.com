@@ -227,6 +227,7 @@ addRecipe("shortbread-cookies", ["Dessert/Cookies"]);
 addRecipe("snickerdoodles", ["Dessert/Cookies"]);
 addRecipe("sorbet", ["Dessert/Ice Cream"]);
 addRecipe("southwestern-egg-casserole", ["Breakfast"], true);
+addRecipe("spicy-chicken-rigatoni", ["Main Dish"], true);
 addRecipe("spritzgeback-cookies", ["Dessert/Cookies"]);
 addRecipe("strawberry-rhubarb-pie", ["Dessert/Pie"]);
 addRecipe("sugar-cookies", ["Dessert/Cookies"]);
