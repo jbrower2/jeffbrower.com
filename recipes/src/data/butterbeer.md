@@ -1,29 +1,36 @@
 # Butterbeer
 
-- **Servings:** {4}
-- **Yield:** {4} glasses
-- [Source](http://www.clickorlando.com/news/24096094/detail.html)
+It took three years for two guys, Steve Jayson and Ric Florell, to develop the secret recipe for Butterbeer, a frothy sweet drink mentioned in J.K. Rowling's books several times, but with a flavor that's never described. What Jayson and Florell eventually came up with is a two-part beverage: sweet-flavored soda on the bottom with a creamy whipped flavored topping. When sipped, the flavors combine for a taste that could be described as caramel butter cookies.
+
+Here is my way to hack the delicious, once-imaginary drink at home.
+
+- **Servings:** {10}
+- [Source](https://topsecretrecipes.com/foodhackerblog/harry-potter-butter-beer/)
+- **Prep Time:** 5 minutes
+- **Cook Time:** 1 hour
+- **Total Time:** 1 hour 5 minutes
 
 ## Ingredients
 
-- {1} cup Brown Sugar, light or dark
-- {2} tbsp Water
-- {6} tbsp Butter
-- {1/2} tsp Salt
-- {1/2} tsp Cider Vinegar
-- {3/4} cup Heavy Cream, divided
-- {1/2} tsp Rum Extract
-- {48} oz Cream Soda, four 12-oz bottles
+- {1 1/3} cups water
+- {1} cup marshmallow creme
+- {1} envelope Dream Whip Whipped Topping Mix
+- {2} tablespoons powdered sugar
+- {1/8} teaspoon salt
+- {1/2} teaspoon plus {1/4} teaspoon butter flavoring
+- {1/2} teaspoon vanilla extract
+- {1/4} teaspoon caramel extract or flavoring (Watkins is best)
+- {10} (12-ounce) cans cold A&W Cream Soda
+
+### You will also need
+
+- immersion hand blender
 
 ## Instructions
 
-1. In a small saucepan over medium, combine the brown sugar and water
-1. Bring to a gentle boil and cook, stirring often, until the mixture reads 240 F on a candy thermometer
-1. Stir in the butter, salt, vinegar and 1/4 cup heavy cream
-1. Set aside to cool to room temperature
-1. Once the mixture has cooled, stir in the rum extract
-1. In a medium bowl, combine 2 tablespoons of the brown sugar mixture and the remaining 1/2 cup of heavy cream
-1. Use an electric mixer to beat until just thickened, but not completely whipped, about 2 to 3 minutes
-1. To serve, divide the brown sugar mixture between 4 tall glasses (about 1/4 cup for each glass)
-1. Add 1/4 cup of cream soda to each glass, then stir to combine
-1. Fill each glass nearly to the top with additional cream soda, then spoon the whipped topping over each
+1. Combine the marshmallow creme with the water in a medium bowl and microwave it on high for 30 seconds. If you don't want to use the microwave, use warm water from your tap. Stir until the marshmallow creme dissolves, then cool uncovered in the refrigerator for 1 hour, or until cold.
+1. Add the Dream Whip to the bowl and mix with an immersion hand blender for about 30 seconds. If you don't have a hand blender you can use an electric mixer, but only mix for about 15 seconds.
+1. Add the powdered sugar and salt and mix for another 30 seconds.
+1. Add the butter, vanilla and caramel flavorings and mix just until combined. Store covered in your refrigerator until needed.
+1. When you are ready to serve the drinks, pour a can of cream soda into a 12-ounce glass or mug. Be sure to leave about 1/2-inch of room at the top.
+1. Use the blender to mix the foam for 5 seconds, or until some large bubbles form in the topping. Spoon 3 to 4 tablespoons of topping onto each drink and serve.
