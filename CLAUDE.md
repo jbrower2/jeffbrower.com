@@ -30,7 +30,7 @@ Outputs to `../docs/recipes/index.js`. Always rebuild after editing markdown or 
 
 To introduce a new category, add the string to `CATEGORIES` first, then use it.
 
-The `RecipeList` page renders these as a collapsible tree and persists filter/expanded state in `sessionStorage` so the back button from a recipe restores the view.
+The `RecipeList` page renders these as a collapsible tree. Filter/expanded state lives in a module-level variable so navigating to a recipe and back (via the "All recipes" link) restores the view, but a full page refresh resets it.
 
 ### Markdown structure
 

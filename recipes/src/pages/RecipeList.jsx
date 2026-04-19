@@ -2,22 +2,9 @@ import React, { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import recipes from "../data";
 
-const STATE_KEY = "recipeList:state";
-
-function loadSavedState() {
-  try {
-    const raw = sessionStorage.getItem(STATE_KEY);
-    if (!raw) return null;
-    const s = JSON.parse(raw);
-    return {
-      filter: typeof s.filter === "string" ? s.filter : "",
-      showAll: s.showAll === true,
-      expanded: new Set(Array.isArray(s.expanded) ? s.expanded : []),
-    };
-  } catch {
-    return null;
-  }
-}
+// In-memory state that survives component unmount (e.g. navigating to a recipe
+// and back) but resets on full page refresh.
+let savedState = null;
 
 // Build a nested tree: { children: Map<string, Node>, recipes: Recipe[], path: string[] }
 // Recipes appear at the deepest node of each of their category paths.
@@ -125,19 +112,14 @@ function TreeNode({ node, expanded, toggle, forceExpand, name, filter }) {
 }
 
 export default function RecipeList() {
-  const [filter, setFilter] = useState(() => loadSavedState()?.filter ?? "");
-  const [showAll, setShowAll] = useState(() => loadSavedState()?.showAll ?? false);
-  const [expanded, setExpanded] = useState(() => loadSavedState()?.expanded ?? new Set());
+  const [filter, setFilter] = useState(() => savedState?.filter ?? "");
+  const [showAll, setShowAll] = useState(() => savedState?.showAll ?? false);
+  const [expanded, setExpanded] = useState(
+    () => savedState?.expanded ?? new Set(),
+  );
 
   useEffect(() => {
-    try {
-      sessionStorage.setItem(
-        STATE_KEY,
-        JSON.stringify({ filter, showAll, expanded: [...expanded] }),
-      );
-    } catch {
-      // sessionStorage unavailable (private mode, quota) — non-fatal.
-    }
+    savedState = { filter, showAll, expanded };
   }, [filter, showAll, expanded]);
 
   const visibleRecipes = useMemo(

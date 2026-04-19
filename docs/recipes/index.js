@@ -28638,21 +28638,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
 
   // src/pages/RecipeList.jsx
   var import_jsx_runtime = __toESM(require_jsx_runtime());
-  var STATE_KEY = "recipeList:state";
-  function loadSavedState() {
-    try {
-      const raw = sessionStorage.getItem(STATE_KEY);
-      if (!raw) return null;
-      const s = JSON.parse(raw);
-      return {
-        filter: typeof s.filter === "string" ? s.filter : "",
-        showAll: s.showAll === true,
-        expanded: new Set(Array.isArray(s.expanded) ? s.expanded : [])
-      };
-    } catch (e) {
-      return null;
-    }
-  }
+  var savedState = null;
   function buildTree(items) {
     const root = { children: /* @__PURE__ */ new Map(), recipes: [], path: [] };
     for (const r of items) {
@@ -28750,25 +28736,21 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   }
   function RecipeList() {
     const [filter, setFilter] = (0, import_react.useState)(() => {
-      var _a2, _b;
-      return (_b = (_a2 = loadSavedState()) == null ? void 0 : _a2.filter) != null ? _b : "";
+      var _a2;
+      return (_a2 = savedState == null ? void 0 : savedState.filter) != null ? _a2 : "";
     });
     const [showAll, setShowAll] = (0, import_react.useState)(() => {
-      var _a2, _b;
-      return (_b = (_a2 = loadSavedState()) == null ? void 0 : _a2.showAll) != null ? _b : false;
+      var _a2;
+      return (_a2 = savedState == null ? void 0 : savedState.showAll) != null ? _a2 : false;
     });
-    const [expanded, setExpanded] = (0, import_react.useState)(() => {
-      var _a2, _b;
-      return (_b = (_a2 = loadSavedState()) == null ? void 0 : _a2.expanded) != null ? _b : /* @__PURE__ */ new Set();
-    });
-    (0, import_react.useEffect)(() => {
-      try {
-        sessionStorage.setItem(
-          STATE_KEY,
-          JSON.stringify({ filter, showAll, expanded: [...expanded] })
-        );
-      } catch (e) {
+    const [expanded, setExpanded] = (0, import_react.useState)(
+      () => {
+        var _a2;
+        return (_a2 = savedState == null ? void 0 : savedState.expanded) != null ? _a2 : /* @__PURE__ */ new Set();
       }
+    );
+    (0, import_react.useEffect)(() => {
+      savedState = { filter, showAll, expanded };
     }, [filter, showAll, expanded]);
     const visibleRecipes = (0, import_react.useMemo)(
       () => showAll ? data_default : data_default.filter((r) => r.show),
