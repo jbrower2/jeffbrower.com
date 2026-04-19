@@ -142,6 +142,7 @@ addRecipe("gelato", ["Dessert/Ice Cream"]);
 addRecipe("ginger-snaps", ["Dessert/Cookies"]);
 addRecipe("gingerbread-cookies", ["Dessert/Cookies"]);
 addRecipe("grape-pie", ["Dessert/Pie"]);
+addRecipe("hersheys-perfectly-chocolate-chocolate-cake", ["Dessert/Cake"], true);
 addRecipe("hot-chocolate-cookies", ["Dessert/Cookies"], true);
 addRecipe("ice-cream", ["Dessert/Ice Cream"]);
 addRecipe("iced-gingerbread-oatmeal-cookies", ["Dessert/Cookies"], true);
@@ -184,6 +185,7 @@ addRecipe("pecan-pie", ["Dessert/Pie"]);
 addRecipe("peppermint-bark", ["Dessert/Candy"]);
 addRecipe("peppermint-cannolis", ["Dessert/Cannolis/Filling"]);
 addRecipe("peppermint-glaze", ["Dessert/Frosting/Icing"]);
+addRecipe("perfectly-chocolate-chocolate-frosting", ["Dessert/Frosting/Frosting"], true);
 addRecipe("pie-crust", ["Dessert/Pie/Pie Crusts"]);
 addRecipe("pineapple-cookies", ["Dessert/Cookies"]);
 addRecipe("pineapple-pumpkin-bread-muffins", [

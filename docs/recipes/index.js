@@ -24292,6 +24292,53 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
     }
   });
 
+  // src/data/hersheys-perfectly-chocolate-chocolate-cake.md
+  var require_hersheys_perfectly_chocolate_chocolate_cake = __commonJS({
+    "src/data/hersheys-perfectly-chocolate-chocolate-cake.md"(exports, module) {
+      module.exports = `# Hershey's "Perfectly Chocolate" Chocolate Cake
+
+- **Servings:** {12}
+- **Yield:** {1} two-layer 9-inch cake
+- [Source](https://www.hersheyland.com/recipes/hersheys-perfectly-chocolate-chocolate-cake.html)
+- **Prep Time:** 15 minutes
+- **Bake Time:** 30 minutes
+- **Total Time:** 45 minutes
+
+## Ingredients
+
+- {2} cups sugar
+- {1 3/4} cups all-purpose flour
+- {3/4} cup HERSHEY'S Cocoa
+- {1 1/2} tsps baking powder
+- {1 1/2} tsps baking soda
+- {1} tsp salt
+- {2} eggs
+- {1} cup milk
+- {1/2} cup vegetable oil
+- {2} tsps vanilla extract
+- {1} cup boiling water
+
+## Instructions
+
+1. Heat oven to 350\xB0F. Grease and flour two 9-inch round baking pans.
+1. Stir together sugar, flour, cocoa, baking powder, baking soda and salt in large bowl.
+1. Add eggs, milk, vegetable oil and vanilla; beat on medium speed of mixer 2 minutes.
+1. Stir in boiling water (batter will be thin).
+1. Pour batter into prepared pans.
+1. Bake 30 to 35 minutes or until wooden pick inserted in center comes out clean.
+1. Cool 10 minutes; remove from pans to wire racks. Cool completely.
+1. Frost with ["Perfectly Chocolate" Chocolate Frosting](#/perfectly-chocolate-chocolate-frosting).
+
+## Notes
+
+- **One Pan Cake:** Grease and flour 13x9x2-inch baking pan. Heat oven to 350\xB0F. Pour batter into prepared pan. Bake 35 to 40 minutes. Cool completely. Frost.
+- **Three Layer Cake:** Grease and flour three 8-inch round baking pans. Heat oven to 350\xB0F. Pour batter into prepared pans. Bake 30 to 35 minutes. Cool 10 minutes; remove from pans to wire racks. Cool completely. Frost.
+- **Bundt Cake:** Grease and flour 12-cup fluted tube pan. Heat oven to 350\xB0F. Pour batter into prepared pan. Bake 50 to 55 minutes. Cool 15 minutes; remove from pan to wire rack. Cool completely. Frost.
+- **Cupcakes:** Line muffin cups (2-1/2 inches in diameter) with paper bake cups. Heat oven to 350\xB0F. Fill cups 1/2 full with batter. Bake 22 to 25 minutes. Cool completely. Frost.
+`;
+    }
+  });
+
   // src/data/hot-chocolate-cookies.md
   var require_hot_chocolate_cookies = __commonJS({
     "src/data/hot-chocolate-cookies.md"(exports, module) {
@@ -24978,6 +25025,34 @@ Combine base flavors with the listed additions.
   var require_peppermint_glaze = __commonJS({
     "src/data/peppermint-glaze.md"(exports, module) {
       module.exports = "# Peppermint Glaze\n\n- **Servings:** {100}\n- **Yield:** {200} cookies worth\n\n## Ingredients\n\n- {6} cup Confectioners' Sugar\n- {1/8} tsp Mint Extract\n- {1/2} cup Water\n\n## Instructions\n\n1. In a small bowl mix together the sugar; mint extract and water until smooth\n1. Transfer mixture to a medium resealable plastic bag and snip off the corner\n";
+    }
+  });
+
+  // src/data/perfectly-chocolate-chocolate-frosting.md
+  var require_perfectly_chocolate_chocolate_frosting = __commonJS({
+    "src/data/perfectly-chocolate-chocolate-frosting.md"(exports, module) {
+      module.exports = `# "Perfectly Chocolate" Chocolate Frosting
+
+- **Servings:** {1}
+- **Yield:** {1} batch, about {2} cups
+- [Source](https://www.hersheyland.com/recipes/perfectly-chocolate-chocolate-frosting.html)
+- **Prep Time:** 8 minutes
+- **Total Time:** 8 minutes
+
+## Ingredients
+
+- {1/2} cup butter or margarine ({1} stick)
+- {2/3} cup HERSHEY'S Cocoa
+- {3} cups powdered sugar
+- {1/3} cup milk
+- {1} tsp vanilla extract
+
+## Instructions
+
+1. Melt butter.
+1. Stir in cocoa.
+1. Alternately add powdered sugar, milk, and vanilla extract, beating to spreading consistency.
+`;
     }
   });
 
@@ -28345,6 +28420,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./ginger-snaps.md": () => require_ginger_snaps(),
     "./gingerbread-cookies.md": () => require_gingerbread_cookies(),
     "./grape-pie.md": () => require_grape_pie(),
+    "./hersheys-perfectly-chocolate-chocolate-cake.md": () => require_hersheys_perfectly_chocolate_chocolate_cake(),
     "./hot-chocolate-cookies.md": () => require_hot_chocolate_cookies(),
     "./ice-cream.md": () => require_ice_cream(),
     "./iced-gingerbread-oatmeal-cookies.md": () => require_iced_gingerbread_oatmeal_cookies(),
@@ -28387,6 +28463,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./peppermint-bark.md": () => require_peppermint_bark(),
     "./peppermint-cannolis.md": () => require_peppermint_cannolis(),
     "./peppermint-glaze.md": () => require_peppermint_glaze(),
+    "./perfectly-chocolate-chocolate-frosting.md": () => require_perfectly_chocolate_chocolate_frosting(),
     "./pie-crust.md": () => require_pie_crust(),
     "./pineapple-cookies.md": () => require_pineapple_cookies(),
     "./pineapple-pumpkin-bread-muffins.md": () => require_pineapple_pumpkin_bread_muffins(),
@@ -28577,6 +28654,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("ginger-snaps", ["Dessert/Cookies"]);
   addRecipe("gingerbread-cookies", ["Dessert/Cookies"]);
   addRecipe("grape-pie", ["Dessert/Pie"]);
+  addRecipe("hersheys-perfectly-chocolate-chocolate-cake", ["Dessert/Cake"], true);
   addRecipe("hot-chocolate-cookies", ["Dessert/Cookies"], true);
   addRecipe("ice-cream", ["Dessert/Ice Cream"]);
   addRecipe("iced-gingerbread-oatmeal-cookies", ["Dessert/Cookies"], true);
@@ -28619,6 +28697,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("peppermint-bark", ["Dessert/Candy"]);
   addRecipe("peppermint-cannolis", ["Dessert/Cannolis/Filling"]);
   addRecipe("peppermint-glaze", ["Dessert/Frosting/Icing"]);
+  addRecipe("perfectly-chocolate-chocolate-frosting", ["Dessert/Frosting/Frosting"], true);
   addRecipe("pie-crust", ["Dessert/Pie/Pie Crusts"]);
   addRecipe("pineapple-cookies", ["Dessert/Cookies"]);
   addRecipe("pineapple-pumpkin-bread-muffins", [
