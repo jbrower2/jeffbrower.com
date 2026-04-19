@@ -26501,604 +26501,1279 @@
   // src/pages/RecipeList.jsx
   var import_react = __toESM(require_react());
 
-  // src/data/recipes/almond-pastry-cream.md
+  // src/data/almond-pastry-cream.md
   var almond_pastry_cream_default = "# Almond Pastry Cream\n\n- **Servings:** {6}\n- **Yield:** {2} cups\n\n## Ingredients\n\n- {1 1/4} cup Milk, whole\n- {3} Egg Yolk\n- {1/4} cup Sugar\n- {1/8} cup All-purpose Flour\n- {2 2/3} tbsp Cornstarch\n- {1} tsp Almond Extract\n\n## Instructions\n\n1. In a small saucepan, warm the milk over low heat until it is just hot enough to steam\n1. While the milk is warming, whisk together the egg yolks, sugar, flour, and cornstarch until the mixture is completely smooth\n1. Once the milk is steaming, add half of it, whisking constantly, to the egg mixture\n1. Add the milk and eggs back into the hot milk, continue stirring, and heat it for 1-2 minutes, until the custard reaches 170F on a digital thermometer and is very thick\n1. Remove it from the heat, stir in the almond extract, and chill the pastry cream completely before filling pastry\n";
 
-  // src/data/recipes/apple-fritters.md
+  // src/data/apple-fritters.md
   var apple_fritters_default = "# Apple Fritters\n\n- **Servings:** {5}\n- **Yield:** {48} fritters\n\n## Ingredients\n\n- {1 1/4} cup All-purpose Flour\n- {3/4} cup Sugar\n- {1 1/2} tsp Cinnamon\n- {1/2} tsp Salt\n- {1/4} tsp Baking Powder\n- {1/4} tsp Baking Soda\n- {3/4} cup Sparkling Water\n- {1/2} cup Buttermilk\n- {1} tsp Vanilla Extract\n- {1} Lemon Zest, (single lemon)\n- {2} cup Olive Oil\n- {2} cup Vegetable Oil\n- {3} Apple\n\n## Instructions\n\n1. In a medium bowl, mix together the flour, 1/4 cup sugar, the cinnamon, salt, baking powder and baking soda\n1. Add the sparkling water, buttermilk and vanilla, and stir until the mixture forms a batter\n1. Let rest for 15 minutes\n1. In a small bowl, whisk together the remaining 1/2 cup sugar and the lemon zest\n1. In a heavy 4 to 5-quart saucepan, heat the olive oil and vegetable oil over medium heat until a deep-fry thermometer registers 375 degrees F\n1. (If you don't have a thermometer, a cube of bread should brown in about 3 minutes.)\n1. Meanwhile, peel and core the apples, then cut into 1/2-inch-thick slices\n1. Using paper towels, blot the apple slices dry\n1. Add the apple slices to the batter and toss until coated\n1. Working in batches, fry the apples, turning occasionally, until golden brown, 2 to 3 minutes per batch\n1. Drain on paper towels and sprinkle with the lemon sugar while still warm\n1. Serve immediately\n";
 
-  // src/data/recipes/apple-muffins.md
+  // src/data/apple-muffins.md
   var apple_muffins_default = "# Apple Muffins\n\n- **Servings:** {12}\n- **Yield:** {12} muffins/2/3 loaf\n\n## Ingredients\n\n- {1/4} cup Pecans, chopped\n- {3/4} cup Brown Sugar\n- {1/2} tsp Cinnamon\n- {1} cup All-purpose Flour\n- {1} cup Whole Wheat Flour\n- {1} tsp Baking Soda\n- {1/2} tsp Salt\n- {1/4} cup Canola Oil\n- {2} Egg\n- {1} cup Applesauce\n- {1} tsp Vanilla Extract\n- {3/4} cup Buttermilk\n- {1} Apple\n\n## Instructions\n\n1. Preheat the oven to 400 degrees F\n1. Coat a 12-capacity standard muffin pan with cooking spray\n1. In a small bowl, mix together the pecans, 2 tablespoons of the brown sugar and the cinnamon\n1. In a medium bowl, whisk together the all-purpose and whole wheat flour, baking soda and salt\n1. In a large bowl, whisk the remaining 3/4 cup sugar and the oil until combined\n1. Add the eggs, one at a time, whisking well after each addition\n1. Whisk in the applesauce and vanilla\n1. Whisk in the flour mixture in two batches, alternating with the buttermilk\n1. Whisk just until combined\n1. Gently stir in the apple chunks\n1. Pour the batter into the prepared muffin pan and sprinkle with the pecan mixture\n1. Tap the pan on the counter a few times to remove any air bubbles\n1. Bake until a wooden pick inserted in center of one of the muffins comes out clean, 20 to 25 minutes\n1. Let cool on a wire rack for 15 minutes\n1. Run a knife around the muffins to loosen them and unmold\n1. Cool completely on the rack\n";
 
-  // src/data/recipes/apple-pear-pie.md
+  // src/data/apple-pear-pie.md
   var apple_pear_pie_default = "# Apple/Pear Pie\n\n- **Servings:** {8}\n- **Yield:** {1} pie\n\n## Ingredients\n\n- {5} Apple or 5 Pear\n- {3/4} cup Sugar\n- {2} tbsp All-purpose Flour\n- {1} tsp Cinnamon\n- {2} Pie Crust, unbaked\n\n## Instructions\n\n1. Preheat oven to 400 degrees F\n1. Peel, core, and slice apples\n1. Mix apple slices with sugar, flour, and cinnamon\n1. Place apple mixture in pie shell\n1. Place second pie crust on top and form to the edges of the pie plate\n1. Cut slits in the top crust to allow for steam to release in oven\n1. Bake for approximately 30 to 40 minutes, until pie is fully baked and apples are tender\n";
 
-  // src/data/recipes/banana-bread-muffins.md
+  // src/data/banana-bread-muffins.md
   var banana_bread_muffins_default = "# Banana Bread/Muffins\n\n- **Yield:** {18} muffins/1 loaf\n\n## Ingredients\n\n- {1} cup Sugar\n- {1} stick Butter\n- {2} Egg\n- {3} Banana\n- {1} tbsp Milk\n- {1} tsp Cinnamon\n- {2} cup All-purpose Flour\n- {1} tsp Baking Powder\n- {1} tsp Baking Soda\n- {1} tsp Salt\n- {1} cup Chocolate Chips, optional\n\n## Instructions\n\n1. Preheat the oven to 325 degrees F\n1. Butter a 9 x 5 x 3 inch loaf pan\n1. Cream the sugar and butter in a large mixing bowl until light and fluffy\n1. Add the eggs one at a time, beating well after each addition\n1. In a small bowl, mash the bananas with a fork\n1. Mix in the milk and cinnamon\n1. In another bowl, mix together the flour, baking powder, baking soda and salt\n1. Add the banana mixture to the creamed mixture and stir until combined\n1. Add dry ingredients, mixing just until flour disappears\n1. Stir in chocolate chips\n1. Pour batter into prepared pan and bake 1 hour to 1 hour 10 minutes, until a toothpick inserted in the center comes out clean\n1. Set aside to cool on a rack for 15 minutes\n1. Remove bread from pan, invert onto rack and cool completely before slicing\n";
 
-  // src/data/recipes/banana-cream-pie.md
+  // src/data/banana-cream-pie.md
   var banana_cream_pie_default = "# Banana Cream Pie\n\n- **Servings:** {16}\n- **Yield:** {2} pies\n\n## Ingredients\n\n- {2} Pie Crust, baked\n- {8} cup Milk\n- {1/4} tsp Salt\n- {1} Vanilla Bean, split lengthwise\n- {24} Egg Yolk\n- {2 2/3} cup Sugar\n- {1} cup Cornstarch\n- {6} tbsp Butter, cold/in pieces\n- {6} Banana, sliced\n\n## Instructions\n\n1. Combine the milk, salt, and vanilla bean in a non-aluminum pan and heat, stirring occasionally\n1. As soon as the mixture begins to boil, turn off the heat and stir the mixture for 1 minute\n1. Whisk the egg yolks and sugar together until thick and pale yellow, then gradually whisk in the cornstarch\n1. Gradually whisk in half of the hot milk mixture\n1. Pour the yolk-milk mixture back into the saucepan with the milk mixture and cook, whisking frequently, until the mixture boils and begins to thicken\n1. Reduce the heat to medium-low and cook, stirring, about 5 minutes more, until the mixture no longer tastes starchy\n1. The mixture should become very thick, like a set custard\n1. When cooked, turn off the heat\n1. Stir in the butter until it melts completely and fold in the bananas\n1. Pour the filling into the pre-baked pie shells\n1. Push the banana slices below the surface to prevent them from browning, then smooth the tops\n1. Cover with plastic wrap, gently pressing the plastic wrap against the surface to prevent a skin from forming\n1. Refrigerate at least 7 hours or overnight, and serve with whipped cream\n";
 
-  // src/data/recipes/banana-orange-bread-muffins.md
+  // src/data/banana-orange-bread-muffins.md
   var banana_orange_bread_muffins_default = "# Banana Orange Bread/Muffins\n\n- **Servings:** {18}\n- **Yield:** {18} muffins/1 loaf\n\n## Ingredients\n\n- {2} Banana\n- {1} Orange Extract\n- {2} Egg\n- {2/3} cup Vegetable Oil\n- {1 3/4} cup All-purpose Flour\n- {1/2} tbsp Baking Powder\n- {1/16} tsp Salt\n- {1/4} cup Confectioners' Sugar\n- {1/4} cup Milk\n\n## Instructions\n\n1. Grease two mini loaf pans\n1. Preheat oven 350 degrees F\n1. Mash bananas in large bowl\n1. Grate peel off one orange\n1. Add peel to mashed bananas\n1. Squeeze orange juice into a small bowl\n1. Remove seeds and pour juice into mashed bananas\n1. Mix\n1. In separate bowl, mix together flour, baking powder, and salt\n1. Mix dry ingredients into wet\n1. Scrape batter into 2 mini loaf pans or one regular loaf pan\n1. Bake for 1 hour or until inserted knife comes out clean\n1. Remove loaves from oven and turn out onto rack\n1. Allow to cool\n1. When cool, mix confectioner\u2019s sugar with just enough milk to make a glaze\n1. Drizzle glaze onto loaves and allow to set\n";
 
-  // src/data/recipes/biscotti.md
+  // src/data/biscotti.md
   var biscotti_default = "# Biscotti\n\n- **Servings:** {42}\n- **Yield:** {42} Cookies\n\n## Ingredients\n\n- {1/2} cup Vegetable Oil\n- {1} cup Sugar\n- {3 1/4} cup All-purpose Flour\n- {3} Egg\n- {1} tbsp Baking Powder\n- {1} tbsp Anise Extract\n\n## Instructions\n\n1. Preheat the oven to 375 degrees F (190 degrees C)\n1. Grease cookie sheets or line with parchment paper\n1. In a medium bowl, beat together the oil, eggs, sugar and anise flavoring until well blended\n1. Combine the flour and baking powder, stir into the egg mixture to form a heavy dough\n1. Divide dough into two pieces\n1. Form each piece into a roll as long as your cookie sheet\n1. Place roll onto the prepared cookie sheet, and press down to 1/2 inch thickness\n1. Bake for 25 to 30 minutes in the preheated oven, until golden brown\n1. Remove from the baking sheet to cool on a wire rack\n1. When The cookies are cool enough to handle, slice each one crosswise into 1/2 inch slices\n1. Place the slices cut side up back onto the baking sheet\n1. Bake for an additional 6 to 10 minutes on each side\n1. Slices should be lightly toasted\n";
 
-  // src/data/recipes/black-and-white-cookies.md
+  // src/data/black-and-white-cookies.md
   var black_and_white_cookies_default = "# Black and White Cookies\n\n- **Servings:** {12}\n- **Yield:** {12} cookies\n\n## Ingredients\n\n- {1} stick Butter\n- {1} cup Sugar\n- {2} Egg\n- {1/2} cup Milk\n- {1/4} tsp Vanilla Extract\n- {1/8} tsp Lemon Extract\n- {1 1/4} cup Cake Flour\n- {1 1/4} cup All-purpose Flour\n- {1/2} tsp Baking Powder\n- {1/4} tsp Salt\n- {2} cup Confectioners' Sugar\n- {3} tbsp Milk\n- {1} tsp Vanilla Extract\n- {2} tbsp Unsweetened Cocoa Powder\n- {2} tbsp Milk\n\n## Instructions\n\n1. Preheat the oven to 350 degrees\n1. Line a baking sheet with waxed or parchment paper\n1. In a mixer, cream the butter\n1. Add the granulated sugar and beat until fluffy\n1. Add the eggs, milk, and extracts and mix to combine\n1. In a large bowl, combine the flours, baking powder, and salt and mix well\n1. Add the dry ingredients to the sugar-egg mixture and mix to blend\n1. Using an ice-cream scoop, scoop the dough onto the prepared pans\n1. With a spatula, press and spread each cookie into a circle about 5 inches in diameter and about 3/8-inch thickness\n1. Bake for about 20 minutes, until golden\n1. Let cool on wire racks\n1. Icing (last 5 ingredients): In a medium bowl, stir the sugar, milk, and vanilla together until it forms a smooth icing\n1. Transfer half of the icing to another bowl and stir in the cocoa powder and milk (last 2 ingredients) until smooth\n1. When cool, turn cookies over, so the flat side faces up\n1. Spread white icing on half of each flat surface, then spread the other half with chocolate icing\n1. Let set at room temperature for 30 minutes\n";
 
-  // src/data/recipes/blonde-brownies.md
+  // src/data/blonde-brownies.md
   var blonde_brownies_default = "# Blonde Brownies\n\n- **Servings:** {36}\n- **Yield:** {36} brownies\n\n## Ingredients\n\n- {2 1/4} cup All-purpose Flour\n- {2 1/2} tsp Baking Powder\n- {1/2} tsp Salt\n- {1 3/4} cup Brown Sugar, firmly packed\n- {3/4} cup Butter, softened\n- {3} Egg\n- {1} tsp Vanilla Extract\n- {12} oz Chocolate Chips\n\n## Instructions\n\n1. Preheat oven to 350 degrees F\n1. Grease a 15x10-inch jelly-roll pan\n1. Combine flour, baking powder and salt in a small bowl\n1. Beat sugar and butter in a large mixing bowl until creamy\n1. Beat in eggs and vanilla extract; gradually beat in flour mixture\n1. Stir in morsels\n1. Spread into prepared pan\n1. Bake for 20 to 25 minutes or until top is golden brown\n1. Cool in pan on wire rack\n";
 
-  // src/data/recipes/blueberry-bread-muffins.md
+  // src/data/blueberry-bread-muffins.md
   var blueberry_bread_muffins_default = "# Blueberry Bread/Muffins\n\n- **Servings:** {18}\n- **Yield:** {18} muffins/1 loaf\n\n## Ingredients\n\n- {4 3/4} cup Cake Flour\n- {1 1/2} tsp Baking Soda\n- {1} tbsp Baking Powder\n- {1/8} tsp Salt\n- {3/4} cup Vegetable Oil\n- {2} Egg\n- {1 1/2} cup Yogurt\n- {2 1/4} cup Blueberries\n\n## Instructions\n\n1. Preheat oven to 380 degrees F\n1. In a large bowl sift together the flour, baking soda, baking powder, and salt and set aside\n1. In another large bowl, whisk together the sugar, oil, egg and yogurt\n1. Add the dry ingredients reserving 1 tablespoon of the dry ingredients and toss with the blueberries\n1. Stir mixture for a count of 10\n1. Add 1 cup blueberries to mixture and stir 3 more times\n1. Reserve the 1/2 cup of blueberries\n1. Using a #20 ice cream scoop, add the mixture to greased muffin pans\n1. Sprinkle the remaining 1/2 cup of berries on top of muffins and press down lightly\n1. Place into the oven and increase the temperature to 400 degrees\n1. Bake for 20 to 25 minutes, rotating pan halfway through\n1. Remove from oven and turn out, upside down on tea towel to cool completely\n1. Serve immediately or store in airtight container for 2 to 3 days\n";
 
-  // src/data/recipes/blueberry-pie.md
+  // src/data/blueberry-pie.md
   var blueberry_pie_default = "# Blueberry Pie\n\n- **Servings:** {12}\n- **Yield:** {1} pie\n\n## Ingredients\n\n- {3/4} cup Sugar\n- {2} tbsp Cornstarch\n- {1/2} tsp Cinnamon\n- {1/2} cup Water\n- {3} cup Blueberries\n- {1} tbsp Lemon Juice\n- {2} Pie Crust, unbaked for top and bottom\n\n## Instructions\n\n1. Combine sugar, cornstarch, cinnamon and water\n1. Add to a saucepan and heat rapidly until thickened\n1. Set aside to cool as you prepare the pastry\n1. Once cooled add the berries and lemon juice\n1. Preheat oven to 425 degrees F\n1. Pour filling into dough lined pie pan, and sprinkle the lemon juice over the filling\n1. Adjust top crust, cut vents and flute rim\n1. Sprinkle top lightly with sugar\n1. Place pie onto a baking sheet and into the oven for 20 minutes\n1. Reduce heat to 350 degrees F and bake for an additional 20 to 25 minutes\n1. Allow to cool, cut and enjoy!\n";
 
-  // src/data/recipes/boston-cream.md
+  // src/data/boston-cream.md
   var boston_cream_default = "# Boston Cream\n\n- **Servings:** {6}\n- **Yield:** {2} cups\n\n## Ingredients\n\n- {2} cup Milk\n- {1/2} Vanilla Bean, split lengthwise and seeds scraped out\n- {6} Egg Yolk\n- {2/3} cup Sugar\n- {1/4} cup Cornstarch\n- {1} tbsp Butter\n\n## Instructions\n\n1. In a medium saucepan, heat the milk and vanilla bean to a boil over medium heat\n1. Immediately turn off the heat and set aside to infuse for 10 to 15 minutes\n1. In a bowl, whisk the egg yolks and granulated sugar until light and fluffy\n1. Add the cornstarch and whisk vigorously until no lumps remain\n1. Whisk in 1/4 cup of the hot milk mixture until incorporated\n1. Whisk in the remaining hot milk mixture, reserving the empty saucepan\n1. Pour the mixture through a strainer back into the saucepan\n1. Cook over medium-high heat, whisking constantly, until thickened and slowly boiling\n1. Remove from the heat and stir in the butter\n1. Let cool slightly\n1. Cover with plastic wrap, lightly pressing the plastic against the surface to prevent a skin from forming\n1. Chill at least 2 hours or until ready to serve\n";
 
-  // src/data/recipes/brown-butter-frosting.md
+  // src/data/brown-butter-frosting.md
   var brown_butter_frosting_default = "# Brown Butter Frosting\n\n- **Servings:** {60}\n- **Yield:** {4} cups\n\n## Ingredients\n\n- {1/2} cup Butter\n- {3} cup Confectioners' Sugar\n- {1} tsp Vanilla Extract\n- {3} tbsp Water\n\n## Instructions\n\n1. In a small saucepan heat the butter over medium heat until golden brown, stirring occasionally\n1. Remove saucepan from heat; stir in 3 cups sifted powdered sugar and 1 teaspoon vanilla\n1. Stir in enough water (3 to 4 tablespoons) to make an icing of drizzling consistency\n1. Drizzle on warm cookies\n";
 
-  // src/data/recipes/brown-butter-frosting-icing.md
+  // src/data/brown-butter-frosting-icing.md
   var brown_butter_frosting_icing_default = "# Brown Butter Frosting/Icing\n\n- **Servings:** {60}\n- **Yield:** {4} cups\n\n## Ingredients\n\n- {1/2} cup Butter\n- {3} cup Confectioners' Sugar\n- {1} tsp Vanilla Extract\n- {3} tbsp Water\n\n## Instructions\n\n1. In a small saucepan heat the butter over medium heat until golden brown, stirring occasionally\n1. Remove saucepan from heat; stir in 3 cups sifted powdered sugar and 1 teaspoon vanilla\n1. Stir in enough water (3 to 4 tablespoons) to make an icing of drizzling consistency\n1. Drizzle on warm cookies\n";
 
-  // src/data/recipes/butter-pecan-fudge.md
+  // src/data/butter-pecan-fudge.md
   var butter_pecan_fudge_default = "# Butter Pecan Fudge\n\n- **Servings:** {32}\n- **Yield:** {64} pieces\n\n## Ingredients\n\n- {1} stick Butter\n- {1/2} cup Sugar\n- {1/2} cup Brown Sugar\n- {1/2} cup Heavy Cream\n- {1/8} tsp Salt\n- {1} tsp Vanilla Extract\n- {2} cup Confectioners' Sugar\n- {1} cup Pecans, chopped\n\n## Instructions\n\n1. In a large heavy saucepan, combine the butter, sugars, cream and salt\n1. Bring to a boil over medium heat, stirring occasionally\n1. Boil for 5 minutes, stirring constantly\n1. Remove from the heat; stir in vanilla\n1. Stir in confectioners' sugar until smooth\n1. Fold in pecans\n1. Spread into a buttered 8-in\n1. square dish\n1. Cool to room temperature\n1. Cut into 1-in\n1. squares\n1. Store in an airtight container in the refrigerator\n1. Yield: 1 1/4 pounds\n";
 
-  // src/data/recipes/butterbeer.md
+  // src/data/butterbeer.md
   var butterbeer_default = "# Butterbeer\n\n- **Servings:** {4}\n- **Yield:** {4} glasses\n\n## Ingredients\n\n- {1} cup Brown Sugar, light or dark\n- {2} tbsp Water\n- {6} tbsp Butter\n- {1/2} tsp Salt\n- {1/2} tsp Cider Vinegar\n- {3/4} cup Heavy Cream, divided\n- {1/2} tsp Rum Extract\n- {48} oz Cream Soda, four 12-oz bottles\n\n## Instructions\n\n1. In a small saucepan over medium, combine the brown sugar and water\n1. Bring to a gentle boil and cook, stirring often, until the mixture reads 240 F on a candy thermometer\n1. Stir in the butter, salt, vinegar and 1/4 cup heavy cream\n1. Set aside to cool to room temperature\n1. Once the mixture has cooled, stir in the rum extract\n1. In a medium bowl, combine 2 tablespoons of the brown sugar mixture and the remaining 1/2 cup of heavy cream\n1. Use an electric mixer to beat until just thickened, but not completely whipped, about 2 to 3 minutes\n1. To serve, divide the brown sugar mixture between 4 tall glasses (about 1/4 cup for each glass)\n1. Add 1/4 cup of cream soda to each glass, then stir to combine\n1. Fill each glass nearly to the top with additional cream soda, then spoon the whipped topping over each\n";
 
-  // src/data/recipes/cake-batter-fudge.md
+  // src/data/cake-batter-fudge.md
   var cake_batter_fudge_default = "# Cake Batter Fudge\n\n- **Servings:** {32}\n- **Yield:** {64} pieces\n\n## Ingredients\n\n- {14} oz Condensed Milk\n- {3 1/2} cup White Chocolate\n- {3} tsp Vanilla Extract\n- {1/2} tsp Almond Extract\n\n## Instructions\n\n1. Pour milk and white chocolate into a microwave-safe bowl\n1. Heat for 2-3 minutes, or until white chocolate is almost completely melted\n1. DO NOT OVERHEAT\n1. Stir until completely blended, melted, and smooth\n1. Immediately add vanilla and almond extract and combine thoroughly\n1. Add a handful or so of rainbow sprinkles and fold in quickly because they will melt (and if they are stirred for too long they\u2019ll turn the fudge an ugly gray color)\n1. Transfer to an aluminum-foil lined or well-greased 8\xD78 inch baking pan for very thick fudge, or a 11X7 inch pan (this is the size I used and it worked perfectly)\n1. Let set at room temperature or in the refrigerator\n1. Once set, cut into cubes (peel off the foil if you used it!)\n1. Store leftovers in an airtight container in the fridge\n";
 
-  // src/data/recipes/candy-cane-fudge.md
+  // src/data/candy-cane-fudge.md
   var candy_cane_fudge_default = "# Candy Cane Fudge\n\n- **Servings:** {32}\n- **Yield:** {64} pieces\n\n## Ingredients\n\n- {20} oz White Chocolate\n- {1/2} tsp Vanilla Extract\n- {14} oz Condensed Milk\n- {1/2} tsp Peppermint Flavoring\n- {1 1/2} cup Candy Canes, crushed\n\n## Instructions\n\n1. Line an 8 inch square baking pan with aluminum foil, and grease the foil\n1. Combine the white chocolate, vanilla and sweetened condensed milk in a saucepan over medium heat\n1. Stir frequently until almost melted, remove from heat and continue to stir until smooth\n1. When chips are completely melted, stir in the peppermint extract, food coloring, and candy canes\n1. Spread evenly in the bottom of the prepared pan\n1. Chill for 2 hours, then cut into squares\n";
 
-  // src/data/recipes/candy-corn.md
+  // src/data/candy-corn.md
   var candy_corn_default = "# Candy Corn\n\n- **Servings:** {14}\n- **Yield:** {70} candies\n\n## Ingredients\n\n- {1 1/4} cup Confectioners' Sugar\n- {1/2} oz Nonfat Dry Milk\n- {1/4} tsp Salt\n- {1/2} cup Sugar\n- {1/3} cup Light Corn Syrup\n- {2 1/2} tbsp Water\n- {2} tbsp Butter\n- {1/2} tsp Vanilla Extract\n- {0} Food Coloring\n\n## Instructions\n\n1. Combine the powdered sugar, dry milk and salt in the bowl of a food processor\n1. Pulse 4 to 5 times until the mixture is smooth and well combined\n1. Set aside\n1. Combine the sugar, corn syrup and water in a 2-quart pot\n1. Put over medium heat, cover and cook for 4 minutes\n1. Add the butter, clip on a candy thermometer, and bring the mixture to 230 degrees F, about 1 to 2 minutes\n1. When the sugar syrup reaches 230 degrees F, take the pot off the heat and remove the thermometer\n1. Add the vanilla and the dry mixture, stirring continuously with a silicone spatula until well combined\n1. Pour onto a half sheet pan lined with a silicone baking mat\n1. Cool until the mixture is cool enough to handle, about 10 to 15 minutes\n1. Divide the dough into 3 equal pieces\n1. Add 2 drops of yellow food coloring to 1 piece and knead the dough until the color is consistent throughout\n1. Add 2 drops of orange to the second piece, and knead until the color is consistent throughout\n1. Leave the third piece white\n1. Roll each piece of dough into a strand, about 18-inches long\n1. Cut each strand in half\n1. Roll 1 of the white pieces into a strand that is about 1/2-inch thick and about 22-inches long\n1. Repeat with a yellow piece and orange piece\n1. Lay the strands side by side and press them together using your fingers\n1. Cut the strand into 4-inch pieces\n1. Lay the strands, 1 at a time, onto the silicone mat and press into a wedge shape, like a triangle\n1. Use a wire butter slicer to cut the candies into pieces\n1. If you don't have a wire butter slicer, use a knife, metal bench scraper or pizza cutter to slice the dough into small pieces\n1. Repeat the procedure with remaining dough\n1. Lay the finished pieces on a piece of parchment or waxed paper to dry for 1 hour\n1. Store in an airtight container with parchment paper between each layer\n";
 
-  // src/data/recipes/cannoli-filling.md
+  // src/data/cannoli-filling.md
   var cannoli_filling_default = "# Cannoli Filling\n\n- **Servings:** {14}\n- **Yield:** {14} cannolis\n\n## Ingredients\n\n- {1/2} cup Heavy Cream\n- {1} lb Ricotta Cheese\n- {1/2} cup Confectioners' Sugar\n- {2} tsp Liqueur, nut-flavored\n- {1/4} cup Date, finely chopped\n- {1/2} cup Semisweet Chocolate, melted\n- {1/4} cup Pistachio, chopped\n\n## Instructions\n\n1. In a mixing bowl whip the cream\n1. Fold in the ricotta with a rubber spatula, working until creamy\n1. Fold in the sugar, nut liqueur, and dates\n1. Place 1 cannoli shell on a flat surface\n1. Working from either end, fill the cannoli with the ricotta filling (using a pastry bag, if desired), pressing gently to ensure that the middle is filled\n1. Dip both ends in the melted chocolate, then into the pistachios and place on a waxed paper lined baking sheet\n1. Repeat with the remaining cannoli, and serve\n";
 
-  // src/data/recipes/cannoli-shells.md
+  // src/data/cannoli-shells.md
   var cannoli_shells_default = "# Cannoli Shells\n\n- **Servings:** {14}\n- **Yield:** {14} shells\n\n## Ingredients\n\n- {1 1/2} cup All-purpose Flour\n- {1} tbsp Sugar\n- {1/8} tsp Salt\n- {1/2} cup Wine, dry\n- {2} Egg White, beaten\n- {0} Vegetable Oil\n\n## Instructions\n\n1. Into a bowl sift together the flour, sugar, and salt\n1. With your fingers, work the wine gradually into the dry ingredients to form a stiff dough\n1. Form into a ball, wrap in plastic and let rest at room temperature for 1 hour\n1. On a lightly floured surface, roll out the dough to 1/8-inch thickness\n1. With a cutter, cut out rounds 5-inches in diameter\n1. In batches, as necessary, wrap each round onto a cannoli mold, sealing the edges with egg white\n1. In a deep saute pan, heat the oil to 350 degrees F\n1. Fry the cannoli in batches until just golden brown and crisp, about 2 minutes\n1. Drain on paper towels, let cool, then gently slip the molds from the cannoli\n1. (Note: Shells can be made 3 days in advance and kept at room temperature in an airtight container.)\n";
 
-  // src/data/recipes/caramel-shortbread-cookies.md
+  // src/data/caramel-shortbread-cookies.md
   var caramel_shortbread_cookies_default = "# Caramel Shortbread Cookies\n\n- **Servings:** {30}\n- **Yield:** {30} cookies\n\n## Ingredients\n\n- {3} stick Butter\n- {1} cup Sugar\n- {2} tsp Vanilla Extract\n- {2 1/2} cup All-purpose Flour\n- {1/2} cup Brown Sugar\n- {3} tbsp Light Corn Syrup\n- {2} tbsp Heavy Cream\n- {1} tsp Espresso Powder\n- {1/4} tsp Salt\n- {1/2} tsp Cider Vinegar\n\n## Instructions\n\n1. Preheat the oven to 350 degrees F\n1. Butter a 9-by-13-inch baking dish, then line with parchment paper, leaving an overhang on 2 sides; butter the parchment\n1. Beat 2 1/2 sticks butter, the granulated sugar and 1 teaspoon vanilla in a large bowl with a mixer on medium-high speed until light and fluffy, 3 to 5 minutes\n1. Reduce the mixer speed to low; add the flour and beat until just incorporated\n1. Transfer the dough to the prepared baking dish and set a piece of plastic wrap directly on the surface\n1. Press into an even layer, then peel off the plastic\n1. Bake until golden brown, 30 to 35 minutes\n1. Transfer to a rack to cool slightly, then remove from the pan using the parchment\n1. Cut into triangles\n1. Make the caramel: Combine the remaining 1/2 stick butter, the brown sugar, corn syrup, heavy cream, espresso powder and kosher salt in a small saucepan over medium heat\n1. Cook, stirring occasionally, until a candy thermometer registers 235 degrees F, about 6 minutes\n1. Remove from the heat and stir in the remaining 1 teaspoon vanilla and the vinegar\n1. Let cool 5 minutes, then drizzle over the shortbread\n1. Sprinkle with sea salt\n";
 
-  // src/data/recipes/cheesecake.md
+  // src/data/cheesecake.md
   var cheesecake_default = "# Cheesecake\n\n- **Servings:** {16}\n- **Yield:** {1} cheesecake\n\n## Ingredients\n\n- {32} oz Cream Cheese\n- {1 1/2} cup Sugar\n- {3/4} cup Milk\n- {4} Egg\n- {1} cup Sour Cream\n- {1} tbsp Vanilla Extract\n- {1/4} cup All-purpose Flour\n\n## Instructions\n\n1. Preheat oven to 350 degrees F (175 degrees C)\n1. In a large bowl, mix cream cheese with sugar until smooth\n1. Blend in milk, and then mix in the eggs one at a time, mixing just enough to incorporate\n1. Mix in sour cream, vanilla and flour until smooth\n1. Pour filling into prepared crust\n1. Bake in preheated oven for 1 hour\n1. Turn the oven off, and let cake cool in oven with the door closed for 5 to 6 hours; this prevents cracking\n1. Chill in refrigerator until serving\n";
 
-  // src/data/recipes/cheesecake-shell.md
+  // src/data/cheesecake-shell.md
   var cheesecake_shell_default = "# Cheesecake Shell\n\n- **Servings:** {16}\n- **Yield:** {1} shell\n\n## Ingredients\n\n- {1 1/2} cup Graham Crackers, crumbs or 1 1/2 cup Oreos, cookie crumbs or 1 1/2 cup Cannoli Shells, crushed\n- {1/4} stick Butter\n- {2} tbsp Sugar\n\n## Instructions\n\n1. Preheat oven to 350 degrees F ( 175 degrees C)\n1. Lightly grease a 9 inch springform pan\n1. For oreos: In a small bowl, mix together crumbs, sugar, and melted butter\n1. For graham crackers or cannolis: In a small bowl, mix together crumbs and melted butter (omit sugar)\n1. Press onto the bottom and 1 1/2 inch up the sides of the prepared 9 inch springform pan\n1. Bake at 350 degrees F (175 degrees C) for 10 minutes\n1. Allow to cool\n";
 
-  // src/data/recipes/cherry-banana-bread-muffins.md
+  // src/data/cherry-banana-bread-muffins.md
   var cherry_banana_bread_muffins_default = "# Cherry Banana Bread/Muffins\n\n- **Servings:** {18}\n- **Yield:** {18} muffins/1 loaf\n\n## Ingredients\n\n- {2} Banana, overripe\n- {1/3} cup Butter\n- {1/3} cup Sugar\n- {2} Egg\n- {2} tbsp Honey\n- {1} cup Cherries, dried\n- {2} cup Self-rising Flour\n\n## Instructions\n\n1. Grease 8.5 x 4.5 x 2.5-inch bread pan\n1. Preheat oven 325 degrees F\n1. Mash bananas in large bowl\n1. Add butter, sugar, eggs, and honey\n1. Mix well\n1. Mix in dried cherries, raisins, or nuts\n1. Quickly mix in self-rising flour\n1. Scrape batter into greased bread pan and bake at 325 degrees F for 1 hour or until done\n1. Remove from oven and let loaf sit in pan for about 8 minutes\n1. Turn bread out of pan and let cool on rack\n1. Serve warm or cold\n1. To freeze, let bread cool completely before wrapping it up and freezing\n";
 
-  // src/data/recipes/cherry-pie.md
+  // src/data/cherry-pie.md
   var cherry_pie_default = "# Cherry Pie\n\n- **Servings:** {12}\n- **Yield:** {1} pie\n\n## Ingredients\n\n- {4} cup Cherries\n- {1 1/4} cup Sugar\n- {4} tbsp Cornstarch\n- {1/4} tsp Almond Extract\n- {1 1/2} tbsp Butter\n- {1} tbsp Sugar\n- {2} Pie Crust, unbaked for top and bottom\n\n## Instructions\n\n1. Place cherries in medium saucepan and place over heat\n1. Cover\n1. After the cherries lose considerable juice, which may take a few minutes, remove from heat\n1. In a small bowl, mix the sugar and cornstarch together\n1. Pour this mixture into the hot cherries and mix well\n1. Add the almond extract, if desired, and mix\n1. Return the mixture to the stove and cook over low heat until thickened, stirring frequently\n1. Remove from the heat and let cool\n1. If the filling is too thick, add a little water, too thin, add a little more cornstarch\n1. Preheat the oven to 375 degrees F\n1. Use your favorite pie dough recipe\n1. Prepare your crust\n1. Divide in half\n1. Roll out each piece large enough to fit into an 8 to 9-inch pan\n1. Pour cooled cherry mixture into the crust\n1. Dot with butter\n1. Moisten edge of bottom crust\n1. Place top crust on and flute the edge of the pie\n1. Make a slit in the middle of the crust for steam to escape\n1. Sprinkle with sugar\n1. Bake for about 50 minutes\n1. Remove from the oven and place on a rack to cool\n";
 
-  // src/data/recipes/chocolate-brownies.md
+  // src/data/chocolate-brownies.md
   var chocolate_brownies_default = "# Chocolate Brownies\n\n- **Servings:** {24}\n- **Yield:** {24} brownies\n\n## Ingredients\n\n- {4} stick Butter\n- {28} oz Chocolate Chips\n- {6} oz Unsweetened Chocolate\n- {6} Egg\n- {3} tbsp Coffee Granules\n- {2} tbsp Vanilla Extract\n- {2 1/4} cup Sugar\n- {1 1/4} cup All-purpose Flour\n- {1} tbsp Baking Powder\n- {1} tsp Salt\n- {3} cup Walnuts, chopped\n\n## Instructions\n\n1. Preheat oven to 350 degrees F\n1. Butter and flour a 12 x 18 x 1-inch baking sheet\n1. Melt together the butter, 1 pound of chocolate chips, and the unsweetened chocolate in a medium bowl over simmering water\n1. Allow to cool slightly\n1. In a large bowl, stir (do not beat) together the eggs, coffee granules, vanilla, and sugar\n1. Stir the warm chocolate mixture into the egg mixture and allow to cool to room temperature\n1. In a medium bowl, sift together 1 cup of flour, the baking powder, and salt\n1. Add to the cooled chocolate mixture\n1. Toss the walnuts and 12 ounces of chocolate chips in a medium bowl with 1/4 cup of flour, then add them to the chocolate batter\n1. Pour into the baking sheet\n1. Bake for 20 minutes, then rap the baking sheet against the oven shelf to force the air to escape from between the pan and the brownie dough\n1. Bake for about 15 minutes, until a toothpick comes out clean\n1. Do not overbake! Allow to cool thoroughly, refrigerate, and cut into 24 squares\n";
 
-  // src/data/recipes/chocolate-buttercream-frosting.md
+  // src/data/chocolate-buttercream-frosting.md
   var chocolate_buttercream_frosting_default = "# Chocolate Buttercream Frosting\n\n- **Servings:** {24}\n- **Yield:** {3} cups\n\n## Ingredients\n\n- {2} stick Butter, softened\n- {3 1/2} cup Confectioners' Sugar\n- {1/2} cup Unsweetened Cocoa Powder\n- {1/2} tsp Salt\n- {2} tsp Vanilla Extract or 1 tsp Almond Extract\n- {4} tsp Milk or 4 tsp Heavy Cream\n\n## Instructions\n\n1. Cream butter for a few minutes in a mixer with the paddle attachment on medium speed\n1. Turn off the mixer\n1. Sift 3 cups powdered sugar and cocoa into the mixing bowl\n1. Turn your mixer on the lowest speed (so the dry ingredients do not blow everywhere) until the sugar and cocoa are absorbed by the butter\n1. Increase mixer speed to medium and add vanilla extract, salt, and milk/cream and beat for 3 minutes\n1. If your frosting needs a more stiff consistency, add a little more sugar\n1. If your frosting needs to be thinned out, add additional milk 1 tablespoon at a time\n";
 
-  // src/data/recipes/chocolate-cake.md
+  // src/data/chocolate-cake.md
   var chocolate_cake_default = "# Chocolate Cake\n\n- **Servings:** {8}\n- **Yield:** {1} cake\n\n## Ingredients\n\n- {1 3/4} cup All-purpose Flour\n- {2} cup Sugar\n- {3/4} cup Unsweetened Cocoa Powder\n- {2} tsp Baking Soda\n- {1} tsp Baking Powder\n- {1} tsp Salt\n- {1} cup Buttermilk, shaken\n- {1/2} cup Vegetable Oil\n- {2} Egg\n- {1} tsp Vanilla Extract\n- {1} cup Coffee, freshly brewed and hot\n\n## Instructions\n\n1. Preheat the oven to 350 degrees F\n1. Butter two 8-inch x 2-inch round cake pans\n1. Line with parchment paper, then butter and flour the pans\n1. Sift the flour, sugar, cocoa, baking soda, baking powder, and salt into the bowl of an electric mixer fitted with a paddle attachment and mix on low speed until combined\n1. In another bowl, combine the buttermilk, oil, eggs, and vanilla\n1. With the mixer on low speed, slowly add the wet ingredients to the dry\n1. With mixer still on low, add the coffee and stir just to combine, scraping the bottom of the bowl with a rubber spatula\n1. Pour the batter into the prepared pans and bake for 35 to 40 minutes, until a cake tester comes out clean\n1. Cool in the pans for 30 minutes, then turn them out onto a cooling rack and cool completely\n1. Place 1 layer, flat side up, on a flat plate or cake pedestal\n1. With a knife or offset spatula, spread the top with frosting\n1. Place the second layer on top, rounded side up, and spread the frosting evenly on the top and sides of the cake\n";
 
-  // src/data/recipes/chocolate-cannoli-shells.md
+  // src/data/chocolate-cannoli-shells.md
   var chocolate_cannoli_shells_default = "# Chocolate Cannoli Shells\n\n- **Servings:** {32}\n- **Yield:** {32} cannoli shells\n\n## Ingredients\n\n- {2} cup All-purpose Flour\n- {1/2} cup Sugar\n- {1/2} cup Unsweetened Cocoa Powder\n- {1/8} tsp Salt\n- {1/4} cup Shortening\n- {2} Egg\n- {1/4} cup Milk\n- {2} tbsp Honey\n- {1} Egg White\n\n## Instructions\n\n1. In a medium bowl, stir together all-purpose flour, sugar cocoa powder, and salt\n1. Using a pastry blender, cut in shortening into flour mixture until mixture resembles coarse crumbs\n1. In a small bowl, stir together eggs, milk, and honey\n1. Add egg mixture to flour mixture\n1. Stir just until mixture forms a ball\n1. Divide dough in half\n1. On a lightly floured surface, roll each dough portion into a 16-inch square\n1. Cut each square into sixteen 4-inch squares\n1. Wrap each square lightly around one end of greased metal cannoli cylinders\n1. In a small bowl, lightly beat 1 egg white\n1. Moisten overlapping dough with egg white; press gently to seal\n1. Fry cannoli shells, a few at a time, in deep, hot vegetable oil (350 degrees F) about 1 minute or until golden brown\n1. Using tongs, carefully and gently lift shells from hot oil; drain any hot oil that is in metal cannoli cylinders back into pan\n1. Drain on paper towels\n1. Cool\n1. Repeat with remaining squares\n";
 
-  // src/data/recipes/chocolate-cannolis.md
+  // src/data/chocolate-cannolis.md
   var chocolate_cannolis_default = "# Chocolate Cannolis\n\n- **Servings:** {12}\n- **Yield:** {12} cannolis\n\n## Ingredients\n\n- {15} oz Ricotta Cheese\n- {1/4} cup Sugar\n- {4} tsp Unsweetened Cocoa Powder\n- {1} tsp Vanilla Extract\n- {1/2} tsp Orange Zest\n- {1/4} cup Bittersweet Chocolate, chopped\n- {12} Cannoli Shells\n\n## Instructions\n\n1. For filling, in a medium bowl stir together ricotta cheese, granulated sugar, 4 teaspoons cocoa powder, vanilla, and orange peel until almost smooth\n1. Fold in chocolate\n1. Cover and chill until needed\n1. Spoon filling into a pastry bag fitted with a large open star or round tip\n1. Pipe filling into cannoli shells\n1. If desired, cover and chill for up to 1 hour\n1. Before serving, sprinkle cannoli with powdered sugar and, if desired, additional cocoa powder\n";
 
-  // src/data/recipes/chocolate-cheesecake.md
+  // src/data/chocolate-cheesecake.md
   var chocolate_cheesecake_default = "# Chocolate Cheesecake\n\n- **Servings:** {16}\n- **Yield:** {1} cheesecake\n\n## Ingredients\n\n- {1/4} cup Heavy Cream\n- {1/4} cup Semisweet Chocolate, chopped\n- {24} oz Cream Cheese\n- {1} cup Sugar\n- {1/3} cup Unsweetened Cocoa Powder\n- {3} Egg\n- {1} tsp Vanilla Extract\n\n## Instructions\n\n1. In a small saucepan, heat 1/4 cup whipping cream and 1/4 cup chocolate chips, stirring constantly, until chips are melted\n1. Remove from heat\n1. In a large mixing bowl, beat cream cheese and 1 cup of sugar until smooth\n1. Add cocoa and beat well\n1. Add eggs and beat on low until just blended\n1. Stir in 1 teaspoon vanilla and reserved chocolate mixture until blended\n1. Pour over crust\n1. Bake at 325 degrees F (165 degrees C) for 45 to 50 minutes or until center is almost set\n";
 
-  // src/data/recipes/chocolate-chip-cookie-dough-fudge.md
+  // src/data/chocolate-chip-cookie-dough-fudge.md
   var chocolate_chip_cookie_dough_fudge_default = "# Chocolate Chip Cookie Dough Fudge\n\n- **Servings:** {32}\n- **Yield:** {64} squares\n\n## Ingredients\n\n- {1/2} cup Butter\n- {1/4} cup Sugar\n- {1/4} cup Brown Sugar\n- {1/2} tsp Vanilla Bean\n- {1/8} tsp Salt\n- {2} tbsp Half-and-half Cream\n- {1/2} cup All-purpose Flour\n- {1/3} cup Brown Sugar\n- {1/3} cup Butter\n- {1/16} tsp Salt\n- {1/3} cup Half-and-half Cream\n- {5} cup Confectioners' Sugar\n- {1} tsp Vanilla Bean\n- {1/2} cup Mini Chocolate Chips\n\n## Instructions\n\n1. Line an 8x8 baking dish with foil, leaving a 1 inch overhang\n1. Spray with non-stick cooking spray\n1. To prepare the cookie dough (first 7 ingredients), beat together the butter and sugar until light and fluffy, about 3 minutes\n1. Beat in the vanilla, salt, and half and half\n1. Stir in the flour until incorporated\n1. Set aside\n1. To make the fudge base (last 7 ingredients), combine the brown sugar, butter, salt, and half and half in a saucepan\n1. Stir over medium low heat until the butter has melted and the brown sugar is dissolved\n1. Remove from the heat and slowly stir in the powdered sugar, 1 cup at a time, until the mixture is smooth and well combined\n1. Stir in the vanilla\n1. Add the cookie dough to the fudge base and stir to combine\n1. Mix in the chocolate chips\n1. Spread the mixture in the prepared baking dish\n1. Chill until set, at least 3 hours\n1. Keep in refrigerator for up to 1 week\n";
 
-  // src/data/recipes/chocolate-chip-cookies.md
+  // src/data/chocolate-chip-cookies.md
   var chocolate_chip_cookies_default = "# Chocolate Chip Cookies\n\n- **Servings:** {36}\n- **Yield:** {36} cookies\n\n## Ingredients\n\n- {2 1/2} cup All-purpose Flour\n- {1} tsp Baking Soda\n- {1} tsp Salt\n- {2} stick Butter\n- {1 1/2} cup Brown Sugar\n- {1/2} cup Sugar\n- {2} Egg\n- {1} tsp Vanilla Extract\n- {12} oz Chocolate Chips\n\n## Instructions\n\n1. Preheat the oven to 375 degrees F\n1. Line baking sheets with parchment or silicone baking sheets or spray cookie sheets with nonstick cooking spray\n1. Put the flour, baking soda, and salt into a bowl and stir it with a whisk to combine\n1. Set aside\n1. Using a hand or stand mixer, beat the butter until it is lighter in color\n1. Slowly add in sugars and beat until it is light and fluffy\n1. Add the eggs 1 at a time and beat until they are incorporated\n1. Stir in the vanilla\n1. Add the flour mixture using low speed, then stir in the chocolate chips\n1. Drop by heaping tablespoonfuls about 2 inches apart onto the prepared baking sheets\n1. Bake until the cookies are lightly browned around the edges, about 12 to 15 minutes\n1. Let the cookies cool for a few minutes and then transfer them to wire racks to cool completely\n";
 
-  // src/data/recipes/chocolate-chip-cupcakes.md
+  // src/data/chocolate-chip-cupcakes.md
   var chocolate_chip_cupcakes_default = "# Chocolate Chip Cupcakes\n\n- **Servings:** {24}\n- **Yield:** {24} cupcakes\n\n## Ingredients\n\n- {3} stick Butter\n- {1 1/2} cup Brown Sugar\n- {4} Egg\n- {2 2/3} cup All-purpose Flour\n- {1} tsp Baking Powder\n- {1} tsp Baking Soda\n- {1/4} tsp Salt\n- {1} cup Milk\n- {2} tsp Vanilla Extract\n- {1} cup Chocolate Chips\n- {1/2} stick Butter\n- {6} tbsp Brown Sugar\n- {1 1/8} cup All-purpose Flour\n- {7} oz Condensed Milk\n- {1/2} tsp Vanilla Extract\n- {1/4} cup Mini Chocolate Chips\n\n## Instructions\n\n1. To make the cupcakes, preheat the oven to 350\xB0 F\n1. Line two cupcake pans with paper liners (24 total)\n1. In the bowl of a stand mixer fitted with the paddle attachment, combine the butter and brown sugar\n1. Beat together on medium-high speed until light and fluffy, about 3 minutes\n1. Mix in the eggs one at a time, beating well after each addition and scraping down the sides of the bowl as needed\n1. Combine the flour, baking powder, baking soda, and salt in a medium bowl\n1. Stir together to blend\n1. Add the dry ingredients to the mixer bowl on low speed, alternating with the milk, beginning and ending with the dry ingredients, mixing each addition just until incorporated\n1. Blend in the vanilla\n1. Fold in the chocolate chips with a spatula\n1. Divide the batter evenly between the prepared cupcake liners\n1. Bake for 18-20 minutes, until a toothpick inserted in the center comes out clean\n1. Allow to cool in the pan 5-10 minutes, then transfer to a wire rack to cool completely\n1. To make the cookie dough filling (last 6 ingredients), combine the butter and sugar in a mixing bowl and cream on medium-high speed until light and fluffy, about 2 minutes\n1. Beat in the flour, Condensed Milk and vanilla until incorporated and smooth\n1. Stir in the chocolate chips\n1. Cover with plastic wrap and refrigerate until the mixture has firmed up a bit, about an hour\n1. To fill the cupcakes, cut a cone-shaped portion out of the center of each cupcake\n1. Fill each hole with a chunk of the chilled cookie dough mixture\n";
 
-  // src/data/recipes/chocolate-chip-cinnamon-pizzelles.md
+  // src/data/chocolate-chip-cinnamon-pizzelles.md
   var chocolate_chip_cinnamon_pizzelles_default = "# Chocolate Chip/Cinnamon Pizzelles\n\n- **Servings:** {5}\n- **Yield:** {20} pizzelles\n\n## Ingredients\n\n- {2/3} cup Sugar\n- {4} Egg White, at room temperature\n- {2} tsp Vanilla Extract\n- {1/2} tsp Salt\n- {1/2} stick Butter, melted\n- {2/3} cup All-purpose Flour\n- {1} tsp Cinnamon\n- {1/2} cup Mini Chocolate Chips\n\n## Instructions\n\n1. Preheat the pizzelle iron to medium-high heat\n1. Whisk the sugar, egg whites, vanilla, and salt in a large bowl until frothy\n1. Whisk in the butter, flour, and cinnamon until blended\n1. Stir in the chocolate chips\n1. Brush the pizzelle cooking surfaces with melted butter\n1. Spoon 1 tablespoon of batter in the center of the pizzelle iron\n1. Close the iron and cook until deep golden, about 3 minutes\n1. Transfer the pizzelles to a cooling rack\n1. Cool completely\n1. Store the pizzelles airtight at room temperature\n";
 
-  // src/data/recipes/chocolate-chocolate-chip-cookies.md
+  // src/data/chocolate-chocolate-chip-cookies.md
   var chocolate_chocolate_chip_cookies_default = "# Chocolate Chocolate Chip Cookies\n\n- **Servings:** {24}\n- **Yield:** {24} cookies\n\n## Ingredients\n\n- {1 1/4} cup All-purpose Flour\n- {1} tsp Baking Powder\n- {1/2} tsp Salt\n- {1/4} tsp Baking Soda\n- {1} stick Butter\n- {6} oz Bittersweet Chocolate, chopped\n- {2} Egg\n- {1} Egg Yolk\n- {1} cup Brown Sugar, packed\n- {2} tsp Vanilla Extract\n- {12} oz Chocolate Chips\n\n## Instructions\n\n1. Whisk the flour, baking powder, salt, baking soda, and cloves together in a medium bowl\n1. Melt the butter in a saucepan over medium heat\n1. Remove pan from the heat, and add the bittersweet chocolate, set aside until melted\n1. Whisk the eggs, yolk, brown sugar, and vanilla together in a medium bowl then slowly whisk in melted chocolate mixture\n1. Stir in the flour mixture to make a loose dough\n1. Don't over work the dough\n1. Fold in the chips\n1. Cover with plastic wrap and refrigerate until firm, about 2 hours\n1. Preheat oven to 350 degrees F\n1. Line a baking sheet with parchment paper\n1. Form dough into balls, about 2 inches or 1 1/2 ounces each, and put on the prepared baking sheets, leaving a couple inches between the cookies\n1. Bake until outside is crackly, but the center is still moist, about 13 to 15 minutes\n1. Cool on a rack\n";
 
-  // src/data/recipes/chocolate-cinnamon-fudge.md
+  // src/data/chocolate-cinnamon-fudge.md
   var chocolate_cinnamon_fudge_default = "# Chocolate Cinnamon Fudge\n\n- **Servings:** {5}\n- **Yield:** {5} servings\n\n## Ingredients\n\n- {14} oz Condensed Milk\n- {2} tsp Cinnamon\n- {1} tsp Vanilla Extract\n- {1} lb Bittersweet Chocolate, chopped/chips\n- {3} tbsp Butter\n\n## Instructions\n\n1. Butter the bottom and sides of an 8 by 8-inch baking pan\n1. Line the pan with a sheet of parchment paper, about 14-inches long and 7-inches wide, allowing the excess to overhang the sides\n1. Set aside\n1. In a medium glass or stainless steel bowl, combine the condensed milk, cinnamon, and vanilla\n1. Stir in the chocolate chips and butter\n1. Put the bowl on a saucepan of barely simmering water and mix until the chocolate chips have melted and the mixture is smooth, about 6 to 8 minutes (mixture will be thick)\n1. Using a spatula, scrape the mixture into the prepared pan and smooth the top\n1. Sprinkle with salt, if desired\n1. Refrigerate for at least 2 hours until firm\n1. Run a warm knife around the edge of the pan to loosen the fudge\n1. Remove the fudge to a cutting board\n1. Peel off the parchment paper and cut the fudge into 1-inch pieces\n1. Store refrigerated in an airtight container or freeze\n";
 
-  // src/data/recipes/chocolate-covered-pretzels.md
+  // src/data/chocolate-covered-pretzels.md
   var chocolate_covered_pretzels_default = "# Chocolate Covered Pretzels\n\n- **Servings:** {12}\n- **Yield:** {24} pretzels\n\n## Ingredients\n\n- {24} Pretzel Rods\n- {24} oz Semisweet Chocolate\n\n## Instructions\n\n1. Melt chocolate and dip pretzels\n1. Squares use 1/3 the chocolate, and 1/2 for braids\n";
 
-  // src/data/recipes/chocolate-cream-pie.md
+  // src/data/chocolate-cream-pie.md
   var chocolate_cream_pie_default = "# Chocolate Cream Pie\n\n- **Servings:** {8}\n- **Yield:** {1} pie\n\n## Ingredients\n\n- {1} Pie Crust, baked\n- {1 1/8} cup Sugar\n- {2 1/2} cup Heavy Cream\n- {3/4} cup Buttermilk\n- {3 1/2} tbsp Cornstarch\n- {1/16} tsp Salt\n- {4} Egg Yolk\n- {4} oz Semisweet Chocolate, chopped\n- {1} tbsp Butter\n- {3/4} tsp Vanilla Extract\n- {3} tbsp Confectioners' Sugar\n\n## Instructions\n\n1. In a small saucepan combine sugar, 3/4 cup heavy cream, buttermilk, cornstarch and pinch of salt, and whisk until smooth\n1. Place over medium-high heat, and bring to a boil, whisking from time to time for the sugar and cornstarch to dissolve and the mixture thickens, about 5 minutes\n1. Continue cooking at a low boil for an additional 5 minutes, whisking constantly\n1. In a mixing bowl, beat the egg yolks lightly\n1. Pour 1/2 cup of the hot mixture into the egg yolks and whisk thoroughly\n1. Pour the egg yolk mixture into the saucepan and whisk over the heat until thoroughly combined and very thick, 1 to 2 minutes\n1. Pour the mixture into a mixing bowl, and whisk in the chocolate, butter and vanilla\n1. Continue whisking until thoroughly combined (mixture will be very thick)\n1. Cover the mixture with plastic wrap placed directly on the surface and refrigerate until cooled to room temperature, about 30 minutes\n1. Place 1 3/4 cups heavy cream in a chilled mixing bowl and add the confectioners' sugar\n1. Beat until stiff peaks form\n1. Gently fold about 1/4 of the whipped cream into the cool chocolate pudding mixture, then spoon the chocolate mixture into the prepared pie crust and refrigerate until firm and cool, at least 4 hours\n1. Refrigerate the remaining whipped cream until you are ready to serve the pie\n1. When ready to serve, top the pie with the remaining sweetened whipped cream and serve immediately\n";
 
-  // src/data/recipes/chocolate-donuts.md
+  // src/data/chocolate-donuts.md
   var chocolate_donuts_default = "# Chocolate Donuts\n\n- **Servings:** {10}\n- **Yield:** {10} donuts\n\n## Ingredients\n\n- {1} cup All-purpose Flour\n- {1/2} cup Sugar\n- {1/4} cup Unsweetened Cocoa Powder\n- {1/4} cup Mini Chocolate Chips\n- {1/2} tsp Baking Soda\n- {1/2} tsp Vanilla Extract\n- {1} Egg\n- {6} tbsp Sour Cream\n- {1/4} cup Milk\n- {1/4} cup Vegetable Oil\n\n## Instructions\n\n1. Preheat oven to 375 degrees\n1. In a medium mixing bowl, combine the flour, sugar, cocoa powder, chocolate chips, and baking soda\n1. In a small bowl, beat together the vanilla, egg, sour cream, milk, and oil\n1. Stir the wet ingredients into the dry until just combined\n1. Spoon in a greased donut pan\n1. Bake for 8 minutes or until the tops spring back when you touch them\n1. Let the donuts cool in the pan before glazing\n";
 
-  // src/data/recipes/chocolate-eclairs.md
+  // src/data/chocolate-eclairs.md
   var chocolate_eclairs_default = "# Chocolate Eclairs\n\n- **Servings:** {9}\n- **Yield:** {9} eclairs\n\n## Ingredients\n\n- {2} cup Milk\n- {1/2} Vanilla Bean, split lengthwise\n- {6} Egg Yolk\n- {2/3} cup Sugar\n- {1/4} cup Cornstarch\n- {1} tbsp Butter\n- {1} cup Water\n- {1} stick Butter\n- {1/2} tsp Salt\n- {1 1/2} tsp Sugar\n- {1} cup All-purpose Flour\n- {3} Egg\n- {1} Egg\n- {1 1/2} tsp Water\n- {1/2} cup Heavy Cream\n- {4} oz Semisweet Chocolate, chopped\n\n## Instructions\n\n1. Filling (first 6 ingredients): In a medium saucepan, heat the milk and vanilla bean to a boil over medium heat\n1. Immediately turn off the heat and set aside to infuse for 15 minutes\n1. In a bowl, whisk the egg yolks and sugar until light and fluffy\n1. Add the cornstarch and whisk vigorously until no lumps remain\n1. Whisk in 1/4 cup of the hot milk mixture until incorporated\n1. Whisk in the remaining hot milk mixture, reserving the saucepan\n1. Pour the mixture through a strainer back into the saucepan\n1. Cook over medium-high heat, whisking constantly, until thickened and slowly boiling\n1. Remove from the heat and stir in the butter\n1. Let cool slightly\n1. Cover with plastic wrap, lightly pressing the plastic against the surface to prevent a skin from forming\n1. Chill at least 2 hours or until ready to serve\n1. The custard can be made up to 24 hours in advance\n1. Refrigerate until 1 hour before using\n1. Pastry (next 6 ingredients): Preheat the oven to 425 degrees\n1. Line a sheet pan with parchment paper\n1. In a large saucepan, bring the water, butter, salt and sugar to a rolling boil over medium-high heat\n1. When it boils, immediately take the pan off the heat\n1. Stirring with a wooden spoon, add all the flour at once and stir hard until all the flour is incorporated, 30 to 60 seconds\n1. Return to the heat and cook, stirring, 30 seconds\n1. Scrape the mixture into a mixer fitted with a paddle attachment (or use a hand mixer)\n1. Mix at medium speed\n1. With the mixer running, add 3 eggs, 1 egg at a time\n1. Stop mixing after each addition to scrape down the sides of the bowl\n1. Mix until the dough is smooth and glossy and the eggs are completely incorporated\n1. The dough should be thick, but should fall slowly and steadily from the beaters when you lift them out of the bowl\n1. If the dough is still clinging to the beaters, add an extra egg and mix until incorporated\n1. Using a pastry bag fitted with a large plain tip, pipe fat lengths of dough (about the size and shape of a jumbo hot dog) onto the lined baking sheet, leaving 2 inches of space between them\n1. You should have 8 to 10 lengths\n1. Egg Wash (next 2 ingredients): In a bowl, whisk the egg and water together\n1. Brush the surface of each eclair with the egg wash\n1. Use your fingers to smooth out any bumps of points of dough that remain on the surface\n1. Bake 15 minutes, then reduce the heat to 375 degrees and bake until puffed up and light golden brown, about 25 minutes more\n1. Try not to open the oven door too often during the baking\n1. Let cool on the baking sheet\n1. Fit a medium-size plain pastry tip over your index finger and use it to make a hole in the end of each eclair (or just use your fingertip)\n1. Using a pastry bag fitted with a medium-size plain tip, gently pipe the custard into the eclairs, using only just enough to fill the inside (don't stuff them full)\n1. Glaze (last 2 ingredients): In a small saucepan, heat the cream over medium heat just until it boils\n1. Immediately turn off the heat\n1. Put the chocolate in a medium bowl\n1. Pour the hot cream over the chocolate and whisk until melted and smooth\n1. Set aside and keep warm\n1. The glaze can be made up to 48 hours in advance\n1. Cover and refrigerate until ready to use, and rewarm in a microwave or over hot water when ready to use\n1. Dip the tops of the eclairs in the warm chocolate glaze and set on a sheet pan\n1. Chill, uncovered, at least 1 hour to set the glaze\n1. Serve chilled\n";
 
-  // src/data/recipes/chocolate-fudge.md
+  // src/data/chocolate-fudge.md
   var chocolate_fudge_default = "# Chocolate Fudge\n\n- **Servings:** {32}\n- **Yield:** {64} pieces\n\n## Ingredients\n\n- {2 3/4} cup Sugar\n- {4} oz Unsweetened Chocolate\n- {3} tbsp Butter\n- {1} cup Half-and-half Cream\n- {1} tbsp Light Corn Syrup\n- {1} tbsp Vanilla Extract\n- {1} cup Nuts, optional\n\n## Instructions\n\n1. Grease an 8 by 8-inch pan with butter\n1. In a heavy-bottomed saucepan, combine the sugar, chocolate, 1 1/2 tablespoons of the butter, half-and-half, and corn syrup\n1. Over medium heat, stir with a wooden spoon until sugar is dissolved and chocolate is melted\n1. Increase heat and bring to a boil\n1. Reduce heat to medium-low, cover, and boil for 3 minutes\n1. Remove the cover and attach a candy thermometer to the pot\n1. Cook until the thermometer reads 234 degrees F\n1. Remove from the heat and add the remaining butter\n1. Do not stir\n1. Let the mixture cool for 10 minutes or until it drops to 130 degrees F\n1. Add vanilla and nuts, if desired, and mix until well-blended and the shiny texture becomes matte\n1. Pour into the prepared pan\n1. Let sit in cool dry area until firm\n1. Cut into 1-inch pieces and store in an airtight container for up to a week\n";
 
-  // src/data/recipes/chocolate-icing.md
+  // src/data/chocolate-icing.md
   var chocolate_icing_default = "# Chocolate Icing\n\n- **Servings:** {8}\n- **Yield:** {2} cups\n\n## Ingredients\n\n- {1/2} stick Butter\n- {1/2} cup Brown Sugar\n- {2} tbsp Milk\n- {1 1/2} cup Confectioners' Sugar\n- {1} tbsp Unsweetened Cocoa Powder\n- {1} tsp Vanilla Extract\n\n## Instructions\n\n1. In a saucepan, melt butter and brown sugar over medium heat\n1. Stir until sugar is dissolved, then add milk\n1. Bring to a boil and remove from heat\n1. Sift together cocoa and confectioners sugar\n1. Blend into butter mixture and add vanilla\n1. If consistency is too stiff, add more milk\n1. Spread Quickly over cooled cake, as frosting will set up very fast\n";
 
-  // src/data/recipes/chocolate-orange-fudge.md
+  // src/data/chocolate-orange-fudge.md
   var chocolate_orange_fudge_default = "# Chocolate Orange Fudge\n\n- **Servings:** {32}\n- **Yield:** {64} pieces\n\n## Ingredients\n\n- {2 1/2} cup Semisweet Chocolate\n- {14} oz Condensed Milk\n- {2} tsp Orange Zest\n\n## Instructions\n\n1. Line a 8x8x2-inch baking pan with lightly buttered waxed paper or aluminum foil\n1. Set aside\n1. Melt chocolate chips with condensed milk in the top of a double boiler or in a bowl in the microwave\n1. Stir until smooth\n1. Remove from heat and stir in pecans and grated orange peel\n1. Spread in prepared dish and chill until firm\n1. Carefully remove fudge from pan using the edges of the foil\n1. Cut into squares\n1. Store covered in refrigerator\n";
 
-  // src/data/recipes/chocolate-pastry-cream.md
+  // src/data/chocolate-pastry-cream.md
   var chocolate_pastry_cream_default = "# Chocolate Pastry Cream\n\n- **Servings:** {6}\n- **Yield:** {2} cups\n\n## Ingredients\n\n- {1 1/4} cup Milk, whole\n- {2} oz Semisweet Chocolate, melted\n- {3} Egg Yolk\n- {1/4} cup Sugar\n- {1} tbsp All-purpose Flour\n- {1 1/2} tsp Unsweetened Cocoa Powder\n- {2 2/3} tbsp Cornstarch\n- {1} tsp Vanilla Extract\n\n## Instructions\n\n1. In a small saucepan, warm the milk over low heat until it is just hot enough to steam\n1. While the milk is warming, whisk together the egg yolks, sugar, flour, cocoa powder, and cornstarch until the mixture is completely smooth\n1. Once the milk is steaming, add the melted chocolate to it and whisk until it is fully incorporated into the milk\n1. Add half of the chocolate milk, whisking constantly, to the egg mixture\n1. Add the milk and eggs back into the hot milk, continue stirring, and heat it for 1-2 minutes, until the custard reaches 170F on a digital thermometer and is very thick\n1. Remove from the heat, stir in the vanilla extract, and chill before filling pastry\n";
 
-  // src/data/recipes/chocolate-peppermint-pizzelles.md
+  // src/data/chocolate-peppermint-pizzelles.md
   var chocolate_peppermint_pizzelles_default = "# Chocolate Peppermint Pizzelles\n\n- **Servings:** {18}\n- **Yield:** {18} pizzelles\n\n## Ingredients\n\n- {1 1/4} cup All-purpose Flour\n- {1/4} cup Unsweetened Cocoa Powder\n- {1 1/2} tsp Baking Powder\n- {1} tsp Cinnamon\n- {1/2} tsp Orange Zest\n- {1/4} tsp Salt\n- {3} Egg\n- {1} cup Sugar\n- {1/2} cup Butter, melted\n- {0} Confectioners' Sugar, for dusting\n- {12} oz Semisweet Chocolate\n- {4} tbsp Butter\n- {1/2} tsp Mint Extract\n\n## Instructions\n\n1. Whisk the flour, cocoa, baking powder, cinnamon, orange zest, and salt together in a large bowl\n1. In another medium bowl, briskly whisk the eggs, sugar and melted butter together until smooth and evenly combined\n1. Make a well in the center of the dry ingredients and pour in the egg mixture\n1. Gradually whisk the liquid into the flour to make a thick batter\n1. When the pizzelle batter starts to clump up in the whisk, switch to a rubber spatula to finish mixing it together\n1. (If you have a large pastry bag, put a big round tip in it, and fill with the pizzelle batter.)\n1. Preheat a pizzelle iron until a drop of water sizzles on the hot surface, about 10 minutes\n1. Lightly spray the hot surface with nonstick cooking spray\n1. Pipe or spoon about a tablespoon of the batter into the center of each cookie imprint\n1. Close the iron and cook until whiffs of steam comes from the iron, about 30 to 45 seconds\n1. Open and remove cookie from the iron, cool on a rack\n1. Repeat with remaining batter\n1. To make the filling:\n1. Put the chocolate and butter in a microwave safe bowl\n1. Cover and microwave on medium power until soft and melted, about 3 minutes depending on the power of your oven; stir until smooth\n1. Alternatively, put the chocolate in a heatproof bowl\n1. Bring a saucepan filled with 1-inch or so of water to a very slow simmer; set the bowl on the pan (without touching the water)\n1. Stir occasionally until melted and smooth\n1. Stir in mint extract\n1. To serve pipe a tablespoon of the mint filling into the center of half the cookies\n1. Top with another cookie and press to sandwich them together\n1. Serve now or keep tightly covered for up to 1 week\n";
 
-  // src/data/recipes/chocolate-truffles.md
+  // src/data/chocolate-truffles.md
   var chocolate_truffles_default = "# Chocolate Truffles\n\n- **Servings:** {30}\n- **Yield:** {30} truffles\n\n## Ingredients\n\n- {10} oz Bittersweet Chocolate, chopped fine\n- {3} tbsp Butter\n- {1/2} cup Heavy Cream\n- {1} tbsp Light Corn Syrup\n- {1/4} cup Brandy\n- {1/2} cup Unsweetened Cocoa Powder or 1/2 cup Nuts, finely chopped or 1/2 cup Coconut, toasted\n- {8} oz Semisweet Chocolate, chopped fine or 8 oz Bittersweet Chocolate, chopped fine\n\n## Instructions\n\n1. Place the 10 ounces of chocolate and butter in a medium size glass mixing bowl\n1. Microwave for 30 seconds\n1. Remove and stir, and repeat this process 1 more time\n1. Set aside\n1. Heat the heavy cream and corn syrup in a small saucepan over medium heat until simmering\n1. Remove from the heat and pour the mixture over the melted chocolate mixture; let stand for 2 minutes\n1. Using a rubber spatula, stir gently, starting in the middle of bowl and working in concentric circles until all chocolate is melted and mixture is smooth and creamy\n1. Gently stir in the brandy\n1. Pour the mixture into an 8 by 8-inch glass baking dish and place in the refrigerator for 1 hour\n1. Using a melon baller, scoop chocolate onto a sheet pan lined with parchment paper and return to the refrigerator for 30 minutes\n1. Place the cocoa powder, nuts, and/or toasted coconut each in its own pie pan and set aside\n1. In the meantime, place the 8 ounces of chocolate into a medium mixing bowl which is sitting on top of a heating pad lined bowl, with the heating pad set to medium\n1. Depending on the heating pad, you may need to adjust the heat up or down\n1. Stirring the chocolate occasionally, test the temperature of the chocolate and continue heating until it reaches 90 to 92 degrees F; do not allow the chocolate to go above 94 degrees F\n1. If you do, the coating will not have a nice snap to it when you bite into the chocolate\n1. Once you have reached the optimal temperature, adjust the heat to maintain it\n1. Remove the truffles from the refrigerator and shape into balls by rolling between the palms of your hands\n1. Use powder-free vinyl or latex gloves, if desired\n1. Dip an ice cream scoop into the chocolate and turn upside down to remove excess chocolate\n1. Place truffles 1 at time into the scoop and roll around until coated\n1. Then place the truffle into the dish with either the cocoa powder, nuts or coconut\n1. Move the truffle around to coat; leave truffle in the coating for 10 to 15 seconds before removing\n1. In the meantime, continue placing the chocolate-coated truffles in the cocoa or other secondary coating\n1. After 10 to 15 seconds, remove the truffle to a parchment lined sheet pan\n1. Repeat until all truffles are coated\n1. Allow to set in a cool dry place for at least 1 hour; or store in an airtight container in the refrigerator\n1. Truffles are best when served at room temperature\n";
 
-  // src/data/recipes/churros.md
+  // src/data/churros.md
   var churros_default = "# Churros\n\n- **Servings:** {12}\n- **Yield:** {12} churros\n\n## Ingredients\n\n- {1} cup Water\n- {1 1/2} tbsp Sugar\n- {1/16} tsp Salt\n- {1} cup Self-rising Flour\n- {2} Egg\n- {1} Egg Yolk\n- {0} Peanut Oil\n- {6} oz Chocolates, chopped\n\n## Instructions\n\n1. Make the dough by heating water, sugar and salt in saucepan over medium heat until hot\n1. Add the flour all at once and stir vigorously for 1 minute on the heat to dry the mixture out\n1. Remove from heat and transfer the dough to a stand mixer bowl; mix on low speed until there is no longer steam escaping from the dough\n1. With the mixer running on medium, add the eggs, 1 at a time, incorporating completely until a shiny, smooth texture forms before adding the next egg, and then the egg yolk\n1. Scrape down the mixer bowl with a rubber spatula between each addition\n1. Transfer the dough to the piping bag\n1. Pour oil into a large heavy bottomed pot to a depth of 4 inches; heat over medium-high heat to 375 degrees F\n1. To fry the churros, carefully squeeze the dough from the piping bag directly over the oil in 3 to 4-inch lengths, cutting the dough at the tip with a butter knife and gently dropping them into the oil\n1. Turn frequently with a Chinese strainer or tongs until golden brown, about 3 minutes\n1. Work in batches to prevent overcrowding the pan and allowing the oil to reheat to 375 degrees F between each batch\n1. Drain the churros on a paper towels and then toss in sugar to coat while still warm\n1. Melt the chocolate in a glass bowl set over a pan of barely simmering water\n1. Arrange the curros on a serving platter and serve the chocolate sauce alongside\n1. Enjoy!\n";
 
-  // src/data/recipes/cinnamon-bread-muffins.md
+  // src/data/cinnamon-bread-muffins.md
   var cinnamon_bread_muffins_default = "# Cinnamon Bread/Muffins\n\n- **Servings:** {18}\n- **Yield:** {18} muffins/1 loaf\n\n## Ingredients\n\n- {1/2} cup Milk\n- {1/4} cup Water, warm\n- {1} tbsp Butter, melted\n- {1} tbsp Sugar\n- {2} tsp Yeast\n- {1/2} tsp Cinnamon\n- {1/4} tsp Salt\n- {1/3} cup Raisins\n- {1 1/2} cup Bread Flour\n\n## Instructions\n\n1. In medium bowl, stir together milk, water, and butter\n1. Add sugar, yeast, cinnamon, and salt\n1. Stir until dissolved\n1. Add raisins, if desired\n1. Mix in bread flour, a half cup at a time\n1. Turn dough out onto floured board and knead for about 5 minutes\n1. If the dough is too sticky, add more flour a tablespoon at a time\n1. Grease medium bowl\n1. Put dough in bowl and turn so that the dough is greased on the top\n1. Cover and let rise in warm place for about 45 minutes or until double in size\n1. Punch down dough\n1. Turn out onto floured board and knead for about 3 minutes\n1. Shape dough into loaf\n1. Grease loaf pan\n1. Put loaf in pan, cover with clean cloth and allow to rise for about 30 minutes or until double in size\n1. Bake at 350 degrees F for 30 minutes or until golden brown\n1. Remove loaf from pan and let cool to warm on rack or clean cloth\n";
 
-  // src/data/recipes/cinnamon-rolls.md
+  // src/data/cinnamon-rolls.md
   var cinnamon_rolls_default = "# Cinnamon Rolls\n\n- **Servings:** {12}\n- **Yield:** {12} rolls\n\n## Ingredients\n\n- {4} Egg Yolk\n- {1} Egg\n- {1/4} cup Sugar\n- {3/4} stick Butter\n- {6} oz Buttermilk\n- {4} cup All-purpose Flour\n- {2 1/4} tsp Yeast\n- {1 1/4} tsp Salt\n- {0} Vegetable Oil\n- {1} cup Brown Sugar\n- {1} tbsp Cinnamon\n- {1 1/2} tbsp Butter\n- {1/4} cup Cream Cheese\n- {3} tbsp Milk\n- {1 1/2} cup Confectioners' Sugar\n\n## Instructions\n\n1. For the dough: in the bowl of a stand mixer with the whisk attachment, whisk the egg yolks, whole egg, sugar, butter, and buttermilk\n1. Add approximately 2 cups of the flour along with the yeast and salt; whisk until moistened and combined\n1. Remove the whisk attachment and replace with a dough hook\n1. Add all but 3/4 cup of the remaining flour and knead on low speed for 5 minutes\n1. Check the consistency of the dough, add more flour if necessary; the dough should feel soft and moist but not sticky\n1. Knead on low speed 5 minutes more or until the dough clears the sides of the bowl\n1. Turn the dough out onto a lightly floured work surface; knead by hand about 30 seconds\n1. Lightly oil a large bowl\n1. Transfer the dough to the bowl, lightly oil the top of the dough, cover and let double in volume, 2 to 2 1/2 hours\n1. Combine the brown sugar, cinnamon and salt in a medium bowl\n1. Mix until well incorporated\n1. Set aside until ready to use\n1. Butter a 9 by 13-inch glass baking dish\n1. Turn the dough out onto a lightly floured work surface\n1. Gently shape the dough into a rectangle with the long side nearest you\n1. Roll into an 18 by 12-inch rectangle\n1. Brush the dough with the 3/4-ounce of melted butter, leaving 1/2-inch border along the top edge\n1. Sprinkle the filling mixture over the dough, leaving a 3/4-inch border along the top edge; gently press the filling into the dough\n1. Beginning with the long edge nearest you, roll the dough into a tight cylinder\n1. Firmly pinch the seam to seal and roll the cylinder seam side down\n1. Very gently squeeze the cylinder to create even thickness\n1. Using a serrated knife, slice the cylinder into 1 1/2-inch rolls; yielding 12 rolls\n1. Arrange rolls cut side down in the baking dish; cover tightly with plastic wrap and store in the refrigerator overnight or up to 16 hours\n1. Remove the rolls from the refrigerator and place in an oven that is turned off\n1. Fill a shallow pan 2/3-full of boiling water and set on the rack below the rolls\n1. Close the oven door and let the rolls rise until they look slightly puffy; approximately 30 minutes\n1. Remove the rolls and the shallow pan of water from the oven\n1. Preheat the oven to 350 degrees F\n1. When the oven is ready, place the rolls on the middle rack and bake until golden brown, or until the internal temperature reaches 190 degrees F on an instant-read thermometer, approximately 30 minutes\n1. While the rolls are cooling slightly, make the icing by whisking the cream cheese in the bowl of a stand mixer until creamy\n1. Add the milk and whisk until combined\n1. Sift in the powdered sugar, and whisk until smooth\n1. Spread over the rolls and serve immediately\n";
 
-  // src/data/recipes/coffee-pastry-cream.md
+  // src/data/coffee-pastry-cream.md
   var coffee_pastry_cream_default = "# Coffee Pastry Cream\n\n- **Servings:** {6}\n- **Yield:** {2} cups\n\n## Ingredients\n\n- {1 1/4} cup Milk, whole\n- {2} tsp Espresso Powder\n- {3} Egg Yolk\n- {1/4} cup Sugar\n- {1} tbsp All-purpose Flour\n- {2 2/3} tbsp Cornstarch\n- {1} tsp Vanilla Extract\n\n## Instructions\n\n1. In a small saucepan, warm the milk and instant espresso powder over low heat until it is just hot enough to steam\n1. While the milk is warming, whisk together the egg yolks, sugar, flour, and cornstarch until the mixture is completely smooth\n1. Once the milk is steaming, add half of it, whisking constantly, to the egg mixture\n1. Add the milk and eggs back into the hot milk, continue stirring, and heat it for 1-2 minutes, until the custard reaches 170F on a digital thermometer and is very thick\n1. Remove from the heat, stir in the vanilla extract, and chill before filling pastry\n";
 
-  // src/data/recipes/cookie-dough-frosting.md
+  // src/data/cookie-dough-frosting.md
   var cookie_dough_frosting_default = "# Cookie Dough Frosting\n\n- **Servings:** {12}\n- **Yield:** {12} cupcakes worth\n\n## Ingredients\n\n- {1} stick Butter\n- {3/4} cup Brown Sugar\n- {1} tsp Vanilla Extract\n- {1 1/4} cup All-purpose Flour\n- {1/2} tsp Salt\n- {4} tbsp Milk\n- {1} cup Mini Chocolate Chips\n\n## Instructions\n\n1. With a mixer, cream together the butter and sugar at medium speed\n1. Add the vanilla and beat well\n1. Add the flour and salt and mix until combined\n1. Add the milk gradually until desired consistency is reached and beat until fluffy\n1. Gently fold in chocolate chips\n1. Frost cooled cupcakes\n1. I like mine thick so I kind of spoon is on\n1. Store in refrigerator\n1. Add less milk for a cookie dough to snack on or add more milk to make it into a dip!\n";
 
-  // src/data/recipes/cookies-and-cream-fudge.md
+  // src/data/cookies-and-cream-fudge.md
   var cookies_and_cream_fudge_default = "# Cookies and Cream Fudge\n\n- **Servings:** {32}\n- **Yield:** {64} squares\n\n## Ingredients\n\n- {20} oz White Chocolate, chunks\n- {14} oz Condensed Milk\n- {1} Oreos, package\n\n## Instructions\n\n1. Break up Oreos\n1. Prepare a 9x9 inch pan\n1. Simply pop your condensed milk and white chocolate into a bowl over a pot of water and heat gently\n1. Stir occasionally until its all melted and amalgamated\n1. Take off the heat , add in the Oreos and stir gently\n1. Pour into your prepared pan\n1. This mix is a little thick so you may need to give it a hand into the corners\n1. Pop into the fridge for 2 hours or over night to set\n1. Cut into squares and serve\n";
 
-  // src/data/recipes/cornbread-muffins.md
+  // src/data/cornbread-muffins.md
   var cornbread_muffins_default = "# Cornbread/Muffins\n\n- **Servings:** {12}\n- **Yield:** {12} muffins/2/3 loaf\n\n## Ingredients\n\n- {1} cup Cornmeal\n- {1} cup All-purpose Flour\n- {1} tbsp Baking Powder\n- {1/2} cup Sugar\n- {1} tsp Salt\n- {1} cup Milk, whole\n- {2} Egg\n- {1/2} stick Butter\n- {1/4} cup Honey\n\n## Instructions\n\n1. Preheat oven to 400 degrees F\n1. Into a large bowl, mix the cornmeal, flour, baking powder, sugar, and salt\n1. In another bowl, whisk together the whole milk, eggs, butter, and honey\n1. Add the wet to the dry ingredients and stir until just mixed\n1. Place muffin paper liners in a 12-cup muffin tin\n1. Evenly divide the cornbread mixture into the papers\n1. Bake for 15 minutes, until golden\n";
 
-  // src/data/recipes/cream-cheese-frosting.md
+  // src/data/cream-cheese-frosting.md
   var cream_cheese_frosting_default = "# Cream Cheese Frosting\n\n- **Servings:** {24}\n- **Yield:** {3} cups\n\n## Ingredients\n\n- {1} lb Cream Cheese\n- {2} stick Butter, softened\n- {1} tsp Vanilla Extract, softened\n- {4} cup Confectioners' Sugar, sifted\n\n## Instructions\n\n1. In a large mixing bowl, beat the cream cheese, butter and vanilla together until smooth\n1. Add the sugar and on low speed, beat until incorporated\n1. Increase the speed to high and mix until very light and fluffy\n";
 
-  // src/data/recipes/cream-puffs.md
+  // src/data/cream-puffs.md
   var cream_puffs_default = "# Cream Puffs\n\n- **Servings:** {20}\n- **Yield:** {20} cream puffs\n\n## Ingredients\n\n- {1} stick Butter\n- {1} cup Water\n- {1/4} tsp Salt\n- {1} cup All-purpose Flour\n- {4} Egg\n\n## Instructions\n\n1. Preheat oven to 425 degrees F (220 degrees C)\n1. In a large pot, bring water and butter to a rolling boil\n1. Stir in flour and salt until the mixture forms a ball\n1. Transfer the dough to a large mixing bowl\n1. Using a wooden spoon or stand mixer, beat in the eggs one at a time, mixing well after each\n1. Drop by tablespoonfuls onto an ungreased baking sheet\n1. Bake for 20 to 25 minutes in the preheated oven, until golden brown\n1. Centers should be dry\n1. When the shells are cool, either split and fill them with the pudding mixture, or use a pastry bag to pipe the pudding into the shells\n";
 
-  // src/data/recipes/donut-glaze.md
+  // src/data/donut-glaze.md
   var donut_glaze_default = "# Donut Glaze\n\n- **Servings:** {18}\n- **Yield:** {18} donuts worth\n\n## Ingredients\n\n- {1/3} cup Butter\n- {2} cup Confectioners' Sugar\n- {1 1/2} tsp Vanilla Extract\n\n## Instructions\n\n1. Melt butter in a saucepan over medium heat\n1. Stir in confectioners' sugar and vanilla until smooth\n1. Remove from heat, and stir in hot water one tablespoon at a time until the icing is somewhat thin, but not watery\n";
 
-  // src/data/recipes/donuts.md
+  // src/data/donuts.md
   var donuts_default = "# Donuts\n\n- **Servings:** {18}\n- **Yield:** {18} donuts\n\n## Ingredients\n\n- {1/2} oz Yeast\n- {1/4} cup Water, warm (105-115 degrees)\n- {1 1/2} cup Milk, lukewarm\n- {1/2} cup Sugar\n- {1} tsp Salt\n- {2} Egg\n- {1/3} cup Shortening\n- {5} cup All-purpose Flour\n- {1} qt Vegetable Oil\n\n## Instructions\n\n1. Sprinkle the yeast over the warm water, and let stand for 5 minutes, or until foamy\n1. In a large bowl, mix together the yeast mixture, milk, sugar, salt, eggs, shortening, and 2 cups of the flour\n1. Mix for a few minutes at low speed, or stirring with a wooden spoon\n1. Beat in remaining flour 1/2 cup at a time, until the dough no longer sticks to the bowl\n1. Knead for about 5 minutes, or until smooth and elastic\n1. Place the dough into a greased bowl, and cover\n1. Set in a warm place to rise until double\n1. Dough is ready if you touch it, and the indention remains\n1. Turn the dough out onto a floured surface, and gently roll out to 1/2 inch thickness\n1. Cut with a floured doughnut cutter\n1. Let doughnuts sit out to rise again until double\n1. Cover loosely with a cloth\n1. Heat oil in a deep-fryer or large heavy skillet to 350 degrees F (175 degrees C)\n1. Slide doughnuts into the hot oil using a wide spatula\n1. Turn doughnuts over as they rise to the surface\n1. Fry doughnuts on each side until golden brown\n1. Remove from hot oil, to drain on a wire rack\n1. Dip doughnuts into the glaze while still hot, and set onto wire racks to drain off excess\n1. Keep a cookie sheet or tray under racks for easier clean up\n1. To make filled donuts, roll dough to 1/2 inch thick and cut 4 inch circles\n1. Once dried, poke a hole in the side and fill with 1/3 cup of custard with a pastry bag\n";
 
-  // src/data/recipes/double-chocolate-gelato.md
+  // src/data/double-chocolate-gelato.md
   var double_chocolate_gelato_default = "# Double Chocolate Gelato\n\n- **Servings:** {4}\n- **Yield:** {4} servings\n\n## Ingredients\n\n- {2 1/4} cup Milk, whole\n- {1/3} cup Heavy Cream\n- {3/4} cup Sugar\n- {1} cup Unsweetened Cocoa Powder\n- {2} oz Bittersweet Chocolate, chopped\n- {4} Egg Yolk\n- {2} tbsp Liqueur, coffee flavored\n- {2} tsp Vanilla Extract\n- {1/8} tsp Salt\n- {8} Chocolates, chopped\n\n## Instructions\n\n1. Heat the milk, cream, and 1/2 cup sugar in a 2-quart saucepan, until the sugar dissolves and the milk starts to simmer\n1. Add the cocoa powder and chocolate and whisk until smooth\n1. Pour into a heat-proof measuring cup\n1. Place the egg yolks and the remaining 1/4 cup sugar in the bowl of an electric mixer fitted with the paddle attachment and beat on high speed for 3 to 5 minutes, until light yellow and very thick\n1. With the mixer on low speed, slowly pour the hot chocolate mixture into the egg mixture\n1. Pour the egg and chocolate mixture back into the 2-quart saucepan and cook over medium-low heat, stirring constantly, until thickened\n1. A candy thermometer will register about 180 degrees F\n1. Don't allow the mixture to boil!\n1. Pour the mixture through a sieve into a bowl and stir in the coffee liqueur, vanilla, and salt\n1. Place a piece of plastic wrap directly on top of the custard and chill completely\n1. Pour the custard into the bowl of an ice cream maker and process according to the manufacturer's directions\n1. Stir in the roughly chopped chocolate, if using, and freeze in covered containers\n1. Allow the gelato to thaw slightly before serving\n";
 
-  // src/data/recipes/eggnog-custard-pie.md
+  // src/data/eggnog-custard-pie.md
   var eggnog_custard_pie_default = "# Eggnog Custard Pie\n\n- **Servings:** {12}\n- **Yield:** {1} pie\n\n## Ingredients\n\n- {1} Pie Crust, unbaked deep dish\n- {1} cup Sugar\n- {4} Egg\n- {12} oz Evaporated Milk\n- {3/4} cup Water\n- {1/4} cup Rum, light\n- {1/8} tsp Salt\n- {1/2} tsp Nutmeg\n- {1/4} tsp Cinnamon\n\n## Instructions\n\n1. Preheat oven to 350 degrees F\n1. On a lightly floured surface, unroll pie crust\n1. Roll pastry into a 12-inch circle\n1. Press pie crust into a 9-inch deep dish pie plate, crimping edges, if desired\n1. Lightly poke holes into the bottom of the dough once it's fitted firmly in the plate\n1. In a large bowl, beat sugar and eggs at medium speed with an electric mixer until well combined\n1. Add evaporated milk, water, rum and salt\n1. Beat at low speed until combined\n1. Pour mixture into crust\n1. Sprinkle top of pie with nutmeg and cinnamon\n1. Place pie onto a rimmed baking sheet with a depth of 1/2-inch\n1. Add hot water to baking sheet\n1. Bake for about 55 minutes, or until a wooden pick inserted near center comes out clean\n1. Cut into desired sizes and garnish with whipped cream and powdered sugar\n";
 
-  // src/data/recipes/eggnog-fudge.md
+  // src/data/eggnog-fudge.md
   var eggnog_fudge_default = "# Eggnog Fudge\n\n- **Servings:** {32}\n- **Yield:** {64} pieces\n\n## Ingredients\n\n- {2} cup Sugar\n- {1} stick Butter\n- {3/4} cup Eggnog\n- {10 1/2} oz White Chocolate, chopped\n- {1/2} tsp Nutmeg\n- {7} oz Marshmallow Cream\n- {1} tsp Rum Extract\n\n## Instructions\n\n1. Line an 8 or 9-inch square pan with foil and let it hang over the sides\n1. Butter the foil\n1. In a heavy, 3-quart saucepan combine sugar, butter and eggnog\n1. Bring to a rolling boil, stirring constantly\n1. Continue boiling 8 to 10 minutes over medium heat or until a candy thermometer reaches 234\xB0F, stirring constantly to prevent scorching\n1. Remove from heat\n1. Using a wooden spoon, work quickly to stir in chopped white chocolate and nutmeg until chocolate is melted and smooth\n1. Stir in marshmallow creme and rum extract\n1. Beat until well blended and then pour into prepared pan\n1. Sprinkle a little freshly ground nutmeg on top\n1. Let stand at room temperature until cooled\n1. Refrigerate if you'd like to speed up the process\n1. When completely cool, cut into squares\n1. Store in a covered container\n";
 
-  // src/data/recipes/espresso-brownies.md
+  // src/data/espresso-brownies.md
   var espresso_brownies_default = "# Espresso Brownies\n\n- **Servings:** {48}\n- **Yield:** {48} brownies\n\n## Ingredients\n\n- {2} stick Butter\n- {6} oz Unsweetened Chocolate\n- {1 1/2} cup All-purpose Flour\n- {1} tsp Baking Powder\n- {1/2} tsp Salt\n- {4} Egg\n- {2 1/2} cup Sugar\n- {1/4} cup Espresso Powder\n- {1/4} cup Liqueur, coffee-flavored\n- {2} tsp Vanilla Extract\n\n## Instructions\n\n1. Line a 13x9x2-inch baking pan with foil, extending foil over edges of pan\n1. Grease foil; set pan aside\n1. Melt butter and unsweetened chocolate in a small saucepan over low heat, stirring constantly\n1. Cool mixture to room temperature\n1. Meanwhile, in a medium bowl stir together flour, baking powder, and salt; set aside\n1. In a large mixing bowl beat eggs, sugar, espresso powder, coffee liqueur, and vanilla with an electric mixer until combined\n1. Beat in cooled chocolate mixture\n1. Add flour mixture, stirring just until combined\n1. Spread batter evenly in prepared pan\n1. Bake in a 350 degree F oven for 25 to 30 minutes until top appears set and dry\n1. Cool in pan on a wire rack\n1. Pour Chocolate Glaze evenly over brownies\n1. Cover and chill about 2 hours until glaze is set\n1. Before serving, let stand at room temperature for 20 to 30 minutes\n1. Use foil to lift brownies out of pan\n1. Cut into bars\n1. If desired, garnish with chocolate-covered coffee beans\n1. Makes 48 brownies\n";
 
-  // src/data/recipes/fortune-cookies.md
+  // src/data/fortune-cookies.md
   var fortune_cookies_default = "# Fortune Cookies\n\n- **Servings:** {6}\n- **Yield:** {6} cookies\n\n## Ingredients\n\n- {2} Egg White\n- {1/3} cup Sugar\n- {1/2} stick Butter, melted\n- {1/2} cup All-purpose Flour\n- {1/4} tsp Salt\n- {1/2} tsp Almond Extract\n- {1/2} tsp Lemon Extract\n\n## Instructions\n\n1. Preheat oven to 350 degrees F\n1. Grease a cookie sheet thoroughly\n1. Whip the egg whites on low speed until light and foamy\n1. Blend in the sugar and continue to beat until soft peaks form\n1. Pour in the melted butter, flour, salt, and extracts; mix until well combined\n1. Drop a tablespoon of the batter onto the prepared cookie sheet\n1. Using the back of a spoon, spread the batter evenly into very thin 3-inch rounds\n1. Alternatively, use the lid of a jar with a 3-inch circle punched out as a template, pour the batter in the ring, and remove\n1. Because you must work quickly to shape these cookies, bake just 3 at a time\n1. Bake for about 5 to 8 minutes or until the edges are a light golden color\n1. Remove the cookies with a spatula and place on a work surface\n1. Lay a 2 1/2 x 1/2 inch fortune in the lower middle of the cookie, and gingerly (they will be hot) fold in half to make a semi-circle\n1. Bend the edges up toward each other to make a crescent\n1. Drag the crease across the rim of a small measuring cup, with the ends facing down\n1. Cool in mini muffin tins to hold shape until crisp\n1. Repeat with remaining batter\n";
 
-  // src/data/recipes/funnel-cake.md
+  // src/data/funnel-cake.md
   var funnel_cake_default = "# Funnel Cake\n\n- **Servings:** {6}\n- **Yield:** {6} servings\n\n## Ingredients\n\n- {1} qt Canola Oil\n- {3} cup All-purpose Flour\n- {1/4} cup Sugar\n- {2} tsp Baking Powder\n- {1/2} tsp Salt\n- {3} Egg\n- {2} cup Milk\n- {1/2} cup Confectioners' Sugar, for sprinkling\n\n## Instructions\n\n1. Heat canola oil in deep-fryer to 350 degrees F\n1. Mix flour, sugar, baking powder, and salt\n1. Whisk in eggs and milk\n1. (Use 1/2 cup of batter for each funnel cake.) Pour 1/2 cup batter through funnel into hot oil, moving in a circular motion as you do so, to make each spiral-shaped funnel cake\n1. Fry each spiral of batter until golden brown, about 2 or 3 minutes, remove with tongs and lay on paper toweling to absorb oil\n1. Transfer to a plate and sprinkle powdered sugar through a sieve onto top of hot dough\n1. Serve immediately\n";
 
-  // src/data/recipes/gelato.md
+  // src/data/gelato.md
   var gelato_default = "# Gelato\n\n- **Servings:** {10}\n- **Yield:** {2} qt\n\n## Ingredients\n\n- {5} cup Milk\n- {2 1/2} cup Heavy Cream\n- {10} Egg Yolk\n- {1 1/4} cup Sugar\n\n## Instructions\n\n1. In a medium saucepan, mix milk and cream\n1. Warm until foam forms around the edges\n1. Remove from heat\n1. In a large bowl, beat the egg yolks and sugar until frothy\n1. Gradually pour the warm milk into the egg yolks, whisking constantly\n1. Add fruit ingredients\n1. Return mixture to saucepan; cook over medium heat, stirring with a wooden spoon until the mixture gels slightly and coats the back of the spoon\n1. If small egg lumps begin to show, remove from heat immediately\n1. Pour the mixture through a sieve or fine strainer into a bowl\n1. Cover, and chill for several hours or overnight\n1. Pour the mixture into an ice cream maker, and freeze according to the manufacturer's instructions\n1. Transfer to a sealed container, and freeze until firm\n1. If the gelato is too firm, place it in the refrigerator until it reaches the desired consistency\n";
 
-  // src/data/recipes/ginger-snaps.md
+  // src/data/ginger-snaps.md
   var ginger_snaps_default = "# Ginger Snaps\n\n- **Servings:** {48}\n- **Yield:** {48} cookies\n\n## Ingredients\n\n- {2} cup All-purpose Flour\n- {1 1/2} tsp Baking Soda\n- {1} tbsp Ginger\n- {1/2} tsp Cardamom\n- {1/2} tsp Cloves\n- {1/2} tsp Salt\n- {1} cup Brown Sugar\n- {1 1/4} stick Butter\n- {1/4} cup Molasses\n- {1} Egg\n- {2} tsp Ginger, freshly grated\n- {10} tbsp Candied Ginger\n\n## Instructions\n\n1. Preheat the oven to 350 degrees F\n1. In a medium mixing bowl whisk together the flour, baking soda, ginger, cardamom, clove and salt\n1. Place the brown sugar and butter into the bowl of a stand mixer fitted with the paddle attachment and beat on low speed until light and fluffy, 1 to 2 minutes\n1. Add the molasses, egg and fresh ginger and beat on medium for 1 minute\n1. Add the crystallized ginger and using a rubber spatula, stir to combine\n1. Add the dry ingredients to the wet and stir until well combined\n1. With a 2-teaspoon sized scoop, drop the dough onto a parchment lined half sheet pan approximately 2-inches apart\n1. Bake on the middle rack of the oven for 12 minutes for slightly chewy cookies or 15 minutes for more crisp cookies\n1. Rotate the pan halfway through cooking\n1. Remove from the oven and allow the cookies to stay on the sheet pan for 30 seconds before transferring to a wire rack to cool completely\n1. Repeat with all of the dough\n1. Store in an airtight container for up 10 days\n1. If desired, you may scoop and freeze the cookie dough on a sheet pan and once frozen, place in a resealable bag to store\n1. Bake directly from the freezer as above\n";
 
-  // src/data/recipes/gingerbread-cookies.md
+  // src/data/gingerbread-cookies.md
   var gingerbread_cookies_default = "# Gingerbread Cookies\n\n- **Servings:** {72}\n- **Yield:** {72} Cookies\n\n## Ingredients\n\n- {6} cup All-purpose Flour\n- {1} tbsp Baking Powder\n- {1} tsp Nutmeg\n- {1} tsp Cloves\n- {1} tsp Cinnamon\n- {1} cup Shortening, melted and cooled slightly\n- {1} cup Molasses\n- {1} cup Brown Sugar, packed\n- {1/2} cup Water\n- {1} Egg\n- {1} tsp Vanilla Extract\n\n## Instructions\n\n1. Sift together the flour, baking powder, ginger, nutmeg, cloves, and cinnamon; set aside\n1. In a medium bowl, mix together the shortening, molasses, brown sugar, water, egg, and vanilla until smooth\n1. Gradually stir in the dry ingredients, until they are completely absorbed\n1. Divide dough into 3 pieces, pat down to 1 1/2 inch thickness, wrap in plastic wrap, and refrigerate for at least 3 hours\n1. Preheat oven to 350 degrees F (175 degrees C)\n1. On a lightly floured surface, roll the dough out to 1/4 inch thickness\n1. Cut into desired shapes with cookie cutters\n1. Place cookies 1 inch apart onto an ungreased cookie sheet\n1. Bake for 10 to 12 minutes in the preheated oven\n1. When the cookies are done, they will look dry, but still be soft to the touch\n1. Remove from the baking sheet to cool on wire racks\n1. When cool, the cookies can be frosted with the icing of your choice\n";
 
-  // src/data/recipes/grape-pie.md
+  // src/data/grape-pie.md
   var grape_pie_default = "# Grape Pie\n\n- **Servings:** {12}\n- **Yield:** {1} pie\n\n## Ingredients\n\n- {1} Pie Crust, baked\n- {1} lb Grapes, halved\n- {1/2} cup Honey\n- {2} tbsp Brandy\n- {2} tbsp Lime Juice\n- {16} oz Sour Cream\n- {1/2} cup Brown Sugar\n- {1} tbsp Vanilla Extract\n- {3/4} cup Brown Sugar\n- {6} tbsp Butter\n- {1/2} tsp Salt\n\n## Instructions\n\n1. Combine the grapes, honey, brandy and lime juice in a zip-top bag, seal and refrigerate for 8 to 12 hours\n1. Whisk the sour cream, 1/2 cup brown sugar and vanilla together in a large mixing bowl\n1. Drain the grapes and reserve the liquid for another use\n1. Add the grapes to the sour cream mixture and stir gently to combine\n1. Pour the grape mixture on top of the crust and set aside\n1. Combine the 3/4 cup brown sugar and butter in a 1-quart saucier and place over medium-high heat\n1. Bring to a boil, stirring constantly\n1. Stir constantly and boil for 1 minute\n1. Remove from the heat and pour over the grape mixture\n1. Do not stir into the sour cream mixture\n1. Cool at room temperature for 5 minutes, and then sprinkle the sea salt on top\n1. Chill in the refrigerator for 1 hour before slicing\n";
 
-  // src/data/recipes/ice-cream.md
+  // src/data/ice-cream.md
   var ice_cream_default = "# Ice Cream\n\n- **Servings:** {8}\n- **Yield:** {1} qt\n\n## Ingredients\n\n- {1} cup Milk, whole\n- {3/4} cup Sugar\n- {2} cup Heavy Cream\n- {1/16} tsp Salt\n- {1} Vanilla Bean, split lengthwise\n- {6} Egg Yolk\n- {3/4} tsp Vanilla Extract\n\n## Instructions\n\n1. Warm the milk, sugar, 1 cup of the heavy cream and the salt in a medium saucepan over low heat, stirring until the sugar is dissolved\n1. Scrape the seeds from the vanilla bean into the milk mixture and add the bean to the mixture as well\n1. Cover, remove from the heat and let steep at room temperature for 30 minutes\n1. Pour the remaining 1 cup heavy cream into a large bowl and place a fine-mesh sieve on top\n1. Whisk the egg yolks in a medium bowl\n1. Slowly pour the warmed milk mixture into the egg yolks, whisking constantly\n1. Scrape the mixture back into the saucepan\n1. Place the saucepan over medium heat and stir constantly with a rubber spatula, being sure to scrape the bottom of the pan as you stir, until the mixture thickens and coats the back of the spatula, a few minutes\n1. The mixture should register 170 to 175 degrees F on an instant-read digital thermometer\n1. Pour the custard through the fine-mesh sieve and stir it into the cream\n1. Add in additional ingredients\n1. Place the vanilla bean into the custard, stir in the vanilla extract, and place the bowl over an ice bath\n1. Stir occasionally, until the mixture is cool\n1. Cover and transfer the custard to the refrigerator until completely chilled, at least 8 hours or overnight\n1. When ready to churn the ice cream, remove the vanilla bean from the custard and freeze the mixture in your ice cream maker according to the manufacturer's instructions\n1. Transfer to a freezer-safe container and store in the freezer\n";
 
-  // src/data/recipes/key-lime-pie.md
+  // src/data/key-lime-pie.md
   var key_lime_pie_default = "# Key Lime Pie\n\n- **Servings:** {8}\n- **Yield:** {1} pie\n\n## Ingredients\n\n- {28} oz Condensed Milk\n- {1} cup Lime Juice\n- {2} Egg\n- {1} tbsp Lime Zest\n- {1} Pie Crust, baked\n\n## Instructions\n\n1. Preheat the oven to 325 degrees F\n1. Combine the condensed milk, lime juice, and eggs\n1. Whisk until well blended and place the filling in the cooled pie shell\n1. Bake in the oven for 15 minutes and allow to chill in the refrigerator for at least 2 hours\n1. Sprinkle the lime zest as a garnish and serve chilled\n";
 
-  // src/data/recipes/lemon-cookies.md
+  // src/data/lemon-cookies.md
   var lemon_cookies_default = "# Lemon Cookies\n\n- **Servings:** {44}\n- **Yield:** {44} cookies\n\n## Ingredients\n\n- {2 1/2} cup All-purpose Flour\n- {1} tsp Baking Powder\n- {1} tsp Salt\n- {1} stick Butter\n- {2} cup Sugar\n- {2} Egg\n- {15} oz Ricotta Cheese\n- {3} tbsp Lemon Juice\n- {1} Lemon Zest, (whole lemon)\n\n## Instructions\n\n1. Preheat the oven to 375 degrees F\n1. In a medium bowl combine the flour, baking powder, and salt\n1. Set aside\n1. In the large bowl combine the butter and the sugar\n1. Using an electric mixer beat the butter and sugar until light and fluffy, about 3 minutes\n1. Add the eggs, 1 at a time, beating until incorporated\n1. Add the ricotta cheese, lemon juice, and lemon zest\n1. Beat to combine\n1. Stir in the dry ingredients\n1. Line 2 baking sheets with parchment paper\n1. Spoon the dough (about 2 tablespoons for each cookie) onto the baking sheets\n1. Bake for 15 minutes, until slightly golden at the edges\n1. Remove from the oven and let the cookies rest on the baking sheet for 20 minutes\n";
 
-  // src/data/recipes/lemon-glaze.md
+  // src/data/lemon-glaze.md
   var lemon_glaze_default = "# Lemon Glaze\n\n- **Servings:** {44}\n- **Yield:** {44} cookies\n\n## Ingredients\n\n- {1 1/2} cup Confectioners' Sugar\n- {3} tbsp Lemon Juice\n- {1} Lemon Zest, (whole lemon)\n\n## Instructions\n\n1. Combine the powdered sugar, lemon juice, and lemon zest in a small bowl and stir until smooth\n1. Spoon about 1/2-teaspoon onto each cookie and use the back of the spoon to gently spread\n1. Let the glaze harden for about 2 hours\n";
 
-  // src/data/recipes/lemon-lime-sorbet.md
+  // src/data/lemon-lime-sorbet.md
   var lemon_lime_sorbet_default = "# Lemon Lime Sorbet\n\n- **Servings:** {8}\n- **Yield:** {4} cups\n\n## Ingredients\n\n- {1} cup Sugar\n- {1 1/2} cup Water\n- {1/2} cup Lemon Juice\n- {1/2} cup Lime Juice\n- {1} Lemon Zest, whole small\n- {1} Lime Zest, whole small\n\n## Instructions\n\n1. Heat the sugar and water in a small saucepan over medium heat\n1. Cook the sugar mixture until the sugar has completely dissolved in the water, creating a syrup\n1. Remove the pot from the heat and stir in the other ingredients\n1. Refrigerate the sorbet base until it is completely cool\n1. Freeze using the directions from your ice cream maker\n1. Put the sorbet in the freezer for thirty minutes to set up a little more\n1. Serve the lemon lime sorbet, or store it in an air-tight plastic container in the freezer\n";
 
-  // src/data/recipes/lemon-meringue-pie.md
+  // src/data/lemon-meringue-pie.md
   var lemon_meringue_pie_default = "# Lemon Meringue Pie\n\n- **Servings:** {12}\n- **Yield:** {1} pie\n\n## Ingredients\n\n- {4} Egg Yolk\n- {1/3} cup Cornstarch\n- {1 1/2} cup Water\n- {1 1/3} cup Sugar\n- {1/4} tsp Salt\n- {3} tbsp Butter\n- {1/2} cup Lemon Juice\n- {1} tbsp Lemon Zest, finely grated\n- {1} Pie Crust, baked\n- {4} Egg White\n- {1/16} tsp Cream of Tartar\n- {2} tbsp Sugar\n\n## Instructions\n\n1. Adjust the oven rack to the middle position\n1. Preheat oven to 375 degrees F\n1. Whisk egg yolks in medium size mixing bowl and set aside\n1. In a medium saucepan, combine cornstarch, water, sugar, and salt\n1. Whisk to combine\n1. Turn heat on medium and, stirring frequently, bring mixture to a boil\n1. Boil for 1 minute\n1. Remove from heat and gradually, 1 whisk-full at a time, add hot mixture to egg yolks and stir until you have added at least half of the mixture\n1. Return egg mixture to saucepan, turn heat down to low and cook, stirring constantly, for 1 more minute\n1. Remove from heat and gently stir in butter, lemon juice, and zest until well combined\n1. Pour mixture into pie shell and top with meringue while filling is still hot\n1. Make sure meringue completely covers filling and that it goes right up to the edge of the crust\n1. Bake for 10 to 12 minutes or until meringue is golden\n1. Remove from oven and cool on a wire rack\n1. Make sure pie is cooled completely before slicing\n1. Meringue Topping:\n1. Place egg whites and cream of tartar in the bowl of a stand mixer fitted with the whisk attachment\n1. Beat egg whites until soft peaks form and then gradually add sugar and continue beating until stiff peaks form, approximately 1 to 2 minutes\n1. Use to top lemon filling\n";
 
-  // src/data/recipes/lemon-pastry-cream.md
+  // src/data/lemon-pastry-cream.md
   var lemon_pastry_cream_default = "# Lemon Pastry Cream\n\n- **Servings:** {6}\n- **Yield:** {2} cups\n\n## Ingredients\n\n- {1 1/4} cup Milk, whole\n- {1} tsp Lemon Zest\n- {3} Egg Yolk\n- {1/4} cup Sugar\n- {1} tbsp All-purpose Flour\n- {2 2/3} tbsp Cornstarch\n- {1/4} tsp Vanilla Extract\n- {1/2} tsp Lemon Extract\n\n## Instructions\n\n1. In a small saucepan, warm the milk and lemon zest over low heat until it is just hot enough to steam\n1. While the milk is warming, whisk together the egg yolks, sugar, flour, and cornstarch until the mixture is completely smooth\n1. Once the milk is steaming, add half of it, whisking constantly, to the egg mixture\n1. Add the milk and eggs back into the hot milk, continue stirring, and heat it for 1-2 minutes, until the custard reaches 170F on a digital thermometer and is very thick\n1. Remove from the heat, stir in the vanilla extract and lemon extract, and chill before filling pastry\n";
 
-  // src/data/recipes/lemon-poppyseed-bread.md
+  // src/data/lemon-poppyseed-bread.md
   var lemon_poppyseed_bread_default = "# Lemon Poppyseed Bread\n\n- **Servings:** {18}\n- **Yield:** {1} loaf\n\n## Ingredients\n\n- {4} cup All-purpose Flour\n- {1/16} tsp Salt\n- {2} tbsp Sugar\n- {2} tsp Yeast\n- {6} oz Milk\n- {1} Lemon Zest, whole lemon\n- {1/2} stick Butter\n- {1/2} stick Butter\n- {4} oz Poppy Seeds\n- {2} oz Honey\n- {1/2} cup Raisins\n- {1/4} cup Orange Zest\n- {1/2} cup Almonds, ground\n- {1} Egg Yolk\n- {3} tbsp Sugar\n- {1} tbsp Milk\n\n## Instructions\n\n1. Sift the flour, salt, and sugar in a bowl\n1. Stir in the yeast and make a well\n1. Heat the milk and lemon in a pan with the butter\n1. Let mixture cool and then mix with dry ingredients\n1. Knead the dough mixture until smooth and elastic and cover in a bowl\n1. Let rise in warm place until it doubles in size\n1. While the dough is rising get started on the filling\n1. Melt butter in a medium sized pan and add all the poppy seeds except for 1 tablespoon\n1. Add the honey, raisins and zest\n1. Cook on low for 5 minutes and remove from heat, add the almonds and let cool\n1. Cream the egg yolk and sugar together, and fold into poppy seed mixture\n1. Begin to roll out dough on a floured surface into a 12 by 12-inch square\n1. Roll dough to 1/8-inch thick\n1. Spread your filling to within 1-inch of the edge of the dough\n1. Roll both ends towards the center\n1. Brush with olive oil and cover with plastic wrap and let rise for 1 hour\n1. Brush with milk and sprinkle with remaining poppy seeds\n1. Bake in a preheated 375 degree oven for 30 minutes or until golden brown\n";
 
-  // src/data/recipes/lime-sherbet.md
+  // src/data/lime-sherbet.md
   var lime_sherbet_default = "# Lime Sherbet\n\n- **Servings:** {4}\n- **Yield:** {4} cups\n\n## Ingredients\n\n- {1} cup Sugar\n- {1} cup Water\n- {2/3} cup Lime Juice\n- {1} tbsp Lime Zest\n- {2} cup Milk, whole\n- {0} Food Coloring\n\n## Instructions\n\n1. Heat the granulated sugar and water in a small saucepan, stirring frequently, until the sugar has completely dissolved\n1. This is a sugar syrup and it will help your sherbet have a smooth texture\n1. Remove the pan from the heat and stir in the lime juice and zest\n1. Refrigerate the mixture until it is completely chilled\n1. Stir the milk and green food coloring into the lime juice\n1. Churn the sherbet according to the directions for your ice cream freezer\n1. Store the lime sherbet in an air-tight plastic container in your freezer\n1. Allowing it to set for at least an hour before freezing will give you a firmer texture than if you serve it right out of the ice cream maker\n";
 
-  // src/data/recipes/maple-cream-cheese-frosting.md
+  // src/data/maple-cream-cheese-frosting.md
   var maple_cream_cheese_frosting_default = "# Maple Cream Cheese Frosting\n\n- **Servings:** {12}\n- **Yield:** {12} cupcakes worth\n\n## Ingredients\n\n- {8} oz Cream Cheese\n- {2} tbsp Butter\n- {2} tbsp Maple Syrup\n- {2} cup Confectioners' Sugar\n\n## Instructions\n\n1. Add the cream cheese, butter, maple syrup, and salt to a large bowl and beat until creamy\n1. Gradually add the powdered sugar until thoroughly combined\n";
 
-  // src/data/recipes/maple-syrup-bread-muffins.md
+  // src/data/maple-syrup-bread-muffins.md
   var maple_syrup_bread_muffins_default = '# Maple Syrup Bread/Muffins\n\n- **Servings:** {18}\n- **Yield:** {18} muffins/1 loaf\n\n## Ingredients\n\n- {1/3} cup Maple Syrup\n- {2/3} cup Water, warm\n- {2} tbsp Dried Milk\n- {1} tbsp Shortening\n- {2 1/4} tsp Yeast\n- {1/2} tsp Salt\n- {1 3/4} cup All-purpose Flour\n\n## Instructions\n\n1. Using liquid measuring cup, measure maple syrup\n1. Pour syrup into medium bowl\n1. Using the same liquid measuring cup, measure the warm water and pour into bowl\n1. This helps loosen the sticky maple syrup from the measuring cup and gets it into the bowl\n1. Add dry milk, shortening, yeast, and salt\n1. Stir until dissolved\n1. Mix in enough flour to make a stiff dough\n1. Turn dough out onto floured board and knead for about 10 minutes\n1. If the dough is too sticky, add more flour, a tablespoon at a time\n1. Grease medium bowl\n1. Put dough in bowl and turn dough over so that the dough is lightly greased on the top\n1. Cover and let rise in warm, draft-free place for about 45 minutes or until double in size\n1. Punch down dough\n1. Turn out onto lightly floured board and knead for about 5 minutes or until dough is smooth\n1. Shape dough into loaf\n1. Grease 8" by 4" loaf pan\n1. Put loaf in pan, cover with clean cloth and allow to rise in warm, draft-free place for about 30 minutes or until double in size\n1. Bake at 350 degrees F for 30 minutes or until golden brown\n1. Remove loaf from pan and let cool to warm on rack or clean cloth\n';
 
-  // src/data/recipes/maple-walnut-fudge.md
+  // src/data/maple-walnut-fudge.md
   var maple_walnut_fudge_default = "# Maple Walnut Fudge\n\n- **Servings:** {32}\n- **Yield:** {64} pieces\n\n## Ingredients\n\n- {2} cup Brown Sugar\n- {5} oz Evaporated Milk\n- {2} stick Butter\n- {2} cup Confectioners' Sugar\n- {1/2} tsp Vanilla Extract\n- {1/2} tsp Maple Flavoring\n- {1} cup Walnuts, chopped\n\n## Instructions\n\n1. Butter an 8x8-inch or 9x9-inch square pan\n1. Line with parchment paper or foil, and butter that; set aside\n1. In a medium saucepan, combine the sugar, evaporated milk and butter\n1. Bring to a full boil over medium heat\n1. Reduce the heat slightly (no lower than medium-low) and boil for an additional 10 minutes, stirring constantly\n1. Remove from the heat and stir in the powdered sugar, vanilla extract and maple flavoring\n1. Transfer the mixture to a standing mixer (or use a hand mixer) and beat the fudge on medium speed until thick and glossy - about 3 minutes\n1. Fold in the walnuts and pour the mixture into the prepared pan\n1. Let the mixture cool to room temperature, then cover tightly and refrigerate overnight\n1. Slice the fudge into 1-inch squares and serve\n1. (Fudge can be stored at room temperature in an airtight container.)\n";
 
-  // src/data/recipes/marshmallow-frosting.md
+  // src/data/marshmallow-frosting.md
   var marshmallow_frosting_default = "# Marshmallow Frosting\n\n- **Servings:** {30}\n- **Yield:** {30} cupcakes worth\n\n## Ingredients\n\n- {3} cup Heavy Cream\n- {1 1/2} cup Marshmallow Cream\n\n## Instructions\n\n1. Using electric mixer and large bowl, whisk whipping cream and marshmallow cream on low and gradually move up to high as it thicken - mix until stiff peaks form\n";
 
-  // src/data/recipes/mascarpone-frosting.md
+  // src/data/mascarpone-frosting.md
   var mascarpone_frosting_default = "# Mascarpone Frosting\n\n- **Servings:** {18}\n- **Yield:** {1 1/2} cups\n\n## Ingredients\n\n- {3} oz Cream Cheese\n- {3/4} stick Butter\n- {1/3} cup Mascarpone Cheese\n- {3} tbsp Honey\n\n## Instructions\n\n1. Using an electric mixer, beat the cream cheese and butter in a large bowl until light and fluffy\n1. Beat in the mascarpone cheese and then beat in the honey\n";
 
-  // src/data/recipes/mint-chocolate-fudge.md
+  // src/data/mint-chocolate-fudge.md
   var mint_chocolate_fudge_default = "# Mint Chocolate Fudge\n\n- **Servings:** {32}\n- **Yield:** {64} pieces\n\n## Ingredients\n\n- {2 1/2} cup Semisweet Chocolate\n- {14} oz Condensed Milk\n- {1 1/2} cup White Chocolate, chopped\n- {1} tsp Peppermint Flavoring\n- {1} tsp Shortening\n\n## Instructions\n\n1. Line an 8x8 baking pan with parchment paper\n1. Spray paper with non-stick spray and set aside\n1. In a small saucepan over low heat, melt 1.5 cups chocolate chips with 3/4 cup sweetened condensed milk, stirring occasionally\n1. Spread melted chocolate mixture into pan and chill for 5-10 minutes\n1. In another saucepan, melt white baking chips and remaining condensed milk, stirring until completely smooth\n1. Remove from the heat and add peppermint extract and food coloring\n1. Spread mint layer over chilled chocolate layer\n1. Chill for 5-10 minutes as you make the final layer\n1. Melt remaining 1 cup of chocolate chips with 1 tsp shortening in the microwave in 30 second increments\n1. Stir until completely smooth\n1. Spread over chilled mint layer\n1. Refrigerate at least 2 hours or until fudge is completely set (could take up to 4 hours)\n1. Cut into squares\n1. Store in an airtight container in the refrigerator up to two weeks\n1. Fudge will freeze and thaw well\n";
 
-  // src/data/recipes/molasses-cookies.md
+  // src/data/molasses-cookies.md
   var molasses_cookies_default = "# Molasses Cookies\n\n- **Servings:** {24}\n- **Yield:** {24} cookies\n\n## Ingredients\n\n- {1} cup Brown Sugar, packed\n- {3/4} cup Shortening\n- {1/4} cup Molasses\n- {1} Egg\n- {2 1/4} cup All-purpose Flour\n- {2} tsp Baking Soda\n- {1} tsp Cinnamon\n- {1} tsp Ginger\n- {1/2} tsp Cloves\n- {1/4} tsp Salt\n- {3} tbsp Sugar\n\n## Instructions\n\n1. Heat oven to 325\xB0F\n1. In large bowl, beat brown sugar, shortening, molasses and egg with electric mixer on medium speed, or mix with spoon\n1. Stir in remaining ingredients except granulated sugar\n1. Shape dough by rounded tablespoonfuls into 1 1/2-inch balls\n1. Dip tops into granulated sugar\n1. On ungreased cookie sheet, place balls, sugared sides up, about 2 inches apart\n1. Bake 13 to 16 minutes or just until set and cookies appear dry\n1. Immediately remove from cookie sheet to cooling rack\n";
 
-  // src/data/recipes/monkey-bread.md
+  // src/data/monkey-bread.md
   var monkey_bread_default = "# Monkey Bread\n\n- **Servings:** {24}\n- **Yield:** {1} tube pan\n\n## Ingredients\n\n- {2 1/4} tsp Yeast\n- {1/4} cup Water, warm\n- {1} cup Milk\n- {1 1/2} stick Butter\n- {3/4} cup Sugar\n- {1/2} tsp Salt\n- {3} Egg\n- {4} cup All-purpose Flour\n- {1} stick Butter, melted\n- {1} cup Nuts, finely ground\n- {3/4} cup Brown Sugar\n- {3} tsp Cinnamon\n\n## Instructions\n\n1. Add yeast and warm water to large bowl and stir until yeast is dissolved\n1. Mix in milk, soft butter, sugar, salt, and eggs\n1. Mix in flour to make a stiff batter\n1. Cover with wax paper and let rise in warm, draft-free place until double in size, about 45 minutes\n1. Melt 1/2 cup butter in saucepan\n1. Mix nuts, brown sugar, and 3 tsp cinnamon in a small bowl\n1. Lightly grease tube pan/angel food pan\n1. Stir down dough\n1. Grease fingers with melted butter to prevent the dough from sticking to your fingers\n1. Pluck walnut-size amounts of dough out of the bowl, roll dough balls in butter, and in sugar mixture\n1. Pile the dough balls evenly in the pan\n1. Cover with wax paper and let rise in warm, draft-free place for 30 minutes\n1. Bake at 350 degrees F for 30 to 40 minutes, or until done\n1. Turn bread out immediately onto plate and let cool to warm\n";
 
-  // src/data/recipes/nanas-rocky-road-candies.md
+  // src/data/nanas-rocky-road-candies.md
   var nanas_rocky_road_candies_default = "# Nana's Rocky Road Candies\n\n- **Servings:** {36}\n- **Yield:** {36} candies\n\n## Ingredients\n\n- {14} oz Semisweet Chocolate\n- {6} tbsp Peanut Butter\n- {1} cup Mini Marshmallows\n- {1} cup Peanuts\n- {1} cup Rice Krispies\n\n## Instructions\n\n1. Melt chocolate and peanut butter\n1. Mix in marshmallows, peanuts and rice krispies\n1. Drop by teaspoonful onto wax paper\n";
 
-  // src/data/recipes/nutella-frosting.md
+  // src/data/nutella-frosting.md
   var nutella_frosting_default = "# Nutella Frosting\n\n- **Servings:** {12}\n- **Yield:** {2} cups\n\n## Ingredients\n\n- {1} cup Butter\n- {2} cup Confectioners' Sugar\n- {3/4} cup Nutella\n- {3} tbsp Heavy Cream\n- {2} tsp Vanilla Extract\n- {1/4} tsp Salt\n\n## Instructions\n\n1. Beat softened butter on medium speed with an electric or stand mixer\n1. Beat for 2-3 minutes until smooth and creamy\n1. You want a very creamy base before adding anything else\n1. See my extensive notes about this in the post above\n1. Add 2 cups of powdered sugar and continue to beat on medium speed\n1. The mixture will be fairly thick\n1. Add the Nutella and continue to beat on medium speed\n1. Add 3 Tablespoons of heavy cream and the vanilla extract\n1. If the frosting is too thick, add more heavy cream (1 Tablespoon measurements at a time)\n1. If the frosting is too thin, add more powdered sugar (1/4 cup measurements at a time)\n1. Taste the frosting and add salt to cut the sweetness\n1. I added about 1/4 teaspoon of salt to mine\n";
 
-  // src/data/recipes/nutella-fudge.md
+  // src/data/nutella-fudge.md
   var nutella_fudge_default = "# Nutella Fudge\n\n- **Servings:** {32}\n- **Yield:** {64} pieces\n\n## Ingredients\n\n- {1} stick Butter\n- {1/4} tsp Salt\n- {1/2} cup Milk, whole\n- {1 1/2} cup Brown Sugar\n- {1 1/2} tsp Vanilla Extract\n- {1} cup Nutella\n- {3} cup Confectioners' Sugar\n\n## Instructions\n\n1. Grease an 8\xD78 pan\n1. Place the confectioner\u2019s sugar in a mixing bowl and set aside\n1. Melt butter over medium low heat\n1. Add the salt, milk and light brown sugar\n1. Bring to a hard, rolling boil over medium heat and then boil for about 2 minutes, stirring constantly\n1. Remove the pan from the heat and quickly add the vanilla and Nutella\n1. Stir until the Nutella is melted\n1. Carefully pour the hot Nutella mixture over the confectioner\u2019s sugar and mix quickly until completely combined\n1. Once everything comes together, it will set pretty fast\n1. If your fudge is liquid-y, add more powdered sugar\n1. Pour/scoop the fudge into your greased 8\xD78 pan\n1. Press the fudge into the pan, if needed\n1. Chill for 2 hours\n";
 
-  // src/data/recipes/oatmeal-raisin-cookies.md
+  // src/data/oatmeal-raisin-cookies.md
   var oatmeal_raisin_cookies_default = "# Oatmeal Raisin Cookies\n\n- **Servings:** {60}\n- **Yield:** {60} cookies\n\n## Ingredients\n\n- {1} stick Butter, softened\n- {1/2} cup Shortening, softened\n- {1 1/2} cup Brown Sugar, packed\n- {1} Egg\n- {1/2} cup Buttermilk\n- {1 3/4} cup All-purpose Flour\n- {1} tsp Baking Soda\n- {1/2} tsp Salt\n- {1} tsp Baking Powder\n- {1} tsp Ginger\n- {1} tsp Nutmeg\n- {1} tsp Cinnamon\n- {1/4} tsp Cloves\n- {1/2} tsp Allspice\n- {2 1/2} cup Oatmeal\n- {1} cup Raisins\n- {1 1/2} cup Walnuts, chopped\n- {1} tsp Vanilla Extract\n\n## Instructions\n\n1. Grease 1 or more cookie sheets\n1. Using an electric mixer, cream together butter, shortening, and sugar in a bowl until fluffy\n1. Add eggs and beat until mixture is light in color\n1. Add buttermilk\n1. Sift together flour, baking soda, salt, baking powder, ginger, nutmeg, cinnamon, cloves, and allspice; stir into creamed mixture\n1. Fold in oatmeal, raisins, walnuts, and vanilla, blending well\n1. Drop by rounded teaspoons onto cookie sheet\n1. Bake for 12 to 15 minutes\n1. Drizzle with Brown Butter Icing\n";
 
-  // src/data/recipes/orange-brownies.md
+  // src/data/orange-brownies.md
   var orange_brownies_default = "# Orange Brownies\n\n- **Servings:** {24}\n- **Yield:** {24} brownies\n\n## Ingredients\n\n- {1 1/2} cup All-purpose Flour\n- {2} cup Sugar\n- {1} tsp Salt\n- {2} stick Butter\n- {4} Egg\n- {2} tsp Orange Extract\n- {1} tsp Orange Zest\n- {1} cup Confectioners' Sugar\n- {2} tbsp Orange Juice\n- {1} tsp Orange Zest\n\n## Instructions\n\n1. Preheat oven to 350 degrees F\n1. Grease a 13 by 9 by 2-inch pan and set aside\n1. In a mixing bowl, stir together flour, sugar, and salt\n1. Add butter, eggs, orange extract, and orange zest and beat with a handheld electric mixer until well blended\n1. Pour batter into prepared pan and bake for 30 minutes, or until light golden brown and set\n1. Remove from oven and pierce top of entire cake with a fork\n1. Glaze (last three ingredients):\n1. Combine all ingredients in a bowl, stirring until smooth\n1. Pour glaze over cake\n1. Cool cake and cut into squares\n";
 
-  // src/data/recipes/orange-cinnamon-swirl-bread-muffins.md
+  // src/data/orange-cinnamon-swirl-bread-muffins.md
   var orange_cinnamon_swirl_bread_muffins_default = "# Orange Cinnamon Swirl Bread/Muffins\n\n- **Servings:** {18}\n- **Yield:** {18} muffins/1 loaf\n\n## Ingredients\n\n- {1/4} cup Sugar\n- {1/2} tbsp Orange Rind, grated\n- {2 1/4} tsp Yeast\n- {1} tsp Salt\n- {1/2} cup Milk\n- {3/4} cup Orange Juice\n- {1} tbsp Butter\n- {3} cup Bread Flour\n- {1} tbsp Butter\n- {1/4} cup Sugar\n- {1/2} tbsp Cinnamon\n\n## Instructions\n\n1. Mix together sugar, grated orange rind, yeast, and salt in a large bowl\n1. Add milk and orange juice\n1. Stir until yeast is dissolved\n1. Mix in soft butter and enough flour to make a soft dough\n1. Turn dough out onto lightly floured table and knead for about 3 minutes\n1. Put dough in a greased bowl\n1. Flip dough over in bowl so that the dough top is also lightly greased\n1. Cover and let rise for 45 minutes or until double in bulk\n1. Punch down dough\n1. Turn out onto lightly floured table and knead briefly\n1. Roll dough out into a 12 x 8-inch rectangle\n1. Spread with butter, sugar, and cinnamon\n1. Roll dough up like a jelly roll starting at an 8-inch side\n1. Pinch seams closed and tuck under edges\n1. Set loaf in a greased 9 x 5 x 2.5-inch bread pan\n1. Cover and let rise for 30 minutes or until doubled\n1. Bake at 350 degrees F for 50 minutes or until bread sounds hollow when tapped\n1. Remove bread from bread pan immediately and let cool on rack\n";
 
-  // src/data/recipes/orange-creamsicle-fudge.md
+  // src/data/orange-creamsicle-fudge.md
   var orange_creamsicle_fudge_default = "# Orange Creamsicle Fudge\n\n- **Servings:** {48}\n- **Yield:** {96} pieces\n\n## Ingredients\n\n- {1 1/2} stick Butter\n- {2} cup Sugar\n- {3/4} cup Heavy Cream\n- {12} oz White Chocolate\n- {7} oz Marshmallow Cream\n- {1} tbsp Orange Extract\n- {0} Food Coloring\n\n## Instructions\n\n1. Prepare a 13x9 pan by lining it with aluminum foil and spraying the foil with nonstick cooking spray\n1. In a large heavy saucepan, combine the sugar, cream, and butter over medium heat\n1. Continually stir the mixture until the butter melts and the sugar dissolves\n1. Brush down the sides with a wet pastry brush\n1. Bring the mixture to a boil, and once it starts boiling, insert a candy thermometer\n1. Cook the candy until it reaches 240 degrees F on the thermometer, which should take about 4-5 minutes\n1. After the candy reaches 240F, remove the pan from the heat and immediately stir in the marshmallow cream and white chocolate chips\n1. Stir until the white chocolate has melted and the fudge is completely smooth\n1. Working quickly, pour about a third of the white fudge into a bowl and set aside\n1. To the remaining fudge, add the orange extract and orange food coloring, stirring until it is a smooth, even color\n1. It is important to perform these steps quickly, because the fudge will start to set if you take too long, and the end result will not be smooth\n1. Pour the orange fudge into the prepared pan and spread it into an even layer\n1. Drop the white fudge over the top by the spoonful, then drag a table knife or toothpick through the fudge to create orange-white swirls\n1. You can spray your hands with nonstick cooking spray and gently press them into the top to smooth out the swirls, if desired\n1. Allow the fudge to set at room temperature for 2 hours, or in the refrigerator for 1 hour\n1. To cut, pull the fudge out of the pan using the foil as handles\n1. Use a large sharp knife to cut the fudge into small 1-inch squares\n1. Store Orange Creamsicle Fudge in an airtight container in the refrigerator for up to a week, and bring it to room temperature to serve\n";
 
-  // src/data/recipes/orange-pastry-cream.md
+  // src/data/orange-pastry-cream.md
   var orange_pastry_cream_default = "# Orange Pastry Cream\n\n- **Servings:** {6}\n- **Yield:** {2} cups\n\n## Ingredients\n\n- {1 1/4} cup Milk, whole\n- {1} tsp Orange Zest\n- {3} Egg Yolk\n- {1/4} cup Sugar\n- {1} tbsp All-purpose Flour\n- {2 2/3} tbsp Cornstarch\n- {1/2} tsp Vanilla Extract\n- {1/2} tsp Orange Extract\n\n## Instructions\n\n1. In a small saucepan, warm the milk and orange zest over low heat until it is just hot enough to steam\n1. While the milk is warming, whisk together the egg yolks, sugar, flour, and cornstarch until the mixture is completely smooth\n1. Once the milk is steaming, add half of it, whisking constantly, to the egg mixture\n1. Add the milk and eggs back into the hot milk, continue stirring, and heat it for 1-2 minutes, until the custard reaches 170F on a digital thermometer and is very thick\n1. Remove from the heat, stir in the vanilla extract and Grand Marnier(or extract), and chill before filling pastry\n";
 
-  // src/data/recipes/orange-rolls.md
+  // src/data/orange-rolls.md
   var orange_rolls_default = "# Orange Rolls\n\n- **Servings:** {15}\n- **Yield:** {15} rolls\n\n## Ingredients\n\n- {1 1/4} cup Milk, scalded\n- {1/2} cup Shortening\n- {1/3} cup Sugar\n- {2} tbsp Orange Zest\n- {1} tsp Salt\n- {1/4} cup Orange Juice\n- {2} Egg\n- {2 1/4} tsp Yeast\n- {5} cup Bread Flour\n- {1} cup Confectioners' Sugar\n- {1} tsp Orange Zest\n- {1} cup Milk or 1 cup Orange Juice\n\n## Instructions\n\n1. Scald milk and pour into large bowl\n1. Add shortening, sugar, 2 Tbsp orange zest, and salt\n1. Stir until shortening is dissolved\n1. Stir in orange juice and let bowl sit until liquids are lukewarm (about 95 degrees F)\n1. Stir in eggs and yeast\n1. Mix in flour until a soft dough is formed\n1. Turn dough out onto lightly floured board and knead until smooth\n1. Place dough in greased bowl\n1. Turn dough over in bowl so that the top is also lightly greased\n1. Cover bowl and let dough rise in warm, draft-free place for 2 hours or until double in size\n1. Punch down dough and turn out onto lightly floured board\n1. Roll dough out on board to 1/2 inch thickness\n1. Cut dough into 6 inch by 1/2 inch strips\n1. Knot each strip\n1. Place knots on greased baking sheet, cover, and let rise in warm, draft-free place for 30 minutes\n1. Bake rolls at 400 degrees F for 15 minutes\n1. While rolls are still hot, mix together powdered sugar, 1 teaspoon orange peel, and enough orange juice or milk to make thick icing\n1. Ice rolls while still warm\n1. Rolls can be served warm or cold\n";
 
-  // src/data/recipes/oreo-graham-cracker-pie-crust.md
+  // src/data/oreo-graham-cracker-pie-crust.md
   var oreo_graham_cracker_pie_crust_default = "# Oreo/Graham Cracker Pie Crust\n\n- **Servings:** {1}\n- **Yield:** {1} pie crust\n\n## Ingredients\n\n- {2} cup Graham Crackers, crumbs\n- {1 1/2} cup Oreos, sandwich crumbs\n- {1/4} cup Sugar\n- {1} stick Butter\n\n## Instructions\n\n1. Preheat oven to 375 degrees F\n1. In the bowl of a food processor or blender, process the graham crackers and chocolate cookies to make crumbs\n1. In a bowl mix together the cookie crumbs, sugar and butter with your hands\n1. Press the mixture evenly into a 9-inch pie pan\n1. (It will seem like an excessive amount of crumbs, but will compress down quite a bit with pressure.) Cover the crust with plastic wrap and top with another 9-inch pan, pressing quite firmly to make a smooth surface\n1. Remove the pan and the plastic wrap from the pressed crust prior to placing it into the preheated oven\n1. Bake the crust for 15 minutes\n1. Remove the crust from the oven and let cool completely before filling\n1. To make a graham cracker crust, omit Oreo crumbs and use 3 1/2 cups graham cracker crumbs\n";
 
-  // src/data/recipes/peach-pie.md
+  // src/data/peach-pie.md
   var peach_pie_default = "# Peach Pie\n\n- **Servings:** {12}\n- **Yield:** {1} pie\n\n## Ingredients\n\n- {10} Peach, ripe\n- {1} Lemon, juiced\n- {1/2} tsp Almond Extract\n- {2/3} cup All-purpose Flour\n- {1} cup Sugar\n- {1/2} tsp Cinnamon\n- {1/8} tsp Nutmeg\n- {1/2} tsp Salt\n- {3} tbsp Butter\n- {1} Egg\n- {2} Pie Crust, unbaked for top and bottom\n\n## Instructions\n\n1. Preheat the oven to 450 degrees F\n1. Peel and cut the peaches into 1/4-inch thick slices (you should have about 7 cups) and toss with the lemon juice and almond extract in a large bowl\n1. Whisk the flour, sugar, cinnamon, nutmeg and salt in another bowl, making sure there are no lumps\n1. Stir the flour mixture into the peaches and mix well\n1. Pour the peaches into the pie crust\n1. Scatter with the pieces of butter\n1. Top with the lattice pie shell strips\n1. Brush away any flour underneath the lattice to make sure it seals well\n1. Crimp the edges to seal\n1. Beat the egg with 1 teaspoon water and brush the lattice and edges with the egg wash\n1. Pop in the oven and bake for 10 minutes, and then lower the heat to 350 degrees F and bake until the crust gets brown, about 50 minutes more\n1. If the edges brown too fast, cover them with strips of aluminum foil about halfway through baking\n1. Cool about 30 minutes before serving\n";
 
-  // src/data/recipes/peanut-brittle.md
+  // src/data/peanut-brittle.md
   var peanut_brittle_default = "# Peanut Brittle\n\n- **Servings:** {24}\n- **Yield:** {3} lbs\n\n## Ingredients\n\n- {1} tbsp Vanilla Extract\n- {1} tbsp Baking Soda\n- {1} tbsp Salt\n- {1 1/2} stick Butter\n- {3} cup Sugar\n- {1} cup Light Corn Syrup\n- {3} cup Peanuts\n\n## Instructions\n\n1. Measure the vanilla into a small bowl and set aside\n1. Combine the baking soda and salt in another small bowl and set aside\n1. Butter 1 cookie sheet with sides or jelly roll pan liberally with 1/2 stick of the butter\n1. Set aside\n1. Combine the sugar, corn syrup and 1/2 cup water in a large saucepan\n1. Bring the mixture to a boil, attach a candy thermometer and cook over medium-high heat until the syrup spins a thread when poured from a spoon or reaches 240 degrees F on the thermometer\n1. Stir in the peanuts and continue cooking and stirring until the candy becomes golden brown or reaches 300 degrees F\n1. Remove from the heat immediately and quickly add the remaining 1 stick butter and the vanilla, baking soda and salt\n1. Stir only until the butter melts, and then quickly pour the brittle onto the cookie sheet, spreading the mixture thinly\n1. When the brittle has completely cooled, break the candy into pieces and store in a tightly covered container\n";
 
-  // src/data/recipes/peanut-butter-cookies.md
+  // src/data/peanut-butter-cookies.md
   var peanut_butter_cookies_default = "# Peanut Butter Cookies\n\n- **Servings:** {24}\n- **Yield:** {24} cookies\n\n## Ingredients\n\n- {1/2} cup Sugar\n- {1/2} cup Brown Sugar, packed\n- {1/2} cup Butter, room temperature\n- {1/2} cup Peanut Butter\n- {1} Egg\n- {1 1/4} cup All-purpose Flour\n- {3/4} tsp Baking Soda\n- {1/2} tsp Baking Powder\n- {1/4} tsp Salt\n\n## Instructions\n\n1. Beat the butter until creamy, 2 minutes\n1. Add the sugars, beat for 2 more minutes\n1. Mix in the peanut butter and egg\n1. Mix together the dry ingredients - flour, baking soda, baking powder and salt\n1. Stir the dry ingredients into the sugar butter mixture\n1. Wrap dough in plastic and refrigerate at least 3 hours\n1. Preheat oven to 375\xB0F\n1. Shape dough into 1 1/4 inch balls\n1. Place about 3 inches apart on ungreased cookie sheet\n1. Flatten in crisscross pattern with a fork\n1. Bake until light brown, 9 to 10 minutes\n1. Cool on baking sheets for a minute; transfer to rack to cool completely\n1. For chewier cookies, bake at 300\xB0F for 15 minutes\n";
 
-  // src/data/recipes/peanut-butter-fudge.md
+  // src/data/peanut-butter-fudge.md
   var peanut_butter_fudge_default = "# Peanut Butter Fudge\n\n- **Servings:** {32}\n- **Yield:** {64} inch pieces\n\n## Ingredients\n\n- {1} cup Butter\n- {1} cup Peanut Butter\n- {1} tsp Vanilla Extract\n- {4} cup Confectioners' Sugar\n\n## Instructions\n\n1. Combine the butter and peanut butter in a 4-quart microwave-safe bowl and cover with plastic wrap\n1. Microwave for 2 minutes on high\n1. Stir and microwave on high for 2 more minutes\n1. (Use caution when removing this mixture from the microwave, it will be very hot.) Add the vanilla and powdered sugar to the peanut butter mixture and stir to combine with a wooden spoon\n1. The mixture will become hard to stir and lose its sheen\n1. Spread into a buttered 8 by 8-inch pan lined with parchment paper\n1. Fold the excess parchment paper so it covers the surface of the fudge and refrigerate until cool, about 2 hours\n1. Cut into 1-inch pieces and store in an airtight container at room temperature for up to a week\n";
 
-  // src/data/recipes/peanut-butter-pie.md
+  // src/data/peanut-butter-pie.md
   var peanut_butter_pie_default = "# Peanut Butter Pie\n\n- **Servings:** {8}\n- **Yield:** {1} pie\n\n## Ingredients\n\n- {1} Pie Crust, baked\n- {1/2} cup Peanut Butter\n- {1} cup Confectioners' Sugar\n- {1/4} cup Milk\n- {1} tsp Vanilla Extract\n- {8} oz Cream Cheese\n- {8} oz Whipped Topping\n\n## Instructions\n\n1. In large bowl combine all the ingredients except the toppings and crust\n1. Blend with a hand mixer\n1. Gently fold in whipped topping; pour into prepared crust and freeze for 2 hour\n1. Once frozen, drizzle with ice cream topping and re-freeze for 20 minutes\n1. Thaw slightly before serving and cut into thin slices because this is a rich pie\n";
 
-  // src/data/recipes/peanut-butter-chocolate-chip-bacon-cookies.md
+  // src/data/peanut-butter-chocolate-chip-bacon-cookies.md
   var peanut_butter_chocolate_chip_bacon_cookies_default = "# Peanut Butter-Chocolate Chip-Bacon Cookies\n\n- **Servings:** {12}\n- **Yield:** {12} cookies\n\n## Ingredients\n\n- {1 1/4} cup All-purpose Flour\n- {1/4} tsp Baking Soda\n- {1/4} tsp Baking Powder\n- {1/8} tsp Cinnamon\n- {1/16} tsp Chipotle Powder\n- {1/4} tsp Salt\n- {1/2} lb Bacon\n- {1/2} stick Butter\n- {1/2} cup Peanut Butter\n- {1/2} cup Sugar\n- {1/2} cup Brown Sugar\n- {1} Egg\n- {1} tsp Vanilla Extract\n- {1/2} cup Peanuts, honey-roasted and chopped\n- {1/3} cup Chocolate Chips\n\n## Instructions\n\n1. Preheat the oven to 350 degrees F\n1. Line 2 baking sheets with parchment paper\n1. Combine the flour, baking soda, baking powder, cinnamon, chile powder and salt in a large bowl\n1. Cook the bacon in a large skillet over medium heat until crisp, about 4 to 6 minutes per side\n1. Transfer to a paper towel-lined plate; reserve 2 tablespoons of the drippings and set aside to cool\n1. Crumble the bacon, discarding any chewy bits\n1. Beat the butter and reserved bacon drippings in a large bowl with a mixer on medium-high speed until smooth, about 1 minute\n1. Beat in the peanut butter until combined, about 1 minute\n1. Beat in the granulated and light brown sugar until creamy, about 4 minutes, then add the egg and vanilla and beat until light and fluffy, about 2 more minutes\n1. Reduce the mixer speed to low; add the flour mixture in 2 additions, scraping down the bowl as needed, until just combined\n1. Stir in the peanuts and all but 2 tablespoons each of the chocolate chips and bacon\n1. Form the dough into 12 balls and arrange 2 inches apart on the prepared baking sheets\n1. Flatten with your fingers (the cookies will not spread in the oven); press the reserved bacon and chocolate chips on top\n1. Bake until golden, 12 to 14 minutes\n1. Let the cookies cool 2 minutes on the baking sheets, then transfer to a rack to cool completely\n1. Store in an airtight container for up to 3 days\n";
 
-  // src/data/recipes/peanut-swirl-brownies.md
+  // src/data/peanut-swirl-brownies.md
   var peanut_swirl_brownies_default = "# Peanut Swirl Brownies\n\n- **Servings:** {24}\n- **Yield:** {24} brownies\n\n## Ingredients\n\n- {4} stick Butter\n- {28} oz Chocolate Chips\n- {6} oz Unsweetened Chocolate\n- {6} Egg\n- {3} tbsp Coffee Granules\n- {2} tbsp Vanilla Extract\n- {2 1/4} cup Sugar\n- {1 1/4} cup All-purpose Flour\n- {1} tbsp Baking Powder\n- {1} tsp Salt\n- {3/4} cup Peanut Butter\n\n## Instructions\n\n1. Preheat the oven to 350 degrees F\n1. Butter and flour a 12 by 18 by 1 1/2-inch sheet pan\n1. Melt together the butter, 1 pound of chocolate chips, and the unsweetened chocolate in a medium bowl over simmering water\n1. Allow to cool slightly\n1. In a large bowl, stir (do not beat) together the eggs, coffee granules, vanilla, and sugar\n1. Stir the warm chocolate mixture into the egg mixture and allow to cool to room temperature\n1. In a medium bowl, sift together 1 cup of flour, the baking powder, and salt\n1. Add to the cooled chocolate mixture\n1. Toss the remaining 12 ounces of chocolate chips in a medium bowl with 1/4 cup of flour, then add them to the chocolate batter\n1. Pour into the prepared sheet pan\n1. Spoon the peanut butter over the top of the chocolate mixture and using a knife, swirl it through the chocolate mixture\n1. Bake for 20 minutes, then rap the baking sheet against the oven shelf to force the air to escape from between the pan and the brownie dough\n1. Bake for about 10 to 15 minutes more or until a toothpick comes out clean\n1. Do not overbake! Allow to cool thoroughly, refrigerate, and cut into large squares\n";
 
-  // src/data/recipes/pecan-pie.md
+  // src/data/pecan-pie.md
   var pecan_pie_default = "# Pecan Pie\n\n- **Servings:** {12}\n- **Yield:** {1} pie\n\n## Ingredients\n\n- {1} cup Sugar\n- {3} tbsp Butter, melted\n- {1/2} cup Dark Corn Syrup\n- {3} Egg, beaten\n- {2} cup Pecans\n- {2} tbsp Bourbon\n- {1} Deep Dish Pie Shell, unbaked\n\n## Instructions\n\n1. Preheat the oven to 375 degrees F\n1. In a medium bowl, stir together the sugar and melted butter\n1. Add the corn syrup, eggs, pecans, and bourbon, and stir until all ingredients are combined\n1. Pour mixture into an unbaked pie shell, and place on a heavy-duty cookie sheet\n1. Bake for 10 minutes\n1. Lower the oven temperature to 350 degrees F, and continue to bake for an additional 25 minutes, or until pie is set\n1. Remove from oven and cool on a wire rack\n";
 
-  // src/data/recipes/peppermint-bark.md
+  // src/data/peppermint-bark.md
   var peppermint_bark_default = "# Peppermint Bark\n\n- **Servings:** {50}\n- **Yield:** {2} lb\n\n## Ingredients\n\n- {1} cup Candy Canes, crushed\n- {2} lb White Chocolate\n- {0} Peppermint Flavoring\n\n## Instructions\n\n1. Place candy canes in a plastic bag and hammer into 1/4-inch chunks or smaller\n1. Melt the chocolate in a double boiler\n1. Combine candy cane chunks with chocolate (add peppermint flavoring at this point if desired)\n1. Pour mixture onto a cookie sheet layered with parchment or waxed paper and place in the refrigerator for 45 minutes or until firm\n1. Remove from cookie sheet and break into pieces (like peanut brittle.)\n";
 
-  // src/data/recipes/peppermint-cannolis.md
+  // src/data/peppermint-cannolis.md
   var peppermint_cannolis_default = "# Peppermint Cannolis\n\n- **Servings:** {12}\n- **Yield:** {12} cannolis\n\n## Ingredients\n\n- {1} cup Mascarpone Cheese\n- {2} tbsp Sugar\n- {2} tbsp Candy Canes, crushed\n\n## Instructions\n\n1. Fill a pastry bag fitted with a 1/2-inch plain or star tip, or a ziplock bag, with the peppermint filling\n1. If using a ziplock bag, cut about 1/2 inch off one corner\n1. Insert the tip in the cannoli shell and squeeze gently until the shell is half filled\n1. Turn the shell and fill the other side\n1. You can also use a teaspoon to do this, although it\u2019s messier and will take longer\n";
 
-  // src/data/recipes/peppermint-glaze.md
+  // src/data/peppermint-glaze.md
   var peppermint_glaze_default = "# Peppermint Glaze\n\n- **Servings:** {100}\n- **Yield:** {200} cookies worth\n\n## Ingredients\n\n- {6} cup Confectioners' Sugar\n- {1/8} tsp Mint Extract\n- {1/2} cup Water\n\n## Instructions\n\n1. In a small bowl mix together the sugar; mint extract and water until smooth\n1. Transfer mixture to a medium resealable plastic bag and snip off the corner\n";
 
-  // src/data/recipes/pie-crust.md
+  // src/data/pie-crust.md
   var pie_crust_default = "# Pie Crust\n\n- **Servings:** {2}\n- **Yield:** {2} pie crusts\n\n## Ingredients\n\n- {2 1/2} cup All-purpose Flour\n- {1/4} tsp Salt\n- {3} tbsp Sugar\n- {1/4} cup Shortening\n- {1 1/2} stick Butter, cold\n- {1/4} cup Water, cold\n\n## Instructions\n\n1. In a large mixing bowl, sift together the flour, salt and sugar\n1. Add the shortening and break it up with your hands as you start to coat it all up with the flour\n1. Add the cold butter cubes and work it into the flour with your hands or a pastry cutter\n1. Work it quickly, so the butter doesn't get too soft, until the mixture is crumbly, like very coarse cornmeal\n1. Add the ice water, a little at a time, until the mixture comes together forming a dough\n1. Bring the dough together into a ball\n1. When it comes together stop working it otherwise the dough will get over-worked and tough\n1. Divide the dough in half and flatten it slightly to form a disk shape\n1. Wrap each disk in plastic and chill in the refrigerator for about 30 minutes\n1. On a floured surface roll each disk out into a 10 to 11-inch circle to make a 9-inch pie\n";
 
-  // src/data/recipes/pineapple-cookies.md
+  // src/data/pineapple-cookies.md
   var pineapple_cookies_default = "# Pineapple Cookies\n\n- **Servings:** {36}\n- **Yield:** {36} cookies\n\n## Ingredients\n\n- {1/2} cup Shortening\n- {1} cup Brown Sugar\n- {1} Egg\n- {1} tsp Vanilla Extract\n- {8} oz Crushed Pineapple\n- {2} cup All-purpose Flour\n- {1 1/2} tsp Baking Powder\n- {1/4} tsp Baking Soda\n- {1/8} tsp Salt\n\n## Instructions\n\n1. Preheat the oven to 325 degrees F (165 degrees C)\n1. Grease cookie sheets\n1. In a large bowl, cream together the shortening and sugar until light and fluffy\n1. Add the egg, beat well, then stir in the vanilla and pineapple\n1. Combine the flour, baking powder, baking soda and salt; gradually stir into the creamed mixture\n1. Drop by rounded spoonfuls onto the prepared cookie sheet\n1. Bake for 8 to 10 minutes in the preheated oven\n1. Allow cookies to cool on baking sheet for 5 minutes before removing to a wire rack to cool completely\n";
 
-  // src/data/recipes/pineapple-pumpkin-bread-muffins.md
+  // src/data/pineapple-pumpkin-bread-muffins.md
   var pineapple_pumpkin_bread_muffins_default = "# Pineapple Pumpkin Bread/Muffins\n\n- **Servings:** {18}\n- **Yield:** {18} muffins/1 loaf\n\n## Ingredients\n\n- {1} cup Sugar\n- {1/2} cup Shortening\n- {1} cup Canned Pumpkin\n- {2} Egg\n- {2 1/2} cup All-purpose Flour\n- {2 1/2} tsp Baking Soda\n- {1/2} tsp Salt\n- {1/2} cup Pineapple, dried/chopped\n\n## Instructions\n\n1. Grease muffin tins\n1. Preheat oven 350 degrees F\n1. In medium bowl, cream sugar and shortening\n1. Stir in pumpkin and eggs\n1. In separate bowl, mix together the dry ingredients: flour, baking soda, and salt\n1. Add dry ingredients to pumpkin mix\n1. Quickly stir ingredients until flour is wet\n1. Fold in pineapple\n1. Fill muffin cups 2/3 full with batter\n1. Bake at 350 degrees F for 20 to 25 minutes or until done\n1. Remove muffins from tin and allow to cool\n";
 
-  // src/data/recipes/pizzelles.md
+  // src/data/pizzelles.md
   var pizzelles_default = "# Pizzelles\n\n- **Servings:** {54}\n- **Yield:** {54} cookies\n\n## Ingredients\n\n- {6} Egg\n- {1} cup Sugar\n- {3/4} cup Vegetable Oil\n- {3} cup All-purpose Flour\n- {1} tbsp Baking Powder\n- {3} tbsp Anise Seeds\n- {0} Anise Oil, as needed\n\n## Instructions\n\n1. In a large bowl, combine the eggs, sugar and oil and mix until well combined\n1. Add the flour, baking powder, anise seeds, anise oil, and optional ingredients if desired, and mix well to form a homogenous batter\n1. Set aside at room temperature for 30 minutes\n1. Heat the pizzelle iron until very hot\n1. Pour 2 tablespoons of batter onto the iron, close it, and return to the heat\n1. Cook until golden brown, about 2 minutes\n1. Repeat until all the batter is used\n1. Optional Ingredients:\n1. 1/4 cup unsweetened cocoa powder, and 1 additional egg, or\n1. 1/4 cup amaretto and an additional 1/4 cup all-purpose flour\n";
 
-  // src/data/recipes/prime-rib.md
+  // src/data/prime-rib.md
   var prime_rib_default = "# Prime Rib\n\n- **Servings:** {12}\n- **Yield:** {12} servings\n\n## Ingredients\n\n- {10} lb Prime Rib, bone-in\n- {1} stick Butter, melted\n- {10} Garlic Cloves\n- {1 1/2} tbsp Oregano\n- {1} tbsp Thyme\n- {1} tbsp Rosemary\n- {1 1/2} tbsp Salt\n- {2} tsp Black Pepper\n\n## Instructions\n\n1. Combine all seasoning ingredients (butter, garlic, oregano, thyme, rosemary, salt, and black pepper) in a small bowl\n1. Remove the prime rib from the fridge and season it\n1. Let sit for 45 minutes before cooking\n1. Place in a roasting pan on a roasting rack, fat side up\n1. Cook at 450 for 20 minutes, then reduce to 325\n1. Cook until internal temperature reaches 120\n1. Let rest for 15 minutes before serving \u2014 internal temperature will continue rising to about 130\n";
 
-  // src/data/recipes/pumpkin-bread-muffins.md
+  // src/data/pumpkin-bread-muffins.md
   var pumpkin_bread_muffins_default = "# Pumpkin Bread/Muffins\n\n- **Servings:** {18}\n- **Yield:** {18} muffins/1 loaf\n\n## Ingredients\n\n- {2} cup All-purpose Flour\n- {2} tsp Cinnamon\n- {1} tsp Baking Soda\n- {1/4} tsp Baking Powder\n- {1/2} tsp Salt\n- {1 1/2} cup Sugar\n- {3/4} cup Vegetable Oil\n- {3} Egg\n- {1} tsp Vanilla Extract\n- {3} cup Shredded Pumpkin\n- {1} cup Pumpkin Seeds, toasted\n\n## Instructions\n\n1. Preheat the oven to 325 degrees F\n1. Sift the flour, cinnamon, baking soda, baking powder, and salt together\n1. In a separate bowl, mix the sugar, vegetable oil, eggs, and vanilla\n1. Combine both mixtures and fold in the shredded pumpkin and pumpkin seeds\n1. Once the ingredients are all incorporated pour into a non- stick 9 by 5 by 3-inch loaf pan\n1. If your pan is not non- stick coat it with butter and flour\n1. Bake for 1 hour and 15 minutes\n1. At this point a knife inserted into the middle of the loaf should come out clean\n1. Cool for 15 minutes and turn out onto a cooling rack\n1. Cool completely\n1. For muffins temperature should also be 325 degrees F., but bake for 30 minutes\n";
 
-  // src/data/recipes/pumpkin-butterscotch-fudge.md
-  var pumpkin_butterscotch_fudge_default = "# Pumpkin Butterscotch Fudge\n\n- **Servings:** {64}\n- **Yield:** {128} pieces\n\n## Ingredients\n\n- {2} cup Sugar\n- {1} cup Brown Sugar\n- {3/4} cup Butter\n- {2/3} cup Evaporated Milk\n- {1/2} cup Canned Pumpkin\n- {2} tsp Pumpkin Pie Spice\n- {7} oz Marshmallow Cream\n- {11} oz Butterscotch Morsels\n\n## Instructions\n\n1. Line a 9x13 inch baking pan with foil\n1. In a heavy pot combine sugar, brown sugar, milk, pumpkin, butter and spice\n1. Bring to a full boil and stir constantly\n1. Continue for 12 to 15 minutes until candy thermometer reached soft-ball stage, 234 to 240 degrees F\n1. Remove from heat and quickly add in butterscotch, marshmallow and vanilla\n1. Stir until butterscotch is completely melted and then add to pan\n1. Allow to cool for at least 2 hours\n1. Cut into 1 inch squares, removing the foil, and share with good friends! \n1. Store in an air tight container in the fridge\n1. This fudge was very sweet! I made it with and without the walnuts\n1. The walnuts helped to bring the sweetness down a bit\n1. If you like super sweet fudge, this is the treat for you!\n";
+  // src/data/pumpkin-butterscotch-fudge.md
+  var pumpkin_butterscotch_fudge_default = "# Pumpkin Butterscotch Fudge\n\n- **Servings:** {64}\n- **Yield:** {128} pieces\n\n## Ingredients\n\n- {2} cup Sugar\n- {1} cup Brown Sugar\n- {3/4} cup Butter\n- {2/3} cup Evaporated Milk\n- {1/2} cup Canned Pumpkin\n- {2} tsp Pumpkin Pie Spice\n- {7} oz Marshmallow Cream\n- {11} oz Butterscotch Morsels\n\n## Instructions\n\n1. Line a 9x13 inch baking pan with foil\n1. In a heavy pot combine sugar, brown sugar, milk, pumpkin, butter and spice\n1. Bring to a full boil and stir constantly\n1. Continue for 12 to 15 minutes until candy thermometer reached soft-ball stage, 234 to 240 degrees F\n1. Remove from heat and quickly add in butterscotch, marshmallow and vanilla\n1. Stir until butterscotch is completely melted and then add to pan\n1. Allow to cool for at least 2 hours\n1. Cut into 1 inch squares, removing the foil, and share with good friends!\n1. Store in an air tight container in the fridge\n1. This fudge was very sweet! I made it with and without the walnuts\n1. The walnuts helped to bring the sweetness down a bit\n1. If you like super sweet fudge, this is the treat for you!\n";
 
-  // src/data/recipes/pumpkin-cannolis.md
+  // src/data/pumpkin-cannolis.md
   var pumpkin_cannolis_default = "# Pumpkin Cannolis\n\n- **Servings:** {12}\n- **Yield:** {12} cannolis\n\n## Ingredients\n\n- {2} tbsp Vanilla Extract\n- {8} oz Mascarpone Cheese\n- {3 1/2} cup Confectioners' Sugar\n- {3/4} cup Canned Pumpkin\n- {2} cup Ricotta Cheese\n- {2} tsp Pumpkin Pie Spice\n- {12} Cannoli Shells\n\n## Instructions\n\n1. Place ricotta into a bowl of a stand mixer fitted with a paddle attachment, and beat for 2-3 minutes until fluffy\n1. Add Mascarpone cheese and continue beating on medium high speed until cheeses are blended together\n1. Carefully add confectioners\u2019 sugar and blend well\n1. Add vanilla extract, pumpkin, and pie spice to cannoli filling and continue beating until mixture is smooth\n1. Place a pastry bag fitted with a Wilton 6B tip into a large bar glass with tip end flipped upwards, resting on the bottom of the glass, and bag ends folded down over the sides of the glass\n1. Using a spatula fill pastry bag with pumpkin ricotta cannoli filling\n1. Fold each side of pastry bag in toward the center of bag and fold down top edges\n1. Carefully lift bag from glass and twist bag pushing filling toward the tip\n1. Place tip into one side of shell as close to the middle as possible and gently apply pressure to the bag to fill shell with Cannoli filling\n1. Arrange filled cannoli shells on a serving platter and dust with reserved confectioners\u2019 sugar\n";
 
-  // src/data/recipes/pumpkin-cheesecake-flavoring.md
+  // src/data/pumpkin-cheesecake-flavoring.md
   var pumpkin_cheesecake_flavoring_default = "# Pumpkin Cheesecake Flavoring\n\n- **Servings:** {16}\n- **Yield:** {1} cheesecake\n\n## Ingredients\n\n- {1/2} cup Canned Pumpkin\n- {1/2} tsp Cinnamon\n- {1/16} tsp Cloves\n- {1/16} tsp Nutmeg\n\n## Instructions\n\n1. Add pumpkin, cinnamon, cloves and nutmeg to the batter and stir gently until well blended\n";
 
-  // src/data/recipes/pumpkin-cupcakes.md
+  // src/data/pumpkin-cupcakes.md
   var pumpkin_cupcakes_default = "# Pumpkin Cupcakes\n\n- **Servings:** {12}\n- **Yield:** {12} cupcakes\n\n## Ingredients\n\n- {1} cup All-purpose Flour\n- {1} tsp Cinnamon\n- {1/2} tsp Ginger\n- {1/2} tsp Allspice\n- {1/2} tsp Nutmeg\n- {1/2} tsp Baking Powder\n- {1/2} tsp Baking Soda\n- {1/4} tsp Salt\n- {1} stick Butter\n- {1/2} cup Sugar\n- {1/2} cup Canned Pumpkin\n- {1 1/2} tsp Vanilla Extract\n- {2} Egg\n\n## Instructions\n\n1. Preheat the oven to 350 degrees F\n1. Line 1 (12-cup) muffin pan with paper cupcake liners\n1. In a medium bowl, whisk together the flour, cinnamon, ginger, allspice, nutmeg, baking powder, baking soda and 1/4 teaspoon salt\n1. Set aside\n1. In a large bowl, add the butter and the sugar\n1. Beat with a hand-held mixer until light and fluffy, 3 to 4 minutes\n1. Add the pumpkin puree and the vanilla extract\n1. Slowly beat in the eggs, one at a time\n1. Incorporate the dry mixture into the wet mixtures together until thoroughly combined\n1. Using an ice cream scoop, fill each cupcake liner 3/4 of the way full\n1. Bake until the tops turn golden brown and a toothpick inserted in the center of the cupcake comes out clean, about 20 minutes\n1. Remove the cupcakes from the oven to a wire rack and cool completely before frosting\n";
 
-  // src/data/recipes/pumpkin-donuts.md
+  // src/data/pumpkin-donuts.md
   var pumpkin_donuts_default = "# Pumpkin Donuts\n\n- **Servings:** {12}\n- **Yield:** {12} donuts\n\n## Ingredients\n\n- {1/2} cup Vegetable Oil\n- {3} Egg\n- {1 1/2} cup Sugar\n- {1 1/2} cup Canned Pumpkin\n- {1 1/2} tsp Pumpkin Pie Spice\n- {1 1/2} tsp Salt\n- {1 1/2} tsp Baking Powder\n- {1 7/8} cup All-purpose Flour\n\n## Instructions\n\n1. Preheat the oven to 350\xB0F\n1. Lightly grease two standard doughnut pans\n1. If you don't have doughnut pans, you can bake these in a standard muffin tin; they just won't be doughnuts\n1. Beat together the oil, eggs, sugar, pumpkin, spices, salt, and baking powder until smooth\n1. Add the flour, stirring just until smooth\n1. Fill the wells of the doughnut pans about 3/4 full; use a scant 1/4 cup of batter in each well\n1. If you're making muffins, fill each well about 3/4 full; the recipe makes about 15, so you'll need to bake in two batches (unless you have two muffin pans)\n1. Bake the doughnuts for 15 to 18 minutes, or until a cake tester inserted into the center of one comes out clean\n1. If you're making muffins, they'll need to bake for 23 to 25 minutes\n1. Remove the doughnuts from the oven, and after about 5 minutes, loosen their edges, and transfer them to a rack to cool\n1. While the doughnuts are still warm (but no longer fragile), gently shake them in a bag with the cinnamon-sugar\n1. If you've made muffins, sprinkle their tops heavily with cinnamon-sugar\n1. Cool completely, and store (not wrapped tight) at room temperature for several days\n";
 
-  // src/data/recipes/pumpkin-drop-cookies.md
+  // src/data/pumpkin-drop-cookies.md
   var pumpkin_drop_cookies_default = "# Pumpkin Drop Cookies\n\n- **Servings:** {48}\n- **Yield:** {48} cookies\n\n## Ingredients\n\n- {1/2} cup Butter, softened\n- {3/4} cup Sugar\n- {3/4} cup Brown Sugar, packed\n- {2} Egg\n- {15} oz Canned Pumpkin\n- {2 1/2} cup All-purpose Flour\n- {2 1/2} tsp Baking Powder\n- {1} tsp Baking Soda\n- {1} tsp Salt\n- {1} tsp Cinnamon\n- {1} tsp Allspice\n- {1} tsp Nutmeg\n- {1} cup Raisins\n\n## Instructions\n\n1. Heat oven to 375\xBA\n1. Grease cookie sheet with shortening\n1. Mix butter and sugars in large bowl with spoon\n1. Beat in eggs\n1. Stir in pumpkin\n1. Stir in remaining ingredients except raisins\n1. Fold in raisins\n1. Drop dough by tablespoonfuls about 2 inches apart onto cookie sheet\n1. Bake 10 to 12 minutes or until set and golden\n1. Cool 1 to 2 minutes; remove from cookie sheet to wire rack\n";
 
-  // src/data/recipes/pumpkin-pastry-cream.md
+  // src/data/pumpkin-pastry-cream.md
   var pumpkin_pastry_cream_default = "# Pumpkin Pastry Cream\n\n- **Servings:** {6}\n- **Yield:** {2} cups\n\n## Ingredients\n\n- {1} cup Milk, whole\n- {3} Egg Yolk\n- {1/4} cup Canned Pumpkin\n- {1/4} cup Sugar\n- {1/8} cup All-purpose Flour\n- {1/2} tsp Cinnamon\n- {1/16} tsp Nutmeg\n- {1/16} tsp Cloves\n- {2 2/3} tbsp Cornstarch\n- {1} tsp Vanilla Extract\n\n## Instructions\n\n1. In a small saucepan, warm the milk over low heat until it is just hot enough to steam\n1. While the milk is warming, whisk together the egg yolks, pumpkin, sugar, flour, spices, and cornstarch until the mixture is completely smooth\n1. Once the milk is steaming, add half of it, whisking constantly, to the pumpkin mixture\n1. Add the milk and pumpkin back into the hot milk, continue stirring, and heat it for 1-2 minutes, until the custard reaches 170F on a digital thermometer and is very thick\n1. Remove from the heat, stir in the vanilla extract, and chill the pumpkin pastry cream before using it\n";
 
-  // src/data/recipes/pumpkin-pie.md
+  // src/data/pumpkin-pie.md
   var pumpkin_pie_default = "# Pumpkin Pie\n\n- **Servings:** {8}\n- **Yield:** {1} pie\n\n## Ingredients\n\n- {8} oz Cream Cheese\n- {2} cup Canned Pumpkin\n- {1} cup Sugar\n- {1/4} tsp Salt\n- {1} Egg, slightly beaten\n- {2} Egg Yolk, slightly beaten\n- {1} cup Half-and-half Cream\n- {1/2} stick Butter, melted\n- {1} tsp Vanilla Extract\n- {1/2} tsp Cinnamon\n- {1/4} tsp Ginger\n- {1} Pie Crust, unbaked\n\n## Instructions\n\n1. In a large mixing bowl, beat the cream cheese with a hand mixer\n1. Add the pumpkin and beat until combined\n1. Add the sugar and salt, and beat until combined\n1. Add the eggs mixed with the yolks, half-and-half, and melted butter, and beat until combined\n1. Finally, add the vanilla, cinnamon, and ginger, if using, and beat until incorporated\n1. Pour the filling into the warm prepared pie crust and bake for 50 minutes, or until the center is set\n1. Place the pie on a wire rack and cool to room temperature\n1. Cut into slices and top each piece with a generous amount of whipped cream\n";
 
-  // src/data/recipes/pumpkin-spice-cake.md
+  // src/data/pumpkin-spice-cake.md
   var pumpkin_spice_cake_default = "# Pumpkin Spice Cake\n\n- **Servings:** {12}\n- **Yield:** {1} four-layer cake\n\n## Ingredients\n\n- {3} cup All-purpose Flour\n- {2} tsp Baking Soda\n- {2} tsp Baking Powder\n- {1} tsp Cinnamon\n- {1/2} tsp Ginger\n- {1/2} tsp Cardamom\n- {1/4} tsp Allspice\n- {1/4} tsp Salt\n- {15} oz Canned Pumpkin\n- {1 1/2} cup Sugar\n- {2} tsp Orange Zest\n- {1} tsp Vanilla Extract\n- {4} Egg\n- {1 1/4} cup Vegetable Oil\n\n## Instructions\n\n1. Preheat the oven to 350 degrees F\n1. Lightly butter two 9-inch-round cake pans; line the bottoms with parchment paper\n1. Whisk the flour, baking soda, baking powder, cinnamon, ginger, cardamom, allspice and salt in a large bowl; set aside\n1. Combine the pumpkin, sugar, orange zest and vanilla in a stand mixer fitted with the paddle attachment and beat on medium speed until smooth, about 1 minute\n1. Add the eggs, one at a time, beating until each one is incorporated\n1. With the mixer running, add the vegetable oil in a steady stream\n1. Add the flour mixture and mix just until incorporated\n1. Divide the batter between the 2 prepared pans; lightly tap the pans on the counter to distribute the batter\n1. Transfer the pans to the oven and bake until the cakes begin pulling away from the pans and the centers spring back when lightly pressed, about 30 minutes\n1. Transfer to a rack and let cool 10 minutes in the pans, then unmold onto the rack and let cool completely\n1. Cut each cake in half horizontally with a serrated knife to make 4 layers\n1. Put 1 layer on a platter; spread one-third of the pecan filling on top\n1. Layer the remaining cakes and filling on top, ending with cake\n1. Refrigerate until set, about 1 hour\n";
 
-  // src/data/recipes/pumpkin-whoopie-pies.md
+  // src/data/pumpkin-whoopie-pies.md
   var pumpkin_whoopie_pies_default = "# Pumpkin Whoopie Pies\n\n- **Servings:** {36}\n- **Yield:** {36} pies\n\n## Ingredients\n\n- {2} cup Brown Sugar\n- {1} cup Vegetable Oil\n- {1 1/2} cup Canned Pumpkin\n- {2} Egg\n- {3} cup All-purpose Flour\n- {1} tsp Salt\n- {1} tsp Baking Powder\n- {1} tsp Baking Soda\n- {1} tsp Vanilla Extract\n- {1 1/2} tbsp Cinnamon\n- {1/2} tbsp Ginger\n- {1/2} tbsp Cloves\n\n## Instructions\n\n1. Preheat oven to 350 degrees F (175 degrees C)\n1. Lightly grease baking sheets\n1. Combine the oil and brown sugar\n1. Mix in the pumpkin and eggs, beating well\n1. Add the flour, salt, baking powder, baking soda, 1 teaspoon vanilla, cinnamon, ginger and cloves\n1. Mix well\n1. Drop dough by heaping teaspoons onto the prepared baking sheets\n1. Bake at 350 degrees F (175 degrees C) for 10 to 12 minutes\n1. Let cookies cool then make sandwiches from two cookies filled with Whoopie Pie Filling\n";
 
-  // src/data/recipes/rainbow-cookies.md
+  // src/data/rainbow-cookies.md
   var rainbow_cookies_default = "# Rainbow Cookies\n\n- **Servings:** {48}\n- **Yield:** {48} cookies\n\n## Ingredients\n\n- {2 1/2} stick Butter, cut into pieces and softened\n- {2} cup All-purpose Flour\n- {8} oz Almond Paste\n- {1} cup Sugar\n- {4} Egg\n- {1/2} tsp Salt\n- {0} Food Coloring\n- {15} oz Apricot Jam\n- {1} lb Bittersweet Chocolate, chopped\n\n## Instructions\n\n1. Prep the pans: Position racks in the upper and lower thirds of the oven; preheat to 350 degrees F\n1. Butter and flour three 9-by-12-inch jelly roll pans or rimmed baking sheets and line with parchment paper\n1. Make the batter: Combine the almond paste and 3/4 cup plus 2 tablespoons sugar in a stand mixer fitted with the paddle attachment\n1. Mix on medium speed until the mixture is in fine crumbles\n1. Beat in 2 1/2 sticks butter, a few pieces at a time, until well combined\n1. Beat in the egg yolks, one at a time, until smooth\n1. Sift 2 cups flour onto a sheet of parchment and sprinkle the salt on top; add to the mixer bowl and beat until just combined\n1. In a clean bowl, whisk the egg whites until foamy; while whisking, slowly add the remaining 2 tablespoons sugar and whisk until firm peaks form (or use a hand mixer)\n1. Fold about one-third of the egg white mixture into the batter with a rubber spatula, then gently fold in the rest\n1. The batter should be fluffy\n1. Color the batter: Divide the batter evenly among 3 bowls\n1. Stir enough red food coloring into 1 bowl to make a deep salmon color\n1. Stir enough green food coloring into another bowl to make a medium green color\n1. Leave the third bowl uncolored\n1. Bake the layers: Transfer the batter to the prepared pans (one pan for each color)\n1. Dip an offset spatula in water and spread the batter to the edge of each pan, smoothing the tops\n1. Bake, switching the position of the pans halfway through, until the cakes are cooked through and just beginning to brown around the edges, 8 to 10 minutes\n1. Let cool completely in the pans on wire racks\n1. Assemble the layers: Spread half of the jam evenly over the green cake layer almost all the way to the edges\n1. Unmold the plain cake layer by inverting it onto another pan or cutting board; peel off the parchment\n1. Carefully slide the plain layer onto the green layer (use a wide offset spatula to help you, if necessary)\n1. Spread the remaining jam on top of the plain layer\n1. Unmold the red cake layer and slide it onto the plain layer\n1. Cover the cake with plastic wrap and top with one of the empty pans; place several heavy cans on top to weigh down the layers\n1. Refrigerate at least 4 hours or overnight\n1. Unmold the cake: Remove the cans and plastic wrap\n1. Place a cutting board on top of the cake and flip to unmold it onto the cutting board\n1. Remove the parchment from the top of the green layer\n1. Trim the cake: Trim the sides with a knife to make straight edges\n1. Spray a wire rack with cooking spray; set the rack over a baking sheet\n1. Carefully slide the cake onto the rack, using a wide offset spatula to help you, if necessary\n1. Cover in chocolate: Melt the chocolate in a heatproof bowl set over a pan of simmering water; pour over the cake\n1. Dip an offset spatula in the hot water and smooth the top and sides\n1. Let set slightly\n1. Scrape wavy lines into the chocolate with a fork; let cool a few more minutes until the chocolate is mostly set but still slightly tacky\n1. Cut into pieces: Slide the cake back onto the cutting board\n1. Slice crosswise into 6 strips, then cut each strip into 8 rectangular pieces\n1. For clean edges, dip the knife in warm water and wipe it with a cloth between cuts\n1. Store in an airtight container at room temperature for up to 1 week\n1. If the lines in the chocolate don't hold their shape, let the chocolate set a little longer and try again\n";
 
-  // src/data/recipes/raspberry-cheesecake-flavoring.md
+  // src/data/raspberry-cheesecake-flavoring.md
   var raspberry_cheesecake_flavoring_default = "# Raspberry Cheesecake Flavoring\n\n- **Servings:** {16}\n- **Yield:** {1} cheesecake\n\n## Ingredients\n\n- {10} oz Raspberries, frozen\n- {2} tbsp Sugar\n- {2} tsp Cornstarch\n- {1/2} cup Water\n\n## Instructions\n\n1. In a saucepan, combine raspberries, 2 tablespoons sugar, cornstarch, and water\n1. Bring to boil, and continue boiling 5 minutes, or until sauce is thick\n1. Strain sauce through a mesh strainer to remove seeds\n1. Stir into batter\n";
 
-  // src/data/recipes/red-velvet-cupcakes.md
+  // src/data/red-velvet-cupcakes.md
   var red_velvet_cupcakes_default = "# Red Velvet Cupcakes\n\n- **Servings:** {24}\n- **Yield:** {24} cupcakes\n\n## Ingredients\n\n- {2 1/2} cup All-purpose Flour\n- {1 1/2} cup Sugar\n- {1} tsp Baking Soda\n- {1} tsp Salt\n- {1} tsp Unsweetened Cocoa Powder\n- {1 1/2} cup Vegetable Oil\n- {1} cup Buttermilk\n- {2} Egg\n- {2} tbsp Food Coloring, red\n- {1} tsp Distilled Vinegar\n- {1} tsp Vanilla Extract\n\n## Instructions\n\n1. Preheat the oven to 350 degrees F\n1. Line 2 (12-cup) muffin pans with cupcake papers\n1. In a medium mixing bowl, sift together the flour, sugar, baking soda, salt, and cocoa powder\n1. In a large bowl gently beat together the oil, buttermilk, eggs, food coloring, vinegar, and vanilla with a handheld electric mixer\n1. Add the sifted dry ingredients to the wet and mix until smooth and thoroughly combined\n1. Divide the batter evenly among the cupcake tins about 2/3 filled\n1. Bake in oven for about 20 to 22 minutes, turning the pans once, half way through\n1. Test the cupcakes with a toothpick for doneness\n1. Remove from oven and cool completely before frosting\n";
 
-  // src/data/recipes/red-velvet-fudge.md
+  // src/data/red-velvet-fudge.md
   var red_velvet_fudge_default = "# Red Velvet Fudge\n\n- **Servings:** {32}\n- **Yield:** {64} pieces\n\n## Ingredients\n\n- {4} cup Sugar\n- {1/2} cup Unsweetened Cocoa Powder\n- {2} cup Buttermilk\n- {3/4} stick Butter\n- {2} tsp Vanilla Extract\n\n## Instructions\n\n1. Using a 8x8 pan, line pan with wax parchment paper or wax paper\n1. Make sure you have some extra on all four sides\n1. Combine sugar, cocoa, buttermilk, sweet condensed milk, and food coloring in a non stick pan\n1. (I used a big pot) Stir to combine\n1. Bring to a boil, stirring constantly, but do not scrape down the sides\n1. (to avoid getting crystallized sugar in fudge)\n1. Using a well calibrated thermometer, make sure the fudge gets up to 238 degrees\n1. Reduce heat and allow fudge to simmer\n1. DO NOT STIR\n1. At all\n1. Like seriously dont even touch the pan\n1. Allow fudge to cool to 110 degrees and add butter and vanilla\n1. Beat by hand or use electric mixer until fudge loses its sheen\n1. (I used an electric mixer for 20 minutes\n1. Not kidding\n1. Some folks say this stage takes 3-5 minutes.)\n1. Place in prepared pan and allow to cool, usually 1-2 hours\n";
 
-  // src/data/recipes/rocky-road-fudge.md
+  // src/data/rocky-road-fudge.md
   var rocky_road_fudge_default = "# Rocky Road Fudge\n\n- **Servings:** {64}\n- **Yield:** {128} pieces\n\n## Ingredients\n\n- {12} oz Semisweet Chocolate, chopped\n- {14} oz Condensed Milk\n- {1} tsp Vanilla Extract\n- {3} cup Mini Marshmallows\n- {1 1/2} cup Peanuts\n\n## Instructions\n\n1. LINE 13 x 9-inch baking pan with foil; grease lightly\n1. MICROWAVE morsels and sweetened condensed milk in large, microwave-safe bowl on HIGH (100 percent) power for 1 minute; stir\n1. Microwave at additional 10- to 20-second intervals, stirring until smooth\n1. Stir in vanilla extract\n1. Fold in marshmallows and nuts\n1. PRESS mixture into prepared baking pan\n1. Refrigerate until ready to serve\n1. Lift from pan; remove foil\n1. Cut into pieces\n";
 
-  // src/data/recipes/sherbet.md
+  // src/data/sherbet.md
   var sherbet_default = "# Sherbet\n\n- **Servings:** {16}\n- **Yield:** {2} qt\n\n## Ingredients\n\n- {1} cup Sugar\n- {2} cup Milk\n- {2} cup Half-and-half Cream\n- {1/4} oz Unflavored Gelatin\n\n## Instructions\n\n1. Combine sugar and gelatin in a large bowl\n1. Heat milk to almost boiling\n1. Pour over sugar mixture and stir until dissolved\n1. Stir in fruit mixture\n1. Stir in light cream and food coloring until combined\n1. Mixture may appear curdled\n1. Cool to room temperature\n1. Put mixture into ice cream maker and prepare according to manufacturer's directions\n";
 
-  // src/data/recipes/shortbread-cookies.md
+  // src/data/shortbread-cookies.md
   var shortbread_cookies_default = "# Shortbread Cookies\n\n- **Servings:** {20}\n- **Yield:** {20} cookies\n\n## Ingredients\n\n- {3} stick Butter\n- {1} cup Sugar\n- {1} tsp Vanilla Extract\n- {3 1/2} cup All-purpose Flour\n- {1/4} tsp Salt\n- {6} oz Semisweet Chocolate\n\n## Instructions\n\n1. Preheat the oven to 350 degrees F\n1. In the bowl of an electric mixer fitted with a paddle attachment, mix together the butter and 1 cup of sugar until they are just combined\n1. Add the vanilla\n1. In a medium bowl, sift together the flour and salt, then add them to the butter-and-sugar mixture\n1. Mix on low speed until the dough starts to come together\n1. Dump onto a surface dusted with flour and shape into a flat disk\n1. Wrap in plastic and chill for 30 minutes\n1. Roll the dough 1/2-inch thick and cut with a 3 by 1-inch finger-shaped cutter\n1. Place the cookies on an ungreased baking sheet and sprinkle with sugar\n1. Bake for 20 to 25 minutes, until the edges begin to brown\n1. Allow to cool to room temperature\n1. When the cookies are cool, place them on a baking sheet lined with parchment paper\n1. Put 3 ounces of the chocolate in a glass bowl and microwave on high power for 30 seconds\n1. (Don't trust your microwave timer; time it with your watch.) Stir with a wooden spoon\n1. Continue to heat and stir in 30-second increments until the chocolate is just melted\n1. Add the remaining chocolate and allow it to sit at room temperature, stirring often, until it's completely smooth\n1. Stir vigorously until the chocolate is smooth and slightly cooled; stirring makes it glossier\n1. Drizzle 1/2 of each cookie with just enough chocolate to coat it\n";
 
-  // src/data/recipes/snickerdoodles.md
+  // src/data/snickerdoodles.md
   var snickerdoodles_default = "# Snickerdoodles\n\n- **Servings:** {20}\n- **Yield:** {20} cookies\n\n## Ingredients\n\n- {2 3/4} cup All-purpose Flour\n- {1} tsp Baking Soda\n- {1/2} tsp Salt\n- {1/2} cup Shortening\n- {1} stick Butter, softened\n- {1 1/2} cup Sugar, plus 3 tablespoons\n- {2} Egg\n- {1} tbsp Cinnamon\n\n## Instructions\n\n1. Preheat the oven to 350 degrees F\n1. Sift the flour, baking soda, and salt into a bowl\n1. With a handheld or standing mixer, beat together the shortening and butter\n1. Add the 1 1/2 cups sugar and continue beating until light and fluffy, about 5 minutes\n1. Add the eggs, 1 at a time, beating well after each addition\n1. Add the flour mixture and blend until smooth\n1. Mix the 3 tablespoons sugar with the cinnamon in a small bowl\n1. Roll the dough, by hand, into 1 1/2-inch balls\n1. Roll the balls in the cinnamon sugar\n1. Flatten the balls into 1/2-inch thick disks, spacing them evenly on unlined cookie sheets\n1. Bake until light brown, but still moist in the center, about 12 minutes\n1. Cool on a rack\n";
 
-  // src/data/recipes/sorbet.md
-  var sorbet_default = "# Sorbet\n\n- **Servings:** {16}\n- **Yield:** {2} qts\n\n## Ingredients\n\n- {3} cup Water\n- {1} cup Sugar\n\n## Instructions\n\n1. Bring 3 cups water and sugar just to a boil in a medium saucepan over high heat, stirring until sugar dissolves\n1. Remove from heat\n1. Cool\n1. Process sugar syrup and fruit*, in batches, in a blender or food processor until smooth\n1. If recipe calls for fruit juice, add it here\n1. Cover and chill 2 hours\n1. Pour mixture into the freezer container of a 1-gallon ice-cream maker, and freeze according to manufacturer's instructions\n";
+  // src/data/sorbet.md
+  var sorbet_default = "# Sorbet\n\n- **Servings:** {16}\n- **Yield:** {2} qts\n\n## Ingredients\n\n- {3} cup Water\n- {1} cup Sugar\n\n## Instructions\n\n1. Bring 3 cups water and sugar just to a boil in a medium saucepan over high heat, stirring until sugar dissolves\n1. Remove from heat\n1. Cool\n1. Process sugar syrup and fruit\\*, in batches, in a blender or food processor until smooth\n1. If recipe calls for fruit juice, add it here\n1. Cover and chill 2 hours\n1. Pour mixture into the freezer container of a 1-gallon ice-cream maker, and freeze according to manufacturer's instructions\n";
 
-  // src/data/recipes/spritzgeb-ck-cookies.md
+  // src/data/spritzgeb-ck-cookies.md
   var spritzgeb_ck_cookies_default = "# Spritzgeb\xE4ck Cookies\n\n- **Servings:** {72}\n- **Yield:** {72} cookies\n\n## Ingredients\n\n- {4} stick Butter\n- {1 1/4} tsp Salt\n- {1} cup Sugar\n- {2} Egg\n- {1} tsp Vanilla Extract\n- {4} cup All-purpose Flour\n\n## Instructions\n\n1. Preheat oven to 375 degrees F\n1. Refrigerate UNGREASED cookie sheets until ready to use\n1. NOTE: Pressing the dough out onto cool, ungreased baking sheets makes it possible for each application to stick on contact\n1. You will need to clean off the cookie sheets between batches\n1. In a large bowl, mix butter until creamy\n1. Either use your electric mixer or beat by hand\n1. Gradually add sugar; beating until light and fluffy\n1. Cream the butter and sugar together thoroughly before beating in the egg\n1. Add eggs and beat well; stir in vanilla extract\n1. Gradually add flour to mixture, beating well after each addition\n1. The secret lies in the dough, which should be neither too soft nor too firm\n1. It it is too soft, the cookies will have no definition, and if the dough is to firm, the cookies will bake too dry\n1. To test the dough's consistency before baking a batch, press a small amount of dough through the cookie press cylinder\n1. If the dough is too soft so that it doesn't go through cleanly, chill the dough for about 15 minutes\n1. If the dough seems too firm, stir into the dough about 1 or 2 teaspoons whole milk\n1. If dough becomes too soft during use, refrigerate dough about 5 minutes or until firm enough to hold its shape (the dough will crumble if it is too cold, and it won't stick to the cookie sheet)\n";
 
-  // src/data/recipes/strawberry-rhubarb-pie.md
+  // src/data/strawberry-rhubarb-pie.md
   var strawberry_rhubarb_pie_default = "# Strawberry Rhubarb Pie\n\n- **Servings:** {12}\n- **Yield:** {1} pie\n\n## Ingredients\n\n- {2 1/2} cup Rhubarb, fresh and chopped\n- {2 1/2} cup Strawberries, chopped\n- {1 1/2} cup Sugar\n- {2} tbsp Tapioca\n- {1} tbsp All-purpose Flour\n- {1/2} tsp Lemon Zest\n- {1/2} tsp Lemon Juice\n- {1/2} tsp Cinnamon\n- {1} tsp Vanilla Extract\n- {3} tbsp Butter, cubed\n- {1} Egg White\n- {1} tsp Water\n- {2} Pie Crust, unbaked\n\n## Instructions\n\n1. Mix the rhubarb, strawberries, sugar, tapioca, flour, zest and juice of lemon, dash of cinnamon, and vanilla\n1. Mix well in a large bowl and pour out into chilled crust\n1. Dot the top of the filling with the butter\n1. Brush edges of pie crust with egg white wash\n1. Roll out the other piece of dough and place over filling\n1. Crimp to seal edges\n1. Beat egg white with water\n1. Brush with egg white wash and garnish with large granule sugar\n1. Collar with foil and bake at 425 degrees F for 15 minutes\n1. Decrease temperature to 375 degrees F and bake for an additional 45 to 50 minutes, or until the filling starts bubbling\n1. Higher altitude will take 450 degrees F and 400 degrees F respectively\n1. Also, you can use a pie bird for extra decor\n1. Let cool before serving\n";
 
-  // src/data/recipes/sugar-cookies.md
+  // src/data/sugar-cookies.md
   var sugar_cookies_default = "# Sugar Cookies\n\n- **Servings:** {48}\n- **Yield:** {48} cookies\n\n## Ingredients\n\n- {2 3/4} cup All-purpose Flour\n- {1} tsp Baking Soda\n- {1/2} tsp Baking Powder\n- {1} cup Butter, softened\n- {1 1/2} cup Sugar\n- {1} Egg\n- {1} tsp Vanilla Extract\n- {3 1/2} tbsp Buttermilk\n- {0} Sprinkles\n\n## Instructions\n\n1. Preheat oven to 375 degrees F\n1. In a small bowl, stir together flour, baking soda, and baking powder\n1. Set aside\n1. In a large bowl, cream together butter and sugar until smooth\n1. Beat in the egg and vanilla\n1. Gradually blend in dry ingredients\n1. Add enough of the buttermilk to moisten the dough and make it soft, not wet\n1. Roll rounded teaspoons of dough into balls and place on a ungreased cookie sheet\n1. With a brush or fingers, moisten the top of each cookie with the remaining buttermilk and slightly flatten the top of each cookie\n1. Sprinkle with raw sugar or colored sprinkles\n1. Bake for 8 to 10 minutes or until slightly golden\n1. Let stand for 2 minutes before removing to cool on a rack\n";
 
-  // src/data/recipes/sweet-potato-pie.md
+  // src/data/sweet-potato-pie.md
   var sweet_potato_pie_default = "# Sweet Potato Pie\n\n- **Servings:** {8}\n- **Yield:** {1} pie\n\n## Ingredients\n\n- {1} lb Sweet Potato\n- {1} stick Butter\n- {1} cup Sugar\n- {1/2} cup Milk\n- {2} Egg\n- {1/2} tsp Nutmeg\n- {1/2} tsp Cinnamon\n- {1} tsp Vanilla Extract\n- {1} Pie Crust, unbaked\n\n## Instructions\n\n1. Boil sweet potato whole in skin for 40 to 50 minutes, or until done\n1. Run cold water over the sweet potato, and remove the skin\n1. Break apart sweet potato in a bowl\n1. Add butter, and mix well with mixer\n1. Stir in sugar, milk, eggs, nutmeg, cinnamon and vanilla\n1. Beat on medium speed until mixture is smooth\n1. Pour filling into an unbaked pie crust\n1. Bake at 350 degrees F (175 degrees C) for 55 to 60 minutes, or until knife inserted in center comes out clean\n1. Pie will puff up like a souffle, and then will sink down as it cools\n";
 
-  // src/data/recipes/tiramisu.md
+  // src/data/tiramisu.md
   var tiramisu_default = "# Tiramisu\n\n- **Servings:** {6}\n- **Yield:** {6} servings\n\n## Ingredients\n\n- {6} Egg Yolk\n- {3} tbsp Sugar\n- {1} lb Mascarpone Cheese\n- {1 1/2} cup Espresso, strong and cooled\n- {2} tsp Rum, dark\n- {24} Ladyfingers\n- {1/2} cup Bittersweet Chocolate Shavings, for garnish\n\n## Instructions\n\n1. In a large bowl, using an electric mixer with whisk attachment, beat egg yolks and sugar until thick and pale, about 5 minutes\n1. Add mascarpone cheese and beat until smooth\n1. Add 1 tablespoon of espresso and mix until thoroughly combined\n1. In a small shallow dish, add remaining espresso and rum\n1. Dip each ladyfinger into espresso for only 5 seconds\n1. Letting the ladyfingers soak too long will cause them to fall apart\n1. Place the soaked ladyfinger on the bottom of a 13 by 9 inch baking dish, breaking them in half if necessary in order to fit the bottom\n1. Spread evenly 1/2 of the mascarpone mixture over the ladyfingers\n1. Arrange another layer of soaked ladyfingers and top with remaining mascarpone mixture\n1. Cover tiramisu with plastic wrap and refrigerate for at least 2 hours, up to 8 hours\n1. Before serving, sprinkle with chocolate shavings\n";
 
-  // src/data/recipes/triple-chocolate-brownies.md
+  // src/data/triple-chocolate-brownies.md
   var triple_chocolate_brownies_default = "# Triple Chocolate Brownies\n\n- **Servings:** {18}\n- **Yield:** {18} brownies\n\n## Ingredients\n\n- {3 1/4} stick Butter\n- {12} oz Bittersweet Chocolate\n- {6} Egg\n- {1 3/4} cup Sugar\n- {1} tbsp Vanilla Extract\n- {1 5/8} cup All-purpose Flour\n- {1} tsp Salt\n- {1/2} cup White Chocolate, buttons/chips\n- {1/2} cup Semisweet Chocolate, buttons/chips\n\n## Instructions\n\n1. Preheat the oven to 350 degrees F\n1. Melt the butter and dark chocolate together in a large heavy based pan over a low heat\n1. In a bowl or large measuring jug, beat the eggs together with the superfine sugar and vanilla extract\n1. Allow the chocolate mixture to cool a little, then add the egg and sugar mixture and beat well\n1. Fold in the flour and salt\n1. Then stir in the white chocolate buttons or chips, and the semisweet chocolate buttons or chips\n1. Beat to combine then scrape and pour the brownie mixture into the prepared tin\n1. Bake for about 25 minutes\n1. You can see when the brownies are ready because the top dries to a slightly paler brown speckle, while the middle remains dark, dense and gooey\n1. Even with such a big batch you do need to keep checking on it: the difference between gooey brownies and dry ones is only a few minutes\n1. Remember, too, that they will continue to cook as they cool\n1. To serve, cut into squares while still warm and pile up on a large plate, sprinkling with confectioners' sugar pushed with a teaspoon through a small sieve\n";
 
-  // src/data/recipes/vanilla-buttercream-frosting.md
+  // src/data/vanilla-buttercream-frosting.md
   var vanilla_buttercream_frosting_default = "# Vanilla Buttercream Frosting\n\n- **Servings:** {20}\n- **Yield:** {2 1/2} cups\n\n## Ingredients\n\n- {2} stick Butter, softened\n- {3 1/2} cup Confectioners' Sugar, sifted\n- {1/4} tsp Salt\n- {1} tbsp Vanilla Extract\n- {4} tbsp Milk or 4 tbsp Heavy Cream\n\n## Instructions\n\n1. Beat butter for a few minutes with a mixer with the paddle attachment on medium speed\n1. Add 3 cups of powdered sugar and turn your mixer on the lowest speed (so the sugar doesn\u2019t blow everywhere) until the sugar has been incorporated with the butter\n1. Increase mixer speed to medium and add vanilla extract, salt, and 2 tablespoons of milk/cream and beat for 3 minutes\n1. If your frosting needs a more stiff consistency, add remaining sugar\n1. If your frosting needs to be thinned out, add remaining milk 1 tablespoons at a time\n";
 
-  // src/data/recipes/vanilla-cake.md
+  // src/data/vanilla-cake.md
   var vanilla_cake_default = "# Vanilla Cake\n\n- **Servings:** {12}\n- **Yield:** {1} cake\n\n## Ingredients\n\n- {1} cup Sugar\n- {1} stick Butter\n- {2} Egg\n- {2} tsp Vanilla Extract\n- {1 1/2} cup All-purpose Flour\n- {1 3/4} tsp Baking Powder\n- {1/2} cup Milk\n\n## Instructions\n\n1. Preheat oven to 350 degrees F (175 degrees C)\n1. Grease and flour a 9x9 inch pan or line a muffin pan with paper liners\n1. In a medium bowl, cream together the sugar and butter\n1. Beat in the eggs, one at a time, then stir in the vanilla\n1. Combine flour and baking powder, add to the creamed mixture and mix well\n1. Finally stir in the milk until batter is smooth\n1. Pour or spoon batter into the prepared pan\n1. Bake for 30 to 40 minutes in the preheated oven\n1. For cupcakes, bake 20 to 25 minutes\n1. Cake is done when it springs back to the touch\n";
 
-  // src/data/recipes/vanilla-frosting-whoopie-pie-filling.md
+  // src/data/vanilla-frosting-whoopie-pie-filling.md
   var vanilla_frosting_whoopie_pie_filling_default = "# Vanilla Frosting/Whoopie Pie Filling\n\n- **Servings:** {20}\n- **Yield:** {2 1/2} cups\n\n## Ingredients\n\n- {2} stick Butter, softened\n- {3 1/2} cup Confectioners' Sugar, sifted\n- {1/4} tsp Salt\n- {1} tbsp Vanilla Extract\n- {4} tbsp Milk or 4 tbsp Heavy Cream\n\n## Instructions\n\n1. Beat butter for a few minutes with a mixer with the paddle attachment on medium speed\n1. Add 3 cups of powdered sugar and turn your mixer on the lowest speed (so the sugar doesn\u2019t blow everywhere) until the sugar has been incorporated with the butter\n1. Increase mixer speed to medium and add vanilla extract, salt, and 2 tablespoons of milk/cream and beat for 3 minutes\n1. If your frosting needs a more stiff consistency, add remaining sugar\n1. If your frosting needs to be thinned out, add remaining milk 1 tablespoons at a time\n1. (For whoopie pie filling, use light frosting)\n";
 
-  // src/data/recipes/vanilla-fudge.md
+  // src/data/vanilla-fudge.md
   var vanilla_fudge_default = "# Vanilla Fudge\n\n- **Servings:** {32}\n- **Yield:** {64} pieces\n\n## Ingredients\n\n- {1} tbsp Butter\n- {1 1/2} cup Heavy Cream\n- {3} cup Sugar\n- {1/4} cup Light Corn Syrup\n- {1/4} tsp Salt\n\n## Instructions\n\n1. Butter an 8-inch square baking pan; line with parchment paper, allowing a 1-inch overhang\n1. Butter parchment paper, and set aside\n1. Check the calibration of the candy thermometer\n1. Put butter into a large bowl, and set over a wire rack; set aside\n1. Put cream, sugar, corn syrup, and salt into a medium heavy saucepan\n1. Cook over medium-low heat, stirring constantly, until sugar has dissolved, about 10 minutes\n1. Raise heat to medium\n1. Bring mixture to a boil, washing down sides of pan with a wet pastry brush to prevent sugar crystals from forming\n1. Attach warm thermometer to pan; continue to cook, without stirring, until mixture registers 238 degrees (soft-ball stage), 10 to 15 minutes\n1. Immediately pour mixture into bowl with butter (do not scrape out the bottom of the pan)\n1. Attach thermometer to bowl\n1. Let mixture cool, undisturbed, until it registers 110 degrees, about 1 1/2 hours\n1. Remove thermometer\n1. Transfer bowl to a work surface\n1. Using a wooden spoon, begin to gently stir mixture\n1. Continue to stir, gradually increasing speed until mixture thickens, lightens in color, and loses its sheen, 4 to 5 minutes\n1. Pour into prepared pan\n1. Using a small offset spatula, quickly spread fudge to sides of pan, and smooth top\n1. Let fudge cool in pan on a wire rack, about 1 hour\n1. Cover with plastic, and refrigerate until completely set, about 8 hours\n1. Run a sharp knife around nonparchment sides to loosen; lift fudge out\n1. Cut into 64 one-inch pieces\n";
 
-  // src/data/recipes/vanilla-icing.md
+  // src/data/vanilla-icing.md
   var vanilla_icing_default = "# Vanilla Icing\n\n- **Yield:** {2} cups\n\n## Ingredients\n\n- {2} cup Confectioners' Sugar\n- {3} tbsp Water, warm\n- {1} tsp Vanilla Extract\n\n## Instructions\n\n1. Beat all ingredients together with spoon until smooth\n";
 
-  // src/data/recipes/vanilla-pastry-cream.md
+  // src/data/vanilla-pastry-cream.md
   var vanilla_pastry_cream_default = "# Vanilla Pastry Cream\n\n- **Servings:** {6}\n- **Yield:** {2} cups\n\n## Ingredients\n\n- {1 1/4} cup Milk, whole\n- {3} Egg Yolk\n- {1/4} cup Sugar\n- {1/8} cup All-purpose Flour\n- {2 2/3} tbsp Cornstarch\n- {1} tsp Vanilla Extract\n\n## Instructions\n\n1. In a small saucepan, warm the milk over low heat until it is just hot enough to steam\n1. While the milk is warming, whisk together the egg yolks, sugar, flour, and cornstarch until the mixture is completely smooth\n1. Once the milk is steaming, add half of it, whisking constantly, to the egg mixture\n1. Add the milk and eggs back into the hot milk, continue stirring, and heat it for 1-2 minutes, until the custard reaches 170F on a digital thermometer and is very thick\n1. Remove from the heat, stir in the vanilla extract, and chill before filling pastry\n";
 
-  // src/data/recipes/velveeta-fudge.md
+  // src/data/velveeta-fudge.md
   var velveeta_fudge_default = "# Velveeta Fudge\n\n- **Servings:** {64}\n- **Yield:** {128} pieces\n\n## Ingredients\n\n- {12} oz Velveeta\n- {2} stick Butter\n- {6} oz Unsweetened Chocolate\n- {2} tbsp Light Corn Syrup\n- {8} cup Confectioners' Sugar\n- {1 1/2} cup Pecans\n- {1} tsp Vanilla Extract\n\n## Instructions\n\n1. MICROWAVE VELVEETA, butter, chocolate and corn syrup in microwaveable bowl on HIGH 3 min\n1. or until blended, stirring after 2 min\n1. ADD chocolate mixture, in batches, to sugar in large bowl, beating with mixer on medium speed until blended after each addition\n1. Stir in nuts and vanilla\n1. POUR into 13x9-inch pan sprayed with cooking spray\n1. Smooth top with spatula\n1. Refrigerate several hours or until firm before cutting into 1-inch squares\n";
 
-  // src/data/recipes/watermelon-pie.md
+  // src/data/watermelon-pie.md
   var watermelon_pie_default = "# Watermelon Pie\n\n- **Servings:** {8}\n- **Yield:** {1} pie\n\n## Ingredients\n\n- {2} cup Watermelon Rind, chopped\n- {1} cup Sugar\n- {2} tsp All-purpose Flour\n- {1} tsp Cinnamon\n- {1/4} tsp Nutmeg\n- {1/4} tsp Cloves\n- {1/8} tsp Salt\n- {3} tbsp Cider Vinegar\n- {1/2} cup Raisins\n- {1/2} cup Pecans\n- {2} Pie Crust, unbaked\n\n## Instructions\n\n1. Place watermelon rind in a small saucepan; add water to cover\n1. Bring to a boil; cover, reduce heat, and simmer for about 20 minutes or until tender\n1. Remove from heat; drain\n1. Combine watermelon rind with sugar, flour, cinnamon, nutmeg, cloves, salt, vinegar, raisins, and pecans; stir to combine then set aside\n1. Fit 1 pie crust into a 9-inch pie plate\n1. Pour watermelon rind mixture into the pie crust\n1. Top with remaining pie crust; fold edges under, and crimp all around the edge\n1. Cut small slits in top crust\n1. Bake at 350\xB0 for 45 to 50 minutes, or until golden, shielding edges of pie with strips of aluminum foil after 25 minutes to prevent excessive browning\n1. Cool watermelon pie on a wire rack\n";
 
-  // src/data/recipes/white-chocolate-cheesecake.md
+  // src/data/white-chocolate-cheesecake.md
   var white_chocolate_cheesecake_default = "# White Chocolate Cheesecake\n\n- **Servings:** {16}\n- **Yield:** {1} cheesecake\n\n## Ingredients\n\n- {2} cup White Chocolate, chopped\n- {1/2} cup Half-and-half Cream\n- {24} oz Cream Cheese, softened\n- {1/2} cup Sugar\n- {3} Egg\n- {1} tsp Vanilla Extract\n\n## Instructions\n\n1. Preheat oven to 325 degrees F (165 degrees C)\n1. In a metal bowl over a pan of simmering water, melt white chocolate chips with half-and-half, stirring occasionally until smooth\n1. In a large bowl, mix together cream cheese and 1/2 cup sugar until smooth\n1. Beat in eggs one at a time\n1. Blend in vanilla and melted white chocolate\n1. Pour over crust\n1. Bake for 55 to 60 minutes, or until filling is set\n1. Cool, cover with plastic wrap, and refrigerate for 8 hours before removing from pan\n";
 
-  // src/data/recipes/whoopie-pies.md
+  // src/data/whoopie-pies.md
   var whoopie_pies_default = "# Whoopie Pies\n\n- **Servings:** {12}\n- **Yield:** {12} pies\n\n## Ingredients\n\n- {2} cup All-purpose Flour\n- {1/2} cup Unsweetened Cocoa Powder\n- {1/2} cup Water, hot\n- {1} tsp Vanilla Extract\n- {1} tsp Baking Soda\n- {1} cup Sugar\n- {2} stick Butter\n- {1} Egg\n\n## Instructions\n\n1. Cream together 1 cup of the butter or margarine and the egg\n1. Add 1 cup white sugar, vanilla and hot water\n1. Stir in the flour, cocoa, and baking soda and mix well\n1. Drop from a teaspoon onto cookie sheets and bake at 375 degrees F (190 degrees C) for 10 to 12 minutes\n1. Sandwich cookies together with Peanut Butter Frosting\n";
 
-  // src/data/recipes-index.js
-  var recipes_index_default = [
-    { slug: "almond-pastry-cream", name: "Almond Pastry Cream", show: false, markdown: almond_pastry_cream_default },
-    { slug: "apple-fritters", name: "Apple Fritters", show: false, markdown: apple_fritters_default },
-    { slug: "apple-muffins", name: "Apple Muffins", show: false, markdown: apple_muffins_default },
-    { slug: "apple-pear-pie", name: "Apple/Pear Pie", show: false, markdown: apple_pear_pie_default },
-    { slug: "banana-bread-muffins", name: "Banana Bread/Muffins", show: false, markdown: banana_bread_muffins_default },
-    { slug: "banana-cream-pie", name: "Banana Cream Pie", show: false, markdown: banana_cream_pie_default },
-    { slug: "banana-orange-bread-muffins", name: "Banana Orange Bread/Muffins", show: false, markdown: banana_orange_bread_muffins_default },
+  // src/data/index.js
+  var data_default = [
+    {
+      slug: "almond-pastry-cream",
+      name: "Almond Pastry Cream",
+      show: false,
+      markdown: almond_pastry_cream_default
+    },
+    {
+      slug: "apple-fritters",
+      name: "Apple Fritters",
+      show: false,
+      markdown: apple_fritters_default
+    },
+    {
+      slug: "apple-muffins",
+      name: "Apple Muffins",
+      show: false,
+      markdown: apple_muffins_default
+    },
+    {
+      slug: "apple-pear-pie",
+      name: "Apple/Pear Pie",
+      show: false,
+      markdown: apple_pear_pie_default
+    },
+    {
+      slug: "banana-bread-muffins",
+      name: "Banana Bread/Muffins",
+      show: false,
+      markdown: banana_bread_muffins_default
+    },
+    {
+      slug: "banana-cream-pie",
+      name: "Banana Cream Pie",
+      show: false,
+      markdown: banana_cream_pie_default
+    },
+    {
+      slug: "banana-orange-bread-muffins",
+      name: "Banana Orange Bread/Muffins",
+      show: false,
+      markdown: banana_orange_bread_muffins_default
+    },
     { slug: "biscotti", name: "Biscotti", show: false, markdown: biscotti_default },
-    { slug: "black-and-white-cookies", name: "Black and White Cookies", show: false, markdown: black_and_white_cookies_default },
-    { slug: "blonde-brownies", name: "Blonde Brownies", show: false, markdown: blonde_brownies_default },
-    { slug: "blueberry-bread-muffins", name: "Blueberry Bread/Muffins", show: false, markdown: blueberry_bread_muffins_default },
-    { slug: "blueberry-pie", name: "Blueberry Pie", show: false, markdown: blueberry_pie_default },
-    { slug: "boston-cream", name: "Boston Cream", show: false, markdown: boston_cream_default },
-    { slug: "brown-butter-frosting", name: "Brown Butter Frosting", show: false, markdown: brown_butter_frosting_default },
-    { slug: "brown-butter-frosting-icing", name: "Brown Butter Frosting/Icing", show: false, markdown: brown_butter_frosting_icing_default },
-    { slug: "butter-pecan-fudge", name: "Butter Pecan Fudge", show: false, markdown: butter_pecan_fudge_default },
-    { slug: "butterbeer", name: "Butterbeer", show: false, markdown: butterbeer_default },
-    { slug: "cake-batter-fudge", name: "Cake Batter Fudge", show: false, markdown: cake_batter_fudge_default },
-    { slug: "candy-cane-fudge", name: "Candy Cane Fudge", show: false, markdown: candy_cane_fudge_default },
-    { slug: "candy-corn", name: "Candy Corn", show: false, markdown: candy_corn_default },
-    { slug: "cannoli-filling", name: "Cannoli Filling", show: false, markdown: cannoli_filling_default },
-    { slug: "cannoli-shells", name: "Cannoli Shells", show: false, markdown: cannoli_shells_default },
-    { slug: "caramel-shortbread-cookies", name: "Caramel Shortbread Cookies", show: false, markdown: caramel_shortbread_cookies_default },
-    { slug: "cheesecake", name: "Cheesecake", show: false, markdown: cheesecake_default },
-    { slug: "cheesecake-shell", name: "Cheesecake Shell", show: false, markdown: cheesecake_shell_default },
-    { slug: "cherry-banana-bread-muffins", name: "Cherry Banana Bread/Muffins", show: false, markdown: cherry_banana_bread_muffins_default },
-    { slug: "cherry-pie", name: "Cherry Pie", show: false, markdown: cherry_pie_default },
-    { slug: "chocolate-brownies", name: "Chocolate Brownies", show: false, markdown: chocolate_brownies_default },
-    { slug: "chocolate-buttercream-frosting", name: "Chocolate Buttercream Frosting", show: false, markdown: chocolate_buttercream_frosting_default },
-    { slug: "chocolate-cake", name: "Chocolate Cake", show: false, markdown: chocolate_cake_default },
-    { slug: "chocolate-cannoli-shells", name: "Chocolate Cannoli Shells", show: false, markdown: chocolate_cannoli_shells_default },
-    { slug: "chocolate-cannolis", name: "Chocolate Cannolis", show: false, markdown: chocolate_cannolis_default },
-    { slug: "chocolate-cheesecake", name: "Chocolate Cheesecake", show: false, markdown: chocolate_cheesecake_default },
-    { slug: "chocolate-chip-cookie-dough-fudge", name: "Chocolate Chip Cookie Dough Fudge", show: false, markdown: chocolate_chip_cookie_dough_fudge_default },
-    { slug: "chocolate-chip-cookies", name: "Chocolate Chip Cookies", show: false, markdown: chocolate_chip_cookies_default },
-    { slug: "chocolate-chip-cupcakes", name: "Chocolate Chip Cupcakes", show: false, markdown: chocolate_chip_cupcakes_default },
-    { slug: "chocolate-chip-cinnamon-pizzelles", name: "Chocolate Chip/Cinnamon Pizzelles", show: false, markdown: chocolate_chip_cinnamon_pizzelles_default },
-    { slug: "chocolate-chocolate-chip-cookies", name: "Chocolate Chocolate Chip Cookies", show: false, markdown: chocolate_chocolate_chip_cookies_default },
-    { slug: "chocolate-cinnamon-fudge", name: "Chocolate Cinnamon Fudge", show: false, markdown: chocolate_cinnamon_fudge_default },
-    { slug: "chocolate-covered-pretzels", name: "Chocolate Covered Pretzels", show: false, markdown: chocolate_covered_pretzels_default },
-    { slug: "chocolate-cream-pie", name: "Chocolate Cream Pie", show: false, markdown: chocolate_cream_pie_default },
-    { slug: "chocolate-donuts", name: "Chocolate Donuts", show: false, markdown: chocolate_donuts_default },
-    { slug: "chocolate-eclairs", name: "Chocolate Eclairs", show: false, markdown: chocolate_eclairs_default },
-    { slug: "chocolate-fudge", name: "Chocolate Fudge", show: false, markdown: chocolate_fudge_default },
-    { slug: "chocolate-icing", name: "Chocolate Icing", show: false, markdown: chocolate_icing_default },
-    { slug: "chocolate-orange-fudge", name: "Chocolate Orange Fudge", show: false, markdown: chocolate_orange_fudge_default },
-    { slug: "chocolate-pastry-cream", name: "Chocolate Pastry Cream", show: false, markdown: chocolate_pastry_cream_default },
-    { slug: "chocolate-peppermint-pizzelles", name: "Chocolate Peppermint Pizzelles", show: false, markdown: chocolate_peppermint_pizzelles_default },
-    { slug: "chocolate-truffles", name: "Chocolate Truffles", show: false, markdown: chocolate_truffles_default },
+    {
+      slug: "black-and-white-cookies",
+      name: "Black and White Cookies",
+      show: false,
+      markdown: black_and_white_cookies_default
+    },
+    {
+      slug: "blonde-brownies",
+      name: "Blonde Brownies",
+      show: false,
+      markdown: blonde_brownies_default
+    },
+    {
+      slug: "blueberry-bread-muffins",
+      name: "Blueberry Bread/Muffins",
+      show: false,
+      markdown: blueberry_bread_muffins_default
+    },
+    {
+      slug: "blueberry-pie",
+      name: "Blueberry Pie",
+      show: false,
+      markdown: blueberry_pie_default
+    },
+    {
+      slug: "boston-cream",
+      name: "Boston Cream",
+      show: false,
+      markdown: boston_cream_default
+    },
+    {
+      slug: "brown-butter-frosting",
+      name: "Brown Butter Frosting",
+      show: false,
+      markdown: brown_butter_frosting_default
+    },
+    {
+      slug: "brown-butter-frosting-icing",
+      name: "Brown Butter Frosting/Icing",
+      show: false,
+      markdown: brown_butter_frosting_icing_default
+    },
+    {
+      slug: "butter-pecan-fudge",
+      name: "Butter Pecan Fudge",
+      show: false,
+      markdown: butter_pecan_fudge_default
+    },
+    {
+      slug: "butterbeer",
+      name: "Butterbeer",
+      show: false,
+      markdown: butterbeer_default
+    },
+    {
+      slug: "cake-batter-fudge",
+      name: "Cake Batter Fudge",
+      show: false,
+      markdown: cake_batter_fudge_default
+    },
+    {
+      slug: "candy-cane-fudge",
+      name: "Candy Cane Fudge",
+      show: false,
+      markdown: candy_cane_fudge_default
+    },
+    {
+      slug: "candy-corn",
+      name: "Candy Corn",
+      show: false,
+      markdown: candy_corn_default
+    },
+    {
+      slug: "cannoli-filling",
+      name: "Cannoli Filling",
+      show: false,
+      markdown: cannoli_filling_default
+    },
+    {
+      slug: "cannoli-shells",
+      name: "Cannoli Shells",
+      show: false,
+      markdown: cannoli_shells_default
+    },
+    {
+      slug: "caramel-shortbread-cookies",
+      name: "Caramel Shortbread Cookies",
+      show: false,
+      markdown: caramel_shortbread_cookies_default
+    },
+    {
+      slug: "cheesecake",
+      name: "Cheesecake",
+      show: false,
+      markdown: cheesecake_default
+    },
+    {
+      slug: "cheesecake-shell",
+      name: "Cheesecake Shell",
+      show: false,
+      markdown: cheesecake_shell_default
+    },
+    {
+      slug: "cherry-banana-bread-muffins",
+      name: "Cherry Banana Bread/Muffins",
+      show: false,
+      markdown: cherry_banana_bread_muffins_default
+    },
+    {
+      slug: "cherry-pie",
+      name: "Cherry Pie",
+      show: false,
+      markdown: cherry_pie_default
+    },
+    {
+      slug: "chocolate-brownies",
+      name: "Chocolate Brownies",
+      show: false,
+      markdown: chocolate_brownies_default
+    },
+    {
+      slug: "chocolate-buttercream-frosting",
+      name: "Chocolate Buttercream Frosting",
+      show: false,
+      markdown: chocolate_buttercream_frosting_default
+    },
+    {
+      slug: "chocolate-cake",
+      name: "Chocolate Cake",
+      show: false,
+      markdown: chocolate_cake_default
+    },
+    {
+      slug: "chocolate-cannoli-shells",
+      name: "Chocolate Cannoli Shells",
+      show: false,
+      markdown: chocolate_cannoli_shells_default
+    },
+    {
+      slug: "chocolate-cannolis",
+      name: "Chocolate Cannolis",
+      show: false,
+      markdown: chocolate_cannolis_default
+    },
+    {
+      slug: "chocolate-cheesecake",
+      name: "Chocolate Cheesecake",
+      show: false,
+      markdown: chocolate_cheesecake_default
+    },
+    {
+      slug: "chocolate-chip-cookie-dough-fudge",
+      name: "Chocolate Chip Cookie Dough Fudge",
+      show: false,
+      markdown: chocolate_chip_cookie_dough_fudge_default
+    },
+    {
+      slug: "chocolate-chip-cookies",
+      name: "Chocolate Chip Cookies",
+      show: false,
+      markdown: chocolate_chip_cookies_default
+    },
+    {
+      slug: "chocolate-chip-cupcakes",
+      name: "Chocolate Chip Cupcakes",
+      show: false,
+      markdown: chocolate_chip_cupcakes_default
+    },
+    {
+      slug: "chocolate-chip-cinnamon-pizzelles",
+      name: "Chocolate Chip/Cinnamon Pizzelles",
+      show: false,
+      markdown: chocolate_chip_cinnamon_pizzelles_default
+    },
+    {
+      slug: "chocolate-chocolate-chip-cookies",
+      name: "Chocolate Chocolate Chip Cookies",
+      show: false,
+      markdown: chocolate_chocolate_chip_cookies_default
+    },
+    {
+      slug: "chocolate-cinnamon-fudge",
+      name: "Chocolate Cinnamon Fudge",
+      show: false,
+      markdown: chocolate_cinnamon_fudge_default
+    },
+    {
+      slug: "chocolate-covered-pretzels",
+      name: "Chocolate Covered Pretzels",
+      show: false,
+      markdown: chocolate_covered_pretzels_default
+    },
+    {
+      slug: "chocolate-cream-pie",
+      name: "Chocolate Cream Pie",
+      show: false,
+      markdown: chocolate_cream_pie_default
+    },
+    {
+      slug: "chocolate-donuts",
+      name: "Chocolate Donuts",
+      show: false,
+      markdown: chocolate_donuts_default
+    },
+    {
+      slug: "chocolate-eclairs",
+      name: "Chocolate Eclairs",
+      show: false,
+      markdown: chocolate_eclairs_default
+    },
+    {
+      slug: "chocolate-fudge",
+      name: "Chocolate Fudge",
+      show: false,
+      markdown: chocolate_fudge_default
+    },
+    {
+      slug: "chocolate-icing",
+      name: "Chocolate Icing",
+      show: false,
+      markdown: chocolate_icing_default
+    },
+    {
+      slug: "chocolate-orange-fudge",
+      name: "Chocolate Orange Fudge",
+      show: false,
+      markdown: chocolate_orange_fudge_default
+    },
+    {
+      slug: "chocolate-pastry-cream",
+      name: "Chocolate Pastry Cream",
+      show: false,
+      markdown: chocolate_pastry_cream_default
+    },
+    {
+      slug: "chocolate-peppermint-pizzelles",
+      name: "Chocolate Peppermint Pizzelles",
+      show: false,
+      markdown: chocolate_peppermint_pizzelles_default
+    },
+    {
+      slug: "chocolate-truffles",
+      name: "Chocolate Truffles",
+      show: false,
+      markdown: chocolate_truffles_default
+    },
     { slug: "churros", name: "Churros", show: false, markdown: churros_default },
-    { slug: "cinnamon-bread-muffins", name: "Cinnamon Bread/Muffins", show: false, markdown: cinnamon_bread_muffins_default },
-    { slug: "cinnamon-rolls", name: "Cinnamon Rolls", show: false, markdown: cinnamon_rolls_default },
-    { slug: "coffee-pastry-cream", name: "Coffee Pastry Cream", show: false, markdown: coffee_pastry_cream_default },
-    { slug: "cookie-dough-frosting", name: "Cookie Dough Frosting", show: false, markdown: cookie_dough_frosting_default },
-    { slug: "cookies-and-cream-fudge", name: "Cookies and Cream Fudge", show: false, markdown: cookies_and_cream_fudge_default },
-    { slug: "cornbread-muffins", name: "Cornbread/Muffins", show: false, markdown: cornbread_muffins_default },
-    { slug: "cream-cheese-frosting", name: "Cream Cheese Frosting", show: false, markdown: cream_cheese_frosting_default },
-    { slug: "cream-puffs", name: "Cream Puffs", show: false, markdown: cream_puffs_default },
-    { slug: "donut-glaze", name: "Donut Glaze", show: false, markdown: donut_glaze_default },
+    {
+      slug: "cinnamon-bread-muffins",
+      name: "Cinnamon Bread/Muffins",
+      show: false,
+      markdown: cinnamon_bread_muffins_default
+    },
+    {
+      slug: "cinnamon-rolls",
+      name: "Cinnamon Rolls",
+      show: false,
+      markdown: cinnamon_rolls_default
+    },
+    {
+      slug: "coffee-pastry-cream",
+      name: "Coffee Pastry Cream",
+      show: false,
+      markdown: coffee_pastry_cream_default
+    },
+    {
+      slug: "cookie-dough-frosting",
+      name: "Cookie Dough Frosting",
+      show: false,
+      markdown: cookie_dough_frosting_default
+    },
+    {
+      slug: "cookies-and-cream-fudge",
+      name: "Cookies and Cream Fudge",
+      show: false,
+      markdown: cookies_and_cream_fudge_default
+    },
+    {
+      slug: "cornbread-muffins",
+      name: "Cornbread/Muffins",
+      show: false,
+      markdown: cornbread_muffins_default
+    },
+    {
+      slug: "cream-cheese-frosting",
+      name: "Cream Cheese Frosting",
+      show: false,
+      markdown: cream_cheese_frosting_default
+    },
+    {
+      slug: "cream-puffs",
+      name: "Cream Puffs",
+      show: false,
+      markdown: cream_puffs_default
+    },
+    {
+      slug: "donut-glaze",
+      name: "Donut Glaze",
+      show: false,
+      markdown: donut_glaze_default
+    },
     { slug: "donuts", name: "Donuts", show: false, markdown: donuts_default },
-    { slug: "double-chocolate-gelato", name: "Double Chocolate Gelato", show: false, markdown: double_chocolate_gelato_default },
-    { slug: "eggnog-custard-pie", name: "Eggnog Custard Pie", show: false, markdown: eggnog_custard_pie_default },
-    { slug: "eggnog-fudge", name: "Eggnog Fudge", show: false, markdown: eggnog_fudge_default },
-    { slug: "espresso-brownies", name: "Espresso Brownies", show: false, markdown: espresso_brownies_default },
-    { slug: "fortune-cookies", name: "Fortune Cookies", show: false, markdown: fortune_cookies_default },
-    { slug: "funnel-cake", name: "Funnel Cake", show: false, markdown: funnel_cake_default },
+    {
+      slug: "double-chocolate-gelato",
+      name: "Double Chocolate Gelato",
+      show: false,
+      markdown: double_chocolate_gelato_default
+    },
+    {
+      slug: "eggnog-custard-pie",
+      name: "Eggnog Custard Pie",
+      show: false,
+      markdown: eggnog_custard_pie_default
+    },
+    {
+      slug: "eggnog-fudge",
+      name: "Eggnog Fudge",
+      show: false,
+      markdown: eggnog_fudge_default
+    },
+    {
+      slug: "espresso-brownies",
+      name: "Espresso Brownies",
+      show: false,
+      markdown: espresso_brownies_default
+    },
+    {
+      slug: "fortune-cookies",
+      name: "Fortune Cookies",
+      show: false,
+      markdown: fortune_cookies_default
+    },
+    {
+      slug: "funnel-cake",
+      name: "Funnel Cake",
+      show: false,
+      markdown: funnel_cake_default
+    },
     { slug: "gelato", name: "Gelato", show: false, markdown: gelato_default },
-    { slug: "ginger-snaps", name: "Ginger Snaps", show: false, markdown: ginger_snaps_default },
-    { slug: "gingerbread-cookies", name: "Gingerbread Cookies", show: false, markdown: gingerbread_cookies_default },
+    {
+      slug: "ginger-snaps",
+      name: "Ginger Snaps",
+      show: false,
+      markdown: ginger_snaps_default
+    },
+    {
+      slug: "gingerbread-cookies",
+      name: "Gingerbread Cookies",
+      show: false,
+      markdown: gingerbread_cookies_default
+    },
     { slug: "grape-pie", name: "Grape Pie", show: false, markdown: grape_pie_default },
     { slug: "ice-cream", name: "Ice Cream", show: false, markdown: ice_cream_default },
-    { slug: "key-lime-pie", name: "Key Lime Pie", show: false, markdown: key_lime_pie_default },
-    { slug: "lemon-cookies", name: "Lemon Cookies", show: false, markdown: lemon_cookies_default },
-    { slug: "lemon-glaze", name: "Lemon Glaze", show: false, markdown: lemon_glaze_default },
-    { slug: "lemon-lime-sorbet", name: "Lemon Lime Sorbet", show: false, markdown: lemon_lime_sorbet_default },
-    { slug: "lemon-meringue-pie", name: "Lemon Meringue Pie", show: false, markdown: lemon_meringue_pie_default },
-    { slug: "lemon-pastry-cream", name: "Lemon Pastry Cream", show: false, markdown: lemon_pastry_cream_default },
-    { slug: "lemon-poppyseed-bread", name: "Lemon Poppyseed Bread", show: false, markdown: lemon_poppyseed_bread_default },
-    { slug: "lime-sherbet", name: "Lime Sherbet", show: false, markdown: lime_sherbet_default },
-    { slug: "maple-cream-cheese-frosting", name: "Maple Cream Cheese Frosting", show: false, markdown: maple_cream_cheese_frosting_default },
-    { slug: "maple-syrup-bread-muffins", name: "Maple Syrup Bread/Muffins", show: false, markdown: maple_syrup_bread_muffins_default },
-    { slug: "maple-walnut-fudge", name: "Maple Walnut Fudge", show: false, markdown: maple_walnut_fudge_default },
-    { slug: "marshmallow-frosting", name: "Marshmallow Frosting", show: false, markdown: marshmallow_frosting_default },
-    { slug: "mascarpone-frosting", name: "Mascarpone Frosting", show: false, markdown: mascarpone_frosting_default },
-    { slug: "mint-chocolate-fudge", name: "Mint Chocolate Fudge", show: false, markdown: mint_chocolate_fudge_default },
-    { slug: "molasses-cookies", name: "Molasses Cookies", show: false, markdown: molasses_cookies_default },
-    { slug: "monkey-bread", name: "Monkey Bread", show: false, markdown: monkey_bread_default },
-    { slug: "nanas-rocky-road-candies", name: "Nana's Rocky Road Candies", show: true, markdown: nanas_rocky_road_candies_default },
-    { slug: "nutella-frosting", name: "Nutella Frosting", show: false, markdown: nutella_frosting_default },
-    { slug: "nutella-fudge", name: "Nutella Fudge", show: false, markdown: nutella_fudge_default },
-    { slug: "oatmeal-raisin-cookies", name: "Oatmeal Raisin Cookies", show: false, markdown: oatmeal_raisin_cookies_default },
-    { slug: "orange-brownies", name: "Orange Brownies", show: false, markdown: orange_brownies_default },
-    { slug: "orange-cinnamon-swirl-bread-muffins", name: "Orange Cinnamon Swirl Bread/Muffins", show: false, markdown: orange_cinnamon_swirl_bread_muffins_default },
-    { slug: "orange-creamsicle-fudge", name: "Orange Creamsicle Fudge", show: false, markdown: orange_creamsicle_fudge_default },
-    { slug: "orange-pastry-cream", name: "Orange Pastry Cream", show: false, markdown: orange_pastry_cream_default },
-    { slug: "orange-rolls", name: "Orange Rolls", show: false, markdown: orange_rolls_default },
-    { slug: "oreo-graham-cracker-pie-crust", name: "Oreo/Graham Cracker Pie Crust", show: false, markdown: oreo_graham_cracker_pie_crust_default },
+    {
+      slug: "key-lime-pie",
+      name: "Key Lime Pie",
+      show: false,
+      markdown: key_lime_pie_default
+    },
+    {
+      slug: "lemon-cookies",
+      name: "Lemon Cookies",
+      show: false,
+      markdown: lemon_cookies_default
+    },
+    {
+      slug: "lemon-glaze",
+      name: "Lemon Glaze",
+      show: false,
+      markdown: lemon_glaze_default
+    },
+    {
+      slug: "lemon-lime-sorbet",
+      name: "Lemon Lime Sorbet",
+      show: false,
+      markdown: lemon_lime_sorbet_default
+    },
+    {
+      slug: "lemon-meringue-pie",
+      name: "Lemon Meringue Pie",
+      show: false,
+      markdown: lemon_meringue_pie_default
+    },
+    {
+      slug: "lemon-pastry-cream",
+      name: "Lemon Pastry Cream",
+      show: false,
+      markdown: lemon_pastry_cream_default
+    },
+    {
+      slug: "lemon-poppyseed-bread",
+      name: "Lemon Poppyseed Bread",
+      show: false,
+      markdown: lemon_poppyseed_bread_default
+    },
+    {
+      slug: "lime-sherbet",
+      name: "Lime Sherbet",
+      show: false,
+      markdown: lime_sherbet_default
+    },
+    {
+      slug: "maple-cream-cheese-frosting",
+      name: "Maple Cream Cheese Frosting",
+      show: false,
+      markdown: maple_cream_cheese_frosting_default
+    },
+    {
+      slug: "maple-syrup-bread-muffins",
+      name: "Maple Syrup Bread/Muffins",
+      show: false,
+      markdown: maple_syrup_bread_muffins_default
+    },
+    {
+      slug: "maple-walnut-fudge",
+      name: "Maple Walnut Fudge",
+      show: false,
+      markdown: maple_walnut_fudge_default
+    },
+    {
+      slug: "marshmallow-frosting",
+      name: "Marshmallow Frosting",
+      show: false,
+      markdown: marshmallow_frosting_default
+    },
+    {
+      slug: "mascarpone-frosting",
+      name: "Mascarpone Frosting",
+      show: false,
+      markdown: mascarpone_frosting_default
+    },
+    {
+      slug: "mint-chocolate-fudge",
+      name: "Mint Chocolate Fudge",
+      show: false,
+      markdown: mint_chocolate_fudge_default
+    },
+    {
+      slug: "molasses-cookies",
+      name: "Molasses Cookies",
+      show: false,
+      markdown: molasses_cookies_default
+    },
+    {
+      slug: "monkey-bread",
+      name: "Monkey Bread",
+      show: false,
+      markdown: monkey_bread_default
+    },
+    {
+      slug: "nanas-rocky-road-candies",
+      name: "Nana's Rocky Road Candies",
+      show: true,
+      markdown: nanas_rocky_road_candies_default
+    },
+    {
+      slug: "nutella-frosting",
+      name: "Nutella Frosting",
+      show: false,
+      markdown: nutella_frosting_default
+    },
+    {
+      slug: "nutella-fudge",
+      name: "Nutella Fudge",
+      show: false,
+      markdown: nutella_fudge_default
+    },
+    {
+      slug: "oatmeal-raisin-cookies",
+      name: "Oatmeal Raisin Cookies",
+      show: false,
+      markdown: oatmeal_raisin_cookies_default
+    },
+    {
+      slug: "orange-brownies",
+      name: "Orange Brownies",
+      show: false,
+      markdown: orange_brownies_default
+    },
+    {
+      slug: "orange-cinnamon-swirl-bread-muffins",
+      name: "Orange Cinnamon Swirl Bread/Muffins",
+      show: false,
+      markdown: orange_cinnamon_swirl_bread_muffins_default
+    },
+    {
+      slug: "orange-creamsicle-fudge",
+      name: "Orange Creamsicle Fudge",
+      show: false,
+      markdown: orange_creamsicle_fudge_default
+    },
+    {
+      slug: "orange-pastry-cream",
+      name: "Orange Pastry Cream",
+      show: false,
+      markdown: orange_pastry_cream_default
+    },
+    {
+      slug: "orange-rolls",
+      name: "Orange Rolls",
+      show: false,
+      markdown: orange_rolls_default
+    },
+    {
+      slug: "oreo-graham-cracker-pie-crust",
+      name: "Oreo/Graham Cracker Pie Crust",
+      show: false,
+      markdown: oreo_graham_cracker_pie_crust_default
+    },
     { slug: "peach-pie", name: "Peach Pie", show: false, markdown: peach_pie_default },
-    { slug: "peanut-brittle", name: "Peanut Brittle", show: false, markdown: peanut_brittle_default },
-    { slug: "peanut-butter-cookies", name: "Peanut Butter Cookies", show: false, markdown: peanut_butter_cookies_default },
-    { slug: "peanut-butter-fudge", name: "Peanut Butter Fudge", show: false, markdown: peanut_butter_fudge_default },
-    { slug: "peanut-butter-pie", name: "Peanut Butter Pie", show: false, markdown: peanut_butter_pie_default },
-    { slug: "peanut-butter-chocolate-chip-bacon-cookies", name: "Peanut Butter-Chocolate Chip-Bacon Cookies", show: false, markdown: peanut_butter_chocolate_chip_bacon_cookies_default },
-    { slug: "peanut-swirl-brownies", name: "Peanut Swirl Brownies", show: false, markdown: peanut_swirl_brownies_default },
+    {
+      slug: "peanut-brittle",
+      name: "Peanut Brittle",
+      show: false,
+      markdown: peanut_brittle_default
+    },
+    {
+      slug: "peanut-butter-cookies",
+      name: "Peanut Butter Cookies",
+      show: false,
+      markdown: peanut_butter_cookies_default
+    },
+    {
+      slug: "peanut-butter-fudge",
+      name: "Peanut Butter Fudge",
+      show: false,
+      markdown: peanut_butter_fudge_default
+    },
+    {
+      slug: "peanut-butter-pie",
+      name: "Peanut Butter Pie",
+      show: false,
+      markdown: peanut_butter_pie_default
+    },
+    {
+      slug: "peanut-butter-chocolate-chip-bacon-cookies",
+      name: "Peanut Butter-Chocolate Chip-Bacon Cookies",
+      show: false,
+      markdown: peanut_butter_chocolate_chip_bacon_cookies_default
+    },
+    {
+      slug: "peanut-swirl-brownies",
+      name: "Peanut Swirl Brownies",
+      show: false,
+      markdown: peanut_swirl_brownies_default
+    },
     { slug: "pecan-pie", name: "Pecan Pie", show: false, markdown: pecan_pie_default },
-    { slug: "peppermint-bark", name: "Peppermint Bark", show: false, markdown: peppermint_bark_default },
-    { slug: "peppermint-cannolis", name: "Peppermint Cannolis", show: false, markdown: peppermint_cannolis_default },
-    { slug: "peppermint-glaze", name: "Peppermint Glaze", show: false, markdown: peppermint_glaze_default },
+    {
+      slug: "peppermint-bark",
+      name: "Peppermint Bark",
+      show: false,
+      markdown: peppermint_bark_default
+    },
+    {
+      slug: "peppermint-cannolis",
+      name: "Peppermint Cannolis",
+      show: false,
+      markdown: peppermint_cannolis_default
+    },
+    {
+      slug: "peppermint-glaze",
+      name: "Peppermint Glaze",
+      show: false,
+      markdown: peppermint_glaze_default
+    },
     { slug: "pie-crust", name: "Pie Crust", show: false, markdown: pie_crust_default },
-    { slug: "pineapple-cookies", name: "Pineapple Cookies", show: false, markdown: pineapple_cookies_default },
-    { slug: "pineapple-pumpkin-bread-muffins", name: "Pineapple Pumpkin Bread/Muffins", show: false, markdown: pineapple_pumpkin_bread_muffins_default },
+    {
+      slug: "pineapple-cookies",
+      name: "Pineapple Cookies",
+      show: false,
+      markdown: pineapple_cookies_default
+    },
+    {
+      slug: "pineapple-pumpkin-bread-muffins",
+      name: "Pineapple Pumpkin Bread/Muffins",
+      show: false,
+      markdown: pineapple_pumpkin_bread_muffins_default
+    },
     { slug: "pizzelles", name: "Pizzelles", show: false, markdown: pizzelles_default },
     { slug: "prime-rib", name: "Prime Rib", show: false, markdown: prime_rib_default },
-    { slug: "pumpkin-bread-muffins", name: "Pumpkin Bread/Muffins", show: false, markdown: pumpkin_bread_muffins_default },
-    { slug: "pumpkin-butterscotch-fudge", name: "Pumpkin Butterscotch Fudge", show: false, markdown: pumpkin_butterscotch_fudge_default },
-    { slug: "pumpkin-cannolis", name: "Pumpkin Cannolis", show: false, markdown: pumpkin_cannolis_default },
-    { slug: "pumpkin-cheesecake-flavoring", name: "Pumpkin Cheesecake Flavoring", show: false, markdown: pumpkin_cheesecake_flavoring_default },
-    { slug: "pumpkin-cupcakes", name: "Pumpkin Cupcakes", show: false, markdown: pumpkin_cupcakes_default },
-    { slug: "pumpkin-donuts", name: "Pumpkin Donuts", show: false, markdown: pumpkin_donuts_default },
-    { slug: "pumpkin-drop-cookies", name: "Pumpkin Drop Cookies", show: false, markdown: pumpkin_drop_cookies_default },
-    { slug: "pumpkin-pastry-cream", name: "Pumpkin Pastry Cream", show: false, markdown: pumpkin_pastry_cream_default },
-    { slug: "pumpkin-pie", name: "Pumpkin Pie", show: false, markdown: pumpkin_pie_default },
-    { slug: "pumpkin-spice-cake", name: "Pumpkin Spice Cake", show: false, markdown: pumpkin_spice_cake_default },
-    { slug: "pumpkin-whoopie-pies", name: "Pumpkin Whoopie Pies", show: false, markdown: pumpkin_whoopie_pies_default },
-    { slug: "rainbow-cookies", name: "Rainbow Cookies", show: false, markdown: rainbow_cookies_default },
-    { slug: "raspberry-cheesecake-flavoring", name: "Raspberry Cheesecake Flavoring", show: false, markdown: raspberry_cheesecake_flavoring_default },
-    { slug: "red-velvet-cupcakes", name: "Red Velvet Cupcakes", show: false, markdown: red_velvet_cupcakes_default },
-    { slug: "red-velvet-fudge", name: "Red Velvet Fudge", show: false, markdown: red_velvet_fudge_default },
-    { slug: "rocky-road-fudge", name: "Rocky Road Fudge", show: false, markdown: rocky_road_fudge_default },
+    {
+      slug: "pumpkin-bread-muffins",
+      name: "Pumpkin Bread/Muffins",
+      show: false,
+      markdown: pumpkin_bread_muffins_default
+    },
+    {
+      slug: "pumpkin-butterscotch-fudge",
+      name: "Pumpkin Butterscotch Fudge",
+      show: false,
+      markdown: pumpkin_butterscotch_fudge_default
+    },
+    {
+      slug: "pumpkin-cannolis",
+      name: "Pumpkin Cannolis",
+      show: false,
+      markdown: pumpkin_cannolis_default
+    },
+    {
+      slug: "pumpkin-cheesecake-flavoring",
+      name: "Pumpkin Cheesecake Flavoring",
+      show: false,
+      markdown: pumpkin_cheesecake_flavoring_default
+    },
+    {
+      slug: "pumpkin-cupcakes",
+      name: "Pumpkin Cupcakes",
+      show: false,
+      markdown: pumpkin_cupcakes_default
+    },
+    {
+      slug: "pumpkin-donuts",
+      name: "Pumpkin Donuts",
+      show: false,
+      markdown: pumpkin_donuts_default
+    },
+    {
+      slug: "pumpkin-drop-cookies",
+      name: "Pumpkin Drop Cookies",
+      show: false,
+      markdown: pumpkin_drop_cookies_default
+    },
+    {
+      slug: "pumpkin-pastry-cream",
+      name: "Pumpkin Pastry Cream",
+      show: false,
+      markdown: pumpkin_pastry_cream_default
+    },
+    {
+      slug: "pumpkin-pie",
+      name: "Pumpkin Pie",
+      show: false,
+      markdown: pumpkin_pie_default
+    },
+    {
+      slug: "pumpkin-spice-cake",
+      name: "Pumpkin Spice Cake",
+      show: false,
+      markdown: pumpkin_spice_cake_default
+    },
+    {
+      slug: "pumpkin-whoopie-pies",
+      name: "Pumpkin Whoopie Pies",
+      show: false,
+      markdown: pumpkin_whoopie_pies_default
+    },
+    {
+      slug: "rainbow-cookies",
+      name: "Rainbow Cookies",
+      show: false,
+      markdown: rainbow_cookies_default
+    },
+    {
+      slug: "raspberry-cheesecake-flavoring",
+      name: "Raspberry Cheesecake Flavoring",
+      show: false,
+      markdown: raspberry_cheesecake_flavoring_default
+    },
+    {
+      slug: "red-velvet-cupcakes",
+      name: "Red Velvet Cupcakes",
+      show: false,
+      markdown: red_velvet_cupcakes_default
+    },
+    {
+      slug: "red-velvet-fudge",
+      name: "Red Velvet Fudge",
+      show: false,
+      markdown: red_velvet_fudge_default
+    },
+    {
+      slug: "rocky-road-fudge",
+      name: "Rocky Road Fudge",
+      show: false,
+      markdown: rocky_road_fudge_default
+    },
     { slug: "sherbet", name: "Sherbet", show: false, markdown: sherbet_default },
-    { slug: "shortbread-cookies", name: "Shortbread Cookies", show: false, markdown: shortbread_cookies_default },
-    { slug: "snickerdoodles", name: "Snickerdoodles", show: false, markdown: snickerdoodles_default },
+    {
+      slug: "shortbread-cookies",
+      name: "Shortbread Cookies",
+      show: false,
+      markdown: shortbread_cookies_default
+    },
+    {
+      slug: "snickerdoodles",
+      name: "Snickerdoodles",
+      show: false,
+      markdown: snickerdoodles_default
+    },
     { slug: "sorbet", name: "Sorbet", show: false, markdown: sorbet_default },
-    { slug: "spritzgeb-ck-cookies", name: "Spritzgeb\xE4ck Cookies", show: false, markdown: spritzgeb_ck_cookies_default },
-    { slug: "strawberry-rhubarb-pie", name: "Strawberry Rhubarb Pie", show: false, markdown: strawberry_rhubarb_pie_default },
-    { slug: "sugar-cookies", name: "Sugar Cookies", show: false, markdown: sugar_cookies_default },
-    { slug: "sweet-potato-pie", name: "Sweet Potato Pie", show: false, markdown: sweet_potato_pie_default },
+    {
+      slug: "spritzgeb-ck-cookies",
+      name: "Spritzgeb\xE4ck Cookies",
+      show: false,
+      markdown: spritzgeb_ck_cookies_default
+    },
+    {
+      slug: "strawberry-rhubarb-pie",
+      name: "Strawberry Rhubarb Pie",
+      show: false,
+      markdown: strawberry_rhubarb_pie_default
+    },
+    {
+      slug: "sugar-cookies",
+      name: "Sugar Cookies",
+      show: false,
+      markdown: sugar_cookies_default
+    },
+    {
+      slug: "sweet-potato-pie",
+      name: "Sweet Potato Pie",
+      show: false,
+      markdown: sweet_potato_pie_default
+    },
     { slug: "tiramisu", name: "Tiramisu", show: false, markdown: tiramisu_default },
-    { slug: "triple-chocolate-brownies", name: "Triple Chocolate Brownies", show: false, markdown: triple_chocolate_brownies_default },
-    { slug: "vanilla-buttercream-frosting", name: "Vanilla Buttercream Frosting", show: false, markdown: vanilla_buttercream_frosting_default },
-    { slug: "vanilla-cake", name: "Vanilla Cake", show: false, markdown: vanilla_cake_default },
-    { slug: "vanilla-frosting-whoopie-pie-filling", name: "Vanilla Frosting/Whoopie Pie Filling", show: false, markdown: vanilla_frosting_whoopie_pie_filling_default },
-    { slug: "vanilla-fudge", name: "Vanilla Fudge", show: false, markdown: vanilla_fudge_default },
-    { slug: "vanilla-icing", name: "Vanilla Icing", show: false, markdown: vanilla_icing_default },
-    { slug: "vanilla-pastry-cream", name: "Vanilla Pastry Cream", show: false, markdown: vanilla_pastry_cream_default },
-    { slug: "velveeta-fudge", name: "Velveeta Fudge", show: false, markdown: velveeta_fudge_default },
-    { slug: "watermelon-pie", name: "Watermelon Pie", show: false, markdown: watermelon_pie_default },
-    { slug: "white-chocolate-cheesecake", name: "White Chocolate Cheesecake", show: false, markdown: white_chocolate_cheesecake_default },
-    { slug: "whoopie-pies", name: "Whoopie Pies", show: false, markdown: whoopie_pies_default }
+    {
+      slug: "triple-chocolate-brownies",
+      name: "Triple Chocolate Brownies",
+      show: false,
+      markdown: triple_chocolate_brownies_default
+    },
+    {
+      slug: "vanilla-buttercream-frosting",
+      name: "Vanilla Buttercream Frosting",
+      show: false,
+      markdown: vanilla_buttercream_frosting_default
+    },
+    {
+      slug: "vanilla-cake",
+      name: "Vanilla Cake",
+      show: false,
+      markdown: vanilla_cake_default
+    },
+    {
+      slug: "vanilla-frosting-whoopie-pie-filling",
+      name: "Vanilla Frosting/Whoopie Pie Filling",
+      show: false,
+      markdown: vanilla_frosting_whoopie_pie_filling_default
+    },
+    {
+      slug: "vanilla-fudge",
+      name: "Vanilla Fudge",
+      show: false,
+      markdown: vanilla_fudge_default
+    },
+    {
+      slug: "vanilla-icing",
+      name: "Vanilla Icing",
+      show: false,
+      markdown: vanilla_icing_default
+    },
+    {
+      slug: "vanilla-pastry-cream",
+      name: "Vanilla Pastry Cream",
+      show: false,
+      markdown: vanilla_pastry_cream_default
+    },
+    {
+      slug: "velveeta-fudge",
+      name: "Velveeta Fudge",
+      show: false,
+      markdown: velveeta_fudge_default
+    },
+    {
+      slug: "watermelon-pie",
+      name: "Watermelon Pie",
+      show: false,
+      markdown: watermelon_pie_default
+    },
+    {
+      slug: "white-chocolate-cheesecake",
+      name: "White Chocolate Cheesecake",
+      show: false,
+      markdown: white_chocolate_cheesecake_default
+    },
+    {
+      slug: "whoopie-pies",
+      name: "Whoopie Pies",
+      show: false,
+      markdown: whoopie_pies_default
+    }
   ];
 
   // src/pages/RecipeList.jsx
@@ -27108,7 +27783,7 @@
     const [showAll, setShowAll] = (0, import_react.useState)(false);
     const filtered = (0, import_react.useMemo)(() => {
       const q2 = filter.trim().toLowerCase();
-      return recipes_index_default.filter((r) => {
+      return data_default.filter((r) => {
         if (!showAll && !r.show) return false;
         if (q2 && !r.name.toLowerCase().includes(q2)) return false;
         return true;
@@ -27164,7 +27839,7 @@
               filtered.length,
               " of",
               " ",
-              showAll ? recipes_index_default.length : recipes_index_default.filter((r) => r.show).length
+              showAll ? data_default.length : data_default.filter((r) => r.show).length
             ] })
           ]
         }
@@ -28471,7 +29146,7 @@ Please report this to https://github.com/markedjs/marked.`, e) {
 
   // src/pages/RecipeDetail.jsx
   var import_jsx_runtime2 = __toESM(require_jsx_runtime());
-  var recipesBySlug = Object.fromEntries(recipes_index_default.map((r) => [r.slug, r]));
+  var recipesBySlug = Object.fromEntries(data_default.map((r) => [r.slug, r]));
   var TOKEN_RE = /\{([^}]+)\}/g;
   function findOriginalServings(md) {
     const m2 = md.match(/\{([^}]+)\}/);

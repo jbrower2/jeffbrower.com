@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { marked } from "marked";
-import recipes from "../data/recipes-index.js";
+import recipes from "../data";
 import { Fraction } from "../lib/fraction.js";
 
 const recipesBySlug = Object.fromEntries(recipes.map((r) => [r.slug, r]));

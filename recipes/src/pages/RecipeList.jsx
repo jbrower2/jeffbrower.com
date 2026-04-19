@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
-import recipes from "../data/recipes-index.js";
+import recipes from "../data";
 
 export default function RecipeList() {
   const [filter, setFilter] = useState("");
