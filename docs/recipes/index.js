@@ -24103,6 +24103,13 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
     }
   });
 
+  // src/data/chocolate-peanut-butter-nice-cream.md
+  var require_chocolate_peanut_butter_nice_cream = __commonJS({
+    "src/data/chocolate-peanut-butter-nice-cream.md"(exports, module) {
+      module.exports = "# Chocolate Peanut Butter Soft Serve (Nice Cream!)\n\nThis is my go-to ice cream \u2013 made from bananas, peanut butter and cocoa powder. That's it.\n\n- **Servings:** {2}\n- [Source](https://nourishedbycaroline.ca/chocolate-peanut-butter-soft-serve-nice-cream/)\n- **Prep Time:** 5 minutes\n- **Total Time:** 5 minutes\n\n## Ingredients\n\n- {4} large bananas, frozen\n- {2} tablespoons peanut butter\n- {2 1/2} tablespoons cocoa powder, unsweetened\n\n### Suggested Toppings\n\n- more peanut butter\n- cocoa nibs\n- chocolate or carob chips (or drizzle)\n- shredded coconut\n- fresh berries\n\n## Instructions\n\n1. Slice your bananas and freeze overnight or for at least 12 hours.\n1. Add your frozen bananas, peanut butter and cocoa powder in a food processor and process until smooth.\n1. Serve immediately or store in an airtight container in the freezer.\n\n## Notes\n\n- **Peanut butter:** I use organic salted peanut butter, but you can use any kind you have on hand. You can also use sunflower seed butter for a nut-free version or almond butter if preferred.\n";
+    }
+  });
+
   // src/data/chocolate-peppermint-pizzelles.md
   var require_chocolate_peppermint_pizzelles = __commonJS({
     "src/data/chocolate-peppermint-pizzelles.md"(exports, module) {
@@ -28470,6 +28477,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./chocolate-orange-fudge.md": () => require_chocolate_orange_fudge(),
     "./chocolate-pastry-cream.md": () => require_chocolate_pastry_cream(),
     "./chocolate-peanut-butter-frosting.md": () => require_chocolate_peanut_butter_frosting(),
+    "./chocolate-peanut-butter-nice-cream.md": () => require_chocolate_peanut_butter_nice_cream(),
     "./chocolate-peppermint-pizzelles.md": () => require_chocolate_peppermint_pizzelles(),
     "./chocolate-pumpkin-cake.md": () => require_chocolate_pumpkin_cake(),
     "./chocolate-pumpkin-cupcakes.md": () => require_chocolate_pumpkin_cupcakes(),
@@ -28711,6 +28719,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("chocolate-orange-fudge", ["Dessert/Fudge"]);
   addRecipe("chocolate-pastry-cream", ["Dessert/Frosting/Custard"]);
   addRecipe("chocolate-peanut-butter-frosting", ["Dessert/Frosting/Frosting"], true);
+  addRecipe("chocolate-peanut-butter-nice-cream", ["Dessert/Ice Cream"], true);
   addRecipe("chocolate-peppermint-pizzelles", ["Dessert/Cookies/Pizzelles"]);
   addRecipe("chocolate-pumpkin-cake", ["Dessert/Cake"]);
   addRecipe("chocolate-pumpkin-cupcakes", ["Dessert/Cupcakes"]);
