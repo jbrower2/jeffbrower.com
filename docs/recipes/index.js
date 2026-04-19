@@ -25449,6 +25449,13 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     }
   });
 
+  // src/data/toll-house-chocolate-chip-cookies.md
+  var require_toll_house_chocolate_chip_cookies = __commonJS({
+    "src/data/toll-house-chocolate-chip-cookies.md"(exports, module) {
+      module.exports = "# Original Nestl\xE9 Toll House Chocolate Chip Cookies\n\nThis original Toll House cookie recipe from Nestl\xE9 evokes pleasant childhood memories. Sweet, perfectly chewy, and hard to resist, this famous American chocolate chip cookie is a treat no matter what the age or occasion. Enjoy it with a glass of cold milk.\n\n- **Servings:** {60}\n- **Yield:** {60} cookies\n- [Source](https://www.allrecipes.com/recipe/174864/original-nestle-toll-house-chocolate-chip-cookies/)\n- **Prep Time:** 15 minutes\n- **Cook Time:** 10 minutes\n- **Additional Time:** 15 minutes\n- **Total Time:** 40 minutes\n\n## Ingredients\n\n- {2 1/4} cups all-purpose flour\n- {1} teaspoon baking soda\n- {1} teaspoon salt\n- {1} cup butter, softened\n- {3/4} cup white sugar\n- {3/4} cup packed brown sugar\n- {1} teaspoon vanilla extract\n- {2} large eggs\n- {2} cups semisweet chocolate chips (such as Nestl\xE9 Toll House)\n- {1} cup chopped nuts\n\n## Instructions\n\n1. Preheat the oven to 375\xB0F.\n1. Combine flour, baking soda and salt in small bowl.\n1. Beat butter, white sugar, brown sugar and vanilla in a large mixing bowl until creamy.\n1. Add eggs, one at a time, beating well after each addition.\n1. Gradually beat in flour mixture. Stir in chocolate morsels and nuts.\n1. Drop by rounded tablespoon onto ungreased baking sheets.\n1. Bake in the preheated oven until golden brown, 9 to 11 minutes, switching racks halfway through.\n1. Cool on the baking sheets for 2 minutes, then transfer to wire racks to cool completely.\n\n## Notes\n\n- **Storage:** Cookies can be stored in the refrigerator for up to one week or in the freezer for up to eight weeks.\n";
+    }
+  });
+
   // src/data/triple-chocolate-brownies.md
   var require_triple_chocolate_brownies = __commonJS({
     "src/data/triple-chocolate-brownies.md"(exports, module) {
@@ -28642,6 +28649,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./texas-cinnamon-butter.md": () => require_texas_cinnamon_butter(),
     "./texas-roadhouse-rolls.md": () => require_texas_roadhouse_rolls(),
     "./tiramisu.md": () => require_tiramisu(),
+    "./toll-house-chocolate-chip-cookies.md": () => require_toll_house_chocolate_chip_cookies(),
     "./triple-chocolate-brownies.md": () => require_triple_chocolate_brownies(),
     "./twice-baked-potatoes.md": () => require_twice_baked_potatoes(),
     "./vanilla-buttercream-frosting.md": () => require_vanilla_buttercream_frosting(),
@@ -28897,6 +28905,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("texas-cinnamon-butter", ["Seasoning"], true);
   addRecipe("texas-roadhouse-rolls", ["Side Dish"], true);
   addRecipe("tiramisu", ["Dessert/Cake"]);
+  addRecipe("toll-house-chocolate-chip-cookies", ["Dessert/Cookies"], true);
   addRecipe("triple-chocolate-brownies", ["Dessert/Brownies"]);
   addRecipe("twice-baked-potatoes", ["Side Dish"], true);
   addRecipe("vanilla-buttercream-frosting", ["Dessert/Frosting/Frosting"]);

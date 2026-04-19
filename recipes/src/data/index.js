@@ -241,6 +241,7 @@ addRecipe("sweet-potato-pie", ["Dessert/Pie"]);
 addRecipe("texas-cinnamon-butter", ["Seasoning"], true);
 addRecipe("texas-roadhouse-rolls", ["Side Dish"], true);
 addRecipe("tiramisu", ["Dessert/Cake"]);
+addRecipe("toll-house-chocolate-chip-cookies", ["Dessert/Cookies"], true);
 addRecipe("triple-chocolate-brownies", ["Dessert/Brownies"]);
 addRecipe("twice-baked-potatoes", ["Side Dish"], true);
 addRecipe("vanilla-buttercream-frosting", ["Dessert/Frosting/Frosting"]);
