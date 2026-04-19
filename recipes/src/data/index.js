@@ -154,6 +154,7 @@ const shown = new Set([
   "cinnamon-rolls",
   "cream-cheese-frosting",
   "nanas-rocky-road-candies",
+  "southwestern-egg-casserole",
 ]);
 
 function nameFromMarkdown(md) {
