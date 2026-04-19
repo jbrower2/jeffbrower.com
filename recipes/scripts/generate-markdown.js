@@ -4,6 +4,7 @@ const path = require("path");
 
 const recipes = require("../src/data/recipes.json");
 const OUT_DIR = path.join(__dirname, "..", "src", "data", "recipes");
+const INDEX_PATH = path.join(__dirname, "..", "src", "data", "recipes-index.js");
 
 function formatIngredient(ing) {
   let line = `{${ing.quantity}}`;
@@ -51,6 +52,26 @@ function recipeToMarkdown(r) {
   return lines.join("\n");
 }
 
+function identForSlug(slug) {
+  return "r_" + slug.replace(/[^a-z0-9]/gi, "_");
+}
+
+function writeIndex(rs) {
+  const lines = [];
+  for (const r of rs) {
+    lines.push(`import ${identForSlug(r.slug)} from "./recipes/${r.slug}.md";`);
+  }
+  lines.push("");
+  lines.push("export default [");
+  for (const r of rs) {
+    lines.push(
+      `  { slug: ${JSON.stringify(r.slug)}, name: ${JSON.stringify(r.name)}, show: ${r.show === true}, markdown: ${identForSlug(r.slug)} },`
+    );
+  }
+  lines.push("];");
+  fs.writeFileSync(INDEX_PATH, lines.join("\n") + "\n");
+}
+
 function main() {
   fs.mkdirSync(OUT_DIR, { recursive: true });
   let count = 0;
@@ -61,7 +82,9 @@ function main() {
     );
     count++;
   }
+  writeIndex(recipes);
   console.log(`Wrote ${count} markdown files to ${OUT_DIR}`);
+  console.log(`Wrote index to ${INDEX_PATH}`);
 }
 
 main();

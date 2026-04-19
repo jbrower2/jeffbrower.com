@@ -2,10 +2,11 @@
   "scripts": {
     "parse": "node scripts/parse-recipes.js",
     "generate-md": "node scripts/generate-markdown.js",
-    "build": "esbuild src/index.jsx --bundle --outfile=../docs/recipes/index.js --jsx=automatic --target=es2018 --sourcemap --define:process.env.NODE_ENV=\\\"development\\\"",
-    "build:prod": "esbuild src/index.jsx --bundle --outfile=../docs/recipes/index.js --jsx=automatic --target=es2018 --minify --define:process.env.NODE_ENV=\\\"production\\\""
+    "build": "esbuild src/index.jsx --bundle --outfile=../docs/recipes/index.js --jsx=automatic --target=es2018 --sourcemap --loader:.md=text --define:process.env.NODE_ENV=\\\"development\\\"",
+    "build:prod": "esbuild src/index.jsx --bundle --outfile=../docs/recipes/index.js --jsx=automatic --target=es2018 --minify --loader:.md=text --define:process.env.NODE_ENV=\\\"production\\\""
   },
   "dependencies": {
+    "marked": "^18.0.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.0"
