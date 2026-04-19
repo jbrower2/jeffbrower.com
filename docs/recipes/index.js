@@ -24979,6 +24979,13 @@ Combine base flavors with the listed additions.
     }
   });
 
+  // src/data/peanut-butter-frosting.md
+  var require_peanut_butter_frosting = __commonJS({
+    "src/data/peanut-butter-frosting.md"(exports, module) {
+      module.exports = '# Peanut Butter Frosting\n\nOur delicious peanut butter frosting is fluffy, creamy, and chock full of peanut butter flavor. Perfect for chocolate cakes, cupcakes, and brownies!\n\n- **Servings:** {24}\n- **Yield:** {2 1/2} cups, enough for {24} cupcakes or a 9"x13" sheet cake\n- [Source](https://www.twosisterscrafting.com/best-peanut-butter-buttercream-frosting/)\n- **Prep Time:** 10 minutes\n- **Total Time:** 10 minutes\n\n## Ingredients\n\n- {1/2} cup butter, slightly softened (salted sweet cream butter recommended)\n- {1} heaping cup creamy peanut butter\n- {1} pound powdered sugar (or {4} cups)\n- {2} teaspoons vanilla extract\n- {1/3} cup milk (approximately)\n\n## Instructions\n\n1. Add peanut butter, softened butter, and vanilla to a mixing bowl. The butter should be "slightly softened" \u2014 still cold but warmed enough that you can press your thumb into the stick.\n1. Mix until fully combined, about 2 minutes.\n1. Use a spatula to scrape the peanut butter mixture down from the sides of the bowl.\n1. Pour the powdered sugar into the mixing bowl with the peanut butter mixture.\n1. Start your mixer on the lowest setting and keep it on low until the butter and sugar are incorporated, about 30 seconds.\n1. Stop the mixer, scrape down the sides of the bowl, then increase the speed to medium-high and mix for another 30\u201345 seconds so the frosting starts coming together. The frosting will be thick and crumbly.\n1. Taste and adjust vanilla if needed. Start adding milk, a tablespoon at a time, mixing between additions to check the consistency. The amount of milk depends on the state of the frosting and the weather \u2014 humid days need less.\n\n## Notes\n\n- **Coverage:** enough for a 9"x13" sheet cake or a two-layer 8" cake.\n- **Cupcakes:** frosts 24 cupcakes if applied with a knife, or 15\u201318 cupcakes if swirled with a pastry bag (depending on swirl size).\n';
+    }
+  });
+
   // src/data/peanut-butter-fudge.md
   var require_peanut_butter_fudge = __commonJS({
     "src/data/peanut-butter-fudge.md"(exports, module) {
@@ -28456,6 +28463,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./peanut-brittle.md": () => require_peanut_brittle(),
     "./peanut-butter-chocolate-chip-bacon-cookies.md": () => require_peanut_butter_chocolate_chip_bacon_cookies(),
     "./peanut-butter-cookies.md": () => require_peanut_butter_cookies(),
+    "./peanut-butter-frosting.md": () => require_peanut_butter_frosting(),
     "./peanut-butter-fudge.md": () => require_peanut_butter_fudge(),
     "./peanut-butter-pie.md": () => require_peanut_butter_pie(),
     "./peanut-swirl-brownies.md": () => require_peanut_swirl_brownies(),
@@ -28690,6 +28698,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("peanut-brittle", ["Dessert/Candy"]);
   addRecipe("peanut-butter-chocolate-chip-bacon-cookies", ["Dessert/Cookies"]);
   addRecipe("peanut-butter-cookies", ["Dessert/Cookies"]);
+  addRecipe("peanut-butter-frosting", ["Dessert/Frosting/Frosting"], true);
   addRecipe("peanut-butter-fudge", ["Dessert/Fudge"]);
   addRecipe("peanut-butter-pie", ["Dessert/Pie"]);
   addRecipe("peanut-swirl-brownies", ["Dessert/Brownies"]);

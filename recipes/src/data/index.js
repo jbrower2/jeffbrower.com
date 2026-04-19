@@ -178,6 +178,7 @@ addRecipe("peach-pie", ["Dessert/Pie"]);
 addRecipe("peanut-brittle", ["Dessert/Candy"]);
 addRecipe("peanut-butter-chocolate-chip-bacon-cookies", ["Dessert/Cookies"]);
 addRecipe("peanut-butter-cookies", ["Dessert/Cookies"]);
+addRecipe("peanut-butter-frosting", ["Dessert/Frosting/Frosting"], true);
 addRecipe("peanut-butter-fudge", ["Dessert/Fudge"]);
 addRecipe("peanut-butter-pie", ["Dessert/Pie"]);
 addRecipe("peanut-swirl-brownies", ["Dessert/Brownies"]);
