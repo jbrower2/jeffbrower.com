@@ -229,6 +229,7 @@ addRecipe("strawberry-rhubarb-pie", ["Dessert/Pie"]);
 addRecipe("sugar-cookies", ["Dessert/Cookies"]);
 addRecipe("sweet-corn-guacamole", ["Appetizer"], true);
 addRecipe("sweet-potato-pie", ["Dessert/Pie"]);
+addRecipe("texas-cinnamon-butter", ["Seasoning"], true);
 addRecipe("tiramisu", ["Dessert/Cake"]);
 addRecipe("triple-chocolate-brownies", ["Dessert/Brownies"]);
 addRecipe("twice-baked-potatoes", ["Side Dish"], true);

@@ -25365,6 +25365,13 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     }
   });
 
+  // src/data/texas-cinnamon-butter.md
+  var require_texas_cinnamon_butter = __commonJS({
+    "src/data/texas-cinnamon-butter.md"(exports, module) {
+      module.exports = "# Texas Cinnamon Butter\n\n- **Servings:** {8}\n- [Source](https://www.delish.com/cooking/recipe-ideas/recipes/a54121/texas-cinnamon-butter-recipe/)\n- **Prep Time:** 10 minutes\n- **Total Time:** 10 minutes\n\n## Ingredients\n\n- {2} sticks ({1} cup) butter, softened\n- {1/4} cup honey\n- {1} tsp. ground cinnamon, plus more for sprinkling\n- {1} tsp. kosher salt\n- {1/2} tsp. pure vanilla extract\n\n## Instructions\n\n1. In a large bowl, combine all ingredients. Using a hand mixer, beat all ingredients until fully combined and butter is slightly whipped.\n1. Place butter in a ramekin and garnish with a sprinkle of cinnamon. Slather on everything.\n";
+    }
+  });
+
   // src/data/tiramisu.md
   var require_tiramisu = __commonJS({
     "src/data/tiramisu.md"(exports, module) {
@@ -28553,6 +28560,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./sugar-cookies.md": () => require_sugar_cookies(),
     "./sweet-corn-guacamole.md": () => require_sweet_corn_guacamole(),
     "./sweet-potato-pie.md": () => require_sweet_potato_pie(),
+    "./texas-cinnamon-butter.md": () => require_texas_cinnamon_butter(),
     "./tiramisu.md": () => require_tiramisu(),
     "./triple-chocolate-brownies.md": () => require_triple_chocolate_brownies(),
     "./twice-baked-potatoes.md": () => require_twice_baked_potatoes(),
@@ -28797,6 +28805,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("sugar-cookies", ["Dessert/Cookies"]);
   addRecipe("sweet-corn-guacamole", ["Appetizer"], true);
   addRecipe("sweet-potato-pie", ["Dessert/Pie"]);
+  addRecipe("texas-cinnamon-butter", ["Seasoning"], true);
   addRecipe("tiramisu", ["Dessert/Cake"]);
   addRecipe("triple-chocolate-brownies", ["Dessert/Brownies"]);
   addRecipe("twice-baked-potatoes", ["Side Dish"], true);
