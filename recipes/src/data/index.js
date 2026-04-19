@@ -140,6 +140,7 @@ addRecipe("grape-pie", ["Dessert/Pie"]);
 addRecipe("hot-chocolate-cookies", ["Dessert/Cookies"], true);
 addRecipe("ice-cream", ["Dessert/Ice Cream"]);
 addRecipe("iced-gingerbread-oatmeal-cookies", ["Dessert/Cookies"], true);
+addRecipe("john-mayers-apple-cider", ["Drink"], true);
 addRecipe("key-lime-pie", ["Dessert/Pie"]);
 addRecipe("lemon-cookies", ["Dessert/Cookies"]);
 addRecipe("lemon-glaze", ["Dessert/Frosting/Icing"]);

@@ -24680,6 +24680,13 @@ Combine base flavors with the listed additions.
     }
   });
 
+  // src/data/john-mayers-apple-cider.md
+  var require_john_mayers_apple_cider = __commonJS({
+    "src/data/john-mayers-apple-cider.md"(exports, module) {
+      module.exports = "# John Mayer's Apple Cider\n\n- **Servings:** {1}\n- **Yield:** {1} batch\n- [Source](https://www.instagram.com/p/Bo6LkF-nPHd/)\n- **Cook Time:** 3 hours\n\n## Ingredients\n\n- {10} apples, quartered\n- {3/4} cup white sugar\n- {1} tbsp ground cinnamon\n- {1} tbsp ground allspice\n\n## Instructions\n\n1. Place apples in a large stockpot and add enough water to cover by at least 2 inches.\n1. Stir in sugar, cinnamon, and allspice.\n1. Bring to a boil. Boil, uncovered, for 1 hour.\n1. Cover pot, reduce heat, and simmer for 2 hours.\n1. Strain apple mixture through a fine mesh sieve. Discard solids.\n1. Drain cider again through a cheesecloth lined sieve.\n1. Refrigerate until cold.\n";
+    }
+  });
+
   // src/data/key-lime-pie.md
   var require_key_lime_pie = __commonJS({
     "src/data/key-lime-pie.md"(exports, module) {
@@ -28295,6 +28302,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./hot-chocolate-cookies.md": () => require_hot_chocolate_cookies(),
     "./ice-cream.md": () => require_ice_cream(),
     "./iced-gingerbread-oatmeal-cookies.md": () => require_iced_gingerbread_oatmeal_cookies(),
+    "./john-mayers-apple-cider.md": () => require_john_mayers_apple_cider(),
     "./key-lime-pie.md": () => require_key_lime_pie(),
     "./lemon-cookies.md": () => require_lemon_cookies(),
     "./lemon-glaze.md": () => require_lemon_glaze(),
@@ -28519,6 +28527,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("hot-chocolate-cookies", ["Dessert/Cookies"], true);
   addRecipe("ice-cream", ["Dessert/Ice Cream"]);
   addRecipe("iced-gingerbread-oatmeal-cookies", ["Dessert/Cookies"], true);
+  addRecipe("john-mayers-apple-cider", ["Drink"], true);
   addRecipe("key-lime-pie", ["Dessert/Pie"]);
   addRecipe("lemon-cookies", ["Dessert/Cookies"]);
   addRecipe("lemon-glaze", ["Dessert/Frosting/Icing"]);
