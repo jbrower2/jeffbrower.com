@@ -213,6 +213,7 @@ addRecipe("pumpkin-pie", ["Dessert/Pie"]);
 addRecipe("pumpkin-spice-cake", ["Dessert/Cake"]);
 addRecipe("pumpkin-whoopie-pies", ["Dessert/Cake/Whoopie Pies"]);
 addRecipe("qdoba-queso-dip", ["Appetizer"], true);
+addRecipe("qdoba-three-cheese-queso-copycat", ["Appetizer"], true);
 addRecipe("rainbow-cookies", ["Dessert/Cookies"]);
 addRecipe("raspberry-cheesecake-flavoring", ["Dessert/Cake/Cheesecake"]);
 addRecipe("red-velvet-cupcakes", ["Dessert/Cupcakes"]);

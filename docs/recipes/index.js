@@ -25224,6 +25224,13 @@ Combine base flavors with the listed additions.
     }
   });
 
+  // src/data/qdoba-three-cheese-queso-copycat.md
+  var require_qdoba_three_cheese_queso_copycat = __commonJS({
+    "src/data/qdoba-three-cheese-queso-copycat.md"(exports, module) {
+      module.exports = "# Qdoba Three-Cheese Queso Copycat\n\nCopycat Qdoba Queso is a restaurant favorite at home!\n\n- **Servings:** {12}\n- **Yield:** {3} cups\n- [Source](https://www.amyscookingadventures.com/2012/01/qdoba-3-cheese-queso-copycat.html)\n- **Prep Time:** 30 minutes\n- **Cook Time:** 15 minutes\n- **Total Time:** 45 minutes\n\n## Ingredients\n\n- {2} poblano peppers\n- {10} ounces cream cheese\n- {8} oz cheddar cheese\n- {3} roma tomatoes\n- {1/2} teaspoon garlic powder\n- {1/2} teaspoon onion powder\n- {1/2} teaspoon salt\n- {1/4} teaspoon paprika\n- {1/4} cup water\n\n## Instructions\n\n1. Place the peppers (whole) on a baking sheet and place under the broiler. Broil, turning occasionally, until the peppers are blackened on all sides. Move the baking sheet to a wire rack. Use aluminum foil to form a tent around the peppers. Cool for 30 minutes.\n1. Using your fingers, peel the blackened skin off of the peppers. Carefully twist the stems to remove the stems and seeds. Scoop out any of the remaining seeds. Discard the seeds, stems, and peels. Dice the remaining parts of the peppers finely.\n1. Place the chopped peppers and tomatoes in a medium saucepan over medium heat and cook for 3\u20135 minutes until the tomatoes begin to soften.\n1. Add in the garlic powder, onion powder, salt, paprika, cream cheese, and cheddar cheese. Stir over medium heat until the cheeses are melted.\n1. Add the water and stir for an additional minute.\n1. Serve in ramekins with tortilla chips.\n";
+    }
+  });
+
   // src/data/rainbow-cookies.md
   var require_rainbow_cookies = __commonJS({
     "src/data/rainbow-cookies.md"(exports, module) {
@@ -28558,6 +28565,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./pumpkin-spice-cake.md": () => require_pumpkin_spice_cake(),
     "./pumpkin-whoopie-pies.md": () => require_pumpkin_whoopie_pies(),
     "./qdoba-queso-dip.md": () => require_qdoba_queso_dip(),
+    "./qdoba-three-cheese-queso-copycat.md": () => require_qdoba_three_cheese_queso_copycat(),
     "./rainbow-cookies.md": () => require_rainbow_cookies(),
     "./raspberry-cheesecake-flavoring.md": () => require_raspberry_cheesecake_flavoring(),
     "./red-velvet-cupcakes.md": () => require_red_velvet_cupcakes(),
@@ -28805,6 +28813,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("pumpkin-spice-cake", ["Dessert/Cake"]);
   addRecipe("pumpkin-whoopie-pies", ["Dessert/Cake/Whoopie Pies"]);
   addRecipe("qdoba-queso-dip", ["Appetizer"], true);
+  addRecipe("qdoba-three-cheese-queso-copycat", ["Appetizer"], true);
   addRecipe("rainbow-cookies", ["Dessert/Cookies"]);
   addRecipe("raspberry-cheesecake-flavoring", ["Dessert/Cake/Cheesecake"]);
   addRecipe("red-velvet-cupcakes", ["Dessert/Cupcakes"]);
