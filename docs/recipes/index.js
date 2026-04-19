@@ -24264,6 +24264,13 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
     }
   });
 
+  // src/data/easy-gravy.md
+  var require_easy_gravy = __commonJS({
+    "src/data/easy-gravy.md"(exports, module) {
+      module.exports = "# Easy Gravy\n\nMake the perfect easy gravy every time in just 5 minutes with or without pan drippings using these step by step directions. Pour it over potatoes or meat for your holiday meal or anytime!\n\n- **Servings:** {10}\n- **Yield:** {2 1/2} cups\n- [Source](https://www.yourhomebasedmom.com/easy-gravy-recipe/)\n- **Prep Time:** 5 minutes\n- **Cook Time:** 10 minutes\n- **Total Time:** 15 minutes\n\n## Ingredients\n\n- {4} Tbsp fat, butter or pan drippings\n- {4} Tbsp flour\n- {2} to {3} cups broth, beef, turkey or chicken\n- salt and pepper, to taste\n- {1/2} tsp poultry seasoning, if desired\n\n## Instructions\n\n1. Add butter or pan drippings to a large pan. Melt butter over medium heat.\n1. While stirring, add flour a tablespoon at a time. Whisk as you add.\n1. Slowly pour in the stock, a cup at a time to prevent lumps and until you get desired thickness. Whisk or stir well.\n1. Stir constantly over medium heat until gravy thickens and reaches desired thickness. Add additional broth if it gets too thick.\n1. Taste for seasoning and add salt and pepper and/or poultry seasoning if desired. Only use poultry seasoning if you used butter instead of pan drippings.\n\n## Notes\n\n- **Avoiding lumps:** As you pour liquid into roux, add in a slow steady stream. This helps prevent lumps.\n- **Extra flavor:** For a little additional flavor, use onion powder or garlic powder. You can also use a combination of beef and chicken broth for more flavor.\n- **Consistency:** If gravy gets too thick, add a little more water or broth to desired consistency.\n";
+    }
+  });
+
   // src/data/easy-green-chicken-enchiladas.md
   var require_easy_green_chicken_enchiladas = __commonJS({
     "src/data/easy-green-chicken-enchiladas.md"(exports, module) {
@@ -24927,6 +24934,60 @@ Combine base flavors with the listed additions.
   var require_mashed_potatoes = __commonJS({
     "src/data/mashed-potatoes.md"(exports, module) {
       module.exports = "# Mashed Potatoes\n\nFluffy, creamy and buttery, these are absolutely PERFECT every time.\n\n- **Servings:** {10}\n- [Source](https://www.spendwithpennies.com/how-to-make-mashed-potatoes/)\n- **Prep Time:** 15 minutes\n- **Cook Time:** 20 minutes\n- **Total Time:** 35 minutes\n\n## Ingredients\n\n- {4} pounds potatoes, russet or Yukon gold\n- {3} cloves garlic, optional\n- {1/3} cup melted salted butter\n- {1} cup milk or cream\n- salt, to taste\n- black pepper, to taste\n\n## Instructions\n\n1. Peel and quarter potatoes, place in a pot of cold salted water.\n1. Add cloves of garlic (if using) and bring to a boil; cook uncovered 15 minutes or until fork-tender. Drain well.\n1. Heat milk on the stove top (or in the microwave) until warm.\n1. Add butter to the potatoes and begin mashing. Pour in heated milk a little at a time while using a potato masher to reach desired consistency.\n1. Season with salt and pepper. Serve hot.\n\n## Notes\n\n- **Drain well:** Let potatoes sit about 5 minutes to completely drain, or drain well and return them to the warm pot for a few minutes to make sure all liquid is evaporated.\n- **Mash by hand:** Use a hand masher or a potato ricer for the creamiest potatoes. A hand mixer, stand mixer, or food processor can work, but may break down the starches and cause a gummy texture.\n- **Add butter!:** This is not a place to skimp. Use salted butter and lots of it (or use unsalted and season to taste).\n- **Heat the milk:** Heat milk/cream before adding \u2014 it keeps the potatoes hot and absorbs better. Add a little at a time to reach the right consistency.\n- **Make ahead:** Cool completely, then store in an air-tight container in the refrigerator. To reheat, spread into a greased casserole dish and dot with butter. Bake at 325\xB0F until the butter melts and the potatoes are heated through, about 35\u201340 minutes. Bake uncovered for a browned crust.\n";
+    }
+  });
+
+  // src/data/mashed-sweet-potatoes.md
+  var require_mashed_sweet_potatoes = __commonJS({
+    "src/data/mashed-sweet-potatoes.md"(exports, module) {
+      module.exports = `# Mashed Sweet Potatoes
+
+These simple, savory sweet potatoes are mashed and seasoned to perfection with cream & butter!
+
+- **Servings:** {8}
+- [Source](https://www.spendwithpennies.com/mashed-sweet-potatoes/)
+- **Prep Time:** 20 minutes
+- **Cook Time:** 20 minutes
+- **Total Time:** 40 minutes
+
+## Ingredients
+
+- {4} pounds sweet potatoes, peeled
+- {1/3} cup butter, cut into 4 pieces
+- {1/3} cup half and half or milk, warmed
+- salt and black pepper, to taste
+
+## Instructions
+
+1. Dice potatoes into 2" chunks.
+1. Bring a large pot of salted water to a boil. Add potatoes and boil until tender, about 15 minutes.
+1. Drain well and allow to sit in the strainer for a few minutes to make sure all water evaporates.
+1. Add butter to the potatoes and mash with a potato masher. Add cream or milk a little bit at a time to reach desired consistency. You may not need all of the cream.
+1. Season with salt and pepper. Serve hot and top with a dash of cinnamon if desired.
+
+## Notes
+
+- **Sweeter:** If you prefer a sweeter mashed potato, add 2 tablespoons of brown sugar along with the butter.
+- **Bake instead:** Sweet potatoes can be baked in the oven instead of boiling. Cook at 400\xB0F for about 1 hour or until fork tender.
+- **Drain well:** Drain very well to ensure they're not watery.
+- **Mash while warm:** Sweet potatoes mash best while they're warm.
+- **Heat the cream:** Heat the cream before adding it to the potatoes.
+- **Consistency:** Mash sweet potatoes with a hand masher for a more rustic consistency (aka a bit less smooth). Use a hand mixer or immersion blender for a smoother consistency.
+
+## Instant Pot Method
+
+[Source](https://wholelottayum.com/instant-pot-sweet-potatoes-cubed/)
+
+1. Prep the sweet potatoes by washing, peeling, and cubing them into 1\xBD" pieces.
+1. Add 1 cup of water to the bottom of the pressure cooker.
+1. Insert a vegetable steamer. If you don't have a steamer you can use the rack that came with your Instant Pot. The goal is to keep the potatoes out of the water so they don't get soggy.
+1. Add the sweet potatoes and pressure cook them for 10 minutes on High. Do a quick release of the remaining pressure.
+
+- **Uniform size:** Dice the sweet potatoes a uniform size so they cook evenly.
+- **Avoid soggy:** Use a vegetable steamer or the rack that came with your Instant Pot to keep them from getting soggy.
+- **Batch size:** The cooking time will be the same whether you need 2 lbs of cubed potatoes or as many as 5 lbs.
+- **Steamed side:** If you're wanting to serve these as a steamed and cubed side dish, just cook them on High for 3 minutes until cooked through and they will still hold their shape.
+`;
     }
   });
 
@@ -28644,6 +28705,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./donuts.md": () => require_donuts(),
     "./double-chocolate-chip-cookies.md": () => require_double_chocolate_chip_cookies(),
     "./double-chocolate-gelato.md": () => require_double_chocolate_gelato(),
+    "./easy-gravy.md": () => require_easy_gravy(),
     "./easy-green-chicken-enchiladas.md": () => require_easy_green_chicken_enchiladas(),
     "./easy-slow-cooker-pulled-pork.md": () => require_easy_slow_cooker_pulled_pork(),
     "./eggnog-custard-pie.md": () => require_eggnog_custard_pie(),
@@ -28677,6 +28739,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./marshmallow-frosting.md": () => require_marshmallow_frosting(),
     "./mascarpone-frosting.md": () => require_mascarpone_frosting(),
     "./mashed-potatoes.md": () => require_mashed_potatoes(),
+    "./mashed-sweet-potatoes.md": () => require_mashed_sweet_potatoes(),
     "./mint-chocolate-fudge.md": () => require_mint_chocolate_fudge(),
     "./molasses-cookies.md": () => require_molasses_cookies(),
     "./monkey-bread.md": () => require_monkey_bread(),
@@ -28883,7 +28946,11 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("chocolate-icing", ["Dessert/Frosting/Icing"]);
   addRecipe("chocolate-orange-fudge", ["Dessert/Fudge"]);
   addRecipe("chocolate-pastry-cream", ["Dessert/Frosting/Custard"]);
-  addRecipe("chocolate-peanut-butter-frosting", ["Dessert/Frosting/Frosting"], true);
+  addRecipe(
+    "chocolate-peanut-butter-frosting",
+    ["Dessert/Frosting/Frosting"],
+    true
+  );
   addRecipe("chocolate-peanut-butter-nice-cream", ["Dessert/Ice Cream"], true);
   addRecipe("chocolate-peppermint-pizzelles", ["Dessert/Cookies/Pizzelles"]);
   addRecipe("chocolate-pumpkin-cake", ["Dessert/Cake"]);
@@ -28905,6 +28972,11 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("donuts", ["Dessert/Donuts"]);
   addRecipe("double-chocolate-chip-cookies", ["Dessert/Cookies"], true);
   addRecipe("double-chocolate-gelato", ["Dessert/Ice Cream"]);
+  addRecipe(
+    "easy-gravy",
+    ["Seasoning", "Holidays/Fennelly Thanksgiving 2025"],
+    true
+  );
   addRecipe("easy-green-chicken-enchiladas", ["Main Dish"], true);
   addRecipe("easy-slow-cooker-pulled-pork", ["Main Dish"], true);
   addRecipe("eggnog-custard-pie", ["Dessert/Pie"]);
@@ -28922,7 +28994,11 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("gingerbread-cookies", ["Dessert/Cookies"]);
   addRecipe("grams-banana-bread", ["Dessert/Bread"], true);
   addRecipe("grape-pie", ["Dessert/Pie"]);
-  addRecipe("hersheys-perfectly-chocolate-chocolate-cake", ["Dessert/Cake"], true);
+  addRecipe(
+    "hersheys-perfectly-chocolate-chocolate-cake",
+    ["Dessert/Cake"],
+    true
+  );
   addRecipe("hot-chocolate-cookies", ["Dessert/Cookies"], true);
   addRecipe("ice-cream", ["Dessert/Ice Cream"]);
   addRecipe("iced-gingerbread-oatmeal-cookies", ["Dessert/Cookies"], true);
@@ -28941,7 +29017,16 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("marry-me-snickerdoodles", ["Dessert/Cookies"], true);
   addRecipe("marshmallow-frosting", ["Dessert/Frosting/Frosting"]);
   addRecipe("mascarpone-frosting", ["Dessert/Frosting/Frosting"]);
-  addRecipe("mashed-potatoes", ["Side Dish"], true);
+  addRecipe(
+    "mashed-potatoes",
+    ["Side Dish", "Holidays/Fennelly Thanksgiving 2025"],
+    true
+  );
+  addRecipe(
+    "mashed-sweet-potatoes",
+    ["Side Dish", "Holidays/Fennelly Thanksgiving 2025"],
+    true
+  );
   addRecipe("mint-chocolate-fudge", ["Dessert/Fudge"]);
   addRecipe("molasses-cookies", ["Dessert/Cookies"]);
   addRecipe("monkey-bread", ["Dessert/Bread"]);
@@ -28970,7 +29055,11 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("peppermint-bark", ["Dessert/Candy"]);
   addRecipe("peppermint-cannolis", ["Dessert/Cannolis/Filling"]);
   addRecipe("peppermint-glaze", ["Dessert/Frosting/Icing"]);
-  addRecipe("perfectly-chocolate-chocolate-frosting", ["Dessert/Frosting/Frosting"], true);
+  addRecipe(
+    "perfectly-chocolate-chocolate-frosting",
+    ["Dessert/Frosting/Frosting"],
+    true
+  );
   addRecipe("pie-crust", ["Dessert/Pie/Pie Crusts"]);
   addRecipe("pineapple-cookies", ["Dessert/Cookies"]);
   addRecipe("pineapple-pumpkin-bread-muffins", [
@@ -29017,7 +29106,11 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("sweet-potato-pie", ["Dessert/Pie"]);
   addRecipe("texas-cinnamon-butter", ["Seasoning"], true);
   addRecipe("texas-roadhouse-rolls", ["Side Dish"], true);
-  addRecipe("tinis-famous-mac-and-cheese", ["Main Dish"], true);
+  addRecipe(
+    "tinis-famous-mac-and-cheese",
+    ["Main Dish", "Holidays/Fennelly Thanksgiving 2025"],
+    true
+  );
   addRecipe("tiramisu", ["Dessert/Cake"]);
   addRecipe("toll-house-chocolate-chip-cookies", ["Dessert/Cookies"], true);
   addRecipe("triple-chocolate-brownies", ["Dessert/Brownies"]);

@@ -143,6 +143,11 @@ addRecipe("donut-glaze", ["Dessert/Donuts"]);
 addRecipe("donuts", ["Dessert/Donuts"]);
 addRecipe("double-chocolate-chip-cookies", ["Dessert/Cookies"], true);
 addRecipe("double-chocolate-gelato", ["Dessert/Ice Cream"]);
+addRecipe(
+  "easy-gravy",
+  ["Seasoning", "Holidays/Fennelly Thanksgiving 2025"],
+  true,
+);
 addRecipe("easy-green-chicken-enchiladas", ["Main Dish"], true);
 addRecipe("easy-slow-cooker-pulled-pork", ["Main Dish"], true);
 addRecipe("eggnog-custard-pie", ["Dessert/Pie"]);
@@ -185,6 +190,11 @@ addRecipe("marshmallow-frosting", ["Dessert/Frosting/Frosting"]);
 addRecipe("mascarpone-frosting", ["Dessert/Frosting/Frosting"]);
 addRecipe(
   "mashed-potatoes",
+  ["Side Dish", "Holidays/Fennelly Thanksgiving 2025"],
+  true,
+);
+addRecipe(
+  "mashed-sweet-potatoes",
   ["Side Dish", "Holidays/Fennelly Thanksgiving 2025"],
   true,
 );
@@ -267,7 +277,11 @@ addRecipe("sweet-corn-guacamole", ["Appetizer"], true);
 addRecipe("sweet-potato-pie", ["Dessert/Pie"]);
 addRecipe("texas-cinnamon-butter", ["Seasoning"], true);
 addRecipe("texas-roadhouse-rolls", ["Side Dish"], true);
-addRecipe("tinis-famous-mac-and-cheese", ["Main Dish"], true);
+addRecipe(
+  "tinis-famous-mac-and-cheese",
+  ["Main Dish", "Holidays/Fennelly Thanksgiving 2025"],
+  true,
+);
 addRecipe("tiramisu", ["Dessert/Cake"]);
 addRecipe("toll-house-chocolate-chip-cookies", ["Dessert/Cookies"], true);
 addRecipe("triple-chocolate-brownies", ["Dessert/Brownies"]);
