@@ -266,6 +266,11 @@ addRecipe("rule-of-3-garlic-buffalo-wing-sauce", ["Seasoning"], true);
 addRecipe("salsa-morada", ["Seasoning"], true);
 addRecipe("sherbet", ["Dessert/Ice Cream"]);
 addRecipe("shortbread-cookies", ["Dessert/Cookies"]);
+addRecipe(
+  "simple-whole-roast-turkey",
+  ["Main Dish", "Holidays/Fennelly Thanksgiving 2025"],
+  true,
+);
 addRecipe("snickerdoodles", ["Dessert/Cookies"]);
 addRecipe("sorbet", ["Dessert/Ice Cream"]);
 addRecipe("southwestern-egg-casserole", ["Breakfast"], true);
