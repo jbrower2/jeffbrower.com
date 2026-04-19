@@ -125,6 +125,7 @@ addRecipe("cookies-and-cream-fudge", ["Dessert/Fudge"]);
 addRecipe("cornbread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
 addRecipe("cream-cheese-frosting", ["Dessert/Frosting/Frosting"], true);
 addRecipe("cream-puffs", ["Dessert/Pastry"]);
+addRecipe("dirty-rice", ["Main Dish"], true);
 addRecipe("donut-glaze", ["Dessert/Donuts"]);
 addRecipe("donuts", ["Dessert/Donuts"]);
 addRecipe("double-chocolate-gelato", ["Dessert/Ice Cream"]);

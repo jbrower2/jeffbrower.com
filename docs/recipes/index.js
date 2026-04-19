@@ -24201,6 +24201,13 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
     }
   });
 
+  // src/data/dirty-rice.md
+  var require_dirty_rice = __commonJS({
+    "src/data/dirty-rice.md"(exports, module) {
+      module.exports = "# Dirty Rice\n\n- **Servings:** {12}\n\n## Ingredients\n\n- {1} lb. bacon\n- {1} lb. hot or sweet sausage\n- {1} lb. ground beef\n- {3 1/4} cups water\n- {1} package Zatarain's dirty rice mix\n- {1/2} cup white rice\n- {3} tbsp butter, divided\n- {2} cans diced tomatoes (optional)\n- {1/2} cup chopped pecans (optional)\n- {2} to {3} green/red/yellow chopped peppers\n- {2} chopped onions\n- {1 1/2} cups dried cranberries/Craisins\n- tortilla shells\n- shredded taco blend cheese\n- sour cream\n\n## Instructions\n\n1. Cook the bacon and set aside.\n1. Remove the sausage from the casing and brown in large pan. Set aside.\n1. In the same pan, brown ground beef. Drain and set aside.\n1. Add water to same pan and bring to a boil.\n1. Stir in dirty rice mix, white rice, sausage, and ground beef. Return to a boil.\n1. Reduce heat to low. Cover and simmer 25\u201330 minutes. Optional: add {2} cans of diced tomatoes.\n1. Remove from heat and let stand for 5 minutes.\n1. Melt {1} tbsp butter in a frying pan. Brown pecans (about 2\u20133 minutes). Add to rice mixture.\n1. Melt {2} tbsp butter in same frying pan. Add the peppers, onions, and cranberries. Cook until tender (3\u20134 minutes), stirring so the onions don't brown. Add to the rice mixture.\n1. Crumble the bacon and stir it into the rice mixture.\n1. Pour into serving dish. Cover with a few handfuls of shredded cheese.\n1. Sprinkle a little cheese on a tortilla. Microwave 30 seconds until cheese melts. Spoon rice mixture over the cheese and add a dollop of sour cream. Serve.\n";
+    }
+  });
+
   // src/data/donut-glaze.md
   var require_donut_glaze = __commonJS({
     "src/data/donut-glaze.md"(exports, module) {
@@ -28442,6 +28449,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./cornbread-muffins.md": () => require_cornbread_muffins(),
     "./cream-cheese-frosting.md": () => require_cream_cheese_frosting(),
     "./cream-puffs.md": () => require_cream_puffs(),
+    "./dirty-rice.md": () => require_dirty_rice(),
     "./donut-glaze.md": () => require_donut_glaze(),
     "./donuts.md": () => require_donuts(),
     "./double-chocolate-gelato.md": () => require_double_chocolate_gelato(),
@@ -28677,6 +28685,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("cornbread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
   addRecipe("cream-cheese-frosting", ["Dessert/Frosting/Frosting"], true);
   addRecipe("cream-puffs", ["Dessert/Pastry"]);
+  addRecipe("dirty-rice", ["Main Dish"], true);
   addRecipe("donut-glaze", ["Dessert/Donuts"]);
   addRecipe("donuts", ["Dessert/Donuts"]);
   addRecipe("double-chocolate-gelato", ["Dessert/Ice Cream"]);
