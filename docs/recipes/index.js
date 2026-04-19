@@ -24334,6 +24334,13 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
     }
   });
 
+  // src/data/grams-banana-bread.md
+  var require_grams_banana_bread = __commonJS({
+    "src/data/grams-banana-bread.md"(exports, module) {
+      module.exports = "# Gram's Banana Bread\n\n- **Servings:** {10}\n- **Yield:** {1} loaf\n- **Cook Time:** 1 hour\n\n## Ingredients\n\n- {3} large bananas, mashed\n- {3/4} cup sugar\n- {2} eggs\n- {2} cups flour\n- {1/2} tsp baking powder\n- {1} tsp baking soda\n- {1/2} tsp salt\n- {2} tsp vanilla\n- {8} oz chocolate chips\n\n## Instructions\n\n1. Mix bananas, sugar, and eggs with a wooden spoon.\n1. Incorporate flour, baking powder, baking soda, and salt into wet ingredients.\n1. Stir in vanilla and chocolate chips.\n1. Grease one loaf pan and bake at 325\xB0F for an hour or longer.\n\n## Notes\n\n- **Texture:** Dry and more bread than cake-like. All dough into one bread pan next time. Maybe less flour?\n- **Add fat:** Try two extra egg yolks to add more fat, or add {1/2} cup butter.\n- **Bake time:** Bake less than an hour, more like 50 minutes.\n";
+    }
+  });
+
   // src/data/grape-pie.md
   var require_grape_pie = __commonJS({
     "src/data/grape-pie.md"(exports, module) {
@@ -28626,6 +28633,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./gelato.md": () => require_gelato(),
     "./ginger-snaps.md": () => require_ginger_snaps(),
     "./gingerbread-cookies.md": () => require_gingerbread_cookies(),
+    "./grams-banana-bread.md": () => require_grams_banana_bread(),
     "./grape-pie.md": () => require_grape_pie(),
     "./hersheys-perfectly-chocolate-chocolate-cake.md": () => require_hersheys_perfectly_chocolate_chocolate_cake(),
     "./hot-chocolate-cookies.md": () => require_hot_chocolate_cookies(),
@@ -28882,6 +28890,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("gelato", ["Dessert/Ice Cream"]);
   addRecipe("ginger-snaps", ["Dessert/Cookies"]);
   addRecipe("gingerbread-cookies", ["Dessert/Cookies"]);
+  addRecipe("grams-banana-bread", ["Dessert/Bread"], true);
   addRecipe("grape-pie", ["Dessert/Pie"]);
   addRecipe("hersheys-perfectly-chocolate-chocolate-cake", ["Dessert/Cake"], true);
   addRecipe("hot-chocolate-cookies", ["Dessert/Cookies"], true);

@@ -148,6 +148,7 @@ addRecipe("funnel-cake", ["Dessert/Donuts"]);
 addRecipe("gelato", ["Dessert/Ice Cream"]);
 addRecipe("ginger-snaps", ["Dessert/Cookies"]);
 addRecipe("gingerbread-cookies", ["Dessert/Cookies"]);
+addRecipe("grams-banana-bread", ["Dessert/Bread"], true);
 addRecipe("grape-pie", ["Dessert/Pie"]);
 addRecipe("hersheys-perfectly-chocolate-chocolate-cake", ["Dessert/Cake"], true);
 addRecipe("hot-chocolate-cookies", ["Dessert/Cookies"], true);
