@@ -23893,6 +23893,13 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
     }
   });
 
+  // src/data/cheesy-hashbrown-casserole.md
+  var require_cheesy_hashbrown_casserole = __commonJS({
+    "src/data/cheesy-hashbrown-casserole.md"(exports, module) {
+      module.exports = "# Cheesy Hashbrown Casserole\n\nThis cheesy hashbrown casserole has lots of Cheddar and a crunchy cornflake topping. An easy, crowd-pleasing side dish for holidays.\n\n- **Servings:** {12}\n- **Yield:** {1} (3-quart) casserole\n- [Source](https://www.allrecipes.com/recipe/18511/hash-brown-casserole-ii/)\n- **Prep Time:** 20 minutes\n- **Cook Time:** 40 minutes\n- **Total Time:** 1 hour\n\n## Ingredients\n\n- {1} (2 pound) package frozen hash brown potatoes, thawed\n- {2} cups shredded Cheddar cheese\n- {1} (10.5 ounce) can condensed cream of chicken soup\n- {1} (8 ounce) container sour cream\n- {3/4} cup butter, melted, divided\n- {1/2} cup chopped onion\n- {1} teaspoon salt\n- {1/4} teaspoon ground black pepper\n- {2} cups crushed cornflakes\n\n## Instructions\n\n1. Preheat the oven to 350 degrees F (175 degrees C).\n1. Combine hash browns, Cheddar cheese, condensed soup, sour cream, {1/2} cup melted butter, onion, salt, and pepper in a large bowl.\n1. Transfer mixture to a 3-quart casserole dish.\n1. Add remaining {1/4} cup melted butter and cornflakes to a saucepan over medium heat; stir gently until cornflakes are coated in butter.\n1. Sprinkle cornflake mixture on top of casserole.\n1. Cover casserole and bake in the preheated oven until hot and top is crispy, about 40 minutes.\n1. Serve warm.\n";
+    }
+  });
+
   // src/data/cherry-banana-bread-muffins.md
   var require_cherry_banana_bread_muffins = __commonJS({
     "src/data/cherry-banana-bread-muffins.md"(exports, module) {
@@ -28204,6 +28211,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./carrot-cake.md": () => require_carrot_cake(),
     "./cheesecake-shell.md": () => require_cheesecake_shell(),
     "./cheesecake.md": () => require_cheesecake(),
+    "./cheesy-hashbrown-casserole.md": () => require_cheesy_hashbrown_casserole(),
     "./cherry-banana-bread-muffins.md": () => require_cherry_banana_bread_muffins(),
     "./cherry-pie.md": () => require_cherry_pie(),
     "./chocolate-brownies.md": () => require_chocolate_brownies(),
@@ -28366,7 +28374,8 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "Dessert/Pie",
     "Dessert/Pie/Pie Crusts",
     "Drink",
-    "Main Dish"
+    "Main Dish",
+    "Side Dish"
   ]);
   var recipes = [];
   function nameFromMarkdown(md) {
@@ -28417,6 +28426,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("carrot-cake-cupcakes", ["Dessert/Cupcakes"], true);
   addRecipe("cheesecake", ["Dessert/Cake/Cheesecake"]);
   addRecipe("cheesecake-shell", ["Dessert/Cake/Cheesecake/Shells"]);
+  addRecipe("cheesy-hashbrown-casserole", ["Side Dish"], true);
   addRecipe("cherry-banana-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
   addRecipe("cherry-pie", ["Dessert/Pie"]);
   addRecipe("chocolate-brownies", ["Dessert/Brownies"]);

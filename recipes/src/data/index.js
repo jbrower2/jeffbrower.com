@@ -24,6 +24,7 @@ const CATEGORIES = new Set([
   "Dessert/Pie/Pie Crusts",
   "Drink",
   "Main Dish",
+  "Side Dish",
 ]);
 
 const recipes = [];
@@ -78,6 +79,7 @@ addRecipe("carrot-cake", ["Dessert/Cake"], true);
 addRecipe("carrot-cake-cupcakes", ["Dessert/Cupcakes"], true);
 addRecipe("cheesecake", ["Dessert/Cake/Cheesecake"]);
 addRecipe("cheesecake-shell", ["Dessert/Cake/Cheesecake/Shells"]);
+addRecipe("cheesy-hashbrown-casserole", ["Side Dish"], true);
 addRecipe("cherry-banana-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
 addRecipe("cherry-pie", ["Dessert/Pie"]);
 addRecipe("chocolate-brownies", ["Dessert/Brownies"]);

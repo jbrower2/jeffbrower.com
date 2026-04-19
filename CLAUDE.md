@@ -17,10 +17,20 @@ Outputs to `../docs/recipes/index.js`. Always rebuild after editing markdown or 
 ### Adding a recipe
 
 1. Write the markdown file at `recipes/src/data/<slug>.md`.
-2. Add `<slug>` to the `shown` Set in `recipes/src/data/index.js` (alphabetically).
+2. Add an `addRecipe(slug, categories, shown?)` call to `recipes/src/data/index.js`, placed alongside related recipes. File order IS display order.
 3. `npm run build`.
 
-Old/legacy recipes live in the `notShown` array in `index.js`; the user is gradually weeding through them. Don't move things between `shown` and `notShown` without being asked.
+### Categories
+
+`recipes/src/data/index.js` is an imperative builder:
+
+- A top-of-file `CATEGORIES` Set lists every valid category path. `addRecipe` validates inputs at module-load time — unknown categories throw.
+- Categories are slash-separated strings like `"Dessert/Cookies/Pizzelles"`. A recipe can belong to multiple — pass an array like `["Dessert/Bread", "Dessert/Muffins"]` for a bread-or-muffin variant; it'll render under both nodes.
+- `shown` is an optional third parameter. Pass `true` only for curated recipes that appear by default; omit it for legacy archive recipes only visible behind the "Show All" toggle. Don't flip an existing recipe's `shown` status without being asked.
+
+To introduce a new category, add the string to `CATEGORIES` first, then use it.
+
+The `RecipeList` page renders these as a collapsible tree and persists filter/expanded state in `sessionStorage` so the back button from a recipe restores the view.
 
 ### Markdown structure
 
