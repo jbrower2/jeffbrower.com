@@ -23602,6 +23602,13 @@
     }
   });
 
+  // src/data/apple-cider.md
+  var require_apple_cider = __commonJS({
+    "src/data/apple-cider.md"(exports, module) {
+      module.exports = "# Apple Cider\n\nThis apple cider recipe is easy to make at home without an apple press. Cider may be frozen for longer storage.\n\n- **Servings:** {16}\n- **Yield:** {1} gallon of cider\n- [Source](https://www.allrecipes.com/recipe/211772/homemade-apple-cider/)\n- **Prep Time:** 15 minutes\n- **Cook Time:** 3 hours\n- **Total Time:** 3 hours 15 minutes\n\n## Ingredients\n\n- {10} large apples, quartered\n- water, to cover\n- {3/4} cup white sugar\n- {1} tablespoon ground cinnamon\n- {1} tablespoon ground allspice\n\n## Instructions\n\n1. Place apples in a large stockpot; cover with water by at least 2 inches. Stir in sugar, cinnamon, and allspice. Bring to a boil over medium-high heat. Boil, uncovered, for 1 hour. Reduce heat to low; cover and simmer for 2 hours.\n1. Strain apple mixture through a fine-mesh sieve; discard solids. Drain cider again through a cheesecloth-lined sieve.\n1. Serve warm or refrigerate cider until cold.\n";
+    }
+  });
+
   // src/data/apple-fritters.md
   var require_apple_fritters = __commonJS({
     "src/data/apple-fritters.md"(exports, module) {
@@ -24677,13 +24684,6 @@ Combine base flavors with the listed additions.
   var require_iced_gingerbread_oatmeal_cookies = __commonJS({
     "src/data/iced-gingerbread-oatmeal-cookies.md"(exports, module) {
       module.exports = "# Iced Gingerbread Oatmeal Cookies\n\n- **Servings:** {22}\n- **Yield:** {22} cookies\n- **Chill Time:** 30 minutes\n- **Cook Time:** 9-11 minutes\n\n## Ingredients\n\n- {1} cup unsalted butter, melted\n- {1} cup brown sugar\n- {1/2} cup granulated sugar\n- {1} egg + {1} egg yolk\n- {1} Tbsp vanilla extract\n- {2} Tbsp molasses\n- {1 1/2} cups old fashioned oats, blended to break up the oats (not blended into flour)\n- {2} cups all purpose flour\n- {2} tsp cinnamon\n- {2} tsp ginger\n- {1/4} tsp nutmeg\n- {3/4} tsp salt\n- {1/2} tsp baking soda\n- {1/2} tsp baking powder\n\n### Glaze\n\n- {1 1/2} cups powdered sugar\n- {2}-{3} Tbsp milk\n- {1/2} tsp vanilla extract\n\n## Instructions\n\n1. Whisk together the melted butter and sugars, then whisk in the rest of the wet ingredients.\n1. Fold in the dry ingredients.\n1. Scoop with a 2 tablespoon cookie scoop and chill for 30 minutes.\n1. Bake at 350\xB0F for 9-11 minutes.\n1. Once cool, dip in glaze and let set at least an hour.\n";
-    }
-  });
-
-  // src/data/john-mayers-apple-cider.md
-  var require_john_mayers_apple_cider = __commonJS({
-    "src/data/john-mayers-apple-cider.md"(exports, module) {
-      module.exports = "# John Mayer's Apple Cider\n\n- **Servings:** {1}\n- **Yield:** {1} batch\n- [Source](https://www.instagram.com/p/Bo6LkF-nPHd/)\n- **Cook Time:** 3 hours\n\n## Ingredients\n\n- {10} apples, quartered\n- {3/4} cup white sugar\n- {1} tbsp ground cinnamon\n- {1} tbsp ground allspice\n\n## Instructions\n\n1. Place apples in a large stockpot and add enough water to cover by at least 2 inches.\n1. Stir in sugar, cinnamon, and allspice.\n1. Bring to a boil. Boil, uncovered, for 1 hour.\n1. Cover pot, reduce heat, and simmer for 2 hours.\n1. Strain apple mixture through a fine mesh sieve. Discard solids.\n1. Drain cider again through a cheesecloth lined sieve.\n1. Refrigerate until cold.\n";
     }
   });
 
@@ -28219,6 +28219,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   var globRequire_md = __glob({
     "./almond-pastry-cream.md": () => require_almond_pastry_cream(),
     "./apple-bread.md": () => require_apple_bread(),
+    "./apple-cider.md": () => require_apple_cider(),
     "./apple-fritters.md": () => require_apple_fritters(),
     "./apple-muffins.md": () => require_apple_muffins(),
     "./apple-pear-pie.md": () => require_apple_pear_pie(),
@@ -28302,7 +28303,6 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./hot-chocolate-cookies.md": () => require_hot_chocolate_cookies(),
     "./ice-cream.md": () => require_ice_cream(),
     "./iced-gingerbread-oatmeal-cookies.md": () => require_iced_gingerbread_oatmeal_cookies(),
-    "./john-mayers-apple-cider.md": () => require_john_mayers_apple_cider(),
     "./key-lime-pie.md": () => require_key_lime_pie(),
     "./lemon-cookies.md": () => require_lemon_cookies(),
     "./lemon-glaze.md": () => require_lemon_glaze(),
@@ -28440,6 +28440,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   }
   addRecipe("almond-pastry-cream", ["Dessert/Frosting/Custard"]);
   addRecipe("apple-bread", ["Dessert/Bread"]);
+  addRecipe("apple-cider", ["Drink"], true);
   addRecipe("apple-fritters", ["Dessert/Donuts"]);
   addRecipe("apple-muffins", ["Dessert/Muffins"]);
   addRecipe("apple-pear-pie", ["Dessert/Pie"]);
@@ -28527,7 +28528,6 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("hot-chocolate-cookies", ["Dessert/Cookies"], true);
   addRecipe("ice-cream", ["Dessert/Ice Cream"]);
   addRecipe("iced-gingerbread-oatmeal-cookies", ["Dessert/Cookies"], true);
-  addRecipe("john-mayers-apple-cider", ["Drink"], true);
   addRecipe("key-lime-pie", ["Dessert/Pie"]);
   addRecipe("lemon-cookies", ["Dessert/Cookies"]);
   addRecipe("lemon-glaze", ["Dessert/Frosting/Icing"]);

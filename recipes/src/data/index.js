@@ -53,6 +53,7 @@ function addRecipe(slug, categories, shown) {
 
 addRecipe("almond-pastry-cream", ["Dessert/Frosting/Custard"]);
 addRecipe("apple-bread", ["Dessert/Bread"]);
+addRecipe("apple-cider", ["Drink"], true);
 addRecipe("apple-fritters", ["Dessert/Donuts"]);
 addRecipe("apple-muffins", ["Dessert/Muffins"]);
 addRecipe("apple-pear-pie", ["Dessert/Pie"]);
@@ -140,7 +141,6 @@ addRecipe("grape-pie", ["Dessert/Pie"]);
 addRecipe("hot-chocolate-cookies", ["Dessert/Cookies"], true);
 addRecipe("ice-cream", ["Dessert/Ice Cream"]);
 addRecipe("iced-gingerbread-oatmeal-cookies", ["Dessert/Cookies"], true);
-addRecipe("john-mayers-apple-cider", ["Drink"], true);
 addRecipe("key-lime-pie", ["Dessert/Pie"]);
 addRecipe("lemon-cookies", ["Dessert/Cookies"]);
 addRecipe("lemon-glaze", ["Dessert/Frosting/Icing"]);
