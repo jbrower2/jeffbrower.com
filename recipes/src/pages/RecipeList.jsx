@@ -63,6 +63,7 @@ function ancestorsWithMatch(root, matchSet) {
 
 function TreeNode({ node, expanded, toggle, forceExpand, name, filter }) {
   const key = node.path.join("/");
+  if (filter && !forceExpand.has(key)) return null;
   const isOpen = forceExpand.has(key) || expanded.has(key);
   const count = countDistinct(node);
   return (

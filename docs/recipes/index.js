@@ -25378,7 +25378,7 @@ Super soft peanut butter cookies stuffed with Reese's Peanut Butter Cups and dri
   // src/data/rivers-banana-bread.md
   var require_rivers_banana_bread = __commonJS({
     "src/data/rivers-banana-bread.md"(exports, module) {
-      module.exports = "# Rivers Banana Bread\n\n- **Servings:** {10}\n- **Yield:** {1} loaf\n- **Cook Time:** 60 minutes\n\n## Ingredients\n\n- {3} ripe bananas\n- {1/3} cup butter, melted\n- {1/2} cup sugar\n- {1} egg, beaten\n- {1} tsp vanilla\n- {1} tsp baking soda\n- {1} tsp salt\n- {1 1/2} cup flour\n- {1/2} cup mini chocolate chips\n\n## Instructions\n\n1. Preheat oven to 350\xB0F.\n1. Mash bananas until smooth.\n1. Add melted butter and stir.\n1. Add sugar, egg, vanilla, baking soda, salt, and flour. Stir until smooth.\n1. Add chocolate chips.\n1. Add to greased loaf pan and top with extra chocolate chips.\n1. Bake for 60 minutes or until toothpick is clean.\n";
+      module.exports = "# River's Banana Bread\n\n- **Servings:** {10}\n- **Yield:** {1} loaf\n- **Cook Time:** 60 minutes\n\n## Ingredients\n\n- {3} ripe bananas\n- {1/3} cup butter, melted\n- {1/2} cup sugar\n- {1} egg, beaten\n- {1} tsp vanilla\n- {1} tsp baking soda\n- {1} tsp salt\n- {1 1/2} cup flour\n- {1/2} cup mini chocolate chips\n\n## Instructions\n\n1. Preheat oven to 350\xB0F.\n1. Mash bananas until smooth.\n1. Add melted butter and stir.\n1. Add sugar, egg, vanilla, baking soda, salt, and flour. Stir until smooth.\n1. Add chocolate chips.\n1. Add to greased loaf pan and top with extra chocolate chips.\n1. Bake for 60 minutes or until toothpick is clean.\n";
     }
   });
 
@@ -29065,6 +29065,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   }
   function TreeNode({ node, expanded, toggle, forceExpand, name, filter }) {
     const key = node.path.join("/");
+    if (filter && !forceExpand.has(key)) return null;
     const isOpen = forceExpand.has(key) || expanded.has(key);
     const count = countDistinct(node);
     return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", { style: { listStyle: "none", margin: "2px 0" }, children: [
