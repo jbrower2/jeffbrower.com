@@ -1,6 +1,23 @@
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import recipes from "../data";
+
+const STATE_KEY = "recipeList:state";
+
+function loadSavedState() {
+  try {
+    const raw = sessionStorage.getItem(STATE_KEY);
+    if (!raw) return null;
+    const s = JSON.parse(raw);
+    return {
+      filter: typeof s.filter === "string" ? s.filter : "",
+      showAll: s.showAll === true,
+      expanded: new Set(Array.isArray(s.expanded) ? s.expanded : []),
+    };
+  } catch {
+    return null;
+  }
+}
 
 // Build a nested tree: { children: Map<string, Node>, recipes: Recipe[], path: string[] }
 // Recipes appear at the deepest node of each of their category paths.
@@ -108,9 +125,20 @@ function TreeNode({ node, expanded, toggle, forceExpand, name, filter }) {
 }
 
 export default function RecipeList() {
-  const [filter, setFilter] = useState("");
-  const [showAll, setShowAll] = useState(false);
-  const [expanded, setExpanded] = useState(new Set());
+  const [filter, setFilter] = useState(() => loadSavedState()?.filter ?? "");
+  const [showAll, setShowAll] = useState(() => loadSavedState()?.showAll ?? false);
+  const [expanded, setExpanded] = useState(() => loadSavedState()?.expanded ?? new Set());
+
+  useEffect(() => {
+    try {
+      sessionStorage.setItem(
+        STATE_KEY,
+        JSON.stringify({ filter, showAll, expanded: [...expanded] }),
+      );
+    } catch {
+      // sessionStorage unavailable (private mode, quota) — non-fatal.
+    }
+  }, [filter, showAll, expanded]);
 
   const visibleRecipes = useMemo(
     () => (showAll ? recipes : recipes.filter((r) => r.show)),
