@@ -214,6 +214,7 @@ addRecipe("oatmeal-raisin-cookies", ["Dessert/Cookies"]);
 addRecipe("orange-brownies", ["Dessert/Brownies"]);
 addRecipe("orange-cinnamon-swirl-bread-muffins", ["Dessert/Bread"]);
 addRecipe("orange-creamsicle-fudge", ["Dessert/Fudge"]);
+addRecipe("orange-julius", ["Drink"], true);
 addRecipe("orange-pastry-cream", ["Dessert/Frosting/Custard"]);
 addRecipe("orange-rolls", ["Dessert/Donuts"]);
 addRecipe("oreo-graham-cracker-pie-crust", ["Dessert/Pie/Pie Crusts"]);
