@@ -28072,7 +28072,6 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "pineapple-cookies",
     "pineapple-pumpkin-bread-muffins",
     "pizzelles",
-    "prime-rib",
     "pumpkin-bread-muffins",
     "pumpkin-butterscotch-fudge",
     "pumpkin-cannolis",
@@ -28122,6 +28121,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "iced-gingerbread-oatmeal-cookies",
     "marry-me-snickerdoodles",
     "nanas-rocky-road-candies",
+    "prime-rib",
     "rice-krispie-treats",
     "southwestern-egg-casserole"
   ]);

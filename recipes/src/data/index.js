@@ -109,7 +109,6 @@ const notShown = [
   "pineapple-cookies",
   "pineapple-pumpkin-bread-muffins",
   "pizzelles",
-  "prime-rib",
   "pumpkin-bread-muffins",
   "pumpkin-butterscotch-fudge",
   "pumpkin-cannolis",
@@ -160,6 +159,7 @@ const shown = new Set([
   "iced-gingerbread-oatmeal-cookies",
   "marry-me-snickerdoodles",
   "nanas-rocky-road-candies",
+  "prime-rib",
   "rice-krispie-treats",
   "southwestern-egg-casserole",
 ]);
