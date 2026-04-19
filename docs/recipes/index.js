@@ -24923,6 +24923,13 @@ Combine base flavors with the listed additions.
     }
   });
 
+  // src/data/nanas-brownie-balls.md
+  var require_nanas_brownie_balls = __commonJS({
+    "src/data/nanas-brownie-balls.md"(exports, module) {
+      module.exports = "# Nana's Brownie Balls\n\n- **Servings:** {20}\n- **Cook Time:** 20 minutes\n\n## Ingredients\n\n- {2} sq. unsweetened chocolate\n- {1} stick ({1/2} c.) butter\n- {1} c. sugar or less\n- {1/4} c. flour or a bit more\n- {1} tsp. vanilla\n- {2} eggs (unbeaten)\n\n## Instructions\n\n1. Melt chocolate and butter. Add rest of ingredients. Mix.\n1. Put in 8x8 pan or 9-inch round pan. Bake at 345\xB0F for 20 minutes.\n1. Let cool for one hour or more, then form into balls.\n1. Let set for 1/2 hour, then sprinkle with confectioners sugar and place each in a mini muffin cup.\n\n## Notes\n\n- **Texture:** Brownie Balls are very soft. They look undone.\n";
+    }
+  });
+
   // src/data/nanas-rocky-road-candies.md
   var require_nanas_rocky_road_candies = __commonJS({
     "src/data/nanas-rocky-road-candies.md"(exports, module) {
@@ -28539,6 +28546,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./mint-chocolate-fudge.md": () => require_mint_chocolate_fudge(),
     "./molasses-cookies.md": () => require_molasses_cookies(),
     "./monkey-bread.md": () => require_monkey_bread(),
+    "./nanas-brownie-balls.md": () => require_nanas_brownie_balls(),
     "./nanas-rocky-road-candies.md": () => require_nanas_rocky_road_candies(),
     "./nutella-frosting.md": () => require_nutella_frosting(),
     "./nutella-fudge.md": () => require_nutella_fudge(),
@@ -28786,6 +28794,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("mint-chocolate-fudge", ["Dessert/Fudge"]);
   addRecipe("molasses-cookies", ["Dessert/Cookies"]);
   addRecipe("monkey-bread", ["Dessert/Bread"]);
+  addRecipe("nanas-brownie-balls", ["Dessert/Candy"], true);
   addRecipe("nanas-rocky-road-candies", ["Dessert/Candy"], true);
   addRecipe("nutella-frosting", ["Dessert/Frosting/Frosting"]);
   addRecipe("nutella-fudge", ["Dessert/Fudge"]);
