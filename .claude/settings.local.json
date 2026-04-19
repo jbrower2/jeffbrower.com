@@ -29,7 +29,9 @@
       "WebSearch",
       "WebFetch(domain:www.food.com)",
       "WebFetch(domain:web.archive.org)",
-      "WebFetch(domain:www.copymethat.com)"
+      "WebFetch(domain:www.copymethat.com)",
+      "WebFetch(domain:www.allrecipes.com)",
+      "WebFetch(domain:www.punchfork.com)"
     ]
   }
 }

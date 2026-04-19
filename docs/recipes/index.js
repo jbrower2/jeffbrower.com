@@ -23704,6 +23704,46 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
     }
   });
 
+  // src/data/best-damn-instant-pot-pork-tenderloin.md
+  var require_best_damn_instant_pot_pork_tenderloin = __commonJS({
+    "src/data/best-damn-instant-pot-pork-tenderloin.md"(exports, module) {
+      module.exports = `# Best Damn Instant Pot Pork Tenderloin
+
+- **Servings:** {3}
+- **Yield:** 2-3 servings
+- [Source](https://recipeteacher.com/best-damn-instant-pot-pork-tenderloin/)
+- **Prep Time:** 10 minutes
+- **Cook Time:** 3 minutes
+- **Total Time:** 13 minutes
+
+## Ingredients
+
+- {1} pork tenderloin, 1.25 lb \u2013 1.5 lb
+- {2} tablespoons brown sugar
+- {2} teaspoons course ground black pepper (use less to taste preference \u2013 see note at bottom)
+- {1 1/4} teaspoons salt
+- {1} teaspoon paprika
+- {1/2} teaspoon onion powder
+- {1/4} teaspoon garlic powder
+- {1} cup chicken broth
+- {1/2} tablespoon Worcestershire sauce
+- {1} teaspoon Liquid Smoke
+
+## Instructions
+
+1. Let pork tenderloin stay in package out of fridge for 15-20 minutes. Remove tenderloin from package and rinse and pat dry. Trim any visible fat. Cut tenderloin into 2 pieces of equal length.
+1. Coat each piece with about 1 teaspoon each of olive oil. In a small dish, combine all dry ingredients and mix well. Apply the rub liberally onto meat.
+1. Set Instant Pot to Saute mode. When hot, add meat and brown each side for a couple of minutes each. When all sides are browned, press Cancel and remove meat to a plate. Add the chicken stock to the pot and use a wooden spoon to scrape all the bits from the bottom of the pot. Add the Worcestershire sauce and liquid smoke to the chicken broth.
+1. Place meat directly into the liquid, secure lid, set the vent to "sealing". Pressure cook (manual) on high pressure for 3 minutes. When cycle is complete, allow pressure to naturally release for 15 minutes. Remove meat to a plate and let sit for 5 minutes before slicing into pieces about 1/4 inch thick.
+1. **To make gravy:** After removing meat, press Cancel, then press Saute. Scoop out 3 tablespoons of the liquid to a separate cup and add 2 tablespoons of corn starch. Mix well until corn starch is dissolved. Slowly pour mixture back into the liquid in the pot. Once it starts to boil, press cancel. Mix well and sauce will thicken into a delicious gravy.
+
+## Notes
+
+- **Pepper:** If you're normally sensitive to pepper, please feel free to use less to your personal taste.
+`;
+    }
+  });
+
   // src/data/biscotti.md
   var require_biscotti = __commonJS({
     "src/data/biscotti.md"(exports, module) {
@@ -23722,6 +23762,20 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
   var require_blackened_mahi_mahi = __commonJS({
     "src/data/blackened-mahi-mahi.md"(exports, module) {
       module.exports = "# Blackened Mahi Mahi\n\nYou can easily control the level of spiciness in blackened fish by making your own Cajun spice mix. This is a super fast, incredibly delicious way to add more seafood to your diet.\n\n- **Servings:** {4}\n- [Source](https://www.fromvalerieskitchen.com/blackened-mahi-mahi/)\n- **Prep Time:** 10 minutes\n- **Cook Time:** 8 minutes\n- **Total Time:** 18 minutes\n\n## Ingredients\n\n- {4} mahi mahi fillets, approximately 6 ounces each\n- {2} tablespoons butter\n- {1} tablespoon olive oil\n- {1} lemon\n- {1} batch [Kickin' Cajun Seasoning Mix](#/kickin-cajun-seasoning-mix)\n\n## Instructions\n\n1. Pat fillets dry with paper towels. Season the fillets liberally with the Cajun spice mix on both sides, pressing the seasoning into the fish with your hands. Wash hands thoroughly.\n1. Place a large saute pan over medium-high heat and add butter and oil. When the fat is nice and hot, add the seasoned fish. Cook, undisturbed, for several minutes, until golden brown on one side. Flip fish over and continue to cook until opaque and completely cooked through.\n1. Squeeze lemon juice over the fish and serve.\n";
+    }
+  });
+
+  // src/data/blackstone-chicken-fajitas.md
+  var require_blackstone_chicken_fajitas = __commonJS({
+    "src/data/blackstone-chicken-fajitas.md"(exports, module) {
+      module.exports = "# Easy Blackstone Chicken Fajitas\n\nLooking for a delicious and easy way to make fajitas? Look no further than your Blackstone Griddle! With just a few simple ingredients, you can have a fantastic meal that the whole family will love. So fire up your griddle and get cooking!\n\n- **Servings:** {8}\n- [Source](https://wendypolisi.com/blackstone-fajitas/)\n- **Prep Time:** 15 minutes\n- **Cook Time:** 10 minutes\n- **Marinating Time:** 2 hours\n- **Total Time:** 2 hours 25 minutes\n\n## Ingredients\n\n### Chicken\n\n- {1/2} cup avocado oil or your favorite high heat oil\n- {2} tablespoons lime juice\n- {2} teaspoons chile powder\n- {2} teaspoons sea salt\n- {1} teaspoon garlic powder\n- {1} teaspoon ground cumin\n- {1/4} teaspoon cayenne pepper\n- {2 1/2} pounds boneless skinless chicken, cut into 1/4 inch strips\n\n### Fajitas\n\n- oil for the griddle\n- {2} yellow onions, sliced\n- {2} bell peppers, cut into strips\n- {8} tortillas, corn or fajita-sized flour\n- for serving: shredded cheddar cheese, sour cream, lime wedges, tomatoes, cilantro or salsa\n\n## Instructions\n\n1. Combine the avocado oil, lime juice, chili powder, salt, garlic powder, cumin, and cayenne pepper in a mason jar or blender.\n1. Shake or blend until well mixed..\n1. Place the chicken in a shallow dish and pour the marinade over it. Allow to marinate in the refrigerator for 2 hours.\n1. Remove the chicken from the marinade and discard.\n1. Heat your Blackstone griddle to medium-high heat.\n1. Brush with avocado oil.\n1. Add the onions and peppers to one side of the griddle and the chicken to the other.\n1. Cook for about 6 to 9 minutes, until the chicken is cooked through and the vegetables are lightly charred.\n1. Remove from the heat.\n1. Heat the tortillas until warmed through, about 1 minute.\n1. Serve the meat and veggies with the warm tortillas and desired toppings.\n\n## Notes\n\n- **Storage:** Leftovers may be stored in a sealed container in the refrigerator for three days.\n";
+    }
+  });
+
+  // src/data/blackstone-fried-rice.md
+  var require_blackstone_fried_rice = __commonJS({
+    "src/data/blackstone-fried-rice.md"(exports, module) {
+      module.exports = "# Blackstone Fried Rice\n\nThe Fried Rice you get at the Hibachi Restaurant is so good. Now you can make Blackstone Fried Rice at home. Taste amazing and easy to make.\n\n- **Servings:** {6}\n- [Source](https://grillonadime.com/blackstone-fried-rice-recipe/)\n- **Prep Time:** 10 minutes\n- **Cook Time:** 12 minutes\n- **Total Time:** 22 minutes\n\n## Ingredients\n\n- {2} tablespoon sesame oil\n- {2} tablespoon vegetable oil\n- {4} cups cooked rice, cooled\n- {3} tablespoon soy sauce\n- {1} teaspoon salt\n- {1} teaspoon pepper\n- {1} cup frozen peas and diced carrots blend\n- {3} larges eggs, light beaten\n\n## Instructions\n\n1. Preheat the Blackstone grill over medium low heat (approximately 350 degrees F).\n1. Add the vegetable oil onto the griddle and use your spatula to spread it around. Then add the peas and carrots blend and saut\xE9 for 3 to 5 minutes until the vegetables are soft.\n1. Move the vegetables to the cooler side of the griddle and add the lightly beaten eggs onto the Blackstone griddle.\n1. Scramble the eggs on the griddle. Move the eggs to the cooler side of the griddle with the vegetables.\n1. Pour the cooked rice onto the griddle and top it with the sesame oil, soy sauce, salt, and pepper.\n1. Saut\xE9 the rice on the griddle for 3-4 minutes until heated through and slightly browned.\n1. This mix together the veggies, eggs and rice.\n1. Serve immediately while warm and enjoy!\n";
     }
   });
 
@@ -23781,10 +23835,17 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
     }
   });
 
+  // src/data/butterbeer-old.md
+  var require_butterbeer_old = __commonJS({
+    "src/data/butterbeer-old.md"(exports, module) {
+      module.exports = "# Butterbeer (old)\n\n- **Servings:** {4}\n- **Yield:** {4} glasses\n- [Source](http://www.clickorlando.com/news/24096094/detail.html)\n\n## Ingredients\n\n- {1} cup Brown Sugar, light or dark\n- {2} tbsp Water\n- {6} tbsp Butter\n- {1/2} tsp Salt\n- {1/2} tsp Cider Vinegar\n- {3/4} cup Heavy Cream, divided\n- {1/2} tsp Rum Extract\n- {48} oz Cream Soda, four 12-oz bottles\n\n## Instructions\n\n1. In a small saucepan over medium, combine the brown sugar and water\n1. Bring to a gentle boil and cook, stirring often, until the mixture reads 240 F on a candy thermometer\n1. Stir in the butter, salt, vinegar and 1/4 cup heavy cream\n1. Set aside to cool to room temperature\n1. Once the mixture has cooled, stir in the rum extract\n1. In a medium bowl, combine 2 tablespoons of the brown sugar mixture and the remaining 1/2 cup of heavy cream\n1. Use an electric mixer to beat until just thickened, but not completely whipped, about 2 to 3 minutes\n1. To serve, divide the brown sugar mixture between 4 tall glasses (about 1/4 cup for each glass)\n1. Add 1/4 cup of cream soda to each glass, then stir to combine\n1. Fill each glass nearly to the top with additional cream soda, then spoon the whipped topping over each\n";
+    }
+  });
+
   // src/data/butterbeer.md
   var require_butterbeer = __commonJS({
     "src/data/butterbeer.md"(exports, module) {
-      module.exports = "# Butterbeer\n\n- **Servings:** {4}\n- **Yield:** {4} glasses\n- [Source](http://www.clickorlando.com/news/24096094/detail.html)\n\n## Ingredients\n\n- {1} cup Brown Sugar, light or dark\n- {2} tbsp Water\n- {6} tbsp Butter\n- {1/2} tsp Salt\n- {1/2} tsp Cider Vinegar\n- {3/4} cup Heavy Cream, divided\n- {1/2} tsp Rum Extract\n- {48} oz Cream Soda, four 12-oz bottles\n\n## Instructions\n\n1. In a small saucepan over medium, combine the brown sugar and water\n1. Bring to a gentle boil and cook, stirring often, until the mixture reads 240 F on a candy thermometer\n1. Stir in the butter, salt, vinegar and 1/4 cup heavy cream\n1. Set aside to cool to room temperature\n1. Once the mixture has cooled, stir in the rum extract\n1. In a medium bowl, combine 2 tablespoons of the brown sugar mixture and the remaining 1/2 cup of heavy cream\n1. Use an electric mixer to beat until just thickened, but not completely whipped, about 2 to 3 minutes\n1. To serve, divide the brown sugar mixture between 4 tall glasses (about 1/4 cup for each glass)\n1. Add 1/4 cup of cream soda to each glass, then stir to combine\n1. Fill each glass nearly to the top with additional cream soda, then spoon the whipped topping over each\n";
+      module.exports = "# Butterbeer\n\nIt took three years for two guys, Steve Jayson and Ric Florell, to develop the secret recipe for Butterbeer, a frothy sweet drink mentioned in J.K. Rowling's books several times, but with a flavor that's never described. What Jayson and Florell eventually came up with is a two-part beverage: sweet-flavored soda on the bottom with a creamy whipped flavored topping. When sipped, the flavors combine for a taste that could be described as caramel butter cookies.\n\nHere is my way to hack the delicious, once-imaginary drink at home.\n\n- **Servings:** {10}\n- [Source](https://topsecretrecipes.com/foodhackerblog/harry-potter-butter-beer/)\n- **Prep Time:** 5 minutes\n- **Cook Time:** 1 hour\n- **Total Time:** 1 hour 5 minutes\n\n## Ingredients\n\n- {1 1/3} cups water\n- {1} cup marshmallow creme\n- {1} envelope Dream Whip Whipped Topping Mix\n- {2} tablespoons powdered sugar\n- {1/8} teaspoon salt\n- {1/2} teaspoon plus {1/4} teaspoon butter flavoring\n- {1/2} teaspoon vanilla extract\n- {1/4} teaspoon caramel extract or flavoring (Watkins is best)\n- {10} (12-ounce) cans cold A&W Cream Soda\n\n### You will also need\n\n- immersion hand blender\n\n## Instructions\n\n1. Combine the marshmallow creme with the water in a medium bowl and microwave it on high for 30 seconds. If you don't want to use the microwave, use warm water from your tap. Stir until the marshmallow creme dissolves, then cool uncovered in the refrigerator for 1 hour, or until cold.\n1. Add the Dream Whip to the bowl and mix with an immersion hand blender for about 30 seconds. If you don't have a hand blender you can use an electric mixer, but only mix for about 15 seconds.\n1. Add the powdered sugar and salt and mix for another 30 seconds.\n1. Add the butter, vanilla and caramel flavorings and mix just until combined. Store covered in your refrigerator until needed.\n1. When you are ready to serve the drinks, pour a can of cream soda into a 12-ounce glass or mug. Be sure to leave about 1/2-inch of room at the top.\n1. Use the blender to mix the foam for 5 seconds, or until some large bubbles form in the topping. Spoon 3 to 4 tablespoons of topping onto each drink and serve.\n";
     }
   });
 
@@ -24061,6 +24122,13 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
     }
   });
 
+  // src/data/chocolate-crepes.md
+  var require_chocolate_crepes = __commonJS({
+    "src/data/chocolate-crepes.md"(exports, module) {
+      module.exports = "# Easy Chocolate Crepes\n\nEnjoy these easy Chocolate Crepes for breakfast, brunch or dessert and turn any day into a special one. Fill them any way you like with whipped cream, fresh fruit, Nutella, jam, cookie butter, or just simply dusted with powdered sugar!\n\n- **Servings:** {8}\n- **Yield:** {8} to {10} crepes\n- [Source](https://houseofnasheats.com/easy-chocolate-crepes/)\n- **Prep Time:** 10 minutes\n- **Cook Time:** 15 minutes\n- **Total Time:** 25 minutes\n\n## Ingredients\n\n- {4} large eggs\n- {1} cup cold milk\n- {3/4} cup cold water\n- {1 1/2} cups all-purpose flour\n- {1/4} cup unsweetened cocoa powder\n- {3} Tablespoons granulated sugar\n- {1/4} teaspoon salt\n- {1} teaspoon vanilla\n- {3} Tablespoons salted butter, melted\n\n## Instructions\n\n1. Add the eggs, water, milk, flour, cocoa powder, sugar, salt, and vanilla to a blender and process until smooth. Add the butter and blend again for a few seconds. Let the batter rest for 15 minutes.\n1. Preheat crepe pan. Pour 1/3 cup of batter into pan and swirl. Cook for about 1 minute on medium heat until the surface of the crepe looks dry, then flip and cook for another 15-30 seconds, then transfer to a plate. Repeat with remaining batter, stacking the crepes on top of each other.\n1. Fill however you like!\n";
+    }
+  });
+
   // src/data/chocolate-crinkle-cookies.md
   var require_chocolate_crinkle_cookies = __commonJS({
     "src/data/chocolate-crinkle-cookies.md"(exports, module) {
@@ -24226,6 +24294,13 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
   var require_cream_puffs = __commonJS({
     "src/data/cream-puffs.md"(exports, module) {
       module.exports = "# Cream Puffs\n\n- **Servings:** {20}\n- **Yield:** {20} cream puffs\n\n## Ingredients\n\n- {1} stick Butter\n- {1} cup Water\n- {1/4} tsp Salt\n- {1} cup All-purpose Flour\n- {4} Egg\n\n## Instructions\n\n1. Preheat oven to 425 degrees F (220 degrees C)\n1. In a large pot, bring water and butter to a rolling boil\n1. Stir in flour and salt until the mixture forms a ball\n1. Transfer the dough to a large mixing bowl\n1. Using a wooden spoon or stand mixer, beat in the eggs one at a time, mixing well after each\n1. Drop by tablespoonfuls onto an ungreased baking sheet\n1. Bake for 20 to 25 minutes in the preheated oven, until golden brown\n1. Centers should be dry\n1. When the shells are cool, either split and fill them with the pudding mixture, or use a pastry bag to pipe the pudding into the shells\n";
+    }
+  });
+
+  // src/data/crepes.md
+  var require_crepes = __commonJS({
+    "src/data/crepes.md"(exports, module) {
+      module.exports = "# Basic Cr\xEApes\n\nThis simple but delicious cr\xEApe recipe can be made in minutes from ingredients that everyone has on hand.\n\n- **Servings:** {4}\n- **Yield:** {8} cr\xEApes\n- [Source](https://www.allrecipes.com/recipe/16383/basic-crepes/)\n- **Prep Time:** 10 minutes\n- **Cook Time:** 20 minutes\n- **Total Time:** 30 minutes\n\n## Ingredients\n\n- {2} large eggs\n- {1/2} cup milk, or more as needed\n- {1/2} cup water\n- {1/4} teaspoon salt or to taste\n- {1} cup all-purpose flour\n- {2} tablespoons butter, melted\n\n## Instructions\n\n1. Whisk eggs, milk, water, and salt together in a large mixing bowl. Add flour and melted butter; whisk vigorously until batter is smooth and pourable. If the batter is too thick to spread easily in the pan, whisk in 1 tablespoon milk at a time until it reaches the proper consistency.\n1. Heat a lightly oiled griddle or frying pan over medium-high heat. Pour or scoop the batter onto the pan, using approximately 1/4 cup for each cr\xEApe. Tilt the pan with a circular motion so that the batter coats the surface evenly.\n1. Cook until the top of the cr\xEApe is no longer wet and the bottom has turned light brown, 1 to 2 minutes. Run a spatula around the edge of the skillet to loosen the cr\xEApe; flip and cook until the other side has turned light brown, about 1 minute more.\n1. Serve hot. Enjoy!\n\n## Notes\n\n- **Sweet cr\xEApes:** Whisk 2 tablespoons white sugar and 1 teaspoon vanilla extract into the batter.\n- **Blender method:** Add all of the ingredients to a blender and process a few times using short bursts until the batter is smooth.\n";
     }
   });
 
@@ -24839,6 +24914,13 @@ Combine base flavors with the listed additions.
     }
   });
 
+  // src/data/kings-hawaiian-french-toast.md
+  var require_kings_hawaiian_french_toast = __commonJS({
+    "src/data/kings-hawaiian-french-toast.md"(exports, module) {
+      module.exports = "# King's Hawaiian French Toast\n\n- **Servings:** {4}\n- [Source](https://kingshawaiian.com/recipes/Classic-French-Toast)\n\n## Ingredients\n\n- {1} package of KING'S HAWAIIAN Original Hawaiian Sweet Rolls\n- {4} large eggs\n- {1/2} cup milk\n- {1/2} teaspoon vanilla\n- {1/4} teaspoon cinnamon\n- {1} tablespoon butter or oil for frying\n- as desired, top with Coconut Syrup or maple syrup\n- as desired, top with strawberries, blueberries, or raspberries\n\n## Instructions\n\n1. Slice rolls in half.\n1. In a shallow mixing bowl, whisk together the eggs, milk, vanilla and cinnamon. Mix occasionally to ensure it's well-blended.\n1. Quickly dip slices (do not soak) in egg mixture and cook in frying pan until golden brown on both sides.\n1. Sprinkle with powdered sugar and serve with warm coconut or maple syrup.\n1. Top with strawberries, blueberries, or raspberries.\n1. Enjoy!\n";
+    }
+  });
+
   // src/data/lemon-cookies.md
   var require_lemon_cookies = __commonJS({
     "src/data/lemon-cookies.md"(exports, module) {
@@ -25072,6 +25154,13 @@ These simple, savory sweet potatoes are mashed and seasoned to perfection with c
   var require_orange_creamsicle_fudge = __commonJS({
     "src/data/orange-creamsicle-fudge.md"(exports, module) {
       module.exports = "# Orange Creamsicle Fudge\n\n- **Servings:** {48}\n- **Yield:** {96} pieces\n\n## Ingredients\n\n- {1 1/2} stick Butter\n- {2} cup Sugar\n- {3/4} cup Heavy Cream\n- {12} oz White Chocolate\n- {7} oz Marshmallow Cream\n- {1} tbsp Orange Extract\n- {0} Food Coloring\n\n## Instructions\n\n1. Prepare a 13x9 pan by lining it with aluminum foil and spraying the foil with nonstick cooking spray\n1. In a large heavy saucepan, combine the sugar, cream, and butter over medium heat\n1. Continually stir the mixture until the butter melts and the sugar dissolves\n1. Brush down the sides with a wet pastry brush\n1. Bring the mixture to a boil, and once it starts boiling, insert a candy thermometer\n1. Cook the candy until it reaches 240 degrees F on the thermometer, which should take about 4-5 minutes\n1. After the candy reaches 240F, remove the pan from the heat and immediately stir in the marshmallow cream and white chocolate chips\n1. Stir until the white chocolate has melted and the fudge is completely smooth\n1. Working quickly, pour about a third of the white fudge into a bowl and set aside\n1. To the remaining fudge, add the orange extract and orange food coloring, stirring until it is a smooth, even color\n1. It is important to perform these steps quickly, because the fudge will start to set if you take too long, and the end result will not be smooth\n1. Pour the orange fudge into the prepared pan and spread it into an even layer\n1. Drop the white fudge over the top by the spoonful, then drag a table knife or toothpick through the fudge to create orange-white swirls\n1. You can spray your hands with nonstick cooking spray and gently press them into the top to smooth out the swirls, if desired\n1. Allow the fudge to set at room temperature for 2 hours, or in the refrigerator for 1 hour\n1. To cut, pull the fudge out of the pan using the foil as handles\n1. Use a large sharp knife to cut the fudge into small 1-inch squares\n1. Store Orange Creamsicle Fudge in an airtight container in the refrigerator for up to a week, and bring it to room temperature to serve\n";
+    }
+  });
+
+  // src/data/orange-julius.md
+  var require_orange_julius = __commonJS({
+    "src/data/orange-julius.md"(exports, module) {
+      module.exports = "# Orange Julius\n\n- **Servings:** {2}\n- [Source](https://www.reddit.com/r/Old_Recipes/comments/11sv2iv/orange_julius_finally/)\n\n## Ingredients\n\n- {3} navel oranges, rind removed, quartered\n- {1/2} cup whole milk\n- {1/4} cup sugar\n- {1} teaspoon vanilla extract\n- {1/3} cup frozen orange juice concentrate\n- ice\n\n## Instructions\n\n1. In a blender, add oranges, milk, sugar, vanilla extract, frozen orange juice concentrate and blend until well combined.\n1. Add {1} cup of ice and blend well.\n";
     }
   });
 
@@ -25468,6 +25557,13 @@ Super soft peanut butter cookies stuffed with Reese's Peanut Butter Cups and dri
   var require_salsa_morada = __commonJS({
     "src/data/salsa-morada.md"(exports, module) {
       module.exports = "# Salsa Morada with Buena Mulata Peppers\n\nWhile hot and spicy, Buena Mulata has a lingering floral flavor that sets it apart from all other peppers of this type.\n\n- **Servings:** {16}\n- [Source](https://www.motherearthgardener.com/food/salsa-morada-buena-mulata-peppers-zmaz16szsbak/)\n\n## Ingredients\n\n- {1 1/2} lb. sweet green peppers, seeded and chopped\n- {8} oz. violet Buena Mulata peppers, seeded and chopped\n- {1} cup sugar\n- {1 1/2} tablespoons pickling salt\n- {2} tablespoons powdered unsweetened chocolate\n- {1 1/2} cups vinegar\n- {2} teaspoons ground coriander\n- {1} tablespoon ground hot chili pepper (optional)\n\n## Instructions\n\n1. Put the green pepper, Buena Mulata, sugar, salt, chocolate, vinegar, and coriander in a heavy preserving pan. Cover and boil gently for 20 minutes.\n1. Remove from the heat and stand 2 to 3 hours, or until the peppers are completely soft. Puree to a smooth creamy consistency.\n1. Reheat in a clean preserving pan and bring to a boil. Cook 3 minutes and then adjust the heat with additional pepper to taste.\n1. Pour into hot sterilized jars and seal.\n";
+    }
+  });
+
+  // src/data/salt-baked-potatoes.md
+  var require_salt_baked_potatoes = __commonJS({
+    "src/data/salt-baked-potatoes.md"(exports, module) {
+      module.exports = "# Salt Baked Potatoes\n\nThe perfect, light, fluffy, tender, moist potatoes with crispy skin, and delicious flavor. This method of salt baking the potatoes results in perfect potatoes every time.\n\n- **Servings:** {4}\n- [Source](https://www.eazypeazymealz.com/salt-baked-potatoes/)\n- **Prep Time:** 10 minutes\n- **Cook Time:** 1 hour 45 minutes\n- **Total Time:** 1 hour 55 minutes\n\n## Ingredients\n\n- {2 1/2} cups Kosher salt\n- {4} russet potatoes, medium sized, scrubbed and dried\n- {2} sprigs fresh rosemary, minced\n- {1} whole head garlic, garlic cloves removed from papery part\n- {4} teaspoons canola oil\n- {4} tablespoons unsalted butter, softened (optional, only if you want to make garlic butter for serving)\n\n## Instructions\n\n1. Adjust oven rack to middle position and heat oven to 450\xB0F.\n1. Select and wash your potatoes, removing any dirt. Then dry off.\n1. Spread salt in even layer in 9 by 13-inch baking dish. Stir rosemary into the salt.\n1. Nestle potatoes into the salt, leaving plenty of space between potatoes so they are not touching.\n1. Add the head of garlic, cut side up, to baking dish.\n1. Cover baking dish with foil or a lid, covering tightly.\n1. Bake 1 hour 15 minutes; about 30 minutes in, remove garlic from pan so it doesn't burn. Then after the baking time, remove the pan from oven and remove the foil or lid.\n1. Increase oven temperature to 500\xB0F.\n1. Brush the potatoes with canola oil (1 tsp for each potato) and return to the baking dish, and the baking dish to the oven.\n1. Bake another 15-20 minutes until potatoes are tender.\n1. While potatoes finish baking, add garlic to melted butter to serve with potatoes, whisking it with a fork to evenly distribute garlic through the butter.\n1. When potatoes are finished baking, brush any excess salt from the skin of the potatoes (carefully, they will be hot).\n1. Use a fork to pierce potatoes in a cross shape, and squeeze potatoes to split them open to reveal the fluffy interior.\n1. Serve immediately with the garlic butter or toppings of your choice.\n\n## Notes\n\n- **Salt:** Kosher or table salt is best for this recipe.\n- **Reuse:** The salt can be reused for this recipe again, or used for other things like brines.\n- **Optional herbs:** The herbs and garlic are optional; these potatoes can be prepared with just the salt and oil, then topped with other garnishes such as sour cream, chives, crumbled bacon, and/or shredded cheese for a different flavor profile.\n";
     }
   });
 
@@ -28642,9 +28738,12 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./banana-cream-pie.md": () => require_banana_cream_pie(),
     "./banana-orange-bread-muffins.md": () => require_banana_orange_bread_muffins(),
     "./best-chocolate-cupcakes.md": () => require_best_chocolate_cupcakes(),
+    "./best-damn-instant-pot-pork-tenderloin.md": () => require_best_damn_instant_pot_pork_tenderloin(),
     "./biscotti.md": () => require_biscotti(),
     "./black-and-white-cookies.md": () => require_black_and_white_cookies(),
     "./blackened-mahi-mahi.md": () => require_blackened_mahi_mahi(),
+    "./blackstone-chicken-fajitas.md": () => require_blackstone_chicken_fajitas(),
+    "./blackstone-fried-rice.md": () => require_blackstone_fried_rice(),
     "./blonde-brownies.md": () => require_blonde_brownies(),
     "./blueberry-bread-muffins.md": () => require_blueberry_bread_muffins(),
     "./blueberry-pie.md": () => require_blueberry_pie(),
@@ -28653,6 +28752,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./brown-butter-frosting.md": () => require_brown_butter_frosting(),
     "./brown-sugar-glazed-salmon.md": () => require_brown_sugar_glazed_salmon(),
     "./butter-pecan-fudge.md": () => require_butter_pecan_fudge(),
+    "./butterbeer-old.md": () => require_butterbeer_old(),
     "./butterbeer.md": () => require_butterbeer(),
     "./cake-batter-fudge.md": () => require_cake_batter_fudge(),
     "./candy-cane-fudge.md": () => require_candy_cane_fudge(),
@@ -28683,6 +28783,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./chocolate-cinnamon-fudge.md": () => require_chocolate_cinnamon_fudge(),
     "./chocolate-covered-pretzels.md": () => require_chocolate_covered_pretzels(),
     "./chocolate-cream-pie.md": () => require_chocolate_cream_pie(),
+    "./chocolate-crepes.md": () => require_chocolate_crepes(),
     "./chocolate-crinkle-cookies.md": () => require_chocolate_crinkle_cookies(),
     "./chocolate-donuts.md": () => require_chocolate_donuts(),
     "./chocolate-eclairs.md": () => require_chocolate_eclairs(),
@@ -28707,6 +28808,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./cornbread-muffins.md": () => require_cornbread_muffins(),
     "./cream-cheese-frosting.md": () => require_cream_cheese_frosting(),
     "./cream-puffs.md": () => require_cream_puffs(),
+    "./crepes.md": () => require_crepes(),
     "./dirty-rice.md": () => require_dirty_rice(),
     "./donut-glaze.md": () => require_donut_glaze(),
     "./donuts.md": () => require_donuts(),
@@ -28732,6 +28834,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./iced-gingerbread-oatmeal-cookies.md": () => require_iced_gingerbread_oatmeal_cookies(),
     "./key-lime-pie.md": () => require_key_lime_pie(),
     "./kickin-cajun-seasoning-mix.md": () => require_kickin_cajun_seasoning_mix(),
+    "./kings-hawaiian-french-toast.md": () => require_kings_hawaiian_french_toast(),
     "./lemon-cookies.md": () => require_lemon_cookies(),
     "./lemon-glaze.md": () => require_lemon_glaze(),
     "./lemon-lime-sorbet.md": () => require_lemon_lime_sorbet(),
@@ -28759,6 +28862,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./orange-brownies.md": () => require_orange_brownies(),
     "./orange-cinnamon-swirl-bread-muffins.md": () => require_orange_cinnamon_swirl_bread_muffins(),
     "./orange-creamsicle-fudge.md": () => require_orange_creamsicle_fudge(),
+    "./orange-julius.md": () => require_orange_julius(),
     "./orange-pastry-cream.md": () => require_orange_pastry_cream(),
     "./orange-rolls.md": () => require_orange_rolls(),
     "./oreo-graham-cracker-pie-crust.md": () => require_oreo_graham_cracker_pie_crust(),
@@ -28806,6 +28910,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./rocky-road-fudge.md": () => require_rocky_road_fudge(),
     "./rule-of-3-garlic-buffalo-wing-sauce.md": () => require_rule_of_3_garlic_buffalo_wing_sauce(),
     "./salsa-morada.md": () => require_salsa_morada(),
+    "./salt-baked-potatoes.md": () => require_salt_baked_potatoes(),
     "./sherbet.md": () => require_sherbet(),
     "./shortbread-cookies.md": () => require_shortbread_cookies(),
     "./simple-whole-roast-turkey.md": () => require_simple_whole_roast_turkey(),
@@ -28902,9 +29007,12 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("banana-cream-pie", ["Dessert/Pie"]);
   addRecipe("banana-orange-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
   addRecipe("best-chocolate-cupcakes", ["Dessert/Cupcakes"], true);
+  addRecipe("best-damn-instant-pot-pork-tenderloin", ["Main Dish"], true);
   addRecipe("biscotti", ["Dessert/Cookies"]);
   addRecipe("black-and-white-cookies", ["Dessert/Cookies"]);
   addRecipe("blackened-mahi-mahi", ["Main Dish"], true);
+  addRecipe("blackstone-chicken-fajitas", ["Main Dish"], true);
+  addRecipe("blackstone-fried-rice", ["Main Dish", "Side Dish"], true);
   addRecipe("blonde-brownies", ["Dessert/Brownies"]);
   addRecipe("blueberry-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
   addRecipe("blueberry-pie", ["Dessert/Pie"]);
@@ -28913,7 +29021,8 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("brown-butter-frosting-icing", ["Dessert/Frosting/Frosting"]);
   addRecipe("brown-sugar-glazed-salmon", ["Main Dish"], true);
   addRecipe("butter-pecan-fudge", ["Dessert/Fudge"]);
-  addRecipe("butterbeer", ["Drink"]);
+  addRecipe("butterbeer", ["Drink"], true);
+  addRecipe("butterbeer-old", ["Drink"]);
   addRecipe("cake-batter-fudge", ["Dessert/Fudge"]);
   addRecipe("candy-cane-fudge", ["Dessert/Fudge"]);
   addRecipe("candy-corn", ["Dessert/Candy"]);
@@ -28946,6 +29055,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("chocolate-chocolate-chip-cookies-old", ["Dessert/Cookies"]);
   addRecipe("chocolate-cinnamon-fudge", ["Dessert/Fudge"]);
   addRecipe("chocolate-covered-pretzels", ["Dessert/Candy"]);
+  addRecipe("chocolate-crepes", ["Breakfast"], true);
   addRecipe("chocolate-crinkle-cookies", ["Dessert/Cookies"], true);
   addRecipe("chocolate-cream-pie", ["Dessert/Pie"]);
   addRecipe("chocolate-donuts", ["Dessert/Donuts"]);
@@ -28975,6 +29085,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("cornbread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
   addRecipe("cream-cheese-frosting", ["Dessert/Frosting/Frosting"], true);
   addRecipe("cream-puffs", ["Dessert/Pastry"]);
+  addRecipe("crepes", ["Breakfast"], true);
   addRecipe("dirty-rice", ["Main Dish"], true);
   addRecipe("donut-glaze", ["Dessert/Donuts"]);
   addRecipe("donuts", ["Dessert/Donuts"]);
@@ -29012,6 +29123,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("iced-gingerbread-oatmeal-cookies", ["Dessert/Cookies"], true);
   addRecipe("key-lime-pie", ["Dessert/Pie"]);
   addRecipe("kickin-cajun-seasoning-mix", ["Seasoning"], true);
+  addRecipe("kings-hawaiian-french-toast", ["Breakfast"], true);
   addRecipe("lemon-cookies", ["Dessert/Cookies"]);
   addRecipe("lemon-glaze", ["Dessert/Frosting/Icing"]);
   addRecipe("lemon-lime-sorbet", ["Dessert/Ice Cream"]);
@@ -29047,6 +29159,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("orange-brownies", ["Dessert/Brownies"]);
   addRecipe("orange-cinnamon-swirl-bread-muffins", ["Dessert/Bread"]);
   addRecipe("orange-creamsicle-fudge", ["Dessert/Fudge"]);
+  addRecipe("orange-julius", ["Drink"], true);
   addRecipe("orange-pastry-cream", ["Dessert/Frosting/Custard"]);
   addRecipe("orange-rolls", ["Dessert/Donuts"]);
   addRecipe("oreo-graham-cracker-pie-crust", ["Dessert/Pie/Pie Crusts"]);
@@ -29101,6 +29214,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("rocky-road-fudge", ["Dessert/Fudge"]);
   addRecipe("rule-of-3-garlic-buffalo-wing-sauce", ["Seasoning"], true);
   addRecipe("salsa-morada", ["Seasoning"], true);
+  addRecipe("salt-baked-potatoes", ["Side Dish"], true);
   addRecipe("sherbet", ["Dessert/Ice Cream"]);
   addRecipe("shortbread-cookies", ["Dessert/Cookies"]);
   addRecipe(

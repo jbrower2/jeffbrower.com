@@ -65,6 +65,7 @@ addRecipe("banana-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
 addRecipe("banana-cream-pie", ["Dessert/Pie"]);
 addRecipe("banana-orange-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
 addRecipe("best-chocolate-cupcakes", ["Dessert/Cupcakes"], true);
+addRecipe("best-damn-instant-pot-pork-tenderloin", ["Main Dish"], true);
 addRecipe("biscotti", ["Dessert/Cookies"]);
 addRecipe("black-and-white-cookies", ["Dessert/Cookies"]);
 addRecipe("blackened-mahi-mahi", ["Main Dish"], true);
