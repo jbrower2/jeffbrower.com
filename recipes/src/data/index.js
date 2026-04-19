@@ -138,6 +138,7 @@ addRecipe("copycat-chick-fil-a-lemonade", ["Drink"], true);
 addRecipe("cornbread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
 addRecipe("cream-cheese-frosting", ["Dessert/Frosting/Frosting"], true);
 addRecipe("cream-puffs", ["Dessert/Pastry"]);
+addRecipe("crepes", ["Breakfast"], true);
 addRecipe("dirty-rice", ["Main Dish"], true);
 addRecipe("donut-glaze", ["Dessert/Donuts"]);
 addRecipe("donuts", ["Dessert/Donuts"]);
