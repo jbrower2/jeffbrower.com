@@ -232,6 +232,7 @@ addRecipe("vanilla-fudge", ["Dessert/Fudge"]);
 addRecipe("vanilla-icing", ["Dessert/Frosting/Frosting"]);
 addRecipe("vanilla-pastry-cream", ["Dessert/Frosting/Custard"]);
 addRecipe("velveeta-fudge", ["Dessert/Fudge"]);
+addRecipe("velveeta-hashbrown-casserole", ["Side Dish"], true);
 addRecipe("watermelon-pie", ["Dessert/Pie"]);
 addRecipe("white-chocolate-cheesecake", ["Dessert/Cake/Cheesecake"]);
 addRecipe("whoopie-pies", ["Dessert/Cake/Whoopie Pies"]);

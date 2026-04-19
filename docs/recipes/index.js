@@ -25311,6 +25311,13 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     }
   });
 
+  // src/data/velveeta-hashbrown-casserole.md
+  var require_velveeta_hashbrown_casserole = __commonJS({
+    "src/data/velveeta-hashbrown-casserole.md"(exports, module) {
+      module.exports = "# Velveeta Hashbrown Casserole\n\n- **Servings:** {6}\n- [Source](https://cleverhousewife.com/2013/04/velveeta-hashbrown-casserole/)\n- **Prep Time:** 2 minutes\n- **Cook Time:** 45 minutes\n- **Total Time:** 47 minutes\n\n## Ingredients\n\n- {1} (30 oz) package of frozen hashbrowns, thawed\n- {8} oz Velveeta Block Cheese, cubed\n- {1} cup sour cream\n- {1} can cream of mushroom soup\n\n## Instructions\n\n1. Preheat oven to 375\xB0 and line a 2.5 qt baking dish with foil for easy clean-up.\n1. Gently combine all ingredients in a mixing bowl and transfer to prepared baking dish.\n1. Bake for 45 minutes, until completely heated through.\n";
+    }
+  });
+
   // src/data/watermelon-pie.md
   var require_watermelon_pie = __commonJS({
     "src/data/watermelon-pie.md"(exports, module) {
@@ -28423,6 +28430,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./vanilla-icing.md": () => require_vanilla_icing(),
     "./vanilla-pastry-cream.md": () => require_vanilla_pastry_cream(),
     "./velveeta-fudge.md": () => require_velveeta_fudge(),
+    "./velveeta-hashbrown-casserole.md": () => require_velveeta_hashbrown_casserole(),
     "./watermelon-pie.md": () => require_watermelon_pie(),
     "./white-chocolate-cheesecake.md": () => require_white_chocolate_cheesecake(),
     "./whoopie-pies.md": () => require_whoopie_pies()
@@ -28659,6 +28667,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("vanilla-icing", ["Dessert/Frosting/Frosting"]);
   addRecipe("vanilla-pastry-cream", ["Dessert/Frosting/Custard"]);
   addRecipe("velveeta-fudge", ["Dessert/Fudge"]);
+  addRecipe("velveeta-hashbrown-casserole", ["Side Dish"], true);
   addRecipe("watermelon-pie", ["Dessert/Pie"]);
   addRecipe("white-chocolate-cheesecake", ["Dessert/Cake/Cheesecake"]);
   addRecipe("whoopie-pies", ["Dessert/Cake/Whoopie Pies"]);
