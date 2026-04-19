@@ -117,7 +117,11 @@ addRecipe("chocolate-fudge", ["Dessert/Fudge"]);
 addRecipe("chocolate-icing", ["Dessert/Frosting/Icing"]);
 addRecipe("chocolate-orange-fudge", ["Dessert/Fudge"]);
 addRecipe("chocolate-pastry-cream", ["Dessert/Frosting/Custard"]);
-addRecipe("chocolate-peanut-butter-frosting", ["Dessert/Frosting/Frosting"], true);
+addRecipe(
+  "chocolate-peanut-butter-frosting",
+  ["Dessert/Frosting/Frosting"],
+  true,
+);
 addRecipe("chocolate-peanut-butter-nice-cream", ["Dessert/Ice Cream"], true);
 addRecipe("chocolate-peppermint-pizzelles", ["Dessert/Cookies/Pizzelles"]);
 addRecipe("chocolate-pumpkin-cake", ["Dessert/Cake"]);
@@ -156,7 +160,11 @@ addRecipe("ginger-snaps", ["Dessert/Cookies"]);
 addRecipe("gingerbread-cookies", ["Dessert/Cookies"]);
 addRecipe("grams-banana-bread", ["Dessert/Bread"], true);
 addRecipe("grape-pie", ["Dessert/Pie"]);
-addRecipe("hersheys-perfectly-chocolate-chocolate-cake", ["Dessert/Cake"], true);
+addRecipe(
+  "hersheys-perfectly-chocolate-chocolate-cake",
+  ["Dessert/Cake"],
+  true,
+);
 addRecipe("hot-chocolate-cookies", ["Dessert/Cookies"], true);
 addRecipe("ice-cream", ["Dessert/Ice Cream"]);
 addRecipe("iced-gingerbread-oatmeal-cookies", ["Dessert/Cookies"], true);
@@ -175,7 +183,11 @@ addRecipe("maple-walnut-fudge", ["Dessert/Fudge"]);
 addRecipe("marry-me-snickerdoodles", ["Dessert/Cookies"], true);
 addRecipe("marshmallow-frosting", ["Dessert/Frosting/Frosting"]);
 addRecipe("mascarpone-frosting", ["Dessert/Frosting/Frosting"]);
-addRecipe("mashed-potatoes", ["Side Dish"], true);
+addRecipe(
+  "mashed-potatoes",
+  ["Side Dish", "Holidays/Fennelly Thanksgiving 2025"],
+  true,
+);
 addRecipe("mint-chocolate-fudge", ["Dessert/Fudge"]);
 addRecipe("molasses-cookies", ["Dessert/Cookies"]);
 addRecipe("monkey-bread", ["Dessert/Bread"]);
@@ -204,7 +216,11 @@ addRecipe("pecan-pie", ["Dessert/Pie"]);
 addRecipe("peppermint-bark", ["Dessert/Candy"]);
 addRecipe("peppermint-cannolis", ["Dessert/Cannolis/Filling"]);
 addRecipe("peppermint-glaze", ["Dessert/Frosting/Icing"]);
-addRecipe("perfectly-chocolate-chocolate-frosting", ["Dessert/Frosting/Frosting"], true);
+addRecipe(
+  "perfectly-chocolate-chocolate-frosting",
+  ["Dessert/Frosting/Frosting"],
+  true,
+);
 addRecipe("pie-crust", ["Dessert/Pie/Pie Crusts"]);
 addRecipe("pineapple-cookies", ["Dessert/Cookies"]);
 addRecipe("pineapple-pumpkin-bread-muffins", [
