@@ -17,7 +17,9 @@
       "Bash(xargs -r kill -9)",
       "Bash(curl -sI http://127.0.0.1:8765/recipes/test.html)",
       "Bash(curl -sI http://127.0.0.1:8765/docs/recipes/index.js)",
-      "Bash(npm uninstall *)"
+      "Bash(npm uninstall *)",
+      "Bash(sed -E 's/.*\"\\\\.\\\\/\\([^\"]+\\)\\\\.md\".*/\\\\1/')",
+      "Read(//tmp/**)"
     ]
   }
 }
