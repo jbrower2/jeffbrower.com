@@ -5,7 +5,7 @@ const CATEGORIES = new Set([
   "Dessert/Cake",
   "Dessert/Cake/Cheesecake",
   "Dessert/Cake/Cheesecake/Shells",
-  "Dessert/Cake/WhoopiePies",
+  "Dessert/Cake/Whoopie Pies",
   "Dessert/Candy",
   "Dessert/Cannolis/Filling",
   "Dessert/Cannolis/Shells",
@@ -17,11 +17,11 @@ const CATEGORIES = new Set([
   "Dessert/Frosting/Frosting",
   "Dessert/Frosting/Icing",
   "Dessert/Fudge",
-  "Dessert/IceCream",
+  "Dessert/Ice Cream",
   "Dessert/Muffins",
   "Dessert/Pastry",
   "Dessert/Pie",
-  "Dessert/Pie/PieCrusts",
+  "Dessert/Pie/Pie Crusts",
   "Drink",
   "Main Dish",
 ]);
@@ -116,7 +116,7 @@ addRecipe("cream-cheese-frosting", ["Dessert/Frosting/Frosting"], true);
 addRecipe("cream-puffs", ["Dessert/Pastry"]);
 addRecipe("donut-glaze", ["Dessert/Donuts"]);
 addRecipe("donuts", ["Dessert/Donuts"]);
-addRecipe("double-chocolate-gelato", ["Dessert/IceCream"]);
+addRecipe("double-chocolate-gelato", ["Dessert/Ice Cream"]);
 addRecipe("easy-green-chicken-enchiladas", ["Main Dish"], true);
 addRecipe("eggnog-custard-pie", ["Dessert/Pie"]);
 addRecipe("eggnog-fudge", ["Dessert/Fudge"]);
@@ -128,21 +128,21 @@ addRecipe(
 );
 addRecipe("fortune-cookies", ["Dessert/Cookies"]);
 addRecipe("funnel-cake", ["Dessert/Donuts"]);
-addRecipe("gelato", ["Dessert/IceCream"]);
+addRecipe("gelato", ["Dessert/Ice Cream"]);
 addRecipe("ginger-snaps", ["Dessert/Cookies"]);
 addRecipe("gingerbread-cookies", ["Dessert/Cookies"]);
 addRecipe("grape-pie", ["Dessert/Pie"]);
 addRecipe("hot-chocolate-cookies", ["Dessert/Cookies"], true);
-addRecipe("ice-cream", ["Dessert/IceCream"]);
+addRecipe("ice-cream", ["Dessert/Ice Cream"]);
 addRecipe("iced-gingerbread-oatmeal-cookies", ["Dessert/Cookies"], true);
 addRecipe("key-lime-pie", ["Dessert/Pie"]);
 addRecipe("lemon-cookies", ["Dessert/Cookies"]);
 addRecipe("lemon-glaze", ["Dessert/Frosting/Icing"]);
-addRecipe("lemon-lime-sorbet", ["Dessert/IceCream"]);
+addRecipe("lemon-lime-sorbet", ["Dessert/Ice Cream"]);
 addRecipe("lemon-meringue-pie", ["Dessert/Pie"]);
 addRecipe("lemon-pastry-cream", ["Dessert/Frosting/Custard"]);
 addRecipe("lemon-poppyseed-bread", ["Dessert/Bread"]);
-addRecipe("lime-sherbet", ["Dessert/IceCream"]);
+addRecipe("lime-sherbet", ["Dessert/Ice Cream"]);
 addRecipe("maple-cream-cheese-frosting", ["Dessert/Frosting/Frosting"]);
 addRecipe("maple-syrup-bread-muffins", ["Dessert/Bread"]);
 addRecipe("maple-walnut-fudge", ["Dessert/Fudge"]);
@@ -161,7 +161,7 @@ addRecipe("orange-cinnamon-swirl-bread-muffins", ["Dessert/Bread"]);
 addRecipe("orange-creamsicle-fudge", ["Dessert/Fudge"]);
 addRecipe("orange-pastry-cream", ["Dessert/Frosting/Custard"]);
 addRecipe("orange-rolls", ["Dessert/Donuts"]);
-addRecipe("oreo-graham-cracker-pie-crust", ["Dessert/Pie/PieCrusts"]);
+addRecipe("oreo-graham-cracker-pie-crust", ["Dessert/Pie/Pie Crusts"]);
 addRecipe("peach-pie", ["Dessert/Pie"]);
 addRecipe("peanut-brittle", ["Dessert/Candy"]);
 addRecipe("peanut-butter-chocolate-chip-bacon-cookies", ["Dessert/Cookies"]);
@@ -173,7 +173,7 @@ addRecipe("pecan-pie", ["Dessert/Pie"]);
 addRecipe("peppermint-bark", ["Dessert/Candy"]);
 addRecipe("peppermint-cannolis", ["Dessert/Cannolis/Filling"]);
 addRecipe("peppermint-glaze", ["Dessert/Frosting/Icing"]);
-addRecipe("pie-crust", ["Dessert/Pie/PieCrusts"]);
+addRecipe("pie-crust", ["Dessert/Pie/Pie Crusts"]);
 addRecipe("pineapple-cookies", ["Dessert/Cookies"]);
 addRecipe("pineapple-pumpkin-bread-muffins", [
   "Dessert/Bread",
@@ -191,17 +191,17 @@ addRecipe("pumpkin-drop-cookies", ["Dessert/Cookies"]);
 addRecipe("pumpkin-pastry-cream", ["Dessert/Frosting/Custard"]);
 addRecipe("pumpkin-pie", ["Dessert/Pie"]);
 addRecipe("pumpkin-spice-cake", ["Dessert/Cake"]);
-addRecipe("pumpkin-whoopie-pies", ["Dessert/Cake/WhoopiePies"]);
+addRecipe("pumpkin-whoopie-pies", ["Dessert/Cake/Whoopie Pies"]);
 addRecipe("rainbow-cookies", ["Dessert/Cookies"]);
 addRecipe("raspberry-cheesecake-flavoring", ["Dessert/Cake/Cheesecake"]);
 addRecipe("red-velvet-cupcakes", ["Dessert/Cupcakes"]);
 addRecipe("red-velvet-fudge", ["Dessert/Fudge"]);
 addRecipe("rice-krispie-treats", ["Dessert/Candy"], true);
 addRecipe("rocky-road-fudge", ["Dessert/Fudge"]);
-addRecipe("sherbet", ["Dessert/IceCream"]);
+addRecipe("sherbet", ["Dessert/Ice Cream"]);
 addRecipe("shortbread-cookies", ["Dessert/Cookies"]);
 addRecipe("snickerdoodles", ["Dessert/Cookies"]);
-addRecipe("sorbet", ["Dessert/IceCream"]);
+addRecipe("sorbet", ["Dessert/Ice Cream"]);
 addRecipe("southwestern-egg-casserole", ["Breakfast"], true);
 addRecipe("spritzgeback-cookies", ["Dessert/Cookies"]);
 addRecipe("strawberry-rhubarb-pie", ["Dessert/Pie"]);
@@ -220,6 +220,6 @@ addRecipe("vanilla-pastry-cream", ["Dessert/Frosting/Custard"]);
 addRecipe("velveeta-fudge", ["Dessert/Fudge"]);
 addRecipe("watermelon-pie", ["Dessert/Pie"]);
 addRecipe("white-chocolate-cheesecake", ["Dessert/Cake/Cheesecake"]);
-addRecipe("whoopie-pies", ["Dessert/Cake/WhoopiePies"]);
+addRecipe("whoopie-pies", ["Dessert/Cake/Whoopie Pies"]);
 
 export default recipes;

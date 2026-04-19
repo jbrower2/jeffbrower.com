@@ -80,17 +80,19 @@ function TreeNode({ node, expanded, toggle, forceExpand, name, filter }) {
       </button>
       {isOpen && (
         <ul style={{ listStyle: "none", padding: 0, margin: "0 0 0 16px" }}>
-          {[...node.children.entries()].map(([childName, child]) => (
-            <TreeNode
-              key={childName}
-              node={child}
-              name={childName}
-              expanded={expanded}
-              toggle={toggle}
-              forceExpand={forceExpand}
-              filter={filter}
-            />
-          ))}
+          {[...node.children.entries()]
+            .sort(([a], [b]) => a.localeCompare(b))
+            .map(([childName, child]) => (
+              <TreeNode
+                key={childName}
+                node={child}
+                name={childName}
+                expanded={expanded}
+                toggle={toggle}
+                forceExpand={forceExpand}
+                filter={filter}
+              />
+            ))}
           {node.recipes.map((r) => {
             if (filter && !r.name.toLowerCase().includes(filter)) return null;
             return (
@@ -184,17 +186,19 @@ export default function RecipeList() {
         </span>
       </p>
       <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
-        {[...tree.children.entries()].map(([name, child]) => (
-          <TreeNode
-            key={name}
-            node={child}
-            name={name}
-            expanded={expanded}
-            toggle={toggle}
-            forceExpand={forceExpand}
-            filter={q}
-          />
-        ))}
+        {[...tree.children.entries()]
+          .sort(([a], [b]) => a.localeCompare(b))
+          .map(([name, child]) => (
+            <TreeNode
+              key={name}
+              node={child}
+              name={name}
+              expanded={expanded}
+              toggle={toggle}
+              forceExpand={forceExpand}
+              filter={q}
+            />
+          ))}
       </ul>
     </div>
   );
