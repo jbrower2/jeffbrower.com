@@ -1,9 +1,7 @@
 # Carrot Cake
 
-Soft, moist, and perfectly spiced, my carrot cake recipe has been a reader favorite for years! This cake is beginner friendly and surprisingly simple to make. Top it off with my cream cheese frosting (recipe included below) for what will be truly the best carrot cake of your life!
-
 - **Servings:** {14}
-- **Yield:** {14} slices
+- **Yield:** {14} slices, {2} 8-inch layers
 - [Source](https://sugarspunrun.com/best-carrot-cake-recipe/)
 - **Prep Time:** 30 minutes
 - **Cook Time:** 40 minutes
@@ -25,6 +23,7 @@ Soft, moist, and perfectly spiced, my carrot cake recipe has been a reader favor
 - {1} Tablespoon vanilla extract
 - {3} cups ({340} g) grated carrots² peel before grating
 - {1} cup ({125} g) chopped walnuts or pecans optional
+- {1} batch [Cream Cheese Frosting](#/cream-cheese-frosting)
 
 ### Cream Cheese Frosting
 
@@ -50,15 +49,6 @@ Soft, moist, and perfectly spiced, my carrot cake recipe has been a reader favor
 1. Evenly divide carrot cake batter into prepared baking pans and bake on 350F (175C) for 37-40 minutes (a toothpick inserted in center should come out mostly clean with only few moist crumbs).
 1. Allow cakes to cool in the pans for 10 minutes, then run a knife around the edge and invert onto cooling rack to cool completely.
 1. Allow cake to cool completely before covering with cream cheese frosting.
-
-### Cream Cheese Frosting
-
-1. Combine butter and cream cheese in a large bowl and use an electric mixer to beat until creamy, well-combined, and lump-free.
-1. unsalted butter, cream cheese
-1. Add vanilla extract and sprinkle salt into the bowl and stir well to combine.
-1. vanilla extract, salt
-1. With mixer on low, gradually add powdered sugar until ingredients are completely combined (be sure to scrape the sides and bottom of the bowl with a spatula).
-1. powdered sugar
 1. Once your cake has cooled completely, cover with frosting.
 
 ## Notes

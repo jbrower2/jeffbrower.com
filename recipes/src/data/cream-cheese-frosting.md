@@ -1,13 +1,7 @@
 # Cream Cheese Frosting
 
-This is my all time FAVORITE Cream Cheese Frosting Recipe! Just 5 ingredients!
-
-This recipe will cover either one 2-layer 8" or 9" cake, 24 cupcakes, or generously frost (as much frosting as in the photos) 12 cupcakes.
-
-Please see note regarding thickness.
-
 - **Servings:** {24}
-- **Yield:** {24} cupcakes, or {2} layers of cake
+- **Yield:** {24} cupcakes, or {2} 8-inch layers of cake
 - [Source](https://sugarspunrun.com/cream-cheese-frosting/)
 - **Prep Time:** 10 minutes
 - **Total Time:** 10 minutes
@@ -30,9 +24,3 @@ Please see note regarding thickness.
 ## Notes
 
 **Modified from source:** This version halves the powdered sugar (source calls for {4} cups / {500} g — too sweet at that ratio).
-
-As mentioned in the post, this is a sturdy and pipe-able frosting that will hold its shape and is comparable to buttercream in texture. It's wonderful for decorating! Many cream cheese recipes use less sugar and are far looser because of it; this icing as-written is less sweet than buttercream, but if you want an even less sweet frosting you can use less sugar and just add to taste (you'll need at least two cups).
-
-Frosting that is too thick and too sweet is often caused by accidentally over-measuring the powdered sugar, it should be weighed or measured the same way that flour is measured. If you accidentally make your frosting too thick, you can thin it by adding a splash of heavy cream or milk at a time until the desired consistency is reached.
-
-\*If you plan to pipe the frosting with a small tip, I recommend sifting the powdered sugar (after measuring).

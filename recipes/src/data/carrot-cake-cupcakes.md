@@ -25,7 +25,7 @@ A moist and fluffy carrot cake cupcakes recipe! Perfect for Easter or any time o
 - {2} Tablespoons milk
 - {1 1/2} cups ({170} g) grated carrots
 - {1/2} cup ({60} g) chopped walnuts or pecans, optional
-- {1} batch [Cream Cheese Frosting](#/cream-cheese-frosting)
+- {1/2} batch [Cream Cheese Frosting](#/cream-cheese-frosting)
 
 ## Instructions
 
@@ -39,11 +39,8 @@ A moist and fluffy carrot cake cupcakes recipe! Perfect for Easter or any time o
 1. Add carrots and nuts (if using). and stir until combined.
 1. grated carrots, chopped walnuts or pecans, optional
 1. Evenly divide batter into cupcake liners, filling each 2/3-3/4 of the way full. Transfer to oven and bake on 350F (175C) for 20 minutes or until a toothpick inserted in the center comes out clean or with moist crumbs.
-1. Allow to cool in the baking tin for 5 minutes before carefully removing to a cooling rack to cool completely before decorating with cream cheese frosting\*.
-1. [Cream Cheese Frosting](#/cream-cheese-frosting)
+1. Allow to cool in the baking tin for 5 minutes before carefully removing to a cooling rack to cool completely before decorating with cream cheese frosting.
 
 ## Notes
-
-\*Cream cheese frosting recipe will decorate 12 cupcakes if you use as much frosting as seen in the photos. If you plan to just spread the frosting on the cupcakes, you can probably get away with cutting the frosting recipe in half.
 
 **Storing:** Store in an airtight container in the refrigerator for up to 5 days.
