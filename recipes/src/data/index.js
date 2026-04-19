@@ -25,6 +25,7 @@ const CATEGORIES = new Set([
   "Appetizer",
   "Drink",
   "Main Dish",
+  "Seasoning",
   "Side Dish",
 ]);
 
@@ -65,6 +66,7 @@ addRecipe("banana-orange-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
 addRecipe("best-chocolate-cupcakes", ["Dessert/Cupcakes"], true);
 addRecipe("biscotti", ["Dessert/Cookies"]);
 addRecipe("black-and-white-cookies", ["Dessert/Cookies"]);
+addRecipe("blackened-mahi-mahi", ["Main Dish"], true);
 addRecipe("blonde-brownies", ["Dessert/Brownies"]);
 addRecipe("blueberry-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
 addRecipe("blueberry-pie", ["Dessert/Pie"]);
@@ -144,6 +146,7 @@ addRecipe("hot-chocolate-cookies", ["Dessert/Cookies"], true);
 addRecipe("ice-cream", ["Dessert/Ice Cream"]);
 addRecipe("iced-gingerbread-oatmeal-cookies", ["Dessert/Cookies"], true);
 addRecipe("key-lime-pie", ["Dessert/Pie"]);
+addRecipe("kickin-cajun-seasoning-mix", ["Seasoning"], true);
 addRecipe("lemon-cookies", ["Dessert/Cookies"]);
 addRecipe("lemon-glaze", ["Dessert/Frosting/Icing"]);
 addRecipe("lemon-lime-sorbet", ["Dessert/Ice Cream"]);

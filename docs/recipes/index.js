@@ -23718,6 +23718,13 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
     }
   });
 
+  // src/data/blackened-mahi-mahi.md
+  var require_blackened_mahi_mahi = __commonJS({
+    "src/data/blackened-mahi-mahi.md"(exports, module) {
+      module.exports = "# Blackened Mahi Mahi\n\nYou can easily control the level of spiciness in blackened fish by making your own Cajun spice mix. This is a super fast, incredibly delicious way to add more seafood to your diet.\n\n- **Servings:** {4}\n- [Source](https://www.fromvalerieskitchen.com/blackened-mahi-mahi/)\n- **Prep Time:** 10 minutes\n- **Cook Time:** 8 minutes\n- **Total Time:** 18 minutes\n\n## Ingredients\n\n- {4} mahi mahi fillets, approximately 6 ounces each\n- {2} tablespoons butter\n- {1} tablespoon olive oil\n- {1} lemon\n- {1} batch [Kickin' Cajun Seasoning Mix](#/kickin-cajun-seasoning-mix)\n\n## Instructions\n\n1. Pat fillets dry with paper towels. Season the fillets liberally with the Cajun spice mix on both sides, pressing the seasoning into the fish with your hands. Wash hands thoroughly.\n1. Place a large saute pan over medium-high heat and add butter and oil. When the fat is nice and hot, add the seasoned fish. Cook, undisturbed, for several minutes, until golden brown on one side. Flip fish over and continue to cook until opaque and completely cooked through.\n1. Squeeze lemon juice over the fish and serve.\n";
+    }
+  });
+
   // src/data/blonde-brownies.md
   var require_blonde_brownies = __commonJS({
     "src/data/blonde-brownies.md"(exports, module) {
@@ -24705,6 +24712,13 @@ Combine base flavors with the listed additions.
   var require_key_lime_pie = __commonJS({
     "src/data/key-lime-pie.md"(exports, module) {
       module.exports = "# Key Lime Pie\n\n- **Servings:** {8}\n- **Yield:** {1} pie\n\n## Ingredients\n\n- {28} oz Condensed Milk\n- {1} cup Lime Juice\n- {2} Egg\n- {1} tbsp Lime Zest\n- {1} Pie Crust, baked\n\n## Instructions\n\n1. Preheat the oven to 325 degrees F\n1. Combine the condensed milk, lime juice, and eggs\n1. Whisk until well blended and place the filling in the cooled pie shell\n1. Bake in the oven for 15 minutes and allow to chill in the refrigerator for at least 2 hours\n1. Sprinkle the lime zest as a garnish and serve chilled\n";
+    }
+  });
+
+  // src/data/kickin-cajun-seasoning-mix.md
+  var require_kickin_cajun_seasoning_mix = __commonJS({
+    "src/data/kickin-cajun-seasoning-mix.md"(exports, module) {
+      module.exports = "# Kickin' Cajun Seasoning Mix\n\nA homemade Cajun spice blend for seasoning fish, chicken, or vegetables \u2014 you control the heat by adjusting the cayenne.\n\n- **Servings:** {1}\n- **Yield:** {1} batch, about {2 1/2} tablespoons\n- [Source](https://www.fromvalerieskitchen.com/blackened-mahi-mahi/)\n\n## Ingredients\n\n- {1 1/2} teaspoons onion powder\n- {1} teaspoon garlic powder\n- {1} teaspoon smoked paprika\n- {1} teaspoon dried thyme leaves\n- {1} teaspoon dried oregano leaves\n- {1} teaspoon fine grain sea salt\n- {1/2} teaspoon freshly ground black pepper\n- {1/2} teaspoon cayenne pepper, or to taste\n\n## Instructions\n\n1. Combine all ingredients in a small bowl.\n";
     }
   });
 
@@ -28252,6 +28266,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./best-chocolate-cupcakes.md": () => require_best_chocolate_cupcakes(),
     "./biscotti.md": () => require_biscotti(),
     "./black-and-white-cookies.md": () => require_black_and_white_cookies(),
+    "./blackened-mahi-mahi.md": () => require_blackened_mahi_mahi(),
     "./blonde-brownies.md": () => require_blonde_brownies(),
     "./blueberry-bread-muffins.md": () => require_blueberry_bread_muffins(),
     "./blueberry-pie.md": () => require_blueberry_pie(),
@@ -28327,6 +28342,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./ice-cream.md": () => require_ice_cream(),
     "./iced-gingerbread-oatmeal-cookies.md": () => require_iced_gingerbread_oatmeal_cookies(),
     "./key-lime-pie.md": () => require_key_lime_pie(),
+    "./kickin-cajun-seasoning-mix.md": () => require_kickin_cajun_seasoning_mix(),
     "./lemon-cookies.md": () => require_lemon_cookies(),
     "./lemon-glaze.md": () => require_lemon_glaze(),
     "./lemon-lime-sorbet.md": () => require_lemon_lime_sorbet(),
@@ -28440,6 +28456,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "Appetizer",
     "Drink",
     "Main Dish",
+    "Seasoning",
     "Side Dish"
   ]);
   var recipes = [];
@@ -28476,6 +28493,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("best-chocolate-cupcakes", ["Dessert/Cupcakes"], true);
   addRecipe("biscotti", ["Dessert/Cookies"]);
   addRecipe("black-and-white-cookies", ["Dessert/Cookies"]);
+  addRecipe("blackened-mahi-mahi", ["Main Dish"], true);
   addRecipe("blonde-brownies", ["Dessert/Brownies"]);
   addRecipe("blueberry-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
   addRecipe("blueberry-pie", ["Dessert/Pie"]);
@@ -28555,6 +28573,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("ice-cream", ["Dessert/Ice Cream"]);
   addRecipe("iced-gingerbread-oatmeal-cookies", ["Dessert/Cookies"], true);
   addRecipe("key-lime-pie", ["Dessert/Pie"]);
+  addRecipe("kickin-cajun-seasoning-mix", ["Seasoning"], true);
   addRecipe("lemon-cookies", ["Dessert/Cookies"]);
   addRecipe("lemon-glaze", ["Dessert/Frosting/Icing"]);
   addRecipe("lemon-lime-sorbet", ["Dessert/Ice Cream"]);
