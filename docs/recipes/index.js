@@ -24096,6 +24096,13 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
     }
   });
 
+  // src/data/chocolate-peanut-butter-frosting.md
+  var require_chocolate_peanut_butter_frosting = __commonJS({
+    "src/data/chocolate-peanut-butter-frosting.md"(exports, module) {
+      module.exports = "# Chocolate Peanut Butter Frosting\n\n- **Servings:** {1}\n- **Yield:** {1} batch, about {1 2/3} cups\n- [Source](https://www.tasteofhome.com/recipes/chocolate-peanut-butter-frosting/)\n- **Prep Time:** 10 minutes\n- **Total Time:** 10 minutes\n\n## Ingredients\n\n- {1/3} cup butter, softened\n- {1/3} cup creamy peanut butter\n- {1 1/2} teaspoons vanilla extract\n- {2 1/2} cups confectioners' sugar\n- {1/3} cup baking cocoa\n- {1/4} teaspoon salt\n- {4} to {5} tablespoons 2% milk\n\n## Instructions\n\n1. In a large bowl, cream butter and peanut butter until light and fluffy. Beat in vanilla. Stir in the confectioners' sugar, cocoa, salt and enough milk to achieve a spreading consistency.\n";
+    }
+  });
+
   // src/data/chocolate-peppermint-pizzelles.md
   var require_chocolate_peppermint_pizzelles = __commonJS({
     "src/data/chocolate-peppermint-pizzelles.md"(exports, module) {
@@ -28420,6 +28427,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./chocolate-icing.md": () => require_chocolate_icing(),
     "./chocolate-orange-fudge.md": () => require_chocolate_orange_fudge(),
     "./chocolate-pastry-cream.md": () => require_chocolate_pastry_cream(),
+    "./chocolate-peanut-butter-frosting.md": () => require_chocolate_peanut_butter_frosting(),
     "./chocolate-peppermint-pizzelles.md": () => require_chocolate_peppermint_pizzelles(),
     "./chocolate-pumpkin-cake.md": () => require_chocolate_pumpkin_cake(),
     "./chocolate-pumpkin-cupcakes.md": () => require_chocolate_pumpkin_cupcakes(),
@@ -28654,6 +28662,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("chocolate-icing", ["Dessert/Frosting/Icing"]);
   addRecipe("chocolate-orange-fudge", ["Dessert/Fudge"]);
   addRecipe("chocolate-pastry-cream", ["Dessert/Frosting/Custard"]);
+  addRecipe("chocolate-peanut-butter-frosting", ["Dessert/Frosting/Frosting"], true);
   addRecipe("chocolate-peppermint-pizzelles", ["Dessert/Cookies/Pizzelles"]);
   addRecipe("chocolate-pumpkin-cake", ["Dessert/Cake"]);
   addRecipe("chocolate-pumpkin-cupcakes", ["Dessert/Cupcakes"]);

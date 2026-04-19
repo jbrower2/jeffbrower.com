@@ -110,6 +110,7 @@ addRecipe("chocolate-fudge", ["Dessert/Fudge"]);
 addRecipe("chocolate-icing", ["Dessert/Frosting/Icing"]);
 addRecipe("chocolate-orange-fudge", ["Dessert/Fudge"]);
 addRecipe("chocolate-pastry-cream", ["Dessert/Frosting/Custard"]);
+addRecipe("chocolate-peanut-butter-frosting", ["Dessert/Frosting/Frosting"], true);
 addRecipe("chocolate-peppermint-pizzelles", ["Dessert/Cookies/Pizzelles"]);
 addRecipe("chocolate-pumpkin-cake", ["Dessert/Cake"]);
 addRecipe("chocolate-pumpkin-cupcakes", ["Dessert/Cupcakes"]);
