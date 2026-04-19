@@ -5,7 +5,7 @@
 
 ## Ingredients
 
-- {14} oz Semisweet Chocolate
+- {14} oz Semisweet Chocolate (milk chocolate wafers might be better)
 - {6} tbsp Peanut Butter
 - {1} cup Mini Marshmallows
 - {1} cup Peanuts

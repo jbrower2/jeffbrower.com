@@ -24404,7 +24404,7 @@ These easy Hot Chocolate Cookies are always a hit! Made with real hot cocoa, thi
   // src/data/nanas-rocky-road-candies.md
   var require_nanas_rocky_road_candies = __commonJS({
     "src/data/nanas-rocky-road-candies.md"(exports, module) {
-      module.exports = "# Nana's Rocky Road Candies\n\n- **Servings:** {36}\n- **Yield:** {36} candies\n\n## Ingredients\n\n- {14} oz Semisweet Chocolate\n- {6} tbsp Peanut Butter\n- {1} cup Mini Marshmallows\n- {1} cup Peanuts\n- {1} cup Rice Krispies\n\n## Instructions\n\n1. Melt chocolate and peanut butter\n1. Mix in marshmallows, peanuts and rice krispies\n1. Drop by teaspoonful onto wax paper\n";
+      module.exports = "# Nana's Rocky Road Candies\n\n- **Servings:** {36}\n- **Yield:** {36} candies\n\n## Ingredients\n\n- {14} oz Semisweet Chocolate (milk chocolate wafers might be better)\n- {6} tbsp Peanut Butter\n- {1} cup Mini Marshmallows\n- {1} cup Peanuts\n- {1} cup Rice Krispies\n\n## Instructions\n\n1. Melt chocolate and peanut butter\n1. Mix in marshmallows, peanuts and rice krispies\n1. Drop by teaspoonful onto wax paper\n";
     }
   });
 
