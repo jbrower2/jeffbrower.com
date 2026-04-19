@@ -68,6 +68,7 @@ addRecipe("best-chocolate-cupcakes", ["Dessert/Cupcakes"], true);
 addRecipe("biscotti", ["Dessert/Cookies"]);
 addRecipe("black-and-white-cookies", ["Dessert/Cookies"]);
 addRecipe("blackened-mahi-mahi", ["Main Dish"], true);
+addRecipe("blackstone-chicken-fajitas", ["Main Dish"], true);
 addRecipe("blackstone-fried-rice", ["Main Dish", "Side Dish"], true);
 addRecipe("blonde-brownies", ["Dessert/Brownies"]);
 addRecipe("blueberry-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
