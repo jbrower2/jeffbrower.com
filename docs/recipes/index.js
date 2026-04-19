@@ -24243,6 +24243,13 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
     }
   });
 
+  // src/data/double-chocolate-chip-cookies.md
+  var require_double_chocolate_chip_cookies = __commonJS({
+    "src/data/double-chocolate-chip-cookies.md"(exports, module) {
+      module.exports = "# Double Chocolate Chip Cookies\n\nThese double chocolate chip cookies are extra soft and oozing with chocolate chips. They're thick, chewy, gooey and taste somewhere in between a brownie and a cookie. Get your milk ready \u2014 because these cookies are extra rich and perfect for true chocolate lovers.\n\n- **Servings:** {20}\n- **Yield:** {20} cookies\n- [Source](https://www.justsotasty.com/soft-batch-double-chocolate-cookies/)\n- **Prep Time:** 10 minutes\n- **Cook Time:** 12 minutes\n- **Chilling Time:** 3 hours\n- **Total Time:** 3 hours 30 minutes\n\n## Ingredients\n\n- {1} cup ({125} grams) all-purpose flour, spooned and leveled\n- {2/3} cup ({60} grams) cocoa powder\n- {1/2} teaspoon baking soda\n- {1 1/2} teaspoons cornstarch (AKA cornflour in the UK and Australia)\n- {1/4} teaspoon salt\n- {10} tablespoons ({140} grams) unsalted butter, softened (1 stick plus 2 tablespoons)\n- {3/4} cup ({158} grams) packed brown sugar, light or dark\n- {1/4} cup ({50} grams) granulated sugar\n- {1} large egg\n- {1 1/2} teaspoons vanilla\n- {1 1/4} cup (about {225} grams) chocolate chips, divided\n\n## Instructions\n\n1. Whisk together the flour, cocoa, baking soda, and salt in a medium bowl. Set aside.\n1. In a large bowl beat together the butter and sugars until fluffy.\n1. Add the egg and vanilla into the butter mixture and continue mixing until combined. Turn off the mixer and scrape down the sides of the bowl.\n1. Slowly mix the dry ingredients into the butter mixture on low speed until incorporated.\n1. Turn off the electric mixer and stir in {1} cup chocolate chips. Reserve the extra {1/4} cup for dotting on the tops of the cookies.\n1. Cover the bowl with plastic wrap and chill in the refrigerator for at least 3 hours or up to 48.\n1. When ready to bake, preheat the oven to 350\xB0F. Line 2 cookie sheets with parchment paper or silicone baking mats. Take the dough out of the fridge and set on the counter for about 15 minutes to warm up slightly if it's been in the fridge overnight.\n1. Form into balls of 1\u20131.5 tablespoons in size and place about 1\xBD inches apart on baking sheets. For larger cookies, form into balls of about 3 tablespoons in size and place 2\xBD inches (about 6\u20137 cm) apart.\n1. Bake cookies for 8\u201311 minutes (or 12\u201314 minutes for larger cookies), or until the tops are just set. Remove from oven and let cool on the tray for 10 minutes before transferring to a wire rack to continue cooling. While the cookies are fresh from the oven, optionally dot the tops of each cookie with a few extra chocolate chips.\n\n## Notes\n\n- **Cornstarch:** This recipe will turn out without the cornstarch, but it definitely helps to make these cookies extra soft.\n- **Storage:** Store cookies in an airtight container for up to 4 days at room temperature.\n- **Freezing:** Dough balls can be frozen in a freezer bag for up to 3 months. When ready to bake, preheat the oven and line cookie sheets as directed in the recipe. Bake cookie dough balls from frozen \u2014 then need 1\u20132 extra minutes. Baked and cooled cookies can be frozen. Place in a freezer safe container, with layers of parchment paper or wax paper in between each layer of cookies. Thaw in the fridge.\n";
+    }
+  });
+
   // src/data/double-chocolate-gelato.md
   var require_double_chocolate_gelato = __commonJS({
     "src/data/double-chocolate-gelato.md"(exports, module) {
@@ -28518,6 +28525,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./dirty-rice.md": () => require_dirty_rice(),
     "./donut-glaze.md": () => require_donut_glaze(),
     "./donuts.md": () => require_donuts(),
+    "./double-chocolate-chip-cookies.md": () => require_double_chocolate_chip_cookies(),
     "./double-chocolate-gelato.md": () => require_double_chocolate_gelato(),
     "./easy-green-chicken-enchiladas.md": () => require_easy_green_chicken_enchiladas(),
     "./easy-slow-cooker-pulled-pork.md": () => require_easy_slow_cooker_pulled_pork(),
@@ -28763,6 +28771,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("dirty-rice", ["Main Dish"], true);
   addRecipe("donut-glaze", ["Dessert/Donuts"]);
   addRecipe("donuts", ["Dessert/Donuts"]);
+  addRecipe("double-chocolate-chip-cookies", ["Dessert/Cookies"], true);
   addRecipe("double-chocolate-gelato", ["Dessert/Ice Cream"]);
   addRecipe("easy-green-chicken-enchiladas", ["Main Dish"], true);
   addRecipe("easy-slow-cooker-pulled-pork", ["Main Dish"], true);

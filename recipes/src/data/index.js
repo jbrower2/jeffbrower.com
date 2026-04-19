@@ -131,6 +131,7 @@ addRecipe("cream-puffs", ["Dessert/Pastry"]);
 addRecipe("dirty-rice", ["Main Dish"], true);
 addRecipe("donut-glaze", ["Dessert/Donuts"]);
 addRecipe("donuts", ["Dessert/Donuts"]);
+addRecipe("double-chocolate-chip-cookies", ["Dessert/Cookies"], true);
 addRecipe("double-chocolate-gelato", ["Dessert/Ice Cream"]);
 addRecipe("easy-green-chicken-enchiladas", ["Main Dish"], true);
 addRecipe("easy-slow-cooker-pulled-pork", ["Main Dish"], true);
