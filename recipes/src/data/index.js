@@ -132,8 +132,11 @@ addRecipe(
 );
 addRecipe("chocolate-peanut-butter-nice-cream", ["Dessert/Ice Cream"], true);
 addRecipe("chocolate-peppermint-pizzelles", ["Dessert/Cookies/Pizzelles"]);
-addRecipe("chocolate-pumpkin-cake", ["Dessert/Cake"]);
-addRecipe("chocolate-pumpkin-cupcakes", ["Dessert/Cupcakes"]);
+addRecipe(
+  "chocolate-pumpkin-cake-and-cupcakes",
+  ["Dessert/Cake", "Dessert/Cupcakes"],
+  true,
+);
 addRecipe("chocolate-truffles", ["Dessert/Candy"]);
 addRecipe("churros", ["Dessert/Pastry"]);
 addRecipe("cinnamon-bread-muffins", ["Dessert/Bread"]);
@@ -223,6 +226,7 @@ addRecipe("nutella-fudge", ["Dessert/Fudge"]);
 addRecipe("oatmeal-raisin-cookies", ["Dessert/Cookies"]);
 addRecipe("orange-brownies", ["Dessert/Brownies"]);
 addRecipe("orange-cinnamon-swirl-bread-muffins", ["Dessert/Bread"]);
+addRecipe("orange-cream-cheese-frosting", ["Dessert/Frosting/Frosting"], true);
 addRecipe("orange-creamsicle-fudge", ["Dessert/Fudge"]);
 addRecipe("orange-julius", ["Drink"], true);
 addRecipe("orange-pastry-cream", ["Dessert/Frosting/Custard"]);

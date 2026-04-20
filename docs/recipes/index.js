@@ -24221,17 +24221,10 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
     }
   });
 
-  // src/data/chocolate-pumpkin-cake.md
-  var require_chocolate_pumpkin_cake = __commonJS({
-    "src/data/chocolate-pumpkin-cake.md"(exports, module) {
-      module.exports = "# Chocolate Pumpkin Cake\n\n- **Servings:** {12}\n- **Yield:** {1} 2-layer cake\n\n## Ingredients\n\n- {1 3/4} cup All-purpose Flour\n- {3/4} cup Unsweetened Cocoa Powder\n- {2} tsp Baking Powder\n- {1} tsp Baking Soda\n- {1/2} tbsp Cinnamon\n- {1/2} tsp Nutmeg\n- {1/2} cup Buttermilk\n- {1} cup Pumpkin Puree\n- {1} tsp Vanilla Extract\n- {1 1/2} stick Butter, softened\n- {1} cup Brown Sugar\n- {1} cup Sugar\n- {3} Egg\n- Frosting\n\n## Instructions\n\n1. Heat oven to 350 degrees F\n1. Lightly butter three 8-inch cake pans and fit each bottom with an 8-inch circle of parchment paper\n1. Lightly butter the parchment paper\n1. Set aside\n1. Sift the flour, cocoa, baking powder, baking soda, cinnamon, and nutmeg in a large bowl and set aside\n1. Combine the buttermilk, pumpkin, and vanilla in a medium bowl and set aside\n1. Beat the butter and sugars together in a large bowl, with an electric mixer set on medium speed, until fluffy\n1. Add the eggs, one at a time, beating well after each addition, until the mixture is smooth and light\n1. Alternately add the flour mixture and buttermilk mixture, blending well after each addition\n1. Divide the batter among the pans and bake about 35 minutes until a wooden skewer inserted into the middle comes out clean\n1. Cool the cakes in the pan for 20 minutes\n1. Remove cakes and cool\n1. Trim each of the layers\n1. Place one layer on a cake plate and top with one third of the frosting\n1. Repeat with the second and third layers\n1. To ensure that the cake layers do not shift, cut three skewers to 1/4 inch shorter than the full height of the cake and insert them before icing the top layer\n1. Refrigerate until ready to serve\n";
-    }
-  });
-
-  // src/data/chocolate-pumpkin-cupcakes.md
-  var require_chocolate_pumpkin_cupcakes = __commonJS({
-    "src/data/chocolate-pumpkin-cupcakes.md"(exports, module) {
-      module.exports = "# Chocolate Pumpkin Cupcakes\n\n- **Servings:** {12}\n- **Yield:** {24} cupcakes\n\n## Ingredients\n\n- {1 3/4} cup All-purpose Flour\n- {3/4} cup Unsweetened Cocoa Powder\n- {2} tsp Baking Powder\n- {1} tsp Baking Soda\n- {1/2} tbsp Cinnamon\n- {1/2} tsp Nutmeg\n- {1/2} cup Buttermilk\n- {1} cup Pumpkin Puree\n- {1} tsp Vanilla Extract\n- {1 1/2} stick Butter, softened\n- {1} cup Brown Sugar\n- {1} cup Sugar\n- {3} Egg\n- Frosting\n\n## Instructions\n\n1. Heat oven to 375 degrees F\n1. Place cupcake liners in standard cupcake tins\n1. Set aside\n1. Sift the flour, cocoa, baking powder, baking soda, cinnamon, and nutmeg in a large bowl and set aside\n1. Combine the buttermilk, pumpkin, and vanilla in a medium bowl and set aside\n1. Beat the butter and sugars together in a large bowl, with an electric mixer set on medium speed, until fluffy\n1. Add the eggs, one at a time, beating well after each addition, until the mixture is smooth and light\n1. Alternately add the flour mixture and buttermilk mixture, blending well after each addition\n1. Fill each cupcake tin with 1/4 cup of batter and bake about 22 minutes\n1. Cool the cupcakes in the pan for 20 minutes\n1. Remove cupcakes and cool\n1. Refrigerate until ready to serve\n";
+  // src/data/chocolate-pumpkin-cake-and-cupcakes.md
+  var require_chocolate_pumpkin_cake_and_cupcakes = __commonJS({
+    "src/data/chocolate-pumpkin-cake-and-cupcakes.md"(exports, module) {
+      module.exports = "# Chocolate Pumpkin Cake and Cupcakes\n\n[Source](https://www.food.com/recipe/chocolate-pumpkin-cake-and-cupcakes-466227)\n\nHave your cake and cupcakes, too: One recipe yields chocolatey pumpkin spice cupcakes or a triple-layer cake.\n\n- **Servings:** {18}\n- **Yield:** One 8-inch 3-layer cake or {36} cupcakes\n- **Total Time:** 1 hour 10 minutes\n\n## Ingredients\n\n- {2 1/2} cups plus {2} tablespoons all-purpose flour\n- {1} cup plus {2} tablespoons good-quality cocoa\n- {1} tablespoon baking powder\n- {1 1/2} teaspoons baking soda\n- {2 1/4} teaspoons ground cinnamon\n- {3/4} teaspoon fresh-grated nutmeg\n- {3/4} cup buttermilk\n- {1 1/2} cups pumpkin pur\xE9e\n- {1 1/2} teaspoons vanilla extract\n- {2 1/4} sticks unsalted butter, softened\n- {1 1/2} cups (firmly packed) dark brown sugar\n- {1 1/2} cups granulated sugar\n- {5} large eggs\n- [Orange Cream Cheese Frosting](#/orange-cream-cheese-frosting)\n\n## Instructions\n\n1. Prepare cake pans: Heat oven to 350 degrees F. Lightly butter three 8-inch cake pans and fit each bottom with an 8-inch circle of parchment paper. Lightly butter the parchment paper. Set aside.\n1. Make the batter: Sift the flour, cocoa, baking powder, baking soda, cinnamon, and nutmeg in a large bowl and set aside. Combine the buttermilk, pumpkin, and vanilla in a medium bowl and set aside. Beat the butter and sugar together in a large bowl, with an electric mixer set on medium speed, until fluffy. Add the eggs, one at a time, beating well after each addition, until the mixture is smooth and light. Alternately add the flour mixture and buttermilk mixture, blending well after each addition.\n1. Bake the cake: Divide the batter among the pans and bake until a wooden skewer inserted into the middle comes out clean \u2014 about 35 minutes. Cool the cakes in the pan for 20 minutes. Remove cakes and cool. (For cupcakes: Heat oven to 375 degrees F. Place cupcake liners in standard cupcake tins and fill each with 1/4 cup of batter. Bake for 22 minutes.)\n1. Assemble the cake: Trim each of the layers. Place one layer on a cake plate and top with one third of the frosting. Repeat with the second and third layers. (To ensure that the cake layers do not shift, cut three skewers to 1/4 inch shorter than the full height of the cake and insert them before icing the top layer.) Refrigerate until ready to serve.\n\n## Notes\n\n- **Tips & Techniques:** Start with chilled frosting and ice the layers to 1/2 inch from the edge to prevent too much dripping.\n";
     }
   });
 
@@ -25198,6 +25191,13 @@ These simple, savory sweet potatoes are mashed and seasoned to perfection with c
   var require_orange_cinnamon_swirl_bread_muffins = __commonJS({
     "src/data/orange-cinnamon-swirl-bread-muffins.md"(exports, module) {
       module.exports = "# Orange Cinnamon Swirl Bread/Muffins\n\n- **Servings:** {18}\n- **Yield:** {18} muffins/1 loaf\n\n## Ingredients\n\n- {1/4} cup Sugar\n- {1/2} tbsp Orange Rind, grated\n- {2 1/4} tsp Yeast\n- {1} tsp Salt\n- {1/2} cup Milk\n- {3/4} cup Orange Juice\n- {1} tbsp Butter\n- {3} cup Bread Flour\n- {1} tbsp Butter\n- {1/4} cup Sugar\n- {1/2} tbsp Cinnamon\n\n## Instructions\n\n1. Mix together sugar, grated orange rind, yeast, and salt in a large bowl\n1. Add milk and orange juice\n1. Stir until yeast is dissolved\n1. Mix in soft butter and enough flour to make a soft dough\n1. Turn dough out onto lightly floured table and knead for about 3 minutes\n1. Put dough in a greased bowl\n1. Flip dough over in bowl so that the dough top is also lightly greased\n1. Cover and let rise for 45 minutes or until double in bulk\n1. Punch down dough\n1. Turn out onto lightly floured table and knead briefly\n1. Roll dough out into a 12 x 8-inch rectangle\n1. Spread with butter, sugar, and cinnamon\n1. Roll dough up like a jelly roll starting at an 8-inch side\n1. Pinch seams closed and tuck under edges\n1. Set loaf in a greased 9 x 5 x 2.5-inch bread pan\n1. Cover and let rise for 30 minutes or until doubled\n1. Bake at 350 degrees F for 50 minutes or until bread sounds hollow when tapped\n1. Remove bread from bread pan immediately and let cool on rack\n";
+    }
+  });
+
+  // src/data/orange-cream-cheese-frosting.md
+  var require_orange_cream_cheese_frosting = __commonJS({
+    "src/data/orange-cream-cheese-frosting.md"(exports, module) {
+      module.exports = "# Orange Cream Cheese Frosting\n\n- **Servings:** {18}\n- **Yield:** One 8-inch 3-layer cake or {36} cupcakes\n- [Source](https://www.food.com/recipe/orange-cream-cheese-frosting-466179)\n- **Total Time:** 15 minutes\n\n## Ingredients\n\n- {1} (8 ounce) package cream cheese, softened\n- {1/4} cup unsalted butter, softened\n- {1} tablespoon fresh orange juice\n- {1} teaspoon grated orange zest\n- {1/2} teaspoon pure vanilla extract\n- {4} cups confectioners' sugar\n- {1/4} teaspoon orange food coloring\n\n## Instructions\n\n1. Blend the cream cheese, butter, orange juice, orange zest, and vanilla in a large bowl, using an electric mixer set at medium speed, until smooth.\n1. Add the sugar and continue to beat until light and creamy \u2014 about 3 more minutes.\n1. Add the food coloring and gently stir until the color is uniform.\n1. Chill the frosting until ready to ice the cupcakes or cake.\n";
     }
   });
 
@@ -28930,8 +28930,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./chocolate-peanut-butter-frosting.md": () => require_chocolate_peanut_butter_frosting(),
     "./chocolate-peanut-butter-nice-cream.md": () => require_chocolate_peanut_butter_nice_cream(),
     "./chocolate-peppermint-pizzelles.md": () => require_chocolate_peppermint_pizzelles(),
-    "./chocolate-pumpkin-cake.md": () => require_chocolate_pumpkin_cake(),
-    "./chocolate-pumpkin-cupcakes.md": () => require_chocolate_pumpkin_cupcakes(),
+    "./chocolate-pumpkin-cake-and-cupcakes.md": () => require_chocolate_pumpkin_cake_and_cupcakes(),
     "./chocolate-truffles.md": () => require_chocolate_truffles(),
     "./churros.md": () => require_churros(),
     "./cinnamon-bread-muffins.md": () => require_cinnamon_bread_muffins(),
@@ -29001,6 +29000,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./oatmeal-raisin-cookies.md": () => require_oatmeal_raisin_cookies(),
     "./orange-brownies.md": () => require_orange_brownies(),
     "./orange-cinnamon-swirl-bread-muffins.md": () => require_orange_cinnamon_swirl_bread_muffins(),
+    "./orange-cream-cheese-frosting.md": () => require_orange_cream_cheese_frosting(),
     "./orange-creamsicle-fudge.md": () => require_orange_creamsicle_fudge(),
     "./orange-julius.md": () => require_orange_julius(),
     "./orange-pastry-cream.md": () => require_orange_pastry_cream(),
@@ -29219,8 +29219,11 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   );
   addRecipe("chocolate-peanut-butter-nice-cream", ["Dessert/Ice Cream"], true);
   addRecipe("chocolate-peppermint-pizzelles", ["Dessert/Cookies/Pizzelles"]);
-  addRecipe("chocolate-pumpkin-cake", ["Dessert/Cake"]);
-  addRecipe("chocolate-pumpkin-cupcakes", ["Dessert/Cupcakes"]);
+  addRecipe(
+    "chocolate-pumpkin-cake-and-cupcakes",
+    ["Dessert/Cake", "Dessert/Cupcakes"],
+    true
+  );
   addRecipe("chocolate-truffles", ["Dessert/Candy"]);
   addRecipe("churros", ["Dessert/Pastry"]);
   addRecipe("cinnamon-bread-muffins", ["Dessert/Bread"]);
@@ -29310,6 +29313,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("oatmeal-raisin-cookies", ["Dessert/Cookies"]);
   addRecipe("orange-brownies", ["Dessert/Brownies"]);
   addRecipe("orange-cinnamon-swirl-bread-muffins", ["Dessert/Bread"]);
+  addRecipe("orange-cream-cheese-frosting", ["Dessert/Frosting/Frosting"], true);
   addRecipe("orange-creamsicle-fudge", ["Dessert/Fudge"]);
   addRecipe("orange-julius", ["Drink"], true);
   addRecipe("orange-pastry-cream", ["Dessert/Frosting/Custard"]);
