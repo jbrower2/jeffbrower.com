@@ -1,10 +1,11 @@
 # Best Chocolate Cupcakes
 
+Submitted by: Julia - [Source](https://www.iheartnaptime.net/best-chocolate-cupcakes/)
+
 If you're looking for the best chocolate cupcake recipe that is moist, rich and chocolatey, try this easy chocolate cupcake that is packed with chocolate flavor - it's the ultimate chocolate lover's cupcake and sure to become your new favorite.
 
 - **Servings:** {24}
 - **Yield:** {24} cupcakes
-- [Source](https://www.iheartnaptime.net/best-chocolate-cupcakes/#recipe)
 - **Prep Time:** 10 minutes
 - **Cook Time:** 20 minutes
 - **Total Time:** 30 minutes

@@ -1,10 +1,11 @@
 # Easy Green Chicken Enchiladas
 
+Submitted by: Julia - [Source](https://www.inspiredtaste.net/11767/salsa-verde-chicken-enchiladas/)
+
 These salsa verde chicken enchiladas are easy and incredibly delicious. You can use store-bought green chile enchilada sauce or salsa verde for this recipe. I like the options from Hatch, Las Palmas, and Frontera. Or, to make it from scratch, try this Roasted Salsa Verde made with tomatillos, green chile peppers, and garlic (it's amazing).
 
 - **Servings:** {4}
 - **Yield:** {6} enchiladas
-- [Source](https://www.inspiredtaste.net/11767/salsa-verde-chicken-enchiladas/)
 - **Prep Time:** 10 minutes
 - **Cook Time:** 30 minutes
 - **Total Time:** 40 minutes

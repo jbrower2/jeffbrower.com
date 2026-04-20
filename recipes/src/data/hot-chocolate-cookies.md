@@ -1,10 +1,11 @@
 # Hot Chocolate Cookies
 
+Submitted by: Julia - [Source](https://www.lovefromtheoven.com/hot-chocolate-cookies/)
+
 These easy Hot Chocolate Cookies are always a hit! Made with real hot cocoa, this is always a popular winter or Christmas cookie and is perfect for cookie exchanges.
 
 - **Servings:** {36}
 - **Yield:** {36} cookies
-- [Source](https://www.lovefromtheoven.com/hot-chocolate-cookies/)
 - **Prep Time:** 10 minutes
 - **Cook Time:** 20 minutes
 - **Chill Time:** 30 minutes

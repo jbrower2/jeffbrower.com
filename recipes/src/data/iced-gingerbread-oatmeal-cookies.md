@@ -1,5 +1,7 @@
 # Iced Gingerbread Oatmeal Cookies
 
+Submitted by: Julia - [Source](https://www.tiktok.com/@homemadebynatalie/video/7581207276246027551)
+
 - **Servings:** {22}
 - **Yield:** {22} cookies
 - **Chill Time:** 30 minutes

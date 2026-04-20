@@ -1,10 +1,11 @@
 # Rice Krispie Treats
 
+Submitted by: Julia - [Source](https://natashaskitchen.com/rice-krispie-treats-recipe/)
+
 Thick and gooey Rice Krispie Treats are a classic no-bake dessert filled with sweet buttery marshmallows and crispy rice cereal crunch. A family-favorite recipe!
 
 - **Servings:** {16}
 - **Yield:** {16} treats
-- [Source](https://natashaskitchen.com/rice-krispie-treats-recipe/)
 - **Prep Time:** 10 minutes
 - **Cook Time:** 15 minutes
 - **Total Time:** 25 minutes

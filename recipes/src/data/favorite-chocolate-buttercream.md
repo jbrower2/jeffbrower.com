@@ -1,10 +1,11 @@
 # Favorite Chocolate Buttercream
 
+Submitted by: Julia - [Source](https://sallysbakingaddiction.com/favorite-chocolate-buttercream/)
+
 This is my favorite chocolate buttercream recipe. It's incredibly rich, creamy, silky, smooth, and easy to work with for decorating cakes and cupcakes!
 
 - **Servings:** {16}
 - **Yield:** {2 1/2} cups, enough to frost {16} cupcakes
-- [Source](https://sallysbakingaddiction.com/favorite-chocolate-buttercream/)
 - **Prep Time:** 5 minutes
 - **Total Time:** 5 minutes
 

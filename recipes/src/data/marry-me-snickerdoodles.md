@@ -1,5 +1,7 @@
 # Marry Me Snickerdoodles
 
+Submitted by: Julia - [Source](https://www.tiktok.com/@thedarlingkitchen/video/7528888204028644639)
+
 - **Servings:** {12}
 - **Yield:** {8}–{12} cookies
 

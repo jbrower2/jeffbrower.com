@@ -1,5 +1,7 @@
 # Southwestern Egg Casserole
 
+Submitted by: Julia - [Source](https://leslieblythemiller.wordpress.com/2013/12/13/southwest-breakfast-strata/)
+
 This dish is great for brunch or Sunday night supper. It's spicy--for a milder flavor, choose plain Monterey Jack cheese.
 
 - **Servings:** {8}
