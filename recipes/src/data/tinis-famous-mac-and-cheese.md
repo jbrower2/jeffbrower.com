@@ -1,7 +1,8 @@
 # Tini's Famous Mac and Cheese
 
+Submitted by: Maddie - [Source](https://rouxgirl.substack.com/p/tinis-famous-mac-and-cheese)
+
 - **Servings:** {8}
-- [Source](https://rouxgirl.substack.com/p/tinis-famous-mac-and-cheese)
 
 ## Ingredients
 
