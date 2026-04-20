@@ -29141,7 +29141,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     });
   }
   addRecipe("almond-pastry-cream", ["Dessert/Frosting/Custard"]);
-  addRecipe("alton-brown-sugar-cookies", ["Dessert/Cookies"]);
+  addRecipe("alton-brown-sugar-cookies", ["Dessert/Cookies"], true);
   addRecipe("apple-bread", ["Dessert/Bread"]);
   addRecipe("apple-cider", ["Drink"], true);
   addRecipe("apple-cider-doughnuts", ["Dessert/Donuts"], true);
@@ -29166,7 +29166,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("brown-butter-frosting", ["Dessert/Frosting/Frosting"]);
   addRecipe("brown-butter-frosting-icing", ["Dessert/Frosting/Frosting"]);
   addRecipe("brown-sugar-glazed-salmon", ["Main Dish"], true);
-  addRecipe("brownies", ["Dessert/Brownies"]);
+  addRecipe("brownies", ["Dessert/Brownies"], true);
   addRecipe("butter-pecan-fudge", ["Dessert/Fudge"]);
   addRecipe("butterbeer", ["Drink"], true);
   addRecipe("butterbeer-old", ["Drink"]);
@@ -29188,7 +29188,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   );
   addRecipe("cherry-banana-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
   addRecipe("cherry-pie", ["Dessert/Pie"]);
-  addRecipe("chili", ["Main Dish"]);
+  addRecipe("chili", ["Main Dish"], true);
   addRecipe("chocolate-brownies", ["Dessert/Brownies"]);
   addRecipe("chocolate-buttercream-frosting", ["Dessert/Frosting/Frosting"]);
   addRecipe("chocolate-cake", ["Dessert/Cake"]);
@@ -29234,8 +29234,8 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("cream-cheese-frosting", ["Dessert/Frosting/Frosting"], true);
   addRecipe("cream-puffs", ["Dessert/Pastry"]);
   addRecipe("crepes", ["Breakfast"], true);
-  addRecipe("crushed-red-pepper-hummus", ["Appetizer"]);
-  addRecipe("dark-chocolate-candy-cane-cookies", ["Dessert/Cookies"]);
+  addRecipe("crushed-red-pepper-hummus", ["Appetizer"], true);
+  addRecipe("dark-chocolate-candy-cane-cookies", ["Dessert/Cookies"], true);
   addRecipe("dirty-rice", ["Main Dish"], true);
   addRecipe("donut-glaze", ["Dessert/Donuts"]);
   addRecipe("donuts", ["Dessert/Donuts"]);
@@ -29260,7 +29260,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("funnel-cake", ["Dessert/Donuts"]);
   addRecipe("gelato", ["Dessert/Ice Cream"]);
   addRecipe("ginger-snaps", ["Dessert/Cookies"]);
-  addRecipe("gingerbread", ["Dessert/Bread"]);
+  addRecipe("gingerbread", ["Dessert/Bread"], true);
   addRecipe("gingerbread-cookies", ["Dessert/Cookies"]);
   addRecipe("grams-banana-bread", ["Dessert/Bread"], true);
   addRecipe("grape-pie", ["Dessert/Pie"]);
@@ -29304,7 +29304,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("mrs-siggs-snickerdoodles", ["Dessert/Cookies"], true);
   addRecipe("nanas-brownie-balls", ["Dessert/Candy"], true);
   addRecipe("nanas-rocky-road-candies", ["Dessert/Candy"], true);
-  addRecipe("neapolitan-dough", ["Main Dish"]);
+  addRecipe("neapolitan-dough", ["Main Dish"], true);
   addRecipe("nutella-frosting", ["Dessert/Frosting/Frosting"]);
   addRecipe("nutella-fudge", ["Dessert/Fudge"]);
   addRecipe("oatmeal-raisin-cookies", ["Dessert/Cookies"]);
@@ -29340,7 +29340,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "Dessert/Muffins"
   ]);
   addRecipe("pinwheel-cookies", ["Dessert/Cookies"], true);
-  addRecipe("pizza-sauce", ["Main Dish"]);
+  addRecipe("pizza-sauce", ["Main Dish"], true);
   addRecipe("pizzelles", ["Dessert/Cookies/Pizzelles"]);
   addRecipe("prime-rib", ["Main Dish"], true);
   addRecipe("prime-rib-2", ["Main Dish"], true);
@@ -29360,15 +29360,15 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("rainbow-cookies", ["Dessert/Cookies"]);
   addRecipe("raspberry-cheesecake-flavoring", ["Dessert/Cake/Cheesecake"]);
   addRecipe("raspberry-thumbprint-cookies", ["Dessert/Cookies"], true);
-  addRecipe("red-velvet-crinkle-cookies", ["Dessert/Cookies"]);
+  addRecipe("red-velvet-crinkle-cookies", ["Dessert/Cookies"], true);
   addRecipe("red-velvet-cupcakes", ["Dessert/Cupcakes"]);
   addRecipe("red-velvet-fudge", ["Dessert/Fudge"]);
-  addRecipe("reeses-stuffed-peanut-butter-cookies", ["Dessert/Cookies"]);
+  addRecipe("reeses-stuffed-peanut-butter-cookies", ["Dessert/Cookies"], true);
   addRecipe("rice-krispie-treats", ["Dessert/Candy"], true);
   addRecipe("rivers-banana-bread", ["Dessert/Bread"], true);
   addRecipe("rocky-road-fudge", ["Dessert/Fudge"]);
   addRecipe("rule-of-3-garlic-buffalo-wing-sauce", ["Seasoning"], true);
-  addRecipe("salsa", ["Seasoning"]);
+  addRecipe("salsa", ["Seasoning"], true);
   addRecipe("salsa-morada", ["Seasoning"], true);
   addRecipe("salt-baked-potatoes", ["Side Dish"], true);
   addRecipe("sherbet", ["Dessert/Ice Cream"]);
@@ -29379,7 +29379,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     true
   );
   addRecipe("snickerdoodles", ["Dessert/Cookies"]);
-  addRecipe("soft-chocolate-chip-cookies", ["Dessert/Cookies"]);
+  addRecipe("soft-chocolate-chip-cookies", ["Dessert/Cookies"], true);
   addRecipe("sorbet", ["Dessert/Ice Cream"]);
   addRecipe("southwestern-egg-casserole", ["Breakfast"], true);
   addRecipe("spicy-chicken-rigatoni", ["Main Dish"], true);
