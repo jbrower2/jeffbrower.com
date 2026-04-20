@@ -23595,6 +23595,13 @@
     }
   });
 
+  // src/data/alton-brown-sugar-cookies.md
+  var require_alton_brown_sugar_cookies = __commonJS({
+    "src/data/alton-brown-sugar-cookies.md"(exports, module) {
+      module.exports = "# Sugar Cookies\n\n[Source](https://www.foodnetwork.com/recipes/alton-brown/sugar-cookies-recipe-1914697)\n\n- **Yield:** about {36} 2 1/2 inch cookies\n- **Prep Time:** 15 minutes\n- **Inactive Time:** 2 hours\n- **Cook Time:** 9 minutes\n- **Total Time:** 2 hours 24 minutes\n\n## Ingredients\n\n- {3} cups all-purpose flour\n- {3/4} teaspoon baking powder\n- {1/4} teaspoon salt\n- {1} cup unsalted butter, softened\n- {1} cup sugar\n- {1} egg, beaten\n- {1} tablespoon milk\n- Powdered sugar, for rolling out dough\n\n## Instructions\n\n1. Sift together flour, baking powder, and salt. Set aside. Place butter and sugar in large bowl of electric stand mixer and beat until light in color. Add egg and milk and beat to combine. Put mixer on low speed, gradually add flour, and beat until mixture pulls away from the side of the bowl. Divide the dough in half, wrap in waxed paper, and refrigerate for 2 hours.\n1. Preheat oven to 375 degrees F.\n1. Sprinkle surface where you will roll out dough with powdered sugar. Remove 1 wrapped pack of dough from refrigerator at a time, sprinkle rolling pin with powdered sugar, and roll out dough to 1/4-inch thick. Move the dough around and check underneath frequently to make sure it is not sticking. If dough has warmed during rolling, place cold cookie sheet on top for 10 minutes to chill. Cut into desired shape, place at least 1-inch apart on greased baking sheet, parchment, or silicone baking mat, and bake for 7 to 9 minutes or until cookies are just beginning to turn brown around the edges, rotating cookie sheet halfway through baking time. Let sit on baking sheet for 2 minutes after removal from oven and then move to complete cooling on wire rack. Serve as is or ice as desired. Store in airtight container for up to 1 week.\n";
+    }
+  });
+
   // src/data/apple-bread.md
   var require_apple_bread = __commonJS({
     "src/data/apple-bread.md"(exports, module) {
@@ -23829,6 +23836,13 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
     }
   });
 
+  // src/data/brownies.md
+  var require_brownies = __commonJS({
+    "src/data/brownies.md"(exports, module) {
+      module.exports = "# Brownies\n\n- **Servings:** {24}\n- **Yield:** 9x13 pan\n\n## Ingredients\n\n- {1} cup butter\n- {2} cups sugar\n- {1} tbsp vanilla\n- {4} eggs\n- {1 1/2} cups flour\n- {1} cup unsweetened cocoa powder\n- {1} cup semisweet chocolate chips\n- {1/2} tsp salt\n- {1/2} cup vegetable oil\n\n## Instructions\n\n1. Bake at 325 for 50 minutes.\n";
+    }
+  });
+
   // src/data/butter-pecan-fudge.md
   var require_butter_pecan_fudge = __commonJS({
     "src/data/butter-pecan-fudge.md"(exports, module) {
@@ -24015,6 +24029,13 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
   var require_cherry_pie = __commonJS({
     "src/data/cherry-pie.md"(exports, module) {
       module.exports = "# Cherry Pie\n\n- **Servings:** {12}\n- **Yield:** {1} pie\n\n## Ingredients\n\n- {4} cup Cherries\n- {1 1/4} cup Sugar\n- {4} tbsp Cornstarch\n- {1/4} tsp Almond Extract\n- {1 1/2} tbsp Butter\n- {1} tbsp Sugar\n- {2} Pie Crust, unbaked for top and bottom\n\n## Instructions\n\n1. Place cherries in medium saucepan and place over heat\n1. Cover\n1. After the cherries lose considerable juice, which may take a few minutes, remove from heat\n1. In a small bowl, mix the sugar and cornstarch together\n1. Pour this mixture into the hot cherries and mix well\n1. Add the almond extract, if desired, and mix\n1. Return the mixture to the stove and cook over low heat until thickened, stirring frequently\n1. Remove from the heat and let cool\n1. If the filling is too thick, add a little water, too thin, add a little more cornstarch\n1. Preheat the oven to 375 degrees F\n1. Use your favorite pie dough recipe\n1. Prepare your crust\n1. Divide in half\n1. Roll out each piece large enough to fit into an 8 to 9-inch pan\n1. Pour cooled cherry mixture into the crust\n1. Dot with butter\n1. Moisten edge of bottom crust\n1. Place top crust on and flute the edge of the pie\n1. Make a slit in the middle of the crust for steam to escape\n1. Sprinkle with sugar\n1. Bake for about 50 minutes\n1. Remove from the oven and place on a rack to cool\n";
+    }
+  });
+
+  // src/data/chili.md
+  var require_chili = __commonJS({
+    "src/data/chili.md"(exports, module) {
+      module.exports = "# Chili\n\nRecipe by: Jeff\n\n- **Servings:** {12}\n- **Cook Time:** 8 hours\n\n## Ingredients\n\n- {2} lbs ground beef\n- {1} lb thick cut bacon, finely chopped\n- {1} lb sweet sausage\n- {45} oz tomato sauce\n- {30} oz diced tomatoes\n- {30} oz kidney beans (drained)\n- {15} oz pinto beans (drained)\n- {15} oz black beans (drained)\n- {1} pepper diced green bell pepper\n- {1} pepper diced red bell pepper\n- {1 1/2} medium onions, diced\n- {3} cloves minced garlic\n- {2} tbsp chili powder\n- {2} tsp salt\n- {1 1/2} tsp dried basil\n- {1} tsp dried parsley\n- {1} tsp dried oregano\n- {1} tsp crushed red pepper flakes\n- {1/2} tsp ground black pepper\n\n## Instructions\n\n1. Fully cook the ground beef and sausage\n1. Fry the bacon. I like to cut it up into \xBC\u201D strips first with a sharp knife\n1. Cut up the produce\n1. Drain the beans\n1. Combine all ingredients and cook in a slow cooker on low for 8 hours (can also cook on the stove top: bring to a low boil on medium, then simmer on low for 60 minutes)\n";
     }
   });
 
@@ -24305,6 +24326,20 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
     }
   });
 
+  // src/data/crushed-red-pepper-hummus.md
+  var require_crushed_red_pepper_hummus = __commonJS({
+    "src/data/crushed-red-pepper-hummus.md"(exports, module) {
+      module.exports = "# Crushed Red Pepper Hummus\n\n- **Servings:** {16}\n- **Yield:** {5} cups\n\n## Ingredients\n\n- {30} oz garbanzo beans\n- {3} lemons lemon juice\n- {2} tbsp olive oil\n- {4} cloves garlic\n- {1} tsp cumin\n- {2} tsp salt\n- {4} tbsp tahini\n- {12} oz roasted red peppers\n";
+    }
+  });
+
+  // src/data/dark-chocolate-candy-cane-cookies.md
+  var require_dark_chocolate_candy_cane_cookies = __commonJS({
+    "src/data/dark-chocolate-candy-cane-cookies.md"(exports, module) {
+      module.exports = "# Dark Chocolate Candy Cane Cookies\n\n[Source](https://livforcake.com/dark-chocolate-candy-cane-cookies/)\n\nThe classic combination of chocolate and peppermint make these Dark Chocolate Candy Cane Cookies the perfect treat for the holidays!\n\n- **Servings:** {36}\n- **Yield:** {36} cookies\n- **Prep Time:** 1 hour 30 minutes\n- **Cook Time:** 10 minutes\n- **Total Time:** 1 hour 40 minutes\n\n## Ingredients\n\n- {2} cups all-purpose flour\n- {1/4} cup Dutch-processed cocoa powder sifted\n- {1/4} cup black cocoa powder sifted\n- {1} tsp baking soda\n- {1/2} tsp sea salt\n- {1} cup unsalted butter room temperature\n- {1/2} cup granulated sugar\n- {1} cup light-brown sugar packed\n- {2} large eggs room temperature\n- {1} tsp peppermint extract optional\n- {1} bag Bright White Candy Melts or white chocolate, melted\\*\n- vegetable shortening as needed to thin candy melts\n- crushed candy canes\n\n## Instructions\n\n1. In a medium bowl, whisk together flour, cocoa powders, baking soda, and salt. Set aside.\n1. In the bowl of a stand mixer, beat butter and sugars on med-high until light and fluffy (approx. 2-3mins). Reduce speed and add egg and peppermint extract. Beat until well combined. Add flour mixture and mix until just combined.\n1. Chill dough for at least 1 hour or overnight.\n1. Preheat oven to 350\xB0F and line baking sheets with parchment paper or silicone mats.\n1. Using a medium cookie scoop, portion dough onto baking sheet (I did 9 cookies per sheet). Bake for approximately 10 mins, or until the middle is set. Cookies will deflate and crinkle a bit upon cooling.\n1. Cool on pans for 5 mins then transfer to to a wire rack to cool completely.\n1. Dip in melted candy melts or white chocolate, place on a parchment lined baking sheet and sprinkle with crushed candy canes. Allow to set.\n";
+    }
+  });
+
   // src/data/dirty-rice.md
   var require_dirty_rice = __commonJS({
     "src/data/dirty-rice.md"(exports, module) {
@@ -24421,6 +24456,13 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
   var require_gingerbread_cookies = __commonJS({
     "src/data/gingerbread-cookies.md"(exports, module) {
       module.exports = "# Gingerbread Cookies\n\n- **Servings:** {72}\n- **Yield:** {72} Cookies\n\n## Ingredients\n\n- {6} cup All-purpose Flour\n- {1} tbsp Baking Powder\n- {1} tsp Nutmeg\n- {1} tsp Cloves\n- {1} tsp Cinnamon\n- {1} cup Shortening, melted and cooled slightly\n- {1} cup Molasses\n- {1} cup Brown Sugar, packed\n- {1/2} cup Water\n- {1} Egg\n- {1} tsp Vanilla Extract\n\n## Instructions\n\n1. Sift together the flour, baking powder, ginger, nutmeg, cloves, and cinnamon; set aside\n1. In a medium bowl, mix together the shortening, molasses, brown sugar, water, egg, and vanilla until smooth\n1. Gradually stir in the dry ingredients, until they are completely absorbed\n1. Divide dough into 3 pieces, pat down to 1 1/2 inch thickness, wrap in plastic wrap, and refrigerate for at least 3 hours\n1. Preheat oven to 350 degrees F (175 degrees C)\n1. On a lightly floured surface, roll the dough out to 1/4 inch thickness\n1. Cut into desired shapes with cookie cutters\n1. Place cookies 1 inch apart onto an ungreased cookie sheet\n1. Bake for 10 to 12 minutes in the preheated oven\n1. When the cookies are done, they will look dry, but still be soft to the touch\n1. Remove from the baking sheet to cool on wire racks\n1. When cool, the cookies can be frosted with the icing of your choice\n";
+    }
+  });
+
+  // src/data/gingerbread.md
+  var require_gingerbread = __commonJS({
+    "src/data/gingerbread.md"(exports, module) {
+      module.exports = "# Gingerbread\n\n## Ingredients\n\n- {1/3} cup shortening\n- {1} cup brown sugar\n- {1 1/2} cups dark molasses\n- {2/3} cup cold water\n- {6} cups sifted flour\n- {2} tsp baking soda\n- {1} tsp salt\n- {1} tsp allspice\n- {1} tsp ginger\n- {1} tsp cloves\n- {1} tsp cinnamon\n\n## Instructions\n\n1. Mix thoroughly shortening, brown sugar, and dark molasses.\n1. Stir in cold water.\n1. Sift together flour, baking soda, salt, allspice, ginger, cloves, and cinnamon, and stir in.\n1. Bake about 15 minutes at 350\xB0F.\n";
     }
   });
 
@@ -25117,6 +25159,13 @@ These simple, savory sweet potatoes are mashed and seasoned to perfection with c
     }
   });
 
+  // src/data/neapolitan-dough.md
+  var require_neapolitan_dough = __commonJS({
+    "src/data/neapolitan-dough.md"(exports, module) {
+      module.exports = '# Neapolitan Dough\n\nRecipe by: Jim\n\nThis recipe makes two 12" pizza crusts or four 9" Stromboli crusts.\n\n## Ingredients\n\n- {4 1/2} cups flour\n- {1} tsp. salt\n- {2 1/4} tsp. active dry yeast ({1} packet)\n- {1 1/2} cups water\n- {2} tsp. honey\n- Olive oil (for brushing crust)\n\n## Instructions\n\n1. Refrigerator rise method: Mix 2 1/2 cups flour with salt, yeast, water, and honey. Mix in remaining flour until dough is slightly sticky and not dry. Knead 15 minutes on a floured surface (10 minutes in a machine), until smooth. Place dough in a bowl dusted with flour and cover with plastic wrap in refrigerator overnight. In the morning, punch dough down and divide in fourths (approx. 7 oz. each), or halves. Dust dough portions with flour and put in zip lock bags and return to refrigerator until ready to use.\n1. Sponge rise method: Prepare dough sponge by mixing yeast, 1/2 cup of flour, and 1/2 cup of water in a bowl covered with plastic wrap. Let rise for 1 hour (throw out and start over with fresher yeast if not foamy). Stir dough sponge to deflate. Mix 1/2 of the remaining flour with salt, remaining water, and dough sponge. Mix in remaining flour (dough should be slightly sticky, not dry). Knead 15 minutes on a floured surface (10 minutes in a machine), until smooth. Place dough in a bowl dusted with flour and cover with plastic wrap. Let rise until doubled (2 to 3 hours). Punch dough down and divide in fourths (approx. 7 oz. each), or halves. Dust dough portions with flour and put in zip lock bags in the refrigerator until ready to use.\n1. Making pizza: Preheat oven to 450\xB0F. Remove dough portions from refrigerator when ready to shape into crust. Punch down thoroughly and roll out dough on a floured surface to half of its final size. Let dough rest 10-15 minutes (while you prepare toppings). Stretch out dough over your floured knuckles and fly 2-3 times until desired size is achieved. Move dough crust to a pizza stone spread with cornmeal. Add sauce, cheese, and toppings. Brush crust with light coating of olive oil. Bake directly on pizza stone for 8-10 minutes, or until crust is golden brown. Cool 2-3 minutes on a wire rack before cutting and serving.\n';
+    }
+  });
+
   // src/data/nutella-frosting.md
   var require_nutella_frosting = __commonJS({
     "src/data/nutella-frosting.md"(exports, module) {
@@ -25380,6 +25429,13 @@ Super soft peanut butter cookies stuffed with Reese's Peanut Butter Cups and dri
     }
   });
 
+  // src/data/pizza-sauce.md
+  var require_pizza_sauce = __commonJS({
+    "src/data/pizza-sauce.md"(exports, module) {
+      module.exports = "# Pizza Sauce\n\n- **Servings:** {16}\n- **Yield:** {4} pizzas\n\n## Ingredients\n\n- {28} oz tomato sauce\n- {12} oz tomato paste\n- {1/4} cup olive oil\n- {1/4} cup sugar\n- {2} tsp salt\n- {1} tsp pepper\n- {1} tsp garlic powder\n- {1} tbsp onion powder\n- {1} tbsp oregano\n- {1} tbsp basil\n- {2} tsp parsley\n- {1} tsp thyme\n- {2} tsp crushed red pepper\n- {1/2} cup grated cheese\n";
+    }
+  });
+
   // src/data/pizzelles.md
   var require_pizzelles = __commonJS({
     "src/data/pizzelles.md"(exports, module) {
@@ -25513,6 +25569,13 @@ Super soft peanut butter cookies stuffed with Reese's Peanut Butter Cups and dri
     }
   });
 
+  // src/data/red-velvet-crinkle-cookies.md
+  var require_red_velvet_crinkle_cookies = __commonJS({
+    "src/data/red-velvet-crinkle-cookies.md"(exports, module) {
+      module.exports = "# Red Velvet Crinkle Cookies\n\n[Source](https://www.cookingclassy.com/red-velvet-crinkle-cookies/)\n\n- **Servings:** {30}\n- **Yield:** {30} cookies\n- **Prep Time:** 25 minutes\n- **Cook Time:** 15 minutes\n- **Total Time:** 2 hours 40 minutes\n\n## Ingredients\n\n- {3} cups all-purpose flour\n- {1/4} cup unsweetened cocoa powder\\*\n- {2} tsp baking powder\n- {1/4} tsp baking soda\n- {3/4} tsp salt\n- {3/4} cup unsalted butter, softened\n- {1 1/3} cups granulated sugar\n- {3} large eggs\n- {1} Tbsp milk or buttermilk\n- {1 1/2} tsp vanilla bean paste or vanilla\n- {2} tsp lemon juice\n- {5} tsp red food coloring\n- {1} cup white chocolate chips\n- {1} cup powdered sugar\n\n## Instructions\n\n1. In a mixing bowl whisk together flour, cocoa powder, baking powder, baking soda and salt for 30 seconds, set aside. In the bowl of an electric stand mixer fitted with the paddle attachment, whip butter and granulated sugar until pale and fluffy.\n1. Mix in eggs 1 at a time, blending until combined after each addition. Mix in milk, vanilla bean paste, lemon juice and red food coloring.\n1. With mixer set on low speed, slowly add in dry ingredients and mix just until combined. Stir in white chocolate chips. Cover bowl with plastic wrap and chill 2 hours or until firm enough to shape into balls.\n1. Preheat oven to 350\xB0F 180\xB0C. Pour powdered sugar into a bowl. Remove dough from refrigerator, scoop dough out and with buttered hands, shape into medium balls (about 2 1/2 Tbsp each).\n1. Roll cookie dough balls into powdered sugar and evenly coat. Transfer to Silpat or parchment paper lined baking sheets and flatten slightly, then bake in preheated oven 13 - 14 minutes. Allow to rest on cookie sheet several minutes then transfer to a wire rack to cool completely. Store in an airtight container.\n\n## Notes\n\n- **\\*Cocoa:** If you want them a little more chocolatey you can replace 2 - 3 Tbsp of the flour with 2 - 3 additional Tbsp of cocoa powder.\n";
+    }
+  });
+
   // src/data/red-velvet-cupcakes.md
   var require_red_velvet_cupcakes = __commonJS({
     "src/data/red-velvet-cupcakes.md"(exports, module) {
@@ -25524,6 +25587,58 @@ Super soft peanut butter cookies stuffed with Reese's Peanut Butter Cups and dri
   var require_red_velvet_fudge = __commonJS({
     "src/data/red-velvet-fudge.md"(exports, module) {
       module.exports = "# Red Velvet Fudge\n\n- **Servings:** {32}\n- **Yield:** {64} pieces\n\n## Ingredients\n\n- {4} cup Sugar\n- {1/2} cup Unsweetened Cocoa Powder\n- {1} cup Buttermilk\n- {1} cup Sweetened Condensed Milk\n- {3/4} stick Butter\n- {2} tsp Vanilla Extract\n- Red Food Coloring\n\n## Instructions\n\n1. Using a 8x8 pan, line pan with wax parchment paper or wax paper\n1. Make sure you have some extra on all four sides\n1. Combine sugar, cocoa, buttermilk, sweet condensed milk, and food coloring in a non stick pan\n1. (I used a big pot) Stir to combine\n1. Bring to a boil, stirring constantly, but do not scrape down the sides\n1. (to avoid getting crystallized sugar in fudge)\n1. Using a well calibrated thermometer, make sure the fudge gets up to 238 degrees\n1. Reduce heat and allow fudge to simmer\n1. DO NOT STIR\n1. At all\n1. Like seriously dont even touch the pan\n1. Allow fudge to cool to 110 degrees and add butter and vanilla\n1. Beat by hand or use electric mixer until fudge loses its sheen\n1. (I used an electric mixer for 20 minutes\n1. Not kidding\n1. Some folks say this stage takes 3-5 minutes.)\n1. Place in prepared pan and allow to cool, usually 1-2 hours\n";
+    }
+  });
+
+  // src/data/reeses-stuffed-peanut-butter-cookies.md
+  var require_reeses_stuffed_peanut_butter_cookies = __commonJS({
+    "src/data/reeses-stuffed-peanut-butter-cookies.md"(exports, module) {
+      module.exports = `# Reese's Stuffed Peanut Butter Cookies
+
+[Source](https://sallysbakingaddiction.com/reeses-stuffed-peanut-butter-cookies/)
+
+Super soft peanut butter cookies stuffed with Reese's Peanut Butter Cups and drizzled with peanut butter/chocolate. A peanut butter lover's dream!
+
+- **Servings:** {18}
+- **Yield:** {18} large cookies
+- **Prep Time:** 1 hour 25 minutes (includes chilling)
+- **Total Time:** 1 hour 35 minutes
+
+## Ingredients
+
+### Cookies
+
+- {1 1/4} cups ({160} g) all-purpose flour (spoon & leveled)
+- {1/2} teaspoon baking soda
+- {1/4} teaspoon salt
+- {1/2} cup ({115} g) unsalted butter, softened to room temperature
+- {1/2} cup ({103} g) packed light or dark brown sugar
+- {1/4} cup ({50} g) granulated sugar
+- {1} large egg, at room temperature\\*
+- {3/4} cup ({185} g) creamy peanut butter\\*\\*
+- {1} teaspoon vanilla extract
+- {18} Reese's Miniature Peanut Butter Cups, unwrapped
+
+### Drizzle
+
+- {1} cup ({180} g) semi-sweet chocolate chips
+- {2} teaspoons creamy peanut butter
+
+## Instructions
+
+1. Make the cookies: Toss the flour, baking soda, and salt into a bowl until combined. Set aside.
+1. In a large bowl using a hand-held mixer or stand mixer with paddle attachment, cream the butter, brown sugar, and white sugar together on medium speed until combined. On low speed, beat in the peanut butter, egg, and vanilla. Turn the mixer to high and beat until light in color and smooth. Turn the mixer to low and slowly pour in the dry ingredients. Mix until combined and a dough is formed.
+1. Cover tightly and chill the cookie dough for at least 1 hour (or up to 3 days). Chilling is mandatory.
+1. Remove cookie dough from the refrigerator. Preheat oven to 350F degrees. Take 1 Tablespoon of dough and roll into a ball. Take another 1 Tablespoon of dough and roll into a ball. Stick a peanut butter cup into one ball, kind of like a "cradle" as shown above. Top the peanut butter cup with other cookie dough ball and seal down the sides so that the peanut butter cup is securely stuffed inside. Roll the large cookie dough ball in your hands to ensure it's smooth. Repeat with the rest of the dough and 18 peanut butter cups.
+1. Bake the cookies for 10-11 minutes or until very lightly browned on the sides. Some cookies may be taller than others, depending how the peanut butter cup was positioned inside. Just press the cookies down a bit to flatten them out. Allow to cool on the cookie sheet for at least 10 minutes and transfer to a wire rack to cool completely.
+1. Make the drizzle: melt chocolate chips and peanut butter together in the microwave, stirring often to prevent seizing. Add 1 teaspoon of shortening if the mixture isn't smooth. Drizzle over cooled cookies.
+1. Cookies stay fresh stored covered at room temperature for up to 7 days. Cookies freeze well, up to 3 months. Stuffed cookie dough balls freeze well, up to 2 months. Bake for 2 extra minutes, do not thaw.
+
+## Notes
+
+- **\\*Egg:** Room temperature egg is best for the cookies. General rule of thumb: I use for my cookie recipes: when using warm or room temperature butter, I always use room temperature egg as well. To bring egg to room temperature quickly, simply place in a cup of warm water for 5 minutes.
+- **\\*\\*Peanut butter:** Thick, commercial brand peanut butter is preferred. If using natural style, make sure the peanut butter is thick and not oily in the slightest - which will make your cookie dough thin, slippery, and spread all over the baking sheet even after chilling the cookie dough. You need thick, non-oily peanut butter like Jif or Skippy.
+`;
     }
   });
 
@@ -25562,6 +25677,13 @@ Super soft peanut butter cookies stuffed with Reese's Peanut Butter Cups and dri
     }
   });
 
+  // src/data/salsa.md
+  var require_salsa = __commonJS({
+    "src/data/salsa.md"(exports, module) {
+      module.exports = "# Salsa\n\n- **Servings:** {64}\n- **Yield:** {1} gallon\n\n## Ingredients\n\n- {6} lbs tomatoes, chopped\n- {2} onion, chopped\n- {16} jalapeno pepper, chopped\n- {4} limes lime juice\n- {4} tsp lemon juice\n- {3} tbsp canola oil\n- {1} tbsp salt\n- {8} cloves ({4} tsp) garlic (powder)\n- {1} tbsp ground cumin\n- {8} tsp sugar\n";
+    }
+  });
+
   // src/data/salt-baked-potatoes.md
   var require_salt_baked_potatoes = __commonJS({
     "src/data/salt-baked-potatoes.md"(exports, module) {
@@ -25594,6 +25716,13 @@ Super soft peanut butter cookies stuffed with Reese's Peanut Butter Cups and dri
   var require_snickerdoodles = __commonJS({
     "src/data/snickerdoodles.md"(exports, module) {
       module.exports = "# Snickerdoodles\n\n- **Servings:** {20}\n- **Yield:** {20} cookies\n\n## Ingredients\n\n- {2 3/4} cup All-purpose Flour\n- {1} tsp Baking Soda\n- {1/2} tsp Salt\n- {1/2} cup Shortening\n- {1} stick Butter, softened\n- {1 1/2} cup Sugar, plus 3 tablespoons\n- {2} Egg\n- {1} tbsp Cinnamon\n\n## Instructions\n\n1. Preheat the oven to 350 degrees F\n1. Sift the flour, baking soda, and salt into a bowl\n1. With a handheld or standing mixer, beat together the shortening and butter\n1. Add the 1 1/2 cups sugar and continue beating until light and fluffy, about 5 minutes\n1. Add the eggs, 1 at a time, beating well after each addition\n1. Add the flour mixture and blend until smooth\n1. Mix the 3 tablespoons sugar with the cinnamon in a small bowl\n1. Roll the dough, by hand, into 1 1/2-inch balls\n1. Roll the balls in the cinnamon sugar\n1. Flatten the balls into 1/2-inch thick disks, spacing them evenly on unlined cookie sheets\n1. Bake until light brown, but still moist in the center, about 12 minutes\n1. Cool on a rack\n";
+    }
+  });
+
+  // src/data/soft-chocolate-chip-cookies.md
+  var require_soft_chocolate_chip_cookies = __commonJS({
+    "src/data/soft-chocolate-chip-cookies.md"(exports, module) {
+      module.exports = "# Award Winning Soft Chocolate Chip Cookies\n\n[Source](https://recipespy.blogspot.com/2013/03/award-winning-soft-chocolate-chip.html)\n\nHere's an Allrecipes classic and much-loved chocolate chip cookie recipe that uses instant pudding mix in the batter.\n\n- **Servings:** {72}\n- **Prep Time:** 15 minutes\n- **Cook Time:** 12 minutes\n- **Ready In:** 1 hour 40 minutes\n\n## Ingredients\n\n- {4 1/2} cups all-purpose flour\n- {2} teaspoons baking soda\n- {2} cups butter, softened\n- {1 1/2} cups packed brown sugar\n- {1/2} cup white sugar\n- {2} (3.4 ounce) packages instant vanilla pudding mix\n- {4} eggs\n- {2} teaspoons vanilla extract\n- {4} cups semisweet chocolate chips\n- {2} cups chopped walnuts (optional)\n\n## Instructions\n\n1. Preheat oven to 350 degrees F (175 degrees C). Sift together the flour and baking soda, set aside.\n1. In a large bowl, cream together the butter, brown sugar, and white sugar. Beat in the instant pudding mix until blended. Stir in the eggs and vanilla. Blend in the flour mixture. Finally, stir in the chocolate chips and nuts. Drop cookies by rounded spoonfuls onto ungreased cookie sheets.\n1. Bake for 10 to 12 minutes in the preheated oven. Edges should be golden brown.\n";
     }
   });
 
@@ -28731,6 +28860,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   // require("./**/*.md") in src/data/index.js
   var globRequire_md = __glob({
     "./almond-pastry-cream.md": () => require_almond_pastry_cream(),
+    "./alton-brown-sugar-cookies.md": () => require_alton_brown_sugar_cookies(),
     "./apple-bread.md": () => require_apple_bread(),
     "./apple-cider-doughnuts.md": () => require_apple_cider_doughnuts(),
     "./apple-cider.md": () => require_apple_cider(),
@@ -28755,6 +28885,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./brown-butter-frosting-icing.md": () => require_brown_butter_frosting_icing(),
     "./brown-butter-frosting.md": () => require_brown_butter_frosting(),
     "./brown-sugar-glazed-salmon.md": () => require_brown_sugar_glazed_salmon(),
+    "./brownies.md": () => require_brownies(),
     "./butter-pecan-fudge.md": () => require_butter_pecan_fudge(),
     "./butterbeer-old.md": () => require_butterbeer_old(),
     "./butterbeer.md": () => require_butterbeer(),
@@ -28772,6 +28903,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./cheesy-hasselback-potato-gratin.md": () => require_cheesy_hasselback_potato_gratin(),
     "./cherry-banana-bread-muffins.md": () => require_cherry_banana_bread_muffins(),
     "./cherry-pie.md": () => require_cherry_pie(),
+    "./chili.md": () => require_chili(),
     "./chocolate-brownies.md": () => require_chocolate_brownies(),
     "./chocolate-buttercream-frosting.md": () => require_chocolate_buttercream_frosting(),
     "./chocolate-cake.md": () => require_chocolate_cake(),
@@ -28813,6 +28945,8 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./cream-cheese-frosting.md": () => require_cream_cheese_frosting(),
     "./cream-puffs.md": () => require_cream_puffs(),
     "./crepes.md": () => require_crepes(),
+    "./crushed-red-pepper-hummus.md": () => require_crushed_red_pepper_hummus(),
+    "./dark-chocolate-candy-cane-cookies.md": () => require_dark_chocolate_candy_cane_cookies(),
     "./dirty-rice.md": () => require_dirty_rice(),
     "./donut-glaze.md": () => require_donut_glaze(),
     "./donuts.md": () => require_donuts(),
@@ -28830,6 +28964,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./gelato.md": () => require_gelato(),
     "./ginger-snaps.md": () => require_ginger_snaps(),
     "./gingerbread-cookies.md": () => require_gingerbread_cookies(),
+    "./gingerbread.md": () => require_gingerbread(),
     "./grams-banana-bread.md": () => require_grams_banana_bread(),
     "./grape-pie.md": () => require_grape_pie(),
     "./hersheys-perfectly-chocolate-chocolate-cake.md": () => require_hersheys_perfectly_chocolate_chocolate_cake(),
@@ -28860,6 +28995,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./mrs-siggs-snickerdoodles.md": () => require_mrs_siggs_snickerdoodles(),
     "./nanas-brownie-balls.md": () => require_nanas_brownie_balls(),
     "./nanas-rocky-road-candies.md": () => require_nanas_rocky_road_candies(),
+    "./neapolitan-dough.md": () => require_neapolitan_dough(),
     "./nutella-frosting.md": () => require_nutella_frosting(),
     "./nutella-fudge.md": () => require_nutella_fudge(),
     "./oatmeal-raisin-cookies.md": () => require_oatmeal_raisin_cookies(),
@@ -28888,6 +29024,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./pineapple-cookies.md": () => require_pineapple_cookies(),
     "./pineapple-pumpkin-bread-muffins.md": () => require_pineapple_pumpkin_bread_muffins(),
     "./pinwheel-cookies.md": () => require_pinwheel_cookies(),
+    "./pizza-sauce.md": () => require_pizza_sauce(),
     "./pizzelles.md": () => require_pizzelles(),
     "./prime-rib-2.md": () => require_prime_rib_2(),
     "./prime-rib.md": () => require_prime_rib(),
@@ -28907,18 +29044,22 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./rainbow-cookies.md": () => require_rainbow_cookies(),
     "./raspberry-cheesecake-flavoring.md": () => require_raspberry_cheesecake_flavoring(),
     "./raspberry-thumbprint-cookies.md": () => require_raspberry_thumbprint_cookies(),
+    "./red-velvet-crinkle-cookies.md": () => require_red_velvet_crinkle_cookies(),
     "./red-velvet-cupcakes.md": () => require_red_velvet_cupcakes(),
     "./red-velvet-fudge.md": () => require_red_velvet_fudge(),
+    "./reeses-stuffed-peanut-butter-cookies.md": () => require_reeses_stuffed_peanut_butter_cookies(),
     "./rice-krispie-treats.md": () => require_rice_krispie_treats(),
     "./rivers-banana-bread.md": () => require_rivers_banana_bread(),
     "./rocky-road-fudge.md": () => require_rocky_road_fudge(),
     "./rule-of-3-garlic-buffalo-wing-sauce.md": () => require_rule_of_3_garlic_buffalo_wing_sauce(),
     "./salsa-morada.md": () => require_salsa_morada(),
+    "./salsa.md": () => require_salsa(),
     "./salt-baked-potatoes.md": () => require_salt_baked_potatoes(),
     "./sherbet.md": () => require_sherbet(),
     "./shortbread-cookies.md": () => require_shortbread_cookies(),
     "./simple-whole-roast-turkey.md": () => require_simple_whole_roast_turkey(),
     "./snickerdoodles.md": () => require_snickerdoodles(),
+    "./soft-chocolate-chip-cookies.md": () => require_soft_chocolate_chip_cookies(),
     "./sorbet.md": () => require_sorbet(),
     "./southwestern-egg-casserole.md": () => require_southwestern_egg_casserole(),
     "./spicy-chicken-rigatoni.md": () => require_spicy_chicken_rigatoni(),
@@ -29000,6 +29141,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     });
   }
   addRecipe("almond-pastry-cream", ["Dessert/Frosting/Custard"]);
+  addRecipe("alton-brown-sugar-cookies", ["Dessert/Cookies"]);
   addRecipe("apple-bread", ["Dessert/Bread"]);
   addRecipe("apple-cider", ["Drink"], true);
   addRecipe("apple-cider-doughnuts", ["Dessert/Donuts"], true);
@@ -29024,6 +29166,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("brown-butter-frosting", ["Dessert/Frosting/Frosting"]);
   addRecipe("brown-butter-frosting-icing", ["Dessert/Frosting/Frosting"]);
   addRecipe("brown-sugar-glazed-salmon", ["Main Dish"], true);
+  addRecipe("brownies", ["Dessert/Brownies"]);
   addRecipe("butter-pecan-fudge", ["Dessert/Fudge"]);
   addRecipe("butterbeer", ["Drink"], true);
   addRecipe("butterbeer-old", ["Drink"]);
@@ -29045,6 +29188,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   );
   addRecipe("cherry-banana-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
   addRecipe("cherry-pie", ["Dessert/Pie"]);
+  addRecipe("chili", ["Main Dish"]);
   addRecipe("chocolate-brownies", ["Dessert/Brownies"]);
   addRecipe("chocolate-buttercream-frosting", ["Dessert/Frosting/Frosting"]);
   addRecipe("chocolate-cake", ["Dessert/Cake"]);
@@ -29090,6 +29234,8 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("cream-cheese-frosting", ["Dessert/Frosting/Frosting"], true);
   addRecipe("cream-puffs", ["Dessert/Pastry"]);
   addRecipe("crepes", ["Breakfast"], true);
+  addRecipe("crushed-red-pepper-hummus", ["Appetizer"]);
+  addRecipe("dark-chocolate-candy-cane-cookies", ["Dessert/Cookies"]);
   addRecipe("dirty-rice", ["Main Dish"], true);
   addRecipe("donut-glaze", ["Dessert/Donuts"]);
   addRecipe("donuts", ["Dessert/Donuts"]);
@@ -29114,6 +29260,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("funnel-cake", ["Dessert/Donuts"]);
   addRecipe("gelato", ["Dessert/Ice Cream"]);
   addRecipe("ginger-snaps", ["Dessert/Cookies"]);
+  addRecipe("gingerbread", ["Dessert/Bread"]);
   addRecipe("gingerbread-cookies", ["Dessert/Cookies"]);
   addRecipe("grams-banana-bread", ["Dessert/Bread"], true);
   addRecipe("grape-pie", ["Dessert/Pie"]);
@@ -29157,6 +29304,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("mrs-siggs-snickerdoodles", ["Dessert/Cookies"], true);
   addRecipe("nanas-brownie-balls", ["Dessert/Candy"], true);
   addRecipe("nanas-rocky-road-candies", ["Dessert/Candy"], true);
+  addRecipe("neapolitan-dough", ["Main Dish"]);
   addRecipe("nutella-frosting", ["Dessert/Frosting/Frosting"]);
   addRecipe("nutella-fudge", ["Dessert/Fudge"]);
   addRecipe("oatmeal-raisin-cookies", ["Dessert/Cookies"]);
@@ -29192,6 +29340,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "Dessert/Muffins"
   ]);
   addRecipe("pinwheel-cookies", ["Dessert/Cookies"], true);
+  addRecipe("pizza-sauce", ["Main Dish"]);
   addRecipe("pizzelles", ["Dessert/Cookies/Pizzelles"]);
   addRecipe("prime-rib", ["Main Dish"], true);
   addRecipe("prime-rib-2", ["Main Dish"], true);
@@ -29211,12 +29360,15 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("rainbow-cookies", ["Dessert/Cookies"]);
   addRecipe("raspberry-cheesecake-flavoring", ["Dessert/Cake/Cheesecake"]);
   addRecipe("raspberry-thumbprint-cookies", ["Dessert/Cookies"], true);
+  addRecipe("red-velvet-crinkle-cookies", ["Dessert/Cookies"]);
   addRecipe("red-velvet-cupcakes", ["Dessert/Cupcakes"]);
   addRecipe("red-velvet-fudge", ["Dessert/Fudge"]);
+  addRecipe("reeses-stuffed-peanut-butter-cookies", ["Dessert/Cookies"]);
   addRecipe("rice-krispie-treats", ["Dessert/Candy"], true);
   addRecipe("rivers-banana-bread", ["Dessert/Bread"], true);
   addRecipe("rocky-road-fudge", ["Dessert/Fudge"]);
   addRecipe("rule-of-3-garlic-buffalo-wing-sauce", ["Seasoning"], true);
+  addRecipe("salsa", ["Seasoning"]);
   addRecipe("salsa-morada", ["Seasoning"], true);
   addRecipe("salt-baked-potatoes", ["Side Dish"], true);
   addRecipe("sherbet", ["Dessert/Ice Cream"]);
@@ -29227,6 +29379,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     true
   );
   addRecipe("snickerdoodles", ["Dessert/Cookies"]);
+  addRecipe("soft-chocolate-chip-cookies", ["Dessert/Cookies"]);
   addRecipe("sorbet", ["Dessert/Ice Cream"]);
   addRecipe("southwestern-egg-casserole", ["Breakfast"], true);
   addRecipe("spicy-chicken-rigatoni", ["Main Dish"], true);
