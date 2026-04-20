@@ -27,3 +27,4 @@
 1. Turn bread out of pan and let cool on rack
 1. Serve warm or cold
 1. To freeze, let bread cool completely before wrapping it up and freezing
+1. For muffins: scrape batter into a greased muffin tin and bake at 400 degrees F for 15 minutes

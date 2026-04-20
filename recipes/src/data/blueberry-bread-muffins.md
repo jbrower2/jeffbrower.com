@@ -29,3 +29,4 @@
 1. Bake for 20 to 25 minutes, rotating pan halfway through
 1. Remove from oven and turn out, upside down on tea towel to cool completely
 1. Serve immediately or store in airtight container for 2 to 3 days
+1. For bread: bake at 325 degrees F in a buttered loaf pan for about 1 hour

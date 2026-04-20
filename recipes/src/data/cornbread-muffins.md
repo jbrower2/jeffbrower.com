@@ -24,3 +24,4 @@
 1. Place muffin paper liners in a 12-cup muffin tin
 1. Evenly divide the cornbread mixture into the papers
 1. Bake for 15 minutes, until golden
+1. For bread: scale up 1.5x for a full loaf, pour batter into a buttered loaf pan, and bake at 325 degrees F for 1 hour

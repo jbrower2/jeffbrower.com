@@ -31,3 +31,4 @@
 1. Pour batter into prepared pan and bake 1 hour to 1 hour 10 minutes, until a toothpick inserted in the center comes out clean
 1. Set aside to cool on a rack for 15 minutes
 1. Remove bread from pan, invert onto rack and cool completely before slicing
+1. For muffins: bake at 400 degrees F in a buttered muffin tin for 15 minutes

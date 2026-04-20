@@ -27,3 +27,4 @@
 1. Fill muffin cups 2/3 full with batter
 1. Bake at 350 degrees F for 20 to 25 minutes or until done
 1. Remove muffins from tin and allow to cool
+1. For bread: fill a buttered loaf pan with batter and bake at 325 degrees F for 1 hour

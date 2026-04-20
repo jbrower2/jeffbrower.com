@@ -33,3 +33,4 @@
 1. Allow to cool
 1. When cool, mix confectioner’s sugar with just enough milk to make a glaze
 1. Drizzle glaze onto loaves and allow to set
+1. For muffins: scrape batter into a greased muffin tin and bake at 400 degrees F for 15 minutes
