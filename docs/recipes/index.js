@@ -24186,6 +24186,13 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
     }
   });
 
+  // src/data/chocolate-mug-cake.md
+  var require_chocolate_mug_cake = __commonJS({
+    "src/data/chocolate-mug-cake.md"(exports, module) {
+      module.exports = "# Chocolate Mug Cake\n\nSubmitted by: Cassie - [Source](https://tastesbetterfromscratch.com/chocolate-mug-cake/)\n\n- **Servings:** {1}\n- **Yield:** {1} mug\n- **Prep Time:** 4 minutes\n- **Cook Time:** 1 minute\n- **Total Time:** 5 minutes\n\n## Ingredients\n\n- {3} Tbsp all-purpose flour, ({23} g)\n- {2} Tbsp granulated sugar, ({25} g)\n- {1} Tbsp unsweetened cocoa powder, ({7 1/2} g)\n- {1/4} teaspoon baking powder, ({1} g)\n- {1} dash salt, ({1/2} g)\n- {3} tablespoons milk, (any kind of milk) ({45} ml)\n- {1} tablespoons canola oil, (or melted butter) ({15} ml)\n- {1/8} teaspoon vanilla extract, ({3/5} ml)\n- {1} tsp chocolate chips, or your favorite flavor baking chips ({5} g)\n\n## Instructions\n\n1. Spray the bottom of a microwave-safe mug or coffee cup lightly with cooking spray.\n1. Add flour, sugar, cocoa powder, baking powder, and salt and stir together.\n1. Add milk, canola oil, and vanilla extract and stir until smooth, being sure to scrape the bottom of the mug. Stir in chocolate chips or sprinkle them on top.\n1. Cook in microwave for 70-90 seconds (see note) until cake is just set, but still barely shiny on top. (see notes below). Allow to rest in microwave for 1 minute before consuming.\n";
+    }
+  });
+
   // src/data/chocolate-orange-fudge.md
   var require_chocolate_orange_fudge = __commonJS({
     "src/data/chocolate-orange-fudge.md"(exports, module) {
@@ -28925,6 +28932,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./chocolate-eclairs.md": () => require_chocolate_eclairs(),
     "./chocolate-fudge.md": () => require_chocolate_fudge(),
     "./chocolate-icing.md": () => require_chocolate_icing(),
+    "./chocolate-mug-cake.md": () => require_chocolate_mug_cake(),
     "./chocolate-orange-fudge.md": () => require_chocolate_orange_fudge(),
     "./chocolate-pastry-cream.md": () => require_chocolate_pastry_cream(),
     "./chocolate-peanut-butter-frosting.md": () => require_chocolate_peanut_butter_frosting(),
@@ -29210,6 +29218,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("chocolate-eclairs", ["Dessert/Pastry"]);
   addRecipe("chocolate-fudge", ["Dessert/Fudge"]);
   addRecipe("chocolate-icing", ["Dessert/Frosting/Icing"]);
+  addRecipe("chocolate-mug-cake", ["Dessert/Cake"], true);
   addRecipe("chocolate-orange-fudge", ["Dessert/Fudge"]);
   addRecipe("chocolate-pastry-cream", ["Dessert/Frosting/Custard"]);
   addRecipe(

@@ -123,6 +123,7 @@ addRecipe("chocolate-donuts", ["Dessert/Donuts"]);
 addRecipe("chocolate-eclairs", ["Dessert/Pastry"]);
 addRecipe("chocolate-fudge", ["Dessert/Fudge"]);
 addRecipe("chocolate-icing", ["Dessert/Frosting/Icing"]);
+addRecipe("chocolate-mug-cake", ["Dessert/Cake"], true);
 addRecipe("chocolate-orange-fudge", ["Dessert/Fudge"]);
 addRecipe("chocolate-pastry-cream", ["Dessert/Frosting/Custard"]);
 addRecipe(
