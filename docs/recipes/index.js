@@ -29546,7 +29546,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
             width: "100%"
           },
           children: [
-            isOpen ? "\u25BE" : "\u25B8",
+            isOpen ? "\u25BD" : "\u25B7",
             " ",
             name,
             " (",

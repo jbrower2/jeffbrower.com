@@ -81,7 +81,7 @@ function TreeNode({ node, expanded, toggle, forceExpand, name, filter }) {
           width: "100%",
         }}
       >
-        {isOpen ? "▾" : "▸"} {name} ({count})
+        {isOpen ? "▽" : "▷"} {name} ({count})
       </button>
       {isOpen && (
         <ul style={{ listStyle: "none", padding: 0, margin: "0 0 0 16px" }}>
