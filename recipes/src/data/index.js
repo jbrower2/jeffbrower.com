@@ -298,6 +298,7 @@ addRecipe(
   ["Main Dish", "Holidays/Fennelly Thanksgiving 2025"],
   true,
 );
+addRecipe("snickerdoodle-cookie-dough-truffles", ["Dessert/Cookies"], true);
 addRecipe("snickerdoodles", ["Dessert/Cookies"]);
 addRecipe("soft-chocolate-chip-cookies", ["Dessert/Cookies"], true);
 addRecipe("sorbet", ["Dessert/Ice Cream"]);
