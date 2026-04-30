@@ -236,6 +236,7 @@ addRecipe("orange-rolls", ["Dessert/Donuts"]);
 addRecipe("oreo-graham-cracker-pie-crust", ["Dessert/Pie/Pie Crusts"]);
 addRecipe("peach-pie", ["Dessert/Pie"]);
 addRecipe("peanut-brittle", ["Dessert/Candy"]);
+addRecipe("peanut-butter-balls", ["Dessert/Cookies"], true);
 addRecipe("peanut-butter-chocolate-chip-bacon-cookies", ["Dessert/Cookies"]);
 addRecipe("peanut-butter-cookies", ["Dessert/Cookies"]);
 addRecipe("peanut-butter-cup-stuffed-cookies", ["Dessert/Cookies"], true);
