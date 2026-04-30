@@ -29157,15 +29157,16 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "Dessert/Cake/Whoopie Pies",
     "Dessert/Candy",
     "Dessert/Cannolis",
+    "Dessert/Cannolis/Shells",
     "Dessert/Cookies",
     "Dessert/Cookies/Pizzelles",
     "Dessert/Cupcakes",
-    "Dessert/Custard",
     "Dessert/Donuts",
     "Dessert/Frosting",
+    "Dessert/Frosting/Custard",
+    "Dessert/Frosting/Icing",
     "Dessert/Fudge",
     "Dessert/Ice Cream",
-    "Dessert/Icing",
     "Dessert/Muffins",
     "Dessert/Pastry",
     "Dessert/Pie",
@@ -29196,7 +29197,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
       markdown
     });
   }
-  addRecipe("almond-pastry-cream", ["Dessert/Custard"]);
+  addRecipe("almond-pastry-cream", ["Dessert/Frosting/Custard"]);
   addRecipe("alton-brown-sugar-cookies", ["Dessert/Cookies"], true);
   addRecipe("apple-bread", ["Dessert/Bread"]);
   addRecipe("apple-cider", ["Drink"], true);
@@ -29218,7 +29219,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("blonde-brownies", ["Dessert/Brownies"]);
   addRecipe("blueberry-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
   addRecipe("blueberry-pie", ["Dessert/Pie"]);
-  addRecipe("boston-cream", ["Dessert/Custard"]);
+  addRecipe("boston-cream", ["Dessert/Frosting/Custard"]);
   addRecipe("brown-butter-frosting", ["Dessert/Frosting"]);
   addRecipe("brown-butter-frosting-icing", ["Dessert/Frosting"]);
   addRecipe("brown-sugar-glazed-salmon", ["Main Dish"], true);
@@ -29230,7 +29231,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("candy-cane-fudge", ["Dessert/Fudge"]);
   addRecipe("candy-corn", ["Dessert/Candy"]);
   addRecipe("cannoli-filling", ["Dessert/Cannolis"]);
-  addRecipe("cannoli-shells", ["Dessert/Cannolis"]);
+  addRecipe("cannoli-shells", ["Dessert/Cannolis/Shells"]);
   addRecipe("caramel-shortbread-cookies", ["Dessert/Cookies"]);
   addRecipe("carrot-cake", ["Dessert/Cake"], true);
   addRecipe("carrot-cake-cupcakes", ["Dessert/Cupcakes"], true);
@@ -29253,7 +29254,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("chocolate-brownies", ["Dessert/Brownies"]);
   addRecipe("chocolate-buttercream-frosting", ["Dessert/Frosting"]);
   addRecipe("chocolate-cake", ["Dessert/Cake"]);
-  addRecipe("chocolate-cannoli-shells", ["Dessert/Cannolis"]);
+  addRecipe("chocolate-cannoli-shells", ["Dessert/Cannolis/Shells"]);
   addRecipe("chocolate-cannolis", ["Dessert/Cannolis"]);
   addRecipe("chocolate-cheesecake", ["Dessert/Cake/Cheesecake"]);
   addRecipe("chocolate-chip-cinnamon-pizzelles", ["Dessert/Cookies/Pizzelles"]);
@@ -29270,10 +29271,10 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("chocolate-donuts", ["Dessert/Donuts"]);
   addRecipe("chocolate-eclairs", ["Dessert/Pastry"]);
   addRecipe("chocolate-fudge", ["Dessert/Fudge"]);
-  addRecipe("chocolate-icing", ["Dessert/Icing"]);
+  addRecipe("chocolate-icing", ["Dessert/Frosting/Icing"]);
   addRecipe("chocolate-mug-cake", ["Dessert/Cake"], true);
   addRecipe("chocolate-orange-fudge", ["Dessert/Fudge"]);
-  addRecipe("chocolate-pastry-cream", ["Dessert/Custard"]);
+  addRecipe("chocolate-pastry-cream", ["Dessert/Frosting/Custard"]);
   addRecipe("chocolate-peanut-butter-frosting", ["Dessert/Frosting"], true);
   addRecipe("chocolate-peanut-butter-nice-cream", ["Dessert/Ice Cream"], true);
   addRecipe("chocolate-peppermint-pizzelles", ["Dessert/Cookies/Pizzelles"]);
@@ -29287,7 +29288,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("cinnamon-bread-muffins", ["Dessert/Bread"]);
   addRecipe("cinnamon-rolls", ["Dessert/Donuts"], true);
   addRecipe("cinnamon-rolls-old", ["Dessert/Donuts"]);
-  addRecipe("coffee-pastry-cream", ["Dessert/Custard"]);
+  addRecipe("coffee-pastry-cream", ["Dessert/Frosting/Custard"]);
   addRecipe("cookie-dough-frosting", ["Dessert/Frosting"]);
   addRecipe("cookies-and-cream-fudge", ["Dessert/Fudge"]);
   addRecipe("copycat-chick-fil-a-lemonade", ["Drink"], true);
@@ -29334,10 +29335,10 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("kickin-cajun-seasoning-mix", ["Seasoning"], true);
   addRecipe("kings-hawaiian-french-toast", ["Breakfast"], true);
   addRecipe("lemon-cookies", ["Dessert/Cookies"]);
-  addRecipe("lemon-glaze", ["Dessert/Icing"]);
+  addRecipe("lemon-glaze", ["Dessert/Frosting/Icing"]);
   addRecipe("lemon-lime-sorbet", ["Dessert/Ice Cream"]);
   addRecipe("lemon-meringue-pie", ["Dessert/Pie"]);
-  addRecipe("lemon-pastry-cream", ["Dessert/Custard"]);
+  addRecipe("lemon-pastry-cream", ["Dessert/Frosting/Custard"]);
   addRecipe("lemon-poppyseed-bread", ["Dessert/Bread"]);
   addRecipe("lime-sherbet", ["Dessert/Ice Cream"]);
   addRecipe("maple-cream-cheese-frosting", ["Dessert/Frosting"]);
@@ -29371,7 +29372,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("orange-cream-cheese-frosting", ["Dessert/Frosting"], true);
   addRecipe("orange-creamsicle-fudge", ["Dessert/Fudge"]);
   addRecipe("orange-julius", ["Drink"], true);
-  addRecipe("orange-pastry-cream", ["Dessert/Custard"]);
+  addRecipe("orange-pastry-cream", ["Dessert/Frosting/Custard"]);
   addRecipe("orange-rolls", ["Dessert/Donuts"]);
   addRecipe("oreo-coal", ["Dessert"], true);
   addRecipe("oreo-graham-cracker-pie-crust", ["Dessert/Pie/Pie Crusts"]);
@@ -29388,7 +29389,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("pecan-pie", ["Dessert/Pie"]);
   addRecipe("peppermint-bark", ["Dessert/Candy"]);
   addRecipe("peppermint-cannolis", ["Dessert/Cannolis"]);
-  addRecipe("peppermint-glaze", ["Dessert/Icing"]);
+  addRecipe("peppermint-glaze", ["Dessert/Frosting/Icing"]);
   addRecipe(
     "peppermint-pattie-stuffed-chocolate-cookies",
     ["Dessert/Cookies"],
@@ -29413,7 +29414,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("pumpkin-cupcakes", ["Dessert/Cupcakes"]);
   addRecipe("pumpkin-donuts", ["Dessert/Donuts"]);
   addRecipe("pumpkin-drop-cookies", ["Dessert/Cookies"], true);
-  addRecipe("pumpkin-pastry-cream", ["Dessert/Custard"]);
+  addRecipe("pumpkin-pastry-cream", ["Dessert/Frosting/Custard"]);
   addRecipe("pumpkin-pie", ["Dessert/Pie"]);
   addRecipe("pumpkin-spice-cake", ["Dessert/Cake"]);
   addRecipe("pumpkin-whoopie-pies", ["Dessert/Cake/Whoopie Pies"]);
@@ -29467,7 +29468,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("vanilla-frosting-whoopie-pie-filling", ["Dessert/Frosting"]);
   addRecipe("vanilla-fudge", ["Dessert/Fudge"]);
   addRecipe("vanilla-icing", ["Dessert/Frosting"]);
-  addRecipe("vanilla-pastry-cream", ["Dessert/Custard"]);
+  addRecipe("vanilla-pastry-cream", ["Dessert/Frosting/Custard"]);
   addRecipe("velveeta-fudge", ["Dessert/Fudge"]);
   addRecipe("velveeta-hashbrown-casserole", ["Side Dish"], true);
   addRecipe("watermelon-pie", ["Dessert/Pie"]);
