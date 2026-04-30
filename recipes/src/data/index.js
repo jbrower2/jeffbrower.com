@@ -238,6 +238,7 @@ addRecipe("orange-creamsicle-fudge", ["Dessert/Fudge"]);
 addRecipe("orange-julius", ["Drink"], true);
 addRecipe("orange-pastry-cream", ["Dessert/Frosting/Custard"]);
 addRecipe("orange-rolls", ["Dessert/Donuts"]);
+addRecipe("oreo-coal", ["Dessert"], true);
 addRecipe("oreo-graham-cracker-pie-crust", ["Dessert/Pie/Pie Crusts"]);
 addRecipe("peach-pie", ["Dessert/Pie"]);
 addRecipe("peanut-brittle", ["Dessert/Candy"]);
