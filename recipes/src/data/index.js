@@ -101,6 +101,11 @@ addRecipe(
 );
 addRecipe("cherry-banana-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
 addRecipe("cherry-pie", ["Dessert/Pie"]);
+addRecipe(
+  "chewy-double-chocolate-peppermint-cookies",
+  ["Dessert/Cookies"],
+  true,
+);
 addRecipe("chili", ["Main Dish"], true);
 addRecipe("chocolate-brownies", ["Dessert/Brownies"]);
 addRecipe("chocolate-buttercream-frosting", ["Dessert/Frosting/Frosting"]);
