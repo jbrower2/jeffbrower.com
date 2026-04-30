@@ -255,6 +255,11 @@ addRecipe("peppermint-bark", ["Dessert/Candy"]);
 addRecipe("peppermint-cannolis", ["Dessert/Cannolis/Filling"]);
 addRecipe("peppermint-glaze", ["Dessert/Frosting/Icing"]);
 addRecipe(
+  "peppermint-pattie-stuffed-chocolate-cookies",
+  ["Dessert/Cookies"],
+  true,
+);
+addRecipe(
   "perfectly-chocolate-chocolate-frosting",
   ["Dessert/Frosting/Frosting"],
   true,
