@@ -25334,6 +25334,13 @@ These simple, savory sweet potatoes are mashed and seasoned to perfection with c
     }
   });
 
+  // src/data/oatmeal-raisin-cookie-pie.md
+  var require_oatmeal_raisin_cookie_pie = __commonJS({
+    "src/data/oatmeal-raisin-cookie-pie.md"(exports, module) {
+      module.exports = "# Oatmeal Raisin Cookie Pie\n\nCreated by Donna Fumuso.\n\n- **Servings:** {8}\n- [Source](https://web.archive.org/web/20151206024802/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 15 minutes\n- **Bake Time:** 45 minutes\n\n## Ingredients\n\n- {1} refrigerated pie pastry\n- {3} eggs\n- {3/4} cup light corn syrup\n- {1/2} cup packed brown sugar\n- {1/2} cup butter, melted\n- {1} teaspoon vanilla extract\n- {1/8} teaspoon salt\n- {1} package (6 ounces) Girl Scout Rah-Rah Raisins\u2122 cookies, crushed\n- {1-1/2} cups raisins\n- {1/4} cup quick-cooking oats\n- Whipped cream, optional\n\n## Instructions\n\n1. Preheat oven to 350\xB0. Unroll pastry sheet into a 9-in. pie plate; flute edge.\n1. In a large bowl, beat eggs, corn syrup, brown sugar, melted butter, vanilla and salt until blended. Stir in crushed Rah-Rah Raisins\u2122 cookies, raisins and oats. Pour into pie pastry.\n1. Bake 45-55 minutes or until filling is set and top is golden brown. Cool on a wire rack; serve or refrigerate within 2 hours. If desired, serve with whipped cream.\n";
+    }
+  });
+
   // src/data/oatmeal-raisin-cookies.md
   var require_oatmeal_raisin_cookies = __commonJS({
     "src/data/oatmeal-raisin-cookies.md"(exports, module) {
@@ -29356,6 +29363,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./nutella-frosting.md": () => require_nutella_frosting(),
     "./nutella-fudge.md": () => require_nutella_fudge(),
     "./nutty-caramel-turtles.md": () => require_nutty_caramel_turtles(),
+    "./oatmeal-raisin-cookie-pie.md": () => require_oatmeal_raisin_cookie_pie(),
     "./oatmeal-raisin-cookies.md": () => require_oatmeal_raisin_cookies(),
     "./orange-brownies.md": () => require_orange_brownies(),
     "./orange-cinnamon-swirl-bread-muffins.md": () => require_orange_cinnamon_swirl_bread_muffins(),
@@ -29793,6 +29801,11 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe(
     "nutty-caramel-turtles",
     ["Dessert/Candy", "Collections/Girl Scout Cookies"],
+    true
+  );
+  addRecipe(
+    "oatmeal-raisin-cookie-pie",
+    ["Dessert/Pie", "Collections/Girl Scout Cookies"],
     true
   );
   addRecipe("oatmeal-raisin-cookies", ["Dessert/Cookies"]);

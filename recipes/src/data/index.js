@@ -324,6 +324,11 @@ addRecipe(
   ["Dessert/Candy", "Collections/Girl Scout Cookies"],
   true,
 );
+addRecipe(
+  "oatmeal-raisin-cookie-pie",
+  ["Dessert/Pie", "Collections/Girl Scout Cookies"],
+  true,
+);
 addRecipe("oatmeal-raisin-cookies", ["Dessert/Cookies"]);
 addRecipe("orange-brownies", ["Dessert/Brownies"]);
 addRecipe("orange-cinnamon-swirl-bread-muffins", ["Dessert/Bread"]);
