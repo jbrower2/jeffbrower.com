@@ -23822,13 +23822,6 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
     }
   });
 
-  // src/data/brown-butter-frosting.md
-  var require_brown_butter_frosting = __commonJS({
-    "src/data/brown-butter-frosting.md"(exports, module) {
-      module.exports = "# Brown Butter Frosting\n\n- **Servings:** {60}\n- **Yield:** {4} cups\n\n## Ingredients\n\n- {1/2} cup Butter\n- {3} cup Confectioners' Sugar\n- {1} tsp Vanilla Extract\n- {3} tbsp Water\n\n## Instructions\n\n1. In a small saucepan heat the butter over medium heat until golden brown, stirring occasionally\n1. Remove saucepan from heat; stir in 3 cups sifted powdered sugar and 1 teaspoon vanilla\n1. Stir in enough water (3 to 4 tablespoons) to make an icing of drizzling consistency\n1. Drizzle on warm cookies\n";
-    }
-  });
-
   // src/data/brown-sugar-glazed-salmon.md
   var require_brown_sugar_glazed_salmon = __commonJS({
     "src/data/brown-sugar-glazed-salmon.md"(exports, module) {
@@ -24182,7 +24175,7 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
   // src/data/chocolate-donuts.md
   var require_chocolate_donuts = __commonJS({
     "src/data/chocolate-donuts.md"(exports, module) {
-      module.exports = "# Chocolate Donuts\n\n- **Servings:** {10}\n- **Yield:** {10} donuts\n\n## Ingredients\n\n- {1} cup All-purpose Flour\n- {1/2} cup Sugar\n- {1/4} cup Unsweetened Cocoa Powder\n- {1/4} cup Mini Chocolate Chips\n- {1/2} tsp Baking Soda\n- {1/2} tsp Vanilla Extract\n- {1} Egg\n- {6} tbsp Sour Cream\n- {1/4} cup Milk\n- {1/4} cup Vegetable Oil\n\n## Instructions\n\n1. Preheat oven to 375 degrees\n1. In a medium mixing bowl, combine the flour, sugar, cocoa powder, chocolate chips, and baking soda\n1. In a small bowl, beat together the vanilla, egg, sour cream, milk, and oil\n1. Stir the wet ingredients into the dry until just combined\n1. Spoon in a greased donut pan\n1. Bake for 8 minutes or until the tops spring back when you touch them\n1. Let the donuts cool in the pan before glazing\n";
+      module.exports = "# Chocolate Donuts\n\n- **Servings:** {10}\n- **Yield:** {10} donuts\n\n## Ingredients\n\n- {1} cup All-purpose Flour\n- {1/2} cup Sugar\n- {1/4} cup Unsweetened Cocoa Powder\n- {1/4} cup Mini Chocolate Chips\n- {1/2} tsp Baking Soda\n- {1/2} tsp Vanilla Extract\n- {1} Egg\n- {6} tbsp Sour Cream\n- {1/4} cup Milk\n- {1/4} cup Vegetable Oil\n\n## Instructions\n\n1. Preheat oven to 375 degrees\n1. In a medium mixing bowl, combine the flour, sugar, cocoa powder, chocolate chips, and baking soda\n1. In a small bowl, beat together the vanilla, egg, sour cream, milk, and oil\n1. Stir the wet ingredients into the dry until just combined\n1. Spoon in a greased donut pan\n1. Bake for 8 minutes or until the tops spring back when you touch them\n1. Let the donuts cool in the pan before [glazing](#/donut-glaze)\n";
     }
   });
 
@@ -24413,7 +24406,7 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
   // src/data/donuts.md
   var require_donuts = __commonJS({
     "src/data/donuts.md"(exports, module) {
-      module.exports = "# Donuts\n\n- **Servings:** {18}\n- **Yield:** {18} donuts\n\n## Ingredients\n\n- {1/2} oz Yeast\n- {1/4} cup Water, warm (105-115 degrees)\n- {1 1/2} cup Milk, lukewarm\n- {1/2} cup Sugar\n- {1} tsp Salt\n- {2} Egg\n- {1/3} cup Shortening\n- {5} cup All-purpose Flour\n- {1} qt Vegetable Oil\n\n## Instructions\n\n1. Sprinkle the yeast over the warm water, and let stand for 5 minutes, or until foamy\n1. In a large bowl, mix together the yeast mixture, milk, sugar, salt, eggs, shortening, and 2 cups of the flour\n1. Mix for a few minutes at low speed, or stirring with a wooden spoon\n1. Beat in remaining flour 1/2 cup at a time, until the dough no longer sticks to the bowl\n1. Knead for about 5 minutes, or until smooth and elastic\n1. Place the dough into a greased bowl, and cover\n1. Set in a warm place to rise until double\n1. Dough is ready if you touch it, and the indention remains\n1. Turn the dough out onto a floured surface, and gently roll out to 1/2 inch thickness\n1. Cut with a floured doughnut cutter\n1. Let doughnuts sit out to rise again until double\n1. Cover loosely with a cloth\n1. Heat oil in a deep-fryer or large heavy skillet to 350 degrees F (175 degrees C)\n1. Slide doughnuts into the hot oil using a wide spatula\n1. Turn doughnuts over as they rise to the surface\n1. Fry doughnuts on each side until golden brown\n1. Remove from hot oil, to drain on a wire rack\n1. Dip doughnuts into the glaze while still hot, and set onto wire racks to drain off excess\n1. Keep a cookie sheet or tray under racks for easier clean up\n1. To make filled donuts, roll dough to 1/2 inch thick and cut 4 inch circles\n1. Once dried, poke a hole in the side and fill with 1/3 cup of custard with a pastry bag\n";
+      module.exports = "# Donuts\n\n- **Servings:** {18}\n- **Yield:** {18} donuts\n\n## Ingredients\n\n- {1/2} oz Yeast\n- {1/4} cup Water, warm (105-115 degrees)\n- {1 1/2} cup Milk, lukewarm\n- {1/2} cup Sugar\n- {1} tsp Salt\n- {2} Egg\n- {1/3} cup Shortening\n- {5} cup All-purpose Flour\n- {1} qt Vegetable Oil\n\n## Instructions\n\n1. Sprinkle the yeast over the warm water, and let stand for 5 minutes, or until foamy\n1. In a large bowl, mix together the yeast mixture, milk, sugar, salt, eggs, shortening, and 2 cups of the flour\n1. Mix for a few minutes at low speed, or stirring with a wooden spoon\n1. Beat in remaining flour 1/2 cup at a time, until the dough no longer sticks to the bowl\n1. Knead for about 5 minutes, or until smooth and elastic\n1. Place the dough into a greased bowl, and cover\n1. Set in a warm place to rise until double\n1. Dough is ready if you touch it, and the indention remains\n1. Turn the dough out onto a floured surface, and gently roll out to 1/2 inch thickness\n1. Cut with a floured doughnut cutter\n1. Let doughnuts sit out to rise again until double\n1. Cover loosely with a cloth\n1. Heat oil in a deep-fryer or large heavy skillet to 350 degrees F (175 degrees C)\n1. Slide doughnuts into the hot oil using a wide spatula\n1. Turn doughnuts over as they rise to the surface\n1. Fry doughnuts on each side until golden brown\n1. Remove from hot oil, to drain on a wire rack\n1. Dip doughnuts into the [glaze](#/donut-glaze) while still hot, and set onto wire racks to drain off excess\n1. Keep a cookie sheet or tray under racks for easier clean up\n1. To make filled donuts, roll dough to 1/2 inch thick and cut 4 inch circles\n1. Once dried, poke a hole in the side and fill with 1/3 cup of custard with a pastry bag\n";
     }
   });
 
@@ -29226,7 +29219,6 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./blueberry-pie.md": () => require_blueberry_pie(),
     "./boston-cream.md": () => require_boston_cream(),
     "./brown-butter-frosting-icing.md": () => require_brown_butter_frosting_icing(),
-    "./brown-butter-frosting.md": () => require_brown_butter_frosting(),
     "./brown-sugar-glazed-salmon.md": () => require_brown_sugar_glazed_salmon(),
     "./brownies.md": () => require_brownies(),
     "./butter-pecan-fudge.md": () => require_butter_pecan_fudge(),
@@ -29488,9 +29480,11 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "Collections/Girl Scout Cookies",
     "Dessert",
     "Dessert/Bread",
+    "Dessert/Bread/Rolls",
     "Dessert/Brownies",
     "Dessert/Cake",
     "Dessert/Cake/Cheesecake",
+    "Dessert/Cake/Cheesecake/Flavorings",
     "Dessert/Cake/Cheesecake/Shells",
     "Dessert/Cake/Whoopie Pies",
     "Dessert/Candy",
@@ -29501,8 +29495,8 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "Dessert/Cupcakes",
     "Dessert/Donuts",
     "Dessert/Frosting",
-    "Dessert/Frosting/Custard",
     "Dessert/Frosting/Icing",
+    "Dessert/Frosting/Pastry Cream",
     "Dessert/Fudge",
     "Dessert/Ice Cream",
     "Dessert/Muffins",
@@ -29511,6 +29505,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "Dessert/Pie/Pie Crusts",
     "Drink",
     "Main Dish",
+    "Sauce",
     "Seasoning",
     "Side Dish"
   ]);
@@ -29534,7 +29529,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
       markdown
     });
   }
-  addRecipe("almond-pastry-cream", ["Dessert/Frosting/Custard"]);
+  addRecipe("almond-pastry-cream", ["Dessert/Frosting/Pastry Cream"]);
   addRecipe("alton-brown-sugar-cookies", ["Dessert/Cookies"], true);
   addRecipe("apple-bread", ["Dessert/Bread"]);
   addRecipe("apple-cider", ["Drink"], true);
@@ -29556,8 +29551,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("blonde-brownies", ["Dessert/Brownies"]);
   addRecipe("blueberry-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
   addRecipe("blueberry-pie", ["Dessert/Pie"]);
-  addRecipe("boston-cream", ["Dessert/Frosting/Custard"]);
-  addRecipe("brown-butter-frosting", ["Dessert/Frosting"]);
+  addRecipe("boston-cream", ["Dessert/Frosting/Pastry Cream"]);
   addRecipe("brown-butter-frosting-icing", ["Dessert/Frosting"]);
   addRecipe("brown-sugar-glazed-salmon", ["Main Dish"], true);
   addRecipe("brownies", ["Dessert/Brownies"], true);
@@ -29626,7 +29620,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("chocolate-icing", ["Dessert/Frosting/Icing"]);
   addRecipe("chocolate-mug-cake", ["Dessert/Cake"], true);
   addRecipe("chocolate-orange-fudge", ["Dessert/Fudge"]);
-  addRecipe("chocolate-pastry-cream", ["Dessert/Frosting/Custard"]);
+  addRecipe("chocolate-pastry-cream", ["Dessert/Frosting/Pastry Cream"]);
   addRecipe("chocolate-peanut-butter-frosting", ["Dessert/Frosting"], true);
   addRecipe("chocolate-peanut-butter-nice-cream", ["Dessert/Ice Cream"], true);
   addRecipe("chocolate-peppermint-pizzelles", ["Dessert/Cookies/Pizzelles"]);
@@ -29637,10 +29631,10 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   );
   addRecipe("chocolate-truffles", ["Dessert/Candy"]);
   addRecipe("churros", ["Dessert/Pastry"]);
-  addRecipe("cinnamon-bread-muffins", ["Dessert/Bread"]);
-  addRecipe("cinnamon-rolls", ["Dessert/Donuts"], true);
-  addRecipe("cinnamon-rolls-old", ["Dessert/Donuts"]);
-  addRecipe("coffee-pastry-cream", ["Dessert/Frosting/Custard"]);
+  addRecipe("cinnamon-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
+  addRecipe("cinnamon-rolls", ["Dessert/Bread/Rolls"], true);
+  addRecipe("cinnamon-rolls-old", ["Dessert/Bread/Rolls"]);
+  addRecipe("coffee-pastry-cream", ["Dessert/Frosting/Pastry Cream"]);
   addRecipe("cookie-dough-frosting", ["Dessert/Frosting"]);
   addRecipe(
     "cookie-toffee-nut-bark",
@@ -29671,7 +29665,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     ["Dessert/Candy", "Collections/Girl Scout Cookies"],
     true
   );
-  addRecipe("donut-glaze", ["Dessert/Donuts"]);
+  addRecipe("donut-glaze", ["Dessert/Frosting/Icing"]);
   addRecipe("donuts", ["Dessert/Donuts"]);
   addRecipe("double-chocolate-chip-cookies", ["Dessert/Cookies"], true);
   addRecipe("double-chocolate-gelato", ["Dessert/Ice Cream"]);
@@ -29682,7 +29676,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   );
   addRecipe(
     "easy-gravy",
-    ["Seasoning", "Collections/Fennelly Thanksgiving 2025"],
+    ["Sauce", "Collections/Fennelly Thanksgiving 2025"],
     true
   );
   addRecipe("easy-green-chicken-enchiladas", ["Main Dish"], true);
@@ -29715,7 +29709,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     true
   );
   addRecipe("ginger-snaps", ["Dessert/Cookies"]);
-  addRecipe("gingerbread", ["Dessert/Bread"], true);
+  addRecipe("gingerbread", ["Dessert/Cake"], true);
   addRecipe("gingerbread-cookies", ["Dessert/Cookies"]);
   addRecipe("gingerbread-men-smores", ["Dessert/Cookies"], true);
   addRecipe(
@@ -29745,7 +29739,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("lemon-glaze", ["Dessert/Frosting/Icing"]);
   addRecipe("lemon-lime-sorbet", ["Dessert/Ice Cream"]);
   addRecipe("lemon-meringue-pie", ["Dessert/Pie"]);
-  addRecipe("lemon-pastry-cream", ["Dessert/Frosting/Custard"]);
+  addRecipe("lemon-pastry-cream", ["Dessert/Frosting/Pastry Cream"]);
   addRecipe("lemon-poppyseed-bread", ["Dessert/Bread"]);
   addRecipe(
     "lemon-shortbread-cheesecake",
@@ -29759,7 +29753,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   );
   addRecipe("lime-sherbet", ["Dessert/Ice Cream"]);
   addRecipe("maple-cream-cheese-frosting", ["Dessert/Frosting"]);
-  addRecipe("maple-syrup-bread-muffins", ["Dessert/Bread"]);
+  addRecipe("maple-syrup-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
   addRecipe("maple-walnut-fudge", ["Dessert/Fudge"]);
   addRecipe("marry-me-snickerdoodles", ["Dessert/Cookies"], true);
   addRecipe("marshmallow-frosting", ["Dessert/Frosting"]);
@@ -29810,17 +29804,20 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   );
   addRecipe("oatmeal-raisin-cookies", ["Dessert/Cookies"]);
   addRecipe("orange-brownies", ["Dessert/Brownies"]);
-  addRecipe("orange-cinnamon-swirl-bread-muffins", ["Dessert/Bread"]);
+  addRecipe("orange-cinnamon-swirl-bread-muffins", [
+    "Dessert/Bread",
+    "Dessert/Muffins"
+  ]);
   addRecipe("orange-cream-cheese-frosting", ["Dessert/Frosting"], true);
   addRecipe("orange-creamsicle-fudge", ["Dessert/Fudge"]);
   addRecipe("orange-julius", ["Drink"], true);
-  addRecipe("orange-pastry-cream", ["Dessert/Frosting/Custard"]);
-  addRecipe("orange-rolls", ["Dessert/Donuts"]);
-  addRecipe("oreo-coal", ["Dessert"], true);
+  addRecipe("orange-pastry-cream", ["Dessert/Frosting/Pastry Cream"]);
+  addRecipe("orange-rolls", ["Dessert/Bread/Rolls"]);
+  addRecipe("oreo-coal", ["Dessert/Candy"], true);
   addRecipe("oreo-graham-cracker-pie-crust", ["Dessert/Pie/Pie Crusts"]);
   addRecipe("peach-pie", ["Dessert/Pie"]);
   addRecipe("peanut-brittle", ["Dessert/Candy"]);
-  addRecipe("peanut-butter-balls", ["Dessert/Cookies"], true);
+  addRecipe("peanut-butter-balls", ["Dessert/Candy"], true);
   addRecipe("peanut-butter-chocolate-chip-bacon-cookies", ["Dessert/Cookies"]);
   addRecipe(
     "peanut-butter-cookie-crunch-clusters",
@@ -29880,25 +29877,29 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "Dessert/Muffins"
   ]);
   addRecipe("pinwheel-cookies", ["Dessert/Cookies"], true);
-  addRecipe("pizza-sauce", ["Main Dish"], true);
+  addRecipe("pizza-sauce", ["Sauce"], true);
   addRecipe("pizzelles", ["Dessert/Cookies/Pizzelles"]);
   addRecipe("prime-rib", ["Main Dish"], true);
   addRecipe("prime-rib-2", ["Main Dish"], true);
   addRecipe("pumpkin-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
   addRecipe("pumpkin-butterscotch-fudge", ["Dessert/Fudge"]);
   addRecipe("pumpkin-cannolis", ["Dessert/Cannolis"]);
-  addRecipe("pumpkin-cheesecake-flavoring", ["Dessert/Cake/Cheesecake"]);
+  addRecipe("pumpkin-cheesecake-flavoring", [
+    "Dessert/Cake/Cheesecake/Flavorings"
+  ]);
   addRecipe("pumpkin-cupcakes", ["Dessert/Cupcakes"]);
   addRecipe("pumpkin-donuts", ["Dessert/Donuts"]);
   addRecipe("pumpkin-drop-cookies", ["Dessert/Cookies"], true);
-  addRecipe("pumpkin-pastry-cream", ["Dessert/Frosting/Custard"]);
+  addRecipe("pumpkin-pastry-cream", ["Dessert/Frosting/Pastry Cream"]);
   addRecipe("pumpkin-pie", ["Dessert/Pie"]);
   addRecipe("pumpkin-spice-cake", ["Dessert/Cake"]);
   addRecipe("pumpkin-whoopie-pies", ["Dessert/Cake/Whoopie Pies"]);
   addRecipe("qdoba-queso-dip", ["Appetizer"], true);
   addRecipe("qdoba-three-cheese-queso-copycat", ["Appetizer"], true);
   addRecipe("rainbow-cookies", ["Dessert/Cookies"]);
-  addRecipe("raspberry-cheesecake-flavoring", ["Dessert/Cake/Cheesecake"]);
+  addRecipe("raspberry-cheesecake-flavoring", [
+    "Dessert/Cake/Cheesecake/Flavorings"
+  ]);
   addRecipe(
     "raspberry-lemonades-bread-pudding",
     ["Dessert", "Collections/Girl Scout Cookies"],
@@ -29912,9 +29913,9 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("rice-krispie-treats", ["Dessert/Candy"], true);
   addRecipe("rivers-banana-bread", ["Dessert/Bread"], true);
   addRecipe("rocky-road-fudge", ["Dessert/Fudge"]);
-  addRecipe("rule-of-3-garlic-buffalo-wing-sauce", ["Seasoning"], true);
-  addRecipe("salsa", ["Seasoning"], true);
-  addRecipe("salsa-morada", ["Seasoning"], true);
+  addRecipe("rule-of-3-garlic-buffalo-wing-sauce", ["Sauce"], true);
+  addRecipe("salsa", ["Sauce"], true);
+  addRecipe("salsa-morada", ["Sauce"], true);
   addRecipe("salt-baked-potatoes", ["Side Dish"], true);
   addRecipe(
     "samoa-toffee",
@@ -29930,7 +29931,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("shortbread-cookies", ["Dessert/Cookies"]);
   addRecipe(
     "shortbread-fudge-tiramisu",
-    ["Dessert/Cake", "Collections/Girl Scout Cookies"],
+    ["Dessert", "Collections/Girl Scout Cookies"],
     true
   );
   addRecipe(
@@ -29963,7 +29964,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     ["Dessert/Cake/Cheesecake", "Collections/Girl Scout Cookies"],
     true
   );
-  addRecipe("snickerdoodle-cookie-dough-truffles", ["Dessert/Cookies"], true);
+  addRecipe("snickerdoodle-cookie-dough-truffles", ["Dessert/Candy"], true);
   addRecipe("snickerdoodles", ["Dessert/Cookies"]);
   addRecipe("soft-chocolate-chip-cookies", ["Dessert/Cookies"], true);
   addRecipe("sorbet", ["Dessert/Ice Cream"]);
@@ -30001,7 +30002,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     ["Main Dish", "Collections/Fennelly Thanksgiving 2025"],
     true
   );
-  addRecipe("tiramisu", ["Dessert/Cake"]);
+  addRecipe("tiramisu", ["Dessert"]);
   addRecipe("toll-house-chocolate-chip-cookies", ["Dessert/Cookies"], true);
   addRecipe(
     "touch-of-coconut-baklava",
@@ -30014,8 +30015,8 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("vanilla-cake", ["Dessert/Cake"]);
   addRecipe("vanilla-frosting-whoopie-pie-filling", ["Dessert/Frosting"]);
   addRecipe("vanilla-fudge", ["Dessert/Fudge"]);
-  addRecipe("vanilla-icing", ["Dessert/Frosting"]);
-  addRecipe("vanilla-pastry-cream", ["Dessert/Frosting/Custard"]);
+  addRecipe("vanilla-icing", ["Dessert/Frosting/Icing"]);
+  addRecipe("vanilla-pastry-cream", ["Dessert/Frosting/Pastry Cream"]);
   addRecipe("velveeta-fudge", ["Dessert/Fudge"]);
   addRecipe("velveeta-hashbrown-casserole", ["Side Dish"], true);
   addRecipe("watermelon-pie", ["Dessert/Pie"]);

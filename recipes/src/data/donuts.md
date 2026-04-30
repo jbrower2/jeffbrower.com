@@ -34,7 +34,7 @@
 1. Turn doughnuts over as they rise to the surface
 1. Fry doughnuts on each side until golden brown
 1. Remove from hot oil, to drain on a wire rack
-1. Dip doughnuts into the glaze while still hot, and set onto wire racks to drain off excess
+1. Dip doughnuts into the [glaze](#/donut-glaze) while still hot, and set onto wire racks to drain off excess
 1. Keep a cookie sheet or tray under racks for easier clean up
 1. To make filled donuts, roll dough to 1/2 inch thick and cut 4 inch circles
 1. Once dried, poke a hole in the side and fill with 1/3 cup of custard with a pastry bag

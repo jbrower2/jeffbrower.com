@@ -24,4 +24,4 @@
 1. Stir the wet ingredients into the dry until just combined
 1. Spoon in a greased donut pan
 1. Bake for 8 minutes or until the tops spring back when you touch them
-1. Let the donuts cool in the pan before glazing
+1. Let the donuts cool in the pan before [glazing](#/donut-glaze)

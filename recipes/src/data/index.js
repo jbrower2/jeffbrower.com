@@ -5,9 +5,11 @@ const CATEGORIES = new Set([
   "Collections/Girl Scout Cookies",
   "Dessert",
   "Dessert/Bread",
+  "Dessert/Bread/Rolls",
   "Dessert/Brownies",
   "Dessert/Cake",
   "Dessert/Cake/Cheesecake",
+  "Dessert/Cake/Cheesecake/Flavorings",
   "Dessert/Cake/Cheesecake/Shells",
   "Dessert/Cake/Whoopie Pies",
   "Dessert/Candy",
@@ -18,8 +20,8 @@ const CATEGORIES = new Set([
   "Dessert/Cupcakes",
   "Dessert/Donuts",
   "Dessert/Frosting",
-  "Dessert/Frosting/Custard",
   "Dessert/Frosting/Icing",
+  "Dessert/Frosting/Pastry Cream",
   "Dessert/Fudge",
   "Dessert/Ice Cream",
   "Dessert/Muffins",
@@ -28,6 +30,7 @@ const CATEGORIES = new Set([
   "Dessert/Pie/Pie Crusts",
   "Drink",
   "Main Dish",
+  "Sauce",
   "Seasoning",
   "Side Dish",
 ]);
@@ -55,7 +58,7 @@ function addRecipe(slug, categories, shown) {
   });
 }
 
-addRecipe("almond-pastry-cream", ["Dessert/Frosting/Custard"]);
+addRecipe("almond-pastry-cream", ["Dessert/Frosting/Pastry Cream"]);
 addRecipe("alton-brown-sugar-cookies", ["Dessert/Cookies"], true);
 addRecipe("apple-bread", ["Dessert/Bread"]);
 addRecipe("apple-cider", ["Drink"], true);
@@ -77,8 +80,7 @@ addRecipe("blackstone-fried-rice", ["Main Dish", "Side Dish"], true);
 addRecipe("blonde-brownies", ["Dessert/Brownies"]);
 addRecipe("blueberry-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
 addRecipe("blueberry-pie", ["Dessert/Pie"]);
-addRecipe("boston-cream", ["Dessert/Frosting/Custard"]);
-addRecipe("brown-butter-frosting", ["Dessert/Frosting"]);
+addRecipe("boston-cream", ["Dessert/Frosting/Pastry Cream"]);
 addRecipe("brown-butter-frosting-icing", ["Dessert/Frosting"]);
 addRecipe("brown-sugar-glazed-salmon", ["Main Dish"], true);
 addRecipe("brownies", ["Dessert/Brownies"], true);
@@ -147,7 +149,7 @@ addRecipe(
 addRecipe("chocolate-icing", ["Dessert/Frosting/Icing"]);
 addRecipe("chocolate-mug-cake", ["Dessert/Cake"], true);
 addRecipe("chocolate-orange-fudge", ["Dessert/Fudge"]);
-addRecipe("chocolate-pastry-cream", ["Dessert/Frosting/Custard"]);
+addRecipe("chocolate-pastry-cream", ["Dessert/Frosting/Pastry Cream"]);
 addRecipe("chocolate-peanut-butter-frosting", ["Dessert/Frosting"], true);
 addRecipe("chocolate-peanut-butter-nice-cream", ["Dessert/Ice Cream"], true);
 addRecipe("chocolate-peppermint-pizzelles", ["Dessert/Cookies/Pizzelles"]);
@@ -158,10 +160,10 @@ addRecipe(
 );
 addRecipe("chocolate-truffles", ["Dessert/Candy"]);
 addRecipe("churros", ["Dessert/Pastry"]);
-addRecipe("cinnamon-bread-muffins", ["Dessert/Bread"]);
-addRecipe("cinnamon-rolls", ["Dessert/Donuts"], true);
-addRecipe("cinnamon-rolls-old", ["Dessert/Donuts"]);
-addRecipe("coffee-pastry-cream", ["Dessert/Frosting/Custard"]);
+addRecipe("cinnamon-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
+addRecipe("cinnamon-rolls", ["Dessert/Bread/Rolls"], true);
+addRecipe("cinnamon-rolls-old", ["Dessert/Bread/Rolls"]);
+addRecipe("coffee-pastry-cream", ["Dessert/Frosting/Pastry Cream"]);
 addRecipe("cookie-dough-frosting", ["Dessert/Frosting"]);
 addRecipe(
   "cookie-toffee-nut-bark",
@@ -192,7 +194,7 @@ addRecipe(
   ["Dessert/Candy", "Collections/Girl Scout Cookies"],
   true,
 );
-addRecipe("donut-glaze", ["Dessert/Donuts"]);
+addRecipe("donut-glaze", ["Dessert/Frosting/Icing"]);
 addRecipe("donuts", ["Dessert/Donuts"]);
 addRecipe("double-chocolate-chip-cookies", ["Dessert/Cookies"], true);
 addRecipe("double-chocolate-gelato", ["Dessert/Ice Cream"]);
@@ -203,7 +205,7 @@ addRecipe(
 );
 addRecipe(
   "easy-gravy",
-  ["Seasoning", "Collections/Fennelly Thanksgiving 2025"],
+  ["Sauce", "Collections/Fennelly Thanksgiving 2025"],
   true,
 );
 addRecipe("easy-green-chicken-enchiladas", ["Main Dish"], true);
@@ -236,7 +238,7 @@ addRecipe(
   true,
 );
 addRecipe("ginger-snaps", ["Dessert/Cookies"]);
-addRecipe("gingerbread", ["Dessert/Bread"], true);
+addRecipe("gingerbread", ["Dessert/Cake"], true);
 addRecipe("gingerbread-cookies", ["Dessert/Cookies"]);
 addRecipe("gingerbread-men-smores", ["Dessert/Cookies"], true);
 addRecipe(
@@ -266,7 +268,7 @@ addRecipe("lemon-cookies", ["Dessert/Cookies"]);
 addRecipe("lemon-glaze", ["Dessert/Frosting/Icing"]);
 addRecipe("lemon-lime-sorbet", ["Dessert/Ice Cream"]);
 addRecipe("lemon-meringue-pie", ["Dessert/Pie"]);
-addRecipe("lemon-pastry-cream", ["Dessert/Frosting/Custard"]);
+addRecipe("lemon-pastry-cream", ["Dessert/Frosting/Pastry Cream"]);
 addRecipe("lemon-poppyseed-bread", ["Dessert/Bread"]);
 addRecipe(
   "lemon-shortbread-cheesecake",
@@ -280,7 +282,7 @@ addRecipe(
 );
 addRecipe("lime-sherbet", ["Dessert/Ice Cream"]);
 addRecipe("maple-cream-cheese-frosting", ["Dessert/Frosting"]);
-addRecipe("maple-syrup-bread-muffins", ["Dessert/Bread"]);
+addRecipe("maple-syrup-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
 addRecipe("maple-walnut-fudge", ["Dessert/Fudge"]);
 addRecipe("marry-me-snickerdoodles", ["Dessert/Cookies"], true);
 addRecipe("marshmallow-frosting", ["Dessert/Frosting"]);
@@ -331,17 +333,20 @@ addRecipe(
 );
 addRecipe("oatmeal-raisin-cookies", ["Dessert/Cookies"]);
 addRecipe("orange-brownies", ["Dessert/Brownies"]);
-addRecipe("orange-cinnamon-swirl-bread-muffins", ["Dessert/Bread"]);
+addRecipe("orange-cinnamon-swirl-bread-muffins", [
+  "Dessert/Bread",
+  "Dessert/Muffins",
+]);
 addRecipe("orange-cream-cheese-frosting", ["Dessert/Frosting"], true);
 addRecipe("orange-creamsicle-fudge", ["Dessert/Fudge"]);
 addRecipe("orange-julius", ["Drink"], true);
-addRecipe("orange-pastry-cream", ["Dessert/Frosting/Custard"]);
-addRecipe("orange-rolls", ["Dessert/Donuts"]);
-addRecipe("oreo-coal", ["Dessert"], true);
+addRecipe("orange-pastry-cream", ["Dessert/Frosting/Pastry Cream"]);
+addRecipe("orange-rolls", ["Dessert/Bread/Rolls"]);
+addRecipe("oreo-coal", ["Dessert/Candy"], true);
 addRecipe("oreo-graham-cracker-pie-crust", ["Dessert/Pie/Pie Crusts"]);
 addRecipe("peach-pie", ["Dessert/Pie"]);
 addRecipe("peanut-brittle", ["Dessert/Candy"]);
-addRecipe("peanut-butter-balls", ["Dessert/Cookies"], true);
+addRecipe("peanut-butter-balls", ["Dessert/Candy"], true);
 addRecipe("peanut-butter-chocolate-chip-bacon-cookies", ["Dessert/Cookies"]);
 addRecipe(
   "peanut-butter-cookie-crunch-clusters",
@@ -401,25 +406,29 @@ addRecipe("pineapple-pumpkin-bread-muffins", [
   "Dessert/Muffins",
 ]);
 addRecipe("pinwheel-cookies", ["Dessert/Cookies"], true);
-addRecipe("pizza-sauce", ["Main Dish"], true);
+addRecipe("pizza-sauce", ["Sauce"], true);
 addRecipe("pizzelles", ["Dessert/Cookies/Pizzelles"]);
 addRecipe("prime-rib", ["Main Dish"], true);
 addRecipe("prime-rib-2", ["Main Dish"], true);
 addRecipe("pumpkin-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
 addRecipe("pumpkin-butterscotch-fudge", ["Dessert/Fudge"]);
 addRecipe("pumpkin-cannolis", ["Dessert/Cannolis"]);
-addRecipe("pumpkin-cheesecake-flavoring", ["Dessert/Cake/Cheesecake"]);
+addRecipe("pumpkin-cheesecake-flavoring", [
+  "Dessert/Cake/Cheesecake/Flavorings",
+]);
 addRecipe("pumpkin-cupcakes", ["Dessert/Cupcakes"]);
 addRecipe("pumpkin-donuts", ["Dessert/Donuts"]);
 addRecipe("pumpkin-drop-cookies", ["Dessert/Cookies"], true);
-addRecipe("pumpkin-pastry-cream", ["Dessert/Frosting/Custard"]);
+addRecipe("pumpkin-pastry-cream", ["Dessert/Frosting/Pastry Cream"]);
 addRecipe("pumpkin-pie", ["Dessert/Pie"]);
 addRecipe("pumpkin-spice-cake", ["Dessert/Cake"]);
 addRecipe("pumpkin-whoopie-pies", ["Dessert/Cake/Whoopie Pies"]);
 addRecipe("qdoba-queso-dip", ["Appetizer"], true);
 addRecipe("qdoba-three-cheese-queso-copycat", ["Appetizer"], true);
 addRecipe("rainbow-cookies", ["Dessert/Cookies"]);
-addRecipe("raspberry-cheesecake-flavoring", ["Dessert/Cake/Cheesecake"]);
+addRecipe("raspberry-cheesecake-flavoring", [
+  "Dessert/Cake/Cheesecake/Flavorings",
+]);
 addRecipe(
   "raspberry-lemonades-bread-pudding",
   ["Dessert", "Collections/Girl Scout Cookies"],
@@ -433,9 +442,9 @@ addRecipe("reeses-stuffed-peanut-butter-cookies", ["Dessert/Cookies"], true);
 addRecipe("rice-krispie-treats", ["Dessert/Candy"], true);
 addRecipe("rivers-banana-bread", ["Dessert/Bread"], true);
 addRecipe("rocky-road-fudge", ["Dessert/Fudge"]);
-addRecipe("rule-of-3-garlic-buffalo-wing-sauce", ["Seasoning"], true);
-addRecipe("salsa", ["Seasoning"], true);
-addRecipe("salsa-morada", ["Seasoning"], true);
+addRecipe("rule-of-3-garlic-buffalo-wing-sauce", ["Sauce"], true);
+addRecipe("salsa", ["Sauce"], true);
+addRecipe("salsa-morada", ["Sauce"], true);
 addRecipe("salt-baked-potatoes", ["Side Dish"], true);
 addRecipe(
   "samoa-toffee",
@@ -451,7 +460,7 @@ addRecipe("sherbet", ["Dessert/Ice Cream"]);
 addRecipe("shortbread-cookies", ["Dessert/Cookies"]);
 addRecipe(
   "shortbread-fudge-tiramisu",
-  ["Dessert/Cake", "Collections/Girl Scout Cookies"],
+  ["Dessert", "Collections/Girl Scout Cookies"],
   true,
 );
 addRecipe(
@@ -484,7 +493,7 @@ addRecipe(
   ["Dessert/Cake/Cheesecake", "Collections/Girl Scout Cookies"],
   true,
 );
-addRecipe("snickerdoodle-cookie-dough-truffles", ["Dessert/Cookies"], true);
+addRecipe("snickerdoodle-cookie-dough-truffles", ["Dessert/Candy"], true);
 addRecipe("snickerdoodles", ["Dessert/Cookies"]);
 addRecipe("soft-chocolate-chip-cookies", ["Dessert/Cookies"], true);
 addRecipe("sorbet", ["Dessert/Ice Cream"]);
@@ -522,7 +531,7 @@ addRecipe(
   ["Main Dish", "Collections/Fennelly Thanksgiving 2025"],
   true,
 );
-addRecipe("tiramisu", ["Dessert/Cake"]);
+addRecipe("tiramisu", ["Dessert"]);
 addRecipe("toll-house-chocolate-chip-cookies", ["Dessert/Cookies"], true);
 addRecipe(
   "touch-of-coconut-baklava",
@@ -535,8 +544,8 @@ addRecipe("vanilla-buttercream-frosting", ["Dessert/Frosting"]);
 addRecipe("vanilla-cake", ["Dessert/Cake"]);
 addRecipe("vanilla-frosting-whoopie-pie-filling", ["Dessert/Frosting"]);
 addRecipe("vanilla-fudge", ["Dessert/Fudge"]);
-addRecipe("vanilla-icing", ["Dessert/Frosting"]);
-addRecipe("vanilla-pastry-cream", ["Dessert/Frosting/Custard"]);
+addRecipe("vanilla-icing", ["Dessert/Frosting/Icing"]);
+addRecipe("vanilla-pastry-cream", ["Dessert/Frosting/Pastry Cream"]);
 addRecipe("velveeta-fudge", ["Dessert/Fudge"]);
 addRecipe("velveeta-hashbrown-casserole", ["Side Dish"], true);
 addRecipe("watermelon-pie", ["Dessert/Pie"]);
