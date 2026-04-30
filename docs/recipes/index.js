@@ -29476,6 +29476,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   var CATEGORIES = /* @__PURE__ */ new Set([
     "Appetizer",
     "Breakfast",
+    "Collections/Fennelly Thanksgiving 2025",
     "Collections/Girl Scout Cookies",
     "Dessert",
     "Dessert/Bread",
@@ -29501,7 +29502,6 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "Dessert/Pie",
     "Dessert/Pie/Pie Crusts",
     "Drink",
-    "Holidays/Fennelly Thanksgiving 2025",
     "Main Dish",
     "Seasoning",
     "Side Dish"
@@ -29561,7 +29561,11 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("candy-corn", ["Dessert/Candy"]);
   addRecipe("cannoli-filling", ["Dessert/Cannolis"]);
   addRecipe("cannoli-shells", ["Dessert/Cannolis/Shells"]);
-  addRecipe("caramel-pecan-cheesecake", ["Dessert/Cake/Cheesecake", "Collections/Girl Scout Cookies"], true);
+  addRecipe(
+    "caramel-pecan-cheesecake",
+    ["Dessert/Cake/Cheesecake", "Collections/Girl Scout Cookies"],
+    true
+  );
   addRecipe("caramel-shortbread-cookies", ["Dessert/Cookies"]);
   addRecipe("carrot-cake", ["Dessert/Cake"], true);
   addRecipe("carrot-cake-cupcakes", ["Dessert/Cupcakes"], true);
@@ -29570,7 +29574,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("cheesy-hashbrown-casserole", ["Side Dish"], true);
   addRecipe(
     "cheesy-hasselback-potato-gratin",
-    ["Side Dish", "Holidays/Fennelly Thanksgiving 2025"],
+    ["Side Dish", "Collections/Fennelly Thanksgiving 2025"],
     true
   );
   addRecipe("cherry-banana-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
@@ -29594,7 +29598,11 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("chocolate-chocolate-chip-cookies", ["Dessert/Cookies"], true);
   addRecipe("chocolate-chocolate-chip-cookies-old", ["Dessert/Cookies"]);
   addRecipe("chocolate-cinnamon-fudge", ["Dessert/Fudge"]);
-  addRecipe("chocolate-coconut-chantilly-pie", ["Dessert/Pie", "Collections/Girl Scout Cookies"], true);
+  addRecipe(
+    "chocolate-coconut-chantilly-pie",
+    ["Dessert/Pie", "Collections/Girl Scout Cookies"],
+    true
+  );
   addRecipe("chocolate-covered-pretzels", ["Dessert/Candy"]);
   addRecipe("chocolate-crepes", ["Breakfast"], true);
   addRecipe("chocolate-crinkle-cookies", ["Dessert/Cookies"], true);
@@ -29602,7 +29610,11 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("chocolate-donuts", ["Dessert/Donuts"]);
   addRecipe("chocolate-eclairs", ["Dessert/Pastry"]);
   addRecipe("chocolate-fudge", ["Dessert/Fudge"]);
-  addRecipe("chocolate-hazelnut-parfaits", ["Dessert", "Collections/Girl Scout Cookies"], true);
+  addRecipe(
+    "chocolate-hazelnut-parfaits",
+    ["Dessert", "Collections/Girl Scout Cookies"],
+    true
+  );
   addRecipe("chocolate-icing", ["Dessert/Frosting/Icing"]);
   addRecipe("chocolate-mug-cake", ["Dessert/Cake"], true);
   addRecipe("chocolate-orange-fudge", ["Dessert/Fudge"]);
@@ -29622,7 +29634,11 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("cinnamon-rolls-old", ["Dessert/Donuts"]);
   addRecipe("coffee-pastry-cream", ["Dessert/Frosting/Custard"]);
   addRecipe("cookie-dough-frosting", ["Dessert/Frosting"]);
-  addRecipe("cookie-toffee-nut-bark", ["Dessert/Candy", "Collections/Girl Scout Cookies"], true);
+  addRecipe(
+    "cookie-toffee-nut-bark",
+    ["Dessert/Candy", "Collections/Girl Scout Cookies"],
+    true
+  );
   addRecipe("cookies-and-cream-fudge", ["Dessert/Fudge"]);
   addRecipe("copycat-chick-fil-a-lemonade", ["Drink"], true);
   addRecipe("cornbread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
@@ -29631,18 +29647,34 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("crepes", ["Breakfast"], true);
   addRecipe("crushed-red-pepper-hummus", ["Appetizer"], true);
   addRecipe("dark-chocolate-candy-cane-cookies", ["Dessert/Cookies"], true);
-  addRecipe("delightful-caramel-bars", ["Dessert/Brownies", "Collections/Girl Scout Cookies"], true);
+  addRecipe(
+    "delightful-caramel-bars",
+    ["Dessert/Brownies", "Collections/Girl Scout Cookies"],
+    true
+  );
   addRecipe("dirty-rice", ["Main Dish"], true);
-  addRecipe("do-si-dos-banana-pudding", ["Dessert", "Collections/Girl Scout Cookies"], true);
-  addRecipe("do-si-dos-candy-bars", ["Dessert/Candy", "Collections/Girl Scout Cookies"], true);
+  addRecipe(
+    "do-si-dos-banana-pudding",
+    ["Dessert", "Collections/Girl Scout Cookies"],
+    true
+  );
+  addRecipe(
+    "do-si-dos-candy-bars",
+    ["Dessert/Candy", "Collections/Girl Scout Cookies"],
+    true
+  );
   addRecipe("donut-glaze", ["Dessert/Donuts"]);
   addRecipe("donuts", ["Dessert/Donuts"]);
   addRecipe("double-chocolate-chip-cookies", ["Dessert/Cookies"], true);
   addRecipe("double-chocolate-gelato", ["Dessert/Ice Cream"]);
-  addRecipe("dulce-delites", ["Dessert/Brownies", "Collections/Girl Scout Cookies"], true);
+  addRecipe(
+    "dulce-delites",
+    ["Dessert/Brownies", "Collections/Girl Scout Cookies"],
+    true
+  );
   addRecipe(
     "easy-gravy",
-    ["Seasoning", "Holidays/Fennelly Thanksgiving 2025"],
+    ["Seasoning", "Collections/Fennelly Thanksgiving 2025"],
     true
   );
   addRecipe("easy-green-chicken-enchiladas", ["Main Dish"], true);
@@ -29650,19 +29682,39 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("eggnog-custard-pie", ["Dessert/Pie"]);
   addRecipe("eggnog-fudge", ["Dessert/Fudge"]);
   addRecipe("espresso-brownies", ["Dessert/Brownies"]);
-  addRecipe("fantastic-toffee-tastic-cheesecake", ["Dessert/Cake/Cheesecake", "Collections/Girl Scout Cookies"], true);
+  addRecipe(
+    "fantastic-toffee-tastic-cheesecake",
+    ["Dessert/Cake/Cheesecake", "Collections/Girl Scout Cookies"],
+    true
+  );
   addRecipe("favorite-chocolate-buttercream", ["Dessert/Frosting"], true);
-  addRecipe("festive-white-chocolate-cheesecake", ["Dessert/Cake/Cheesecake", "Collections/Girl Scout Cookies"], true);
+  addRecipe(
+    "festive-white-chocolate-cheesecake",
+    ["Dessert/Cake/Cheesecake", "Collections/Girl Scout Cookies"],
+    true
+  );
   addRecipe("fortune-cookies", ["Dessert/Cookies"]);
-  addRecipe("frozen-raspberry-cheesecakes", ["Dessert/Cake/Cheesecake", "Collections/Girl Scout Cookies"], true);
+  addRecipe(
+    "frozen-raspberry-cheesecakes",
+    ["Dessert/Cake/Cheesecake", "Collections/Girl Scout Cookies"],
+    true
+  );
   addRecipe("funnel-cake", ["Dessert/Donuts"]);
   addRecipe("gelato", ["Dessert/Ice Cream"]);
-  addRecipe("german-chocolate-ice-cream-cookie-torte", ["Dessert/Ice Cream", "Collections/Girl Scout Cookies"], true);
+  addRecipe(
+    "german-chocolate-ice-cream-cookie-torte",
+    ["Dessert/Ice Cream", "Collections/Girl Scout Cookies"],
+    true
+  );
   addRecipe("ginger-snaps", ["Dessert/Cookies"]);
   addRecipe("gingerbread", ["Dessert/Bread"], true);
   addRecipe("gingerbread-cookies", ["Dessert/Cookies"]);
   addRecipe("gingerbread-men-smores", ["Dessert/Cookies"], true);
-  addRecipe("girl-scout-bridging-bars", ["Dessert/Brownies", "Collections/Girl Scout Cookies"], true);
+  addRecipe(
+    "girl-scout-bridging-bars",
+    ["Dessert/Brownies", "Collections/Girl Scout Cookies"],
+    true
+  );
   addRecipe("grams-banana-bread", ["Dessert/Bread"], true);
   addRecipe("grape-pie", ["Dessert/Pie"]);
   addRecipe(
@@ -29676,15 +29728,27 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("key-lime-pie", ["Dessert/Pie"]);
   addRecipe("kickin-cajun-seasoning-mix", ["Seasoning"], true);
   addRecipe("kings-hawaiian-french-toast", ["Breakfast"], true);
-  addRecipe("lemon-blueberry-crunch-cake", ["Dessert/Cake", "Collections/Girl Scout Cookies"], true);
+  addRecipe(
+    "lemon-blueberry-crunch-cake",
+    ["Dessert/Cake", "Collections/Girl Scout Cookies"],
+    true
+  );
   addRecipe("lemon-cookies", ["Dessert/Cookies"]);
   addRecipe("lemon-glaze", ["Dessert/Frosting/Icing"]);
   addRecipe("lemon-lime-sorbet", ["Dessert/Ice Cream"]);
   addRecipe("lemon-meringue-pie", ["Dessert/Pie"]);
   addRecipe("lemon-pastry-cream", ["Dessert/Frosting/Custard"]);
   addRecipe("lemon-poppyseed-bread", ["Dessert/Bread"]);
-  addRecipe("lemon-shortbread-cheesecake", ["Dessert/Cake/Cheesecake", "Collections/Girl Scout Cookies"], true);
-  addRecipe("lemon-surprise-cheesecake", ["Dessert/Cake/Cheesecake", "Collections/Girl Scout Cookies"], true);
+  addRecipe(
+    "lemon-shortbread-cheesecake",
+    ["Dessert/Cake/Cheesecake", "Collections/Girl Scout Cookies"],
+    true
+  );
+  addRecipe(
+    "lemon-surprise-cheesecake",
+    ["Dessert/Cake/Cheesecake", "Collections/Girl Scout Cookies"],
+    true
+  );
   addRecipe("lime-sherbet", ["Dessert/Ice Cream"]);
   addRecipe("maple-cream-cheese-frosting", ["Dessert/Frosting"]);
   addRecipe("maple-syrup-bread-muffins", ["Dessert/Bread"]);
@@ -29694,19 +29758,31 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("mascarpone-frosting", ["Dessert/Frosting"]);
   addRecipe(
     "mashed-potatoes",
-    ["Side Dish", "Holidays/Fennelly Thanksgiving 2025"],
+    ["Side Dish", "Collections/Fennelly Thanksgiving 2025"],
     true
   );
   addRecipe(
     "mashed-sweet-potatoes",
-    ["Side Dish", "Holidays/Fennelly Thanksgiving 2025"],
+    ["Side Dish", "Collections/Fennelly Thanksgiving 2025"],
     true
   );
-  addRecipe("mile-high-peppermint-pie", ["Dessert/Pie", "Collections/Girl Scout Cookies"], true);
-  addRecipe("mini-thin-mints-mocha-ice-cream-sandwiches", ["Dessert/Ice Cream", "Collections/Girl Scout Cookies"], true);
+  addRecipe(
+    "mile-high-peppermint-pie",
+    ["Dessert/Pie", "Collections/Girl Scout Cookies"],
+    true
+  );
+  addRecipe(
+    "mini-thin-mints-mocha-ice-cream-sandwiches",
+    ["Dessert/Ice Cream", "Collections/Girl Scout Cookies"],
+    true
+  );
   addRecipe("mint-chocolate-fudge", ["Dessert/Fudge"]);
   addRecipe("molasses-cookies", ["Dessert/Cookies"]);
-  addRecipe("mollys-mini-lemon-shortbread-puddings", ["Dessert", "Collections/Girl Scout Cookies"], true);
+  addRecipe(
+    "mollys-mini-lemon-shortbread-puddings",
+    ["Dessert", "Collections/Girl Scout Cookies"],
+    true
+  );
   addRecipe("monkey-bread", ["Dessert/Bread"]);
   addRecipe("mrs-siggs-snickerdoodles", ["Dessert/Cookies"], true);
   addRecipe("nanas-brownie-balls", ["Dessert/Candy"], true);
@@ -29714,7 +29790,11 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("neapolitan-dough", ["Main Dish"], true);
   addRecipe("nutella-frosting", ["Dessert/Frosting"]);
   addRecipe("nutella-fudge", ["Dessert/Fudge"]);
-  addRecipe("nutty-caramel-turtles", ["Dessert/Candy", "Collections/Girl Scout Cookies"], true);
+  addRecipe(
+    "nutty-caramel-turtles",
+    ["Dessert/Candy", "Collections/Girl Scout Cookies"],
+    true
+  );
   addRecipe("oatmeal-raisin-cookies", ["Dessert/Cookies"]);
   addRecipe("orange-brownies", ["Dessert/Brownies"]);
   addRecipe("orange-cinnamon-swirl-bread-muffins", ["Dessert/Bread"]);
@@ -29729,22 +29809,50 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("peanut-brittle", ["Dessert/Candy"]);
   addRecipe("peanut-butter-balls", ["Dessert/Cookies"], true);
   addRecipe("peanut-butter-chocolate-chip-bacon-cookies", ["Dessert/Cookies"]);
-  addRecipe("peanut-butter-cookie-crunch-clusters", ["Dessert/Candy", "Collections/Girl Scout Cookies"], true);
-  addRecipe("peanut-butter-cookie-parfait", ["Dessert", "Collections/Girl Scout Cookies"], true);
+  addRecipe(
+    "peanut-butter-cookie-crunch-clusters",
+    ["Dessert/Candy", "Collections/Girl Scout Cookies"],
+    true
+  );
+  addRecipe(
+    "peanut-butter-cookie-parfait",
+    ["Dessert", "Collections/Girl Scout Cookies"],
+    true
+  );
   addRecipe("peanut-butter-cookies", ["Dessert/Cookies"]);
-  addRecipe("peanut-butter-cream-dessert", ["Dessert", "Collections/Girl Scout Cookies"], true);
+  addRecipe(
+    "peanut-butter-cream-dessert",
+    ["Dessert", "Collections/Girl Scout Cookies"],
+    true
+  );
   addRecipe("peanut-butter-cup-stuffed-cookies", ["Dessert/Cookies"], true);
   addRecipe("peanut-butter-frosting", ["Dessert/Frosting"], true);
   addRecipe("peanut-butter-fudge", ["Dessert/Fudge"]);
-  addRecipe("peanut-butter-icebox-dessert", ["Dessert", "Collections/Girl Scout Cookies"], true);
+  addRecipe(
+    "peanut-butter-icebox-dessert",
+    ["Dessert", "Collections/Girl Scout Cookies"],
+    true
+  );
   addRecipe("peanut-butter-pie", ["Dessert/Pie"]);
-  addRecipe("peanut-butter-trail-mix-fudge", ["Dessert/Fudge", "Collections/Girl Scout Cookies"], true);
-  addRecipe("peanut-caramel-thumbprint-no-bake-cookies", ["Dessert/Cookies", "Collections/Girl Scout Cookies"], true);
+  addRecipe(
+    "peanut-butter-trail-mix-fudge",
+    ["Dessert/Fudge", "Collections/Girl Scout Cookies"],
+    true
+  );
+  addRecipe(
+    "peanut-caramel-thumbprint-no-bake-cookies",
+    ["Dessert/Cookies", "Collections/Girl Scout Cookies"],
+    true
+  );
   addRecipe("peanut-swirl-brownies", ["Dessert/Brownies"]);
   addRecipe("pecan-pie", ["Dessert/Pie"]);
   addRecipe("peppermint-bark", ["Dessert/Candy"]);
   addRecipe("peppermint-cannolis", ["Dessert/Cannolis"]);
-  addRecipe("peppermint-chip-cheesecake", ["Dessert/Cake/Cheesecake", "Collections/Girl Scout Cookies"], true);
+  addRecipe(
+    "peppermint-chip-cheesecake",
+    ["Dessert/Cake/Cheesecake", "Collections/Girl Scout Cookies"],
+    true
+  );
   addRecipe("peppermint-glaze", ["Dessert/Frosting/Icing"]);
   addRecipe(
     "peppermint-pattie-stuffed-chocolate-cookies",
@@ -29778,7 +29886,11 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("qdoba-three-cheese-queso-copycat", ["Appetizer"], true);
   addRecipe("rainbow-cookies", ["Dessert/Cookies"]);
   addRecipe("raspberry-cheesecake-flavoring", ["Dessert/Cake/Cheesecake"]);
-  addRecipe("raspberry-lemonades-bread-pudding", ["Dessert", "Collections/Girl Scout Cookies"], true);
+  addRecipe(
+    "raspberry-lemonades-bread-pudding",
+    ["Dessert", "Collections/Girl Scout Cookies"],
+    true
+  );
   addRecipe("raspberry-thumbprint-cookies", ["Dessert/Cookies"], true);
   addRecipe("red-velvet-crinkle-cookies", ["Dessert/Cookies"], true);
   addRecipe("red-velvet-cupcakes", ["Dessert/Cupcakes"]);
@@ -29791,21 +29903,53 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("salsa", ["Seasoning"], true);
   addRecipe("salsa-morada", ["Seasoning"], true);
   addRecipe("salt-baked-potatoes", ["Side Dish"], true);
-  addRecipe("samoa-toffee", ["Dessert/Candy", "Collections/Girl Scout Cookies"], true);
-  addRecipe("samoas-swirl-no-churn-ice-cream", ["Dessert/Ice Cream", "Collections/Girl Scout Cookies"], true);
-  addRecipe("sherbet", ["Dessert/Ice Cream"]);
-  addRecipe("shortbread-cookies", ["Dessert/Cookies"]);
-  addRecipe("shortbread-fudge-tiramisu", ["Dessert/Cake", "Collections/Girl Scout Cookies"], true);
-  addRecipe("shortbread-trefoils-toffee-chocolate-bark", ["Dessert/Candy", "Collections/Girl Scout Cookies"], true);
   addRecipe(
-    "simple-whole-roast-turkey",
-    ["Main Dish", "Holidays/Fennelly Thanksgiving 2025"],
+    "samoa-toffee",
+    ["Dessert/Candy", "Collections/Girl Scout Cookies"],
     true
   );
-  addRecipe("smores-frosted-crispy-bars", ["Dessert/Brownies", "Collections/Girl Scout Cookies"], true);
-  addRecipe("smores-ice-cream", ["Dessert/Ice Cream", "Collections/Girl Scout Cookies"], true);
-  addRecipe("smores-peanut-butter-pudgy-pie", ["Dessert", "Collections/Girl Scout Cookies"], true);
-  addRecipe("smores-summertime-cheesecake", ["Dessert/Cake/Cheesecake", "Collections/Girl Scout Cookies"], true);
+  addRecipe(
+    "samoas-swirl-no-churn-ice-cream",
+    ["Dessert/Ice Cream", "Collections/Girl Scout Cookies"],
+    true
+  );
+  addRecipe("sherbet", ["Dessert/Ice Cream"]);
+  addRecipe("shortbread-cookies", ["Dessert/Cookies"]);
+  addRecipe(
+    "shortbread-fudge-tiramisu",
+    ["Dessert/Cake", "Collections/Girl Scout Cookies"],
+    true
+  );
+  addRecipe(
+    "shortbread-trefoils-toffee-chocolate-bark",
+    ["Dessert/Candy", "Collections/Girl Scout Cookies"],
+    true
+  );
+  addRecipe(
+    "simple-whole-roast-turkey",
+    ["Main Dish", "Collections/Fennelly Thanksgiving 2025"],
+    true
+  );
+  addRecipe(
+    "smores-frosted-crispy-bars",
+    ["Dessert/Brownies", "Collections/Girl Scout Cookies"],
+    true
+  );
+  addRecipe(
+    "smores-ice-cream",
+    ["Dessert/Ice Cream", "Collections/Girl Scout Cookies"],
+    true
+  );
+  addRecipe(
+    "smores-peanut-butter-pudgy-pie",
+    ["Dessert", "Collections/Girl Scout Cookies"],
+    true
+  );
+  addRecipe(
+    "smores-summertime-cheesecake",
+    ["Dessert/Cake/Cheesecake", "Collections/Girl Scout Cookies"],
+    true
+  );
   addRecipe("snickerdoodle-cookie-dough-truffles", ["Dessert/Cookies"], true);
   addRecipe("snickerdoodles", ["Dessert/Cookies"]);
   addRecipe("soft-chocolate-chip-cookies", ["Dessert/Cookies"], true);
@@ -29815,22 +29959,42 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("spritzgeback-cookies", ["Dessert/Cookies"]);
   addRecipe("strawberry-rhubarb-pie", ["Dessert/Pie"]);
   addRecipe("sugar-cookies", ["Dessert/Cookies"]);
-  addRecipe("sunday-sin-cake", ["Dessert/Cake", "Collections/Girl Scout Cookies"], true);
+  addRecipe(
+    "sunday-sin-cake",
+    ["Dessert/Cake", "Collections/Girl Scout Cookies"],
+    true
+  );
   addRecipe("sweet-corn-guacamole", ["Appetizer"], true);
   addRecipe("sweet-potato-pie", ["Dessert/Pie"]);
   addRecipe("texas-cinnamon-butter", ["Seasoning"], true);
   addRecipe("texas-roadhouse-rolls", ["Side Dish"], true);
-  addRecipe("thin-mints-cupcakes", ["Dessert/Cupcakes", "Collections/Girl Scout Cookies"], true);
-  addRecipe("thin-mints-popcorn", ["Dessert/Candy", "Collections/Girl Scout Cookies"], true);
-  addRecipe("thin-mints-white-chocolate-biscotti", ["Dessert/Cookies", "Collections/Girl Scout Cookies"], true);
+  addRecipe(
+    "thin-mints-cupcakes",
+    ["Dessert/Cupcakes", "Collections/Girl Scout Cookies"],
+    true
+  );
+  addRecipe(
+    "thin-mints-popcorn",
+    ["Dessert/Candy", "Collections/Girl Scout Cookies"],
+    true
+  );
+  addRecipe(
+    "thin-mints-white-chocolate-biscotti",
+    ["Dessert/Cookies", "Collections/Girl Scout Cookies"],
+    true
+  );
   addRecipe(
     "tinis-famous-mac-and-cheese",
-    ["Main Dish", "Holidays/Fennelly Thanksgiving 2025"],
+    ["Main Dish", "Collections/Fennelly Thanksgiving 2025"],
     true
   );
   addRecipe("tiramisu", ["Dessert/Cake"]);
   addRecipe("toll-house-chocolate-chip-cookies", ["Dessert/Cookies"], true);
-  addRecipe("touch-of-coconut-baklava", ["Dessert/Pastry", "Collections/Girl Scout Cookies"], true);
+  addRecipe(
+    "touch-of-coconut-baklava",
+    ["Dessert/Pastry", "Collections/Girl Scout Cookies"],
+    true
+  );
   addRecipe("triple-chocolate-brownies", ["Dessert/Brownies"]);
   addRecipe("twice-baked-potatoes", ["Side Dish"], true);
   addRecipe("vanilla-buttercream-frosting", ["Dessert/Frosting"]);
