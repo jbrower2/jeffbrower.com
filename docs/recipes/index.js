@@ -24032,6 +24032,13 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
     }
   });
 
+  // src/data/chewy-double-chocolate-peppermint-cookies.md
+  var require_chewy_double_chocolate_peppermint_cookies = __commonJS({
+    "src/data/chewy-double-chocolate-peppermint-cookies.md"(exports, module) {
+      module.exports = "# Chewy Double Chocolate Peppermint Cookies\n\nA chewy, double chocolate cookie with mint in the batter and on top with a sprinkling of crushed candy cane. Perfect for cookie exchanges, holiday gatherings, or alongside a cup of hot cocoa on a cold winter's night.\n\n- **Servings:** {12}\n- **Yield:** {12} cookies\n- [Source](https://minimalistbaker.com/chewy-double-chocolate-peppermint-cookies/)\n- **Prep Time:** 20 minutes\n- **Cook Time:** 10 minutes\n- **Total Time:** 30 minutes\n\n## Ingredients\n\n- {1/2} cup unsalted butter (softened)\n- {3/4} cup sugar\n- {1} large egg\n- {1/4} tsp natural peppermint extract\n- {1 1/4} cup unbleached all-purpose flour (or whole-wheat pastry)\n- {1/3} cup cocoa powder\n- {1/4} tsp salt\n- {1/2} tsp baking soda\n- {1/4} tsp baking powder\n- {1} candy cane (finely crushed)\n- {1/3} cup dark, bittersweet or semisweet chocolate chips\n\n## Instructions\n\n1. Preheat oven to 350 degrees F (176 C).\n1. In a large bowl, cream the butter and sugar together for about 1-2 minutes. Add egg, peppermint extract and beat until light and fluffy, scraping down the sides as you go to ensure even mixing.\n1. Add flour, salt, cocoa powder, baking soda and powder to a sifter and sift gradually over the wet ingredients mixing as you go. Mix until well combined.\n1. Add chocolate chips and stir in with a mixing spoon and then chill in the freezer for 10 minutes while the oven finishes heating.\n1. Form the dough into small balls (heaping 1 Tbsp) and place 1.5 inches apart on an ungreased or parchment-lined baking sheet. Press the tops down and then top with a few more chocolate chips (to indicate what\u2019s inside).\n1. Bake for 10-12 minutes \u2013 the edges should start to dry but the tops will still be slightly soft looking. Let set on the cookie sheet for a few minutes more but sprinkle crushed candy cane on immediately.\n1. Transfer to a cooling rack to rest until completely cooled. Store in an airtight container to keep fresh for up to a few days or freeze for several weeks.\n";
+    }
+  });
+
   // src/data/chili.md
   var require_chili = __commonJS({
     "src/data/chili.md"(exports, module) {
@@ -25243,6 +25250,13 @@ These simple, savory sweet potatoes are mashed and seasoned to perfection with c
     }
   });
 
+  // src/data/oreo-coal.md
+  var require_oreo_coal = __commonJS({
+    "src/data/oreo-coal.md"(exports, module) {
+      module.exports = "# Oreo Coal\n\n- **Servings:** {20}\n- [Source](https://www.delish.com/cooking/recipe-ideas/a69664988/best-oreo-coal-recipe/)\n- **Prep Time:** 10 minutes\n- **Total Time:** 25 minutes\n\n## Ingredients\n\n- {48} Oreos (from {1} family-size package), divided\n- {1/2} cup ({1} stick) unsalted butter\n- {3 1/2} cups mini marshmallows (about {7} oz.)\n- {1/4} tsp. kosher salt\n\n## Directions\n\n1. Place 38 Oreos in a plastic bag. Using a rolling pin or heavy skillet, crush to a fine powder. Transfer to a large bowl.\n1. Scrape frosting off remaining 10 Oreos; discard (or chef\u2019s snack!). Transfer wafers to same bag and crush to a fine powder.\n1. In a large, heavy skillet over medium heat, melt butter. Add marshmallows and salt and cook, whisking constantly, until marshmallows are melted, about 1 minute.\n1. Using a rubber spatula, mix in crushed Oreos from bowl (not from bag) until combined. Scrape into a medium bowl and let cool slightly.\n1. Scoop Oreo mixture into balls (about 2 Tbsp. each). Roll in remaining crushed Oreos in bag. Arrange on a parchment-lined baking sheet. Let sit about 10 minutes before serving.\n";
+    }
+  });
+
   // src/data/oreo-graham-cracker-pie-crust.md
   var require_oreo_graham_cracker_pie_crust = __commonJS({
     "src/data/oreo-graham-cracker-pie-crust.md"(exports, module) {
@@ -25261,6 +25275,13 @@ These simple, savory sweet potatoes are mashed and seasoned to perfection with c
   var require_peanut_brittle = __commonJS({
     "src/data/peanut-brittle.md"(exports, module) {
       module.exports = "# Peanut Brittle\n\n- **Servings:** {24}\n- **Yield:** {3} lbs\n\n## Ingredients\n\n- {1} tbsp Vanilla Extract\n- {1} tbsp Baking Soda\n- {1} tbsp Salt\n- {1 1/2} stick Butter\n- {3} cup Sugar\n- {1} cup Light Corn Syrup\n- {3} cup Peanuts\n\n## Instructions\n\n1. Measure the vanilla into a small bowl and set aside\n1. Combine the baking soda and salt in another small bowl and set aside\n1. Butter 1 cookie sheet with sides or jelly roll pan liberally with 1/2 stick of the butter\n1. Set aside\n1. Combine the sugar, corn syrup and 1/2 cup water in a large saucepan\n1. Bring the mixture to a boil, attach a candy thermometer and cook over medium-high heat until the syrup spins a thread when poured from a spoon or reaches 240 degrees F on the thermometer\n1. Stir in the peanuts and continue cooking and stirring until the candy becomes golden brown or reaches 300 degrees F\n1. Remove from the heat immediately and quickly add the remaining 1 stick butter and the vanilla, baking soda and salt\n1. Stir only until the butter melts, and then quickly pour the brittle onto the cookie sheet, spreading the mixture thinly\n1. When the brittle has completely cooled, break the candy into pieces and store in a tightly covered container\n";
+    }
+  });
+
+  // src/data/peanut-butter-balls.md
+  var require_peanut_butter_balls = __commonJS({
+    "src/data/peanut-butter-balls.md"(exports, module) {
+      module.exports = "# Peanut Butter Balls\n\nGluten-free and no-bake, these buckeyes will be a hit at this year's cookie swap.\n\n- **Servings:** {32}\n- [Source](https://www.womansday.com/food-recipes/food-drinks/a29773488/peanut-butter-balls/)\n- **Total Time:** 55 minutes\n\n## Ingredients\n\n- {2} cups confectioners' sugar\n- {1} cup creamy peanut butter\n- {4} Tbsp. unsalted butter, at room temp\n- {1} tsp. pure vanilla extract\n- {1/4} tsp. kosher salt\n- {9} oz. bittersweet chocolate, chopped\n- Flaky salt and melted red candy melts, for decorating\n\n## Directions\n\n1. Using an electric mixer on medium speed, beat sugar, peanut butter, butter, vanilla, and salt until dough forms into a ball, about 2 minutes. Roll dough into 1-in. balls and place on parchment-lined baking sheet. Freeze until firm, about 20 minutes.\n1. Once balls are firm, place chocolate in a small measuring cup and microwave in 30-second increments, stirring between each, until melted and smooth.\n1. Line a second baking sheet with parchment paper. Working with a quarter of the balls at a time (keep remaining frozen), dip in chocolate one at a time, letting excess drip off, and transfer to baking sheet. If desired, sprinkle with flaky salt. Repeat with remaining peanut butter balls.\n1. Once chocolate has set, if desired, decorate with melted red candy melts. Keep refrigerated until ready to serve.\n";
     }
   });
 
@@ -25384,6 +25405,13 @@ Super soft peanut butter cookies stuffed with Reese's Peanut Butter Cups and dri
   var require_peppermint_glaze = __commonJS({
     "src/data/peppermint-glaze.md"(exports, module) {
       module.exports = "# Peppermint Glaze\n\n- **Servings:** {100}\n- **Yield:** {200} cookies worth\n\n## Ingredients\n\n- {6} cup Confectioners' Sugar\n- {1/8} tsp Mint Extract\n- {1/2} cup Water\n\n## Instructions\n\n1. In a small bowl mix together the sugar; mint extract and water until smooth\n1. Transfer mixture to a medium resealable plastic bag and snip off the corner\n";
+    }
+  });
+
+  // src/data/peppermint-pattie-stuffed-chocolate-cookies.md
+  var require_peppermint_pattie_stuffed_chocolate_cookies = __commonJS({
+    "src/data/peppermint-pattie-stuffed-chocolate-cookies.md"(exports, module) {
+      module.exports = "# Peppermint Pattie-Stuffed Chocolate Cookies\n\nThis isn't an ordinary cookie dough\u2014it's made with chocolate cake mix! It's the perfect fudgy compliment to peppermint patties.\n\n- **Servings:** {14}\n- [Source](https://www.delish.com/cooking/recipes/a45304/peppermint-patty-stuffed-chocolate-cookies-recipe/)\n- **Yields:** {14} cookies\n- **Prep Time:** 10 minutes\n- **Total Time:** 20 minutes\n\n## Ingredients\n\n- {1} box chocolate cake mix\n- {1} tsp. baking powder\n- {2} large eggs\n- {1/2} cup canola oil\n- {14} York Peppermint Pattie Minis\n- Sprinkles, for decorating\n\n## Directions\n\n1. Preheat oven to 350\xB0 and line two baking sheets with parchment paper. In a large bowl, whisk together cake mix and baking powder; in another bowl, whisk together eggs and oil. Add wet ingredients to dry and stir until fully combined.\n1. Using your hands, form small balls of dough. Flatten a ball, then place a Peppermint Patty in the center and fold dough over to completely cover. Transfer to baking sheet and repeat with remaining dough (you should have enough for about {14} cookies).\n1. Top with sprinkles and bake until cooked through, 8 to 10 minutes. Let cool slightly on baking sheet, then transfer to a wire rack to let cool completely.\n";
     }
   });
 
@@ -25723,6 +25751,13 @@ Super soft peanut butter cookies stuffed with Reese's Peanut Butter Cups and dri
   var require_simple_whole_roast_turkey = __commonJS({
     "src/data/simple-whole-roast-turkey.md"(exports, module) {
       module.exports = "# Simple Whole Roast Turkey\n\nThis is a go-to method for a whole, intact Thanksgiving turkey\u2014the version that lets you walk dramatically into the dining room with a golden-brown bird and still enjoy juicy breast meat and tender legs. It builds on the technique developed years ago for Serious Eats, updated with faster roasting, better browning, and a final high-heat re-crisp that keeps the skin shatteringly crisp all the way to the table.\n\n- **Servings:** {12}\n- **Yield:** 10 to 12 servings\n- [Source](https://frienji.kenjilopezalt.com/posts/better-way-to-143453857)\n- **Active Time:** 45 minutes\n- **Total Time:** about 3\xBD hours plus overnight brine\n\n## Ingredients\n\n### For the turkey\n\n- {1} whole turkey, about 10 to 18 lb (4.5-9 kg), neck and giblets reserved\n- kosher salt and freshly ground black pepper\n- {1} Tbsp ({15} ml) neutral oil\n- optional: fresh herbs (rosemary, sage, thyme) for stuffing the cavity\n\n### For the gravy\n\n- {1} Tbsp ({15} ml) neutral oil or butter\n- {1} turkey neck, chopped into 1-inch pieces\n- {1} large onion, roughly chopped\n- {1} large carrot, peeled and roughly chopped\n- {2} ribs celery, roughly chopped\n- {1 1/2} quarts ({1.5} L) low-sodium chicken stock or homemade stock\n- {2} bay leaves\n- {1} tsp ({5} ml) soy sauce, optional, for depth\n- {3} Tbsp ({45} g) unsalted butter\n- {1/4} cup ({30} g) flour\n- chopped gizzard and liver, optional\n- salt and pepper, to taste\n\n## Instructions\n\n1. **Dry-brine the turkey (1 day ahead).** Pat the turkey dry. Generously season inside and out with kosher salt (and pepper if you like). Place it on a rack set in a rimmed sheet pan and refrigerate uncovered overnight. This seasons the meat, helps it retain moisture, and dries the skin for better crisping.\n1. **Preheat the oven and charge the steel.** Set your oven rack to the lowest position and place a baking steel or stone on it. Preheat the oven to 500\xB0F (260\xB0C) for at least 45 minutes. This turns the steel into a thermal battery that will radiate heat upward into the turkey's legs and back.\n1. **Prep the turkey.** Remove the turkey from the fridge while the oven preheats. Rub the skin lightly with oil. Set the turkey breast-side up in a V-rack inside a rimmed aluminum baking sheet.\n1. **Roast.** Place the baking sheet directly on the preheated steel, close the oven door, and immediately reduce the oven to 375\xB0F (190\xB0C). Roast until an instant-read thermometer (or a leave-in probe) registers 160\xB0F (71\xB0C) in the thickest part of the breast and 165 to 168\xB0F (74\xB0C) in the thickest part of the thigh. Expect about 2 to 2\xBD hours for a 12- to 14-pound bird, or up to 3 hours for an 18-pound bird. If the skin isn't browning evenly after the first hour or so, turn on convection or bump the heat by 25\xB0F.\n1. **Make stock while the turkey roasts.** In a saucepan, heat oil or butter over medium-high. Add chopped turkey neck, onion, carrot, and celery; cook until well browned, about 10 minutes. Add stock, bay leaves, and soy sauce; bring to a boil, then simmer 1 hour. Strain; you should have about 1 quart of fortified stock.\n1. **Thicken the gravy.** In a clean saucepan, melt butter. If using giblets, stir them in and cook 1 minute. Whisk in flour and cook until golden, about 3 minutes. Gradually whisk in the strained stock; simmer until thickened and glossy. Season to taste.\n1. **Rest the turkey.** Transfer the turkey (still on its rack) to a cutting board. Let rest 30 to 45 minutes\u2014or up to 2 hours if your sides need oven space. During this time, carryover cooking will bring the breast to about 165\xB0F and the thighs to 175\xB0F.\n1. **Deglaze the sheet pan.** Deglaze any browned drippings in the sheet tray with water or stock by placing it over a burner, adding liquid, and scraping it up with a wooden spoon. Add the pan juices and dissolved fond to the gravy, passing it through a strainer. Return the turkey to the sheet pan after deglazing.\n1. **Re-crisp the turkey.** When you're almost ready to serve, return the oven to 500\xB0F (260\xB0C). Slide the rested turkey (still on its sheet pan) back in for 15 to 20 minutes, until the skin deepens to a rich mahogany brown and audibly crackles when tapped. The internal temperature won't rise further, so the meat stays juicy.\n1. **Carve and serve.** Once the turkey has completed its final crisp, transfer it to the board, carve, and serve immediately with the gravy.\n\n## Notes\n\n- **Dry-brine:** For best results, dry-brine the turkey 24 hours ahead.\n- **Baking steel:** Use a baking steel or stone at least 1/2-inch thick if possible. The steel acts as a thermal battery, storing heat energy that radiates up through the aluminum baking sheet and into the bottom of the turkey.\n- **No roasting pan:** Skip the roasting pan entirely\u2014a rimmed aluminum sheet pan has low sides so heat reaches every inch of skin, and aluminum conducts heat better than steel.\n- **Resting window:** The turkey can rest 30 minutes to 2 hours, giving plenty of time to finish sides before the final crisp.\n";
+    }
+  });
+
+  // src/data/snickerdoodle-cookie-dough-truffles.md
+  var require_snickerdoodle_cookie_dough_truffles = __commonJS({
+    "src/data/snickerdoodle-cookie-dough-truffles.md"(exports, module) {
+      module.exports = "# Snickerdoodle Cookie Dough Truffles\n\n[Source](https://www.womansday.com/food-recipes/food-drinks/recipes/a40341/snickerdoodle-cookie-dough-truffles-recipe-del1214/)\n\n- **Servings:** {24}\n- **Yield:** {24} truffles\n\n## Ingredients\n\n- {1} recipe Eggless Sugar Cookie Dough\n- {1 1/2} tsp. ground cinnamon\n- {6} oz. white chocolate\n- {2} oz. white chocolate\n\n## Instructions\n\n1. Allow cookie dough to sit at room temperature for 10 minutes. Place into the bowl of a stand mixer fitted with the paddle attachment and mix on low speed to break up the dough. Add ground cinnamon and mix on low speed until distributed throughout the dough. Scoop dough by the tablespoon and roll into balls. Set aside.\n1. Spread parchment paper over a work surface or on a baking sheet. Place 6 ounces of finely chopped chocolate in a microwave-safe bowl. Microwave in 30 second intervals, stirring after each interval, until chocolate is melted. Check the temperature of the chocolate; it should be 110 degrees F. If it is too cool, heat it for 5 second intervals until the proper temperature is reached. Stir in remaining 2 ounces of roughly chopped chocolate until it has melted and the chocolate cools to 87 degrees F.\n1. Dunk each ball of cookie dough into melted chocolate, spooning melted chocolate over the surface until coated. Use a fork to scoop each ball out, gently shaking off the excess chocolate back into the bowl, then place truffle onto the parchment paper. While chocolate is still wet, sprinkle a tiny bit of cinnamon on the top of the truffle. Repeat with remaining dough balls. If chocolate starts to get too cool (starts hardening on the side of the bowl), return it to the microwave for 5 seconds and stir before continuing. Allow truffles to set up at room temperature for 5-10 minutes, until chocolate has hardened.\n\n## Notes\n\n- If you don't have a candy thermometer, melt the first 6 ounces as directed, then stir in the remaining 2 ounces until melted. If the chocolate needs some extra help hardening, pop the truffles in the fridge for 10-15 minutes.\n";
     }
   });
 
@@ -28917,6 +28952,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./cheesy-hasselback-potato-gratin.md": () => require_cheesy_hasselback_potato_gratin(),
     "./cherry-banana-bread-muffins.md": () => require_cherry_banana_bread_muffins(),
     "./cherry-pie.md": () => require_cherry_pie(),
+    "./chewy-double-chocolate-peppermint-cookies.md": () => require_chewy_double_chocolate_peppermint_cookies(),
     "./chili.md": () => require_chili(),
     "./chocolate-brownies.md": () => require_chocolate_brownies(),
     "./chocolate-buttercream-frosting.md": () => require_chocolate_buttercream_frosting(),
@@ -29021,9 +29057,11 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./orange-julius.md": () => require_orange_julius(),
     "./orange-pastry-cream.md": () => require_orange_pastry_cream(),
     "./orange-rolls.md": () => require_orange_rolls(),
+    "./oreo-coal.md": () => require_oreo_coal(),
     "./oreo-graham-cracker-pie-crust.md": () => require_oreo_graham_cracker_pie_crust(),
     "./peach-pie.md": () => require_peach_pie(),
     "./peanut-brittle.md": () => require_peanut_brittle(),
+    "./peanut-butter-balls.md": () => require_peanut_butter_balls(),
     "./peanut-butter-chocolate-chip-bacon-cookies.md": () => require_peanut_butter_chocolate_chip_bacon_cookies(),
     "./peanut-butter-cookies.md": () => require_peanut_butter_cookies(),
     "./peanut-butter-cup-stuffed-cookies.md": () => require_peanut_butter_cup_stuffed_cookies(),
@@ -29035,6 +29073,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./peppermint-bark.md": () => require_peppermint_bark(),
     "./peppermint-cannolis.md": () => require_peppermint_cannolis(),
     "./peppermint-glaze.md": () => require_peppermint_glaze(),
+    "./peppermint-pattie-stuffed-chocolate-cookies.md": () => require_peppermint_pattie_stuffed_chocolate_cookies(),
     "./perfectly-chocolate-chocolate-frosting.md": () => require_perfectly_chocolate_chocolate_frosting(),
     "./pie-crust.md": () => require_pie_crust(),
     "./pineapple-cookies.md": () => require_pineapple_cookies(),
@@ -29074,6 +29113,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./sherbet.md": () => require_sherbet(),
     "./shortbread-cookies.md": () => require_shortbread_cookies(),
     "./simple-whole-roast-turkey.md": () => require_simple_whole_roast_turkey(),
+    "./snickerdoodle-cookie-dough-truffles.md": () => require_snickerdoodle_cookie_dough_truffles(),
     "./snickerdoodles.md": () => require_snickerdoodles(),
     "./soft-chocolate-chip-cookies.md": () => require_soft_chocolate_chip_cookies(),
     "./sorbet.md": () => require_sorbet(),
@@ -29204,6 +29244,11 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   );
   addRecipe("cherry-banana-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
   addRecipe("cherry-pie", ["Dessert/Pie"]);
+  addRecipe(
+    "chewy-double-chocolate-peppermint-cookies",
+    ["Dessert/Cookies"],
+    true
+  );
   addRecipe("chili", ["Main Dish"], true);
   addRecipe("chocolate-brownies", ["Dessert/Brownies"]);
   addRecipe("chocolate-buttercream-frosting", ["Dessert/Frosting/Frosting"]);
@@ -29336,9 +29381,11 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("orange-julius", ["Drink"], true);
   addRecipe("orange-pastry-cream", ["Dessert/Frosting/Custard"]);
   addRecipe("orange-rolls", ["Dessert/Donuts"]);
+  addRecipe("oreo-coal", ["Dessert"], true);
   addRecipe("oreo-graham-cracker-pie-crust", ["Dessert/Pie/Pie Crusts"]);
   addRecipe("peach-pie", ["Dessert/Pie"]);
   addRecipe("peanut-brittle", ["Dessert/Candy"]);
+  addRecipe("peanut-butter-balls", ["Dessert/Cookies"], true);
   addRecipe("peanut-butter-chocolate-chip-bacon-cookies", ["Dessert/Cookies"]);
   addRecipe("peanut-butter-cookies", ["Dessert/Cookies"]);
   addRecipe("peanut-butter-cup-stuffed-cookies", ["Dessert/Cookies"], true);
@@ -29350,6 +29397,11 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("peppermint-bark", ["Dessert/Candy"]);
   addRecipe("peppermint-cannolis", ["Dessert/Cannolis/Filling"]);
   addRecipe("peppermint-glaze", ["Dessert/Frosting/Icing"]);
+  addRecipe(
+    "peppermint-pattie-stuffed-chocolate-cookies",
+    ["Dessert/Cookies"],
+    true
+  );
   addRecipe(
     "perfectly-chocolate-chocolate-frosting",
     ["Dessert/Frosting/Frosting"],
@@ -29400,6 +29452,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     ["Main Dish", "Holidays/Fennelly Thanksgiving 2025"],
     true
   );
+  addRecipe("snickerdoodle-cookie-dough-truffles", ["Dessert/Cookies"], true);
   addRecipe("snickerdoodles", ["Dessert/Cookies"]);
   addRecipe("soft-chocolate-chip-cookies", ["Dessert/Cookies"], true);
   addRecipe("sorbet", ["Dessert/Ice Cream"]);
