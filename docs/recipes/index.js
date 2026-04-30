@@ -23899,6 +23899,13 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
     }
   });
 
+  // src/data/caramel-pecan-cheesecake.md
+  var require_caramel_pecan_cheesecake = __commonJS({
+    "src/data/caramel-pecan-cheesecake.md"(exports, module) {
+      module.exports = "# Caramel Pecan Cheesecake\n\n- **Servings:** {12}\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 30 minutes\n- **Bake Time:** 1 hour 15 minutes\n- **Chill Time:** 8 hours\n\n## Ingredients\n\n- {2} cups crushed Shortbread/Trefoil\xAE Girl Scout Cookies\n- {3} tablespoons butter, melted\n- {1/4} cup plus {2} tablespoons all-purpose flour, divided\n- {1} jar (12 1/4 ounces) caramel ice cream topping\n- {1} cup chopped pecans\n- {5} packages (8 ounces each) cream cheese, softened\n- {1 3/4} cups sugar\n- {1 1/2} teaspoons vanilla extract\n- {4} eggs\n- {2} egg yolks\n- {1/3} cup heavy whipping cream\n\n### Sour Cream Topping\n\n- {2} cups (8 ounces each) sour cream\n- {1/3} cup sugar\n\n## Instructions\n\n1. In a small bowl, combine cookie crumbs and butter. Press onto the bottom and 1 in. up the sides of a greased 10-in. springform pan. Place pan on a baking sheet. Bake at 350\xB0 for 8\u201310 minutes or until set. Cool on a wire rack.\n1. Meanwhile, in a small bowl, stir {1/4} cup flour into the caramel topping. Set aside {1/3} cup caramel mixture and {2} tablespoons pecans for garnish. Drizzle remaining caramel mixture over crust; sprinkle with remaining pecans.\n1. In a large bowl, beat the cream cheese, sugar, vanilla, and remaining flour until smooth. Beat in eggs and yolks just until combined. Stir in cream. Pour over crust. Bake at 325\xB0 for 65\u201370 minutes or until center is almost set.\n1. In a small bowl, combine sour cream and sugar; carefully spread over warm filling. Bake 10\u201312 minutes longer or until topping is set. Cool on a wire rack for 10 minutes. Carefully run a knife around edge of pan to loosen; cool 1 hour longer.\n1. Chill for 8 hours or overnight. Remove sides of pan. Just before serving, drizzle with reserved caramel mixture and sprinkle with reserved pecans. Refrigerate leftovers.\n";
+    }
+  });
+
   // src/data/caramel-shortbread-cookies.md
   var require_caramel_shortbread_cookies = __commonJS({
     "src/data/caramel-shortbread-cookies.md"(exports, module) {
@@ -24137,6 +24144,13 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
     }
   });
 
+  // src/data/chocolate-coconut-chantilly-pie.md
+  var require_chocolate_coconut_chantilly_pie = __commonJS({
+    "src/data/chocolate-coconut-chantilly-pie.md"(exports, module) {
+      module.exports = "# Chocolate Coconut Chantilly Pie\n\nCreated by Michele Berg.\n\n- **Servings:** {8}\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 1 hour\n- **Chill Time:** at least 2 hours\n\n## Ingredients\n\n- {2-1/2} cups all-purpose flour\n- {2} tablespoons sugar, divided\n- {1/2} teaspoon salt\n- {1} package (8 ounces) cream cheese, cubed\n- {1/4} cup cold butter, cubed\n- {2} teaspoons cider vinegar\n- {6} to {8} tablespoons ice water\n\n### Cookie Filling\n\n- {1-1/2} cups cold 2% milk\n- {1} package (3.9 ounces) instant chocolate pudding mix\n- {8} Girl Scout Caramel deLites\xAE/Samoas\xAE cookies, crumbled\n\n### Coconut Cream Filling\n\n- {1} cup heavy whipping cream\n- {1/2} cup confectioners' sugar\n- {1/2} cup flaked coconut, toasted\n\nAdditional toasted coconut and Girl Scout Caramel deLites\xAE/Samoas\xAE cookies\n\n## Instructions\n\n1. Place flour, {1} tablespoon sugar and salt in a food processor; pulse until blended. Add cream cheese and butter; pulse until butter and cream cheese are the size of peas. While pulsing, add vinegar and just enough ice water to form moist crumbs.\n1. Divide dough in half. Shape each half into a disk; wrap in plastic wrap. Refrigerate 1 hour or overnight.\n1. Preheat oven to 425\xB0. On a lightly floured surface, roll one pastry dough to a 1/8-in.-thick circle; transfer to a 9-in. pie plate. Trim pastry to 1/2 in. beyond rim of plate; flute edge.\n1. Line pastry with a double thickness of foil. Fill with pie weights, dried beans or uncooked rice. Bake on a lower oven rack 20-25 minutes or until edges are golden brown. Remove foil and weights; bake 3-6 minutes longer or until bottom is golden brown. Cool on a wire rack.\n1. Cut remaining pastry in half. Roll each portion into an 8-in. circle. Transfer to ungreased baking sheets; sprinkle with remaining sugar. Bake 10-15 minutes or until golden brown. Remove from pans to wire racks to cool completely.\n1. For cookie filling, in a small bowl, whisk milk and pudding mix 2 minutes. Stir in crumbled Caramel deLites\xAE/Samoas\xAE cookies. Refrigerate, covered, 15 minutes or until set.\n1. For coconut cream filling, in another bowl, beat cream until it begins to thicken. Add confectioners' sugar; beat until soft peaks form. Fold in coconut.\n1. Spread {1/2} cup cookie filling and {1/2} cup coconut cream filling into prepared crust; top with one pastry circle. Repeat layers. Top with remaining cookie filling and coconut cream filling. Garnish with additional coconut and Caramel deLites\xAE/Samoas\xAE cookies. Refrigerate at least 2 hours before serving.\n\n## Notes\n\n- **To toast coconut:** bake in a shallow pan in a 350\xB0 oven for 5-10 minutes or cook in a skillet over low heat until golden brown, stirring occasionally.\n";
+    }
+  });
+
   // src/data/chocolate-covered-pretzels.md
   var require_chocolate_covered_pretzels = __commonJS({
     "src/data/chocolate-covered-pretzels.md"(exports, module) {
@@ -24183,6 +24197,13 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
   var require_chocolate_fudge = __commonJS({
     "src/data/chocolate-fudge.md"(exports, module) {
       module.exports = "# Chocolate Fudge\n\n- **Servings:** {32}\n- **Yield:** {64} pieces\n\n## Ingredients\n\n- {2 3/4} cup Sugar\n- {4} oz Unsweetened Chocolate\n- {3} tbsp Butter\n- {1} cup Half-and-half Cream\n- {1} tbsp Light Corn Syrup\n- {1} tbsp Vanilla Extract\n- {1} cup Nuts, optional\n\n## Instructions\n\n1. Grease an 8 by 8-inch pan with butter\n1. In a heavy-bottomed saucepan, combine the sugar, chocolate, 1 1/2 tablespoons of the butter, half-and-half, and corn syrup\n1. Over medium heat, stir with a wooden spoon until sugar is dissolved and chocolate is melted\n1. Increase heat and bring to a boil\n1. Reduce heat to medium-low, cover, and boil for 3 minutes\n1. Remove the cover and attach a candy thermometer to the pot\n1. Cook until the thermometer reads 234 degrees F\n1. Remove from the heat and add the remaining butter\n1. Do not stir\n1. Let the mixture cool for 10 minutes or until it drops to 130 degrees F\n1. Add vanilla and nuts, if desired, and mix until well-blended and the shiny texture becomes matte\n1. Pour into the prepared pan\n1. Let sit in cool dry area until firm\n1. Cut into 1-inch pieces and store in an airtight container for up to a week\n";
+    }
+  });
+
+  // src/data/chocolate-hazelnut-parfaits.md
+  var require_chocolate_hazelnut_parfaits = __commonJS({
+    "src/data/chocolate-hazelnut-parfaits.md"(exports, module) {
+      module.exports = "# Chocolate Hazelnut Parfaits\n\n- **Servings:** {8}\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 10 minutes\n- **Chill Time:** 1 hour\n\n## Ingredients\n\n- {3} cups cold milk\n- {1} cup refrigerated hazelnut nondairy creamer\n- {2} packages (3.9 ounces each) instant chocolate pudding mix\n- {1} cup crushed Shortbread/Trefoil\xAE Girl Scout Cookies\n- {2} cups sliced fresh strawberries\n- Whipped cream, optional\n\n## Instructions\n\n1. In a large bowl, whisk the milk, creamer, and pudding mixes for 2 minutes. Let stand for 2 minutes or until soft-set.\n1. Spoon 1/4 cup pudding into each of eight parfait glasses; sprinkle each with 1 tablespoon cookie crumbs. Top with strawberries and remaining pudding and crumbs. Refrigerate for 1 hour before serving. Garnish with whipped cream if desired.\n";
     }
   });
 
@@ -24291,6 +24312,13 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
     }
   });
 
+  // src/data/cookie-toffee-nut-bark.md
+  var require_cookie_toffee_nut_bark = __commonJS({
+    "src/data/cookie-toffee-nut-bark.md"(exports, module) {
+      module.exports = "# Cookie Toffee Nut Bark\n\nCreated by Fay Moreland.\n\n- **Servings:** {16}\n- **Yield:** about {1-1/2} pounds\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 25 minutes\n- **Chill Time:** 1 hour\n\n## Ingredients\n\n- {1} package (6.7 ounces) Girl Scout Toffee-tastic\xAE cookies, crushed, divided\n- {1/2} cup coarsely chopped pecans, toasted, divided\n- {1/2} cup butter, cubed\n- {1/2} cup packed brown sugar\n- Dash salt\n- {1} teaspoon vanilla extract\n- {1} package (10 to 12 ounces) white baking chips\n\n## Instructions\n\n1. Preheat oven to 400\xB0. Line a 9-in.-square baking pan with foil, letting ends extend up sides; grease foil. Reserve {1/4} cup crushed Toffee-tastic\xAE cookies for topping. Sprinkle remaining crushed Toffee-tastic\xAE cookies evenly onto bottom of prepared pan; sprinkle with half of the pecans.\n1. In a large heavy saucepan, melt butter over medium heat. Stir in brown sugar and salt. Bring to a boil; cook and stir 3-4 minutes or until sugar is dissolved. Remove from heat; stir in vanilla. Pour evenly over crushed Toffee-tastics\xAE.\n1. Bake 5-6 minutes or until bubbly. Immediately sprinkle with baking chips. Allow chips to soften for a few minutes, then spread over top. Sprinkle with reserved crushed Toffee-tastic\xAE cookies and remaining pecans. Cool slightly.\n1. Refrigerate, uncovered, 1 hour or until set. Break into pieces. Store in an airtight container.\n\n## Notes\n\n- **To toast nuts:** bake in a shallow pan in a 350\xB0 oven for 5-10 minutes or cook in a skillet over low heat until lightly browned, stirring occasionally.\n";
+    }
+  });
+
   // src/data/cookies-and-cream-fudge.md
   var require_cookies_and_cream_fudge = __commonJS({
     "src/data/cookies-and-cream-fudge.md"(exports, module) {
@@ -24347,10 +24375,31 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
     }
   });
 
+  // src/data/delightful-caramel-bars.md
+  var require_delightful_caramel_bars = __commonJS({
+    "src/data/delightful-caramel-bars.md"(exports, module) {
+      module.exports = "# Delightful Caramel Bars\n\nCreated by Stephanie Salmento. Grand prize winner and Cookies/Brownies/Bars category winner of the 2015 National Girl Scout Cookie Recipe Contest Sponsored by Taste of Home\xAE.\n\n- **Servings:** {24}\n- **Yield:** {2} dozen bars\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 25 minutes\n- **Bake Time:** 15 minutes\n\n## Ingredients\n\n- {1} package (9 ounces) Girl Scout Shortbread/Trefoils\xAE, divided\n- {1/3} cup butter, melted\n- {1} cup (6 ounces) semisweet chocolate chips\n- {8} Girl Scout Caramel deLites\xAE/Samoas\xAE cookies, coarsely chopped\n- {25} caramels\n- {1/4} cup evaporated milk\n\n## Instructions\n\n1. Preheat oven to 350\xB0. Place {12} Shortbread/Trefoils\xAE in a food processor; pulse until crushed. Reserve for topping.\n1. Place remaining Shortbread/Trefoils\xAE cookies in food processor; pulse until fine crumbs form. Add melted butter; pulse until blended. Press onto bottom of an ungreased 9-inch square baking pan. Layer with chocolate chips and chopped Caramel deLites\xAE/Samoas\xAE cookies.\n1. In a large saucepan, combine caramels and milk. Cook and stir over medium-low heat until caramels are melted. Pour over Caramel deLites\xAE/Samoas\xAE cookies; sprinkle with reserved crushed Shortbread/Trefoils\xAE cookies. Bake 15 to 18 minutes or until golden brown. Cool in pan on a wire rack. Cut into bars.\n";
+    }
+  });
+
   // src/data/dirty-rice.md
   var require_dirty_rice = __commonJS({
     "src/data/dirty-rice.md"(exports, module) {
       module.exports = "# Dirty Rice\n\n- **Servings:** {12}\n\n## Ingredients\n\n- {1} lb. bacon\n- {1} lb. hot or sweet sausage\n- {1} lb. ground beef\n- {3 1/4} cups water\n- {1} package Zatarain's dirty rice mix\n- {1/2} cup white rice\n- {3} tbsp butter, divided\n- {2} cans diced tomatoes (optional)\n- {1/2} cup chopped pecans (optional)\n- {2} to {3} green/red/yellow chopped peppers\n- {2} chopped onions\n- {1 1/2} cups dried cranberries/Craisins\n- tortilla shells\n- shredded taco blend cheese\n- sour cream\n\n## Instructions\n\n1. Cook the bacon and set aside.\n1. Remove the sausage from the casing and brown in large pan. Set aside.\n1. In the same pan, brown ground beef. Drain and set aside.\n1. Add water to same pan and bring to a boil.\n1. Stir in dirty rice mix, white rice, sausage, and ground beef. Return to a boil.\n1. Reduce heat to low. Cover and simmer 25\u201330 minutes. Optional: add {2} cans of diced tomatoes.\n1. Remove from heat and let stand for 5 minutes.\n1. Melt {1} tbsp butter in a frying pan. Brown pecans (about 2\u20133 minutes). Add to rice mixture.\n1. Melt {2} tbsp butter in same frying pan. Add the peppers, onions, and cranberries. Cook until tender (3\u20134 minutes), stirring so the onions don't brown. Add to the rice mixture.\n1. Crumble the bacon and stir it into the rice mixture.\n1. Pour into serving dish. Cover with a few handfuls of shredded cheese.\n1. Sprinkle a little cheese on a tortilla. Microwave 30 seconds until cheese melts. Spoon rice mixture over the cheese and add a dollop of sour cream. Serve.\n";
+    }
+  });
+
+  // src/data/do-si-dos-banana-pudding.md
+  var require_do_si_dos_banana_pudding = __commonJS({
+    "src/data/do-si-dos-banana-pudding.md"(exports, module) {
+      module.exports = "# Do-si-dos\xAE/Peanut Butter Sandwich Banana Pudding\n\nCreated by Angela Lively.\n\n- **Servings:** {12}\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 30 minutes\n- **Chill Time:** at least 4 hours\n\n## Ingredients\n\n- {2-1/2} cups cold whole milk, divided\n- {1} package (5.10 ounces) instant banana cream pudding mix\n- {1} can (14 ounces) sweetened condensed milk\n- {1} package (8 ounces) cream cheese, softened\n- {1} carton (8 ounces) frozen whipped topping, thawed\n- {4} to {5} medium bananas, sliced\n- {1-1/2} packages (8 ounces each) Girl Scout Do-si-dos\xAE/Peanut Butter Sandwich cookies, divided\n\n## Instructions\n\n1. Whisk together {2} cups milk and pudding mix. In another bowl, beat sweetened condensed milk and cream cheese until smooth. Fold in whipped topping, then pudding.\n1. Crush {6} Do-si-dos\xAE/Peanut Butter Sandwich cookies; set aside. Dip {24} Do-si-dos\xAE/Peanut Butter Sandwich cookies in remaining milk; place half in a 3-qt. bowl. Top with half the banana slices, then half the pudding mixture. Repeat layers. Cover and refrigerate at least 4 hours. Top pudding with reserved crushed Do-si-dos\xAE/Peanut Butter Sandwich cookies.\n";
+    }
+  });
+
+  // src/data/do-si-dos-candy-bars.md
+  var require_do_si_dos_candy_bars = __commonJS({
+    "src/data/do-si-dos-candy-bars.md"(exports, module) {
+      module.exports = "# Do-si-dos\xAE/Peanut Butter Sandwich Candy Bars\n\nCreated by Kate Jackette.\n\n- **Servings:** {36}\n- **Yield:** {3} dozen bars\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 10 minutes\n- **Cook Time:** 10 minutes\n\n## Ingredients\n\n- {3/4} teaspoon vanilla extract\n- {1/2} teaspoon baking soda\n- {3/4} cup plus {3} tablespoons sugar\n- {3/4} cup corn syrup\n- {2} tablespoons water\n- {1-1/2} cups natural peanut butter\n- {1} package (8 ounces) chopped Girl Scout Do-si-dos\xAE/Peanut Butter Sandwich cookies, divided\n- {3/4} cup plus {2} tablespoons 60% cacao bittersweet chocolate baking chips, divided\n\n## Instructions\n\n1. Line a 13x9-in. pan with parchment paper. Combine vanilla and baking soda.\n1. In a large saucepan over high heat, stir together sugar, corn syrup and water until sugar is dissolved. Reduce heat to medium-high; cook until a thermometer reads 285\xB0. Immediately add vanilla mixture.\n1. Meanwhile, microwave peanut butter and all but {1/2} cup chopped Do-si-dos\xAE/Peanut Butter Sandwich cookies until hot, about 2 minutes, stirring once. Quickly pour caramel into peanut butter mixture and stir just to combine. Immediately pour into prepared pan; spread evenly (candy sets quickly).\n1. Top with {3/4} cup baking chips, reserving {2} tablespoons; spread to cover. Sprinkle with remaining chopped Do-si-dos\xAE/Peanut Butter Sandwich cookies. Melt reserved baking chips; drizzle over top. When cool, cut into bars.\n";
     }
   });
 
@@ -24379,6 +24428,13 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
   var require_double_chocolate_gelato = __commonJS({
     "src/data/double-chocolate-gelato.md"(exports, module) {
       module.exports = "# Double Chocolate Gelato\n\n- **Servings:** {4}\n- **Yield:** {4} servings\n\n## Ingredients\n\n- {2 1/4} cup Milk, whole\n- {1/3} cup Heavy Cream\n- {3/4} cup Sugar\n- {1} cup Unsweetened Cocoa Powder\n- {2} oz Bittersweet Chocolate, chopped\n- {4} Egg Yolk\n- {2} tbsp Liqueur, coffee flavored\n- {2} tsp Vanilla Extract\n- {1/8} tsp Salt\n- {8} Chocolates, chopped\n\n## Instructions\n\n1. Heat the milk, cream, and 1/2 cup sugar in a 2-quart saucepan, until the sugar dissolves and the milk starts to simmer\n1. Add the cocoa powder and chocolate and whisk until smooth\n1. Pour into a heat-proof measuring cup\n1. Place the egg yolks and the remaining 1/4 cup sugar in the bowl of an electric mixer fitted with the paddle attachment and beat on high speed for 3 to 5 minutes, until light yellow and very thick\n1. With the mixer on low speed, slowly pour the hot chocolate mixture into the egg mixture\n1. Pour the egg and chocolate mixture back into the 2-quart saucepan and cook over medium-low heat, stirring constantly, until thickened\n1. A candy thermometer will register about 180 degrees F\n1. Don't allow the mixture to boil!\n1. Pour the mixture through a sieve into a bowl and stir in the coffee liqueur, vanilla, and salt\n1. Place a piece of plastic wrap directly on top of the custard and chill completely\n1. Pour the custard into the bowl of an ice cream maker and process according to the manufacturer's directions\n1. Stir in the roughly chopped chocolate, if using, and freeze in covered containers\n1. Allow the gelato to thaw slightly before serving\n";
+    }
+  });
+
+  // src/data/dulce-delites.md
+  var require_dulce_delites = __commonJS({
+    "src/data/dulce-delites.md"(exports, module) {
+      module.exports = "# Dulce deLites\n\nCreated by Andrea Barlow.\n\n- **Servings:** {16}\n- **Yield:** {16} squares\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 10 minutes\n- **Bake Time:** 15 minutes\n- **Cool Time:** 1 hour\n\n## Ingredients\n\n- {1/2} cup butter, softened\n- {1/4} cup sugar\n- {1} cup all-purpose flour\n- {1/4} teaspoon salt\n- {10} Girl Scout Caramel deLites\xAE/Samoas\xAE cookies\n- {1/2} cup coarsely chopped pecans\n- {1/2} cup dulce de leche\n\n## Instructions\n\n1. Preheat oven to 350\xB0. Cream butter and sugar; beat in flour and salt until well mixed (dough will be crumbly). Press evenly onto bottom of an ungreased 8x8-in. pan. Bake until edges are golden brown and top is lightly browned, 12-15 minutes. Cool 15 minutes.\n1. Chop Caramel deLites\xAE/Samoas\xAE cookies into 1/4-in. pieces; combine with pecans. Microwave dulce de leche on high until spreadable, 15-20 seconds. Spread dulce de leche over cooled crust. Sprinkle chopped Caramel deLites\xAE/Samoas\xAE cookies and pecans evenly over dulce de leche, pressing down firmly. Cool completely, about one hour, before cutting into squares.\n\n## Notes\n\n- **\\*Dulce de leche:** This recipe was tested with Nestle La Lechera dulce de leche (caramel flavored sauce); look for it in the international foods section of your grocery store. If using Eagle Brand dulce de leche, thicken according to package directions before using.\n";
     }
   });
 
@@ -24424,6 +24480,13 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
     }
   });
 
+  // src/data/fantastic-toffee-tastic-cheesecake.md
+  var require_fantastic_toffee_tastic_cheesecake = __commonJS({
+    "src/data/fantastic-toffee-tastic-cheesecake.md"(exports, module) {
+      module.exports = "# Fantastic Toffee-tastic\xAE Cheesecake\n\nCreated by Jody Sizemore.\n\n- **Servings:** {12}\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 30 minutes\n- **Bake Time:** 1 hour\n- **Chill Time:** overnight\n\n## Ingredients\n\n- {2-1/2} packages (6.70 ounces each) Girl Scout Toffee-tastic\xAE, divided\n- {1/4} cup butter, melted\n- {4} packages (8 ounces each) full-fat cream cheese, softened\n- {1} cup sugar\n- {1/4} cup cornstarch\n- {2} large eggs\n- {3/4} cup heavy whipping cream\n- {1} tablespoon vanilla extract\n- {1} cup brickle toffee bits, divided\n- Caramel or chocolate ice cream topping, optional\n\n## Instructions\n\n1. Preheat oven to 350\xB0. Crush 2 boxes of Toffee-tastic\xAE cookies in a food processor or blender. Add melted butter; press onto bottom of a greased 9-in. springform pan. Place on a 15x10-in. rimmed pan. Bake 10 minutes; cool on a wire rack.\n1. Meanwhile, beat cream cheese until creamy. Combine sugar and cornstarch; on low speed, gradually beat into cream cheese until smooth. Add eggs, one at a time, blending well after each addition. Beat in whipping cream and vanilla just until combined (do not overbeat).\n1. Chop remaining Toffee-tastic\xAE cookies into bite-size pieces. Fold cookie pieces and {1/2} cup toffee bits into cream cheese mixture. Pour over cooled crust; return springform to rimmed pan.\n1. Bake cheesecake until edges are light golden and center is almost set, about 60-70 minutes. Cool on a wire rack 10 minutes. Sprinkle with remaining toffee chips. Loosen sides from pan with a knife. Cool 1 hour longer. Refrigerate overnight, covering when completely cooled.\n1. Remove rim from pan. If desired, top cheesecake with caramel or chocolate topping.\n";
+    }
+  });
+
   // src/data/favorite-chocolate-buttercream.md
   var require_favorite_chocolate_buttercream = __commonJS({
     "src/data/favorite-chocolate-buttercream.md"(exports, module) {
@@ -24431,10 +24494,24 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
     }
   });
 
+  // src/data/festive-white-chocolate-cheesecake.md
+  var require_festive_white_chocolate_cheesecake = __commonJS({
+    "src/data/festive-white-chocolate-cheesecake.md"(exports, module) {
+      module.exports = "# Festive White Chocolate Cheesecake\n\n- **Servings:** {12}\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 30 minutes\n- **Bake Time:** 35 minutes\n- **Chill Time:** overnight\n\n## Ingredients\n\n- {2} cups crushed Shortbread/Trefoil\xAE Girl Scout Cookies\n- {1/4} cup butter, melted\n\n### Filling\n\n- {2} packages (8 ounces each) cream cheese, softened\n- {1} cup white baking chips\n- {2/3} cup sour cream\n- {3/4} cup sugar\n- {1} tablespoon grated orange peel\n- {1} teaspoon vanilla extract\n- {3} eggs, lightly beaten\n\n### Sauce\n\n- {1} cup whole-berry cranberry sauce\n- {1/2} cup seedless raspberry jam\n- {1/2} teaspoon grated orange peel\n\n### Topping\n\n- {2} cups heavy whipping cream\n- {1/4} cup confectioners' sugar\n\n## Instructions\n\n1. In a small bowl, combine cookie crumbs and butter. Press onto the bottom of a greased 9-in. springform pan; set aside.\n1. In a large bowl, beat the cream cheese, chips, sour cream, sugar, orange peel, and vanilla until smooth. Add eggs; beat on low speed just until combined. Pour over crust. Place pan on a baking sheet.\n1. Bake at 350\xB0 for 35\u201340 minutes or until center is almost set. Cool on a wire rack for 10 minutes. Carefully run a knife around edge of pan to loosen; cool 1 hour longer. Refrigerate overnight.\n1. In a small saucepan, combine sauce ingredients. Cook and stir over medium heat until blended. Cool.\n1. Just before serving, remove sides of springform pan. Spoon sauce over cheesecake to within 1 in. of edges. In a small bowl, beat cream and confectioners' sugar until stiff peaks form. Pipe over sauce. Refrigerate leftovers.\n";
+    }
+  });
+
   // src/data/fortune-cookies.md
   var require_fortune_cookies = __commonJS({
     "src/data/fortune-cookies.md"(exports, module) {
       module.exports = "# Fortune Cookies\n\n- **Servings:** {6}\n- **Yield:** {6} cookies\n\n## Ingredients\n\n- {2} Egg White\n- {1/3} cup Sugar\n- {1/2} stick Butter, melted\n- {1/2} cup All-purpose Flour\n- {1/4} tsp Salt\n- {1/2} tsp Almond Extract\n- {1/2} tsp Lemon Extract\n\n## Instructions\n\n1. Preheat oven to 350 degrees F\n1. Grease a cookie sheet thoroughly\n1. Whip the egg whites on low speed until light and foamy\n1. Blend in the sugar and continue to beat until soft peaks form\n1. Pour in the melted butter, flour, salt, and extracts; mix until well combined\n1. Drop a tablespoon of the batter onto the prepared cookie sheet\n1. Using the back of a spoon, spread the batter evenly into very thin 3-inch rounds\n1. Alternatively, use the lid of a jar with a 3-inch circle punched out as a template, pour the batter in the ring, and remove\n1. Because you must work quickly to shape these cookies, bake just 3 at a time\n1. Bake for about 5 to 8 minutes or until the edges are a light golden color\n1. Remove the cookies with a spatula and place on a work surface\n1. Lay a 2 1/2 x 1/2 inch fortune in the lower middle of the cookie, and gingerly (they will be hot) fold in half to make a semi-circle\n1. Bend the edges up toward each other to make a crescent\n1. Drag the crease across the rim of a small measuring cup, with the ends facing down\n1. Cool in mini muffin tins to hold shape until crisp\n1. Repeat with remaining batter\n";
+    }
+  });
+
+  // src/data/frozen-raspberry-cheesecakes.md
+  var require_frozen_raspberry_cheesecakes = __commonJS({
+    "src/data/frozen-raspberry-cheesecakes.md"(exports, module) {
+      module.exports = "# Frozen Raspberry Cheesecakes\n\n- **Servings:** {2}\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 15 minutes\n- **Freeze Time:** 4 hours\n\n## Ingredients\n\n- {1/4} cup crushed Shortbread/Trefoil\xAE Girl Scout Cookies\n- {1} tablespoon butter, melted\n- {1 1/2} ounces cream cheese, softened\n- {3} tablespoons sweetened condensed milk\n- {1} tablespoon lemon juice\n- {1/3} cup raspberry sherbet, softened\n- {1/4} cup fresh raspberries\n\n## Instructions\n\n1. In a small bowl, combine the cookie crumbs and butter. Press onto the bottom of a 4-in. springform pan coated with cooking spray. Freeze for 10 minutes. In a small bowl, combine the cream cheese, milk, and lemon juice until blended.\n1. Spread over crust. Freeze for 2 hours or until firm. Spread sherbet over cream cheese layer; freeze 2 hours longer. Top with raspberries.\n";
     }
   });
 
@@ -24449,6 +24526,13 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
   var require_gelato = __commonJS({
     "src/data/gelato.md"(exports, module) {
       module.exports = "# Gelato\n\n- **Servings:** {10}\n- **Yield:** {2} qt\n\n## Ingredients\n\n- {5} cup Milk\n- {2 1/2} cup Heavy Cream\n- {10} Egg Yolk\n- {1 1/4} cup Sugar\n\n## Instructions\n\n1. In a medium saucepan, mix milk and cream\n1. Warm until foam forms around the edges\n1. Remove from heat\n1. In a large bowl, beat the egg yolks and sugar until frothy\n1. Gradually pour the warm milk into the egg yolks, whisking constantly\n1. Add fruit ingredients\n1. Return mixture to saucepan; cook over medium heat, stirring with a wooden spoon until the mixture gels slightly and coats the back of the spoon\n1. If small egg lumps begin to show, remove from heat immediately\n1. Pour the mixture through a sieve or fine strainer into a bowl\n1. Cover, and chill for several hours or overnight\n1. Pour the mixture into an ice cream maker, and freeze according to the manufacturer's instructions\n1. Transfer to a sealed container, and freeze until firm\n1. If the gelato is too firm, place it in the refrigerator until it reaches the desired consistency\n";
+    }
+  });
+
+  // src/data/german-chocolate-ice-cream-cookie-torte.md
+  var require_german_chocolate_ice_cream_cookie_torte = __commonJS({
+    "src/data/german-chocolate-ice-cream-cookie-torte.md"(exports, module) {
+      module.exports = "# German Chocolate Ice Cream Cookie Torte\n\nCreated by Crystal Schlueter.\n\n- **Servings:** {12}\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 15 minutes\n- **Freeze Time:** several hours\n\n## Ingredients\n\n- {1} package (7 ounces) Girl Scout Caramel deLites\xAE/Samoas\xAE cookies\n- {1/2} cup flaked coconut, toasted\n- {1/2} cup chopped pecans, toasted\n- {3} tablespoons butter, melted\n- {2} cups chocolate ice cream, softened if necessary\n- {2} cups butter pecan ice cream, softened if necessary\n- {3/4} cup heavy whipping cream\n- {3/4} cup coconut-pecan frosting\n- Chocolate syrup and additional Caramel deLites\xAE/Samoas\xAE cookies\n\n## Instructions\n\n1. Place Caramel deLites\xAE/Samoas\xAE cookies, coconut and pecans in a food processor; pulse until finely chopped. Add melted butter; pulse until blended. Press half of the mixture onto bottom of a greased 9-in. springform pan. Freeze 30 minutes or until set. Spread chocolate ice cream over crust; sprinkle with remaining cookie mixture. Freeze 1 hour or until firm.\n1. Spread butter pecan ice cream over cookie layer. Freeze 1 hour longer or until firm.\n1. In a small bowl, beat cream until soft peaks form. Gently fold in frosting. Spread over ice cream layer. Remove rim from pan. Drizzle with chocolate syrup; top with additional Caramel deLites\xAE/Samoas\xAE cookies.\n\n## Notes\n\n- **To toast nuts and coconut:** bake in separate shallow pans in a 350\xB0 oven for 5-10 minutes or until golden brown, stirring occasionally.\n";
     }
   });
 
@@ -24477,6 +24561,13 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
   var require_gingerbread = __commonJS({
     "src/data/gingerbread.md"(exports, module) {
       module.exports = "# Gingerbread\n\n## Ingredients\n\n- {1/3} cup shortening\n- {1} cup brown sugar\n- {1 1/2} cups dark molasses\n- {2/3} cup cold water\n- {6} cups sifted flour\n- {2} tsp baking soda\n- {1} tsp salt\n- {1} tsp allspice\n- {1} tsp ginger\n- {1} tsp cloves\n- {1} tsp cinnamon\n\n## Instructions\n\n1. Mix thoroughly shortening, brown sugar, and dark molasses.\n1. Stir in cold water.\n1. Sift together flour, baking soda, salt, allspice, ginger, cloves, and cinnamon, and stir in.\n1. Bake about 15 minutes at 350\xB0F.\n";
+    }
+  });
+
+  // src/data/girl-scout-bridging-bars.md
+  var require_girl_scout_bridging_bars = __commonJS({
+    "src/data/girl-scout-bridging-bars.md"(exports, module) {
+      module.exports = "# Girl Scout Bridging Bars\n\nCreated by Daniel Rinaldi.\n\n- **Servings:** {36}\n- **Yield:** {3} dozen bars\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 25 minutes\n- **Chill Time:** at least 4 hours\n\n## Ingredients\n\n- {1-1/2} cups chunky peanut butter\n- {1/4} cup canola oil\n- {14} ounces milk chocolate, melted\n- {1} package (8 ounces) Girl Scout Do-si-dos\xAE/Peanut Butter Sandwiches cookies, coarsely crushed\n- {2-1/2} cups heavy whipping cream\n- {12} ounces semisweet chocolate, melted and cooled slightly\n- {1} tablespoon baking cocoa\n\n## Instructions\n\n1. Line a 13x9-in. pan with parchment paper, letting ends extend up sides.\n1. In a large bowl, beat peanut butter and oil until blended. Add melted milk chocolate and crushed Do-si-dos\xAE/Peanut Butter Sandwiches cookies. Spread into prepared pan. Refrigerate until set, about 30 minutes.\n1. In a large bowl, beat cream until soft peaks form. Whisk a third of the whipped cream into melted semisweet chocolate until smooth and shiny; fold mixture into remaining whipped cream. Spread over cookie layer. Refrigerate, covered, at least 4 hours or overnight.\n1. Just before serving, dust with baking cocoa. Lifting with parchment paper, remove from pan. Cut into bars.\n";
     }
   });
 
@@ -24979,6 +25070,13 @@ Combine base flavors with the listed additions.
     }
   });
 
+  // src/data/lemon-blueberry-crunch-cake.md
+  var require_lemon_blueberry_crunch_cake = __commonJS({
+    "src/data/lemon-blueberry-crunch-cake.md"(exports, module) {
+      module.exports = "# Lemon Blueberry Crunch Cake\n\nCreated by Charlene Chambers.\n\n- **Servings:** {16}\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 40 minutes\n- **Bake Time:** 50 minutes\n\n## Ingredients\n\n- {4} large eggs\n- {3/4} cup buttermilk\n- {1} cup unsalted butter, softened\n- {2-1/2} cups granulated sugar\n- {1/3} cup grated lemon peel\n- {3} cups plus {2} tablespoons all-purpose flour, divided\n- {1/2} teaspoon baking powder\n- {1/2} teaspoon baking soda\n- {1} teaspoon salt\n- {3/4} cup lemon juice\n- {1} teaspoon vanilla extract\n- {10} crushed Girl Scout Lemonades\u2122 cookies\n- {1} cup fresh blueberries\n\n### Glaze\n\n- {2} cups confectioners' sugar, sifted\n- {3-1/2} tablespoons lemon juice\n- {1} teaspoon grated lemon peel\n\nAdditional crushed Girl Scout Lemonades\u2122 cookies, optional\n\n## Instructions\n\n1. Preheat oven to 350\xB0. Let eggs and buttermilk stand at room temperature 30 minutes.\n1. Cream butter and granulated sugar until light and fluffy, about 5 minutes. Add eggs, one at a time, beating well after each addition. Stir in lemon peel. In another bowl, sift together {3} cups flour, baking powder, baking soda and salt. In a separate bowl, combine {3/4} cup lemon juice, buttermilk and vanilla. Add flour and buttermilk mixture to batter alternately, beating well after each addition, beginning and ending with flour mixture. Stir in crushed Lemonades\u2122 cookies.\n1. Toss blueberries and remaining flour; fold into batter, taking care not to crush berries. Pour into two greased and floured 8x4-in. loaf pans lined with parchment paper. Bake until a toothpick inserted in center comes out clean, 50-60 minutes. Cool 10 minutes. Stir glaze ingredients together. Remove cakes from pans and place on wire racks. Drizzle glaze over cakes, allowing some to run down sides. Sprinkle with lemon peel and, if desired, additional crushed Lemonades\u2122 cookies.\n";
+    }
+  });
+
   // src/data/lemon-cookies.md
   var require_lemon_cookies = __commonJS({
     "src/data/lemon-cookies.md"(exports, module) {
@@ -25018,6 +25116,20 @@ Combine base flavors with the listed additions.
   var require_lemon_poppyseed_bread = __commonJS({
     "src/data/lemon-poppyseed-bread.md"(exports, module) {
       module.exports = "# Lemon Poppyseed Bread\n\n- **Servings:** {18}\n- **Yield:** {1} loaf\n\n## Ingredients\n\n- {4} cup All-purpose Flour\n- {1/16} tsp Salt\n- {2} tbsp Sugar\n- {2} tsp Yeast\n- {6} oz Milk\n- {1} Lemon Zest, whole lemon\n- {1/2} stick Butter\n- {1/2} stick Butter\n- {4} oz Poppy Seeds\n- {2} oz Honey\n- {1/2} cup Raisins\n- {1/4} cup Orange Zest\n- {1/2} cup Almonds, ground\n- {1} Egg Yolk\n- {3} tbsp Sugar\n- {1} tbsp Milk\n\n## Instructions\n\n1. Sift the flour, salt, and sugar in a bowl\n1. Stir in the yeast and make a well\n1. Heat the milk and lemon in a pan with the butter\n1. Let mixture cool and then mix with dry ingredients\n1. Knead the dough mixture until smooth and elastic and cover in a bowl\n1. Let rise in warm place until it doubles in size\n1. While the dough is rising get started on the filling\n1. Melt butter in a medium sized pan and add all the poppy seeds except for 1 tablespoon\n1. Add the honey, raisins and zest\n1. Cook on low for 5 minutes and remove from heat, add the almonds and let cool\n1. Cream the egg yolk and sugar together, and fold into poppy seed mixture\n1. Begin to roll out dough on a floured surface into a 12 by 12-inch square\n1. Roll dough to 1/8-inch thick\n1. Spread your filling to within 1-inch of the edge of the dough\n1. Roll both ends towards the center\n1. Brush with olive oil and cover with plastic wrap and let rise for 1 hour\n1. Brush with milk and sprinkle with remaining poppy seeds\n1. Bake in a preheated 375 degree oven for 30 minutes or until golden brown\n";
+    }
+  });
+
+  // src/data/lemon-shortbread-cheesecake.md
+  var require_lemon_shortbread_cheesecake = __commonJS({
+    "src/data/lemon-shortbread-cheesecake.md"(exports, module) {
+      module.exports = "# Lemon Shortbread Cheesecake\n\nCreated by Rosalia Roger. Cakes/Pies/Cupcakes category winner of the 2015 National Girl Scout Cookie Recipe Contest Sponsored by Taste of Home\xAE.\n\n- **Servings:** {12}\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 30 minutes\n- **Freeze Time:** 2 hours\n\n## Ingredients\n\n- {1} package (9 ounces) Girl Scout Shortbread/Trefoils\xAE cookies\n- {1/4} cup butter, melted\n\n### Filling\n\n- {2} packages (8 1/2 ounces each) Girl Scout Lemonades\u2122 cookies\n- {1} package (8 ounces) cream cheese, softened\n- {1/2} cup sugar\n- {1} teaspoon vanilla extract\n- {1-1/2} cups heavy whipping cream\n\n### Lemon Curd\n\n- {3} eggs\n- {1} cup sugar\n- {1} cup lemon juice\n- {1/2} cup butter, cubed\n\n## Instructions\n\n1. Place Shortbreads/Trefoils\xAE cookies in a food processor; pulse until fine crumbs form. Add butter; pulse just until blended. Press onto bottom of a greased 9-inch springform pan. Freeze 10 minutes.\n1. Place Lemonades\u2122 cookies in a clean food processor; pulse until fine crumbs form. In a large bowl, beat cream cheese, sugar, and vanilla until smooth. Gradually beat in Lemonades\u2122 cookie crumbs. In another bowl, beat cream until soft peaks form; fold into cream cheese mixture. Spread over crust. Freeze, covered, for 1 hour.\n1. Meanwhile, in a small heavy saucepan, whisk eggs, sugar, and lemon juice until blended. Add butter; cook over medium heat, whisking constantly, until mixture is just thick enough to coat a metal spoon and a thermometer reads at least 170\xB0. Do not allow to boil. Remove from heat immediately. Strain through a fine-mesh strainer into a small bowl; cool. Press plastic wrap onto surface of lemon curd. Refrigerate until cold.\n1. Spoon {1} cup lemon curd over cheesecake. Freeze 1 hour longer. Remove rim from pan. Serve with remaining lemon curd.\n";
+    }
+  });
+
+  // src/data/lemon-surprise-cheesecake.md
+  var require_lemon_surprise_cheesecake = __commonJS({
+    "src/data/lemon-surprise-cheesecake.md"(exports, module) {
+      module.exports = "# Lemon Surprise Cheesecake\n\n- **Servings:** {12}\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 30 minutes\n- **Chill Time:** overnight\n\n## Ingredients\n\n- {1 1/2} cups crushed Lemonades\u2122 Girl Scout Cookies\n- {2} tablespoons sugar\n- {1/4} cup butter, melted\n\n### Lemon Filling\n\n- {2/3} cup plus {2} tablespoons sugar\n- {5} tablespoons cornstarch\n- {1} cup water\n- {2} egg yolks, lightly beaten\n- {1/3} cup lemon juice\n- {2} tablespoons butter\n- {1} teaspoon grated lemon peel\n\n### Cheesecake Layer\n\n- {1} envelope unflavored gelatin\n- {1/2} cup lemon juice\n- {3} packages (8 ounces each) cream cheese, softened\n- {3/4} cup sugar\n- {1} cup heavy whipping cream, whipped\n- {2} teaspoons grated lemon peel\n\n## Instructions\n\n1. Combine the cookie crumbs and sugar; stir in butter. Press onto the bottom of a lightly greased 9-in. springform pan. Place on a baking sheet. Bake at 350\xB0 for 8\u201310 minutes or until crust just begins to brown. Cool pan on a wire rack.\n1. In a large saucepan, combine sugar and cornstarch. Stir in water until smooth. Cook and stir over medium-high heat until thickened and bubbly. Reduce heat; cook and stir 2 minutes longer. Remove from the heat. Stir a small amount of hot filling into egg yolks; return all to pan, stirring constantly. Bring to a gentle boil; cook and stir 2 minutes longer. Remove from the heat. Gently stir in the lemon juice, butter, and peel. Cool to room temperature without stirring.\n1. In a small saucepan, sprinkle gelatin over lemon juice; let stand for 1 minute. Heat over low heat, stirring until gelatin is dissolved. Remove from the heat.\n1. In a large bowl, beat cream cheese and sugar. Gradually beat in gelatin mixture until combined. Fold in the whipped cream and lemon peel. Spoon three-fourths of cheesecake mixture into crust; build up edges slightly. Chill for 5 minutes.\n1. Spoon lemon filling over cheesecake layer to within 1/2 in. of edges. Top with remaining cheesecake mixture. Cover and refrigerate overnight.\n1. Carefully run a knife around edge of pan; remove sides of pan. Refrigerate leftovers.\n";
     }
   });
 
@@ -25131,6 +25243,20 @@ These simple, savory sweet potatoes are mashed and seasoned to perfection with c
     }
   });
 
+  // src/data/mile-high-peppermint-pie.md
+  var require_mile_high_peppermint_pie = __commonJS({
+    "src/data/mile-high-peppermint-pie.md"(exports, module) {
+      module.exports = "# Mile-High Peppermint Pie\n\n- **Servings:** {8}\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 40 minutes\n- **Bake Time:** 5 minutes\n- **Freeze Time:** several hours\n\n## Ingredients\n\n- {1 1/2} cups crushed Thin Mints\xAE Girl Scout Cookies (about {24} cookies)\n- {2} tablespoons butter, melted\n- {5} cups peppermint ice cream, softened if necessary\n\n### Chocolate Sauce\n\n- {1} ounce semisweet chocolate\n- {1} tablespoon butter\n- {1/2} cup sugar\n- {3} tablespoons water\n- {2} tablespoons light corn syrup\n- {1/8} teaspoon salt\n- {1/2} teaspoon vanilla extract\n\n### Meringue\n\n- {5} large egg whites, room temperature\n- {2/3} cup sugar\n\n## Instructions\n\n1. In a small bowl, mix crushed cookies and melted butter. Press onto the bottom and up sides of a 9-in. metal pie pan. Freeze, covered, for 1 hour or until firm.\n1. Spread ice cream into crust. Freeze, covered, until firm.\n1. To serve, preheat oven to 450\xB0. In a small saucepan, melt chocolate and butter over medium-low heat. Stir in sugar, water, corn syrup, and salt. Bring to a boil, stirring to dissolve sugar. Reduce heat; simmer, uncovered, 4\u20135 minutes or until slightly thickened, stirring frequently. Stir in vanilla; keep warm.\n1. For meringue, in a small, heavy saucepan, combine egg whites and sugar. Using a hand mixer, beat on low speed 1 minute. Place saucepan over low heat; continue beating on low until a thermometer reads 160\xB0.\n1. Transfer mixture to a bowl. Beat on high until stiff glossy peaks form. Spread over frozen pie. Bake 2\u20133 minutes or until meringue is lightly browned. Serve immediately with warm chocolate sauce.\n";
+    }
+  });
+
+  // src/data/mini-thin-mints-mocha-ice-cream-sandwiches.md
+  var require_mini_thin_mints_mocha_ice_cream_sandwiches = __commonJS({
+    "src/data/mini-thin-mints-mocha-ice-cream-sandwiches.md"(exports, module) {
+      module.exports = "# Mini Thin Mints\xAE Mocha Ice Cream Sandwiches\n\nCreated by Liz Sorenson.\n\n- **Servings:** {12}\n- **Yield:** {1} dozen sandwiches\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 15 minutes\n- **Process Time:** 40 minutes\n- **Freeze Time:** 4-6 hours\n\n## Ingredients\n\n- {2} cups half-and-half cream\n- {1-1/2} cups sugar\n- {3} tablespoons instant coffee granules\n- {1} teaspoon vanilla extract\n- {1} teaspoon peppermint extract\n- {4} cups heavy whipping cream\n- {1} package (9 ounces) Girl Scout Thin Mints\xAE cookies\n- {1} cup chocolate ice cream topping\n\n## Instructions\n\n1. Stir together half-and-half, sugar, coffee granules and extracts until sugar dissolves. Stir in heavy cream. Coarsely chop {8} Thin Mints\xAE cookies.\n1. Fill cylinder of ice cream maker no more than two-thirds full; freeze according to manufacturer's directions, adding chopped Thin Mints\xAE cookies during the last 2 minutes of processing. (Refrigerate remaining mixture until ready to freeze.) Remove from ice cream maker; mix in chocolate topping. Transfer ice cream to freezer containers, allowing headspace for expansion. Freeze until firm, 4-6 hours.\n1. To make sandwiches, place 1 tablespoon ice cream between two Thin Mints\xAE cookies.\n";
+    }
+  });
+
   // src/data/mint-chocolate-fudge.md
   var require_mint_chocolate_fudge = __commonJS({
     "src/data/mint-chocolate-fudge.md"(exports, module) {
@@ -25142,6 +25268,13 @@ These simple, savory sweet potatoes are mashed and seasoned to perfection with c
   var require_molasses_cookies = __commonJS({
     "src/data/molasses-cookies.md"(exports, module) {
       module.exports = "# Molasses Cookies\n\n- **Servings:** {24}\n- **Yield:** {24} cookies\n\n## Ingredients\n\n- {1} cup Brown Sugar, packed\n- {3/4} cup Shortening\n- {1/4} cup Molasses\n- {1} Egg\n- {2 1/4} cup All-purpose Flour\n- {2} tsp Baking Soda\n- {1} tsp Cinnamon\n- {1} tsp Ginger\n- {1/2} tsp Cloves\n- {1/4} tsp Salt\n- {3} tbsp Sugar\n\n## Instructions\n\n1. Heat oven to 325\xB0F\n1. In large bowl, beat brown sugar, shortening, molasses and egg with electric mixer on medium speed, or mix with spoon\n1. Stir in remaining ingredients except granulated sugar\n1. Shape dough by rounded tablespoonfuls into 1 1/2-inch balls\n1. Dip tops into granulated sugar\n1. On ungreased cookie sheet, place balls, sugared sides up, about 2 inches apart\n1. Bake 13 to 16 minutes or just until set and cookies appear dry\n1. Immediately remove from cookie sheet to cooling rack\n";
+    }
+  });
+
+  // src/data/mollys-mini-lemon-shortbread-puddings.md
+  var require_mollys_mini_lemon_shortbread_puddings = __commonJS({
+    "src/data/mollys-mini-lemon-shortbread-puddings.md"(exports, module) {
+      module.exports = "# Molly's Mini Lemon Shortbread Puddings\n\nCreated by Deborah Tharrington.\n\n- **Servings:** {8}\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 20 minutes\n- **Cook Time:** 10 minutes\n- **Chill Time:** until cold\n\n## Ingredients\n\n- {3} egg yolks, lightly beaten\n- {1} cup sugar\n- {3} tablespoons cornstarch\n- {1} cup 2% milk\n- {1/4} cup butter, cubed\n- {1/4} cup lemon juice\n- {1} cup (8 ounces) sour cream\n- {8} Girl Scout Lemonades\u2122 cookies, coarsely chopped\n- Whipped cream and additional Girl Scout Lemonades\u2122 cookies\n\n## Instructions\n\n1. In a small heavy saucepan, mix sugar and cornstarch. Whisk in milk. Cook and stir over medium heat until thickened and bubbly. Reduce heat to low; cook and stir 2 minutes longer. Remove from heat.\n1. In a small bowl, whisk a small amount of hot mixture into egg yolks; return all to pan, whisking constantly. Bring to a gentle boil. Remove from heat. Transfer to a small bowl; stir in butter. Gently stir in lemon juice. Press plastic wrap onto surface of pudding; refrigerate until cold.\n1. Fold sour cream into pudding. Divide chopped Lemonades\u2122 cookies among eight dessert dishes; spoon pudding over top. Refrigerate until serving.\n1. Just before serving, top with whipped cream and additional Lemonades\u2122 cookies.\n";
     }
   });
 
@@ -25191,6 +25324,13 @@ These simple, savory sweet potatoes are mashed and seasoned to perfection with c
   var require_nutella_fudge = __commonJS({
     "src/data/nutella-fudge.md"(exports, module) {
       module.exports = "# Nutella Fudge\n\n- **Servings:** {32}\n- **Yield:** {64} pieces\n\n## Ingredients\n\n- {1} stick Butter\n- {1/4} tsp Salt\n- {1/2} cup Milk, whole\n- {1 1/2} cup Brown Sugar\n- {1 1/2} tsp Vanilla Extract\n- {1} cup Nutella\n- {3} cup Confectioners' Sugar\n\n## Instructions\n\n1. Grease an 8\xD78 pan\n1. Place the confectioner\u2019s sugar in a mixing bowl and set aside\n1. Melt butter over medium low heat\n1. Add the salt, milk and light brown sugar\n1. Bring to a hard, rolling boil over medium heat and then boil for about 2 minutes, stirring constantly\n1. Remove the pan from the heat and quickly add the vanilla and Nutella\n1. Stir until the Nutella is melted\n1. Carefully pour the hot Nutella mixture over the confectioner\u2019s sugar and mix quickly until completely combined\n1. Once everything comes together, it will set pretty fast\n1. If your fudge is liquid-y, add more powdered sugar\n1. Pour/scoop the fudge into your greased 8\xD78 pan\n1. Press the fudge into the pan, if needed\n1. Chill for 2 hours\n";
+    }
+  });
+
+  // src/data/nutty-caramel-turtles.md
+  var require_nutty_caramel_turtles = __commonJS({
+    "src/data/nutty-caramel-turtles.md"(exports, module) {
+      module.exports = "# Nutty Caramel Turtles\n\nCreated by Michele Kusma. Candies category winner of the 2015 National Girl Scout Cookie Recipe Contest Sponsored by Taste of Home\xAE.\n\n- **Servings:** {12}\n- **Yield:** {1} dozen\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 10 minutes\n- **Bake Time:** 5 minutes\n\n## Ingredients\n\n- {3} milk chocolate candy bars (1.55 ounces each)\n- {12} caramels\n- {60} pecan halves\n- {12} Girl Scout Peanut Butter Patties\xAE/Tagalongs\xAE cookies\n\n## Instructions\n\n1. Preheat oven to 250\xB0. Break each chocolate bar into fourths. Place each piece 2 in. apart on a parchment paper-lined baking sheet. Top with one caramel.\n1. Bake 5-7 minutes or until caramel just starts to soften. Immediately press one pecan half on one side for head; press four pecan halves onto each corner for legs. Place one Peanut Butter Patties\xAE/Tagalongs\xAE cookie over the top of each candy, pressing down to secure. Let stand until set.\n";
     }
   });
 
@@ -25292,10 +25432,31 @@ These simple, savory sweet potatoes are mashed and seasoned to perfection with c
     }
   });
 
+  // src/data/peanut-butter-cookie-crunch-clusters.md
+  var require_peanut_butter_cookie_crunch_clusters = __commonJS({
+    "src/data/peanut-butter-cookie-crunch-clusters.md"(exports, module) {
+      module.exports = "# Peanut Butter Cookie Crunch Clusters\n\nCreated by Fay Moreland.\n\n- **Servings:** {48}\n- **Yield:** {4} dozen\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 15 minutes\n- **Cook Time:** 10 minutes\n- **Chill Time:** until serving\n\n## Ingredients\n\n- {1} package (12 ounces) miniature semisweet chocolate chips, divided\n- {1} package (10 ounces) peanut butter chips\n- {1} cup chunky peanut butter\n- {1} package (8 ounces) Girl Scout Do-si-dos\xAE/Peanut Butter Sandwich cookies, coarsely chopped\n- {2} cups crispy chow mein noodles\n\n## Instructions\n\n1. In a large saucepan over low heat, stir together {1-1/3} cups chocolate chips, peanut butter chips and peanut butter until melted. Remove from heat; stir in chopped Do-si-dos\xAE/Peanut Butter Sandwich cookies and chow mein noodles.\n1. Drop mixture by tablespoonfuls onto two large baking sheets lined with parchment paper. Sprinkle with remaining chocolate chips. Refrigerate until serving.\n";
+    }
+  });
+
+  // src/data/peanut-butter-cookie-parfait.md
+  var require_peanut_butter_cookie_parfait = __commonJS({
+    "src/data/peanut-butter-cookie-parfait.md"(exports, module) {
+      module.exports = "# Peanut Butter Cookie Parfait\n\n- **Servings:** {1}\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Total Time:** 15 minutes\n\n## Ingredients\n\n- {3} Do-si-dos\xAE/Peanut Butter Sandwich Girl Scout Cookies, coarsely chopped\n- {2/3} cup vanilla ice cream\n- {3} tablespoons hot fudge ice cream topping, warmed\n\n## Instructions\n\n1. Set aside one large cookie piece. Sprinkle half of the chopped cookies in a parfait glass; top with half of the ice cream and hot fudge topping. Repeat. Garnish with reserved cookie piece.\n";
+    }
+  });
+
   // src/data/peanut-butter-cookies.md
   var require_peanut_butter_cookies = __commonJS({
     "src/data/peanut-butter-cookies.md"(exports, module) {
       module.exports = "# Peanut Butter Cookies\n\n- **Servings:** {24}\n- **Yield:** {24} cookies\n\n## Ingredients\n\n- {1/2} cup Sugar\n- {1/2} cup Brown Sugar, packed\n- {1/2} cup Butter, room temperature\n- {1/2} cup Peanut Butter\n- {1} Egg\n- {1 1/4} cup All-purpose Flour\n- {3/4} tsp Baking Soda\n- {1/2} tsp Baking Powder\n- {1/4} tsp Salt\n\n## Instructions\n\n1. Beat the butter until creamy, 2 minutes\n1. Add the sugars, beat for 2 more minutes\n1. Mix in the peanut butter and egg\n1. Mix together the dry ingredients - flour, baking soda, baking powder and salt\n1. Stir the dry ingredients into the sugar butter mixture\n1. Wrap dough in plastic and refrigerate at least 3 hours\n1. Preheat oven to 375\xB0F\n1. Shape dough into 1 1/4 inch balls\n1. Place about 3 inches apart on ungreased cookie sheet\n1. Flatten in crisscross pattern with a fork\n1. Bake until light brown, 9 to 10 minutes\n1. Cool on baking sheets for a minute; transfer to rack to cool completely\n1. For chewier cookies, bake at 300\xB0F for 15 minutes\n";
+    }
+  });
+
+  // src/data/peanut-butter-cream-dessert.md
+  var require_peanut_butter_cream_dessert = __commonJS({
+    "src/data/peanut-butter-cream-dessert.md"(exports, module) {
+      module.exports = "# Peanut Butter Cream Dessert\n\n- **Servings:** {12}\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 25 minutes\n- **Chill Time:** overnight\n\n## Ingredients\n\n- {2 1/4} cups cold milk\n- {2} packages (3.3 ounces each) instant white chocolate pudding mix\n- {2 1/2} cups whipped topping\n- {1} package (8 ounces) cream cheese, softened\n- {1/2} cup butter, softened\n- {1} cup confectioners' sugar\n- {1} cup chopped Do-si-dos\xAE/Peanut Butter Sandwich Girl Scout Cookies\n- Whipped cream in a can and chopped peanuts, optional\n\n## Instructions\n\n1. In a bowl, whisk milk and pudding mix for 2 minutes; let stand for 2 minutes or until soft-set. Fold in whipped topping; set aside.\n1. In a large bowl, beat the cream cheese, butter, and confectioners' sugar until smooth. Fold in pudding mixture. Spoon into an ungreased 13-in. x 9-in. dish. Sprinkle with cookie crumbs. Cover and refrigerate overnight. Cut into squares. Garnish with whipped cream and chopped peanuts if desired.\n";
     }
   });
 
@@ -25366,10 +25527,31 @@ Super soft peanut butter cookies stuffed with Reese's Peanut Butter Cups and dri
     }
   });
 
+  // src/data/peanut-butter-icebox-dessert.md
+  var require_peanut_butter_icebox_dessert = __commonJS({
+    "src/data/peanut-butter-icebox-dessert.md"(exports, module) {
+      module.exports = "# Peanut Butter Icebox Dessert\n\n- **Servings:** {12}\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 20 minutes\n- **Chill Time:** at least 1 hour\n\n## Ingredients\n\n- {2 1/4} cups crushed Do-si-dos\xAE/Peanut Butter Sandwich Girl Scout Cookies (about {11} cookies)\n- {1/4} cup sugar\n- {1/4} cup butter, melted\n- {2} packages (3 ounces each) cream cheese, softened\n- {1} cup confectioners' sugar\n- {1} carton (8 ounces) frozen whipped topping, thawed, divided\n- {2 1/2} cups cold 2% milk\n- {2} packages (3.9 ounces each) instant chocolate pudding mix\n- Additional peanut butter cookies, broken into pieces\n\n## Instructions\n\n1. In a large bowl, combine crushed cookies, sugar, and butter; press into an ungreased 13-in. x 9-in. baking dish. Bake at 350\xB0 for 6\u20138 minutes or until golden brown; cool on a wire rack.\n1. In a large bowl, beat cream cheese and confectioners' sugar until smooth; fold in {1} cup whipped topping. Spread over cooled crust.\n1. In another large bowl, beat milk and pudding mix on low speed for 2 minutes or until thickened. Spread over cream cheese layer. Top with remaining whipped topping; sprinkle with cookie pieces. Cover and refrigerate for at least 1 hour before serving.\n";
+    }
+  });
+
   // src/data/peanut-butter-pie.md
   var require_peanut_butter_pie = __commonJS({
     "src/data/peanut-butter-pie.md"(exports, module) {
       module.exports = "# Peanut Butter Pie\n\n- **Servings:** {8}\n- **Yield:** {1} pie\n\n## Ingredients\n\n- {1} Pie Crust, baked\n- {1/2} cup Peanut Butter\n- {1} cup Confectioners' Sugar\n- {1/4} cup Milk\n- {1} tsp Vanilla Extract\n- {8} oz Cream Cheese\n- {8} oz Whipped Topping\n\n## Instructions\n\n1. In large bowl combine all the ingredients except the toppings and crust\n1. Blend with a hand mixer\n1. Gently fold in whipped topping; pour into prepared crust and freeze for 2 hour\n1. Once frozen, drizzle with ice cream topping and re-freeze for 20 minutes\n1. Thaw slightly before serving and cut into thin slices because this is a rich pie\n";
+    }
+  });
+
+  // src/data/peanut-butter-trail-mix-fudge.md
+  var require_peanut_butter_trail_mix_fudge = __commonJS({
+    "src/data/peanut-butter-trail-mix-fudge.md"(exports, module) {
+      module.exports = "# Peanut Butter Trail Mix Fudge\n\nCreated by Kim Varner.\n\n- **Servings:** {32}\n- **Yield:** {2} pounds\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 10 minutes\n- **Chill Time:** until firm\n\n## Ingredients\n\n- {1} pound white candy coating, chopped\n- {1} cup creamy peanut butter\n- {1} package (6-1/2 ounces) Girl Scout Peanut Butter Patties\xAE/Tagalongs\xAE cookies, coarsely chopped, divided\n- {1} cup coarsely chopped salted peanuts, divided\n- {1/2} cup chopped dried cherries, divided\n\n## Instructions\n\n1. Line a 9-in.-square pan with foil, letting ends extend up sides. In a large microwave-safe bowl, melt candy coating with peanut butter; stir until smooth.\n1. Stir in {1} cup chopped Peanut Butter Patties\xAE/Tagalongs\xAE cookies, {1/2} cup peanuts and {1/4} cup cherries. Spread into prepared pan. Sprinkle with remaining chopped Peanut Butter Patties\xAE/Tagalongs\xAE cookies, peanuts and cherries. Refrigerate until firm.\n1. Using foil, lift fudge out of pan. Remove foil; cut fudge into 1-in. squares. Store between layers of waxed paper in an airtight container.\n";
+    }
+  });
+
+  // src/data/peanut-caramel-thumbprint-no-bake-cookies.md
+  var require_peanut_caramel_thumbprint_no_bake_cookies = __commonJS({
+    "src/data/peanut-caramel-thumbprint-no-bake-cookies.md"(exports, module) {
+      module.exports = "# Peanut Caramel Thumbprint No Bake Cookies\n\nCreated by Janet Gill. Cookies/Brownies/Bars category winner of the 2016 National Girl Scout Cookie Recipe Contest Sponsored by Taste of Home\xAE.\n\n- **Servings:** {24}\n- **Yield:** {2} dozen cookies\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 30 minutes\n- **Chill Time:** 30 minutes\n\n## Ingredients\n\n- {3/4} cup peanut butter chips\n- {1} cup dry roasted peanuts\n- {1} package (8 ounces) Girl Scout Do-si-dos\xAE/Peanut Butter Sandwich cookies\n- {3} tablespoons butter, softened\n- {1/4} cup creamy peanut butter\n- {20} caramels\n- {2} tablespoons half-and-half cream\n- {1/3} cup milk chocolate chips\n- {1} teaspoon shortening\n\n## Instructions\n\n1. Line 24 miniature muffin cups with paper liners.\n1. Microwave peanut butter chips until melted. Pulse peanuts in a food processor until chopped. Reserve {3/4} cup. Pulse Do-si-dos\xAE/Peanut Butter Sandwich cookies in processor with remaining peanuts until fine crumbs form. Add softened butter, peanut butter and melted peanut butter chips; pulse until mixture is consistency of soft cookie dough. Meanwhile, microwave caramels and cream until smooth.\n1. Roll tablespoonfuls of peanut butter mixture into balls; roll in reserved chopped peanuts to cover. Place balls in paper-lined muffin cups. Press a deep indentation in center of each with your thumb or the end of a wooden spoon handle. Cut a small hole in the tip of a pastry bag or in a corner of a food-safe plastic bag; transfer caramel mixture to bag. Pipe into indentations.\n1. Microwave chocolate chips with shortening until smooth. Transfer chocolate mixture to a pastry bag or a food-safe plastic bag with the corner cut; drizzle over cookies. Refrigerate muffin cups at least 30 minutes before removing cookies. Serve at room temperature or chilled.\n";
     }
   });
 
@@ -25398,6 +25580,13 @@ Super soft peanut butter cookies stuffed with Reese's Peanut Butter Cups and dri
   var require_peppermint_cannolis = __commonJS({
     "src/data/peppermint-cannolis.md"(exports, module) {
       module.exports = "# Peppermint Cannolis\n\n- **Servings:** {12}\n- **Yield:** {12} cannolis\n\n## Ingredients\n\n- {1} cup Mascarpone Cheese\n- {2} tbsp Sugar\n- {2} tbsp Candy Canes, crushed\n\n## Instructions\n\n1. Fill a pastry bag fitted with a 1/2-inch plain or star tip, or a ziplock bag, with the peppermint filling\n1. If using a ziplock bag, cut about 1/2 inch off one corner\n1. Insert the tip in the cannoli shell and squeeze gently until the shell is half filled\n1. Turn the shell and fill the other side\n1. You can also use a teaspoon to do this, although it\u2019s messier and will take longer\n";
+    }
+  });
+
+  // src/data/peppermint-chip-cheesecake.md
+  var require_peppermint_chip_cheesecake = __commonJS({
+    "src/data/peppermint-chip-cheesecake.md"(exports, module) {
+      module.exports = "# Peppermint Chip Cheesecake\n\n- **Servings:** {12}\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 20 minutes\n- **Bake Time:** 1 hour\n- **Chill Time:** overnight\n\n## Ingredients\n\n- {1} package (10 ounces) Thin Mints\xAE Girl Scout Cookies, crushed\n- {3} tablespoons butter, melted\n\n### Filling\n\n- {3} packages (8 ounces each) cream cheese, softened\n- {3/4} cup sugar\n- {5} teaspoons cornstarch\n- {3}\u2013{4} drops green food coloring, optional\n- {3} eggs, lightly beaten\n- {1} egg yolk, lightly beaten\n- {1/2} cup heavy whipping cream\n- {2} teaspoons peppermint extract\n- {1 1/4} teaspoons vanilla extract\n- {1} cup miniature semisweet chocolate chips\n\n## Instructions\n\n1. In a small bowl, combine cookie crumbs and butter. Press onto the bottom and 1 in. up the sides of a greased 9-in. springform pan.\n1. In a large bowl, beat the cream cheese, sugar, and cornstarch until smooth. Add eggs and egg yolk; beat on low speed just until combined. Stir in the cream, extracts, and food coloring if desired. Fold in chocolate chips. Pour into crust. Place pan on a baking sheet.\n1. Bake at 325\xB0 for 50\u201360 minutes or until center is almost set. Cool on a wire rack for 10 minutes. Carefully run a knife around edge of pan to loosen; cool 1 hour longer. Refrigerate overnight. Refrigerate leftovers.\n";
     }
   });
 
@@ -25604,6 +25793,13 @@ Super soft peanut butter cookies stuffed with Reese's Peanut Butter Cups and dri
     }
   });
 
+  // src/data/raspberry-lemonades-bread-pudding.md
+  var require_raspberry_lemonades_bread_pudding = __commonJS({
+    "src/data/raspberry-lemonades-bread-pudding.md"(exports, module) {
+      module.exports = "# Raspberry Lemonades\u2122 Bread Pudding\n\nCreated by Kelsey Byrnes. Pudding, Ice-cream, Gelatin Desserts category winner of the 2016 National Girl Scout Cookie Recipe Contest Sponsored by Taste of Home\xAE.\n\n- **Servings:** {6}\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 15 minutes\n- **Cook Time:** 45 minutes\n\n## Ingredients\n\n- {6} cups (about 4-1/2 ounces) French bread\n- {1} package (8-1/2 ounces) crushed Girl Scout Lemonades\u2122 cookies\n- {6} ounces (about {1} cup) fresh raspberries\n- {3/4} cup sugar\n- {1-1/3} cups 2% milk\n- {1/2} cup heavy whipping cream\n- {2} large eggs, lightly beaten\n- {2} tablespoons lemon juice\n- {1} tablespoon grated lemon peel\n\n### Lemon Sauce\n\n- {1/2} cup sugar\n- {1} tablespoon cornstarch\n- {1/2} cup heavy whipping cream\n- {1} tablespoon butter\n- {1/4} cup lemon juice\n\n## Instructions\n\n1. Preheat oven to 350\xB0. Place bread cubes into a greased 11x7-in. baking dish; sprinkle Lemonades\u2122 cookies and raspberries on top. Combine next six ingredients; pour mixture over bread cubes. Bake until a knife inserted in the center comes out clean, 35-45 minutes. Remove from oven; keep warm.\n1. Meanwhile, prepare lemon sauce by combining sugar and cornstarch in a small saucepan over medium heat. Whisk in heavy whipping cream and butter. Bring to a boil; cook 1 minute, stirring constantly. Remove from heat; cool 15 minutes. Whisk in lemon juice. Serve pudding warm with lemon sauce.\n";
+    }
+  });
+
   // src/data/raspberry-thumbprint-cookies.md
   var require_raspberry_thumbprint_cookies = __commonJS({
     "src/data/raspberry-thumbprint-cookies.md"(exports, module) {
@@ -25733,6 +25929,20 @@ Super soft peanut butter cookies stuffed with Reese's Peanut Butter Cups and dri
     }
   });
 
+  // src/data/samoa-toffee.md
+  var require_samoa_toffee = __commonJS({
+    "src/data/samoa-toffee.md"(exports, module) {
+      module.exports = "# Please Pass Me Samoa Toffee, Please!\n\nCreated by Teri Rasey.\n\n- **Servings:** {10}\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Total Time:** 25 minutes\n- **Chill Time:** at least 2 hours\n\n## Ingredients\n\n- {2} packages (7 ounces each) Girl Scout Caramel deLites\xAE/Samoas\xAE cookies\n- {2} cups butter\n- {2} cups sugar\n- {1} dash salt\n\n## Instructions\n\n1. Pulse two packages of Caramel deLites\xAE/Samoas\xAE cookies in a food processor until crumbled. Sprinkle one-third on a baking sheet lined with foil.\n1. In a large saucepan over medium heat, cook butter, sugar and salt, stirring frequently, until mixture reaches 300\xB0. Remove; carefully pour over crumbled Caramel deLites\xAE/Samoas\xAE cookies, spreading with a spatula to cover. Top with remaining crumbled Caramel deLites\xAE/Samoas\xAE cookies, pressing down slightly. Refrigerate at least 2 hours. When cool, break into pieces.\n";
+    }
+  });
+
+  // src/data/samoas-swirl-no-churn-ice-cream.md
+  var require_samoas_swirl_no_churn_ice_cream = __commonJS({
+    "src/data/samoas-swirl-no-churn-ice-cream.md"(exports, module) {
+      module.exports = "# Caramel deLites\xAE/Samoas\xAE Swirl No-Churn Ice Cream\n\nCreated by Peggie Brott.\n\n- **Servings:** {12}\n- **Yield:** {1-1/2} quarts\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 15 minutes\n- **Freeze Time:** overnight\n\n## Ingredients\n\n- {2} cups heavy whipping cream\n- {2} cups cream of coconut\n- {12} Girl Scout Caramel deLites\xAE/Samoas\xAE cookies, coarsely chopped\n- {1/2} cup flaked coconut, toasted\n- {1} cup caramel sundae syrup\n\n## Instructions\n\n1. Beat heavy cream until stiff peaks form. Gently fold in cream of coconut, then chopped Caramel deLites\xAE/Samoas\xAE cookies and toasted coconut. Spread evenly over an 8-in. square baking pan. Spoon caramel syrup over cream mixture; swirl with a knife.\n1. Freeze, covered, overnight.\n\n## Notes\n\n- **To toast coconut:** bake in a shallow pan in a 350\xB0 oven for 5-10 minutes or cook in a skillet over low heat until golden brown, stirring occasionally.\n";
+    }
+  });
+
   // src/data/sherbet.md
   var require_sherbet = __commonJS({
     "src/data/sherbet.md"(exports, module) {
@@ -25747,10 +25957,52 @@ Super soft peanut butter cookies stuffed with Reese's Peanut Butter Cups and dri
     }
   });
 
+  // src/data/shortbread-fudge-tiramisu.md
+  var require_shortbread_fudge_tiramisu = __commonJS({
+    "src/data/shortbread-fudge-tiramisu.md"(exports, module) {
+      module.exports = "# Shortbread Fudge Tiramisu\n\nCreated by Leilani Smith. Pudding, Ice-cream, Gelatin Desserts category winner of the 2015 National Girl Scout Cookie Recipe Contest Sponsored by Taste of Home\xAE.\n\n- **Servings:** {9}\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 25 minutes\n- **Chill Time:** at least 8 hours\n\n## Ingredients\n\n- {2} egg yolks\n- {1/4} cup sugar\n- {3} teaspoons vanilla extract\n- {1} carton (8 ounces) mascarpone cheese\n- {2/3} cup heavy whipping cream\n- {27} Girl Scout Thanks-A-Lot\xAE cookies\n- {1} cup brewed espresso or strong coffee\n- {2} tablespoons baking cocoa\n\n## Instructions\n\n1. In top of a double boiler or metal bowl over simmering water, combine egg yolks and sugar; whisk constantly until mixture is thick, holds a ribbon and a thermometer reads 160\xB0. Remove from heat; stir in vanilla. Cool completely.\n1. Gently stir mascarpone cheese into egg yolk mixture. In a small bowl, beat cream until soft peaks form; fold into cheese mixture.\n1. Quickly dip {9} Thanks-A-Lot\xAE cookies into coffee (about 5 seconds), allowing excess to drip off. Arrange in a single layer in an 8-in.-square dish. Spread with {3/4} cup cheese mixture; sprinkle with baking cocoa. Repeat layers twice. Refrigerate, covered, at least 8 hours or overnight.\n";
+    }
+  });
+
+  // src/data/shortbread-trefoils-toffee-chocolate-bark.md
+  var require_shortbread_trefoils_toffee_chocolate_bark = __commonJS({
+    "src/data/shortbread-trefoils-toffee-chocolate-bark.md"(exports, module) {
+      module.exports = "# Shortbread/Trefoils Toffee and Chocolate Bark with Toasted Almonds\n\nCreated by Nancy Mock. Grand prize winner and Candies category winner of the 2016 National Girl Scout Cookie Recipe Contest Sponsored by Taste of Home\xAE.\n\n- **Servings:** {16}\n- **Yield:** {2} pounds\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 15 minutes\n- **Cook Time:** 10 minutes\n- **Chill Time:** 1 hour\n\n## Ingredients\n\n- {1} package (9 ounces) Girl Scout Shortbread/Trefoils\xAE cookies\n- {3/4} cup butter\n- {3/4} cup packed light brown sugar\n- {1} package (12 ounces) semisweet chocolate chips\n- {1/2} cup sliced almonds, toasted and coarsely chopped\n\n## Instructions\n\n1. Preheat oven to 350\xB0. Line a greased 15x10-in. rimmed baking pan with parchment paper coated with cooking spray. Arrange Shortbread/Trefoils\xAE cookies in pan.\n1. Microwave butter until melted; whisk in brown sugar. Microwave 2 minutes, stirring every 30 seconds, until mixture is a thick caramel sauce. Pour sauce over Shortbread/Trefoils\xAE cookies, covering each completely.\n1. Bake until puffed up and bubbly, about 10 minutes (do not allow to burn). Cool on a wire rack. Sprinkle chocolate chips evenly over hot caramel. Let stand 5 minutes; spread chocolate over caramel. Top with almonds.\n1. Refrigerate baking pan until chocolate and caramel have hardened, about 1 hour. Break or cut bark.\n\n## Notes\n\n- **To toast nuts:** bake in a shallow pan in a 350\xB0 oven for 5-10 minutes or cook in a skillet over low heat until lightly browned, stirring occasionally.\n";
+    }
+  });
+
   // src/data/simple-whole-roast-turkey.md
   var require_simple_whole_roast_turkey = __commonJS({
     "src/data/simple-whole-roast-turkey.md"(exports, module) {
       module.exports = "# Simple Whole Roast Turkey\n\nThis is a go-to method for a whole, intact Thanksgiving turkey\u2014the version that lets you walk dramatically into the dining room with a golden-brown bird and still enjoy juicy breast meat and tender legs. It builds on the technique developed years ago for Serious Eats, updated with faster roasting, better browning, and a final high-heat re-crisp that keeps the skin shatteringly crisp all the way to the table.\n\n- **Servings:** {12}\n- **Yield:** 10 to 12 servings\n- [Source](https://frienji.kenjilopezalt.com/posts/better-way-to-143453857)\n- **Active Time:** 45 minutes\n- **Total Time:** about 3\xBD hours plus overnight brine\n\n## Ingredients\n\n### For the turkey\n\n- {1} whole turkey, about 10 to 18 lb (4.5-9 kg), neck and giblets reserved\n- kosher salt and freshly ground black pepper\n- {1} Tbsp ({15} ml) neutral oil\n- optional: fresh herbs (rosemary, sage, thyme) for stuffing the cavity\n\n### For the gravy\n\n- {1} Tbsp ({15} ml) neutral oil or butter\n- {1} turkey neck, chopped into 1-inch pieces\n- {1} large onion, roughly chopped\n- {1} large carrot, peeled and roughly chopped\n- {2} ribs celery, roughly chopped\n- {1 1/2} quarts ({1.5} L) low-sodium chicken stock or homemade stock\n- {2} bay leaves\n- {1} tsp ({5} ml) soy sauce, optional, for depth\n- {3} Tbsp ({45} g) unsalted butter\n- {1/4} cup ({30} g) flour\n- chopped gizzard and liver, optional\n- salt and pepper, to taste\n\n## Instructions\n\n1. **Dry-brine the turkey (1 day ahead).** Pat the turkey dry. Generously season inside and out with kosher salt (and pepper if you like). Place it on a rack set in a rimmed sheet pan and refrigerate uncovered overnight. This seasons the meat, helps it retain moisture, and dries the skin for better crisping.\n1. **Preheat the oven and charge the steel.** Set your oven rack to the lowest position and place a baking steel or stone on it. Preheat the oven to 500\xB0F (260\xB0C) for at least 45 minutes. This turns the steel into a thermal battery that will radiate heat upward into the turkey's legs and back.\n1. **Prep the turkey.** Remove the turkey from the fridge while the oven preheats. Rub the skin lightly with oil. Set the turkey breast-side up in a V-rack inside a rimmed aluminum baking sheet.\n1. **Roast.** Place the baking sheet directly on the preheated steel, close the oven door, and immediately reduce the oven to 375\xB0F (190\xB0C). Roast until an instant-read thermometer (or a leave-in probe) registers 160\xB0F (71\xB0C) in the thickest part of the breast and 165 to 168\xB0F (74\xB0C) in the thickest part of the thigh. Expect about 2 to 2\xBD hours for a 12- to 14-pound bird, or up to 3 hours for an 18-pound bird. If the skin isn't browning evenly after the first hour or so, turn on convection or bump the heat by 25\xB0F.\n1. **Make stock while the turkey roasts.** In a saucepan, heat oil or butter over medium-high. Add chopped turkey neck, onion, carrot, and celery; cook until well browned, about 10 minutes. Add stock, bay leaves, and soy sauce; bring to a boil, then simmer 1 hour. Strain; you should have about 1 quart of fortified stock.\n1. **Thicken the gravy.** In a clean saucepan, melt butter. If using giblets, stir them in and cook 1 minute. Whisk in flour and cook until golden, about 3 minutes. Gradually whisk in the strained stock; simmer until thickened and glossy. Season to taste.\n1. **Rest the turkey.** Transfer the turkey (still on its rack) to a cutting board. Let rest 30 to 45 minutes\u2014or up to 2 hours if your sides need oven space. During this time, carryover cooking will bring the breast to about 165\xB0F and the thighs to 175\xB0F.\n1. **Deglaze the sheet pan.** Deglaze any browned drippings in the sheet tray with water or stock by placing it over a burner, adding liquid, and scraping it up with a wooden spoon. Add the pan juices and dissolved fond to the gravy, passing it through a strainer. Return the turkey to the sheet pan after deglazing.\n1. **Re-crisp the turkey.** When you're almost ready to serve, return the oven to 500\xB0F (260\xB0C). Slide the rested turkey (still on its sheet pan) back in for 15 to 20 minutes, until the skin deepens to a rich mahogany brown and audibly crackles when tapped. The internal temperature won't rise further, so the meat stays juicy.\n1. **Carve and serve.** Once the turkey has completed its final crisp, transfer it to the board, carve, and serve immediately with the gravy.\n\n## Notes\n\n- **Dry-brine:** For best results, dry-brine the turkey 24 hours ahead.\n- **Baking steel:** Use a baking steel or stone at least 1/2-inch thick if possible. The steel acts as a thermal battery, storing heat energy that radiates up through the aluminum baking sheet and into the bottom of the turkey.\n- **No roasting pan:** Skip the roasting pan entirely\u2014a rimmed aluminum sheet pan has low sides so heat reaches every inch of skin, and aluminum conducts heat better than steel.\n- **Resting window:** The turkey can rest 30 minutes to 2 hours, giving plenty of time to finish sides before the final crisp.\n";
+    }
+  });
+
+  // src/data/smores-frosted-crispy-bars.md
+  var require_smores_frosted_crispy_bars = __commonJS({
+    "src/data/smores-frosted-crispy-bars.md"(exports, module) {
+      module.exports = "# S'mores Frosted Crispy Bars\n\n- **Servings:** {24}\n- **Yield:** {2} dozen bars\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 15 minutes\n- **Cool Time:** until room temperature\n\n## Ingredients\n\n- {1/4} cup butter, cubed\n- {1} package (10-1/2 ounces) miniature marshmallows\n- {6} cups Rice Krispies\n- {1-1/2} cups Girl Scout Thanks-A-Lot\xAE cookies, crushed\n- {1} cup milk chocolate chips\n\n### Frosting\n\n- {3/4} cup butter, softened\n- {1} cup confectioners' sugar\n- {1} jar (7 ounces) marshmallow creme\n\n### Topping\n\n- {1/4} cup crushed Girl Scout Thanks-A-Lot\xAE cookies\n- {2} milk chocolate candy bars (1.55 ounces each)\n\n## Instructions\n\n1. In a 6-qt. stockpot, melt butter over medium heat. Add marshmallows; cook and stir until melted. Remove from heat. Stir in cereal and crushed Girl Scout Thanks-A-Lot\xAE cookies. Fold in chocolate chips. Press into a greased 13x9-in. baking pan. Cool to room temperature.\n1. For frosting, in a small bowl, beat butter and confectioners' sugar until smooth. Beat in marshmallow creme on low speed just until blended. Spread over bars. Sprinkle crushed Girl Scout Thanks-A-Lot\xAE cookies over frosting. Cut into bars. Break each candy bar into 12 pieces; place a piece on each bar.\n";
+    }
+  });
+
+  // src/data/smores-ice-cream.md
+  var require_smores_ice_cream = __commonJS({
+    "src/data/smores-ice-cream.md"(exports, module) {
+      module.exports = "# S'mores Ice Cream\n\n- **Servings:** {16}\n- **Yield:** {2} quarts\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 40 minutes\n- **Freeze Time:** 2-4 hours\n\n## Ingredients\n\n- {1-1/2} cups whole milk\n- {1-1/2} cups heavy whipping cream\n- {1/4} cup marshmallow ice cream topping\n- {1/4} teaspoon salt\n- {2} cups miniature marshmallows\n- {10} Girl Scout Thanks-A-Lot\xAE cookies, coarsely chopped, divided\n\n## Instructions\n\n1. Preheat broiler. In a large bowl, whisk milk, cream, marshmallow topping and salt until blended. Arrange marshmallows in a single layer in a nonstick foil-lined 15x10x1-in. baking pan. Broil 5-6 in. from heat 20-40 seconds or until golden brown. Cool slightly; freeze while processing ice cream.\n1. Meanwhile, fill cylinder of ice cream maker no more than two-thirds full. Freeze milk mixture according to manufacturer's directions, adding half of each of the chopped Thanks-A-Lot\xAE cookies and toasted marshmallows during the last 5 minutes of processing. (Ice cream maker may be very full.)\n1. Transfer ice cream to freezer containers, allowing headspace for expansion. Freeze 2-4 hours or until firm. Serve with remaining Thanks-A-Lot\xAE cookies and toasted marshmallows.\n";
+    }
+  });
+
+  // src/data/smores-peanut-butter-pudgy-pie.md
+  var require_smores_peanut_butter_pudgy_pie = __commonJS({
+    "src/data/smores-peanut-butter-pudgy-pie.md"(exports, module) {
+      module.exports = "# S'mores Peanut Butter Pudgy Pie\n\n- **Servings:** {1}\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Total Time:** 10 minutes\n\n## Ingredients\n\n- {2} slices cinnamon bread\n- {2} tablespoons Nutella\n- {1} Girl Scout Peanut Butter Patties\xAE/Tagalongs\xAE, crumbled\n- {1} tablespoon miniature marshmallows\n\n## Instructions\n\n1. Place one slice of bread in a greased sandwich iron. Spread with Nutella; sprinkle with crumbled Girl Scout Peanut Butter Patties\xAE/Tagalongs\xAE and marshmallows. Top with remaining bread slice. Close iron.\n1. Cook over a hot campfire for 1 to 1-1/2 minutes or until golden brown, turning occasionally.\n";
+    }
+  });
+
+  // src/data/smores-summertime-cheesecake.md
+  var require_smores_summertime_cheesecake = __commonJS({
+    "src/data/smores-summertime-cheesecake.md"(exports, module) {
+      module.exports = "# S'mores Summertime Cheesecake\n\n- **Servings:** {16}\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 30 minutes\n- **Bake Time:** 1 hour 15 minutes\n- **Chill Time:** overnight\n\n## Ingredients\n\n- {1} cup Girl Scout Shortbread/Trefoils\xAE cookies, crushed\n- {1} cup graham cracker crumbs\n- {1/4} cup sugar\n- {6} tablespoons butter, melted\n- {1} package (11-1/2 ounces) milk chocolate chips\n- {1} can (12 ounces) evaporated milk, divided\n- {3} packages (8 ounces each) cream cheese, softened\n- {1} jar (7 ounces) marshmallow creme\n- {2} tablespoons cornstarch\n- {1} teaspoon vanilla extract\n- {3} eggs, lightly beaten\n- {2-1/2} cups miniature marshmallows\n\n## Instructions\n\n1. Preheat oven to 325\xB0. In a small bowl, mix Girl Scout Shortbread/Trefoils\xAE crumbs, cracker crumbs and sugar; stir in melted butter. Press onto bottom and 1 in. up sides of a greased 9-in. springform pan. Place pan on a baking sheet. Bake 10 minutes. Cool on a wire rack.\n1. In top of a double boiler or a metal bowl over barely simmering water, melt chocolate chips with {3/4} cup milk; stir until smooth. Pour into crust; freeze just until chocolate is set, about 20 minutes.\n1. In a large bowl, beat cream cheese until smooth. Beat in marshmallow creme, cornstarch, vanilla and remaining milk. Add eggs; beat on low speed just until blended. Pour over chocolate. Return pan to baking sheet.\n1. Bake 65-75 minutes or until center is almost set. Sprinkle with marshmallows. Bake 6-8 minutes longer or until marshmallows are light brown. Cool on a wire rack 10 minutes. Loosen sides from pan with a knife. Cool 1 hour longer.\n1. Refrigerate overnight, covering when completely cooled. Remove rim from pan.\n";
     }
   });
 
@@ -25848,6 +26100,13 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     }
   });
 
+  // src/data/sunday-sin-cake.md
+  var require_sunday_sin_cake = __commonJS({
+    "src/data/sunday-sin-cake.md"(exports, module) {
+      module.exports = "# Sunday Sin Cake\n\nCreated by Jennifer Osborne.\n\n- **Servings:** {40}\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 1 hour\n- **Bake Time:** 25 minutes\n- **Freeze Time:** 2 hours\n\n## Ingredients\n\n- {2} packages chocolate fudge cake mix (regular size)\n- {2} packages (3.90 ounces each) instant chocolate fudge pudding mix\n- {6} large eggs\n- {2} cups 2% milk\n- {1} cup canola oil\n- {1} cup (8 ounces) reduced-fat sour cream\n- {1} tablespoon vanilla extract\n- {2} packages (7 ounces each) Girl Scout Caramel deLites\xAE/Samoas\xAE cookies, chopped\n- {2} jars (11-3/4 ounces each) hot fudge ice cream topping\n\n### Filling\n\n- {2} packages (3.90 ounces each) instant chocolate fudge pudding mix\n- {4} cups 2% milk\n- {2} packages (7 ounces each) Girl Scout Caramel deLites\xAE/Samoas\xAE cookies, chopped\n\n### Frosting\n\n- {2} cups unsalted butter, softened\n- {1} cup dark baking cocoa\n- {6} cups confectioners' sugar\n- {4} tablespoons heavy whipping cream\n- {2} teaspoons vanilla extract\n\n### Topping\n\n- {1} cup flaked coconut, toasted\n- {1} jar (12 ounces) hot caramel ice cream topping\n- {1} jar (11-3/4 ounces) hot fudge ice cream topping\n- {1} package (7 ounces) Girl Scout Caramel deLites\xAE/Samoas\xAE cookies\n\n## Instructions\n\n1. Preheat oven to 350\xB0. Combine first seven ingredients. Stir in two packages of chopped Caramel deLites\xAE/Samoas\xAE cookies. Mix on medium speed until well combined. Divide batter among four greased and floured 9x13-in. pans. Bake two at a time until a toothpick inserted in the center of each comes out clean, 20-24 minutes. Cool 10 minutes. Repeat with remaining pans.\n1. While cake layers are warm, poke holes in the surface using the end of a wooden spoon or similar rounded object. Microwave hot fudge sauce until pourable, 1-2 minutes. Pour both jars over all four layers; spread to smooth over top. Let stand until completely cooled.\n1. Prepare filling by mixing pudding and milk; stir in two more packages of chopped Caramel deLites\xAE/Samoas\xAE cookies. Spread one-fourth filling over each layer; freeze layers until pudding is set, about 2 hours.\n1. Meanwhile, prepare frosting by beating softened butter on medium speed until light and fluffy. Add cocoa powder; beat until well blended. Reduce speed to low; slowly add confectioners' sugar one cup at a time. Alternate with heavy cream and 2 teaspoons vanilla. Beat until light and fluffy, 1-2 minutes.\n1. Remove cake layers from freezer; stack and frost. Line bottom of cake with Caramel deLites\xAE/Samoas\xAE cookie halves. Top with toasted coconut and any remaining Caramel deLites\xAE/Samoas\xAE cookies. Microwave hot fudge sauce 1 minute; stir. Drizzle hot fudge and caramel sauces over cake. Refrigerate; remove 30 minutes before serving.\n";
+    }
+  });
+
   // src/data/sweet-corn-guacamole.md
   var require_sweet_corn_guacamole = __commonJS({
     "src/data/sweet-corn-guacamole.md"(exports, module) {
@@ -25876,6 +26135,27 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     }
   });
 
+  // src/data/thin-mints-cupcakes.md
+  var require_thin_mints_cupcakes = __commonJS({
+    "src/data/thin-mints-cupcakes.md"(exports, module) {
+      module.exports = "# Thin Mints\xAE Cupcakes\n\nCreated by Crystal Oliver.\n\n- **Servings:** {24}\n- **Yield:** {2} dozen cupcakes\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 40 minutes\n- **Bake Time:** 15 minutes\n\n## Ingredients\n\n- {2} packages (9 ounces each) Girl Scout Thin Mints\xAE cookies, divided\n- {1} package (8 ounces) cream cheese, softened\n- {1} package chocolate cake mix (regular size)\n\n### Ganache\n\n- {4} ounces semisweet chocolate, chopped\n- {1/2} cup heavy whipping cream\n- {1/4} teaspoon peppermint extract\n\n### Frosting\n\n- {1} cup butter, softened\n- {1} cup shortening\n- {1} teaspoon vanilla or almond extract\n- {1/2} teaspoon salt\n- {3/4} cup baking cocoa\n- {1/2} cup 2% milk\n- {4} to {4-1/2} cups confectioners' sugar\n\n## Instructions\n\n1. Preheat oven to 350\xB0. Reserve {6} Thin Mints\xAE cookies for garnish. For truffles, place remaining Thin Mints\xAE cookies in a food processor; process until finely crushed. Add cream cheese; process until blended. Roll into {24} 1-1/2-in. balls.\n1. Line 24 muffin cups with paper liners. Prepare cake mix batter according to package directions. Drop 1 tablespoon batter into prepared muffin cups. Place one truffle in center of cup. Fill two-thirds full with remaining batter.\n1. Bake 14-18 minutes or until a toothpick inserted in the cake portion comes out clean. Cool in pans 10 minutes before removing to wire racks to cool completely.\n1. Place chocolate in a small bowl. In a small saucepan, bring cream just to a boil. Pour over chocolate; let stand 5 minutes or until chocolate is melted. Stir with a whisk until smooth. Stir in peppermint extract. Cool ganache 15 minutes, stirring occasionally.\n1. For frosting, in a large bowl, beat butter, shortening, vanilla and salt until creamy. Beat in baking cocoa and milk alternately with enough confectioners' sugar to reach spreading consistency. Frost cupcakes; drizzle with ganache. Garnish with reserved Thin Mints\xAE cookies.\n";
+    }
+  });
+
+  // src/data/thin-mints-popcorn.md
+  var require_thin_mints_popcorn = __commonJS({
+    "src/data/thin-mints-popcorn.md"(exports, module) {
+      module.exports = "# Thin Mints\xAE Popcorn\n\nCreated by Amber Szydlo.\n\n- **Servings:** {14}\n- **Yield:** {3-1/2} quarts\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Total Time:** 25 minutes\n\n## Ingredients\n\n- {10} cups plain popped popcorn\n- {25} Girl Scout Thin Mints\xAE cookies, coarsely chopped, divided\n- {1-1/2} cups white baking chips\n- {1} teaspoon shortening\n- {1} cup Andes creme de menthe baking chips\n\n## Instructions\n\n1. In a large bowl, combine popcorn and half of the crushed Thin Mints\xAE cookies. In a microwave, melt baking chips with shortening; stir until smooth. Pour over popcorn mixture; toss to coat.\n1. Immediately spread onto waxed paper; sprinkle with remaining crushed Thin Mints\xAE cookies. Melt baking chips in microwave; stir until smooth. Drizzle over popcorn; let stand until set.\n1. Break into pieces. Store in an airtight container.\n";
+    }
+  });
+
+  // src/data/thin-mints-white-chocolate-biscotti.md
+  var require_thin_mints_white_chocolate_biscotti = __commonJS({
+    "src/data/thin-mints-white-chocolate-biscotti.md"(exports, module) {
+      module.exports = "# Thin Mints\xAE White Chocolate Biscotti\n\nCreated by Karrie Holland.\n\n- **Servings:** {24}\n- **Yield:** {2} dozen biscotti\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 40 minutes\n- **Bake Time:** 40 minutes\n\n## Ingredients\n\n- {1} package (9 ounces) Girl Scout Thin Mints\xAE cookies, divided\n- {1/2} cup butter, softened\n- {3/4} cup sugar\n- {2} eggs\n- {1} teaspoon vanilla extract\n- {2-1/4} cups all-purpose flour\n- {1-1/2} teaspoons baking powder\n- {1/4} teaspoon salt\n- {2-3/4} cups white baking chips, divided\n\n## Instructions\n\n1. Preheat oven to 350\xB0. Coarsely chop {16} Thin Mints\xAE; finely crush remaining Thin Mints\xAE cookies, reserving for dipping. In a large bowl, cream butter and sugar until light and fluffy. Beat in eggs and vanilla. In another bowl, whisk flour, baking powder and salt; gradually beat into creamed mixture. Stir in chopped Thin Mints\xAE cookies and {3/4} cup baking chips.\n1. Divide dough in half. On a parchment paper-lined baking sheet, shape each portion into a 12x2-in. rectangle. Bake 20-24 minutes or until a toothpick inserted in center comes out clean. Cool on pan on a wire rack 15 minutes or until firm.\n1. Reduce oven setting to 300\xB0. Transfer baked rectangles to a cutting board. Using a serrated knife, cut diagonally into 3/4-in. slices. Place on baking sheets, bottom side down.\n1. Bake 18-20 minutes or until light golden brown. Remove from pans to wire racks to cool completely.\n1. In a microwave, melt remaining baking chips; stir until smooth. Place reserved crushed Thin Mints\xAE cookies in a shallow bowl. Dip each cookie bottom into chocolate; allow excess to drip off. Dip in crushed Thin Mints\xAE cookies. Place on waxed paper; let stand until set. Store between pieces of waxed paper in airtight containers.\n";
+    }
+  });
+
   // src/data/tinis-famous-mac-and-cheese.md
   var require_tinis_famous_mac_and_cheese = __commonJS({
     "src/data/tinis-famous-mac-and-cheese.md"(exports, module) {
@@ -25894,6 +26174,13 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   var require_toll_house_chocolate_chip_cookies = __commonJS({
     "src/data/toll-house-chocolate-chip-cookies.md"(exports, module) {
       module.exports = "# Original Nestl\xE9 Toll House Chocolate Chip Cookies\n\nThis original Toll House cookie recipe from Nestl\xE9 evokes pleasant childhood memories. Sweet, perfectly chewy, and hard to resist, this famous American chocolate chip cookie is a treat no matter what the age or occasion. Enjoy it with a glass of cold milk.\n\n- **Servings:** {60}\n- **Yield:** {60} cookies\n- [Source](https://www.allrecipes.com/recipe/174864/original-nestle-toll-house-chocolate-chip-cookies/)\n- **Prep Time:** 15 minutes\n- **Cook Time:** 10 minutes\n- **Additional Time:** 15 minutes\n- **Total Time:** 40 minutes\n\n## Ingredients\n\n- {2 1/4} cups all-purpose flour\n- {1} teaspoon baking soda\n- {1} teaspoon salt\n- {1} cup butter, softened\n- {3/4} cup white sugar\n- {3/4} cup packed brown sugar\n- {1} teaspoon vanilla extract\n- {2} large eggs\n- {2} cups semisweet chocolate chips (such as Nestl\xE9 Toll House)\n- {1} cup chopped nuts\n\n## Instructions\n\n1. Preheat the oven to 375\xB0F.\n1. Combine flour, baking soda and salt in small bowl.\n1. Beat butter, white sugar, brown sugar and vanilla in a large mixing bowl until creamy.\n1. Add eggs, one at a time, beating well after each addition.\n1. Gradually beat in flour mixture. Stir in chocolate morsels and nuts.\n1. Drop by rounded tablespoon onto ungreased baking sheets.\n1. Bake in the preheated oven until golden brown, 9 to 11 minutes, switching racks halfway through.\n1. Cool on the baking sheets for 2 minutes, then transfer to wire racks to cool completely.\n\n## Notes\n\n- **Storage:** Cookies can be stored in the refrigerator for up to one week or in the freezer for up to eight weeks.\n";
+    }
+  });
+
+  // src/data/touch-of-coconut-baklava.md
+  var require_touch_of_coconut_baklava = __commonJS({
+    "src/data/touch-of-coconut-baklava.md"(exports, module) {
+      module.exports = "# Touch of Coconut Baklava\n\nCreated by Cheryl Andrews.\n\n- **Servings:** {36}\n- **Yield:** {3} dozen pieces\n- [Source](https://web.archive.org/web/20211026215212/https://www.girlscouts.org/en/cookies/all-about-cookies/Cookie-Recipes.html)\n- **Prep Time:** 1 hour\n- **Bake Time:** 45 minutes\n- **Stand Time:** several hours\n\n## Ingredients\n\n- {4} cups finely chopped walnuts\n- {1} package (7 ounces) Girl Scout Caramel deLites\xAE/Samoas\xAE cookies, finely chopped\n- {1} teaspoon ground cinnamon\n- {3/4} cup butter, melted\n- {20} sheets phyllo dough (14x9-inch size)\n- {1} cup sugar\n- {1} cup water\n- {1/2} cup honey\n- {1} teaspoon vanilla extract\n- {1/2} cup flaked coconut, toasted\n- {1/4} cup semisweet chocolate chips, melted\n\n## Instructions\n\n1. Preheat oven to 350\xB0. In a large bowl, mix walnuts, chopped Caramel deLites\xAE/Samoas\xAE cookies and cinnamon. Brush a 13x9-in. baking pan with some of the butter. Unroll phyllo dough; trim to fit into pan.\n1. Layer eight sheets of phyllo in prepared pan, brushing each with butter. Keep remaining phyllo covered with plastic wrap and a damp towel to prevent it from drying out. Spread with half of the walnut mixture. Layer with four more phyllo sheets, brushing each with butter. Spread remaining walnut mixture over phyllo. Top with remaining phyllo sheets, brushing each with butter.\n1. Using a sharp knife, cut into 36 rectangles. Bake 45-50 minutes or until golden brown. Meanwhile, in a large saucepan, combine sugar, water and honey; bring to a boil. Reduce heat; simmer, uncovered, 20 minutes, stirring occasionally. Remove from heat; stir in vanilla. Cool slightly.\n1. Pour syrup over warm baklava. Sprinkle with coconut; drizzle with chocolate. Cool completely on a wire rack. Let stand, uncovered, several hours or overnight.\n\n## Notes\n\n- **To toast coconut:** bake in a shallow pan in a 350\xB0 oven for 5-10 minutes or cook in a skillet over low heat until golden brown, stirring occasionally.\n";
     }
   });
 
@@ -28943,6 +29230,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./candy-corn.md": () => require_candy_corn(),
     "./cannoli-filling.md": () => require_cannoli_filling(),
     "./cannoli-shells.md": () => require_cannoli_shells(),
+    "./caramel-pecan-cheesecake.md": () => require_caramel_pecan_cheesecake(),
     "./caramel-shortbread-cookies.md": () => require_caramel_shortbread_cookies(),
     "./carrot-cake-cupcakes.md": () => require_carrot_cake_cupcakes(),
     "./carrot-cake.md": () => require_carrot_cake(),
@@ -28967,6 +29255,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./chocolate-chocolate-chip-cookies-old.md": () => require_chocolate_chocolate_chip_cookies_old(),
     "./chocolate-chocolate-chip-cookies.md": () => require_chocolate_chocolate_chip_cookies(),
     "./chocolate-cinnamon-fudge.md": () => require_chocolate_cinnamon_fudge(),
+    "./chocolate-coconut-chantilly-pie.md": () => require_chocolate_coconut_chantilly_pie(),
     "./chocolate-covered-pretzels.md": () => require_chocolate_covered_pretzels(),
     "./chocolate-cream-pie.md": () => require_chocolate_cream_pie(),
     "./chocolate-crepes.md": () => require_chocolate_crepes(),
@@ -28974,6 +29263,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./chocolate-donuts.md": () => require_chocolate_donuts(),
     "./chocolate-eclairs.md": () => require_chocolate_eclairs(),
     "./chocolate-fudge.md": () => require_chocolate_fudge(),
+    "./chocolate-hazelnut-parfaits.md": () => require_chocolate_hazelnut_parfaits(),
     "./chocolate-icing.md": () => require_chocolate_icing(),
     "./chocolate-mug-cake.md": () => require_chocolate_mug_cake(),
     "./chocolate-orange-fudge.md": () => require_chocolate_orange_fudge(),
@@ -28989,6 +29279,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./cinnamon-rolls.md": () => require_cinnamon_rolls(),
     "./coffee-pastry-cream.md": () => require_coffee_pastry_cream(),
     "./cookie-dough-frosting.md": () => require_cookie_dough_frosting(),
+    "./cookie-toffee-nut-bark.md": () => require_cookie_toffee_nut_bark(),
     "./cookies-and-cream-fudge.md": () => require_cookies_and_cream_fudge(),
     "./copycat-chick-fil-a-lemonade.md": () => require_copycat_chick_fil_a_lemonade(),
     "./cornbread-muffins.md": () => require_cornbread_muffins(),
@@ -28997,25 +29288,34 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./crepes.md": () => require_crepes(),
     "./crushed-red-pepper-hummus.md": () => require_crushed_red_pepper_hummus(),
     "./dark-chocolate-candy-cane-cookies.md": () => require_dark_chocolate_candy_cane_cookies(),
+    "./delightful-caramel-bars.md": () => require_delightful_caramel_bars(),
     "./dirty-rice.md": () => require_dirty_rice(),
+    "./do-si-dos-banana-pudding.md": () => require_do_si_dos_banana_pudding(),
+    "./do-si-dos-candy-bars.md": () => require_do_si_dos_candy_bars(),
     "./donut-glaze.md": () => require_donut_glaze(),
     "./donuts.md": () => require_donuts(),
     "./double-chocolate-chip-cookies.md": () => require_double_chocolate_chip_cookies(),
     "./double-chocolate-gelato.md": () => require_double_chocolate_gelato(),
+    "./dulce-delites.md": () => require_dulce_delites(),
     "./easy-gravy.md": () => require_easy_gravy(),
     "./easy-green-chicken-enchiladas.md": () => require_easy_green_chicken_enchiladas(),
     "./easy-slow-cooker-pulled-pork.md": () => require_easy_slow_cooker_pulled_pork(),
     "./eggnog-custard-pie.md": () => require_eggnog_custard_pie(),
     "./eggnog-fudge.md": () => require_eggnog_fudge(),
     "./espresso-brownies.md": () => require_espresso_brownies(),
+    "./fantastic-toffee-tastic-cheesecake.md": () => require_fantastic_toffee_tastic_cheesecake(),
     "./favorite-chocolate-buttercream.md": () => require_favorite_chocolate_buttercream(),
+    "./festive-white-chocolate-cheesecake.md": () => require_festive_white_chocolate_cheesecake(),
     "./fortune-cookies.md": () => require_fortune_cookies(),
+    "./frozen-raspberry-cheesecakes.md": () => require_frozen_raspberry_cheesecakes(),
     "./funnel-cake.md": () => require_funnel_cake(),
     "./gelato.md": () => require_gelato(),
+    "./german-chocolate-ice-cream-cookie-torte.md": () => require_german_chocolate_ice_cream_cookie_torte(),
     "./ginger-snaps.md": () => require_ginger_snaps(),
     "./gingerbread-cookies.md": () => require_gingerbread_cookies(),
     "./gingerbread-men-smores.md": () => require_gingerbread_men_smores(),
     "./gingerbread.md": () => require_gingerbread(),
+    "./girl-scout-bridging-bars.md": () => require_girl_scout_bridging_bars(),
     "./grams-banana-bread.md": () => require_grams_banana_bread(),
     "./grape-pie.md": () => require_grape_pie(),
     "./hersheys-perfectly-chocolate-chocolate-cake.md": () => require_hersheys_perfectly_chocolate_chocolate_cake(),
@@ -29025,12 +29325,15 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./key-lime-pie.md": () => require_key_lime_pie(),
     "./kickin-cajun-seasoning-mix.md": () => require_kickin_cajun_seasoning_mix(),
     "./kings-hawaiian-french-toast.md": () => require_kings_hawaiian_french_toast(),
+    "./lemon-blueberry-crunch-cake.md": () => require_lemon_blueberry_crunch_cake(),
     "./lemon-cookies.md": () => require_lemon_cookies(),
     "./lemon-glaze.md": () => require_lemon_glaze(),
     "./lemon-lime-sorbet.md": () => require_lemon_lime_sorbet(),
     "./lemon-meringue-pie.md": () => require_lemon_meringue_pie(),
     "./lemon-pastry-cream.md": () => require_lemon_pastry_cream(),
     "./lemon-poppyseed-bread.md": () => require_lemon_poppyseed_bread(),
+    "./lemon-shortbread-cheesecake.md": () => require_lemon_shortbread_cheesecake(),
+    "./lemon-surprise-cheesecake.md": () => require_lemon_surprise_cheesecake(),
     "./lime-sherbet.md": () => require_lime_sherbet(),
     "./maple-cream-cheese-frosting.md": () => require_maple_cream_cheese_frosting(),
     "./maple-syrup-bread-muffins.md": () => require_maple_syrup_bread_muffins(),
@@ -29040,8 +29343,11 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./mascarpone-frosting.md": () => require_mascarpone_frosting(),
     "./mashed-potatoes.md": () => require_mashed_potatoes(),
     "./mashed-sweet-potatoes.md": () => require_mashed_sweet_potatoes(),
+    "./mile-high-peppermint-pie.md": () => require_mile_high_peppermint_pie(),
+    "./mini-thin-mints-mocha-ice-cream-sandwiches.md": () => require_mini_thin_mints_mocha_ice_cream_sandwiches(),
     "./mint-chocolate-fudge.md": () => require_mint_chocolate_fudge(),
     "./molasses-cookies.md": () => require_molasses_cookies(),
+    "./mollys-mini-lemon-shortbread-puddings.md": () => require_mollys_mini_lemon_shortbread_puddings(),
     "./monkey-bread.md": () => require_monkey_bread(),
     "./mrs-siggs-snickerdoodles.md": () => require_mrs_siggs_snickerdoodles(),
     "./nanas-brownie-balls.md": () => require_nanas_brownie_balls(),
@@ -29049,6 +29355,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./neapolitan-dough.md": () => require_neapolitan_dough(),
     "./nutella-frosting.md": () => require_nutella_frosting(),
     "./nutella-fudge.md": () => require_nutella_fudge(),
+    "./nutty-caramel-turtles.md": () => require_nutty_caramel_turtles(),
     "./oatmeal-raisin-cookies.md": () => require_oatmeal_raisin_cookies(),
     "./orange-brownies.md": () => require_orange_brownies(),
     "./orange-cinnamon-swirl-bread-muffins.md": () => require_orange_cinnamon_swirl_bread_muffins(),
@@ -29063,15 +29370,22 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./peanut-brittle.md": () => require_peanut_brittle(),
     "./peanut-butter-balls.md": () => require_peanut_butter_balls(),
     "./peanut-butter-chocolate-chip-bacon-cookies.md": () => require_peanut_butter_chocolate_chip_bacon_cookies(),
+    "./peanut-butter-cookie-crunch-clusters.md": () => require_peanut_butter_cookie_crunch_clusters(),
+    "./peanut-butter-cookie-parfait.md": () => require_peanut_butter_cookie_parfait(),
     "./peanut-butter-cookies.md": () => require_peanut_butter_cookies(),
+    "./peanut-butter-cream-dessert.md": () => require_peanut_butter_cream_dessert(),
     "./peanut-butter-cup-stuffed-cookies.md": () => require_peanut_butter_cup_stuffed_cookies(),
     "./peanut-butter-frosting.md": () => require_peanut_butter_frosting(),
     "./peanut-butter-fudge.md": () => require_peanut_butter_fudge(),
+    "./peanut-butter-icebox-dessert.md": () => require_peanut_butter_icebox_dessert(),
     "./peanut-butter-pie.md": () => require_peanut_butter_pie(),
+    "./peanut-butter-trail-mix-fudge.md": () => require_peanut_butter_trail_mix_fudge(),
+    "./peanut-caramel-thumbprint-no-bake-cookies.md": () => require_peanut_caramel_thumbprint_no_bake_cookies(),
     "./peanut-swirl-brownies.md": () => require_peanut_swirl_brownies(),
     "./pecan-pie.md": () => require_pecan_pie(),
     "./peppermint-bark.md": () => require_peppermint_bark(),
     "./peppermint-cannolis.md": () => require_peppermint_cannolis(),
+    "./peppermint-chip-cheesecake.md": () => require_peppermint_chip_cheesecake(),
     "./peppermint-glaze.md": () => require_peppermint_glaze(),
     "./peppermint-pattie-stuffed-chocolate-cookies.md": () => require_peppermint_pattie_stuffed_chocolate_cookies(),
     "./perfectly-chocolate-chocolate-frosting.md": () => require_perfectly_chocolate_chocolate_frosting(),
@@ -29098,6 +29412,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./qdoba-three-cheese-queso-copycat.md": () => require_qdoba_three_cheese_queso_copycat(),
     "./rainbow-cookies.md": () => require_rainbow_cookies(),
     "./raspberry-cheesecake-flavoring.md": () => require_raspberry_cheesecake_flavoring(),
+    "./raspberry-lemonades-bread-pudding.md": () => require_raspberry_lemonades_bread_pudding(),
     "./raspberry-thumbprint-cookies.md": () => require_raspberry_thumbprint_cookies(),
     "./red-velvet-crinkle-cookies.md": () => require_red_velvet_crinkle_cookies(),
     "./red-velvet-cupcakes.md": () => require_red_velvet_cupcakes(),
@@ -29110,9 +29425,17 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./salsa-morada.md": () => require_salsa_morada(),
     "./salsa.md": () => require_salsa(),
     "./salt-baked-potatoes.md": () => require_salt_baked_potatoes(),
+    "./samoa-toffee.md": () => require_samoa_toffee(),
+    "./samoas-swirl-no-churn-ice-cream.md": () => require_samoas_swirl_no_churn_ice_cream(),
     "./sherbet.md": () => require_sherbet(),
     "./shortbread-cookies.md": () => require_shortbread_cookies(),
+    "./shortbread-fudge-tiramisu.md": () => require_shortbread_fudge_tiramisu(),
+    "./shortbread-trefoils-toffee-chocolate-bark.md": () => require_shortbread_trefoils_toffee_chocolate_bark(),
     "./simple-whole-roast-turkey.md": () => require_simple_whole_roast_turkey(),
+    "./smores-frosted-crispy-bars.md": () => require_smores_frosted_crispy_bars(),
+    "./smores-ice-cream.md": () => require_smores_ice_cream(),
+    "./smores-peanut-butter-pudgy-pie.md": () => require_smores_peanut_butter_pudgy_pie(),
+    "./smores-summertime-cheesecake.md": () => require_smores_summertime_cheesecake(),
     "./snickerdoodle-cookie-dough-truffles.md": () => require_snickerdoodle_cookie_dough_truffles(),
     "./snickerdoodles.md": () => require_snickerdoodles(),
     "./soft-chocolate-chip-cookies.md": () => require_soft_chocolate_chip_cookies(),
@@ -29122,13 +29445,18 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./spritzgeback-cookies.md": () => require_spritzgeback_cookies(),
     "./strawberry-rhubarb-pie.md": () => require_strawberry_rhubarb_pie(),
     "./sugar-cookies.md": () => require_sugar_cookies(),
+    "./sunday-sin-cake.md": () => require_sunday_sin_cake(),
     "./sweet-corn-guacamole.md": () => require_sweet_corn_guacamole(),
     "./sweet-potato-pie.md": () => require_sweet_potato_pie(),
     "./texas-cinnamon-butter.md": () => require_texas_cinnamon_butter(),
     "./texas-roadhouse-rolls.md": () => require_texas_roadhouse_rolls(),
+    "./thin-mints-cupcakes.md": () => require_thin_mints_cupcakes(),
+    "./thin-mints-popcorn.md": () => require_thin_mints_popcorn(),
+    "./thin-mints-white-chocolate-biscotti.md": () => require_thin_mints_white_chocolate_biscotti(),
     "./tinis-famous-mac-and-cheese.md": () => require_tinis_famous_mac_and_cheese(),
     "./tiramisu.md": () => require_tiramisu(),
     "./toll-house-chocolate-chip-cookies.md": () => require_toll_house_chocolate_chip_cookies(),
+    "./touch-of-coconut-baklava.md": () => require_touch_of_coconut_baklava(),
     "./triple-chocolate-brownies.md": () => require_triple_chocolate_brownies(),
     "./twice-baked-potatoes.md": () => require_twice_baked_potatoes(),
     "./vanilla-buttercream-frosting.md": () => require_vanilla_buttercream_frosting(),
@@ -29148,6 +29476,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   var CATEGORIES = /* @__PURE__ */ new Set([
     "Appetizer",
     "Breakfast",
+    "Collections/Girl Scout Cookies",
     "Dessert",
     "Dessert/Bread",
     "Dessert/Brownies",
@@ -29232,6 +29561,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("candy-corn", ["Dessert/Candy"]);
   addRecipe("cannoli-filling", ["Dessert/Cannolis"]);
   addRecipe("cannoli-shells", ["Dessert/Cannolis/Shells"]);
+  addRecipe("caramel-pecan-cheesecake", ["Dessert/Cake/Cheesecake", "Collections/Girl Scout Cookies"], true);
   addRecipe("caramel-shortbread-cookies", ["Dessert/Cookies"]);
   addRecipe("carrot-cake", ["Dessert/Cake"], true);
   addRecipe("carrot-cake-cupcakes", ["Dessert/Cupcakes"], true);
@@ -29264,6 +29594,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("chocolate-chocolate-chip-cookies", ["Dessert/Cookies"], true);
   addRecipe("chocolate-chocolate-chip-cookies-old", ["Dessert/Cookies"]);
   addRecipe("chocolate-cinnamon-fudge", ["Dessert/Fudge"]);
+  addRecipe("chocolate-coconut-chantilly-pie", ["Dessert/Pie", "Collections/Girl Scout Cookies"], true);
   addRecipe("chocolate-covered-pretzels", ["Dessert/Candy"]);
   addRecipe("chocolate-crepes", ["Breakfast"], true);
   addRecipe("chocolate-crinkle-cookies", ["Dessert/Cookies"], true);
@@ -29271,6 +29602,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("chocolate-donuts", ["Dessert/Donuts"]);
   addRecipe("chocolate-eclairs", ["Dessert/Pastry"]);
   addRecipe("chocolate-fudge", ["Dessert/Fudge"]);
+  addRecipe("chocolate-hazelnut-parfaits", ["Dessert", "Collections/Girl Scout Cookies"], true);
   addRecipe("chocolate-icing", ["Dessert/Frosting/Icing"]);
   addRecipe("chocolate-mug-cake", ["Dessert/Cake"], true);
   addRecipe("chocolate-orange-fudge", ["Dessert/Fudge"]);
@@ -29290,6 +29622,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("cinnamon-rolls-old", ["Dessert/Donuts"]);
   addRecipe("coffee-pastry-cream", ["Dessert/Frosting/Custard"]);
   addRecipe("cookie-dough-frosting", ["Dessert/Frosting"]);
+  addRecipe("cookie-toffee-nut-bark", ["Dessert/Candy", "Collections/Girl Scout Cookies"], true);
   addRecipe("cookies-and-cream-fudge", ["Dessert/Fudge"]);
   addRecipe("copycat-chick-fil-a-lemonade", ["Drink"], true);
   addRecipe("cornbread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
@@ -29298,11 +29631,15 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("crepes", ["Breakfast"], true);
   addRecipe("crushed-red-pepper-hummus", ["Appetizer"], true);
   addRecipe("dark-chocolate-candy-cane-cookies", ["Dessert/Cookies"], true);
+  addRecipe("delightful-caramel-bars", ["Dessert/Brownies", "Collections/Girl Scout Cookies"], true);
   addRecipe("dirty-rice", ["Main Dish"], true);
+  addRecipe("do-si-dos-banana-pudding", ["Dessert", "Collections/Girl Scout Cookies"], true);
+  addRecipe("do-si-dos-candy-bars", ["Dessert/Candy", "Collections/Girl Scout Cookies"], true);
   addRecipe("donut-glaze", ["Dessert/Donuts"]);
   addRecipe("donuts", ["Dessert/Donuts"]);
   addRecipe("double-chocolate-chip-cookies", ["Dessert/Cookies"], true);
   addRecipe("double-chocolate-gelato", ["Dessert/Ice Cream"]);
+  addRecipe("dulce-delites", ["Dessert/Brownies", "Collections/Girl Scout Cookies"], true);
   addRecipe(
     "easy-gravy",
     ["Seasoning", "Holidays/Fennelly Thanksgiving 2025"],
@@ -29313,14 +29650,19 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("eggnog-custard-pie", ["Dessert/Pie"]);
   addRecipe("eggnog-fudge", ["Dessert/Fudge"]);
   addRecipe("espresso-brownies", ["Dessert/Brownies"]);
+  addRecipe("fantastic-toffee-tastic-cheesecake", ["Dessert/Cake/Cheesecake", "Collections/Girl Scout Cookies"], true);
   addRecipe("favorite-chocolate-buttercream", ["Dessert/Frosting"], true);
+  addRecipe("festive-white-chocolate-cheesecake", ["Dessert/Cake/Cheesecake", "Collections/Girl Scout Cookies"], true);
   addRecipe("fortune-cookies", ["Dessert/Cookies"]);
+  addRecipe("frozen-raspberry-cheesecakes", ["Dessert/Cake/Cheesecake", "Collections/Girl Scout Cookies"], true);
   addRecipe("funnel-cake", ["Dessert/Donuts"]);
   addRecipe("gelato", ["Dessert/Ice Cream"]);
+  addRecipe("german-chocolate-ice-cream-cookie-torte", ["Dessert/Ice Cream", "Collections/Girl Scout Cookies"], true);
   addRecipe("ginger-snaps", ["Dessert/Cookies"]);
   addRecipe("gingerbread", ["Dessert/Bread"], true);
   addRecipe("gingerbread-cookies", ["Dessert/Cookies"]);
   addRecipe("gingerbread-men-smores", ["Dessert/Cookies"], true);
+  addRecipe("girl-scout-bridging-bars", ["Dessert/Brownies", "Collections/Girl Scout Cookies"], true);
   addRecipe("grams-banana-bread", ["Dessert/Bread"], true);
   addRecipe("grape-pie", ["Dessert/Pie"]);
   addRecipe(
@@ -29334,12 +29676,15 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("key-lime-pie", ["Dessert/Pie"]);
   addRecipe("kickin-cajun-seasoning-mix", ["Seasoning"], true);
   addRecipe("kings-hawaiian-french-toast", ["Breakfast"], true);
+  addRecipe("lemon-blueberry-crunch-cake", ["Dessert/Cake", "Collections/Girl Scout Cookies"], true);
   addRecipe("lemon-cookies", ["Dessert/Cookies"]);
   addRecipe("lemon-glaze", ["Dessert/Frosting/Icing"]);
   addRecipe("lemon-lime-sorbet", ["Dessert/Ice Cream"]);
   addRecipe("lemon-meringue-pie", ["Dessert/Pie"]);
   addRecipe("lemon-pastry-cream", ["Dessert/Frosting/Custard"]);
   addRecipe("lemon-poppyseed-bread", ["Dessert/Bread"]);
+  addRecipe("lemon-shortbread-cheesecake", ["Dessert/Cake/Cheesecake", "Collections/Girl Scout Cookies"], true);
+  addRecipe("lemon-surprise-cheesecake", ["Dessert/Cake/Cheesecake", "Collections/Girl Scout Cookies"], true);
   addRecipe("lime-sherbet", ["Dessert/Ice Cream"]);
   addRecipe("maple-cream-cheese-frosting", ["Dessert/Frosting"]);
   addRecipe("maple-syrup-bread-muffins", ["Dessert/Bread"]);
@@ -29357,8 +29702,11 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     ["Side Dish", "Holidays/Fennelly Thanksgiving 2025"],
     true
   );
+  addRecipe("mile-high-peppermint-pie", ["Dessert/Pie", "Collections/Girl Scout Cookies"], true);
+  addRecipe("mini-thin-mints-mocha-ice-cream-sandwiches", ["Dessert/Ice Cream", "Collections/Girl Scout Cookies"], true);
   addRecipe("mint-chocolate-fudge", ["Dessert/Fudge"]);
   addRecipe("molasses-cookies", ["Dessert/Cookies"]);
+  addRecipe("mollys-mini-lemon-shortbread-puddings", ["Dessert", "Collections/Girl Scout Cookies"], true);
   addRecipe("monkey-bread", ["Dessert/Bread"]);
   addRecipe("mrs-siggs-snickerdoodles", ["Dessert/Cookies"], true);
   addRecipe("nanas-brownie-balls", ["Dessert/Candy"], true);
@@ -29366,6 +29714,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("neapolitan-dough", ["Main Dish"], true);
   addRecipe("nutella-frosting", ["Dessert/Frosting"]);
   addRecipe("nutella-fudge", ["Dessert/Fudge"]);
+  addRecipe("nutty-caramel-turtles", ["Dessert/Candy", "Collections/Girl Scout Cookies"], true);
   addRecipe("oatmeal-raisin-cookies", ["Dessert/Cookies"]);
   addRecipe("orange-brownies", ["Dessert/Brownies"]);
   addRecipe("orange-cinnamon-swirl-bread-muffins", ["Dessert/Bread"]);
@@ -29380,15 +29729,22 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("peanut-brittle", ["Dessert/Candy"]);
   addRecipe("peanut-butter-balls", ["Dessert/Cookies"], true);
   addRecipe("peanut-butter-chocolate-chip-bacon-cookies", ["Dessert/Cookies"]);
+  addRecipe("peanut-butter-cookie-crunch-clusters", ["Dessert/Candy", "Collections/Girl Scout Cookies"], true);
+  addRecipe("peanut-butter-cookie-parfait", ["Dessert", "Collections/Girl Scout Cookies"], true);
   addRecipe("peanut-butter-cookies", ["Dessert/Cookies"]);
+  addRecipe("peanut-butter-cream-dessert", ["Dessert", "Collections/Girl Scout Cookies"], true);
   addRecipe("peanut-butter-cup-stuffed-cookies", ["Dessert/Cookies"], true);
   addRecipe("peanut-butter-frosting", ["Dessert/Frosting"], true);
   addRecipe("peanut-butter-fudge", ["Dessert/Fudge"]);
+  addRecipe("peanut-butter-icebox-dessert", ["Dessert", "Collections/Girl Scout Cookies"], true);
   addRecipe("peanut-butter-pie", ["Dessert/Pie"]);
+  addRecipe("peanut-butter-trail-mix-fudge", ["Dessert/Fudge", "Collections/Girl Scout Cookies"], true);
+  addRecipe("peanut-caramel-thumbprint-no-bake-cookies", ["Dessert/Cookies", "Collections/Girl Scout Cookies"], true);
   addRecipe("peanut-swirl-brownies", ["Dessert/Brownies"]);
   addRecipe("pecan-pie", ["Dessert/Pie"]);
   addRecipe("peppermint-bark", ["Dessert/Candy"]);
   addRecipe("peppermint-cannolis", ["Dessert/Cannolis"]);
+  addRecipe("peppermint-chip-cheesecake", ["Dessert/Cake/Cheesecake", "Collections/Girl Scout Cookies"], true);
   addRecipe("peppermint-glaze", ["Dessert/Frosting/Icing"]);
   addRecipe(
     "peppermint-pattie-stuffed-chocolate-cookies",
@@ -29422,6 +29778,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("qdoba-three-cheese-queso-copycat", ["Appetizer"], true);
   addRecipe("rainbow-cookies", ["Dessert/Cookies"]);
   addRecipe("raspberry-cheesecake-flavoring", ["Dessert/Cake/Cheesecake"]);
+  addRecipe("raspberry-lemonades-bread-pudding", ["Dessert", "Collections/Girl Scout Cookies"], true);
   addRecipe("raspberry-thumbprint-cookies", ["Dessert/Cookies"], true);
   addRecipe("red-velvet-crinkle-cookies", ["Dessert/Cookies"], true);
   addRecipe("red-velvet-cupcakes", ["Dessert/Cupcakes"]);
@@ -29434,13 +29791,21 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("salsa", ["Seasoning"], true);
   addRecipe("salsa-morada", ["Seasoning"], true);
   addRecipe("salt-baked-potatoes", ["Side Dish"], true);
+  addRecipe("samoa-toffee", ["Dessert/Candy", "Collections/Girl Scout Cookies"], true);
+  addRecipe("samoas-swirl-no-churn-ice-cream", ["Dessert/Ice Cream", "Collections/Girl Scout Cookies"], true);
   addRecipe("sherbet", ["Dessert/Ice Cream"]);
   addRecipe("shortbread-cookies", ["Dessert/Cookies"]);
+  addRecipe("shortbread-fudge-tiramisu", ["Dessert/Cake", "Collections/Girl Scout Cookies"], true);
+  addRecipe("shortbread-trefoils-toffee-chocolate-bark", ["Dessert/Candy", "Collections/Girl Scout Cookies"], true);
   addRecipe(
     "simple-whole-roast-turkey",
     ["Main Dish", "Holidays/Fennelly Thanksgiving 2025"],
     true
   );
+  addRecipe("smores-frosted-crispy-bars", ["Dessert/Brownies", "Collections/Girl Scout Cookies"], true);
+  addRecipe("smores-ice-cream", ["Dessert/Ice Cream", "Collections/Girl Scout Cookies"], true);
+  addRecipe("smores-peanut-butter-pudgy-pie", ["Dessert", "Collections/Girl Scout Cookies"], true);
+  addRecipe("smores-summertime-cheesecake", ["Dessert/Cake/Cheesecake", "Collections/Girl Scout Cookies"], true);
   addRecipe("snickerdoodle-cookie-dough-truffles", ["Dessert/Cookies"], true);
   addRecipe("snickerdoodles", ["Dessert/Cookies"]);
   addRecipe("soft-chocolate-chip-cookies", ["Dessert/Cookies"], true);
@@ -29450,10 +29815,14 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("spritzgeback-cookies", ["Dessert/Cookies"]);
   addRecipe("strawberry-rhubarb-pie", ["Dessert/Pie"]);
   addRecipe("sugar-cookies", ["Dessert/Cookies"]);
+  addRecipe("sunday-sin-cake", ["Dessert/Cake", "Collections/Girl Scout Cookies"], true);
   addRecipe("sweet-corn-guacamole", ["Appetizer"], true);
   addRecipe("sweet-potato-pie", ["Dessert/Pie"]);
   addRecipe("texas-cinnamon-butter", ["Seasoning"], true);
   addRecipe("texas-roadhouse-rolls", ["Side Dish"], true);
+  addRecipe("thin-mints-cupcakes", ["Dessert/Cupcakes", "Collections/Girl Scout Cookies"], true);
+  addRecipe("thin-mints-popcorn", ["Dessert/Candy", "Collections/Girl Scout Cookies"], true);
+  addRecipe("thin-mints-white-chocolate-biscotti", ["Dessert/Cookies", "Collections/Girl Scout Cookies"], true);
   addRecipe(
     "tinis-famous-mac-and-cheese",
     ["Main Dish", "Holidays/Fennelly Thanksgiving 2025"],
@@ -29461,6 +29830,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   );
   addRecipe("tiramisu", ["Dessert/Cake"]);
   addRecipe("toll-house-chocolate-chip-cookies", ["Dessert/Cookies"], true);
+  addRecipe("touch-of-coconut-baklava", ["Dessert/Pastry", "Collections/Girl Scout Cookies"], true);
   addRecipe("triple-chocolate-brownies", ["Dessert/Brownies"]);
   addRecipe("twice-baked-potatoes", ["Side Dish"], true);
   addRecipe("vanilla-buttercream-frosting", ["Dessert/Frosting"]);
