@@ -1,0 +1,232 @@
+=== MATCHED (132) — safe to delete from /Volumes/nasty/docs/recipes/web ===
+
+## Dessert/Bread
+  Dessert.Bread.AppleBread.htm  →  apple-bread.md
+  Dessert.Bread.BananaBread.htm  →  banana-bread-muffins.md
+  Dessert.Bread.BananaOrangeBread.htm  →  banana-orange-bread-muffins.md
+  Dessert.Bread.BlueberryBread.htm  →  blueberry-bread-muffins.md
+  Dessert.Bread.CherryBananaBread.htm  →  cherry-banana-bread-muffins.md
+  Dessert.Bread.CinnamonBread.htm  →  cinnamon-bread-muffins.md
+  Dessert.Bread.Cornbread.htm  →  cornbread-muffins.md
+  Dessert.Bread.LemonPoppyseedBread.htm  →  lemon-poppyseed-bread.md
+  Dessert.Bread.MapleSyrupBread.htm  →  maple-syrup-bread-muffins.md
+  Dessert.Bread.MonkeyBread.htm  →  monkey-bread.md
+  Dessert.Bread.OrangeCinnamonSwirlBread.htm  →  orange-cinnamon-swirl-bread-muffins.md
+  Dessert.Bread.PineapplePumpkinBread.htm  →  pineapple-pumpkin-bread-muffins.md
+  Dessert.Bread.PumpkinBread.htm  →  pumpkin-bread-muffins.md
+
+## Dessert/Brownies
+  Dessert.Brownies.BlondeBrownies.htm  →  blonde-brownies.md
+  Dessert.Brownies.ChocolateBrownies.htm  →  chocolate-brownies.md
+  Dessert.Brownies.EspressoBrownies.htm  →  espresso-brownies.md
+  Dessert.Brownies.PeanutButterSwirlBrownies.htm  →  peanut-swirl-brownies.md
+  Dessert.Brownies.TripleChocolateBrownies.htm  →  triple-chocolate-brownies.md
+
+## Dessert/Cake
+  Dessert.Cake.ChocolateCake.htm  →  chocolate-cake.md
+  Dessert.Cake.ChocolatePumpkinCake.htm  →  chocolate-pumpkin-cake.md
+  Dessert.Cake.PumpkinSpiceCake.htm  →  pumpkin-spice-cake.md
+  Dessert.Cake.Tiramisu.htm  →  tiramisu.md
+  Dessert.Cake.VanillaCake.htm  →  vanilla-cake.md
+
+## Dessert/Cake/Cheesecake
+  Dessert.Cake.Cheesecake.WhiteChocolateCheesecake.htm  →  white-chocolate-cheesecake.md
+
+## Dessert/Cake/Cheesecake/Shells
+  Dessert.Cake.Cheesecake.Shells.CannoliShellCheesecakeShell.htm  →  cheesecake-shell.md
+  Dessert.Cake.Cheesecake.Shells.GrahamCrackerCheesecakeShell.htm  →  cheesecake-shell.md
+  Dessert.Cake.Cheesecake.Shells.OreoCheesecakeShell.htm  →  cheesecake-shell.md
+
+## Dessert/Cake/WhoopiePies
+  Dessert.Cake.WhoopiePies.PumpkinWhoopiePies.htm  →  pumpkin-whoopie-pies.md
+  Dessert.Cake.WhoopiePies.WhoopiePies.htm  →  whoopie-pies.md
+
+## Dessert/Candy
+  Dessert.Candy.CandyCorn.htm  →  candy-corn.md
+  Dessert.Candy.ChocolateCoveredPretzelBraids.htm  →  chocolate-covered-pretzels.md
+  Dessert.Candy.ChocolateCoveredPretzelSnaps.htm  →  chocolate-covered-pretzels.md
+  Dessert.Candy.Nana'sRockyRoadCandies.htm  →  nanas-rocky-road-candies.md
+  Dessert.Candy.PeanutBrittle.htm  →  peanut-brittle.md
+  Dessert.Candy.PeppermintBark.htm  →  peppermint-bark.md
+
+## Dessert/Cannolis/Filling
+  Dessert.Cannolis.Filling.PeppermintCannoliFilling.htm  →  peppermint-cannolis.md
+  Dessert.Cannolis.Filling.PumpkinCannoliFilling.htm  →  pumpkin-cannolis.md
+
+## Dessert/Cannolis/Shells
+  Dessert.Cannolis.Shells.CannoliShells.htm  →  cannoli-shells.md
+  Dessert.Cannolis.Shells.ChocolateCannoliShells.htm  →  chocolate-cannoli-shells.md
+
+## Dessert/Cookies
+  Dessert.Cookies.Biscotti.htm  →  biscotti.md
+  Dessert.Cookies.ChocolateChipCookies.htm  →  chocolate-chip-cookies.md
+  Dessert.Cookies.FortuneCookies.htm  →  fortune-cookies.md
+  Dessert.Cookies.GingerbreadCookies.htm  →  gingerbread-cookies.md
+  Dessert.Cookies.GingerSnaps.htm  →  ginger-snaps.md
+  Dessert.Cookies.LemonCookies.htm  →  lemon-cookies.md
+  Dessert.Cookies.MolassesCookies.htm  →  molasses-cookies.md
+  Dessert.Cookies.OatmealRaisinCookies.htm  →  oatmeal-raisin-cookies.md
+  Dessert.Cookies.PeanutButterChocolateChipBaconCookies.htm  →  peanut-butter-chocolate-chip-bacon-cookies.md
+  Dessert.Cookies.PeanutButterCookies.htm  →  peanut-butter-cookies.md
+  Dessert.Cookies.PineappleCookies.htm  →  pineapple-cookies.md
+  Dessert.Cookies.RainbowCookies.htm  →  rainbow-cookies.md
+  Dessert.Cookies.ShortbreadCookies.htm  →  shortbread-cookies.md
+  Dessert.Cookies.Snickerdoodles.htm  →  snickerdoodles.md
+  Dessert.Cookies.SpritzgebackCookies.htm  →  spritzgeback-cookies.md
+  Dessert.Cookies.SugarCookies.htm  →  sugar-cookies.md
+
+## Dessert/Cookies/Pizzelles
+  Dessert.Cookies.Pizzelles.ChocolateChipCinnamonPizzelles.htm  →  chocolate-chip-cinnamon-pizzelles.md
+  Dessert.Cookies.Pizzelles.Pizzelles.htm  →  pizzelles.md
+
+## Dessert/Cupcakes
+  Dessert.Cupcakes.ChocolateChipCupcakes.htm  →  chocolate-chip-cupcakes.md
+  Dessert.Cupcakes.ChocolatePumpkinCupcakes.htm  →  chocolate-pumpkin-cupcakes.md
+  Dessert.Cupcakes.PumpkinCupcakes.htm  →  pumpkin-cupcakes.md
+  Dessert.Cupcakes.RedVelvetCupcakes.htm  →  red-velvet-cupcakes.md
+
+## Dessert/Donuts
+  Dessert.Donuts.AppleFritters.htm  →  apple-fritters.md
+  Dessert.Donuts.ChocolateDonuts.htm  →  chocolate-donuts.md
+  Dessert.Donuts.DonutGlaze.htm  →  donut-glaze.md
+  Dessert.Donuts.Donuts.htm  →  donuts.md
+  Dessert.Donuts.FunnelCake.htm  →  funnel-cake.md
+  Dessert.Donuts.PumpkinDonuts.htm  →  pumpkin-donuts.md
+
+## Dessert/Frosting/Custard
+  Dessert.Frosting.Custard.AlmondPastryCream.htm  →  almond-pastry-cream.md
+  Dessert.Frosting.Custard.BostonCream.htm  →  boston-cream.md
+  Dessert.Frosting.Custard.ChocolatePastryCream.htm  →  chocolate-pastry-cream.md
+  Dessert.Frosting.Custard.CoffeePastryCream.htm  →  coffee-pastry-cream.md
+  Dessert.Frosting.Custard.LemonPastryCream.htm  →  lemon-pastry-cream.md
+  Dessert.Frosting.Custard.OrangePastryCream.htm  →  orange-pastry-cream.md
+  Dessert.Frosting.Custard.PumpkinPastryCream.htm  →  pumpkin-pastry-cream.md
+  Dessert.Frosting.Custard.VanillaPastryCream.htm  →  vanilla-pastry-cream.md
+
+## Dessert/Frosting/Frosting
+  Dessert.Frosting.Frosting.BrownButterFrosting.htm  →  brown-butter-frosting.md
+  Dessert.Frosting.Frosting.CreamCheeseFrosting.htm  →  cream-cheese-frosting.md
+  Dessert.Frosting.Frosting.MapleCreamCheeseFrosting.htm  →  maple-cream-cheese-frosting.md
+  Dessert.Frosting.Frosting.MarshmallowFrosting.htm  →  marshmallow-frosting.md
+  Dessert.Frosting.Frosting.MascarponeFrosting.htm  →  mascarpone-frosting.md
+  Dessert.Frosting.Frosting.VanillaFrosting.htm  →  vanilla-frosting-whoopie-pie-filling.md
+  Dessert.Frosting.Frosting.VanillaIcing.htm  →  vanilla-icing.md
+
+## Dessert/Frosting/Icing
+  Dessert.Frosting.Icing.ChocolateIcing.htm  →  chocolate-icing.md
+  Dessert.Frosting.Icing.LemonGlaze.htm  →  lemon-glaze.md
+  Dessert.Frosting.Icing.PeppermintGlaze.htm  →  peppermint-glaze.md
+
+## Dessert/Fudge
+  Dessert.Fudge.CakeBatterFudge.htm  →  cake-batter-fudge.md
+  Dessert.Fudge.CandyCaneFudge.htm  →  candy-cane-fudge.md
+  Dessert.Fudge.ChocolateCinnamonFudge.htm  →  chocolate-cinnamon-fudge.md
+  Dessert.Fudge.ChocolateFudge.htm  →  chocolate-fudge.md
+  Dessert.Fudge.ChocolateOrangeFudge.htm  →  chocolate-orange-fudge.md
+  Dessert.Fudge.CookiesandCreamFudge.htm  →  cookies-and-cream-fudge.md
+  Dessert.Fudge.EggnogFudge.htm  →  eggnog-fudge.md
+  Dessert.Fudge.MapleWalnutFudge.htm  →  maple-walnut-fudge.md
+  Dessert.Fudge.MintChocolateFudge.htm  →  mint-chocolate-fudge.md
+  Dessert.Fudge.NutellaFudge.htm  →  nutella-fudge.md
+  Dessert.Fudge.OrangeCreamsicleFudge.htm  →  orange-creamsicle-fudge.md
+  Dessert.Fudge.PeanutButterFudge.htm  →  peanut-butter-fudge.md
+  Dessert.Fudge.RockyRoadFudge.htm  →  rocky-road-fudge.md
+  Dessert.Fudge.VanillaFudge.htm  →  vanilla-fudge.md
+  Dessert.Fudge.VelveetaFudge.htm  →  velveeta-fudge.md
+
+## Dessert/IceCream
+  Dessert.IceCream.Gelato.htm  →  gelato.md
+  Dessert.IceCream.IceCream.htm  →  ice-cream.md
+  Dessert.IceCream.Sherbet.htm  →  sherbet.md
+  Dessert.IceCream.Sorbet.htm  →  sorbet.md
+
+## Dessert/Muffins
+  Dessert.Muffins.AppleMuffins.htm  →  apple-muffins.md
+  Dessert.Muffins.BananaMuffins.htm  →  banana-bread-muffins.md
+  Dessert.Muffins.BananaOrangeMuffins.htm  →  banana-orange-bread-muffins.md
+  Dessert.Muffins.BlueberryMuffins.htm  →  blueberry-bread-muffins.md
+  Dessert.Muffins.CherryBananaMuffins.htm  →  cherry-banana-bread-muffins.md
+  Dessert.Muffins.CornbreadMuffins.htm  →  cornbread-muffins.md
+  Dessert.Muffins.PineapplePumpkinMuffins.htm  →  pineapple-pumpkin-bread-muffins.md
+  Dessert.Muffins.PumpkinMuffins.htm  →  pumpkin-bread-muffins.md
+
+## Dessert/Pastry
+  Dessert.Pastry.Churros.htm  →  churros.md
+  Dessert.Pastry.CreamPuffs.htm  →  cream-puffs.md
+
+## Dessert/Pie
+  Dessert.Pie.ApplePie.htm  →  apple-pear-pie.md
+  Dessert.Pie.BananaCreamPie.htm  →  banana-cream-pie.md
+  Dessert.Pie.BlueberryPie.htm  →  blueberry-pie.md
+  Dessert.Pie.CherryPie.htm  →  cherry-pie.md
+  Dessert.Pie.ChocolateCreamPie.htm  →  chocolate-cream-pie.md
+  Dessert.Pie.EggnogCustardPie.htm  →  eggnog-custard-pie.md
+  Dessert.Pie.GrapePie.htm  →  grape-pie.md
+  Dessert.Pie.KeyLimePie.htm  →  key-lime-pie.md
+  Dessert.Pie.PeachPie.htm  →  peach-pie.md
+  Dessert.Pie.PeanutButterPie.htm  →  peanut-butter-pie.md
+  Dessert.Pie.PearPie.htm  →  apple-pear-pie.md
+  Dessert.Pie.PecanPie.htm  →  pecan-pie.md
+  Dessert.Pie.PumpkinPie.htm  →  pumpkin-pie.md
+  Dessert.Pie.StrawberryRhubarbPie.htm  →  strawberry-rhubarb-pie.md
+  Dessert.Pie.SweetPotatoPie.htm  →  sweet-potato-pie.md
+  Dessert.Pie.WatermelonPie.htm  →  watermelon-pie.md
+
+## Dessert/Pie/PieCrusts
+  Dessert.Pie.PieCrusts.GrahamCrackerPieCrust.htm  →  oreo-graham-cracker-pie-crust.md
+  Dessert.Pie.PieCrusts.PieCrust.htm  →  pie-crust.md
+
+=== DIFFERS (24) — keep external, current diverges ===
+
+## Dessert/Brownies
+  Dessert.Brownies.OrangeBrownies.htm  →  orange-brownies.md  [step drift 6→10]
+
+## Dessert/Cake/Cheesecake
+  Dessert.Cake.Cheesecake.Cheesecake.htm  →  cheesecake.md  [missing: cheesecake shell]
+  Dessert.Cake.Cheesecake.ChocolateCheesecake.htm  →  chocolate-cheesecake.md  [missing: cheesecake shell]
+  Dessert.Cake.Cheesecake.PumpkinCheesecake.htm  →  pumpkin-cheesecake-flavoring.md  [missing: cheesecake batter]
+  Dessert.Cake.Cheesecake.RaspberryCheesecake.htm  →  raspberry-cheesecake-flavoring.md  [missing: cheesecake batter]
+
+## Dessert/Candy
+  Dessert.Candy.ChocolateTruffles.htm  →  chocolate-truffles.md  [step drift 10→27]
+
+## Dessert/Cannolis/Filling
+  Dessert.Cannolis.Filling.CannoliFilling.htm  →  cannoli-filling.md  [step drift 3→7]
+  Dessert.Cannolis.Filling.ChocolateCannoliFilling.htm  →  chocolate-cannolis.md  [step drift 3→7]
+
+## Dessert/Cookies
+  Dessert.Cookies.BlackandWhiteCookies.htm  →  black-and-white-cookies.md  [step drift 11→16]
+  Dessert.Cookies.CaramelShortbreadCookies.htm  →  caramel-shortbread-cookies.md  [step drift 9→14]
+  Dessert.Cookies.DoubleChocolateCookies.htm  →  chocolate-chocolate-chip-cookies.md  [missing: baking powder, egg yolk, brown sugar, packed; step drift 13→5]
+  Dessert.Cookies.PumpkinCookies.htm  →  pumpkin-drop-cookies.md  [missing: canned pumpkin; step drift 10→5]
+
+## Dessert/Cookies/Pizzelles
+  Dessert.Cookies.Pizzelles.ChocolatePeppermintPizzelles.htm  →  chocolate-peppermint-pizzelles.md  [step drift 11→22]
+
+## Dessert/Donuts
+  Dessert.Donuts.CinnamonRolls.htm  →  cinnamon-rolls.md  [missing: egg yolk, buttermilk, all-purpose flour; step drift 33→6]
+  Dessert.Donuts.OrangeRolls.htm  →  orange-rolls.md  [step drift 16→19]
+
+## Dessert/Frosting/Frosting
+  Dessert.Frosting.Frosting.ChocolateChipCookieDoughFrosting.htm  →  cookie-dough-frosting.md  [step drift 5→9]
+  Dessert.Frosting.Frosting.NutellaFrosting.htm  →  nutella-frosting.md  [step drift 10→12]
+
+## Dessert/Fudge
+  Dessert.Fudge.ButterPecanFudge.htm  →  butter-pecan-fudge.md  [step drift 11→13]
+  Dessert.Fudge.ChocolateChipCookieDoughFudge.htm  →  chocolate-chip-cookie-dough-fudge.md  [step drift 2→15]
+  Dessert.Fudge.PumpkinButterscotchFudge.htm  →  pumpkin-butterscotch-fudge.md  [step drift 9→12]
+  Dessert.Fudge.RedVelvetFudge.htm  →  red-velvet-fudge.md  [missing: sweet condensed milk; step drift 9→17]
+
+## Dessert/Pastry
+  Dessert.Pastry.ChocolateEclairs.htm  →  chocolate-eclairs.md  [step drift 14→47]
+
+## Dessert/Pie
+  Dessert.Pie.LemonMeringuePie.htm  →  lemon-meringue-pie.md  [step drift 15→19]
+
+## Dessert/Pie/PieCrusts
+  Dessert.Pie.PieCrusts.OreoPieCrust.htm  →  oreo-graham-cracker-pie-crust.md  [missing: oreo cookie crumbs]
+
+=== SPECIAL ===
+  Dessert.IceCream.Flavors.htm  —  embedded into ice-cream.md
+
+TOTAL external: 157  |  MATCHED: 132  |  DIFFERS: 24  |  SPECIAL: 1
