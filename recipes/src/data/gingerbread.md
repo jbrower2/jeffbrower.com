@@ -1,5 +1,8 @@
 # Gingerbread
 
+- **Servings:** {48}
+- **Yield:** about {48} cookies
+
 ## Ingredients
 
 - {1/3} cup shortening

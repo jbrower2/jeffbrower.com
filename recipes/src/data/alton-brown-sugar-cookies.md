@@ -2,6 +2,7 @@
 
 [Source](https://www.foodnetwork.com/recipes/alton-brown/sugar-cookies-recipe-1914697)
 
+- **Servings:** {36}
 - **Yield:** about {36} 2 1/2 inch cookies
 - **Prep Time:** 15 minutes
 - **Inactive Time:** 2 hours

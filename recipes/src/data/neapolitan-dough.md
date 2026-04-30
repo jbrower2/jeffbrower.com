@@ -2,7 +2,8 @@
 
 Recipe by: Jim
 
-This recipe makes two 12" pizza crusts or four 9" Stromboli crusts.
+- **Servings:** {2}
+- **Yield:** {2} 12" pizza crusts or {4} 9" Stromboli crusts
 
 ## Ingredients
 

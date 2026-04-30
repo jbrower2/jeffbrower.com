@@ -1,5 +1,6 @@
 # Banana Bread/Muffins
 
+- **Servings:** {18}
 - **Yield:** {18} muffins/1 loaf
 
 ## Ingredients

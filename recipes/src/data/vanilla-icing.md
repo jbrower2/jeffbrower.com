@@ -1,5 +1,6 @@
 # Vanilla Icing
 
+- **Servings:** {2}
 - **Yield:** {2} cups
 
 ## Ingredients
