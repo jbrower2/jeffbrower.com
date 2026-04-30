@@ -24459,6 +24459,13 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
     }
   });
 
+  // src/data/gingerbread-men-smores.md
+  var require_gingerbread_men_smores = __commonJS({
+    "src/data/gingerbread-men-smores.md"(exports, module) {
+      module.exports = "# Gingerbread Men S'mores\n\nAlthough the gingerbread is as irresistible as ever\u2014with a combo of ginger, cinnamon, nutmeg, cloves and molasses\u2014what kicks this cookie into overdrive is a layer of bittersweet chocolate and marshmallow-cream cheese frosting.\n\n[Source](https://www.womansday.com/food-recipes/food-drinks/recipes/a11881/gingerbread-men-smores-recipe-125168/)\n\n- **Servings:** {23}\n- **Yield:** {23} Cookies\n- **Prep Time:** 1 hour 10 minutes\n- **Total Time:** 2 hours 45 minutes\n\n## Ingredients\n\n- {2 1/2} cups all-purpose flour\n- {2 1/2} tsp. ground ginger\n- {1 1/2} tsp. ground cinnamon\n- {1/2} tsp. ground nutmeg\n- {1/2} tsp. baking soda\n- {1/4} tsp. ground cloves\n- {1/4} tsp. kosher salt\n- {1/2} cup unsalted butter\n- {1/2} cup firmly packed dark brown sugar\n- {1} large egg\n- {1/4} cup molasses\n- {1 1/2} tsp. pure vanilla extract\n- {1} cup bittersweet chocolate chips\n- {1} package cream cheese\n- {1} cup marshmallow cream (such as Marshmallow Fluff)\n- Large red nonpareils or red mini candies, for decorating\n- 3 1/2-in. gingerbread man cookie cutters\n\n## Directions\n\n1. In a large bowl, whisk together the flour, ginger, cinnamon, nutmeg, baking soda, cloves and salt.\n1. Using an electric mixer, beat the butter and sugar in a large bowl until light and fluffy, about 3 minutes. Beat in the egg, molasses and vanilla. Reduce the mixer speed to low and gradually add the flour mixture, mixing until just incorporated (the dough will be soft).\n1. Shape the dough into four 1-in.-thick disks and roll each between 2 sheets of wax paper to 1/8-in. thick. Refrigerate until firm, about 30 minutes.\n1. Heat oven to 350\xB0F. Line baking sheets with parchment paper. Using floured gingerbread man cutters, cut out cookies. Place on the prepared baking sheets, spacing them 1 in. apart. Reroll, chill and cut the scraps.\n1. Bake, rotating the positions of the pans halfway through, until the cookies are set and the edges are beginning to brown, 10 to 12 minutes. Let cool on the sheet for 3 minutes, then transfer to a wire rack to cool completely.\n1. Meanwhile, melt the chocolate chips in microwave according to package directions. Spread 1 tsp melted chocolate onto the flat side of half of the cookies. Place, chocolate-side up, on baking sheet and refrigerate until just set, about 10 minutes.\n1. Using an electric mixer, beat the cream cheese and marshmallow cream in a large bowl until fluffy, about 2 minutes. Spread a rounded tsp marshmallow filling onto the flat side of remaining cookies. Sandwich with the chocolate-sided cookies and refrigerate until set, about 20 minutes.\n1. Transfer the remaining marshmallow filling to a pastry bag fitted with a writing tip (or a resealable bag; snip off the corner). Decorate as desired with the remaining filling and red nonpareils.\n";
+    }
+  });
+
   // src/data/gingerbread.md
   var require_gingerbread = __commonJS({
     "src/data/gingerbread.md"(exports, module) {
@@ -28971,6 +28978,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./gelato.md": () => require_gelato(),
     "./ginger-snaps.md": () => require_ginger_snaps(),
     "./gingerbread-cookies.md": () => require_gingerbread_cookies(),
+    "./gingerbread-men-smores.md": () => require_gingerbread_men_smores(),
     "./gingerbread.md": () => require_gingerbread(),
     "./grams-banana-bread.md": () => require_grams_banana_bread(),
     "./grape-pie.md": () => require_grape_pie(),
@@ -29274,6 +29282,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("ginger-snaps", ["Dessert/Cookies"]);
   addRecipe("gingerbread", ["Dessert/Bread"], true);
   addRecipe("gingerbread-cookies", ["Dessert/Cookies"]);
+  addRecipe("gingerbread-men-smores", ["Dessert/Cookies"], true);
   addRecipe("grams-banana-bread", ["Dessert/Bread"], true);
   addRecipe("grape-pie", ["Dessert/Pie"]);
   addRecipe(

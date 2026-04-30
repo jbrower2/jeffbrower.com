@@ -179,6 +179,7 @@ addRecipe("gelato", ["Dessert/Ice Cream"]);
 addRecipe("ginger-snaps", ["Dessert/Cookies"]);
 addRecipe("gingerbread", ["Dessert/Bread"], true);
 addRecipe("gingerbread-cookies", ["Dessert/Cookies"]);
+addRecipe("gingerbread-men-smores", ["Dessert/Cookies"], true);
 addRecipe("grams-banana-bread", ["Dessert/Bread"], true);
 addRecipe("grape-pie", ["Dessert/Pie"]);
 addRecipe(
