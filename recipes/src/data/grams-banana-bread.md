@@ -9,6 +9,7 @@
 - {3} large bananas, mashed
 - {3/4} cup sugar
 - {2} eggs
+- {1/2} cup butter
 - {2} cups flour
 - {1/2} tsp baking powder
 - {1} tsp baking soda
@@ -18,7 +19,7 @@
 
 ## Instructions
 
-1. Mix bananas, sugar, and eggs with a wooden spoon.
+1. Mix bananas, sugar, eggs, and butter with a wooden spoon.
 1. Incorporate flour, baking powder, baking soda, and salt into wet ingredients.
 1. Stir in vanilla and chocolate chips.
 1. Grease one loaf pan and bake at 325°F for an hour or longer.
