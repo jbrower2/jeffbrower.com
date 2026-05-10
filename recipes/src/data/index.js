@@ -447,6 +447,7 @@ addRecipe("rule-of-3-garlic-buffalo-wing-sauce", ["Sauce"], true);
 addRecipe("salsa", ["Sauce"], true);
 addRecipe("salsa-morada", ["Sauce"], true);
 addRecipe("salt-baked-potatoes", ["Side Dish"], true);
+addRecipe("sam-cutulis-meatballs", ["Main Dish"], true);
 addRecipe(
   "samoa-toffee",
   ["Dessert/Candy", "Collections/Girl Scout Cookies"],

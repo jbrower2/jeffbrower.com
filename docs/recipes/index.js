@@ -25936,6 +25936,13 @@ Super soft peanut butter cookies stuffed with Reese's Peanut Butter Cups and dri
     }
   });
 
+  // src/data/sam-cutulis-meatballs.md
+  var require_sam_cutulis_meatballs = __commonJS({
+    "src/data/sam-cutulis-meatballs.md"(exports, module) {
+      module.exports = "# Sam Cutuli's Meatballs\n\n- **Servings:** {4}\n\n## Ingredients\n\n- {1} lb ground meat\n- {1} cup Italian style breadcrumbs\n- {1/2} cup grated Parmesan cheese\n- {2} large eggs\n- {1/2} red onion, finely chopped\n- Small amount of salt and pepper to taste\n- Handful of fresh parsley and basil, cut up\n- {1/8} cup water (a little more if you think it needs it)\n\n## Instructions\n\n1. Mix all ingredients in a large bowl.\n1. Form into meatballs and place on a tray lined with parchment paper.\n1. Bake at 350\xB0F for 35 to 40 minutes.\n\n## Notes\n\n- **Meatloaf variation:** Can also make this recipe into a meatloaf. Place on a tray lined with parchment paper and bake at 350\xB0F for 1 hour.\n";
+    }
+  });
+
   // src/data/samoa-toffee.md
   var require_samoa_toffee = __commonJS({
     "src/data/samoa-toffee.md"(exports, module) {
@@ -29433,6 +29440,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./salsa-morada.md": () => require_salsa_morada(),
     "./salsa.md": () => require_salsa(),
     "./salt-baked-potatoes.md": () => require_salt_baked_potatoes(),
+    "./sam-cutulis-meatballs.md": () => require_sam_cutulis_meatballs(),
     "./samoa-toffee.md": () => require_samoa_toffee(),
     "./samoas-swirl-no-churn-ice-cream.md": () => require_samoas_swirl_no_churn_ice_cream(),
     "./sherbet.md": () => require_sherbet(),
@@ -29926,6 +29934,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("salsa", ["Sauce"], true);
   addRecipe("salsa-morada", ["Sauce"], true);
   addRecipe("salt-baked-potatoes", ["Side Dish"], true);
+  addRecipe("sam-cutulis-meatballs", ["Main Dish"], true);
   addRecipe(
     "samoa-toffee",
     ["Dessert/Candy", "Collections/Girl Scout Cookies"],
