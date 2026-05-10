@@ -67,6 +67,7 @@ addRecipe("apple-fritters", ["Dessert/Donuts"]);
 addRecipe("apple-muffins", ["Dessert/Muffins"]);
 addRecipe("apple-pear-pie", ["Dessert/Pie"]);
 addRecipe("b-and-ls-strawberry-smoothie", ["Drink"], true);
+addRecipe("baked-ziti", ["Main Dish"], true);
 addRecipe("banana-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
 addRecipe("banana-cream-pie", ["Dessert/Pie"]);
 addRecipe("banana-orange-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);

@@ -23651,6 +23651,13 @@
     }
   });
 
+  // src/data/baked-ziti.md
+  var require_baked_ziti = __commonJS({
+    "src/data/baked-ziti.md"(exports, module) {
+      module.exports = "# Baked Ziti\n\n- **Servings:** {8}\n- **Yield:** {1} 9x13-inch casserole\n- [Source](https://www.allrecipes.com/recipe/18031/baked-ziti-ii/)\n- **Prep Time:** 15 minutes\n- **Cook Time:** 30 minutes\n- **Total Time:** 1 hour\n\n## Ingredients\n\n- {16} ounces ziti pasta\n- {24} ounces ricotta cheese\n- {1} pound shredded mozzarella cheese\n- {1} large egg, beaten\n- {32} ounces spaghetti sauce\n- {1/4} cup grated Parmesan cheese\n\n## Directions\n\n1. Preheat the oven to 375 degrees F (190 degrees C). Lightly grease a 9x13-inch baking dish.\n1. Meanwhile, bring a large pot of lightly salted water to a boil. Add ziti pasta and cook for 8 to 10 minutes or until al dente; drain and rinse.\n1. Combine cooked ziti, ricotta cheese, mozzarella cheese, egg, and {1 1/2} cups spaghetti sauce in a medium bowl.\n1. Transfer into the prepared baking dish. Top with remaining spaghetti sauce, then sprinkle with Parmesan cheese.\n1. Bake in the preheated oven for 30 minutes; let stand for 15 minutes before serving.\n";
+    }
+  });
+
   // src/data/banana-bread-muffins.md
   var require_banana_bread_muffins = __commonJS({
     "src/data/banana-bread-muffins.md"(exports, module) {
@@ -29204,6 +29211,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./apple-muffins.md": () => require_apple_muffins(),
     "./apple-pear-pie.md": () => require_apple_pear_pie(),
     "./b-and-ls-strawberry-smoothie.md": () => require_b_and_ls_strawberry_smoothie(),
+    "./baked-ziti.md": () => require_baked_ziti(),
     "./banana-bread-muffins.md": () => require_banana_bread_muffins(),
     "./banana-cream-pie.md": () => require_banana_cream_pie(),
     "./banana-orange-bread-muffins.md": () => require_banana_orange_bread_muffins(),
@@ -29538,6 +29546,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("apple-muffins", ["Dessert/Muffins"]);
   addRecipe("apple-pear-pie", ["Dessert/Pie"]);
   addRecipe("b-and-ls-strawberry-smoothie", ["Drink"], true);
+  addRecipe("baked-ziti", ["Main Dish"], true);
   addRecipe("banana-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
   addRecipe("banana-cream-pie", ["Dessert/Pie"]);
   addRecipe("banana-orange-bread-muffins", ["Dessert/Bread", "Dessert/Muffins"]);
