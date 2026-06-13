@@ -226,6 +226,7 @@ addRecipe(
   true,
 );
 addRecipe("fortune-cookies", ["Dessert/Cookies"]);
+addRecipe("franks-red-hot-chicken-cutlets", ["Main Dish"], true);
 addRecipe(
   "frozen-raspberry-cheesecakes",
   ["Dessert/Cake/Cheesecake", "Collections/Girl Scout Cookies"],
@@ -502,6 +503,7 @@ addRecipe("sorbet", ["Dessert/Ice Cream"]);
 addRecipe("southwestern-egg-casserole", ["Breakfast"], true);
 addRecipe("spicy-chicken-rigatoni", ["Main Dish"], true);
 addRecipe("spritzgeback-cookies", ["Dessert/Cookies"]);
+addRecipe("strawberry-daiquiris", ["Drinks"], true);
 addRecipe("strawberry-rhubarb-pie", ["Dessert/Pie"]);
 addRecipe("sugar-cookies", ["Dessert/Cookies"]);
 addRecipe(

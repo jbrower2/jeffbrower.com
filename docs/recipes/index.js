@@ -24508,6 +24508,13 @@ If you're looking for the best chocolate cupcake recipe that is moist, rich and 
     }
   });
 
+  // src/data/franks-red-hot-chicken-cutlets.md
+  var require_franks_red_hot_chicken_cutlets = __commonJS({
+    "src/data/franks-red-hot-chicken-cutlets.md"(exports, module) {
+      module.exports = "# Frank's Red Hot Chicken Cutlets\n\n- **Servings:** {4}\n\n## Ingredients\n\n- {20} oz thin sliced chicken breasts\n- {1/2} cup panko breadcrumbs\n- {1/2} oz Frank's seasoning blend\n- sour cream\n\n## Instructions\n\n1. Preheat oven to 420 F\n1. Pat chicken dry with paper towels; season with salt and pepper\n1. Combine panko breadcrumbs, Frank's seasoning blend, 2 tbsp melted butter, and a pinch of salt and pepper\n1. Place the chicken in an oven-safe dish with sides, and brush a thin coating of sour cream on top\n1. Cover the top of the chicken cutlets with the breadcrumb mixture\n1. Roast chicken on middle rack until browned and cooked through, about 15-18 minutes\n";
+    }
+  });
+
   // src/data/frozen-raspberry-cheesecakes.md
   var require_frozen_raspberry_cheesecakes = __commonJS({
     "src/data/frozen-raspberry-cheesecakes.md"(exports, module) {
@@ -26097,6 +26104,13 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   var require_spritzgeback_cookies = __commonJS({
     "src/data/spritzgeback-cookies.md"(exports, module) {
       module.exports = "# Spritzgeb\xE4ck Cookies\n\n- **Servings:** {72}\n- **Yield:** {72} cookies\n\n## Ingredients\n\n- {4} stick Butter\n- {1 1/4} tsp Salt\n- {1} cup Sugar\n- {2} Egg\n- {1} tsp Vanilla Extract\n- {4} cup All-purpose Flour\n\n## Instructions\n\n1. Preheat oven to 375 degrees F\n1. Refrigerate UNGREASED cookie sheets until ready to use\n1. NOTE: Pressing the dough out onto cool, ungreased baking sheets makes it possible for each application to stick on contact\n1. You will need to clean off the cookie sheets between batches\n1. In a large bowl, mix butter until creamy\n1. Either use your electric mixer or beat by hand\n1. Gradually add sugar; beating until light and fluffy\n1. Cream the butter and sugar together thoroughly before beating in the egg\n1. Add eggs and beat well; stir in vanilla extract\n1. Gradually add flour to mixture, beating well after each addition\n1. The secret lies in the dough, which should be neither too soft nor too firm\n1. It it is too soft, the cookies will have no definition, and if the dough is to firm, the cookies will bake too dry\n1. To test the dough's consistency before baking a batch, press a small amount of dough through the cookie press cylinder\n1. If the dough is too soft so that it doesn't go through cleanly, chill the dough for about 15 minutes\n1. If the dough seems too firm, stir into the dough about 1 or 2 teaspoons whole milk\n1. If dough becomes too soft during use, refrigerate dough about 5 minutes or until firm enough to hold its shape (the dough will crumble if it is too cold, and it won't stick to the cookie sheet)\n";
+    }
+  });
+
+  // src/data/strawberry-daiquiris.md
+  var require_strawberry_daiquiris = __commonJS({
+    "src/data/strawberry-daiquiris.md"(exports, module) {
+      module.exports = "# Strawberry Daiquiris\n\n- **Servings:** {2}\n\n## Ingredients\n\n- {8} oz frozen strawberries\n- {2} oz fresh strawberries\n- {2} oz 2:1 simple syrup\n- {2} oz lime juice\n- {4} oz white rum\n\n## Instructions\n\n1. Blend all ingredients together.\n";
     }
   });
 
@@ -29321,6 +29335,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./favorite-chocolate-buttercream.md": () => require_favorite_chocolate_buttercream(),
     "./festive-white-chocolate-cheesecake.md": () => require_festive_white_chocolate_cheesecake(),
     "./fortune-cookies.md": () => require_fortune_cookies(),
+    "./franks-red-hot-chicken-cutlets.md": () => require_franks_red_hot_chicken_cutlets(),
     "./frozen-raspberry-cheesecakes.md": () => require_frozen_raspberry_cheesecakes(),
     "./funnel-cake.md": () => require_funnel_cake(),
     "./gelato.md": () => require_gelato(),
@@ -29459,6 +29474,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     "./southwestern-egg-casserole.md": () => require_southwestern_egg_casserole(),
     "./spicy-chicken-rigatoni.md": () => require_spicy_chicken_rigatoni(),
     "./spritzgeback-cookies.md": () => require_spritzgeback_cookies(),
+    "./strawberry-daiquiris.md": () => require_strawberry_daiquiris(),
     "./strawberry-rhubarb-pie.md": () => require_strawberry_rhubarb_pie(),
     "./sugar-cookies.md": () => require_sugar_cookies(),
     "./sunday-sin-cake.md": () => require_sunday_sin_cake(),
@@ -29713,6 +29729,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
     true
   );
   addRecipe("fortune-cookies", ["Dessert/Cookies"]);
+  addRecipe("franks-red-hot-chicken-cutlets", ["Main Dish"], true);
   addRecipe(
     "frozen-raspberry-cheesecakes",
     ["Dessert/Cake/Cheesecake", "Collections/Girl Scout Cookies"],
@@ -29989,6 +30006,7 @@ This dish is great for brunch or Sunday night supper. It's spicy--for a milder f
   addRecipe("southwestern-egg-casserole", ["Breakfast"], true);
   addRecipe("spicy-chicken-rigatoni", ["Main Dish"], true);
   addRecipe("spritzgeback-cookies", ["Dessert/Cookies"]);
+  addRecipe("strawberry-daiquiris", ["Drinks"], true);
   addRecipe("strawberry-rhubarb-pie", ["Dessert/Pie"]);
   addRecipe("sugar-cookies", ["Dessert/Cookies"]);
   addRecipe(
