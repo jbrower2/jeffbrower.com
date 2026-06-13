@@ -503,7 +503,7 @@ addRecipe("sorbet", ["Dessert/Ice Cream"]);
 addRecipe("southwestern-egg-casserole", ["Breakfast"], true);
 addRecipe("spicy-chicken-rigatoni", ["Main Dish"], true);
 addRecipe("spritzgeback-cookies", ["Dessert/Cookies"]);
-addRecipe("strawberry-daiquiris", ["Drinks"], true);
+addRecipe("strawberry-daiquiris", ["Drink"], true);
 addRecipe("strawberry-rhubarb-pie", ["Dessert/Pie"]);
 addRecipe("sugar-cookies", ["Dessert/Cookies"]);
 addRecipe(
