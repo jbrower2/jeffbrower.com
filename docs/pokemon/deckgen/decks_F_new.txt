@@ -1,0 +1,5 @@
+**Koraidon Kaiser** — a 280 haymaker on a Basic (alt printing)
+- Premium: **Koraidon ex** — the SV05 printing: Retribution Strike 20+ (scales with damage on it), Kaiser Tackle 280 ({R}{F}{F}, 60 recoil).
+- Supports: **Landorus** (Fist of Focus reattaches energy from the discard) + **Regirock** (Rock Armor, −30 with energy).
+- Core: Barbaracle (free {F} from hand each turn), fighting energy with a small fire splash for Kaiser Tackle.
+- Why: this Koraidon ex trades mono-color for raw power — Kaiser Tackle hits 280 off a Basic; Landorus/Barbaracle assemble the F+R cost fast and Rock Armor blunts the recoil race. (Two colors — the alt build to the mono-fighting Revenge Buster Koraidon.)

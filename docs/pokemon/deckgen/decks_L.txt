@@ -1,0 +1,65 @@
+**Eelektrik Recursion** — discard energy, get it right back
+- Premium: **Mega Eelektross ex** — Disaster Shock 190 + Paralyze (discards 2 {L}).
+- Supports: **Zapdos** (Thunderbolt 190, discards all energy) + **Luxray** (non-ex, Strong Volt 200).
+- Core: Tynamo / Eelektrik (Dynamotor reattaches a {L} from discard each turn) / Eelektross (non-ex), lightning energy.
+- Why: the discard-all attackers would normally stall — Dynamotor turns the discard into a refuel loop, so you keep swinging for 190+ every turn off one Tynamo line.
+
+**Overvolt Overload** — bury one attacker in energy
+- Premium: **Electivire ex** — High-Voltage Press 280 with two extra energy attached.
+- Supports: **Raikou** (Electro Fall, +90 with 4 lightning in play) + **Luxray** (non-ex).
+- Core: Magnemite / Magneton (one-shot: dump 3 energy from discard, KOs itself), Electabuzz / Electivire, Eelektrik, lightning.
+- Why: Magneton's burst plus Eelektrik's drip is exactly the "2 extra energy" High-Voltage Press wants — you overload Electivire a turn ahead of schedule.
+
+**Iono's Streamer** — attach lightning from hand, all day
+- Premium: **Iono's Bellibolt ex** — Electric Streamer attaches unlimited {L} from hand to Iono's pokemon; Thunderous Bolt 230.
+- Supports: **Iono's Kilowattrel** (Flashing Draw — refill to 6) + **Pawmot** (Voltaic Fist 130 + Paralyze).
+- Core: Iono's Tadbulb, Iono's Voltorb (Voltaic Chain scales with lightning on your Iono's) / Electrode, lightning.
+- Why: Electric Streamer only feeds Iono's, so the deck is all-Iono's; Kilowattrel keeps the hand stocked with the energy you're pouring onto the board.
+
+**Manectric Aggro** — shut off basics, then dump for 330
+- Premium: **Mega Manectric ex** — Flash Ray 120 (prevents damage from Basic attackers next turn); Riotous Blasting 200 + 130 if you discard all energy.
+- Supports: **Thundurus** (Charge — search a lightning to hand) + **Pawmot**.
+- Core: Electrike / Manectric, lightning energy.
+- Why: Flash Ray walls the format's many Basic-ex attackers while you build, then Riotous Blasting nukes for 330; Thundurus/Pawmot keep early pressure on.
+
+**Luxray Nuke** — 250 a turn, recycled
+- Premium: **Luxray ex** — Volt Strike 250 (discards all energy).
+- Supports: **Luxray** (non-ex, Incessant Onslaught) + **Zapdos**.
+- Core: Shinx / Luxio (Fighting Roar lets you evolve turn 1 vs an ex), Eelektrik, lightning energy.
+- Why: Volt Strike empties your energy, but Dynamotor rebuilds it from the discard; the non-ex Luxray and Zapdos are more discard-and-recur hitters riding the same engine.
+
+**Iron Thorns Lock** — turn every ability off
+- Premium: **Iron Thorns ex** — Initialization shuts off *all* abilities in play (yours too); Volt Cyclone 140.
+- Supports: **Iron Thorns** (non-ex, Megaton Lariat) + **Thundurus**.
+- Core: deliberately near-zero abilities, lightning energy.
+- Why: a hard counter to the format's ability engines (Eelektrik, Grumpig, Meganium, Steven's all fold) — you build with almost no abilities yourself and grind out the fair fight.
+
+**Kilowattrel Pivot** — re-arm on the fly
+- Premium: **Kilowattrel ex** — Return Charge switches it out and attaches 2 {L}; Thunder Lance scales with lightning attached.
+- Supports: **Ampharos** (Synchro Pulse, +80 when hands are even) + **Raikou**.
+- Core: Wattrel / Kilowattrel (non-ex — Wind Power Charge), lightning energy.
+- Why: Return Charge keeps a fresh, fully-loaded attacker coming while Thunder Lance grows; Ampharos adds a burst turn when hand sizes line up.
+
+**Hop's Pincurchin** — a buffed Hop's counterpuncher
+- Premium: **Hop's Pincurchin ex** — Spiky Thunder 120 + draw 2; Counterattack Quills puts counters on attackers.
+- Supports: **Hop's Snorlax** (Extra Helpings — all Hop's attacks +30) + **Raikou**.
+- Core: cheap Hop's / lightning bodies, lightning energy.
+- Why: Extra Helpings buffs Pincurchin (it's a Hop's) to 150, Counterattack Quills taxes anyone who hits it, and Spiky Thunder keeps your hand full.
+
+**Tapu Koko Swarm** — wide bench, cheap damage
+- Premium: **Tapu Koko ex** — Linked Lightning 60 + 20 per benched pokemon, for one {L}{C}.
+- Supports: **Tapu Koko** (non-ex — Summon Lightning searches 2 {L} pokemon) + **Pawmot**.
+- Core: cheap lightning basics to flood the bench, lightning energy.
+- Why: a fast wide board pushes Linked Lightning to 140+ for a single attachment, and the non-ex Tapu Koko digs out the basics that make the bench wide.
+
+**Zekrom Comeback** — hit harder the more you're losing
+- Premium: **Zekrom ex** — Voltage Burst 130 + 50 per prize your opponent has taken.
+- Supports: **Zapdos** + **Raikou**.
+- Core: lightning basics, Eelektrik, lightning energy.
+- Why: a prize-race payoff on a Basic — Zekrom scales as you fall behind while Dynamotor refuels the discard-heavy attackers around it.
+
+**Rotom Tool** — 130 recycled, with a Tool angle (flagged)
+- Premium: **Rotom ex** — Thunderbolt 130 (discards all energy); Multi Adapter lets Rotom pokemon hold two Pokémon Tools.
+- Supports: **Zapdos** + **Luxray** (non-ex).
+- Core: Eelektrik, lightning energy.
+- Why: Thunderbolt refuels off Dynamotor, and Multi Adapter is a strong Tool-stacking engine — *if* the format supplies Tool cards (Trainers, outside this Pokémon-only pool). (Flagged — Tool-dependent.)

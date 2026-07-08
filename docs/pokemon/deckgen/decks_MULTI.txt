@@ -1,0 +1,59 @@
+**Cinderace Snipe** — 280 main attack + a go-anywhere 180 snipe
+- Premium: **Cinderace ex** — Flare Strike 280, or Garnet Volley snipes any pokemon for 180.
+- Supports: **Cinderace** (non-ex — Turbo Flare hits 50 and loads 3 energy of any type onto the bench) + **Roaring Moon** (a cheap dark backup hitter).
+- Core: Scorbunny / Raboot, fire + dark energy (a few fighting for pre-evo attacks).
+- Why: Turbo Flare fixes the three-color energy problem, then you alternate a 280 Flare Strike with Garnet Volley picking off their key benched pokemon.
+
+**Salamence Splash** — a fire deck that dips into water for the finisher
+- Premium: **Salamence ex** — Wide Blast spreads 50 to their whole bench (mono-fire), or Dragon Impact 300 with a water splash.
+- Supports: **Moltres** (Fighting Wings, +90 into an ex) + **Kyogre** (scales with water in the discard).
+- Core: Bagon / Shelgon, mostly fire energy with a small water splash.
+- Why: it plays as a fire deck (Wide Blast + Moltres pressure) and only needs water for the 300 Dragon Impact, so the splash never bricks you.
+
+**Galvantula Item-Lock** — punish ex, then lock their hand
+- Premium: **Galvantula ex** — Charged Web does 110 + 110 into an ex/V; Fulgurite 180 and stops them playing Item cards next turn.
+- Supports: **Raikou** (Electro Fall, +90 with 4 lightning in play) + **Landorus** (Fist of Focus reattaches energy from the discard).
+- Core: Joltik, Galvantula (non-ex — Discharge), grass + lightning + fighting energy.
+- Why: Charged Web is a 220 anti-ex swing, and Fulgurite adds an item-lock; Raikou and Landorus give you fighting/lightning bodies so the three-color cost is less painful.
+
+**Alolan Exeggutor KO-Flip** — dump the hand, coin-flip a free knockout
+- Premium: **Alolan Exeggutor ex** — Tropical Frenzy attaches any number of basic energy from your hand; Swinging Sphene coin-flips to Knock Out one of their basics.
+- Supports: **Carracosta** (Primal Knowledge, +30 vs evolved pokemon) + **Tapu Bulu** (Wood Hammer 220).
+- Core: Exeggcute, Exeggutor (non-ex — Solar Beam), grass + water + fighting energy.
+- Why: Tropical Frenzy solves the three-color energy problem in a single attack, then Swinging Sphene threatens an instant KO every turn while Tapu Bulu/Carracosta punch with the same energy. (Ambitious — three colors.)
+
+**Miraidon Future** — a cheap two-color aggro tribe
+- Premium: **Miraidon ex** — Repulsion Bolt does 60 + 100 into a damaged target; Cyber Drive 220.
+- Supports: **Iron Boulder** (a {P} Future attacker) + **Iron Thorns** (non-ex — a {L} Future body that can shut off abilities).
+- Core: lightning + psychic energy, Fan Rotom (free turn-1 search).
+- Why: Miraidon, Iron Boulder, and Iron Thorns are all "Future" pokemon that share the same lightning/psychic energy, so the deck is a coherent tribe of cheap, hard-hitting basics with no evolution lines to brick on.
+
+**Flygon Anti-Ex** — mono-fighting hit-and-run with a nuclear option
+- Premium: **Flygon ex** — Reversing Storm 130 and pivots to the bench (mono-fighting); Sonic Peridot does 100 to *every* opposing ex/V.
+- Supports: **Landorus** (Fist of Focus ramp + a 130 attacker) + **Rhyperior** (Wide Wall — blanks their Supporter effects).
+- Core: Trapinch / Vibrava / Flygon (non-ex — Sandy Flapping mills on evolve), fighting energy with a small water + metal splash for Sonic Peridot.
+- Why: it runs as a mono-fighting hit-and-run deck (Reversing Storm) and only splashes water/metal for Sonic Peridot — which one-shots the format's whole ex-based field for 100 each.
+
+**Mega Dragalge Poison** — strip their gear, then poison for 160 a turn
+- Premium: **Mega Dragalge ex** — Corrosive Liquid discards all Tools + Special Energy off their pokemon; Pernicious Poison poisons for 16 counters per checkup.
+- Supports: **Toxtricity** (Sinister Surge ramps dark from the deck) + **Froslass** (Freezing Shroud chips every ability-having pokemon).
+- Core: Skrelp, water + dark energy.
+- Why: Pernicious Poison is a 160-a-turn clock, Corrosive Liquid nukes their tools/special energy, and Froslass punishes the ability engines they'd use to escape — pure disruption.
+
+**Palossand Control** — colorless beater with a board-wide control button
+- Premium: **Palossand ex** — Sand Tomb 160 (colorless); Barite Jail drops every benched pokemon to 100 HP.
+- Supports: **Dusknoir** (Cursed Blast — 130 to any pokemon) + **Alakazam** (Strange Hacking rakes their scattered counters onto one target).
+- Core: Sandygast, psychic energy with a water + fighting splash for Barite Jail.
+- Why: Sand Tomb is a colorless 160 you fuel with psychic, and Barite Jail + Dusknoir + Alakazam form a spread-control package that softens the whole board for the kill.
+
+**Tatsugiri Toolbox** — flexible three-color tempo
+- Premium: **Tatsugiri ex** — Surprise Pump 100 (unaffected by their effects); Cinnabar Lure loads pokemon onto your bench.
+- Supports: **Kyogre** (water scaler) + **Roaring Moon** (dark hitter).
+- Core: fire + water + dark energy, Fan Rotom (free search).
+- Why: Cinnabar Lure builds your board while Surprise Pump reliably chips for 100; Kyogre/Roaring Moon share the water/dark half of the energy base. (Greedy — three colors on a single Basic.)
+
+**Mega Latias Nuke** — funnel the bench, fire a 300 nuke
+- Premium: **Mega Latias ex** — Illusory Impulse 300 (discards all energy); Strafe pivots for 40.
+- Supports: **Magearna** (Auto Heal — 90 healed each time you re-attach) + **Delphox** (Flaring Magic draws you back to a full hand).
+- Core: **Latios** (Lustrous Assist — when Mega Latias ex moves from Bench to Active, move any amount of energy from your Bench onto it), Grumpig (free psychic accel), fire + psychic energy.
+- Why: Latios is the dedicated enabler this deck was missing — stack energy on the bench, promote Mega Latias ex, and Lustrous Assist dumps it all on at once for an instant 300 Illusory Impulse; Magearna keeps you healthy through the rebuild between swings.

@@ -1,0 +1,5 @@
+**Bouffalant Herd** — a −60 wall on your whole team
+- Premium: **Bouffalant ex** — Gold Breaker 200 into an ex; Bouffer, takes 30 less.
+- Supports: **Bouffalant** (the SV07 printing — Curly Wall: with another Bouffalant in play, all your Basic {C} pokemon take 60 less) + **Drednaw** (walls a single 200+ hit).
+- Core: Fan Rotom (free search), cheap Basic colorless bodies, one basic energy.
+- Why: running the non-ex Bouffalant next to Bouffalant ex turns on Curly Wall, so your entire Basic-colorless board eats 60 less damage — stacked with Bouffer that's −90 on the ex itself, making an anti-ex herd almost nothing can punch through.

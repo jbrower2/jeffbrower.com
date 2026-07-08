@@ -1,0 +1,41 @@
+**TR Spread** — salt the whole board, then snipe
+- Premium: **Team Rocket's Crobat ex** — Biting Spree drops 2 counters on each of 2 pokemon on evolve; Assassin's Return 120 and bounces itself to hand.
+- Supports: **Team Rocket's Sneasel** (Strike the Sleeper — 20× the counters already on a benched target) + **Team Rocket's Tyranitar** (Sand Stream — 2 counters onto every opposing Basic each checkup; its ability needs no energy).
+- Core: TR Zubat / Golbat (Sneaky Bite counters on evolve), TR Larvitar / Pupitar, TR Dugtrio (Holes) / TR Ampharos (Darkest Impulse), dark + psychic energy.
+- Why: the deck sprinkles damage counters everywhere — automatically via Sand Stream, on evolve via Biting Spree/Sneaky Bite — then Sneasel converts the most-loaded benched target into a knockout while Crobat mops up the active and re-arms.
+
+**TR Nido Family** — a benched Nidoking powers Nidoqueen
+- Premium: **Team Rocket's Nidoking ex** — Tainted Horn poisons for 8 counters per checkup; Kingly Impact 240.
+- Supports: **Team Rocket's Sneasel** + **Team Rocket's Honchkrow** (a 100-damage dark attacker) — flex pressure.
+- Core: TR Nidoran♀ / Nidorina / **Nidoqueen** (Love Impact does 180 while a Nidoking is on your bench), TR Nidoran♂ / Nidorino, TR Zubat (poison), dark energy.
+- Why: run both Nido lines — Nidoking ex sitting on the bench turns on Nidoqueen's 180 Love Impact, and when it's active instead it stacks an 80-a-turn poison clock. Two payoffs off one family.
+
+**TR Persian Copycat** — steal their attack, shred their hand
+- Premium: **Team Rocket's Persian ex** — Haughty Order uses an attack from the top 10 of their deck; Cruel Slash 140 + Confuse.
+- Supports: **Team Rocket's Honchkrow** + **Team Rocket's Sneasel** (extra dark pressure / bench snipe).
+- Core: TR Meowth (Paw-cket Pilfer strips a card from their hand), TR Chingling (discards a random card), TR Murkrow (fetches Supporters), dark energy.
+- Why: a colorless disruptor — Meowth/Chingling grind their hand while Persian steals their best attack and Confuses; the dark supports give you a reliable damage backbone.
+
+**TR Rocket Rush Swarm** — go wide, scale off your own board
+- Premium: **Team Rocket's Crobat ex** — the finisher (Assassin's Return hit-and-run) on a wide board.
+- Supports: **Team Rocket's Spidops** (Rocket Rush does 30× your Team Rocket's pokemon in play; Charging Up reattaches energy) + **Team Rocket's Honchkrow**.
+- Core: cheap TR basics to flood the bench — TR Rattata, TR Meowth, TR Zubat, TR Diglett, TR Larvitar — dark energy.
+- Why: pack the deck with cheap Team Rocket's basics so Spidops' Rocket Rush scales toward 200+, and Crobat ex adds reach and re-arms the counter engine.
+
+**TR Condition Stack** — pile on status, cash it in with Muk
+- Premium: **Team Rocket's Nidoking ex** — Tainted Horn poisons heavily.
+- Supports: **Team Rocket's Exeggutor** (Tri Kinesis — 3 heads Knocks Out any pokemon) + **Team Rocket's Sneasel**.
+- Core: TR Grimer / **Muk** (Hazardous Venom does 100× the special conditions on their active), TR Zubat (Poison), TR Ekans (Paralyze) / TR Drowzee (Sleep), TR Houndoom (Burn + Confuse), dark energy.
+- Why: everything inflicts a special condition, and Muk's Hazardous Venom multiplies off the pile (Poison + Burn + a sleep/confuse/paralyze = 300) while Nidoking's poison keeps the clock running.
+
+**TR Disruption Lock** — turn their engine off
+- Premium: **Team Rocket's Persian ex** — Cruel Slash 140 + Confuse, or Haughty Order for tempo.
+- Supports: **Team Rocket's Wobbuffet** (Rocket Mirror flings a pile of your benched damage onto their active) + **Team Rocket's Sneasel**.
+- Core: TR Arbok (Potent Glare — your opponent can't play ability pokemon from hand), TR Grimer (Corrosive Sludge discards the defender), TR Meowth / TR Chingling (hand disruption), dark + psychic energy.
+- Why: Arbok shuts off their ability-based engines while Meowth/Grimer attack their hand and board, and Persian grinds them out under the lock.
+
+**TR Moltres Removal** — delete their attacker outright
+- Premium: **Team Rocket's Moltres ex** — Flame Screen 110 (takes 50 less next turn); Evil Incineration discards a Team Rocket's Energy to *discard* their Active pokemon and everything attached.
+- Supports: **Team Rocket's Sneasel** + **Team Rocket's Honchkrow**.
+- Core: TR Houndour / TR Houndoom (Burn), fire energy plus Team Rocket's Energy (the special energy Evil Incineration consumes).
+- Why: Evil Incineration is a one-sided removal — no prize, but it wipes their invested attacker off the board for a huge tempo swing; Flame Screen buys the turns to set it up. (Needs the Team Rocket's Energy special card.)

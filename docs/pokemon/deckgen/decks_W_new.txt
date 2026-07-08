@@ -1,0 +1,11 @@
+**Wash Out Current** — funnel the bench's water onto one hitter
+- Premium: **Kingdra ex** — Hydro Pump 50 + 50 per {W} on it; King's Order recurs water pokemon.
+- Supports: **Dewgong** (Wash Out — move a {W} from a benched pokemon to your Active, as often as you like) + **Clawitzer** (Fall Back to Reload attaches 2 {W}; Aqua Launcher 210).
+- Core: Horsea / Seadra, Seel, water energy.
+- Why: Dewgong's unlimited bench→active energy shuttle pools all your loose water onto Kingdra every turn, so Hydro Pump scales fast; Clawitzer both ramps and gives a big backup swing.
+
+**Vibrant Wall** — a bigger, harder-to-KO tank
+- Premium: **Milotic ex** — Sparkling Scales (immune to Tera pokemon); Hypno Splash 160 + Sleep.
+- Supports: **Ludicolo** (Vibrant Dance — all your pokemon get +40 HP) + **Aurorus** (Tundra Wall — water pokemon with energy take 50 less).
+- Core: Feebas, Lotad line, water energy.
+- Why: Vibrant Dance (+40 HP) and Tundra Wall (−50) stack on top of Milotic ex's 270 HP and Sleep lock, making a wall that out-sizes and out-survives most attackers.

@@ -1,0 +1,89 @@
+**Symphonia Flood** — Mega Gardevoir ex floods the board with Psychic Energy, then cashes it in for a one-turn haymaker.
+- Premium: **Mega Gardevoir ex** — Overflowing Wishes (1 {P}) searches a Basic {P} Energy onto every Benched Pokémon at once; Mega Symphonia (1 {P}) then deals 50 damage for every {P} Energy attached to your whole board.
+- Supports: **Tapu Lele** (cheap early attacker/Confuse while Energy piles up) + **Zacian** (cheap early attacker, Limit Break closes vs. a low-prize opponent).
+- Core: Ralts/Kirlia (evolution line) + Spoink/Grumpig (Energized Steps auto-attaches Energy on evolve) + Abra/Kadabra (draw 2 on evolve) + heavy Basic {P} Energy.
+- Why: Grumpig's on-evolve attach plus Wishes' 1-Energy bulk-attach can flood 4-5 {P} Energy onto the board in a turn or two, turning Symphonia into a 200-250+ swing; Kadabra's draw smooths the setup.
+
+**Warded Symphonia** — the control build of the same flood engine: slower, but confuses and rakes instead of racing (2nd build of the best deck).
+- Premium: **Mega Gardevoir ex** — same Overflowing Wishes/Mega Symphonia core.
+- Supports: **Alakazam** (Strange Hacking Confuses the opponent's Active and rakes their scattered damage counters onto one target) + **Dusknoir** (self-KO for 13 counters as reach, or Shadow Bind to trap the Active).
+- Core: Ralts/Kirlia (evolution line) + Abra/Kadabra (Alakazam's own line, draw 2 on evolve) + Duskull/Dusclops (Dusknoir's line, free self-KO for 5 counters) + heavy Basic {P} Energy.
+- Why: Dusclops/Dusknoir scatter damage across the opponent's side while Alakazam confuses and consolidates it onto a kill target, buying the extra turns Wishes/Symphonia need to go even bigger than Build A.
+
+**Scattergun Ward** — Farigiraf ex no-sells opposing Basic-ex attackers while spreading damage for a clean-up kill.
+- Premium: **Farigiraf ex** — Armor Tail prevents ALL damage from opponent's Basic Pokémon-ex attacks; Dirty Beam hits for 160 and splashes 30 more onto a Benched target.
+- Supports: **Alakazam** (Confuse + rake the opponent's scattered counters onto one target) + **Munkidori** (Adrena-Brain shifts up to 3 counters onto the opponent every turn once it has a {D} Energy attached; Mind Bend Confuses).
+- Core: Girafarig/Farigiraf (evolution line; Psychic Assault punishes whatever damage is already on the opponent's Active) + Abra/Kadabra (Alakazam's line, draw) + Duskull/Dusclops (free self-KO for 5 counters) + Basic {P} Energy with a light {D} splash for Munkidori.
+- Why: Dirty Beam and Dusclops seed damage counters across the opponent's board, Munkidori keeps shifting more onto them every turn, and Alakazam rakes it all onto one Pokémon for the kill — while Armor Tail makes Farigiraf ex itself untouchable to Basic-ex attackers. Note the small {D} splash Munkidori requires.
+
+**Cobalt Crossfire** — Iron Crown ex buffs its one Future-tech ally into a coin-flip nuke.
+- Premium: **Iron Crown ex** — Cobalt Command boosts other Future Pokémon's attacks by 20 more damage to the opponent's Active; Twin Shotels deals a flat 50+50 to two of the opponent's Pokémon, ignoring Weakness/Resistance/effects.
+- Supports: **Iron Boulder** (Adjusted Horn: 170, or 190 buffed by Cobalt Command, if hand sizes don't match — else nothing) + **Zacian** (Limit Break finishes a low-prize opponent).
+- Core: Spoink/Grumpig (accelerates to Twin Shotels' 3-Energy cost) + Basic {P} Energy.
+- Why: Twin Shotels' unconditional 2-target spread plus Cobalt Command's flat +20 turning Iron Boulder's Adjusted Horn into a 190-or-nothing swing gives two independent damage lines that both ignore board effects, so this deck cares less about the opponent's protections than most.
+
+**Waltz of Whispers** — Mismagius ex confuses the opponent every time they try to switch away, feeding two different confusion payoffs.
+- Premium: **Mismagius ex** — Swirling Prose auto-Confuses the opponent's new Active whenever their old Active retreats to the Bench on their turn; Hexa-Magic hits for 150 and refills your hand to 6 cards.
+- Supports: **Mismagius** (base-form Assassin's Magic: 60, plus 6 counters on the opponent's Bench if their Active has a Special Condition) + **Tapu Lele** (Perplex Confuses on demand; Mental Crush does 90+90=180 vs. a Confused Active).
+- Core: Misdreavus (shared evolution line for both Mismagius and Mismagius ex) + Girafarig/Farigiraf (Eerie Wave adds a 3rd manual Confuse) + Flabébé/Floette/Florges (coin-flip switch + Confuse) + Basic {P} Energy.
+- Why: Swirling Prose punishes any retreat, Florges and Farigiraf add two more ways to Confuse on demand, and both Mismagius and Tapu Lele turn that Confusion into extra damage — a genuinely redundant, hard-to-dodge lock-and-punish loop.
+
+**Deep Prison** — Jellicent ex and Dusknoir strand the opponent's Active with no retreat and no Items.
+- Premium: **Jellicent ex** — Oceanic Curse stops the opponent from playing any Item or Pokémon Tool cards while this is Active; Power Press does 80, or 160 with 2 spare Energy attached beyond cost.
+- Supports: **Dusknoir** (Shadow Bind: 150 damage, and the Defending Pokémon can't retreat next turn) + **Cofagrigus** (Perplex Confuses the trapped Active for extra insurance).
+- Core: Frillish (evolution line; Oceanic Gloom previews the Item-lock pre-evolution) + Duskull/Dusclops (Dusknoir's line) + Yamask (Cofagrigus's line) + Spoink/Grumpig (accelerates to Power Press's 4-Energy breakpoint) + Basic {P} Energy.
+- Why: Shadow Bind removes the escape route and Oceanic Curse removes the Item-based answers, so the stuck Active can't retreat, can't be tooled up, and might even be Confused into missing back — a genuine prison shell with Power Press as the payoff once Grumpig loads the Energy.
+
+**Fairy-Slayer** — Xerneas ex one-shots the opponent's ex attackers.
+- Premium: **Xerneas ex** — Aurora Beam for 50 early; Rising Horns does 120, or 220 if the opponent's Active is a Pokémon ex.
+- Supports: **Zacian** (Limit Break punishes a low-prize opponent) + **Enamorus** (Love Resonance does 80, or 200 if any of your Pokémon share a type with any of the opponent's — situational, but common in a Psychic-heavy field).
+- Core: Spoink/Grumpig (accelerates to Rising Horns' 3-Energy cost) + Abra/Kadabra (draw) + Basic {P} Energy.
+- Why: 220 from Rising Horns cleanly one-shots almost every ex in this entire ≤$1 pool (only the 320-360 HP Megas survive), making this the sharpest dedicated anti-ex answer here; Zacian and Enamorus cover matchups where the opponent isn't playing an ex at all.
+
+**Full Hand Nova** — Mega Clefable ex turns a stuffed hand of spare Energy into one enormous haymaker.
+- Premium: **Mega Clefable ex** — Luminous Wing blocks opposing Ability effects done to it; Shooting Moons does 120, plus 40 more for each of up to 4 Energy cards discarded from hand (up to 280).
+- Supports: **Iron Boulder** (Adjusted Horn: 170 if hand sizes don't match — likely true right after Shooting Moons empties your hand) + **Spectrier** (Phantasmal Barrage discards its own Energy for a flat 12-counter burst, another resource-for-damage line).
+- Core: Clefairy/Clefable (evolution line; Follow Me gusts a weak Benched target into Shooting Moons range, Magical Shot is a clean 100 while you stockpile) + Abra/Kadabra (draw to keep refilling the hand) + Basic {P} Energy (deliberately kept in hand, not just attached).
+- Why: Kadabra's draw and Clefable's own attacks buy time to hoard Energy in hand rather than attach it, so Shooting Moons can dump 3-4 cards for a 240-280 hit. Flag this one as a bit greedy — it wants you to under-attach Energy all game, which is awkward if you need board presence early.
+
+**Curtain-Riser** — Meloetta ex opens with an attack on turn one and snowballs its own signature move.
+- Premium: **Meloetta ex** — Debut Performance lets it attack turn one if you go first; Echoed Voice does 30 now and boosts its own next use by 80 (110 on the follow-up).
+- Supports: **Zacian** (cheap early attacker, Limit Break later) + **Tapu Lele** (Perplex to Confuse, Mental Crush as a second attacker).
+- Core: Ralts (Collect draws a card, Headbutt as a 1-Energy attacker; left unevolved here) + Abra/Kadabra (draw) + Basic {P} Energy.
+- Why: a turn-one 30 followed by a turn-two 110 from the same attacker is real tempo few budget decks can match. Flag as front-loaded, though — 200 HP and no late-game scaling mean this deck wants to close fast or fall off.
+
+**Silent Scream** — Scream Tail ex denies the opponent's first Supporter, then grinds them down with Crunch.
+- Premium: **Scream Tail ex** — Scream (1 Colorless, only if you go second, only turn one) stops the opponent from playing Supporter cards next turn; Crunch does 120 and discards an Energy from the opponent's Active.
+- Supports: **Dusknoir** (Shadow Bind traps the Active in place right after Scream denies their resources) + **Zacian** (Limit Break as a late finisher).
+- Core: Duskull/Dusclops (Dusknoir's line) + Abra/Kadabra (draw) + Basic {P} Energy.
+- Why: landing Scream into a follow-up Shadow Bind lock denies both resources and mobility while Crunch strips Energy on top. Flag Scream itself as situational — it only exists on turn one, and only if you go second.
+
+**Sweet Stall** — Alcremie ex heals every turn while a wide bench turns Sweet Circle into real damage.
+- Premium: **Alcremie ex** — Confectionary Gift heals 30 from one Pokémon every turn; Whipped Shot hits for a flat 160.
+- Supports: **Gothitelle** (Distorted Future resets the opponent's hand to 3 fresh cards, disrupting their plan) + **Spectrier** (Phantasmal Barrage: discard its own Energy for a guaranteed 12-counter burst).
+- Core: Milcery/Alcremie (evolution line; Draining Kiss self-heals 10, Sweet Circle does 20 for every Pokémon you have in play) + Gothita/Gothorita (Gothitelle's line) + Spoink/Grumpig (accelerates to Whipped Shot's 3-Energy cost) + Basic {P} Energy.
+- Why: Confectionary Gift plus Draining Kiss keep the board patched up while Sweet Circle rewards simply filling the Bench. Flag this as slow — it out-values rather than out-races, so it's vulnerable to fast aggro before the healing adds up.
+
+**Detonation Coat** — Mega Diancie ex tanks hits, then dumps its own Energy for a single 240-damage blast.
+- Premium: **Mega Diancie ex** — Diamond Coat takes 30 less from every attack (after Weakness/Resistance); Garland Ray discards up to 2 Energy from itself for 120 damage each (up to 240) — only needs the 2 Energy that paid the attack's own cost to do it.
+- Supports: **Spectrier** (Phantasmal Barrage: same discard-for-damage shape, a backup burst attacker) + **Enamorus** (Love Resonance: 80, or 200 vs. a shared-type board).
+- Core: Spoink/Grumpig (Energized Steps reloads Diancie's Energy right after it empties itself) + Basic {P} Energy.
+- Why: Diamond Coat lets Diancie tank in the Active slot while it reaches 2 attached Energy, then Garland Ray cashes both in for 240 in one shot. Flag the timing — with 0 or 1 Energy attached, Garland Ray does nothing or only 120, so it needs a turn of patience (or Grumpig) before it swings.
+
+**Coin-Flip Reaper** — Houndstone ex snowballs on heads while its pre-evolution grinds the opponent's hand card by card.
+- Premium: **Houndstone ex** — Horrifying Fang does 100, plus 20 more for every heads flipped before the first tails (streaky, but can spike well past 150).
+- Supports: **Iron Boulder** (Adjusted Horn: 170 if hand sizes don't match, which Houndstone's discards help cause) + **Enamorus** (Love Resonance: situational 80-200).
+- Core: Greavard/Houndstone (evolution line; Take Down is a cheap early attacker, Horrifying Bite flips-until-tails to randomly strip cards from the opponent's hand into their deck) + Abra/Kadabra (draw offsets the variance) + Basic {P} Energy.
+- Why: Houndstone (base form)'s repeated hand-stripping both disrupts the opponent and skews hand sizes uneven for Iron Boulder, while Horrifying Fang provides upside on hot streaks. Flag this deck as variance-heavy — both signature attacks are coin-flip-dependent and can underperform on a cold draw.
+
+**Mercy for All** — Mega Floette ex's board-wide heal is a double-edged stall plan.
+- Premium: **Mega Floette ex** — Gentle Light spends your attack for the turn to heal 30 from every Pokémon in play, yours AND the opponent's; Eternity Bloom hits for 200 and attaches up to 4 Basic {P} Energy across your Bench.
+- Supports: **Gothitelle** (Distorted Future disrupts the opponent's hand) + **Enamorus** (Love Resonance as a secondary attacker).
+- Core: Gothita/Gothorita (Gothitelle's line) + Milcery/Alcremie (Draining Kiss reinforces the heal theme) + Basic {P} Energy.
+- Why: flagged as the greediest deck here — Gentle Light heals the opponent exactly as much as you, so it's only good when you're strictly behind on board damage, and a wasted turn otherwise; lean on it only to stabilize before Eternity Bloom's one real hit.
+
+**Battle-Scarred Bench** — Gourgeist ex punishes YOUR OWN damaged backline, not the opponent's.
+- Premium: **Gourgeist ex** — Horrifying Rondo does 30, plus 50 more for each of YOUR Benched Pokémon that already has any damage counters on it; Ghostly Touch hits for 140 and discards a random card from the opponent's hand.
+- Supports: **Dusknoir** (Shadow Bind traps the opponent's Active while you rotate a battered attacker to the Bench) + **Zacian** (Limit Break as a generic late finisher).
+- Core: Pumpkaboo (evolution line) + Duskull/Dusclops (Dusknoir's line) + Abra/Kadabra (draw) + Basic {P} Energy.
+- Why: note the exact wording — Horrifying Rondo counts damage counters on YOUR bench, not the opponent's, so it only pays off if you deliberately retreat attackers that already took damage instead of trading them away. Flagged as the most experimental and least consistent deck in the set, since nothing here reliably seeds your own Bench with damage on demand.

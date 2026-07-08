@@ -1,0 +1,11 @@
+**Reshiram Fire Wing** — flat 200, no prize math (alt printing)
+- Premium: **Reshiram ex** — the SV09 printing: Fire Wing 40, and Scorching Fire 200 (discard an energy).
+- Supports: **Entei** (Flare Fall, +90 with 4 fire in play) + **Moltres** (Fighting Wings, +90 into an ex).
+- Core: fire energy, Fan Rotom (free turn-1 search).
+- Why: an all-Basic fire beatdown built on the *other* Reshiram ex — Scorching Fire is a reliable flat 200 (unlike the comeback-scaling WHT printing), so it plays as straightforward aggro that doesn't care about the prize count.
+
+**Retaliation Burn** — punish them for attacking you
+- Premium: **Volcanion ex** — Scalding Steam Burns their active each turn; Scorching Cyclone 160 + energy move.
+- Supports: **Magmortar** (Magma Surge — Burned pokemon take 3 more counters each checkup) + **Magcargo** (Lava Zone auto-Burn on retreat).
+- Core: **Numel** (the ASH printing — Incandescent Body: Burns any attacker that damages it, even from the bench-KO), Slugma, fire energy.
+- Why: between Volcanion (burns on your turn) and Numel's Incandescent Body (burns on theirs), the opponent is burning coming and going — and Magmortar turns every Burn into 40 a turn.

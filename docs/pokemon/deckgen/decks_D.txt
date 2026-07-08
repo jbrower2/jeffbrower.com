@@ -1,0 +1,77 @@
+**Yveltal Soul Reap** — Poison-retaliation chip damage sets up a board-wide Soul Destroyer wipe.
+- Premium: **Yveltal ex** — Soul Destroyer (DDC) Knocks Out every opposing Pokémon at 50 HP or less remaining, anywhere on the board; Dark Strike (DDC) hits for 210 but locks itself out next turn.
+- Supports: **Toxtricity** (ramp — Sinister Surge fetches a Basic {D} Energy onto a benched attacker) + **Pecharunt** (recovery — Final Chain digs for a card when it's KO'd).
+- Core: **Qwilfish** + **Scolipede** (Poison Point — any Pokémon that damages them while Active gets Poisoned, even through a KO) + basic Darkness Energy.
+- Why: Poison Point punishes every incoming attack for free, and once poison ticks (or trades) push several opposing Pokémon under 50 HP, Soul Destroyer erases the whole group in one swing instead of picking them off individually.
+
+**Okidogi Self-Poison Burst** — Self-ramps its own energy and self-poisons to flip on a 260-damage attack almost immediately.
+- Premium: **Okidogi ex** — Poisonous Musculature (free) searches up to 2 Basic {D} Energy onto itself and self-inflicts Poison when it does; Chain-Crazed (DDC) hits for 130, +130 more (260 total) while Poisoned.
+- Supports: **Hoopa** (draw — Filch draws 2 to find Okidogi early) + **Pecharunt** (recovery — Final Chain digs for a card on KO).
+- Core: **Qwilfish** + **Scolipede** (Poison Point retaliation, reinforcing the all-poison board) + basic Darkness Energy.
+- Why: Poisonous Musculature's self-poison isn't a downside here — it's the switch that turns on Chain-Crazed's bonus the same turn Okidogi drops 2 of the 3 Energy it needs, so a lone Basic ex threatens 260 damage almost immediately.
+
+**Marnie's Punk Up Wheel** — One Punk Up trigger dumps 5 Energy straight onto Morpeko, instantly maxing Spiky Wheel.
+- Premium: **Marnie's Grimmsnarl ex** — Punk Up (ABIL, on evolve) searches up to 5 Basic {D} Energy and attaches them to your Marnie's Pokémon however you like; Shadow Bullet (DD) hits for 180 plus 30 to a Benched target.
+- Supports: **Toxtricity** (extra ramp beyond what Punk Up reaches) + **Hoopa** (draw 2 to keep the evolution chain moving).
+- Core: **Marnie's Impidimp** (Filch: draw a card) → **Marnie's Morgrem** as the evolution base; **Marnie's Morpeko** (Spiky Wheel: 20, +40 more per {D} Energy attached to itself) as the payoff; basic Darkness Energy.
+- Why: Punk Up's one-time 5-Energy dump can go straight onto Morpeko instead of Grimmsnarl, turning Spiky Wheel from a nothing-attack into a massive hit the exact turn Grimmsnarl evolves in.
+
+**Tyranitar Item-Lock Twins** — One Larvitar line threatens two different Stage-2 finishers.
+- Premium: **Tyranitar ex** — Grind (C) hits for 50 times the Energy attached to itself; Tyrannical Crush (DCC) hits for 150 and discards a random card from the opponent's hand.
+- Supports: **Tyranitar** (lock — Daunting Gaze stops the opponent's Item cards while it's Active) + **Roaring Moon** (backup attacker — Vengeance Fletching / Speed Wing for 120).
+- Core: **Larvitar** (Headbutt) → **Pupitar** (Sand Spray; Hammer In) feeding both Stage-2 branches off the same Basic; basic Darkness Energy.
+- Why: Lead with non-ex Tyranitar's Daunting Gaze to shut off opposing Items while Pupitar banks Energy on the bench, then retreat-swap into Tyranitar ex once it's carrying enough Energy for Grind or ready to strip a card with Tyrannical Crush.
+
+**Scrafty Counterattack Wall** — Whichever retaliator is Active, attacking into this wall always costs the opponent something.
+- Premium: **Mega Scrafty ex** — Counterattacking Crest (ABIL) places 5 damage counters on any Pokémon that damages it while Active, even through a KO; Outlaw Leg (DDC) hits for 160 and discards a random hand card plus the opponent's top deck card.
+- Supports: **Roaring Moon** (early body/attacker) + **Pecharunt** (recovery on KO).
+- Core: **Scraggy** (Headbutt; Invade) feeding both non-ex **Scrafty** (Ruffians Attack: 60 per {D} Pokémon in play, coin-flip) and Mega Scrafty ex off the same Basic; **Qwilfish** + **Scolipede** (Poison Point — the identical "damaged while Active, even through a KO" trigger) as backup retaliators; basic Darkness Energy.
+- Why: Counterattacking Crest and Poison Point share the exact same trigger condition, so no matter which retaliator you're forced to leave Active, the opponent still eats damage counters or a Poison for attacking into this deck.
+
+**Krookodile Revenge Lockdown** — One Sandile line locks retreat and punishes trades with a huge revenge bonus.
+- Premium: **Krookodile ex** — Corner (DC) hits for 80 and locks the Defending Pokémon's retreat next turn; Strong Bite (DDC) hits for 140, +140 more with a Pokémon Tool attached.
+- Supports: **Chien-Pao** (anti-ex — Rising Blade 80+, +80 more vs. a Pokémon-ex Active) + **Roaring Moon** (backup attacker).
+- Core: **Sandile** (Tighten Up: opponent discards from hand) → **Krokorok** (Bite; Confront) feeding both non-ex **Krookodile** (Vengeful Fang: 60+, +160 more if any of your Pokémon were KO'd by an attack last turn) and Krookodile ex off the same Basic; basic Darkness Energy.
+- Why: Corner traps the opponent's attacker in place while non-ex Krookodile's Vengeful Fang turns any trade into a 220-damage revenge kill, with Chien-Pao adding a cheap second attacker for the same lockdown plan. Caveat: no Pokémon Tool card exists in this corpus, so budget Strong Bite as a flat 140, not 280.
+
+**Clodsire Poison Lockdown** — One hit both poisons and retreat-locks, so the poison ticks are guaranteed to land.
+- Premium: **Paldean Clodsire ex** — Poison Ring (DC) hits for 60, Poisons the opponent's Active, and locks its retreat next turn; Giga Impact (DDC) hits for 220 but locks itself out next turn.
+- Supports: **Hoopa** (draw 2 — Clodsire has no Stage-1 buffer, so digging matters) + **Pecharunt** (recovery on KO).
+- Core: **Paldean Wooper** (Trip Over: 10+, flip for +20) as the lone Basic feeding Clodsire ex directly; **Qwilfish** + **Scolipede** (Poison Point) doubling the poison plan; basic Darkness Energy.
+- Why: Poison Ring's retreat-lock guarantees the Poison damage actually ticks instead of letting the opponent switch away from it, and Qwilfish/Scolipede poison anything that attacks into them too, so the whole board bleeds while Clodsire's 280 HP holds the line.
+
+**Mandibuzz Bench Snipe** — Look for Prey plants a weak Basic on the opponent's own bench; Bone Shot snipes it for free.
+- Premium: **Mandibuzz ex** — Bone Shot (CC) does 50 damage to any one opposing Pokémon, bench included, no Weakness/Resistance; Vulture Claw (DCC) hits for 160 and discards a random hand card.
+- Supports: **Roaring Moon** (backup attacker) + **Pecharunt** (recovery on KO).
+- Core: **Vullaby** (Playful Kick) → non-ex **Mandibuzz** (ABIL Look for Prey: once per turn, opponent reveals hand, you put a Basic 70 HP-or-less you find there onto their own Bench; Cutting Wind) feeding Mandibuzz ex off the same Basic; basic Darkness Energy.
+- Why: Look for Prey forces a fresh, guaranteed-weak Basic (≤70 HP) onto the opponent's bench, and Bone Shot can snipe that exact Pokémon for a clean 50 — a real one-two off a single Vullaby base, not just two unrelated attackers.
+
+**Hydreigon Basic Bounty** — Greedy Eater turns every KO'd opposing Basic into a bonus prize.
+- Premium: **Hydreigon ex** — Greedy Eater (ABIL) takes 1 extra Prize card whenever this Pokémon's attack KOs an opposing Basic Pokémon; Dark Bite (DDDCC) hits for 200 and locks the Defending Pokémon's retreat.
+- Supports: **Toxtricity** (ramp toward the 5-Energy Dark Bite cost) + **Hoopa** (draw 2).
+- Core: **Deino** (Body Slam: flip to Paralyze; Darkness Fang) → **Zweilous** (Double Hit: 40 per heads on 2 flips; Pitch-Black Fangs) as the ramp/chip base into Hydreigon ex; basic Darkness Energy.
+- Why: Zweilous's Double Hit and Deino's own attacks soften up early opposing Basics, and every one Hydreigon itself finishes off nets an extra Prize via Greedy Eater — best against opponents who haven't evolved yet, with Toxtricity easing the heavy 5-Energy attack cost.
+
+**Sharpedo Glass Cannon** — Draws cards every turn and swings for 270 the instant it's taken any damage. [Flagged: double-edged risk]
+- Premium: **Mega Sharpedo ex** — Greedy Fang (D) hits for 70 and draws 2 cards; Hungry Jaws (DD) hits for 120, +150 more (270 total) if this Pokémon already has any damage counters on it.
+- Supports: **Pecharunt** (recovery on KO) + **Roaring Moon** (backup attacker while Sharpedo baits a hit).
+- Core: **Carvanha** (Wave Splash) as the shared Basic feeding both non-ex **Sharpedo** (Chew Off: flip 3, discard a random opponent hand card per heads; Jet Headbutt) and Mega Sharpedo ex; basic Darkness Energy.
+- Why: Greedy Fang draws into the next play every turn Sharpedo is out, and the moment it's absorbed any damage at all, Hungry Jaws jumps to 270 — genuinely double-edged, since "any damage" on even a 330 HP body means it has already been hit and is closer to KO range, so sequence the trade deliberately rather than tanking passively.
+
+**Marnie's Ex-Punisher** — Punk Up fuels a squad built entirely to blow up Pokémon-ex. [Flagged: narrow, meta-dependent — 2nd Grimmsnarl build]
+- Premium: **Marnie's Grimmsnarl ex** — the same Punk Up energy dump as the ramp build, redirected here to fuel a dedicated anti-ex attacking line; Shadow Bullet (DD) still hits for 180 plus 30 to a Benched target.
+- Supports: **Zoroark** (anti-ex — Illusory Hijacking: 60 per opposing Pokémon ex/V in play) + **Chien-Pao** (anti-ex — Rising Blade 80+, +80 more vs. a Pokémon-ex Active).
+- Core: **Marnie's Impidimp** → **Marnie's Morgrem** as the ramp line (Punk Up fuel); **Marnie's Purrloin** (Pointy Nails: 20+, +40 more vs. ex) → **Marnie's Liepard** (Pointy Claws: 70+, +70 more vs. ex) as a second, dedicated ex-punish line; basic Darkness Energy.
+- Why: Punk Up's 5-Energy dump can fuel Purrloin or Liepard directly the instant Grimmsnarl evolves, and that line's attacks only spike against Pokémon-ex — with Zoroark and Chien-Pao stacking even more anti-ex damage, this is a full toolbox aimed at ex-heavy opponents. Flagged: every bonus here disappears against a non-ex Active, so treat this as a sideboard-style tech deck, not the default Marnie's build (that's the Punk Up Wheel above).
+
+**Absol Hand-Rip Aggro** — Turn-2 Basic ex that strips the opponent's hand; the precision-KO ability is a bonus, not the plan. [Flagged: situational ability]
+- Premium: **Mega Absol ex** — Terminal Period (DC) Knocks Out the opponent's Active only if it has exactly 6 damage counters on it (hard to force on demand); Claw of Darkness (DDC) hits for 200 and makes the opponent reveal their hand so you can discard a card from it.
+- Supports: **Hoopa** (draw 2) + **Pecharunt** (recovery on KO).
+- Core: **Weezing** + **Gulpin** / **Swalot** (status-inflicting early bodies) + basic Darkness Energy.
+- Why: As a Basic ex, Mega Absol ex needs no evolution and can swing Claw of Darkness as early as turn 2, ripping a card from the opponent's hand on top of 200 damage; Terminal Period is a free "gotcha" that occasionally lines up but shouldn't be counted on — flagged as situational tech riding on an otherwise-solid aggro shell.
+
+**Munkidori Vanilla Beats** — A flat 190-damage attacker whose namesake ability has no legal target in this format. [Flagged: weakest build, dead ability]
+- Premium: **Munkidori ex** — Oh No You Don't (ABIL) would refund a Prize on KO, but only if a Pecharunt ex is in play — no Pecharunt ex exists anywhere in this corpus (only the non-ex support **Pecharunt**), so this never triggers; Dirty Headbutt (DDC) hits for 190 but locks itself out next turn.
+- Supports: **Zoroark** (anti-ex — Illusory Hijacking 60 per opposing ex/V) + **Chien-Pao** (anti-ex — Rising Blade +80 vs. ex).
+- Core: **Skorupi** / **Drapion** + **Gulpin** / **Swalot** (status-inflicting early bodies) + basic Darkness Energy.
+- Why: With its actual namesake synergy unavailable, Munkidori ex is just a flat 190 hit every other turn; Zoroark and Chien-Pao at least give it an anti-ex lean. Flagged as the weakest, least cohesive deck on this list — build it only to round out ex coverage, not to compete.

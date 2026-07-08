@@ -1,0 +1,83 @@
+**Gust & Guarantee** — Medicham ex's Chi-Atsu/Yoga Kick kill, aimed by a gust off the opponent's Bench.
+- Premium: **Medicham ex** — Chi-Atsu (CC) puts damage counters on the opponent's Active until its remaining HP is exactly 50; Yoga Kick (FCC) then hits for a flat 190, unaffected by Weakness or Resistance — an automatic KO on anything sitting at 50.
+- Supports: **Hariyama** (Heave-Ho Catcher — triggers the turn you evolve it in, switching 1 of the opponent's Benched Pokémon into the Active Spot, so you choose the Chi-Atsu target) + **Landorus** (Fist of Focus reattaches a discard-pile Energy to itself each swing, keeping the deck's F count from stalling).
+- Core: Meditite (evolves to Medicham ex), Makuhita (evolves to Hariyama), Binacle→Barbaracle (Stone Arms — a second {F} attach every turn), Basic Fighting Energy.
+- Why: Hariyama's evolve-in gust lets you choose any support or tech sitting safely on the opponent's Bench as the target, Chi-Atsu knocks whatever comes up down to exactly 50 remaining, and Yoga Kick's Weakness/Resistance-proof 190 finishes it regardless of its real max HP.
+
+**Stonewall Softener** — the same Chi-Atsu → Yoga Kick kill, run behind a pair of walls instead of a gust.
+- Premium: **Medicham ex** — Chi-Atsu (CC) softens the opponent's Active to exactly 50 remaining HP; Yoga Kick (FCC) hits for 190, ignoring Weakness/Resistance.
+- Supports: **Rhyperior** (Wide Wall — while it's your Active, opponent's Supporter cards do nothing to any of your Pokémon) + **Gastrodon** (Sticky Bind — strips Ability text from every Benched Stage 2, yours and theirs, just by sitting on your Bench).
+- Core: Meditite (evolves to Medicham ex), Rhyhorn→Rhydon (evolves to Rhyperior), Shellos (evolves to Gastrodon), Binacle→Barbaracle, Basic Fighting Energy.
+- Why: Rhyperior holds the Active Spot and no-sells opposing Supporters while Medicham ex charges FCC safely on the Bench, and Gastrodon has already turned off whatever Benched Stage 2 Ability the opponent hoped to lean on; once ready, swap Medicham ex in for the same guaranteed Chi-Atsu/Yoga Kick kill. (2nd build for the strongest premium — a slower, control-shell alternative to Gust & Guarantee.)
+
+**Champion's Call** — the Cynthia's package: a tutor that finds any singleton, a buff needing no Grass Energy, and a nuke with card draw built in.
+- Premium: **Cynthia's Garchomp ex** — Corkscrew Dive (F) hits for 100 and lets you draw to 6 cards; Draconic Buster (FF) hits for 260 but discards all Energy from itself afterward.
+- Supports: **Cynthia's Roserade** (Cheer On to Glory — every attack from a Cynthia's Pokémon does 30 more before Weakness/Resistance, turning Draconic Buster into 290; it needs no Grass Energy of its own, just a spot on the Bench) + **Landorus** (Fist of Focus reattaches a discard-pile Energy to itself each turn, so the Energy Draconic Buster just dumped isn't wasted).
+- Core: Cynthia's Gible→Cynthia's Gabite (Champion's Call tutors any Cynthia's card once a turn — finds Garchomp ex or Roserade on demand)→Cynthia's Garchomp ex, Cynthia's Roselia (evolves to Roserade), Binacle→Barbaracle, Basic Fighting Energy.
+- Why: Gabite's Champion's Call digs up whichever piece is missing since it searches for any Cynthia's card at all, Roserade's blanket +30 rides along for free on the Bench, and Landorus keeps recycling the Fighting Energy Draconic Buster discards.
+
+**Rock Battery** — Regirock ex feeds its own discard pile back into itself for an oversized Giant Rock.
+- Premium: **Regirock ex** — Regi Charge (C) attaches up to 2 Basic Fighting Energy from your discard pile to itself; Giant Rock (FCCC) hits for 140, +140 more (280 total) if the opponent's Active is a Stage 2.
+- Supports: **Regirock** (non-ex — Rock Armor takes 30 less damage from attacks whenever it's holding Energy, a tanky body while the ex reloads) + **Terrakion** (Retaliate — +80 more if any of your Pokémon were KO'd by an attack last turn, a backup beater that punishes bad trades).
+- Core: Binacle→Barbaracle (Stone Arms), Basic Fighting Energy.
+- Why: Regi Charge turns every discarded Fighting Energy straight back into fuel for Regirock ex, Barbaracle's extra attach gets it to FCCC a turn early, and the non-ex Regirock/Terrakion pair give the deck bodies that tank or punish while the ex is reloading.
+
+**Aura Overflow** — Mega Lucario ex attacks and ramps a second attacker in the same swing.
+- Premium: **Mega Lucario ex** — Aura Jab (F) hits for 130 and attaches up to 3 Basic Fighting Energy from your discard pile to your Benched Pokémon in any way you like.
+- Supports: **Bloodmoon Ursaluna** (Battle-Hardened self-attaches up to 2 Fighting Energy from hand the turn it's benched; Aura Jab's spillover finishes charging it for Mad Bite) + **Okidogi** (a second Aura Jab target — Settle the Score scales with prizes the opponent just took, a strong swing-back once fed).
+- Core: Riolu (evolves to Mega Lucario ex), Binacle→Barbaracle, Basic Fighting Energy.
+- Why: Aura Jab is a full 130-damage attack that also free-ramps a second Bench attacker every single turn, so Ursaluna or Okidogi is only a turn or two from fully loaded whenever Mega Lucario ex has to retreat or falls.
+
+**Drill & Snipe** — Excadrill ex chips the Bench, then closes with a Resistance-proof Rock Tumble.
+- Premium: **Excadrill ex** — Piercing Drill (FF) hits for 60 and also does 60 to an opposing Benched Pokémon that already has damage counters; Rock Tumble (FFF) hits for 200, unaffected by Resistance.
+- Supports: **Relicanth** (Memory Dive lets Excadrill ex fall back on Drilbur's 1-Energy Mud-Slap when it's under-charged) + **Ting-Lu** (Ground Crasher/Hammer In, a second cheap Basic attacker for the early turns before FFF is online).
+- Core: Drilbur (evolves to Excadrill ex), Binacle→Barbaracle, Basic Fighting Energy.
+- Why: Piercing Drill's Bench snipe converts any chip damage already sitting on the opponent's Bench into a second, simultaneous KO angle, and Relicanth/Ting-Lu both cover the early turns before Excadrill ex is fully paid for.
+
+**Perfect Order Beatdown** — a Basic-attacker shell that skips evolution risk entirely and just ramps into oversized hits.
+- Premium: **Mega Zygarde ex** — Gaia Wave (FFF) hits for 200 and takes 30 less damage next turn; Nullifying Zero (FFFFF) flips a coin for each opposing Pokémon and does 150 damage on every heads (Weakness/Resistance still applies to their Active, not their Bench).
+- Supports: **Regirock** (Rock Armor — takes 30 less while holding Energy, a second tough Basic body while Zygarde ramps) + **Groudon** (Hammer In/Megaton Fall, another Basic attacker so the deck isn't a single-target plan).
+- Core: Binacle→Barbaracle (Stone Arms), Basic Fighting Energy.
+- Why: Every attacker here is a Basic Pokémon, so there's no evolution risk — Barbaracle's extra attach gets Zygarde to FFF by turn 2-3 for a 200-damage Gaia Wave, while Regirock/Groudon absorb hits and add pressure. Nullifying Zero's FFFFF is a swingy stretch goal, not the main line.
+
+**Grudge Match** — every payoff in the deck gets stronger the more the opponent has already hurt you.
+- Premium: **Koraidon ex** — Claw Slash (FC) hits for 50; Revenge Buster (FFC) hits for 100, +120 more (220 total) if any of your Benched Pokémon already have damage counters on them.
+- Supports: **Hisuian Arcanine** (Proud Fangs shares the same "damaged Bench" trigger, +90 more) + **Terrakion** (Retaliate — +80 more if one of your Pokémon was KO'd by an attack last turn).
+- Core: Hisuian Growlithe (evolves to Hisuian Arcanine), Binacle→Barbaracle, Basic Fighting Energy.
+- Why: Ordinary combat attrition — a damaged attacker retreating to the Bench, or an early Pokémon going down — is exactly the condition all three payoff attacks want, so the deck gets stronger as the game wears on instead of needing a dedicated self-damage gimmick.
+
+**Cornerstone Fortress** — two independent walls plus a hit that ignores whatever's left of the opponent's defenses.
+- Premium: **Cornerstone Mask Ogerpon ex** — Cornerstone Stance prevents all damage from attacks by opposing Pokémon that have an Ability; Demolish (FCC) hits for 140, ignoring Weakness/Resistance and any effects on the opponent's Active Pokémon.
+- Supports: **Rhyperior** (Wide Wall — blocks all Supporter-card effects targeting your Pokémon while it's Active) + **Flygon** (Sandy Flapping — discards the opponent's top 2 cards on evolving in, or if it's KO'd as your Active, for slow disruption while you're walled up).
+- Core: Rhyhorn→Rhydon (evolves to Rhyperior), Trapinch→Vibrava (evolves to Flygon), Binacle→Barbaracle, Basic Fighting Energy.
+- Why: Ogerpon shrugs off any Ability-attacker's damage outright, Rhyperior separately shuts off Supporter effects, and Demolish's own text ignores Weakness, Resistance, and anything else on the opponent's Active — three independent layers of "your removal doesn't work here." Caveat: Cornerstone Stance only matters against Ability-based attackers, so vs. a non-Ability deck this is just a 140-damage Basic swing.
+
+**Stuck in the Mud** — trap the Active in place, eat the one hit Stunfisk ex needs, then blow it up.
+- Premium: **Stunfisk ex** — Big Bite (F) hits for 30 and the Defending Pokémon can't retreat next turn; Flopping Trap (FCC) hits for 100, +100 more (200 total) once Stunfisk ex itself has any damage counters on it.
+- Supports: **Regirock** (Rock Armor takes 30 less while holding Energy, softening the counter-hit Stunfisk ex needs to take) + **Landorus** (Fist of Focus keeps a second attacker's Energy flowing from the discard pile).
+- Core: Binacle→Barbaracle, Basic Fighting Energy.
+- Why: Big Bite locks the opponent's Active in place for a turn so it can't just retreat away from the follow-up, and Regirock's damage reduction helps Stunfisk ex survive the retaliation hit it needs before Flopping Trap doubles to 200. Caveat: the sequencing needs Stunfisk ex to survive exactly that one counter-attack — a single big out-of-turn hit breaks the plan.
+
+**Bait the Boulder** — dare the opponent to attack into a guaranteed counter-punch.
+- Premium: **Iron Boulder ex** — Repulsor Axe (FC) hits for 60; if Iron Boulder ex is damaged by an attack next turn (even if it's KO'd), the attacker automatically takes 8 damage counters. Power Stomp (FFC) hits for 200 (discards 2 Energy from itself).
+- Supports: **Terrakion** (Retaliate — +80 more if one of your Pokémon was KO'd by an attack last turn, cashing in on the trade Iron Boulder ex just baited) + **Okidogi** (Settle the Score — +60 more per prize the opponent took last turn, another "they paid for hitting us" payoff).
+- Core: Binacle→Barbaracle, Basic Fighting Energy.
+- Why: Repulsor Axe's punish triggers on damage taken even through a KO, so trading Iron Boulder ex away still detonates whatever hit it, and Terrakion/Okidogi both cash in on the prize or KO that just happened. Caveat: this only fires if the opponent actually attacks into Iron Boulder ex — a careful opponent just declines the trade, leaving it a passive wall rather than a proactive plan.
+
+**Slow Burn** — a two-turn ramping Tornado Rush that wins by not dying, not by rushing.
+- Premium: **Lucario ex** — Aura Uppercut (F) hits for 50; Tornado Rush (FC) hits for 100 now and boosts its own next use by 100 more (200 on the follow-up swing).
+- Supports: **Regirock** (Rock Armor tanks the turn in between) + **Rhyperior** (Wide Wall blocks the Supporter-based removal or switching effects that would otherwise erase Lucario ex before its payoff turn).
+- Core: Riolu (evolves to Lucario ex), Rhyhorn→Rhydon (evolves to Rhyperior), Binacle→Barbaracle, Basic Fighting Energy.
+- Why: Tornado Rush's buff only pays off if the same Lucario ex is still around and swinging next turn, so Rhyperior denies the Supporter effects that would remove it and Regirock's damage reduction covers the gap. Caveat: this is the slowest payoff in the set — a fast opponent can simply race past it or snipe it before the second swing lands.
+
+**Tusk Stampede** — an all-Swinub-line deck where Mamoswine ex counts its own cousins on the Bench.
+- Premium: **Mamoswine ex** — Mammoth Hauler searches your deck once a turn for any Pokémon to hand; Rumbling March (FF) hits for 180, +40 more for every Stage 2 Pokémon on your Bench.
+- Supports: **Landorus** (Fist of Focus keeps FF fed from the discard pile) + **Relicanth** (Memory Dive lets Mamoswine ex fall back on Piloswine's cheaper Rising Lunge when it's under-Energy).
+- Core: Swinub→Piloswine→Mamoswine ex as the attacker, plus extra Swinub→Piloswine→(regular) Mamoswine copies as Bench fodder (also Stage 2 — each one adds +40 to Rumbling March), Binacle→Barbaracle, Basic Fighting Energy.
+- Why: Mamoswine ex and the plain Mamoswine print both evolve from Piloswine and are both Stage 2, so simply Benching a second copy of the family turns Rumbling March from 180 into 220, or 260 with two — no outside support needed for the scaling, just more of the same line. Caveat: this needs multiple 2-stage evolutions in play at once, the slowest and most build-around deck in the set.
+
+**Coinflip Comeback** — a scrappy Basic that occasionally just refuses to die.
+- Premium: **Mega Hawlucha ex** — Tenacious Body: if it would be Knocked Out by attack damage, flip a coin; on heads it survives instead at 10 HP. Somersault Dive (FFC) hits for 120 (260 if a Stadium is in play, which this list has no way to guarantee).
+- Supports: **Bloodmoon Ursaluna** (Battle-Hardened self-attaches up to 2 Fighting Energy from hand the turn it's benched, an independent second attacker) + **Ting-Lu** (Hammer In, more Basic beater redundancy).
+- Core: Binacle→Barbaracle, Basic Fighting Energy.
+- Why: Every attacker here is a Basic, so the deck is fast and never stranded on a needed evolution, and Ursaluna/Ting-Lu give it real threats beyond Mega Hawlucha ex's own swing. Caveat: Tenacious Body is a flat 50/50 — half the time it just dies like an ordinary 250 HP Basic — making this the weakest, greediest deck in the set; treat it as experimental.

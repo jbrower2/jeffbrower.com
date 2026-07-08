@@ -1,0 +1,11 @@
+**Flutter Lock** — turn off their ability, wall their ex, then flood
+- Premium: **Mega Gardevoir ex** — Mega Symphonia 50× every psychic energy in play; Overflowing Wishes loads the bench.
+- Supports: **Flutter Mane** (Midnight Fluttering — while it's Active, the opponent's Active has no Abilities; Hex Hurl 90 + 2 bench counters) + **Sylveon** (Safeguard — immune to damage from pokemon ex).
+- Core: Ralts / Kirlia, Grumpig (free accel), **Aromatisse** (Scent Collection — free {P} energy search), psychic energy.
+- Why: lead with Flutter Mane to shut off the opponent's active ability (and chip the bench) while Sylveon walls their ex attacker; meanwhile Grumpig + Aromatisse flood psychic energy so Gardevoir closes with a huge Symphonia.
+
+**Bubble Balloon** — vacuum energy onto one scaling hitter
+- Premium: **Azumarill ex** — Bubble Gathering moves energy from your other pokemon onto it as often as you like; Energized Balloon 60 + 40 per {P} energy on it.
+- Supports: **Spectrier** + **Enamorus** (cheap {P} attackers that also park energy on the board for Bubble Gathering to harvest).
+- Core: Marill / Azumarill (non-ex), Grumpig (free accel), Aromatisse (free {P} search), psychic energy.
+- Why: Grumpig and the bench soak up psychic energy, then Bubble Gathering funnels all of it onto Azumarill ex so Energized Balloon scales into the 200s — a colorless-cost attack powered by a psychic engine.

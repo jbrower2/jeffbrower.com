@@ -1,0 +1,5 @@
+**Metal Maker Ramp** — a free metal-acceleration engine
+- Premium: **Dialga ex** — Metal Blast 100 + 20 per metal attached; Time Bellow draws a card.
+- Supports: **Klinklang** (Gear Coating, −20 to your metal) + **Kingambit** (comeback finisher).
+- Core: Steven's Beldum / **Metang** (Metal Maker — look at the top 4 and attach any metal you find, free, every turn), metal energy.
+- Why: Metang's Metal Maker is a genuinely free ramp engine (it digs metal straight out of the top of your deck), so Metal Blast climbs past 200 fast behind the Klinklang wall — the metal deck the earlier data couldn't see.

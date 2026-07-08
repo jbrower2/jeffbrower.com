@@ -1,0 +1,11 @@
+**Cyclizar Splash** — colorless base, optional three-color nuke
+- Premium: **Cyclizar ex** — Break Through 130 + bench snipe (colorless); Zircon Road 180 + draw 5 with a grass/fire/psychic splash.
+- Supports: **Cinderace** (Turbo Flare loads 3 energy of any type) + **Magearna** (Auto Heal — 90 per attach).
+- Core: Fan Rotom (free turn-1 search), colorless energy plus a small G/R/P splash.
+- Why: Break Through is a fine colorless baseline, and Cinderace's any-type ramp turns Zircon Road's 180-and-draw-5 on without bricking the energy base.
+
+**Terapagos Bench-Scale** — go wide, hit wide
+- Premium: **Terapagos ex** — Unified Beatdown 30× your benched pokemon; Crown Opal for a defensive turn.
+- Supports: **Togekiss** (Wonder Kiss — coin-flip an extra prize per KO) + **Drednaw** (walls a 200+ hit).
+- Core: cheap colorless basics to flood the bench, one basic energy.
+- Why: a full bench turns Unified Beatdown into a 150+ swing for two energy, and Togekiss shortens the prize race while Drednaw blanks their haymaker.

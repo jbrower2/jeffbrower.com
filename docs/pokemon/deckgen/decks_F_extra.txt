@@ -1,0 +1,5 @@
+**Mega Gallade Blitz** — 200 for one energy, before it gets hit
+- Premium: **Mega Gallade ex** — Gale Slash does 50 + 150 (200) while it has no damage counters; Marvelous Edge 240.
+- Supports: **Hariyama** (Heave-Ho Catcher drags up a benched target on evolve) + **Landorus** (Fist of Focus reattaches energy from the discard).
+- Core: Ralts / Kirlia, Barbaracle (free {F} from hand each turn), fighting energy.
+- Why: Gale Slash hits 200 for a single {F} the turn Gallade evolves undamaged, so the plan is a fast one-energy burst — Barbaracle/Landorus supply that energy immediately and Hariyama pulls up something soft to delete. (Shares the Ralts/Kirlia line with the Psychic Mega Gardevoir; here you just evolve straight through to the fighting side.)

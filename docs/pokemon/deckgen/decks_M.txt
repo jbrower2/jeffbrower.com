@@ -1,0 +1,74 @@
+**Steven's Steel Sanctuary** — Steven's Metagross ex ramps two energy types a turn behind an all-free tribal wall.
+- Premium: **Steven's Metagross ex** — ABIL X-Boot searches a Basic {P} Energy, a Basic {M} Energy, or one of each every turn and attaches them to your {P}/{M} Pokémon; Metal Stomp hits for 200 (MCC).
+- Supports: **Klinklang** (Gear Coating: −20 damage to all your {M}-attached Pokémon) + **Kingambit** (Supreme Overlord: +30 per prize the opponent has taken, on its own Double-Edged Slash — late-game closer).
+- Core: **Steven's Beldum** → **Steven's Metang** (pre-evo line), **Steven's Carbink** (Stone Palace: −30 damage to all Steven's Pokémon while it's benched, doesn't stack), **Steven's Claydol** (Clay Blast: 220 for PPC, discards all its own energy after — refueled next turn by X-Boot), **Steven's Baltoy** (Summoning Sign attack benches up to 2 Basic Steven's Pokémon), **Steven's Skarmory** (Sonic Double: 50 to 2 Pokémon for MMC); Basic {M} Energy plus a light splash of Basic {P} Energy for Claydol/X-Boot.
+- Why: Every Steven's card besides the ex is free C/U, so both support slots are pure upside — Carbink's −30 stacked with Klinklang's −20 makes the 340-HP Metagross ex almost unkillable, while X-Boot's repeatable ramp keeps Claydol and the whole line fed turn after turn.
+
+**Alloy Bulwark** — Archaludon ex turns its own discard pile into a perpetual-motion wall.
+- Premium: **Archaludon ex** — ABIL Assemble Alloy: when played from hand to evolve a Pokémon, attach up to 2 Basic {M} Energy from your discard pile to your {M} Pokémon; Metal Defender hits 220 and removes Weakness during the opponent's next turn (MMM).
+- Supports: **Klinklang** (Gear Coating: −20 damage to all {M}-attached Pokémon) + **Zamazenta** (Strong Bash: reflects the damage it takes back onto the attacker).
+- Core: **Duraludon** (Duralubeam: 130 for MMM, discards 2 of its own Energy as the cost — priming the discard pile Assemble Alloy pulls from), **Archaludon** (non-ex; ABIL Metal Bridge: all your {M}-attached Pokémon have no Retreat Cost), Basic {M} Energy.
+- Why: Duraludon's Duralubeam discards exactly the fuel Archaludon ex's Assemble Alloy wants to reattach on its next evolution, Metal Bridge keeps the whole team retreat-free, and Klinklang/Zamazenta punish anyone who still attacks into it — a self-sustaining, hard-to-punch-through control shell.
+
+**Regi-Charge Attrition** — Registeel ex recycles its own discard pile every single turn and never runs dry.
+- Premium: **Registeel ex** — Regi Charge (1 Colorless) reattaches up to 2 Basic {M} Energy from your discard pile to itself; Protecting Steel hits 140 and takes 50 less damage next opponent turn (MCCC).
+- Supports: **Steelix** (Skull Bash: 140 for MMCC, a 200-HP secondary body) + **Iron Crown** (Deleting Slash: 40, +80 more if the opponent has 3+ Benched Pokémon).
+- Core: **Duraludon** (Duralubeam: 130 for MMM, discards 2 of its own Energy — the exact fuel Regi Charge scoops back up), **Archaludon** (non-ex; Metal Bridge free retreat), Basic {M} Energy.
+- Why: Duraludon discards Energy as an attack cost and Registeel ex's 1-Colorless Regi Charge immediately recoups it, a fully closed loop that costs almost nothing — Steelix and Iron Crown supply independent damage so Registeel doesn't have to attack every turn to matter.
+
+**Emperor's Stance Wall** — Empoleon ex simply refuses to let opposing attacks do anything but damage.
+- Premium: **Empoleon ex** — ABIL Emperor's Stance: prevents all effects (not damage) of opponent attacks done to this Pokémon; Iron Feathers hits 210 and takes 60 less damage next opponent turn (MMC).
+- Supports: **Zamazenta** (Strong Bash: reflects damage back onto the attacker) + **Melmetal**, non-ex (Wrack Down: 50 for CC — a cheap floor attacker; Reforged Axe is intentionally skipped since no Pokémon Tool is in this pool).
+- Core: **Piplup** (Tackle: 20 for CC), **Prinplup** (Targeted Dive: 70 to a Benched Pokémon for CCC, spread damage while Empoleon ex ramps up), Basic {M} Energy.
+- Why: Emperor's Stance hard-blocks Paralysis/Confusion/discard/switch effects outright, Iron Feathers' own −60 stacks on top for a target that's both immune and reduced, and Zamazenta makes attacking into it a losing trade anyway.
+
+**Alloy Overdrive** — the same Archaludon ex engine, run as a snowballing evolve-and-race deck instead of a turtle. (2nd build — best-ex showcase)
+- Premium: **Archaludon ex** — ABIL Assemble Alloy fires again every time a fresh copy evolves in, restocking 2 Basic {M} Energy from discard; Metal Defender swings for 220, no Weakness next turn (MMM).
+- Supports: **Cobalion**, non-ex (Metal Arms: 80 for MMC, cheap early pressure) + **Kingambit** (Double-Edged Slash: 180 for MM, +30 per prize the opponent has taken — a prize-scaling closer).
+- Core: multiple **Duraludon** feeding both **Archaludon** (non-ex; Metal Bridge free retreat) and **Archaludon ex** — every new evolution is another Assemble Alloy trigger — Basic {M} Energy.
+- Why: Instead of sitting behind reductions like Alloy Bulwark, this build races: repeated Duraludon→Archaludon(ex) evolutions keep re-firing Assemble Alloy for a snowballing Energy lead, Metal Bridge lets you swap in a fresh attacker for free the instant one gets damaged, and cheap Cobalion/Kingambit hits keep the clock honest.
+
+**Bench Battery** — Cobalion ex sits on the bench soaking up spare Energy, then swings in for one huge turn.
+- Premium: **Cobalion ex** — ABIL Metal Road: once per turn, when this Pokémon moves from Bench to Active, move any amount of {M} Energy from your other Pokémon onto it; Power Tackle hits 200 (MMC, can't reuse next turn).
+- Supports: **Cobalion**, non-ex (Righteous Edge: discards a Special Energy from the opponent's Active; Metal Arms: 80 for MMC backup damage) + **Steelix** (Skull Bash: 140 for MMCC, a 200-HP body to trade into while Cobalion loads up).
+- Core: **Duraludon** (Confront: 50 for MM, cheap early attacker that can also bank spare Energy), **Archaludon** (non-ex; Metal Bridge free retreat — lets Cobalion ex shuttle Bench↔Active with no tax), Basic {M} Energy.
+- Why: Stockpile Energy on the Bench (Duraludon, Steelix, even a second Cobalion) while Metal Bridge keeps retreat free, then swap Cobalion ex in — Metal Road sweeps it all onto him for an immediate 200-damage Power Tackle, with non-ex Cobalion adding cheap secondary damage and special-energy disruption.
+
+**Hop's Champion Rush** — Hop's Zacian ex pokes the whole board while Extra Helpings turns every active-target hit into a knockout number.
+- Premium: **Hop's Zacian ex** — Insta-Strike (1 Colorless): 30 to the Active plus 30 to a Benched Pokémon; Brave Slash hits 240 (MMMC, can't reuse next turn).
+- Supports: **Hop's Snorlax** (Extra Helpings: your Hop's attacks do a flat +30 to the opponent's Active — doesn't stack, and doesn't touch bench-hit portions) + **Hop's Dubwool** (Defiant Horn: on evolve, switch one of the opponent's Benched Pokémon into the Active Spot).
+- Core: **Hop's Rookidee** → **Hop's Corvisquire** → **Hop's Corviknight** (Shoot Through: 50 to the Active plus 50 to a Benched Pokémon for 1 Colorless; Steel Wing: 150 for MMC, −60 next opponent turn), Basic {M} Energy.
+- Why: Insta-Strike and Shoot Through chip the whole board every turn, Extra Helpings turns those active-target hits into real numbers (Insta-Strike's active half 30→60, Shoot Through's 50→80, Steel Wing 150→180, Brave Slash 240→270), and Dubwool's evolve-trigger can drag an already-softened bench target in to finish.
+
+**Steel Armament Blitz** — Zacian ex self-ramps for a single Colorless and is already swinging big by turn two.
+- Premium: **Zacian ex** — Steel Armament (1 Colorless): 20 damage and searches/attaches a Basic {M} Energy to itself; Slashing Strike hits 210 (MMC, can't reuse next turn).
+- Supports: **Zamazenta** (Strong Bash: reflects damage back onto the attacker) + **Kingambit** (Double-Edged Slash: 180 for MM, +30 per prize the opponent has taken).
+- Core: **Duraludon** (Confront: 50 for MM), **Scyther** (Cut Up: 10 for C; Slashing Strike: 60 for CC), Basic {M} Energy.
+- Why: Steel Armament converts any Basic {M} Energy in the deck into an immediate attachment for one Colorless, so Zacian ex is already throwing 210-damage Slashing Strikes early; Duraludon and Scyther add cheap pressure alongside it, Zamazenta discourages trade-backs, and Kingambit scales up if the race runs long.
+
+**Metallic Signal Toolbox** — Genesect ex digs up whichever Evolution Metal Pokémon the game calls for, every single turn.
+- Premium: **Genesect ex** — ABIL Metallic Signal: once per turn, search your deck for up to 2 Evolution {M} Pokémon and put them in hand; Protect Charge hits 150 and takes 30 less damage next opponent turn (MMC).
+- Supports: **Klinklang** (Gear Coating: −20 to all {M}-attached Pokémon — also a legal Metallic Signal target) + **Kingambit** (Double-Edged Slash: 180 for MM, +30 per prize the opponent has taken — also fetchable).
+- Core: **Meltan** (free filler, Ram: 30 for MC), **Duraludon** → **Archaludon** (non-ex; Metal Bridge free retreat — a top Metallic Signal target), **Varoom** → **Revavroom**, non-ex (Outta-Control Dash: 100 for MCC — another fetch target), Basic {M} Energy.
+- Why: Every Stage card in this list — Archaludon, Revavroom, Klinklang, Kingambit — is a legal Metallic Signal target, so the deck plays as a genuine toolbox: fetch retreat utility, a cheap attacker, a wall, or a comeback finisher on demand, while Genesect ex itself holds the Active Spot with Protect Charge.
+
+**Chrono Draw Engine** — Dialga ex turns nearly every turn into a free card while it builds toward a scaling attack. (flagged: grindy value over raw damage)
+- Premium: **Dialga ex** — Time Bellow (1 {M}): 20 damage and draw a card; Metal Blast does 100+, +20 more for each {M} Energy attached to itself (CCC).
+- Supports: **Dialga**, non-ex (Chrono Burst: 80+, may shuffle all its own Energy into your deck for +80 more — a second scaling attacker) + **Klinklang** (Gear Coating: −20 to all {M}-attached Pokémon).
+- Core: **Duraludon** (Confront: 50 for MM, holds the fort early), **Archaludon** (non-ex; Metal Bridge free retreat), Basic {M} Energy — stack extra copies onto Dialga ex specifically to scale Metal Blast.
+- Why: Time Bellow is a nearly-free card every turn that smooths the draw toward whatever Metal Blast needs, non-ex Dialga offers a second energy-recycling attacker, and Klinklang buys time behind a damage-reduction net.
+- Flag: Time Bellow's draw is excellent value but low damage alone, and Metal Blast's scaling means loading several Energy specifically onto Dialga ex — a costly 2-for-1 if it's KO'd. This is a grindy value engine, not a hard hitter; weaker than the wall/ramp decks above it.
+
+**Prize Snowball** — Mega Mawile ex needs the race going its way before either attack is any good. (flagged: conditional/greedy)
+- Premium: **Mega Mawile ex** — Gobble Down: 80×, does 80 damage for each Prize card you have taken (MM — zero before your first prize); Huge Bite: 260 damage to an undamaged opposing Active, but only 30 if it already has any damage counters on it (MMC).
+- Supports: **Kingambit** (Supreme Overlord: +30 per prize the opponent has taken — the mirror-image scaler, covering the race going the other way) + **Zamazenta** (Strong Bash: reflects damage back onto the attacker).
+- Core: **Duraludon** (Confront: 50 for MM, a clean opener that can bank the first prize without Mega Mawile ex's help), **Scyther** (Cut Up: 10 for C; Slashing Strike: 60 for CC), Basic {M} Energy.
+- Why: Duraludon and Scyther bank early prizes cheaply and — crucially — without chipping the opponent's current Active, keeping it "undamaged" for a full 260 Huge Bite; Gobble Down then keeps climbing every prize afterward, while Kingambit hedges the exact opposite scenario if the race goes the other way.
+- Flag: Huge Bite actively punishes any chip/spread damage left on the opponent's Active (crashes to 30), so this deck must avoid poking the current Active and win clean knockouts instead — a narrow, unforgiving condition; greedy if the opening whiffs.
+
+**Static Cling Combo** — Togedemaru ex needs a coin to cooperate twice before it's actually threatening. (flagged: experimental/fragile)
+- Premium: **Togedemaru ex** — Stun Needle (1 {M}): 20 damage, coin flip to Paralyze; Spiky Rolling: 80, +80 more if it used Spiky Rolling last turn — 160 once the chain is running (MC).
+- Supports: **Zamazenta** (Strong Bash: reflects damage back onto the attacker) + **Iron Crown** (Deleting Slash: 40, +80 more vs 3+ Benched Pokémon — fallback damage).
+- Core: **Duraludon** (Confront: 50 for MM, filler while the chain gets going), Basic {M} Energy.
+- Why: A heads on Stun Needle buys the free turn needed to start the Spiky Rolling chain (80 → 160 → 160...), turning a squishy attacker into a real clock; Zamazenta and Iron Crown pick up the slack whenever the coin goes cold.
+- Flag: Fully coinflip-dependent on two separate fronts (the Paralyze, then the chain-start) and 190 HP is the lowest of any Metal ex covered here — the most fragile, lowest-floor build in this set; included for archetype variety, not raw power.

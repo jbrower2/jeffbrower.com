@@ -1,0 +1,95 @@
+**Bouffalant's Wall** — anti-ex tank that shrugs off the big hit and swings back harder
+- Premium: **Bouffalant ex** — Bouffer takes 30 less damage after Weakness/Resistance (always on); Gold Breaker hits for 100, +100 (200 total) if the opponent's Active is a Pokémon ex.
+- Supports: **Drednaw** (walls any single 200+ hit, then Hard Crunch punishes) + **Meowscarada** (Rising Bloom +90 vs. ex, Showtime free-pivots it in).
+- Core: Iron Jugulis (chips anything that hits your Active) + Fighting Energy.
+- Why: Bouffalant ex is already the format's cleanest ex-check by itself; Drednaw and Meowscarada both independently punish the same "opponent always has one ex in play" guarantee this format creates, so all three cards point at the same target.
+
+**Rabbit Punch** — one Colorless Energy, 230 damage, every turn it comes off the bench
+- Premium: **Mega Lopunny ex** — Gale Thrust does 60, +170 (230 total) if it moved Bench→Active this turn, for a single Colorless Energy; Spiky Hopper (160) ignores the opponent's Active's effects.
+- Supports: **Cinderace** (preloads a benched Lopunny with 3 Energy the turn before it swaps in) + **Drednaw** (walls the return hit while you cycle it).
+- Core: Buneary→Lopunny line, Fan Rotom (searches Buneary turn 1), Linoone (free Bench↔Active swap, since a Mega Evolution Pokémon ex is in play) + Lightning Energy.
+- Why: the whole plan is "retreat, then swing" every turn; Cinderace makes sure the incoming Lopunny is already fully paid for the instant it's promoted, and Linoone/Drednaw cover the turns it's briefly undefended.
+
+**Tail Spin (Turbo)** — dump 3 Energy on Cinccino ex in one turn, then swing for triple digits
+- Premium: **Cinccino ex** — Smooth Coat flips to prevent attack damage; Energized Slap does 40 for every Energy attached (1 Colorless Energy cost, uncapped scaling).
+- Supports: **Cinderace** (dumps 3 Basic Energy of any type onto a benched Cinccino) + **Magearna** (Auto Heal sustain while you set up).
+- Core: Minccino→Cinccino line, Fan Rotom (searches Minccino turn 1) + Fire Energy.
+- Why: Cinderace's bulk energy-drop is exactly what an "energy count = damage" attacker wants — load the bench, swap in already-loaded, and Energized Slap is live for 120+ on the very first swing.
+
+**Tail Spin (Grind)** — 2nd build: same Cinccino ex, built to never actually die
+- Premium: **Cinccino ex** — same as above; here it sits Active and simply accumulates Energy behind Smooth Coat's coin-flip wall instead of front-loading it.
+- Supports: **Drednaw** (walls the one big swing that would otherwise reset the board) + **Dudunsparce** (Run Away Draw digs 3 deeper each turn for more Energy and outs).
+- Core: Minccino→Cinccino line, Fan Rotom + Fire Energy.
+- Why: where the Turbo build front-loads Energy through Cinderace, this build refuses to die (Smooth Coat + Drednaw) while Dudunsparce's draw keeps Energy flowing from hand — same win condition, opposite risk profile, which is what a genuine 2nd build should show.
+
+**Nurse Blissey** — 300 HP, self-sustaining, never runs out of cards
+- Premium: **Blissey ex** — Happy Switch moves a Basic Energy between your own Pokémon once a turn; Return hits for 180 and refills your hand to 6.
+- Supports: **Magearna** (heals 90 off whatever you just attached Energy to, while it holds the Active Spot) + **Dudunsparce** (Run Away Draw for extra card flow).
+- Core: Chansey→Blissey line (Chansey's Lucky Attachment sneaks on an extra Energy for 1 Colorless; Boundless Power is an emergency 80 early) + Psychic Energy.
+- Why: Chansey's own attack accelerates Energy onto the board, Magearna heals whatever received it, and Return's refill keeps the hand stocked — a deck built to never run out of resources.
+
+**Tenacious Tail** — a 1-Energy attack that reads the opponent's ex for 60, behind a self-shuffling draw engine
+- Premium: **Dudunsparce ex** — Tenacious Tail does 60 for each opposing Pokémon ex in play, for a single Colorless Energy; Destructive Drill (150) ignores effects on the opponent's Active when you want the guaranteed number instead.
+- Supports: **Dudunsparce** (Run Away Draw: draw 3, then shuffle itself back in to be re-evolved and drawn again) + **Meowscarada** (Rising Bloom punishes the same ex Tenacious Tail exploits, Showtime free-pivots).
+- Core: Dunsparce line, Gumshoos (swaps a dead card for the top of the deck) + Grass Energy.
+- Why: every opponent in this format runs exactly one ex, so Tenacious Tail is a reliable 60-for-1 all game, and Run Away Draw is a genuinely recurring engine (evolve Dunsparce into it again after it shuffles back) — draw-turbo consistency in its purest form.
+
+**Errand Runner** — draws 2 a turn from the Active Spot, then closes with a coin-flip haymaker
+- Premium: **Mega Kangaskhan ex** — Run Errand draws 2 cards a turn just for being Active (once per turn); Rapid-Fire Combo does 200, +50 for every heads flipped until the first tails.
+- Supports: **Cinderace** (rushes it to the 3-Energy attack cost a turn or two early) + **Dudunsparce** (Run Away Draw stacks a second draw engine on top of Run Errand).
+- Core: Linoone (free Bench↔Active swap, since this is a Mega Evolution Pokémon ex) + Water Energy.
+- Why: Run Errand alone out-draws almost anything else in the format; Cinderace just gets Rapid-Fire Combo online faster so the card advantage has a finisher attached instead of stalling forever.
+
+**Larry's Sleepover** — a fully in-family free-energy engine feeding a coin-flip nuke
+- Premium: **Larry's Dudunsparce ex** — Work Rush flips one coin per Energy attached and does 80 for every heads (3 Energy minimum to attack, no cap on how many you stack first).
+- Supports: **Larry's Staraptor** (2nd attacker: Feathery Strike 150 + 50 to a benched target) + **Magearna** (heals whatever's parked in front while the engine spins up).
+- Core: Larry's Dunsparce (pre-evo), Larry's Komala (Lethargic Charge — from the Bench, attaches an Energy from hand to your Active Larry's Pokémon for free, no attack needed), Larry's Starly→Staravia (Minor Errand-Running searches 2 Basic Energy to hand) + Darkness Energy.
+- Why: Komala's free attachment stacks Energy on Larry's Dudunsparce ex without ever spending its attack, and Starly's search keeps Komala fed — by the time you swing, Work Rush is flipping 5-6 coins instead of 3. Every card here is Larry's-tagged, so Komala's "Active Larry's Pokémon" restriction is never a liability.
+
+**Payback Worm** — a Metal-fed retaliation trap that's brutal to attack into
+- Premium: **Orthworm ex** — Pummeling Payback puts 2 damage counters on any attacker that damages it, per Metal Energy attached to Orthworm (triggers even if Orthworm is KO'd by that hit); Rock Tomb (150) locks the Defending Pokémon's retreat.
+- Supports: **Drednaw** (walls any single 200+ swing outright) + **Magearna** (heals it back up between exchanges).
+- Core: Iron Jugulis (a second, smaller retaliation body) + Metal Energy.
+- Why: Orthworm ex only ever wants Metal Energy anyway (Rock Tomb's cost is Colorless, but Pummeling Payback scales specifically off Metal attached), so there's no splash tension at all — stack Metal, lock their retreat, and let Pummeling Payback punish every attack that comes in.
+
+**Blood Moon Rising** — cheap late, brutal always: a true comeback attacker
+- Premium: **Bloodmoon Ursaluna ex** — Seasoned Skill cuts Blood Moon's cost by 1 Colorless per Prize the opponent has taken; Blood Moon hits for 240 (base cost 5, as low as 1-2 Energy once you're behind).
+- Supports: **Magearna** (Auto Heal while the cost is still high early) + **Dudunsparce** (Run Away Draw digs for the Energy to pay whatever the current discounted cost is).
+- Core: Darkness Energy.
+- Why: this deck is explicitly built to be behind — Magearna keeps Ursaluna alive through the expensive early turns, and once the opponent has taken 3-4 prizes, Blood Moon is a 1-2 Energy attack for 240, exactly the comeback angle a slower deck gets rewarded for surviving into.
+
+**Sonic Wall** — stall behind two oversized bodies, then burst for 220
+- Premium: **Noivern ex** — Strafe (50) can swap Noivern for a fresh Benched Pokémon for 1 Colorless Energy; Sonic Blast hits for 220 at the cost of 30 recoil to itself.
+- Supports: **Wailord** (240 HP wall, Hydro Pump scales 50 more per {W} Energy attached).
+- Core: Noibat→Noivern line (Noivern's own Agility: 40 damage, coin-flip to no-sell the return hit entirely), Fan Rotom (searches Noibat turn 1) + Water Energy.
+- Why: Agility's coin-flip full-prevention and Wailord's raw 240 HP both buy time cheaply, so Noivern ex only has to take Sonic Blast's 30-recoil burst when it's actually favorable, not every turn.
+
+**Quick Draw** — an efficient 1-Energy poke-and-draw feeding a recoil finisher
+- Premium: **Zangoose ex** — Spike Draw hits for 20 and draws 2 cards for a single Colorless Energy; Wild Scissors closes for 180 at the cost of 30 recoil to itself.
+- Supports: **Cinderace** (rushes it to Wild Scissors' 3-Energy cost) + **Drednaw** (covers the recoil attrition).
+- Core: Fighting Energy.
+- Why: Spike Draw is cheap enough to fire every turn while you ramp toward Wild Scissors, so Zangoose ex is never a dead turn — it's either drawing cards or closing the game.
+
+**Fresh Bite** — an in-family gust engine that only wants to hit undamaged
+- Premium: **Arven's Mabosstiff ex** — Vigorous Tackle does 30, +120 (150 total) for 1 Colorless Energy if it has no damage counters on it; Boss Headbutt is a 210 haymaker that can't be reused the following turn.
+- Supports: **Arven's Greedent** (2nd attacker: Rolling Tackle) + **Drednaw** (tanks in the Active Spot while Mabosstiff waits clean on the Bench).
+- Core: Arven's Maschiff (pre-evo), Arven's Toedscool→Toedscruel (Pull drags up a fresh Benched target for Mabosstiff to one-shot with the undamaged bonus), Arven's Skwovet (Greedent's pre-evo) + Darkness Energy.
+- Why: Toedscruel's Pull does double duty — it forces up whatever the opponent least wants Active, and it's the reason Mabosstiff never has to be the one absorbing a hit before it swings for 150. Every card here is Arven's-tagged, so nothing is orphaned outside the family.
+
+**Ball Lightning** — three Energy in, a coin-flip cascade out
+- Premium: **Voltorb ex** — Hundred-Hitting Ball does 100, +100 for every heads flipped until the first tails (averages ~200, with real chances of much higher or a bare 100).
+- Supports: **Cinderace** (rushes the 3-Energy cost) + **Magearna** (heals its thin 170 HP between swings).
+- Core: Chansey (Lucky Attachment sneaks on an extra Energy for 1 Colorless when you need the attack live a turn sooner) + Lightning Energy.
+- Why: flagged as the simplest, highest-variance deck in the set — there's no scaling engine to build around, just "reach 3 Energy fast and flip." A real deck, but the ceiling and the floor are both wide open.
+
+**Great Swing** — 280 damage for 2 Energy, when it's allowed to swing at all
+- Premium: **Slaking ex** — Great Swing does 280 for 2 Colorless Energy, discarding one after; Born to Slack means it cannot attack at all if the opponent has no Pokémon ex or V in play.
+- Supports: **Drednaw** (walls hits during the turns you're sandbagging instead of committing Slaking) + **Cinderace** (rushes the 2-Energy cost once you're ready to commit).
+- Core: Slakoth→Vigoroth line (Vigoroth's Slashing Claw, 50 for {C}{C}, is unconditional and keeps the board live whenever Slaking would be dead weight) + Fighting Energy.
+- Why: flagged — this format guarantees every opponent runs one ex, so Born to Slack is usually satisfied by mid-game, but early turns and any window right after the opponent's ex is KO'd leave Slaking totally unable to attack. Vigoroth's unconditional Slashing Claw is what keeps this deck from bricking outright in those windows; don't mistake the 280-for-2 rate for a safe average.
+
+**Mirror Beak** — matches the opponent's Energy count for a huge bonus, on request
+- Premium: **Flamigo ex** — Precise Beak does 30, +100 (130 total) if Flamigo ex and the opponent's Active have the same amount of Energy attached; Brave Bird is a 200 backup at the cost of 30 recoil to itself.
+- Supports: **Magearna** (Auto Heal) + **Meowscarada** (Rising Bloom is a reliable Plan B vs. ex when the count never lines up).
+- Core: Chansey (attaches Energy 1 at a time, for exact count control instead of a bulk loader) + Water Energy.
+- Why: flagged as the most conditional deck here — matching Energy counts with whatever the opponent happens to run isn't something you can force, so Chansey's slow, exact attachments are the honest way to chase the bonus, with Brave Bird and Rising Bloom as the fallback when parity never happens.

@@ -1,0 +1,95 @@
+**Wild Growth Overdrive** — Meganium's energy-doubling feeds Mega Venusaur ex's huge attack cost.
+- Premium: **Mega Venusaur ex** — ABIL Solar Transfer moves a Basic {G} Energy between your own Pokémon anytime on your turn; GGGG Jungle Dump hits for 240 and heals 30 off itself.
+- Supports: **Meganium** (energy engine: Wild Growth makes every attached Basic {G} Energy count as {G}{G} toward costs) + **Iron Leaves** (non-ex; Recovery Net rebuys a KO'd ramp piece from the discard pile).
+- Core: Bulbasaur → Ivysaur (C/U, → premium); Chikorita → Bayleef (C/U, → Meganium); Basic Grass Energy.
+- Why: Wild Growth's "provides {G}{G}" is guaranteed to satisfy attack costs, so 2 real Energy cards already cover Jungle Dump's GGGG, and Solar Transfer freely reshuffles those same physical cards to wherever they're needed that turn. (Whether Wild Growth also inflates separate "per Energy attached" count-effects elsewhere is a genuine rules gray area — this deck only leans on the safe, cost-payment reading.)
+
+**Erika's Garden Party** — the mandated Erika's go-wide swarm: search, spread, heal, and swing.
+- Premium: **Erika's Vileplume ex** — ABIL Lovely Fragrance heals 30 from each of your Pokémon once/turn (an Ability, not an attack); GGC Bloom Powder hits 160 and inflicts Asleep + Poisoned.
+- Supports: **Erika's Victreebel** (GC Flower Garden Rondo: 40 damage for each Erika's Pokémon in play) + **Vileplume** (non-Erika's; G Pollen Bomb lands Asleep+Poisoned for 30, and G Lively Flower swings for 60+120 if healed that same turn).
+- Core: Erika's Oddish → Erika's Gloom (C/U, → premium); Erika's Bellsprout → Erika's Weepinbell (C/U, → Victreebel); Erika's Tangela (C/U, ABIL Gathering of Blossoms searches any Erika's Pokémon to hand once/turn); Oddish → Gloom (C/U, separate generic line, → Vileplume support); Basic Grass Energy.
+- Why: Erika's Tangela keeps refilling the board with Erika's-named Pokémon so Victreebel's per-Erika's-Pokémon count stays high, and because Lovely Fragrance is an Ability it can heal an Active Vileplume without spending the turn's attack — that same Vileplume can then swing Lively Flower this turn for the full 180, since it actually was "healed during this turn."
+
+**Forest March** — count your own board, hit like a truck; two family lines share one payoff.
+- Premium: **Torterra ex** — G Forest March does 30 damage for each of your {G} Pokémon in play; GCC Jungle Hammer hits 150 and heals 50 off itself.
+- Supports: **Serperior** (non-ex; G Regal Command does 20 for each of your Pokémon in play, any type) + **Zarude** (G Leaf Drain heals 20 off itself; GGC Jungle Whip does 80+ if you return all its Energy to hand).
+- Core: Turtwig → Grotle (C/U, → premium); Snivy → Servine (C/U, → Serperior support); a wide spread of cheap 1-Energy Grass Basics just to sit on the bench and pad the count (Weedle, Bulbasaur, Rowlet, Smoliv, Spinarak, etc.); Basic Grass Energy.
+- Why: Forest March and Regal Command both scale purely off how many of your own Pokémon are simply in play, so the deck floods the bench with cheap bodies and both attackers get bigger for free; Zarude is itself one more body toward that count while still swinging on its own. (Serperior's second attack, Solar Coiling, references "Rosa's Encouragement" in your discard — that card isn't in this Pokémon-only pool, so treat Solar Coiling as a plain 100+ with no bonus.)
+
+**Spore Lock** — stack Special Conditions and let the family punish them for free.
+- Premium: **Amoonguss ex** — G Spore Ball hits 30 and puts the opponent's Active Asleep; GC Champignon's Swing does 100+, +80 more on a coin-flip.
+- Supports: **Vileplume** (non-Erika's; G Pollen Bomb lands Asleep+Poisoned — two conditions in one hit — for 30) + **Butterfree** (G Scale Hurricane: 60 per heads on 4 coins, and Paralyzes the opponent's Active on 2+ heads).
+- Core: Foongus (C/U) → Amoonguss ex (premium) and, separately, Foongus → Amoonguss (C/U sibling stage; its Dangerous Reaction attack does 30+120 more whenever the opponent's Active already has a Special Condition, and Toxic Spore inflicts Poison for free); Oddish → Gloom (C/U, → Vileplume); Caterpie → Metapod (C/U, → Butterfree); Basic Grass Energy.
+- Why: Pollen Bomb alone lands two conditions in a single hit, and the free Amoonguss (non-ex) sibling punishes any Special Condition on the opponent's Active for +120 at zero support cost; Butterfree's coin-flip Paralyze adds a third status option and buys tempo while Spore Ball keeps re-applying Sleep.
+
+**Oil Salvo Sniper** — six-shot spread that ignores Resistance, picking apart the whole bench.
+- Premium: **Arboliva ex** — G Oil Salvo chooses an opponent's Pokémon 6 times for 20 damage each (ignores Weakness/Resistance, can spread or focus); CCC Aroma Shot hits 160 and cures itself of all Special Conditions.
+- Supports: **Butterfree** (coin-flip Paralyze lock to buy setup time) + **Whimsicott** (non-ex; ABIL Wafting Heal clears all damage off your Active {G} Pokémon when you evolve Whimsicott in — but discards all Energy from it, so time it carefully).
+- Core: Smoliv → Dolliv (C/U, → premium; Dolliv's own Nutrients attack heals 40 as a standalone option); Caterpie → Metapod (C/U, → Butterfree); Cottonee (C/U, → Whimsicott); Basic Grass Energy.
+- Why: Oil Salvo's six Resistance-ignoring instances let Arboliva ex snipe down a whole row of low-HP support Pokémon in one turn, Aroma Shot keeps it immune to status lock-back, and Butterfree's Paralyze buys the turns needed to line up the kill shots. Wafting Heal is a bonus reset, not the plan.
+
+**Regal Cheer Aggro** — a flat +20 aura turns every cheap attacker into a real threat.
+- Premium: **Serperior ex** — ABIL Regal Cheer: attacks used by your Pokémon do 20 more damage to the opponent's Active (before Weakness/Resistance), always on; GCCC Command the Grass searches up to 3 cards to hand.
+- Supports: **Tapu Bulu** (GGCC Wood Hammer, 220 base → 240 with the aura, at the cost of 30 to itself) + **Vileplume** (non-Erika's; Pollen Bomb 30 → 50 plus Asleep+Poisoned).
+- Core: Snivy → Servine (C/U, → premium); Oddish → Gloom (C/U, → Vileplume); free C/U attackers that get real mileage from +20 — Spinarak → Ariados, Heracross, Seedot → Nuzleaf → Shiftry; Basic Grass Energy.
+- Why: Regal Cheer is passive and applies to every attack from every one of your Pokémon, not just Serperior ex's own, so cheap C/U pokes and Tapu Bulu's big swing alike all hit harder; Command the Grass digs 3 cards deep for whatever the board needs.
+
+**Solar Bank** — Mega Venusaur ex as a mobile energy router instead of an attacker, a cleaner-rules Build B.
+- Premium: **Mega Venusaur ex** — ABIL Solar Transfer moves a Basic {G} Energy between your Pokémon as often as you like each turn; GGGG Jungle Dump for 240 + self-heal 30 when you do want it to swing.
+- Supports: **Hydrapple** (GCC Whip Smash for 140, fed same-turn by whatever Solar Transfer routes its way) + **Iron Leaves** (non-ex; Recovery Net rebuys a traded-off piece).
+- Core: Bulbasaur → Ivysaur (C/U, → premium); Applin → Dipplin (C/U, → Hydrapple); Basic Grass Energy.
+- Why: No Meganium here, so there's no Wild Growth stacking question at all — Solar Transfer just parks real Energy on Hydrapple to keep Whip Smash paid every single turn, or pulls it back onto Venusaur itself for a Jungle Dump finisher when the opponent overcommits to the wrong target. Slower than the Overdrive build, but rules-clean.
+
+**Swarm of the Hive** — the ex counts copies of itself, so run it as a swarm, not a singleton.
+- Premium: **Beedrill ex** ×multiple — G Rumbling Bees does 110 damage for each of your Beedrill and Beedrill ex in play (2 in play = 220, 3 = 330...).
+- Supports: **Butterfree** (coin-flip Paralyze lock while you assemble multiple copies) + **Iron Leaves** (non-ex; Recovery Net rebuys a KO'd Weedle/Kakuna/Beedrill ex to keep the count climbing).
+- Core: Weedle → Kakuna → Beedrill ex (C/U into the premium, run at full copy count); Caterpie → Metapod (C/U, → Butterfree); Basic Grass Energy.
+- Why: Rumbling Bees' damage is literally a headcount of Beedrill ex on your side, so the deck's whole plan is getting multiple copies onto the board at once — slower and riskier than a one-copy deck, flagged as a build-around, but the ceiling (330+ off a single attack) is real.
+
+**Buzzing Boost Shuttle** — switching Yanmega ex in re-triggers its own energy search, over and over.
+- Premium: **Yanmega ex** — ABIL Buzzing Boost: once/turn, when this moves from Bench to Active, search up to 3 Basic {G} Energy and attach them to itself; GGGC Jet Cyclone hits 210 and then moves 3 Energy from itself to a Benched Pokémon.
+- Supports: **Yanmega** (non-ex; GGC Gyro Shockwave hits 110 and switches itself with a Benched Pokémon) + **Zarude** (GGC Jungle Whip cashes in received Energy for +80).
+- Core: Yanma (C/U, shared base for both the premium and the Yanmega support); Basic Grass Energy, run heavy since Buzzing Boost keeps pulling more from the deck.
+- Why: Yanmega (non-ex)'s Gyro Shockwave switches itself out for a Benched Pokémon as part of its own attack — bring Yanmega ex in that way and Buzzing Boost fires off the Bench→Active move, refilling 3 more Energy straight from the deck; Jet Cyclone then ships that pile to Zarude, who can convert the whole stack into a one-time +80.
+
+**Juggernaut Wall** — two Basics, zero evolutions, both built to make attacking into them a mistake.
+- Premium: **Mega Heracross ex** — GG Juggernaut Horn does 100+, and that much more again if it was damaged by an opponent's attack last turn; GGG Mountain Ramming hits 170 and mills the opponent's top 2 cards.
+- Supports: **Chesnaught** (ABIL Needly Armor: if it's Active and gets hit, even if KO'd, place 3 damage counters on the attacker per {G} Energy attached to Chesnaught) + **Zarude** (G Leaf Drain heals 20 off itself each turn).
+- Core: Chespin → Quilladin (C/U, → Chesnaught); Basic Grass Energy. (Mega Heracross ex and Zarude are Basics needing no evolution at all.)
+- Why: Juggernaut Horn and Needly Armor are both "you shouldn't have attacked that" mechanics — one scales off damage already absorbed, the other fires back counters regardless of whether the wall itself survives — and since nothing here needs to evolve, the whole plan is live turn one.
+
+**Energy Gift Express** — front-load a hungry attacker's Energy a full turn ahead of schedule.
+- Premium: **Whimsicott ex** — G Energy Gift searches up to 3 Basic Energy and attaches them to your Pokémon however you like; G Wondrous Cotton does 50 for every Trainer card revealed in the opponent's hand.
+- Supports: **Tapu Bulu** (GGCC Wood Hammer, 220 to the face) + **Meganium** (Wild Growth: every attached Basic {G} Energy counts double toward costs).
+- Core: Cottonee (C/U, → premium); Chikorita → Bayleef (C/U, → Meganium); Basic Grass Energy.
+- Why: Energy Gift is Whimsicott ex's whole turn, so it can't also swing that turn — but it drops 3 Basic {G} Energy straight onto a Benched Tapu Bulu, and thanks to Wild Growth it may not even take all 3 physical cards to cover Wood Hammer's GGCC; next turn Tapu Bulu just walks into the Active Spot already paid for.
+
+**Arrow of Denial** — the discard costs your own line pays into become a second damage engine.
+- Premium: **Decidueye ex** — ABIL Sniper's Eye ignores {C} costs if the opponent has exactly 4 cards in hand; GCCC Crushing Arrow hits 240 and discards an Energy off the opponent's Active.
+- Supports: **Sinistcha** (non-ex; G Cursed Drop drops 4 damage counters on the opponent's Pokémon; G Spill the Tea discards up to 3 {G} Energy off your own Pokémon for 70 damage each) + **Iron Leaves** (non-ex; Recovery Net rebuys a lost piece of this long chain).
+- Core: Rowlet → Dartrix (C/U) branching to Decidueye ex (premium) and, separately, Decidueye (C/U sibling stage; its Power Shot attack discards a Basic {G} Energy from your hand as its cost, or does nothing); Poltchageist (C/U, → Sinistcha support); Basic Grass Energy.
+- Why: Decidueye (non-ex)'s Power Shot discards a Basic {G} Energy straight from your hand as its cost, feeding your own discard pile for Sinistcha to punish directly with Spill the Tea, while Decidueye ex's Crushing Arrow adds a separate layer of denial by stripping Energy off the opponent instead. Sniper's Eye's discount is a nice bonus if the opponent happens to sit at exactly 4 cards, but this deck has no way to force that — flagged as situational, not the core plan.
+
+**Rapid Vernier Nova** — a bench that's been quietly stockpiling Energy becomes an out-of-nowhere alpha strike.
+- Premium: **Iron Leaves ex** — ABIL Rapid Vernier: when played from hand to the Bench, may switch it into Active and move any amount of Energy from your other Pokémon onto it; GGC Prism Edge hits 180, then it can't attack next turn.
+- Supports: **Iron Leaves** (non-ex; Recovery Net rebuys the line, and GCC Avenging Edge does 100+60 if any of your Pokémon was KO'd by an opponent's attack last turn — a good cover attacker for the ex's cooldown turn).
+- Core: Basic Grass Energy, deliberately parked on cheap Bench-sitters for a turn or two before the vacuum. (Both Iron Leaves cards are Basics needing no evolution.)
+- Why: Playing Iron Leaves ex onto the Bench isn't an attack, so Rapid Vernier can vacuum every Energy card off your Bench and swap it into Active before you take your one attack that turn — and since a freshly-played Basic can still attack the same turn, a quietly loaded Bench turns into a sudden 180 damage swing. This needs real setup (a turn or two of parking Energy on Bench Pokémon first) and Iron Leaves ex can't follow up the next turn, so plain Iron Leaves covers the gap.
+
+**Bottom-Deck Gambit** — punish energy-loaded ex attackers while racing your own deck toward empty.
+- Premium: **Rabsca ex** — C Upside-Down Draw draws 3 cards from the bottom of your deck; GCC Psychic does 20+, +90 more for every Energy attached to the opponent's Active.
+- Supports: **Butterfree** (coin-flip Paralyze lock for tempo).
+- Core: Rellor (C/U) branching to Rabsca ex (premium) and, separately, Rabsca (C/U sibling stage; C Triple Draw draws 3, and G Counterturn does 40+200 once your own deck is down to 3 or fewer cards); a leaner-than-usual Basic Grass Energy count, since the plan wants the deck thin.
+- Why: Psychic is dedicated anti-ex tech — the more Energy an opposing ex has piled onto its attacker, the harder this punishes it — while Upside-Down Draw and Rabsca (non-ex)'s Triple Draw both thin your own deck for free toward Counterturn's 3-cards-or-fewer, 240-damage payoff. Flagged as a glass-cannon combo: deliberately racing your own deck-out is a real risk if the clock is misjudged, and running Energy leaner than normal to get there cuts against raw consistency.
+
+**Steeped Discard** — one family loop: discard {G} Energy for damage, then convert the pile into more damage and get it back.
+- Premium: **Sinistcha ex** — C Re-Brew places 2 damage counters on the opponent's Pokémon for every Basic {G} Energy card in your discard pile, then shuffles those Energy cards into your deck; GC Matcha Splash hits 120 and heals 30 from each of your Pokémon.
+- Supports: **Sinistcha** (non-ex; G Spill the Tea discards up to 3 {G} Energy off your own Pokémon for 70 damage each) + **Whimsicott** (non-ex; Wafting Heal resets an Active {G} Pokémon, discarding its Energy in the process).
+- Core: Poltchageist (C/U) branching to Sinistcha ex (premium) and Sinistcha (non-ex support), with its own ABIL Tea Server returning one discarded Basic {G} Energy to hand per turn; Cottonee (C/U, → Whimsicott); Basic Grass Energy.
+- Why: Spill the Tea discards your own Energy for immediate damage and stocks the discard pile; Re-Brew then turns that same pile into 2 damage counters per card and shuffles the Energy back into your deck instead of losing it for good, while Tea Server can fish individual cards back to hand between turns. Matcha Splash's team heal is a genuine attack (it uses your whole turn), so it can't set up a same-turn follow-up elsewhere — it's sustain, not a combo piece, and the overall damage ceiling here is modest (2 per discarded card), so this is more a grindy value engine than a finisher.
+
+**Vengeful Attrition** — a comeback attacker that's worst early and only good once you're already losing. Flagged as the most experimental/greedy build in this set.
+- Premium: **Durant ex** — ABIL Sudden Shearing may mill the opponent's top card when played to the Bench; GCC Vengeful Crush does 120+, +30 more for every Prize card the opponent has already taken.
+- Supports: **Iron Leaves** (non-ex; GCC Avenging Edge does 100+60 if any of your Pokémon was KO'd by an opponent's attack last turn) + **Zarude** (G Leaf Drain self-heals 20 to help it survive to the late game where it's actually good).
+- Core: Basic Grass Energy. (Durant ex, Iron Leaves, and Zarude are all Basics — no evolution lines needed at all.)
+- Why: Vengeful Crush and Avenging Edge share the exact same "you just lost a Pokémon" trigger — the opponent taking Prizes off you — so both attacks get stronger precisely when the game is going badly, not before. That's a real structural weakness: a 190 HP Durant ex with no evolution cushion has to survive long enough for its own payoff to matter, so this deck is honest attrition/comeback tech rather than a proactive plan.

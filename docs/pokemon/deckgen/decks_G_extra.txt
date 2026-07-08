@@ -1,0 +1,11 @@
+**Mega Meganium Bouquet** — load grass, swing big off one line
+- Premium: **Mega Meganium ex** — Giant Bouquet does 70 + 50 for each {G} energy on it.
+- Supports: **Meganium** (non-ex — Wild Growth, each basic {G} counts as two) + **Tapu Bulu** (a 220 Basic hitter that soaks the same grass).
+- Core: Chikorita / Bayleef (one line evolves into either Meganium), grass energy.
+- Why: Mega Meganium ex and non-ex Meganium share the Bayleef line, so it's one consistent package; even ignoring the Wild Growth "counts double" rules question, four attached grass makes Giant Bouquet 270 — and if your group rules provided energy counts, far more.
+
+**Hydrapple Syrup Storm** — reward a whole board of grass energy
+- Premium: **Hydrapple ex** — Ripening Charge attaches a {G} from hand and heals 30 each turn; Syrup Storm does 30 + 30 per {G} energy across *all* your pokemon.
+- Supports: **Meganium** (non-ex — Wild Growth roughly doubles the grass Syrup Storm counts) + **Tapu Bulu**.
+- Core: Applin / Dipplin (the Hydrapple line), grass energy.
+- Why: Syrup Storm scales with grass energy spread across your *entire* board, so you flood the team with grass (Ripening Charge every turn, Wild Growth doubling the count) and heal as you go — a grindy, snowballing attacker.

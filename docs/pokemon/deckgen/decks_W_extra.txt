@@ -1,0 +1,5 @@
+**Zero to Hero** — flip the regular Palafin into a 250-for-one-energy Hero
+- Premium: **Palafin ex** — Giga Impact 250 for a single {W} (then can't attack next turn).
+- Supports: **Samurott** (Torrential Whirlpool switches your Active to the bench — the trigger — and guts their Active too) + **Clawitzer** (Aqua Launcher 210, the off-turn attacker while Palafin ex is on cooldown).
+- Core: Finizen, **Palafin** (the SV06 Uncommon printing — Ability: Zero to Hero: when it moves from Active to Bench, search your deck for Palafin ex and switch it in, carrying over energy and damage), water energy.
+- Why: Palafin ex can *only* enter play via the non-ex Palafin's Zero to Hero — so you load up the regular Palafin, send it to the bench (retreat or Samurott's switch), and it becomes a fully-charged Palafin ex that swings 250 for one energy. Clawitzer covers the turn Giga Impact is on cooldown. (Both Palafins are Uncommon, so the whole engine is free — your two slots go to Samurott + Clawitzer.)

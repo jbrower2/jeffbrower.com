@@ -1,0 +1,77 @@
+**Burn Engine** — keep them on fire, cash it in
+- Premium: **Mega Camerupt ex** — Roasting Heat does 80 + 160 into a Burned target (240 for one {R}).
+- Supports: **Magcargo** (Lava Zone auto-Burns whatever they retreat to) + **Magmortar** (Magma Surge adds 3 counters to Burned pokemon each checkup).
+- Core: Numel / Camerupt, Slugma, Pyroar / Volcanion (free C/U burners), fire energy.
+- Why: the deck's only job is keeping a Burn stuck; Magmortar turns Burn from 10 into 40 a turn, and Roasting Heat triples into a burned target.
+
+**Ethan's Turbo** — feed a benched bomb, swing next turn
+- Premium: **Ethan's Ho-Oh ex** — Golden Flame attaches 2 fire/turn to a benched Ethan's pokemon.
+- Supports: **Ethan's Magcargo** (Lava Burst discards up to 5 fire for 70 each — up to 350) + **Ethan's Typhlosion** (Steam Artillery 160).
+- Core: Ethan's Cyndaquil / Quilava (searches the Ethan's Adventure trainer), Ethan's Slugma, fire energy.
+- Why: Golden Flame only pumps Ethan's pokemon, so every attacker is one; pre-load Magcargo on the bench, promote it, Lava Burst for a one-shot 350.
+
+**Emboar Overload** — one line, dump the hand, hit 320
+- Premium: **Mega Emboar ex** — Crimson Blast 320 (60 recoil).
+- Supports: **Emboar ×2** (Inferno Fandango — attach as many fire from hand as you like).
+- Core: Tepig / Pignite (one line into either Emboar), fire energy.
+- Why: both Emboars share the Pignite line, and Inferno Fandango is the only way to pay 320 this fast — race before the recoil catches up.
+
+**Pyroar Wall** — layered damage reduction behind a 290 hitter
+- Premium: **Mega Pyroar ex** — Fiery Big Bang 290 (−10 per damage on it); Ferocious Bellow makes their attacks do 50 less.
+- Supports: **Skeledirge** (Unaware — prevents all attack *effects* on it) + **Delphox** (Flaring Magic draws you to 7).
+- Core: Litleo, Pyroar (non-ex — Intimidating Fang, −30 to their active), fire energy.
+- Why: Intimidating Fang (−30) + Ferocious Bellow (−50) + Skeledirge's effect-immunity stack into a wall while Fiery Big Bang still swings for ~290.
+
+**Volcanion Spread-Burn** — self-sufficient burn that shares energy
+- Premium: **Volcanion ex** — Scalding Steam Burns their active each turn; Scorching Cyclone 160 and moves an energy to the bench.
+- Supports: **Magmortar** (Magma Surge burn amp) + **Infernape** (Pyro Dance attaches fire from hand).
+- Core: cheap fire basics, fire energy.
+- Why: Volcanion applies the Burn by itself and Magmortar makes it hurt, while Scorching Cyclone + Infernape spread energy so a second attacker is always charging.
+
+**Reshiram Comeback** — all-basic prize-race
+- Premium: **Reshiram ex** — Blazing Burst does 130 + 50 for each prize your opponent has taken.
+- Supports: **Entei** (Flare Fall, +90 with 4 fire in play) + **Moltres** (Fighting Wings, +90 into an ex).
+- Core: fire energy, Fan Rotom (free turn-1 search).
+- Why: three hard-hitting Basics with no evolution lines to brick; Reshiram scales as you fall behind, Moltres/Entei apply pressure from turn one.
+
+**Incineroar Bench-Punish** — cheaper the wider they go
+- Premium: **Incineroar ex** — Hustle Play makes its attacks cost {C} less per opposing benched pokemon; Blaze Blast 240 + Burn.
+- Supports: **Magmortar** (burn amp) + **Magcargo** (Lava Zone).
+- Core: Litten / Torracat, Slugma, fire energy.
+- Why: against the bench-heavy decks in this format Blaze Blast gets cheap fast, and every hit leaves a Burn that Magmortar/Magcargo turn into extra damage.
+
+**Salazzle Toolbox** — dig for anything, poison + burn
+- Premium: **Salazzle ex** — Nasty Plot searches 2 cards to hand; Dire Nails 100 + Burn + Poison, then switches out.
+- Supports: **Magmortar** (burn amp) + **Chandelure** (Alluring Light draw / Mind Ruler off their hand).
+- Core: Salandit / Salazzle (non-ex), fire energy.
+- Why: Nasty Plot gives the consistency a singleton-ex format needs, Dire Nails stacks two conditions and pivots to safety, and Magmortar punishes the Burn.
+
+**Hearthflame Anti-Evolution** — a basic-only evolution-hunter
+- Premium: **Hearthflame Mask Ogerpon ex** — Dynamic Blaze does 140 + 140 into an Evolution pokemon; Wrathful Hearth 20× the damage on it.
+- Supports: **Moltres** (+90 into an ex) + **Entei** (Flare Fall).
+- Core: fire energy, Fan Rotom (free search).
+- Why: almost every premium in the format is an evolved ex, and Dynamic Blaze one-shots them for 280; a fast all-Basic build that also punishes ex with Moltres.
+
+**Magcargo Mill-Burn** — grind their deck and their HP
+- Premium: **Magcargo ex** — Ground Burn 140 + 140 per energy milled off the decks; Hot Magma 70 + Burn.
+- Supports: **Magmortar** (burn amp) + **Magcargo** (non-ex, Lava Zone).
+- Core: Slugma, fire energy.
+- Why: a burn shell that also mills — Ground Burn chips both decks and spikes when it hits energy, while the Lava Zone/Magmortar package keeps the Burn clock ticking.
+
+**Scovillain Rage** — glass cannon that hits harder hurt (flagged)
+- Premium: **Scovillain ex** — Spicy Rage does 10 + 70 for each damage counter on it.
+- Supports: **Magcargo** (Lava Zone) + **Moltres** (anti-ex backup).
+- Core: Capsakid, fire energy.
+- Why: once Scovillain has taken a few hits Spicy Rage explodes (a handful of counters = 300+) — but it lives in KO range, so it's a genuine high-variance glass cannon. (Build-around; flagged.)
+
+**Gouging Fire Pivot** — 260, then cool down (flagged)
+- Premium: **Gouging Fire ex** — Blaze Blitz 260 (can't reuse it until it leaves the Active Spot).
+- Supports: **Gouging Fire** (non-ex — Blazing Charge, +70 when they're low on prizes) + **Infernape** (Pyro Dance accel).
+- Core: cheap fire basics to pivot into, fire energy.
+- Why: Blaze Blitz hits 260 but forces a rotation, so you pivot to the non-ex Gouging Fire / a chip attacker for a turn, then swing again. (Needs a switch plan; flagged.)
+
+**Oricorio Support-Trap** — only works next to a Mega (flagged weakest)
+- Premium: **Oricorio ex** — Fire Wing 110; Excited Turbo attaches fire from hand *if you have a {R} Mega ex in play*.
+- Supports: **Entei** + **Moltres**.
+- Core: fire basics, fire energy.
+- Why: honestly a trap as a standalone premium — Excited Turbo needs a {R} Mega ex (a second premium you can't run), so here it's just a vanilla 110 Basic. Included only for completeness. (Flagged weakest.)

@@ -1,0 +1,101 @@
+**Starmie Jetstream Rush** — turn-two Mega Starmie ex punishing the board before it can react.
+- Premium: **Mega Starmie ex** — evolves directly off Staryu; Jetting Blow hits for 120 plus 50 to a Benched Pokémon for a single {W} Energy, or Nebula Beam deals a flat 210 that ignores Weakness, Resistance, and anything on the opponent's Active.
+- Supports: **Samurott** (Torrential Whirlpool swaps your Active with a Benched Pokémon for free once a turn, and boots the opponent's Active to their Bench too) + **Clawitzer** (Fall Back to Reload attaches 2 Basic {W} Energy from hand to itself whenever it retreats).
+- Core: Staryu, Oshawott, Dewott (Samurott's line), Clauncher (Clawitzer's base), Quaxly, Quaxwell, Quaquaval (Up-Tempo refills your hand to 5 every turn), basic Water Energy.
+- Why: Samurott's ability can drop Mega Starmie ex into the Active Spot the instant it's needed while simultaneously yanking the opponent's threat to their Bench, and since Jetting Blow only costs one Energy it can swing for 120+50 the same turn it arrives.
+
+**Croconaw Chip, Mega Crunch** — soften the target with Croconaw, then close with a 400-damage Mortal Crunch.
+- Premium: **Mega Feraligatr ex** — Mortal Crunch does 200, or 400 if the opponent's Active already carries any damage counter.
+- Supports: **Feraligatr** (non-ex; same Croconaw branch — Torrential Heart self-buffs for +120 damage this turn, Giant Wave hits for 160) + **Carracosta** (Primal Knowledge adds a flat +30 to any attack against an opposing Evolution Pokémon).
+- Core: Totodile, Croconaw, Tirtouga (Carracosta's base), Bruxish (Counterattack drops 3 damage counters on anything that KOs it, often flagging the opponent's Active for free), basic Water Energy.
+- Why: Croconaw's Crunch (or a Bruxish trade) almost always leaves at least one damage counter on the opponent's Active before Mega Feraligatr ex swings in, flipping Mortal Crunch from 200 to a game-ending 400 for just 3 Energy.
+
+**Starmie Tundra Fortress** — second build for the strongest ex in the pool: wall up, then close with an unpreventable 210.
+- Premium: **Mega Starmie ex** — same 330 HP attacker, leaning on Nebula Beam's flat 210 (ignores Weakness/Resistance/opponent Active effects) as the finisher instead of the early rush.
+- Supports: **Aurorus** (Tundra Wall: −50 damage to every Pokémon of yours with any {W} Energy attached) + **Beartic** (Sheer Cold hits for 150 and locks the Defending Pokémon out of attacking next turn).
+- Core: Staryu, Amaura (Aurorus's base), Cubchoo (Beartic's base), basic Water Energy.
+- Why: Mega Starmie ex almost always has a {W} Energy attached to fuel Jetting Blow, so Tundra Wall quietly turns its 330 HP into a wall while Sheer Cold denies a full turn of offense; once the board stabilizes, Nebula Beam's flat, unpreventable 210 closes it out regardless of what the opponent tries.
+
+**Samurott's Ambush** — a free once-per-turn switch turns Keldeo ex's bench-in bonus into a repeatable cheap shot.
+- Premium: **Keldeo ex** — Gale Thrust does 30, or 120 if it moved from the Bench to the Active Spot this turn, for just {W}{C}.
+- Supports: **Samurott** (Torrential Whirlpool swaps Keldeo ex into the Active Spot for free, sending the opponent's Active to their Bench in the same motion) + **Aurorus** (Tundra Wall trims 50 off anything that hits back).
+- Core: Oshawott, Dewott (Samurott's line), Amaura (Aurorus's base), basic Water Energy.
+- Why: Samurott's ability satisfies Gale Thrust's "moved from the Bench" clause on demand, every turn, for a cheap 2-Energy attack that also disrupts the opponent's board; Tundra Wall keeps Keldeo ex's 210 HP alive between swaps.
+
+**Frozen Fortress** — stack two separate damage-reduction abilities on the same wall.
+- Premium: **Cetitan ex** — Snow Camouflage voids all Item/Supporter effects aimed at it; Crushing Press hits for 140, or 280 if you discard a Stadium in play.
+- Supports: **Aurorus** (Tundra Wall: −50 to every {W}-Energy-holding Pokémon of yours, doesn't stack with itself) + **Beartic** (Sheer Cold: 150 damage and the Defending Pokémon can't attack next turn).
+- Core: Cetoddle, Cetitan non-ex (Solid Body: an additional −30 that stacks with Tundra Wall for −80 total on the front line), Amaura (Aurorus's base), Cubchoo (Beartic's base), basic Water Energy.
+- Why: Cetitan non-ex's own Solid Body stacks with Aurorus's team-wide Tundra Wall for a combined −80 reduction on whichever Cetitan is tanking, and Beartic's Sheer Cold denies a full attack on top of that — almost nothing gets through before Cetitan ex closes it out.
+
+**Hydro Turn Hit-and-Run** — poke for real damage, then vanish to the Bench in the same attack.
+- Premium: **Lapras ex** — Hydro Turn does 30 for every {W} Energy attached and switches Lapras ex with a Benched Pokémon as part of the attack (no retreat cost paid); Surf hits for a flat 140.
+- Supports: **Gorebyss** (may attach any number of Basic {W} Energy from hand before dealing 30 per Energy on itself) + **Clawitzer** (Fall Back to Reload attaches 2 Basic {W} Energy from hand to itself on retreat).
+- Core: Clamperl (shared base for Gorebyss/Clawitzer), Snom, Frosmoth (Cold Cyclone hits for 90 and moves one of its own attached {W} Energy onto a Benched Pokémon — ideal for topping Lapras ex back up right after it swaps to safety), basic Water Energy (run heavy).
+- Why: Hydro Turn lets Lapras ex hit hard and remove itself from danger in the same breath, and Frosmoth's Cold Cyclone can shuttle Energy onto it the instant it's back on the Bench so the next Hydro Turn hits even harder; Gorebyss and Clawitzer back it up as a second Energy-hungry attacking pair.
+
+**Deep Current Overload** — every attacker in the deck directly converts a big Water-Energy count into damage.
+- Premium: **Kingdra ex** — Hydro Pump does 50 plus 50 more for every {W} Energy attached, and King's Order recurs up to 3 {W} Pokémon from the discard pile onto the Bench for free.
+- Supports: **Gorebyss** (Crescendo Wave lets you attach any number of Basic {W} Energy from hand before dealing 30 per Energy on itself) + **Clawitzer** (Fall Back to Reload attaches 2 Basic {W} Energy from hand to itself on retreat).
+- Core: Horsea, Seadra (Call for Backup searches up to 3 Pokémon into hand), Clamperl (shared base for Gorebyss/Clawitzer), basic Water Energy (run more copies than usual).
+- Why: Kingdra, Gorebyss, and Clawitzer all just want a huge Water-Energy count on the board, so the whole list is built to flood it; King's Order then recycles any of them that get KO'd straight back onto the Bench to keep swinging.
+
+**Serene Slumber** — guaranteed Sleep and a guaranteed lock cover for each other's failure cases.
+- Premium: **Milotic ex** — Hypno Splash hits for 160 and puts the opponent's Active to sleep; Sparkling Scales voids damage and effects from opposing Tera Pokémon.
+- Supports: **Beartic** (Sheer Cold guarantees the Defending Pokémon can't attack even if it wakes up) + **Aurorus** (Tundra Wall: −50 to anything of yours holding {W} Energy).
+- Core: Feebas (branches into both non-ex Milotic — Mentally Calm denies the opponent any return-to-hand escape — and Milotic ex off the same base), Cubchoo (Beartic's base), Amaura (Aurorus's base), basic Water Energy.
+- Why: Hypno Splash's guaranteed Sleep and Beartic's guaranteed "can't attack" lock cover for each other if either whiffs, and Tundra Wall shaves damage off anything that still connects; the shared Feebas base means either Milotic is a live draw.
+
+**Purge and Plunder** — dumping your own hand feeds a second attacker's discard-pile nuke.
+- Premium: **Veluza ex** — Purging Strike does 120, or 240 if you discard your whole hand.
+- Supports: **Kyogre** (Riptide does 20 for every Basic {W} Energy card in your discard pile, then shuffles them back into the deck) + **Carracosta** (Primal Knowledge: flat +30 vs any opposing Evolution Pokémon).
+- Core: Tirtouga (Carracosta's base), basic Water Energy (run extra — some of it is meant to get discarded on purpose).
+- Why: Purging Strike's optional hand-dump conveniently throws spare Basic {W} Energy into the discard pile, which Kyogre's Riptide later cashes in for a huge hit before resetting the pile by shuffling those cards back into the deck; Carracosta pads both attackers against Evolution Pokémon.
+
+**Misty's Deep Freeze** — Misty's whole cast backs a Regice ex that reloads off the same mill.
+- Premium: **Regice ex** — Regi Charge reattaches 2 Basic {W} Energy from the discard pile to itself; Ice Prison hits for 140, discards 2 Energy from itself, and paralyzes the opponent's Active.
+- Supports: **Misty's Gyarados** (Splashing Panic mills the top 7 cards of your deck and hits for 70 per Misty's Pokémon found there) + **Beartic** (Sheer Cold locks down a turn while the loop resets).
+- Core: Misty's Staryu, Misty's Starmie (Abrupt Flash hits for 140 the turn it evolves), Misty's Magikarp (Gyarados's required base; So Submerged keeps it safe on the Bench), Misty's Lapras (Swim Together searches up to 3 Misty's Pokémon into hand), Cubchoo (Beartic's base), basic Water Energy.
+- Why: Misty's Lapras searches the package into hand fast, Splashing Panic's self-mill both threatens real damage off however many Misty's Pokémon it finds and spills spare Basic {W} Energy into the discard pile, and Regice ex's Regi Charge scoops that Energy right back up to keep Ice Prison's lock running. (No legal Misty's ex exists — Regice ex is the generic premium here.)
+
+**Avalanche Flood** — win by running more Water Energy than anyone else at the table.
+- Premium: **Mega Abomasnow ex** — Hammer-lanche mills the top 6 cards of your deck and does 100 damage for every Basic {W} Energy card found there; Frost Barrier hits for 200 and shields for −30 next turn.
+- Supports: **Kyogre** (Riptide cashes in whatever Basic {W} Energy Hammer-lanche's own mill happens to discard, then shuffles it back into the deck) + **Beartic** (Sheer Cold locks down a turn while you build up a big Energy count).
+- Core: Snover, Cubchoo (Beartic's base), basic Water Energy — run well above a normal count.
+- Why: Hammer-lanche's whole damage output is a function of how much Water Energy is sitting in the deck, so this list simply runs far more of it than usual, and since milling doesn't destroy that Energy's value, Kyogre can swing in on a later turn and cash the same discard pile in for a second huge hit.
+
+**Wellspring Reload** — shuffle away your own Energy for a two-target nuke, then refuel through a teammate's attack.
+- Premium: **Wellspring Mask Ogerpon ex** — Sob does 20 and locks the Defending Pokémon's retreat for one Energy; Torrential Pump does 100, and may shuffle 3 attached Energy into the deck for 120 more to a Benched Pokémon.
+- Supports: **Carracosta** (flat +30 vs any opposing Evolution Pokémon) + **Beartic** (Sheer Cold locks down a turn).
+- Core: Snom, Frosmoth (Cold Cyclone hits for 90 and moves one of its own attached {W} Energy onto a Benched Pokémon — a direct way to refuel Ogerpon after a big shuffle-swing), Tirtouga (Carracosta's base), Cubchoo (Beartic's base), basic Water Energy.
+- Why: Torrential Pump's optional shuffle turns a 100-damage hit into a 220-damage two-for-one but empties Ogerpon's Energy in the process, and Frosmoth's Cold Cyclone can hand it straight back the very next turn instead of waiting on a normal one-per-turn attachment.
+
+**Dondozo's Gambit** — the more it's hurt, the harder it hits back.
+- Premium: **Dondozo ex** — Avenging Billow does 30 plus 10 for every damage counter already on Dondozo ex itself; Dynamic Dive does 120, or 240 if it also deals 50 to itself.
+- Supports: **Beartic** (Sheer Cold locks down a turn to protect an already-battered Dondozo ex) + **Carracosta** (flat +30 vs opposing Evolution Pokémon).
+- Core: Cubchoo (Beartic's base), Tirtouga (Carracosta's base), basic Water Energy.
+- Why: Dynamic Dive's optional self-damage and any hits Dondozo ex soaks up both become fuel for Avenging Billow, turning its huge 260 HP into ammunition instead of just a cushion. Flag as a little greedy — it is actively worse off staying fully healthy, which cuts against just playing around damage.
+
+**Paradox Sandman** — guaranteed-Sleep engines set up Walking Wake ex's biggest number.
+- Premium: **Walking Wake ex** — Azure Seas makes its attack damage immune to anything on the opponent's Active; Catharsis Roar does 120, or 240 if the opponent's Active has a Special Condition.
+- Supports: **Walking Wake** (non-ex; same-name backup attacker, or a big self-damaging Undulating Slice nuke) + **Carracosta** (flat +30 vs opposing Evolution Pokémon).
+- Core: Poliwag, Poliwhirl (Hypnosis guarantees Sleep, no coin flip, for one Energy), Spheal (Powder Snow also guarantees Sleep), Tirtouga (Carracosta's base), basic Water Energy.
+- Why: Poliwhirl's Hypnosis and Spheal's Powder Snow both land a guaranteed Special Condition without a coin flip, which is exactly what Catharsis Roar needs to jump from 120 to 240, and Azure Seas makes sure nothing on the opponent's side can blunt it.
+
+**Prize Blizzard** — a spread attack that gets scarier as the opponent's Prizes disappear.
+- Premium: **Kyurem ex** — Slash does 50 early; Blizzard Burst does 130 and 10 more to every Benched Pokémon per Prize card the opponent has taken.
+- Supports: **Aurorus** (Tundra Wall: −50 to anything of yours holding {W} Energy) + **Beartic** (Sheer Cold locks down a turn).
+- Core: Amaura (Aurorus's base), Cubchoo (Beartic's base), basic Water Energy.
+- Why: Blizzard Burst is unimpressive turn one but scales into a near-board-wipe as the game goes on, so Tundra Wall and Sheer Cold's job is simply to keep Kyurem ex alive long enough for the opponent's Prize count to make it worthwhile. Flag as slow — weak if the game ends early.
+
+**Frostbite Recoil** — one of the hardest single hits in the pool, offset by a blanket damage shield.
+- Premium: **Black Kyurem ex** — Ice Age does 90 and paralyzes a {N} (Dragon-type) opposing Active; Black Frost does 250 but deals 30 to itself.
+- Supports: **Aurorus** (Tundra Wall: −50 to anything of yours holding {W} Energy, offsetting Black Frost's own recoil over multiple turns) + **Froslass** (Freezing Shroud pings every Ability-holder in play, both sides, each Checkup — a hedge since Ice Age's Paralysis only triggers on a Dragon-type opponent).
+- Core: Amaura (Aurorus's base), Snorunt (Froslass's base), basic Water Energy.
+- Why: Black Frost's 250 damage for 4 Energy is among the biggest hits in the pool, and Tundra Wall's −50 buys back the turns Black Frost's own recoil costs. Flag Ice Age's Paralysis clause as narrow — it only ever triggers against Dragon-type Actives.
+
+**Tricolor Burst — Experimental** — turn spare hand Energy into one huge burst on anything, Bench included.
+- Premium: **Wugtrio ex** — Tricolor Pump discards up to 3 Energy cards from hand for 60 damage each (up to 180) to one target, Bench included; Numbing Hold does 120 and locks the Defending Pokémon's retreat.
+- Supports: **Carracosta** (flat +30 vs opposing Evolution Pokémon).
+- Core: Wiglett (Lucky Find searches an Item card), Quaxly, Quaxwell, Quaquaval (Up-Tempo refills your hand to 5 regardless of position, feeding Tricolor Pump), Tirtouga (Carracosta's base), basic Water Energy (run extra to keep discarding).
+- Why: Quaquaval keeps the hand stocked with spare Energy for Tricolor Pump to convert into a single 180-damage burst on whatever's most threatening. Flag: despite its Water-costed attacks and Wiglett heritage, Wugtrio ex is actually Lightning-typed (weak to Fighting, not the usual Water-line Lightning weakness) and does not count as a {W} Pokémon for any name-based effects.

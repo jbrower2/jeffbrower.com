@@ -1,0 +1,5 @@
+**Miraidon Hadron** — 240 into the whole ex field (alt printing)
+- Premium: **Miraidon ex** — the ASH printing: Slashing Claw 40, Hadron Spark 120 + 120 into an ex (240).
+- Supports: **Raikou** (Electro Fall, +90 with 4 lightning in play) + **Thundurus** (Charge — search a lightning to hand).
+- Core: Tynamo / Eelektrik (Dynamotor refuels from the discard), lightning energy.
+- Why: unlike the L/P Miraidon, this printing is mono-lightning, so Eelektrik's engine fully powers it — and since nearly every deck in the format fields an ex, Hadron Spark is a 240 nuke almost every turn.

@@ -1,0 +1,23 @@
+**Mega Skarmory Snipe** — 220 to anything, on repeat
+- Premium: **Mega Skarmory ex** — Sonic Ripper does 220 to any one pokemon (shuffles its own energy back into the deck).
+- Supports: **Kingambit** (comeback finisher) + **Cobalion** (non-ex — strips their Special Energy).
+- Core: cheap metal basics, metal energy.
+- Why: Sonic Ripper is a repeatable 220 snipe that ignores their active, so you pick off support pokemon and threats turn after turn from behind a 260-HP body.
+
+**Revavroom Hit-and-Run** — 250 then gone
+- Premium: **Revavroom ex** — Accelerator Flash 140 off the bench; Shattering Speed 250 (discards itself).
+- Supports: **Kingambit** + **Zamazenta** (Strong Bash + counter-damage).
+- Core: Varoom / Revavroom (non-ex — Metal Coating recurs metal from discard), metal energy.
+- Why: Shattering Speed nukes for 250 and vanishes (denying the return KO), Accelerator Flash punishes off the bench, and Varoom keeps the discard-and-recur going.
+
+**Scizor Flex** — a scalable, defensive tempo hitter
+- Premium: **Scizor ex** — Cross Breaker does 0/120/240 (discard up to 2 metal); Steel Wing 70 + 50 damage reduction.
+- Supports: **Klinklang** (−20 to your metal) + **Steelix** (wall).
+- Core: Scyther, metal energy.
+- Why: Steel Wing buys defensive turns and Cross Breaker converts stored metal into a 240 swing on demand; Klinklang stacks more reduction on an already-slippery attacker.
+
+**Melmetal Axe** — 250 with a Tool (flagged)
+- Premium: **Melmetal ex** — Iron Swing, up to 200 on two coin flips.
+- Supports: **Melmetal** (non-ex — Reforged Axe 250) + **Steelix**.
+- Core: Meltan (Knickknack Carrying tutors Pokémon Tools), metal energy.
+- Why: Meltan finds the Tool and the non-ex Melmetal's Reforged Axe swings 250 — but that needs a Pokémon Tool attached, a Trainer card outside this Pokémon-only pool. (Flagged — Tool-dependent.)
