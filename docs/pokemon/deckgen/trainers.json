@@ -1,0 +1,1381 @@
+{
+"Adversity Policy": {
+"name": "Adversity Policy",
+"trainerType": "Tool",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "If the Pok\u00e9mon this card is attached to has Weakness to your opponent's Active Pok\u00e9mon's type, is in the Active Spot, and is damaged by an attack from your opponent's Pok\u00e9mon (even if this Pok\u00e9mon is Knocked Out), draw 3 cards."
+},
+"Ange Floette": {
+"name": "Ange Floette",
+"trainerType": "Stadium",
+"rarity": "Uncommon",
+"reg": "J",
+"effect": "You can put this card into play only if you discard a Prism Tower in play, and you can put this card into play during the same turn you play Prism Tower.\nEach Mega Floette ex in play (both yours and your opponent's) gets +150 HP."
+},
+"AZ's Tranquility": {
+"name": "AZ's Tranquility",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "J",
+"effect": "Switch your Active Pok\u00e9mon with 1 of your Benched Pok\u00e9mon. If you moved a Pok\u00e9mon ex to your Bench in this way, heal 80 damage from that Pok\u00e9mon."
+},
+"Emma": {
+"name": "Emma",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "J",
+"effect": "Your opponent reveals their hand, and you draw a card for each Pok\u00e9mon you find there."
+},
+"Great Haul Net": {
+"name": "Great Haul Net",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "J",
+"effect": "Choose 1 or both:\n\u2022 Shuffle up to 3 {W} Pok\u00e9mon from your discard pile into your deck.\n\u2022 Shuffle up to 3 Basic {W} Energy cards from your discard pile into your deck."
+},
+"Philippe": {
+"name": "Philippe",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "J",
+"effect": "Attach up to 2 Basic {M} Energy cards from your discard pile to 1 of your {M} Pok\u00e9mon."
+},
+"Prism Tower": {
+"name": "Prism Tower",
+"trainerType": "Stadium",
+"rarity": "Uncommon",
+"reg": "J",
+"effect": "Once during each player's turn, that player may discard 2 cards from their hand in order to draw a card."
+},
+"Roxie's Performance": {
+"name": "Roxie's Performance",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "J",
+"effect": "During your opponent's next turn, their Poisoned Pok\u00e9mon can't retreat. (This includes newly Poisoned Pok\u00e9mon.)"
+},
+"Special Red Card": {
+"name": "Special Red Card",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "J",
+"effect": "You can use this card only if your opponent has 3 or fewer Prize cards remaining.\n\nYour opponent shuffles their hand and puts it on the bottom of their deck. If they put any cards on the bottom of their deck in this way, they draw 3 cards."
+},
+"Transformation Tome": {
+"name": "Transformation Tome",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "J",
+"effect": "You must play 2 Transformation Tome cards at once. (This effect works one time for 2 cards.)\n\nChoose a Basic Pok\u00e9mon in your discard pile and switch it with 1 of your Basic Pok\u00e9mon in play. Any attached cards, damage counters, Special Conditions, turns in play, and any other effects remain on the new Pok\u00e9mon."
+},
+"Energy Retrieval": {
+"name": "Energy Retrieval",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Put up to 2 Basic Energy cards from your discard pile into your hand."
+},
+"Jumbo Ice Cream": {
+"name": "Jumbo Ice Cream",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Heal 80 damage from your Active Pok\u00e9mon that has 3 or more Energy attached."
+},
+"Surfing Beach": {
+"name": "Surfing Beach",
+"trainerType": "Stadium",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Once during each player's turn, that player may switch their Active {W} Pok\u00e9mon with 1 of their Benched {W} Pok\u00e9mon."
+},
+"Tool Scrapper": {
+"name": "Tool Scrapper",
+"trainerType": "Item",
+"rarity": "Common",
+"reg": "I",
+"effect": "Choose up to 2 Pok\u00e9mon Tools attached to Pok\u00e9mon (yours or your opponent's) and discard them."
+},
+"Black Belt's Training": {
+"name": "Black Belt's Training",
+"trainerType": "Supporter",
+"rarity": "Common",
+"reg": "H",
+"effect": "During this turn, attacks used by your Pok\u00e9mon do 40 more damage to your opponent's Active Pok\u00e9mon ex (before applying Weakness and Resistance)."
+},
+"Professor's Research": {
+"name": "Professor's Research",
+"trainerType": "Supporter",
+"rarity": "Common",
+"reg": "G",
+"effect": "Discard your hand and draw 7 cards."
+},
+"Antique Jaw Fossil": {
+"name": "Antique Jaw Fossil",
+"trainerType": "Item",
+"rarity": "Common",
+"reg": "J",
+"effect": "Play this card as if it were a 60-HP Basic {C} Pok\u00e9mon. This card can't be affected by any Special Conditions and can't retreat.\n\nAt any time during your turn, you may discard this card from play."
+},
+"Antique Sail Fossil": {
+"name": "Antique Sail Fossil",
+"trainerType": "Item",
+"rarity": "Common",
+"reg": "J",
+"effect": "Play this card as if it were a 60-HP Basic {C} Pok\u00e9mon. This card can't be affected by any Special Conditions and can't retreat.\n\nAt any time during your turn, you may discard this card from play."
+},
+"Core Memory": {
+"name": "Core Memory",
+"trainerType": "Tool",
+"rarity": "Uncommon",
+"reg": "J",
+"effect": "The Mega Zygarde ex this card is attached to can use the attack on this card. (You still need the necessary Energy to use this attack.)"
+},
+"Crushing Hammer": {
+"name": "Crushing Hammer",
+"trainerType": "Item",
+"rarity": "Common",
+"reg": "J",
+"effect": "Flip a coin. If heads, discard an Energy from 1 of your opponent's Pok\u00e9mon."
+},
+"Energy Search": {
+"name": "Energy Search",
+"trainerType": "Item",
+"rarity": "Common",
+"reg": "J",
+"effect": "Search your deck for a Basic Energy card, reveal it, and put it into your hand. Then, shuffle your deck."
+},
+"Energy Swatter": {
+"name": "Energy Swatter",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "J",
+"effect": "Your opponent reveals their hand, and you choose an Energy card you find there and put it on the bottom of their deck."
+},
+"Hole-Digging Shovel": {
+"name": "Hole-Digging Shovel",
+"trainerType": "Item",
+"rarity": "Common",
+"reg": "I",
+"effect": "Discard the top 2 cards of your deck."
+},
+"Jacinthe": {
+"name": "Jacinthe",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "J",
+"effect": "Heal 150 damage from 1 of your {P} Pok\u00e9mon."
+},
+"Judge": {
+"name": "Judge",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "J",
+"effect": "Each player shuffles their hand into their deck and draws 4 cards."
+},
+"Lumiose City": {
+"name": "Lumiose City",
+"trainerType": "Stadium",
+"rarity": "Uncommon",
+"reg": "J",
+"effect": "Once during each player's turn, that player may search their deck for a Basic Pok\u00e9mon and put it onto their Bench. Then, that player shuffles their deck. If a player searches their deck in this way, their turn ends."
+},
+"Lumiose Galette": {
+"name": "Lumiose Galette",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "J",
+"effect": "Heal 20 damage and remove a Special Condition from your Active Pok\u00e9mon."
+},
+"Naveen": {
+"name": "Naveen",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "J",
+"effect": "Draw cards until you have 5 cards in your hand. Before drawing cards, you may discard any number of cards from your hand. (If you can't draw any cards in this way, you can't use this card.)"
+},
+"Pok\u00e9 Ball": {
+"name": "Pok\u00e9 Ball",
+"trainerType": "Item",
+"rarity": "Common",
+"reg": "J",
+"effect": "Flip a coin. If heads, search your deck for a Pok\u00e9mon, reveal it, and put it into your hand. Then, shuffle your deck."
+},
+"Pok\u00e9 Pad": {
+"name": "Pok\u00e9 Pad",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "J",
+"effect": "Search your deck for a Pok\u00e9mon that doesn't have a Rule Box, reveal it, and put it into your hand. Then, shuffle your deck. (Pok\u00e9mon ex, Pok\u00e9mon V, etc. have Rule Boxes.)"
+},
+"Pok\u00e9mon Catcher": {
+"name": "Pok\u00e9mon Catcher",
+"trainerType": "Item",
+"rarity": "Common",
+"reg": "J",
+"effect": "Flip a coin. If heads, switch in 1 of your opponent's Benched Pok\u00e9mon to the Active Spot."
+},
+"Potion": {
+"name": "Potion",
+"trainerType": "Item",
+"rarity": "Common",
+"reg": "J",
+"effect": "Heal 30 damage from 1 of your Pok\u00e9mon."
+},
+"Rosa's Encouragement": {
+"name": "Rosa's Encouragement",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "J",
+"effect": "You can use this card only if you have more Prize cards remaining than your opponent.\n\nAttach up to 2 Basic Energy cards from your discard pile to 1 of your Stage 2 Pok\u00e9mon."
+},
+"Tarragon": {
+"name": "Tarragon",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "J",
+"effect": "Put up to 4 in any combination of {F} Pok\u00e9mon and Basic {F} Energy cards from your discard pile into your hand."
+},
+"Energy Recycler": {
+"name": "Energy Recycler",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Shuffle up to 5 Basic Energy cards from your discard pile into your deck."
+},
+"Forest of Vitality": {
+"name": "Forest of Vitality",
+"trainerType": "Stadium",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Each player's {G} Pok\u00e9mon can evolve into {G} Pok\u00e9mon during the turn they play those Pok\u00e9mon, except during their first turn."
+},
+"Sacred Ash": {
+"name": "Sacred Ash",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Shuffle up to 5 Pok\u00e9mon from your discard pile into your deck."
+},
+"Wondrous Patch": {
+"name": "Wondrous Patch",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Attach a Basic {P} Energy card from your discard pile to 1 of your Benched {P} Pok\u00e9mon."
+},
+"Accompanying Flute": {
+"name": "Accompanying Flute",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Reveal the top 5 cards of your opponent's deck. You may choose any number of Basic Pok\u00e9mon you find there and put those Pok\u00e9mon onto their Bench. Your opponent shuffles the other cards back into their deck."
+},
+"Bug Catching Set": {
+"name": "Bug Catching Set",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Look at the top 7 cards of your deck. You may reveal up to 2 in any combination of {G} Pok\u00e9mon and Basic {G} Energy cards you find there and put them into your hand. Shuffle the other cards back into your deck."
+},
+"Caretaker": {
+"name": "Caretaker",
+"trainerType": "Supporter",
+"rarity": "Common",
+"reg": "H",
+"effect": "Draw 2 cards. If you drew any cards in this way and if Community Center is in play, shuffle this Caretaker into your deck instead of discarding it."
+},
+"Carmine": {
+"name": "Carmine",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "If you go first, you may use this card during your first turn.\n\nDiscard your hand and draw 5 cards."
+},
+"Community Center": {
+"name": "Community Center",
+"trainerType": "Stadium",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Once during each player's turn, if they played a Supporter card from their hand this turn, they may heal 10 damage from each of their Pok\u00e9mon."
+},
+"Cook": {
+"name": "Cook",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Heal 70 damage from your Active Pok\u00e9mon."
+},
+"Enhanced Hammer": {
+"name": "Enhanced Hammer",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Discard a Special Energy from 1 of your opponent's Pok\u00e9mon."
+},
+"Festival Grounds": {
+"name": "Festival Grounds",
+"trainerType": "Stadium",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Each Pok\u00e9mon that has any Energy attached (both yours and your opponent's) recovers from all Special Conditions and can't be affected by any Special Conditions."
+},
+"Handheld Fan": {
+"name": "Handheld Fan",
+"trainerType": "Tool",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "If the Pok\u00e9mon this card is attached to is in the Active Spot and is damaged by an attack from your opponent's Pok\u00e9mon (even if this Pok\u00e9mon is Knocked Out), move an Energy from the Attacking Pok\u00e9mon to 1 of your opponent's Benched Pok\u00e9mon."
+},
+"Hassel": {
+"name": "Hassel",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "You can use this card only if any of your Pok\u00e9mon were Knocked Out during your opponent's last turn.\n\nLook at the top 8 cards of your deck and put up to 3 of them into your hand. Shuffle the other cards back into your deck."
+},
+"Jamming Tower": {
+"name": "Jamming Tower",
+"trainerType": "Stadium",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Pok\u00e9mon Tools attached to each Pok\u00e9mon (both yours and your opponent's) have no effect."
+},
+"Kieran": {
+"name": "Kieran",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Choose 1:\n\n\u2022 Switch your Active Pok\u00e9mon with 1 of your Benched Pok\u00e9mon.\n\n\u2022 During this turn, attacks used by your Pok\u00e9mon do 30 more damage to your opponent's Active Pok\u00e9mon ex and Active Pok\u00e9mon V (before applying Weakness and Resistance)."
+},
+"Lana's Aid": {
+"name": "Lana's Aid",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Put up to 3 in any combination of Pok\u00e9mon that don't have a Rule Box and Basic Energy cards from your discard pile into your hand. (Pok\u00e9mon ex, Pok\u00e9mon V, etc. have Rule Boxes.)"
+},
+"Love Ball": {
+"name": "Love Ball",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Search your deck for a Pok\u00e9mon with the same name as 1 of your opponent's Pok\u00e9mon in play, reveal it, and put it into your hand. Then, shuffle your deck."
+},
+"Lucian": {
+"name": "Lucian",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Each player shuffles their hand and puts it on the bottom of their deck. If either player put any cards on the bottom of their deck in this way, each player flips a coin. If heads, that player draws 6 cards. If tails, they draw 3 cards."
+},
+"Lucky Helmet": {
+"name": "Lucky Helmet",
+"trainerType": "Tool",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "If the Pok\u00e9mon this card is attached to is in the Active Spot and is damaged by an attack from your opponent's Pok\u00e9mon (even if this Pok\u00e9mon is Knocked Out), draw 2 cards."
+},
+"Ogre's Mask": {
+"name": "Ogre's Mask",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Choose a Pok\u00e9mon ex in your discard pile that has \"Ogerpon\" in its name, and switch it with 1 of your Pok\u00e9mon ex in play that has \"Ogerpon\" in its name. Any attached cards, damage counters, Special Conditions, turns in play, and any other effects remain on the new Pok\u00e9mon."
+},
+"Perrin": {
+"name": "Perrin",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Reveal up to 2 Pok\u00e9mon in your hand and put them into your deck. If you do, search your deck for up to that many Pok\u00e9mon, reveal them, and put them into your hand. Then, shuffle your deck."
+},
+"Raifort": {
+"name": "Raifort",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "G",
+"effect": "Look at the top 5 cards of your deck and discard any number of them. Put the other cards back in any order."
+},
+"Buddy-Buddy Poffin": {
+"name": "Buddy-Buddy Poffin",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Search your deck for up to 2 Basic Pok\u00e9mon with 70 HP or less and put them onto your Bench. Then, shuffle your deck."
+},
+"Rescue Board": {
+"name": "Rescue Board",
+"trainerType": "Tool",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "The Retreat Cost of the Pok\u00e9mon this card is attached to is {C} less. If that Pok\u00e9mon's remaining HP is 30 or less, it has no Retreat Cost."
+},
+"Arven's Sandwich": {
+"name": "Arven's Sandwich",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Heal 30 damage from your Active Pok\u00e9mon. If that Pok\u00e9mon is an Arven's Pok\u00e9mon, heal 100 damage from it instead."
+},
+"Cynthia's Power Weight": {
+"name": "Cynthia's Power Weight",
+"trainerType": "Tool",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "The Cynthia's Pok\u00e9mon this card is attached to gets +70 HP."
+},
+"Emcee's Hype": {
+"name": "Emcee's Hype",
+"trainerType": "Supporter",
+"rarity": "Common",
+"reg": "I",
+"effect": "Draw 2 cards. If your opponent has 3 or fewer Prize cards remaining, draw 2 more cards."
+},
+"Ethan's Adventure": {
+"name": "Ethan's Adventure",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Search your deck for up to 3 in any combination of Ethan's Pok\u00e9mon and Basic {R} Energy cards, reveal them, and put them into your hand. Then, shuffle your deck."
+},
+"Granite Cave": {
+"name": "Granite Cave",
+"trainerType": "Stadium",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Steven's Pok\u00e9mon (both yours and your opponent's) take 30 less damage from attacks from the opponent's Pok\u00e9mon (after applying Weakness and Resistance)."
+},
+"Spikemuth Gym": {
+"name": "Spikemuth Gym",
+"trainerType": "Stadium",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Once during each player's turn, that player may search their deck for a Marnie's Pok\u00e9mon, reveal it, and put it into their hand. Then, that player shuffles their deck."
+},
+"Team Rocket's Archer": {
+"name": "Team Rocket's Archer",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "You can use this card only if any of your Team Rocket's Pok\u00e9mon were Knocked Out during your opponent's last turn.\n\nEach player shuffles their hand into their deck. Then, you draw 5 cards, and your opponent draws 3 cards."
+},
+"Team Rocket's Ariana": {
+"name": "Team Rocket's Ariana",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Draw cards until you have 5 cards in your hand. If all of your Pok\u00e9mon in play are Team Rocket's Pok\u00e9mon, draw cards until you have 8 cards in your hand instead."
+},
+"Team Rocket's Bother-Bot": {
+"name": "Team Rocket's Bother-Bot",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Turn 1 of your opponent's face-down Prize cards face up and choose a random card from your opponent's hand. Your opponent reveals that card. You may have your opponent switch those cards. (That Prize card remains face up for the rest of the game.)"
+},
+"Team Rocket's Factory": {
+"name": "Team Rocket's Factory",
+"trainerType": "Stadium",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Once during each player's turn, if they played a Supporter card that has \"Team Rocket\" in its name from their hand this turn, they may draw 2 cards."
+},
+"Team Rocket's Giovanni": {
+"name": "Team Rocket's Giovanni",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Switch your Active Team Rocket's Pok\u00e9mon with 1 of your Benched Team Rocket's Pok\u00e9mon. If you do, switch in 1 of your opponent's Benched Pok\u00e9mon to the Active Spot."
+},
+"Team Rocket's Great Ball": {
+"name": "Team Rocket's Great Ball",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Flip a coin. If heads, search your deck for an Evolution Team Rocket's Pok\u00e9mon, reveal it, and put it into your hand. If tails, search your deck for a Basic Team Rocket's Pok\u00e9mon, reveal it, and put it into your hand. Then, shuffle your deck."
+},
+"Team Rocket's Petrel": {
+"name": "Team Rocket's Petrel",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Search your deck for a Trainer card, reveal it, and put it into your hand. Then, shuffle your deck."
+},
+"Team Rocket's Proton": {
+"name": "Team Rocket's Proton",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "If you go first, you may use this card during your first turn.\n\nSearch your deck for up to 3 Basic Team Rocket's Pok\u00e9mon, reveal them, and put them into your hand. Then, shuffle your deck."
+},
+"Team Rocket's Transceiver": {
+"name": "Team Rocket's Transceiver",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Search your deck for a Supporter card that has \"Team Rocket\" in its name, reveal it, and put it into your hand. Then, shuffle your deck."
+},
+"Team Rocket's Venture Bomb": {
+"name": "Team Rocket's Venture Bomb",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Flip a coin. If heads, put 2 damage counters on 1 of your opponent's Pok\u00e9mon. If tails, put 2 damage counters on your Active Pok\u00e9mon."
+},
+"Team Rocket's Watchtower": {
+"name": "Team Rocket's Watchtower",
+"trainerType": "Stadium",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "{C} Pok\u00e9mon in play (both yours and your opponent's) have no Abilities."
+},
+"TM Machine": {
+"name": "TM Machine",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Search your deck for up to 3 Pok\u00e9mon Tool cards that have \"Technical Machine\" in their name, reveal them, and put them into your hand. Then, shuffle your deck."
+},
+"Levincia": {
+"name": "Levincia",
+"trainerType": "Stadium",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Once during each player's turn, that player may put up to 2 Basic {L} Energy cards from their discard pile into their hand."
+},
+"Antique Cover Fossil": {
+"name": "Antique Cover Fossil",
+"trainerType": "Item",
+"rarity": "Common",
+"reg": "H",
+"effect": "Play this card as if it were a 60-HP Basic {C} Pok\u00e9mon. This card can't be affected by any Special Conditions and can't retreat.\n\nAt any time during your turn, you may discard this card from play."
+},
+"Antique Root Fossil": {
+"name": "Antique Root Fossil",
+"trainerType": "Item",
+"rarity": "Common",
+"reg": "H",
+"effect": "Play this card as if it were a 60-HP Basic {C} Pok\u00e9mon. This card can't be affected by any Special Conditions and can't retreat.\n\nAt any time during your turn, you may discard this card from play."
+},
+"Area Zero Underdepths": {
+"name": "Area Zero Underdepths",
+"trainerType": "Stadium",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Each player who has any Tera Pok\u00e9mon in play can have up to 8 Pok\u00e9mon on their Bench.\n\nIf a player no longer has any Tera Pok\u00e9mon in play, that player discards Pok\u00e9mon from their Bench until they have 5. When this card leaves play, both players discard Pok\u00e9mon from their Bench until they have 5, and the player who played this card discards first."
+},
+"Briar": {
+"name": "Briar",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "You can use this card only if your opponent has exactly 2 Prize cards remaining.\n\nDuring this turn, if your opponent's Active Pok\u00e9mon is Knocked Out by damage from an attack used by your Tera Pok\u00e9mon, take 1 more Prize card."
+},
+"Crispin": {
+"name": "Crispin",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Search your deck for up to 2 Basic Energy cards of different types, reveal them, and put 1 of them into your hand. Attach the other to 1 of your Pok\u00e9mon. Then, shuffle your deck."
+},
+"Glass Trumpet": {
+"name": "Glass Trumpet",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "You can use this card only if you have any Tera Pok\u00e9mon in play.\n\nChoose up to 2 of your Benched {C} Pok\u00e9mon and attach a Basic Energy card from your discard pile to each of them."
+},
+"Gravity Gemstone": {
+"name": "Gravity Gemstone",
+"trainerType": "Tool",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "As long as the Pok\u00e9mon this card is attached to is in the Active Spot, the Retreat Cost of both Active Pok\u00e9mon is {C} more."
+},
+"Kofu": {
+"name": "Kofu",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Put 2 cards from your hand on the bottom of your deck in any order. If you put 2 cards on the bottom of your deck in this way, draw 4 cards. (If you can't put 2 cards from your hand on the bottom of your deck, you can't use this card.)"
+},
+"Lacey": {
+"name": "Lacey",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Shuffle your hand into your deck. Then, draw 4 cards. If your opponent has 3 or fewer Prize cards remaining, draw 8 cards instead."
+},
+"Occa Berry": {
+"name": "Occa Berry",
+"trainerType": "Tool",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "If the Pok\u00e9mon this card is attached to is damaged by an attack from your opponent's {R} Pok\u00e9mon, it takes 60 less damage (after applying Weakness and Resistance), and discard this card."
+},
+"Payapa Berry": {
+"name": "Payapa Berry",
+"trainerType": "Tool",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "If the Pok\u00e9mon this card is attached to is damaged by an attack from your opponent's {P} Pok\u00e9mon, it takes 60 less damage (after applying Weakness and Resistance), and discard this card."
+},
+"Battle Cage": {
+"name": "Battle Cage",
+"trainerType": "Stadium",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Prevent all damage counters from being placed on Benched Pok\u00e9mon (both yours and your opponent's) by effects of attacks and Abilities from the opponent's Pok\u00e9mon. (Damage from attacks is still taken.)"
+},
+"Blowtorch": {
+"name": "Blowtorch",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "You can use this card only if you discard a Basic {R} Energy card from your hand.\n\nDiscard a Pok\u00e9mon Tool or Special Energy card from 1 of your opponent's Pok\u00e9mon, or discard a Stadium in play."
+},
+"Dawn": {
+"name": "Dawn",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Search your deck for a Basic Pok\u00e9mon, a Stage 1 Pok\u00e9mon, and a Stage 2 Pok\u00e9mon, reveal them, and put them into your hand. Then, shuffle your deck."
+},
+"Dizzying Valley": {
+"name": "Dizzying Valley",
+"trainerType": "Stadium",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Confused Pok\u00e9mon (both yours and your opponent's) don't recover from that Special Condition when they evolve or devolve."
+},
+"Firebreather": {
+"name": "Firebreather",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Search your deck for up to 7 Basic {R} Energy cards, reveal them, and put them into your hand. Then, shuffle your deck."
+},
+"Grimsley's Move": {
+"name": "Grimsley's Move",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Look at the top 7 cards of your deck and put a {D} Pok\u00e9mon you find there onto your Bench. Shuffle the other cards and put them on the bottom of your deck. You can't use this card during your first turn."
+},
+"Punk Helmet": {
+"name": "Punk Helmet",
+"trainerType": "Tool",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "If the {D} Pok\u00e9mon this card is attached to is in the Active Spot and is damaged by an attack from your opponent's Pok\u00e9mon (even if this Pok\u00e9mon is Knocked Out), place 4 damage counters on the Attacking Pok\u00e9mon."
+},
+"Sacred Charm": {
+"name": "Sacred Charm",
+"trainerType": "Tool",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "The Pok\u00e9mon this card is attached to takes 30 less damage from attacks from your opponent's Pok\u00e9mon that have an Ability (after applying Weakness and Resistance)."
+},
+"Switch": {
+"name": "Switch",
+"trainerType": "Item",
+"rarity": "Common",
+"reg": "I",
+"effect": "Switch your Active Pok\u00e9mon with 1 of your Benched Pok\u00e9mon."
+},
+"Acerola's Mischief": {
+"name": "Acerola's Mischief",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "You can use this card only if your opponent has 2 or fewer Prize cards remaining.\n\nChoose 1 of your Pok\u00e9mon in play. During your opponent's next turn, prevent all damage from and effects of attacks done to that Pok\u00e9mon by your opponent's Pok\u00e9mon ex."
+},
+"Boss's Orders": {
+"name": "Boss's Orders",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Switch in 1 of your opponent's Benched Pok\u00e9mon to the Active Spot."
+},
+"Energy Switch": {
+"name": "Energy Switch",
+"trainerType": "Item",
+"rarity": "Common",
+"reg": "I",
+"effect": "Move a Basic Energy from 1 of your Pok\u00e9mon to another of your Pok\u00e9mon."
+},
+"Fighting Gong": {
+"name": "Fighting Gong",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Search your deck for a Basic {F} Energy card or a Basic {F} Pok\u00e9mon, reveal it, and put it into your hand. Then, shuffle your deck."
+},
+"Iron Defender": {
+"name": "Iron Defender",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "During your opponent's next turn, all of your {M} Pok\u00e9mon take 30 less damage from attacks from your opponent's Pok\u00e9mon (after applying Weakness and Resistance). (This includes new Pok\u00e9mon that come into play.)"
+},
+"Lillie's Determination": {
+"name": "Lillie's Determination",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Shuffle your hand into your deck. Then, draw 6 cards. If you have exactly 6 Prize cards remaining, draw 8 cards instead."
+},
+"Lt. Surge's Bargain": {
+"name": "Lt. Surge's Bargain",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Ask your opponent if each player may take a Prize card. If yes, each player takes a Prize card. If no, you draw 4 cards."
+},
+"Mega Signal": {
+"name": "Mega Signal",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Search your deck for a Mega Evolution Pok\u00e9mon ex, reveal it, and put it into your hand. Then, shuffle your deck."
+},
+"Mystery Garden": {
+"name": "Mystery Garden",
+"trainerType": "Stadium",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Once during each player's turn, that player may discard an Energy card from their hand in order to draw cards until they have as many cards in their hand as they have {P} Pok\u00e9mon in play."
+},
+"Pok\u00e9mon Center Lady": {
+"name": "Pok\u00e9mon Center Lady",
+"trainerType": "Supporter",
+"rarity": "Common",
+"reg": "I",
+"effect": "Heal 60 damage from 1 of your Pok\u00e9mon, and it recovers from all Special Conditions."
+},
+"Premium Power Pro": {
+"name": "Premium Power Pro",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "During this turn, attacks used by your {F} Pok\u00e9mon do 30 more damage to your opponent's Active Pok\u00e9mon (before applying Weakness and Resistance)."
+},
+"Rare Candy": {
+"name": "Rare Candy",
+"trainerType": "Item",
+"rarity": "Common",
+"reg": "I",
+"effect": "Choose 1 of your Basic Pok\u00e9mon in play. If you have a Stage 2 card in your hand that evolves from that Pok\u00e9mon, put that card onto the Basic Pok\u00e9mon to evolve it, skipping the Stage 1. You can't use this card during your first turn or on a Basic Pok\u00e9mon that was put into play this turn."
+},
+"Repel": {
+"name": "Repel",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Switch out your opponent's Active Pok\u00e9mon to the Bench. (Your opponent chooses the new Active Pok\u00e9mon.)"
+},
+"Risky Ruins": {
+"name": "Risky Ruins",
+"trainerType": "Stadium",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Whenever any player puts a Basic non-{D} Pok\u00e9mon onto their Bench during their turn, place 2 damage counters on that Pok\u00e9mon."
+},
+"Strange Timepiece": {
+"name": "Strange Timepiece",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Devolve 1 of your evolved {P} Pok\u00e9mon by putting any number of Evolution cards on it into your hand. (That Pok\u00e9mon can't evolve this turn.)"
+},
+"Ultra Ball": {
+"name": "Ultra Ball",
+"trainerType": "Item",
+"rarity": "Common",
+"reg": "I",
+"effect": "You can use this card only if you discard 2 other cards from your hand.\n\nSearch your deck for a Pok\u00e9mon, reveal it, and put it into your hand. Then, shuffle your deck."
+},
+"Wally's Compassion": {
+"name": "Wally's Compassion",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Heal all damage from 1 of your Mega Evolution Pok\u00e9mon ex. If you healed any damage in this way, put all Energy attached to that Pok\u00e9mon into your hand."
+},
+"Air Balloon": {
+"name": "Air Balloon",
+"trainerType": "Tool",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "The Retreat Cost of the Pok\u00e9mon this card is attached to is {C}{C} less."
+},
+"Night Stretcher": {
+"name": "Night Stretcher",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Put a Pok\u00e9mon or a Basic Energy card from your discard pile into your hand."
+},
+"Babiri Berry": {
+"name": "Babiri Berry",
+"trainerType": "Tool",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "If the Pok\u00e9mon this card is attached to is damaged by an attack from your opponent's {M} Pok\u00e9mon, it takes 60 less damage (after applying Weakness and Resistance), and discard this card."
+},
+"Call Bell": {
+"name": "Call Bell",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "You can use this card only if you go second, and only during your first turn.\n\nSearch your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck."
+},
+"Chill Teaser Toy": {
+"name": "Chill Teaser Toy",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "You can use this card only if you go second, and only during your first turn.\n\nPut an Energy attached to 1 of your opponent's Pok\u00e9mon into their hand."
+},
+"Clemont's Quick Wit": {
+"name": "Clemont's Quick Wit",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Heal 60 damage from each of your {L} Pok\u00e9mon."
+},
+"Colbur Berry": {
+"name": "Colbur Berry",
+"trainerType": "Tool",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "If the Pok\u00e9mon this card is attached to is damaged by an attack from your opponent's {D} Pok\u00e9mon, it takes 60 less damage (after applying Weakness and Resistance), and discard this card."
+},
+"Counter Gain": {
+"name": "Counter Gain",
+"trainerType": "Tool",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "If you have more Prize cards remaining than your opponent, attacks used by the Pok\u00e9mon this card is attached to cost {C} less."
+},
+"Cyrano": {
+"name": "Cyrano",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Search your deck for up to 3 Pok\u00e9mon ex, reveal them, and put them into your hand. Then, shuffle your deck."
+},
+"Deduction Kit": {
+"name": "Deduction Kit",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Look at the top 3 cards of your deck and put them back in any order, or shuffle them and put them on the bottom of your deck."
+},
+"Dragon Elixir": {
+"name": "Dragon Elixir",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Heal 60 damage from your Active {N} Pok\u00e9mon."
+},
+"Drasna": {
+"name": "Drasna",
+"trainerType": "Supporter",
+"rarity": "Common",
+"reg": "H",
+"effect": "Shuffle your hand into your deck. Then, flip a coin. If heads, draw 8 cards. If tails, draw 3 cards."
+},
+"Drayton": {
+"name": "Drayton",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Look at the top 7 cards of your deck. You may reveal a Pok\u00e9mon and a Trainer card you find there and put them into your hand. Shuffle the other cards back into your deck."
+},
+"Dusk Ball": {
+"name": "Dusk Ball",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Look at the bottom 7 cards of your deck. You may reveal a Pok\u00e9mon you find there and put it into your hand. Shuffle the other cards back into your deck."
+},
+"Gravity Mountain": {
+"name": "Gravity Mountain",
+"trainerType": "Stadium",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Each Stage 2 Pok\u00e9mon in play (both yours and your opponent's) gets -30 HP."
+},
+"Jasmine's Gaze": {
+"name": "Jasmine's Gaze",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "During your opponent's next turn, all of your Pok\u00e9mon take 30 less damage from attacks from your opponent's Pok\u00e9mon (after applying Weakness and Resistance). (This includes new Pok\u00e9mon that come into play.)"
+},
+"Lisia's Appeal": {
+"name": "Lisia's Appeal",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Switch in 1 of your opponent's Benched Basic Pok\u00e9mon to the Active Spot. If you do, the new Active Pok\u00e9mon is now Confused."
+},
+"Lively Stadium": {
+"name": "Lively Stadium",
+"trainerType": "Stadium",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Each Basic Pok\u00e9mon in play (both yours and your opponent's) gets +30 HP."
+},
+"Meddling Memo": {
+"name": "Meddling Memo",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Your opponent counts the cards in their hand, shuffles those cards, and puts them on the bottom of their deck. If they do, they draw that many cards."
+},
+"Passho Berry": {
+"name": "Passho Berry",
+"trainerType": "Tool",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "If the Pok\u00e9mon this card is attached to is damaged by an attack from your opponent's {W} Pok\u00e9mon, it takes 60 less damage (after applying Weakness and Resistance), and discard this card."
+},
+"Surfer": {
+"name": "Surfer",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Switch your Active Pok\u00e9mon with 1 of your Benched Pok\u00e9mon. If you do, draw cards until you have 5 cards in your hand."
+},
+"Technical Machine: Fluorite": {
+"name": "Technical Machine: Fluorite",
+"trainerType": "Tool",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "The Pok\u00e9mon this card is attached to can use the attack on this card. (You still need the necessary Energy to use this attack.) If this card is attached to 1 of your Pok\u00e9mon, discard it at the end of your turn."
+},
+"Tera Orb": {
+"name": "Tera Orb",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Search your deck for a Tera Pok\u00e9mon, reveal it, and put it into your hand. Then, shuffle your deck."
+},
+"Tyme": {
+"name": "Tyme",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Tell your opponent the name of a Pok\u00e9mon in your hand and put that Pok\u00e9mon face down in front of you. Your opponent guesses that Pok\u00e9mon's HP, and then you reveal it. If your opponent guessed right, they draw 4 cards. If they guessed wrong, you draw 4 cards. Then, return the Pok\u00e9mon to your hand."
+},
+"Amarys": {
+"name": "Amarys",
+"trainerType": "Supporter",
+"rarity": "Common",
+"reg": "H",
+"effect": "Draw 4 cards. At the end of this turn, if you have 5 or more cards in your hand, discard your hand."
+},
+"Binding Mochi": {
+"name": "Binding Mochi",
+"trainerType": "Tool",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Attacks used by the Poisoned Pok\u00e9mon this card is attached to do 40 more damage to your opponent's Active Pok\u00e9mon (before applying Weakness and Resistance)."
+},
+"Ciphermaniac's Codebreaking": {
+"name": "Ciphermaniac's Codebreaking",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Search your deck for 2 cards, shuffle your deck, then put those cards on top of it in any order."
+},
+"Earthen Vessel": {
+"name": "Earthen Vessel",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "G",
+"effect": "You can use this card only if you discard another card from your hand.\n\nSearch your deck for up to 2 Basic Energy cards, reveal them, and put them into your hand. Then, shuffle your deck."
+},
+"Explorer's Guidance": {
+"name": "Explorer's Guidance",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Look at the top 6 cards of your deck and put 2 of them into your hand. Discard the other cards."
+},
+"Friends in Paldea": {
+"name": "Friends in Paldea",
+"trainerType": "Supporter",
+"rarity": "Common",
+"reg": "H",
+"effect": "Draw 3 cards."
+},
+"Haban Berry": {
+"name": "Haban Berry",
+"trainerType": "Tool",
+"rarity": "Common",
+"reg": "H",
+"effect": "If the Pok\u00e9mon this card is attached to is damaged by an attack from your opponent's {N} Pok\u00e9mon, it takes 60 less damage (after applying Weakness and Resistance), and discard this card."
+},
+"Janine's Secret Art": {
+"name": "Janine's Secret Art",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Choose up to 2 of your {D} Pok\u00e9mon. For each of those Pok\u00e9mon, search your deck for a Basic {D} Energy card and attach it to that Pok\u00e9mon. Then, shuffle your deck. If you attached Energy to your Active Pok\u00e9mon in this way, it is now Poisoned."
+},
+"Larry's Skill": {
+"name": "Larry's Skill",
+"trainerType": "Supporter",
+"rarity": "Common",
+"reg": "H",
+"effect": "Discard your hand and search your deck for a Pok\u00e9mon, a Supporter card, and a Basic Energy card, reveal them, and put them into your hand. Then, shuffle your deck."
+},
+"Professor Sada's Vitality": {
+"name": "Professor Sada's Vitality",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "G",
+"effect": "Choose up to 2 of your Ancient Pok\u00e9mon and attach a Basic Energy card from your discard pile to each of them. If you attached any Energy in this way, draw 3 cards."
+},
+"Professor Turo's Scenario": {
+"name": "Professor Turo's Scenario",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "G",
+"effect": "Put 1 of your Pok\u00e9mon in play into your hand. (Discard all cards attached to that Pok\u00e9mon.)"
+},
+"Roto-Stick": {
+"name": "Roto-Stick",
+"trainerType": "Item",
+"rarity": "Common",
+"reg": "H",
+"effect": "Look at the top 4 cards of your deck. You may reveal any number of Supporter cards you find there and put them into your hand. Shuffle the other cards back into your deck."
+},
+"Techno Radar": {
+"name": "Techno Radar",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "G",
+"effect": "You can use this card only if you discard another card from your hand.\n\nSearch your deck for up to 2 Future Pok\u00e9mon, reveal them, and put them into your hand. Then, shuffle your deck."
+},
+"Eri": {
+"name": "Eri",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Your opponent reveals their hand, and you discard up to 2 Item cards you find there."
+},
+"Ancient Booster Energy Capsule": {
+"name": "Ancient Booster Energy Capsule",
+"trainerType": "Tool",
+"rarity": "Uncommon",
+"reg": "G",
+"effect": "The Ancient Pok\u00e9mon this card is attached to gets +60 HP, recovers from all Special Conditions, and can't be affected by any Special Conditions."
+},
+"Bianca's Devotion": {
+"name": "Bianca's Devotion",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Heal all damage from 1 of your Pok\u00e9mon that has 30 HP or less remaining."
+},
+"Boxed Order": {
+"name": "Boxed Order",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Search your deck for up to 2 Item cards, reveal them, and put them into your hand. Then, shuffle your deck. Your turn ends."
+},
+"Full Metal Lab": {
+"name": "Full Metal Lab",
+"trainerType": "Stadium",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "{M} Pok\u00e9mon (both yours and your opponent's) take 30 less damage from attacks from the opponent's Pok\u00e9mon (after applying Weakness and Resistance)."
+},
+"Future Booster Energy Capsule": {
+"name": "Future Booster Energy Capsule",
+"trainerType": "Tool",
+"rarity": "Uncommon",
+"reg": "G",
+"effect": "The Future Pok\u00e9mon this card is attached to has no Retreat Cost, and the attacks it uses do 20 more damage to your opponent's Active Pok\u00e9mon (before applying Weakness and Resistance)."
+},
+"Hand Trimmer": {
+"name": "Hand Trimmer",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Each player discards cards from their hand until they have 5 cards in their hand. Your opponent discards first. (If a player has 5 or fewer cards in their hand, they do not discard.)"
+},
+"Heavy Baton": {
+"name": "Heavy Baton",
+"trainerType": "Tool",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "If the Pok\u00e9mon this card is attached to has a Retreat Cost of exactly 4, is in the Active Spot, and is Knocked Out by damage from an attack from your opponent's Pok\u00e9mon, move up to 3 Basic Energy cards from that Pok\u00e9mon to your Benched Pok\u00e9mon in any way you like."
+},
+"Morty's Conviction": {
+"name": "Morty's Conviction",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "You can use this card only if you discard another card from your hand.\n\nDraw a card for each of your opponent's Benched Pok\u00e9mon."
+},
+"Perilous Jungle": {
+"name": "Perilous Jungle",
+"trainerType": "Stadium",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "During Pok\u00e9mon Checkup, put 2 more damage counters on each Poisoned non-{D} Pok\u00e9mon (both yours and your opponent's)."
+},
+"Salvatore": {
+"name": "Salvatore",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Search your deck for a card that has no Abilities and evolves from 1 of your Pok\u00e9mon, and put it onto that Pok\u00e9mon to evolve it. Then, shuffle your deck. You can use this card on a Pok\u00e9mon you put down when you were setting up to play or on a Pok\u00e9mon that was put into play this turn."
+},
+"Academy at Night": {
+"name": "Academy at Night",
+"trainerType": "Stadium",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Once during each player's turn, that player may put a card from their hand on top of their deck."
+},
+"Cassiopeia": {
+"name": "Cassiopeia",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "You can use this card only when it is the last card in your hand.\n\nSearch your deck for up to 2 cards and put them into your hand. Then, shuffle your deck."
+},
+"Colress's Tenacity": {
+"name": "Colress's Tenacity",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Search your deck for a Stadium card and an Energy card, reveal them, and put them into your hand. Then, shuffle your deck."
+},
+"Powerglass": {
+"name": "Powerglass",
+"trainerType": "Tool",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "At the end of your turn (after your attack), if the Pok\u00e9mon this card is attached to is in the Active Spot, you may attach a Basic Energy card from your discard pile to it."
+},
+"Xerosic's Machinations": {
+"name": "Xerosic's Machinations",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "H",
+"effect": "Your opponent discards cards from their hand until they have 3 cards in their hand."
+},
+"Billy & O'Nare": {
+"name": "Billy & O'Nare",
+"trainerType": "Supporter",
+"rarity": "Common",
+"reg": "H",
+"effect": "Draw 2 cards. Then, if you have 10 or more cards in your hand, draw 2 more cards."
+},
+"Brock's Scouting": {
+"name": "Brock's Scouting",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Search your deck for up to 2 Basic Pok\u00e9mon or 1 Evolution Pok\u00e9mon, reveal them, and put them into your hand. Then, shuffle your deck."
+},
+"Hop's Bag": {
+"name": "Hop's Bag",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Search your deck for up to 2 Basic Hop's Pok\u00e9mon and put them onto your Bench. Then, shuffle your deck."
+},
+"Hop's Choice Band": {
+"name": "Hop's Choice Band",
+"trainerType": "Tool",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Attacks used by the Hop's Pok\u00e9mon this card is attached to cost {C} less and do 30 more damage to your opponent's Active Pok\u00e9mon (before applying Weakness and Resistance)."
+},
+"Iris's Fighting Spirit": {
+"name": "Iris's Fighting Spirit",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "You can use this card only if you discard another card from your hand.\n\nDraw cards until you have 6 cards in your hand."
+},
+"Lillie's Pearl": {
+"name": "Lillie's Pearl",
+"trainerType": "Tool",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "If the Lillie's Pok\u00e9mon this card is attached to is Knocked Out by damage from an attack from your opponent's Pok\u00e9mon, that player takes 1 fewer Prize card."
+},
+"N's Castle": {
+"name": "N's Castle",
+"trainerType": "Stadium",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "N's Pok\u00e9mon in play (both yours and your opponent's) have no Retreat Cost."
+},
+"N's PP Up": {
+"name": "N's PP Up",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Attach a Basic Energy card from your discard pile to 1 of your Benched N's Pok\u00e9mon."
+},
+"Postwick": {
+"name": "Postwick",
+"trainerType": "Stadium",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Attacks used by Hop's Pok\u00e9mon (both yours and your opponent's) do 30 more damage to the opponent's Active Pok\u00e9mon (before applying Weakness and Resistance)."
+},
+"Redeemable Ticket": {
+"name": "Redeemable Ticket",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Count your Prize cards, shuffle them, and put them on the bottom of your deck. Then, take that many cards from the top of your deck and put them face down as your Prize cards."
+},
+"Ruffian": {
+"name": "Ruffian",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Discard a Pok\u00e9mon Tool and a Special Energy from 1 of your opponent's Pok\u00e9mon."
+},
+"Super Potion": {
+"name": "Super Potion",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Heal 60 damage from 1 of your Pok\u00e9mon. If you healed any damage in this way, discard an Energy from that Pok\u00e9mon."
+},
+"Anthea & Concordia": {
+"name": "Anthea & Concordia",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "You can use this card only if you have N's Darmanitan, N's Zoroark ex, N's Vanilluxe, N's Klinklang, N's Reshiram, and N's Zekrom in play.\n\nDuring this turn, if your opponent's Active Pok\u00e9mon is Knocked Out by damage from an attack used by your N's Pok\u00e9mon, take 3 more Prize cards."
+},
+"Canari": {
+"name": "Canari",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "You can use this card only if you discard another card from your hand.\n\nSearch your deck for up to 4 {L} Pok\u00e9mon, reveal them, and put them into your hand. Then, shuffle your deck."
+},
+"Light Ball": {
+"name": "Light Ball",
+"trainerType": "Tool",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Attacks used by the Pikachu ex this card is attached to do 50 more damage to your opponent's Active Pok\u00e9mon ex (before applying Weakness and Resistance)."
+},
+"Nighttime Mine": {
+"name": "Nighttime Mine",
+"trainerType": "Stadium",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Attacks used by each Tera Pok\u00e9mon in play (both yours and your opponent's) cost {C} more."
+},
+"Team Rocket's Hypnotizer": {
+"name": "Team Rocket's Hypnotizer",
+"trainerType": "Tool",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "If the Team Rocket's Pok\u00e9mon this card is attached to is in the Active Spot and is damaged by an attack from your opponent's Pok\u00e9mon (even if this Team Rocket's Pok\u00e9mon is Knocked Out), the Attacking Pok\u00e9mon is now Asleep."
+},
+"Thick Scale": {
+"name": "Thick Scale",
+"trainerType": "Tool",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "The {N} Pok\u00e9mon this card is attached to takes 50 less damage from attacks from your opponent's {G}, {R}, {W}, or {L} Pok\u00e9mon (after applying Weakness and Resistance)."
+},
+"Urbain": {
+"name": "Urbain",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "J",
+"effect": "Draw 3 cards."
+},
+"Waitress": {
+"name": "Waitress",
+"trainerType": "Supporter",
+"rarity": "Common",
+"reg": "J",
+"effect": "Look at the top 6 cards of your deck and attach a Basic Energy card you find there to 1 of your Pok\u00e9mon. Shuffle the other cards back into your deck."
+},
+"Cheren": {
+"name": "Cheren",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Draw 3 cards."
+},
+"Energy Coin": {
+"name": "Energy Coin",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Flip 2 coins. If both of them are heads, search your deck for a Basic Energy card and attach it to 1 of your Pok\u00e9mon. Then, shuffle your deck."
+},
+"Fennel": {
+"name": "Fennel",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Heal 40 damage from each of your Pok\u00e9mon."
+},
+"N's Plan": {
+"name": "N's Plan",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Move up to 2 Energy from your Benched Pok\u00e9mon to your Active Pok\u00e9mon."
+},
+"Pok\u00e9gear 3.0": {
+"name": "Pok\u00e9gear 3.0",
+"trainerType": "Item",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Look at the top 7 cards of your deck. You may reveal a Supporter card you find there and put it into your hand. Shuffle the other cards back into your deck."
+},
+"Antique Plume Fossil": {
+"name": "Antique Plume Fossil",
+"trainerType": "Item",
+"rarity": "Common",
+"reg": "I",
+"effect": "Play this card as if it were a 60-HP Basic {C} Pok\u00e9mon. This card can't be affected by any Special Conditions and can't retreat.\n\nAt any time during your turn, you may discard this card from play."
+},
+"Brave Bangle": {
+"name": "Brave Bangle",
+"trainerType": "Tool",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "If the Pok\u00e9mon this card is attached to doesn't have a Rule Box, the attacks it uses do 30 more damage to your opponent's Active Pok\u00e9mon ex (before applying Weakness and Resistance). (Pok\u00e9mon ex, Pok\u00e9mon V, etc. have Rule Boxes.)"
+},
+"Harlequin": {
+"name": "Harlequin",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Each player shuffles their hand into their deck. Then, flip a coin. If heads, you draw 5 cards, and your opponent draws 3 cards. If tails, you draw 3 cards, and your opponent draws 5 cards."
+},
+"Hilda": {
+"name": "Hilda",
+"trainerType": "Supporter",
+"rarity": "Uncommon",
+"reg": "I",
+"effect": "Search your deck for an Evolution Pok\u00e9mon and an Energy card, reveal them, and put them into your hand. Then, shuffle your deck."
+}
+}

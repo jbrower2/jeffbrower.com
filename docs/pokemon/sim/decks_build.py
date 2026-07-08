@@ -4,18 +4,42 @@
 Parses the Premium and Supports of every deck, then auto-builds a decklist:
   - 1 copy of the premium (the ≤$1 card), plus its C/U pre-evolution line (4 basic, 3 each middle stage)
   - up to 2 support copies total (the ≤$0.50 cap), plus any support's C/U pre-evo line
-  - a cheap C/U basic attacker of the deck's type as backup/bench fodder
+  - C/U backup attacker lines of the deck's type (board presence / plan B)
+  - a Common/Uncommon Trainer shell (trainer_package): draw, ball search, Boss's Orders
+    gust, Switch, energy search, recovery, and Rare Candy for Stage-2 aces
   - basic energy of the type(s) the deck pays for, filling to exactly 60
-Enforces exactly 60 cards and ≤4 copies of any non-energy card.
+Enforces exactly 60 cards and ≤4 copies of any non-basic-energy card.
 
-These are heuristic lists (no Trainer cards — the pool is Pokémon-only), meant as a
-consistent baseline for the simulator, not tuned championship lists.
+Trainers come from deckgen/trainers.json (Common/Uncommon only — legal & unlimited).
+Items are dicts; the engine expands them to ('T', dict) tokens. NEXT: per-deck Trainer
+tech (named/type-specific/heal cards) instead of one generic shell.
 """
-import os, re, glob
+import os, re, glob, json
 from collections import Counter
 from cards import load_cards
 BY_KEY, BY_NAME = load_cards()
 DECKGEN = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'deckgen')
+TRAINERS = json.load(open(os.path.join(DECKGEN, 'trainers.json')))   # name -> {trainerType, rarity, effect}
+
+
+def trainer_package(ace, sup_cards):
+    """The consistency shell of Common/Uncommon Trainers the engine knows how to play."""
+    pkg = []
+    def addT(name, n):
+        r = TRAINERS.get(name)
+        if r:
+            pkg.append((n, dict(r, name=name)))
+    addT("Professor's Research", 3)   # draw 7
+    addT("Friends in Paldea", 2)      # draw 3
+    addT("Boss's Orders", 2)          # gust
+    addT("Buddy-Buddy Poffin", 3)     # 2 small basics to bench
+    addT("Poké Ball", 2)              # search a Pokémon
+    addT("Switch", 2)                 # free pivot
+    addT("Earthen Vessel", 1)         # 2 basic energy to hand
+    addT("Night Stretcher", 1)        # recover Pokémon/energy from discard
+    if ace.stage == 2 or any(s.stage == 2 for s in sup_cards):
+        addT("Rare Candy", 4)         # Basic -> Stage 2 skip
+    return pkg
 L2T = {'G': 'Grass', 'R': 'Fire', 'W': 'Water', 'L': 'Lightning', 'P': 'Psychic',
        'F': 'Fighting', 'D': 'Darkness', 'M': 'Metal'}
 bolds = re.compile(r'\*\*([^*]+)\*\*')
@@ -126,25 +150,20 @@ def build_spec(deck):
         for j, pre in enumerate(preevo_chain(sc)):
             add(pre, 3 if j == 0 else 2)
     types = deck_types(ace, sup_cards)
-    # backup attacker lines: enough to make the deck Pokémon-forward (target ~42 Pokémon,
-    # leaving ~18 energy) so it stays consistent without Trainer search.
+    trainers = trainer_package(ace, sup_cards)
+    n_trainer = sum(n for n, _ in trainers)
+    # backup attacker lines until Pokémon + Trainers ≈ 46 (leaving ~14 basic energy)
     exclude = {ace.name} | {s.name for s in sup_cards} | {p.name for p in preevo_chain(ace)}
-    target_poke = 42
-    for b in backup_attackers(types, exclude):
-        if sum(counts.values()) >= target_poke:
+    for b in backup_attackers(types, exclude, k=4):
+        if sum(counts.values()) + n_trainer >= 46:
             break
         add(b, 4)
-    n_poke = sum(counts.values())
-    n_energy = max(10, 60 - n_poke)                 # never fewer than ~10 energy
-    # if we overshot 60 (rare), trim energy handled by fill loop below
-    spec = [(n, c) for c, n in counts.items()]
-    total_poke = sum(n for n, _ in spec)
-    n_energy = 60 - total_poke if total_poke < 50 else 10
+    spec = [(n, c) for c, n in counts.items()] + trainers
+    n_energy = max(0, 60 - sum(n for n, _ in spec))
     merged = Counter()
-    for i in range(max(0, n_energy)):
+    for i in range(n_energy):
         merged[types[i % len(types)]] += 1
-    out = [(n, c) for n, c in spec]
-    out += [(n, t) for t, n in merged.items()]
+    out = spec + [(n, t) for t, n in merged.items()]
     return out, ace
 
 
@@ -170,5 +189,9 @@ if __name__ == '__main__':
     d = next(x for x in decks if x['premium'] == 'Mega Venusaur ex')
     spec, ace = build_spec(d)
     print(f"\nsample — {d['name']} (ace: {ace.name}):")
-    for n, item in sorted(spec, key=lambda x: (isinstance(x[1], str), -x[0])):
-        print(f"  {n}x {item if isinstance(item, str) else item.name}")
+    def label(it):
+        if isinstance(it, str): return it + ' Energy'
+        if isinstance(it, dict): return it['name'] + ' [T]'
+        return it.name
+    for n, item in sorted(spec, key=lambda x: (0 if not isinstance(x[1], (str, dict)) else 1, isinstance(x[1], str), -x[0])):
+        print(f"  {n}x {label(item)}")

@@ -54,11 +54,16 @@ class Player:
         self.name = name
         self.rng = rng
         spec, self.ace_key = deck            # deck = (spec, ace_key)
-        # expand spec into a deck of tokens: ('P', Card) or ('E', type)
+        # expand spec into tokens: ('P', Card) | ('E', type str) | ('T', trainer dict)
         self.deck = []
         for count, item in spec:
             for _ in range(count):
-                self.deck.append(('E', item) if isinstance(item, str) else ('P', item))
+                if isinstance(item, str):
+                    self.deck.append(('E', item))
+                elif isinstance(item, dict):
+                    self.deck.append(('T', item))
+                else:
+                    self.deck.append(('P', item))
         rng.shuffle(self.deck)
         self.hand = []
         self.active = None
@@ -223,19 +228,141 @@ class Game:
             ready = [m for m in me.bench if self._fundable(m)]
             if ready:
                 desired = max(ready, key=lambda m: (self.best_attack(me, opp, m, opp.active) or (None, 0, 0))[2])
-        if desired and desired is not me.active and me.active.total_energy() >= me.active.card.retreat:
-            for _ in range(me.active.card.retreat):         # pay retreat by discarding energy
-                t = max(me.active.energy, key=lambda k: me.active.energy[k])
-                me.active.energy[t] -= 1
-                if me.active.energy[t] <= 0: del me.active.energy[t]
-                me.disc_energy[t] += 1
+        if desired and desired is not me.active:
+            sw = next((t for t in me.hand if t[0] == 'T' and t[1]['name'] == 'Switch'), None)
+            if sw:                                          # free pivot via Switch item
+                me.hand.remove(sw)
+            elif me.active.total_energy() >= me.active.card.retreat:
+                for _ in range(me.active.card.retreat):     # pay retreat by discarding energy
+                    t = max(me.active.energy, key=lambda k: me.active.energy[k])
+                    me.active.energy[t] -= 1
+                    if me.active.energy[t] <= 0: del me.active.energy[t]
+                    me.disc_energy[t] += 1
+            else:
+                return
             old = me.active
             me.bench.remove(desired); me.bench.append(old)
             me.active = desired; desired.came_from_bench = True
 
+    # ---------------- Trainers ----------------
+    def _find_in_hand(self, me, pred):
+        return next((t for t in me.hand if pred(t)), None)
+
+    def _search_deck_to_hand(self, me, pred, n=1):
+        got = 0
+        for i in range(len(me.deck) - 1, -1, -1):
+            if got >= n:
+                break
+            if pred(me.deck[i]):
+                me.hand.append(me.deck.pop(i)); got += 1
+        return got
+
+    def _search_basics_to_bench(self, me, pred, n=2):
+        got = 0
+        for i in range(len(me.deck) - 1, -1, -1):
+            if got >= n or len(me.bench) >= 5:
+                break
+            tok = me.deck[i]
+            if tok[0] == 'P' and tok[1].stage == 0 and pred(tok[1]):
+                me.bench.append(Mon(tok[1])); me.deck.pop(i); got += 1
+        return got
+
+    def _rare_candy(self, me):
+        """Evolve a Basic in play straight to a Stage-2 in hand (skipping Stage 1)."""
+        for t in list(me.hand):
+            if t[0] != 'P' or t[1].stage != 2:
+                continue
+            s2 = t[1]
+            s1 = BY_NAME.get(s2.evolves_from, [None])[0]
+            basic = s1.evolves_from if s1 else None
+            for mon in me.all_mons():
+                if mon.turns >= 1 and mon.card.stage == 0 and mon.card.name in (basic, s2.evolves_from):
+                    ev = Mon(s2)
+                    ev.damage = mon.damage; ev.energy = mon.energy; ev.turns = mon.turns; ev.status = mon.status
+                    me.hand.remove(t)
+                    if mon is me.active:
+                        me.active = ev
+                    else:
+                        me.bench[me.bench.index(mon)] = ev
+                    return True
+        return False
+
+    def _gust(self, me, opp):
+        """Boss's Orders: drag up an opponent's benched target we can KO this turn."""
+        if not opp.bench or not me.active:
+            return False
+        cand = sorted(opp.bench, key=lambda m: (not m.card.is_ex, m.hp_left))
+        cur = self.best_attack(me, opp, me.active, opp.active)
+        cur_ko = cur and opp.active and cur[1] >= opp.active.hp_left
+        for tgt in cand:
+            ba = self.best_attack(me, opp, me.active, tgt)
+            if ba and ba[1] >= tgt.hp_left and not cur_ko:
+                opp.bench.remove(tgt); opp.bench.append(opp.active); opp.active = tgt
+                return True
+        return False
+
+    def play_draw(self, me, name):
+        if name == "Professor's Research":
+            for t in me.hand:
+                if t[0] == 'E': me.disc_energy[t[1]] += 1
+                elif t[0] == 'P': me.discard.append(t)
+            me.hand = []; me.draw(7)
+        elif name == "Judge":
+            me.deck += me.hand; me.hand = []; self.rng.shuffle(me.deck); me.draw(4)
+        else:
+            me.draw(3)
+
+    def play_trainers(self, me, opp):
+        # ITEMS (unlimited) — develop the board / fetch the ace
+        changed = True
+        while changed:
+            changed = False
+            for t in list(me.hand):
+                if t[0] != 'T' or t[1]['trainerType'] != 'Item':
+                    continue
+                nm = t[1]['name']; done = False
+                if nm == 'Rare Candy':
+                    done = self._rare_candy(me)
+                elif nm == 'Buddy-Buddy Poffin':
+                    done = len(me.bench) < 5 and self._search_basics_to_bench(me, lambda c: c.hp <= 70, 2) > 0
+                elif nm in ('Poké Ball', 'Poké Pad', 'Dusk Ball', 'Nest Ball'):
+                    if not self.ace_mon(me) and not self._find_in_hand(me, lambda x: x[0] == 'P' and x[1].key == me.ace_key):
+                        want = lambda x: x[0] == 'P' and x[1].key == me.ace_key
+                        done = self._search_deck_to_hand(me, want) > 0 or self._search_deck_to_hand(me, lambda x: x[0] == 'P') > 0
+                    else:
+                        done = self._search_deck_to_hand(me, lambda x: x[0] == 'P') > 0
+                elif nm in ('Energy Search', 'Earthen Vessel'):
+                    if sum(1 for x in me.hand if x[0] == 'E') < 2:
+                        done = self._search_deck_to_hand(me, lambda x: x[0] == 'E', 2 if nm == 'Earthen Vessel' else 1) > 0
+                elif nm == 'Night Stretcher':
+                    rec = next((x for x in me.discard if x[0] == 'P' and x[1].key == me.ace_key), None) \
+                        or next((x for x in me.discard if x[0] == 'P'), None)
+                    if rec:
+                        me.discard.remove(rec); me.hand.append(rec); done = True
+                if done:
+                    me.hand.remove(t); changed = True; break
+        # SUPPORTER (one per turn) — gust for a KO, else draw to dig
+        sup = [t for t in me.hand if t[0] == 'T' and t[1]['trainerType'] == 'Supporter']
+        if not sup:
+            return
+        boss = next((t for t in sup if t[1]['name'] == "Boss's Orders"), None)
+        if boss and self._gust(me, opp):
+            me.hand.remove(boss); return
+        if len(me.hand) <= 5:                               # only dig when the hand is thin
+            names = [t[1]['name'] for t in sup]
+            for pref in ("Professor's Research", "Judge", "Cheren", "Friends in Paldea", "Urbain"):
+                if pref in names:
+                    if pref == "Professor's Research" and len(me.hand) > 3:
+                        continue                            # don't torch a medium hand
+                    tok = next(t for t in sup if t[1]['name'] == pref)
+                    me.hand.remove(tok)                     # remove before resolving (Prof clears hand)
+                    self.play_draw(me, pref)
+                    return
+
     def ai_main(self, me, opp):
         for m in me.all_mons():
             m.came_from_bench = False
+        self.play_trainers(me, opp)                         # supporter + items (draw/search/candy/gust)
         for t in list(me.basics_in_hand()):                 # bench basics
             if len(me.bench) >= 5:
                 break

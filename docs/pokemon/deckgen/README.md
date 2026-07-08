@@ -28,6 +28,10 @@ Requires only Python 3 stdlib. `parse_printings.py` must run first (it produces
   **Edit the `decks_*.txt` files here, not `decks.md` directly**, then re-run this.
 - **`coverage.py`** — lists legal ex premiums and rare ability-cards not yet used in
   any deck, to find design gaps.
+- **`parse_trainers.py`** → **`trainers.json`** — the 197 Common/Uncommon Trainers
+  (Supporter/Item/Stadium/Tool + effect text) pulled from `../carddata/*.json`. Legal
+  and unlimited under the "rest must be Common/Uncommon" rule; the simulator's decklists
+  and Trainer engine consume this.
 - **`decks_<TYPE>.txt`** (+ optional `_extra`, `_new`) — the deck source, one file
   per section (G R W L P F D M C MULTI TR). Deck template:
 
