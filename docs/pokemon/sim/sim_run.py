@@ -33,9 +33,9 @@ def main():
     chosen, games = pick(sys.argv)
     specs = []
     for d in chosen:
-        s = build_spec(d)
-        if s:
-            specs.append((d['name'], d['section'], s))
+        spec, ace = build_spec(d)
+        if spec:
+            specs.append((d['name'], d['section'], (spec, ace.key)))
     print(f"{len(specs)} decks, {games} games/pairing, {len(specs)*(len(specs)-1)//2} pairings")
     W = defaultdict(int); G = defaultdict(int)
     t0 = time.time()

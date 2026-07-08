@@ -83,62 +83,69 @@ def deck_types(premium, supports):
     return sorted(ts) or ['Water']   # colorless-only: any single basic energy pays it
 
 
-def generic_basic(types):
-    """A cheap C/U Basic attacker of one of the deck's types (backup/fodder)."""
-    for c in BY_NAME:
-        pass
-    best = None
+def backup_attackers(types, exclude, k=6):
+    """C/U Basic attackers of the deck's types, ranked by damage-per-energy (best first).
+    These give a trainerless deck board presence + a plan B when the ace is slow/prized."""
+    cands = []
     for name, plist in BY_NAME.items():
+        if name in exclude:
+            continue
         for c in plist:
-            if c.cat == 'cat-green' and c.stage == 0 and c.hp >= 60 and c.energy and c.energy[0] in 'GRWLPFDM' \
-               and L2T.get(c.energy[0]) in types and any(a['dmg'] >= 20 for a in c.attacks) and c.price is not None:
-                if best is None or c.price < best.price:
-                    best = c
-    return best
+            if (c.cat == 'cat-green' and c.stage == 0 and c.price is not None and c.hp >= 60
+                    and c.energy and c.energy[0] in 'GRWLPFDM' and L2T.get(c.energy[0]) in types):
+                usable = [a for a in c.attacks if len(a['cost']) <= 3 and a['dmg'] > 0]
+                if not usable:
+                    break
+                a = max(usable, key=lambda x: x['dmg'] / max(1, len(x['cost'])))
+                cands.append((a['dmg'] / max(1, len(a['cost'])), a['dmg'], c))
+                break
+    cands.sort(key=lambda x: (-x[0], -x[1]))
+    return [c for _, _, c in cands[:k]]
 
 
 def build_spec(deck):
-    prem = premium_card(deck['premium'])
-    if not prem:
-        return None
-    counts = Counter()   # Card -> count
+    """Return (spec, ace_card). spec is a list of (count, Card|energy_type_str), 60 cards,
+    <=4 copies of any non-energy card. ace_card is the premium the AI builds toward."""
+    ace = premium_card(deck['premium'])
+    if not ace:
+        return None, None
+    counts = Counter()
+
     def add(card, n):
         if card:
             counts[card] = min(4, counts[card] + n)
-    add(prem, 1)
-    chain = preevo_chain(prem)
-    for i, pre in enumerate(chain):
+
+    add(ace, 1)                                     # the singleton premium
+    for i, pre in enumerate(preevo_chain(ace)):     # its C/U evolution line: 4 basic, 3 each above
         add(pre, 4 if i == 0 else 3)
-    # supports (<=2 physical copies total)
-    sup_cards = [support_card(s) for s in deck['supports']]
-    sup_cards = [c for c in sup_cards if c]
-    budget = 2
-    for i, sc in enumerate(sup_cards[:2]):
-        n = 2 if len(sup_cards) == 1 else 1
-        n = min(n, budget); budget -= n
+    sup_cards = [c for c in (support_card(s) for s in deck['supports']) if c]
+    budget = 2                                      # <=2 physical support copies total
+    for sc in sup_cards[:2]:
+        n = min(2 if len(sup_cards) == 1 else 1, budget); budget -= n
         add(sc, n)
         for j, pre in enumerate(preevo_chain(sc)):
             add(pre, 3 if j == 0 else 2)
-    types = deck_types(prem, [c for c in sup_cards])
-    gb = generic_basic(types)
-    add(gb, 3)
-    # count pokemon, fill rest with basic energy split across types
+    types = deck_types(ace, sup_cards)
+    # backup attacker lines: enough to make the deck Pokémon-forward (target ~42 Pokémon,
+    # leaving ~18 energy) so it stays consistent without Trainer search.
+    exclude = {ace.name} | {s.name for s in sup_cards} | {p.name for p in preevo_chain(ace)}
+    target_poke = 42
+    for b in backup_attackers(types, exclude):
+        if sum(counts.values()) >= target_poke:
+            break
+        add(b, 4)
+    n_poke = sum(counts.values())
+    n_energy = max(10, 60 - n_poke)                 # never fewer than ~10 energy
+    # if we overshot 60 (rare), trim energy handled by fill loop below
     spec = [(n, c) for c, n in counts.items()]
-    n_poke = sum(n for n, _ in spec)
-    n_energy = max(0, 60 - n_poke)
-    for i in range(n_energy):
-        spec.append((1, types[i % len(types)]))
-    # merge energy tokens of same type
-    merged = {}
-    out = []
-    for n, item in spec:
-        if isinstance(item, str):
-            merged[item] = merged.get(item, 0) + n
-        else:
-            out.append((n, item))
-    for t, n in merged.items():
-        out.append((n, t))
-    return out
+    total_poke = sum(n for n, _ in spec)
+    n_energy = 60 - total_poke if total_poke < 50 else 10
+    merged = Counter()
+    for i in range(max(0, n_energy)):
+        merged[types[i % len(types)]] += 1
+    out = [(n, c) for n, c in spec]
+    out += [(n, t) for t, n in merged.items()]
+    return out, ace
 
 
 def validate(spec):
@@ -152,7 +159,7 @@ if __name__ == '__main__':
     print(f"parsed {len(decks)} decks")
     bad = 0
     for d in decks:
-        spec = build_spec(d)
+        spec, ace = build_spec(d)
         if spec is None:
             print("  NO PREMIUM:", d['name']); bad += 1; continue
         total, over = validate(spec)
@@ -161,6 +168,7 @@ if __name__ == '__main__':
     print(f"{len(decks)-bad}/{len(decks)} decks build to a legal 60")
     # show one sample
     d = next(x for x in decks if x['premium'] == 'Mega Venusaur ex')
-    print(f"\nsample — {d['name']} ({d['premium']}):")
-    for n, item in sorted(build_spec(d), key=lambda x: (isinstance(x[1], str), -x[0])):
+    spec, ace = build_spec(d)
+    print(f"\nsample — {d['name']} (ace: {ace.name}):")
+    for n, item in sorted(spec, key=lambda x: (isinstance(x[1], str), -x[0])):
         print(f"  {n}x {item if isinstance(item, str) else item.name}")

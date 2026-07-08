@@ -49,14 +49,23 @@ win by prizes / no-Pokémon / deck-out, a greedy AI.
 - **(5) Spread + ability-lock** — `apply_spread()` deals bench damage (KOs benched → prizes);
   `abilities_disabled()` shuts off a player's abilities under Flutter Mane / Iron Thorns.
 
-**The frontier is no longer effects — it's decklist & AI quality.** The decks still
-under-valued (Vibrant Wall, Flutter Lock, Symphonia, TR Condition Stack, Hydrapple) all
-need to *assemble* a 2–3-line engine, which the heuristic, trainer-less, energy-heavy
-auto-lists + greedy AI can't do reliably. Next improvements, in order: (a) better
-`decks_build.py` (tune energy/line ratios, fewer dead lines), (b) a smarter AI in
-`engine.ai_main` (retreat, target/attack selection, prioritize setup attacks & abilities),
-(c) remaining niche effects (gust targeting, per-special-condition scaling, Punk-Up/X-Boot
-search-accel, energy/hand disruption).
+**Piloting upgrades done:** realistic auto-lists (sensible energy count + backup attacker
+lines, `decks_build.py` also returns each deck's *ace*), an **ace-aware AI** (`engine`:
+builds/funds the ace even on the bench, evolves the ace line, retreats to promote the
+readiest attacker, KO/value attack selection), and **utility attacks** (draw / search-to-hand
+so setup decks dig for their pieces). Validated: 0 draws, ~120/165 decks in a 30–70% band.
+
+**The dominant remaining factor is structural: the pool is Pokémon-only (no Trainers).**
+Fast Basic / accel decks (Lightning ~80%, Fighting ~74% section avg) attack on turn 2, while
+singleton Stage-2 evolution decks (Grass ~34%) can't reliably set up without Trainer support
+(Rare Candy, draw supporters, ball search). This is an accurate model *of a trainerless
+format*, but it under-represents how complex/evolution decks perform in real Pokémon.
+
+**Biggest next lever — a generic "consistency shell":** give every deck a standard abstract
+Trainer engine (draw-supporter, Pokémon search, switch, a Rare-Candy-style stage skip) since
+the data has no real Trainer cards. That's what lets evolution/combo decks come online and
+makes cross-archetype win rates trustworthy. Then: niche effects (gust targeting,
+per-special-condition scaling, Punk-Up/X-Boot search-accel, disruption) and AI polish.
 
 ## Extending
 

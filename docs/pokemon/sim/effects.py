@@ -171,6 +171,35 @@ def apply_spread(ctx, attack):
             ko.append(b)
     return ko
 
+def _search(me, n, kind):
+    """Move up to n tokens of a kind ('P' Pokémon / 'E' energy) from deck to hand."""
+    got = 0
+    for i in range(len(me.deck) - 1, -1, -1):
+        if got >= n:
+            break
+        if me.deck[i][0] == kind:
+            me.hand.append(me.deck.pop(i)); got += 1
+
+def is_utility(attack):
+    t = attack['text'].lower()
+    return 'draw' in t or 'search your deck' in t
+
+def apply_attack_utility(ctx, attack):
+    """Draw / search-to-hand attack effects (consistency engines like Call Sign, Nasty Plot)."""
+    me = ctx[0]; t = attack['text'].lower()
+    m = re.search(r'draw (\d+) card', t)
+    if m: me.draw(int(m.group(1)))
+    m = re.search(r'until you have (\d+) card', t)
+    if m:
+        while len(me.hand) < int(m.group(1)) and me.draw(1):
+            pass
+    m = re.search(r'search your deck for up to (\d+) basic energy', t)
+    if m:
+        _search(me, int(m.group(1)), 'E'); return
+    m = re.search(r'search your deck for (?:up to (\d+) )?(?:basic )?pok', t)
+    if m:
+        _search(me, int(m.group(1)) if m.group(1) else 1, 'P')
+
 def attack_cooldown(attack):
     """Return the attack name it disables next turn, 'ALL', or None."""
     tl = attack['text'].lower(); nm = attack['name'].lower()

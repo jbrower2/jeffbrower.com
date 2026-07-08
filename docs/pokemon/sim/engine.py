@@ -25,6 +25,7 @@ TYPE_OF_ENERGY = {'Grass': 'Grass', 'Fire': 'Fire', 'Water': 'Water', 'Lightning
 # energy letter <-> type
 L2T = {'G': 'Grass', 'R': 'Fire', 'W': 'Water', 'L': 'Lightning', 'P': 'Psychic',
        'F': 'Fighting', 'D': 'Darkness', 'M': 'Metal', 'C': 'Colorless'}
+T2L = {v: k for k, v in L2T.items()}
 
 
 class Mon:
@@ -49,12 +50,13 @@ class Mon:
 
 
 class Player:
-    def __init__(self, name, deck_spec, rng):
+    def __init__(self, name, deck, rng):
         self.name = name
         self.rng = rng
+        spec, self.ace_key = deck            # deck = (spec, ace_key)
         # expand spec into a deck of tokens: ('P', Card) or ('E', type)
         self.deck = []
-        for count, item in deck_spec:
+        for count, item in spec:
             for _ in range(count):
                 self.deck.append(('E', item) if isinstance(item, str) else ('P', item))
         rng.shuffle(self.deck)
@@ -103,12 +105,13 @@ class Player:
             self.prizes_taken += 1
 
     def promote(self):
-        """Move a benched Pokémon to Active (AI: highest HP)."""
+        """Move a benched Pokémon to Active: the readiest attacker (most energy, then HP)."""
         if not self.bench:
             self.active = None
             return
-        self.bench.sort(key=lambda m: m.card.hp, reverse=True)
+        self.bench.sort(key=lambda m: (m.total_energy(), m.card.hp), reverse=True)
         self.active = self.bench.pop(0)
+        self.active.came_from_bench = True
 
 
 def cost_met(mon, cost):
@@ -126,9 +129,9 @@ def cost_met(mon, cost):
 
 
 class Game:
-    def __init__(self, spec_a, spec_b, seed=0, verbose=False):
+    def __init__(self, deck_a, deck_b, seed=0, verbose=False):
         self.rng = random.Random(seed)
-        self.players = [Player('A', spec_a, self.rng), Player('B', spec_b, self.rng)]
+        self.players = [Player('A', deck_a, self.rng), Player('B', deck_b, self.rng)]
         self.verbose = verbose
         self.turn = 0
 
@@ -153,15 +156,21 @@ class Game:
         return None
 
     # ---- AI main phase ----
-    def ai_main(self, me, opp):
-        for m in me.all_mons():
-            m.came_from_bench = False
-        # 1) bench any basics
-        for t in list(me.basics_in_hand()):
-            if len(me.bench) >= 5:
-                break
-            me.bench.append(Mon(t[1])); me.hand.remove(t)
-        # 2) evolve (a pokemon in play >=1 turn, with matching evolution in hand)
+    # ---- AI helpers ----
+    def ace_mon(self, me):
+        return next((m for m in me.all_mons() if m.card.key == me.ace_key), None)
+
+    def _dmg_attacks(self, mon):
+        return [a for a in mon.card.attacks if a['dmg'] > 0 or 'is now' in a['text'].lower()]
+
+    def _cheapest_cost(self, mon):
+        atks = self._dmg_attacks(mon)
+        return min((a['cost'] for a in atks), key=len) if atks else None
+
+    def _fundable(self, mon):
+        return any(cost_met(mon, a['cost']) for a in self._dmg_attacks(mon))
+
+    def evolve_all(self, me):
         changed = True
         while changed:
             changed = False
@@ -170,7 +179,9 @@ class Game:
                     continue
                 for t in list(me.hand):
                     if t[0] == 'P' and t[1].evolves_from == mon.card.name and t[1].stage == mon.card.stage + 1:
-                        ev = Mon(t[1]); ev.damage = mon.damage; ev.energy = mon.energy; ev.turns = mon.turns
+                        ev = Mon(t[1])
+                        ev.damage = mon.damage; ev.energy = mon.energy; ev.turns = mon.turns
+                        ev.status = mon.status; ev.poison_amt = mon.poison_amt
                         me.hand.remove(t)
                         if mon is me.active:
                             me.active = ev
@@ -180,21 +191,65 @@ class Game:
                         break
                 if changed:
                     break
-        # 3) attach one energy to the active (prefer the highest-HP attacker there)
-        energies = [t for t in me.hand if t[0] == 'E']
-        if energies and me.active:
-            # pick an energy the active can use (matches a cost) else any
-            tok = energies[0]
-            me.active.energy[tok[1]] += 1
-            me.hand.remove(tok)
-        # 4) energy-acceleration abilities (once per pokemon per turn)
-        for mon in me.all_mons():
+
+    def attach_energy(self, me):
+        toks = [t for t in me.hand if t[0] == 'E']
+        if not toks or not me.all_mons():
+            return
+        ace = self.ace_mon(me)
+        # build the ace first (even benched); once it can attack, top up the active
+        target = ace if (ace and not self._fundable(ace)) else me.active
+        target = target or me.active or (me.bench[0] if me.bench else None)
+        if target is None:
+            return
+        need = self._cheapest_cost(target)
+        pick = None
+        if need:
+            for t in toks:
+                letter = T2L.get(t[1])
+                if letter and letter in need and target.energy.get(t[1], 0) < need.count(letter):
+                    pick = t; break
+        pick = pick or toks[0]
+        target.energy[pick[1]] += 1; me.hand.remove(pick)
+
+    def maybe_retreat(self, me, opp):
+        if not me.active:
+            return
+        ace = self.ace_mon(me)
+        desired = None
+        if ace and ace in me.bench and self._fundable(ace):
+            desired = ace                                   # promote a ready ace
+        elif not self._fundable(me.active):
+            ready = [m for m in me.bench if self._fundable(m)]
+            if ready:
+                desired = max(ready, key=lambda m: (self.best_attack(me, opp, m, opp.active) or (None, 0, 0))[2])
+        if desired and desired is not me.active and me.active.total_energy() >= me.active.card.retreat:
+            for _ in range(me.active.card.retreat):         # pay retreat by discarding energy
+                t = max(me.active.energy, key=lambda k: me.active.energy[k])
+                me.active.energy[t] -= 1
+                if me.active.energy[t] <= 0: del me.active.energy[t]
+                me.disc_energy[t] += 1
+            old = me.active
+            me.bench.remove(desired); me.bench.append(old)
+            me.active = desired; desired.came_from_bench = True
+
+    def ai_main(self, me, opp):
+        for m in me.all_mons():
+            m.came_from_bench = False
+        for t in list(me.basics_in_hand()):                 # bench basics
+            if len(me.bench) >= 5:
+                break
+            me.bench.append(Mon(t[1])); me.hand.remove(t)
+        self.evolve_all(me)                                 # evolve (ace line included)
+        for mon in me.all_mons():                           # abilities: accel / heal
             if effects.abilities_disabled(mon, me, opp):
                 continue
             for ab in mon.card.abilities:
                 h = effects.ABILITY_ACCEL.get(ab['name']) or effects.HEAL_ABILITIES.get(ab['name'])
                 if h:
                     h(me, opp, mon, self)
+        self.attach_energy(me)                              # fund the ace / active
+        self.maybe_retreat(me, opp)                         # promote the best attacker
 
     def best_attack(self, me, opp, mon, defender):
         """Best affordable, non-cooldowned attack -> (attack, actual_damage, value) or None.
@@ -210,7 +265,10 @@ class Game:
             dmg = effects.scaling_damage(ctx, a)
             if dmg and defender and defender.card.weakness and defender.card.weakness == mon.card.ptype:
                 dmg *= 2
-            value = dmg + (25 if 'is now' in a['text'].lower() else 0)
+            txt = a['text'].lower()
+            value = dmg + (25 if 'is now' in txt else 0)
+            if dmg < 20 and effects.is_utility(a):          # draw/search setup, as a fallback
+                value = max(value, 18)
             if best is None or value > best[2]:
                 best = (a, dmg, value)
         return best
@@ -232,6 +290,7 @@ class Game:
                          f"({opp.active.card.name} {max(0,opp.active.hp_left)}/{opp.active.card.hp})")
                 effects.attack_side_effects(ctx, a)
                 effects.apply_attack_status(ctx, a)
+                effects.apply_attack_utility(ctx, a)
                 for b in effects.apply_spread(ctx, a):           # bench spread KOs
                     if b in opp.bench:
                         for t, n in b.energy.items():
@@ -293,11 +352,11 @@ class Game:
         return None  # draw / turn cap
 
 
-def run_match(spec_a, spec_b, games=200, base_seed=1):
+def run_match(deck_a, deck_b, games=200, base_seed=1):
     wins = [0, 0, 0]  # A, B, draw
     for g in range(games):
         # alternate who goes first; vary seed
-        a, b = (spec_a, spec_b) if g % 2 == 0 else (spec_b, spec_a)
+        a, b = (deck_a, deck_b) if g % 2 == 0 else (deck_b, deck_a)
         w = Game(a, b, seed=base_seed + g).play()
         if w is None:
             wins[2] += 1
@@ -312,7 +371,7 @@ if __name__ == '__main__':
     # smoke test: two simple mono decks of a single basic attacker + energy
     def simple_deck(card_name, energy_type):
         c = [x for x in BY_NAME[card_name] if x.cat != 'cat-red'][0]
-        return [(4, c), (56, energy_type)]
+        return ([(4, c), (56, energy_type)], c.key)
     # Reshiram ex (basic, RRC Blazing Burst) vs Zangoose ex (basic, colorless)
     A = simple_deck('Reshiram ex', 'Fire')
     B = simple_deck('Zangoose ex', 'Fire')
