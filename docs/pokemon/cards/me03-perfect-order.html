@@ -1,0 +1,2330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>ME03: Perfect Order — Pauper drill-down</title>
+<style>
+  :root { color-scheme: light; }
+  body { font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         margin: 2rem auto; max-width: 1500px; padding: 0 1rem; color: #1a1a2e; }
+  h1 { margin-bottom: 0.25rem; }
+  .subtitle { color: #555; margin-top: 0; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0 2rem; font-size: 0.85rem; }
+  th, td { border: 1px solid #ccc; padding: 0.35rem 0.5rem; text-align: right; }
+  thead th { background: #2c2c54; color: #fff; }
+  thead th.cap { font-size: 1rem; text-align: center; }
+  tbody th { text-align: left; background: #f4f4fb; white-space: nowrap; }
+  tbody th a { color: inherit; }
+  td.na { color: #999; text-align: center; }
+  td.pct .v { font-weight: 600; }
+  td.pct .n { color: #666; font-size: 0.72rem; white-space: nowrap; display: block; }
+  td.num { font-variant-numeric: tabular-nums; }
+  tfoot td, tfoot th { background: #eaeaf5; font-weight: 600; }
+  .notes { background: #f8f8ff; border: 1px solid #ddd; border-radius: 8px; padding: 1rem 1.5rem; font-size: 0.9rem; }
+  .notes li { margin: 0.3rem 0; }
+  .wrap { overflow-x: auto; }
+  .gs { border-left: 3px solid #2c2c54; }
+  .badge { display: inline-block; padding: 0.1rem 0.45rem; border-radius: 999px; font-weight: 600; font-size: 0.8rem; white-space: nowrap; }
+  .badge.over { background: #fdd; color: #922; }
+  .badge.noprice { background: #eee; color: #777; }
+  .st { font-weight: 700; }
+  .st.ok { color: #1a7f37; }
+  .st.warn { color: #b58900; }
+  .st.bad { color: #b02a2a; }
+
+  .cardrow td { vertical-align: top; text-align: left; }
+  .thumb { width: 96px; min-width: 96px; }
+  .thumb img { width: 96px; border-radius: 5px; display: block; }
+  .thumb .noimg { width: 96px; height: 133px; background: #eee; border-radius: 5px;
+                  display: flex; align-items: center; justify-content: center; color: #999; font-size: 0.7rem; }
+  .cname { font-weight: 700; font-size: 1rem; }
+  .crarity { color: #666; font-size: 0.8rem; }
+  .ctext { max-width: 560px; font-size: 0.78rem; color: #333; }
+  .ctext .meta { color: #777; margin-bottom: 0.15rem; }
+  .ctext .ab b { color: #a33; }
+  .ctext .atk b { color: #223a8f; }
+  .ctext .dmg { display: inline-block; min-width: 0.8rem; padding: 0 0.3rem; border-radius: 7px;
+                background: #223a8f; color: #fff; font-size: 0.7rem; font-weight: 700; text-align: center; }
+  .ctext > div { margin-bottom: 0.2rem; }
+  .en { display: inline-block; width: 1rem; height: 1rem; border-radius: 50%; background: #ddd;
+        text-align: center; line-height: 1rem; font-size: 0.65rem; font-weight: 700; margin-right: 1px; }
+  .versions { font-size: 0.78rem; border-collapse: collapse; margin: 0; }
+  .versions td { border: none; border-bottom: 1px solid #eee; padding: 0.15rem 0.5rem 0.15rem 0; text-align: left; }
+  .versions td.pr { text-align: right; font-variant-numeric: tabular-nums; }
+  .versions td.cheap { color: #1a7f37; font-weight: 600; }
+  .minp { font-size: 1rem; font-weight: 700; white-space: nowrap; }
+  .backlink { margin-bottom: 1rem; display: inline-block; }
+  #imgpop { position: fixed; display: none; z-index: 100; pointer-events: none; }
+  #imgpop img { width: 480px; border-radius: 14px; box-shadow: 0 10px 34px rgba(0,0,0,0.45); display: block; }
+</style>
+</head>
+<body>
+<a class="backlink" href="../index.html">← back to summary</a>
+<h1>ME03: Perfect Order</h1>
+<p class="subtitle">92 cards (124 printings, 203 Near Mint versions) ·
+92 text-verified · generated 2026-07-07 21:48 UTC</p>
+
+<table>
+<thead><tr><th>≤ 50¢</th><th>≤ $1.00</th></tr></thead>
+<tbody><tr><td class="pct">85.9% <span class="n">79/92</span></td><td class="pct">94.6% <span class="n">87/92</span></td></tr></tbody>
+</table>
+
+<div class="notes"><ul><li>name differences (TCGdex name used): #080/088: TCGplayer &quot;Poke Ball&quot; vs TCGdex &quot;Poké Ball&quot;; #081/088: TCGplayer &quot;Poke Pad&quot; vs TCGdex &quot;Poké Pad&quot;; #082/088: TCGplayer &quot;Pokemon Catcher&quot; vs TCGdex &quot;Pokémon Catcher&quot;; #113/088: TCGplayer &quot;Poke Pad&quot; vs TCGdex &quot;Poké Pad&quot;</li></ul></div>
+
+<div class="wrap">
+<table>
+<thead><tr><th></th><th>Card</th><th>Versions (Near Mint market price)</th><th>Cheapest</th></tr></thead>
+<tbody>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/001/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/001/high.webp" alt="Spinarak"></td>
+        <td>
+          <div class="cname">Spinarak <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Basic · 60 HP · Grass · weak: Fire ×2 · retreat 1 · reg. J</div><div class="atk"><b><span class="en" title="Grass">G</span> Gooey Thread</b> <span class="dmg">10</span> During your opponent's next turn, the Defending Pokémon can't retreat.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#001/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.07</td>
+            </tr><tr>
+              <td>#001/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.22</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.07</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/002/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/002/high.webp" alt="Ariados"></td>
+        <td>
+          <div class="cname">Ariados <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Stage1 · 110 HP · Grass · evolves from Spinarak · weak: Fire ×2 · retreat 1 · reg. J</div><div class="atk"><b><span class="en" title="Grass">G</span> Poison Ring</b> <span class="dmg">50</span> Your opponent's Active Pokémon is now Poisoned. During your opponent's next turn, that Pokémon can't retreat.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#002/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.08</td>
+            </tr><tr>
+              <td>#002/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.24</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.08</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/003/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/003/high.webp" alt="Shaymin"></td>
+        <td>
+          <div class="cname">Shaymin <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Uncommon · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Basic · 70 HP · Grass · weak: Fire ×2 · retreat 0 · reg. J</div><div class="atk"><b><span class="en" title="Grass">G</span> Send Flowers</b> - Search your deck for an Energy card and attach it to 1 of your Benched {G} Pokémon. Then, shuffle your deck.</div><div class="atk"><b><span class="en" title="Grass">G</span> Leaf Step</b> <span class="dmg">30</span></div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#003/088</td>
+              <td>Uncommon</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.05</td>
+            </tr><tr>
+              <td>#003/088</td>
+              <td>Uncommon</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.23</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.05</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/004/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/004/high.webp" alt="Snivy"></td>
+        <td>
+          <div class="cname">Snivy <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Basic · 70 HP · Grass · weak: Fire ×2 · retreat 1 · reg. J</div><div class="atk"><b><span class="en" title="Grass">G</span> Reckless Charge</b> <span class="dmg">30</span> This Pokémon also does 10 damage to itself.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#004/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.08</td>
+            </tr><tr>
+              <td>#004/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.21</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.08</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/005/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/005/high.webp" alt="Servine"></td>
+        <td>
+          <div class="cname">Servine <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Stage1 · 100 HP · Grass · evolves from Snivy · weak: Fire ×2 · retreat 1 · reg. J</div><div class="atk"><b><span class="en" title="Grass">G</span> Solar Cutter</b> <span class="dmg">40</span></div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#005/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.08</td>
+            </tr><tr>
+              <td>#005/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.24</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.08</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/006/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/006/high.webp" alt="Serperior"></td>
+        <td>
+          <div class="cname">Serperior <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Rare · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Stage2 · 160 HP · Grass · evolves from Servine · weak: Fire ×2 · retreat 2 · reg. J</div><div class="atk"><b><span class="en" title="Grass">G</span> Regal Command</b> <span class="dmg">20×</span> This attack does 20 damage for each of your Pokémon in play.</div><div class="atk"><b><span class="en" title="Grass">G</span><span class="en" title="Grass">G</span><span class="en" title="Grass">G</span> Solar Coiling</b> <span class="dmg">100+</span> If Rosa's Encouragement is in your discard pile, this attack does 150 more damage.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#006/088</td>
+              <td>Rare</td>
+              <td>Holofoil</td>
+              <td class="pr cheap">$0.16</td>
+            </tr><tr>
+              <td>#006/088</td>
+              <td>Rare</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.23</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.16</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/007/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/007/high.webp" alt="Scatterbug"></td>
+        <td>
+          <div class="cname">Scatterbug <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Basic · 40 HP · Grass · weak: Fire ×2 · retreat 1 · reg. J</div><div class="atk"><b><span class="en" title="Grass">G</span> Gnaw</b> <span class="dmg">20</span></div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#007/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.07</td>
+            </tr><tr>
+              <td>#007/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.15</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.07</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/008/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/008/high.webp" alt="Spewpa"></td>
+        <td>
+          <div class="cname">Spewpa <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 2 printings, 3 versions</div>
+          <div class="ctext"><div class="meta">Stage1 · 80 HP · Grass · evolves from Scatterbug · weak: Fire ×2 · retreat 3 · reg. J</div><div class="atk"><b><span class="en" title="Grass">G</span> Hide</b> - Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#008/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.15</td>
+            </tr><tr>
+              <td>#008/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.23</td>
+            </tr><tr>
+              <td>#089/088</td>
+              <td>Illustration Rare</td>
+              <td>Holofoil</td>
+              <td class="pr">$2.34</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.15</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/009/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/009/high.webp" alt="Vivillon"></td>
+        <td>
+          <div class="cname">Vivillon <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Uncommon · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Stage2 · 120 HP · Grass · evolves from Spewpa · weak: Fire ×2 · retreat 1 · reg. J</div><div class="ab"><b>Ability: Grand Wing</b> - Once during your turn, you may use this Ability. Your opponent shuffles their hand and puts it on the bottom of their deck. If they put any cards on the bottom of their deck in this way, they draw 4 cards.</div><div class="atk"><b><span class="en" title="Grass">G</span> Blow Through</b> <span class="dmg">60+</span> If a Stadium is in play, this attack does 60 more damage.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#009/088</td>
+              <td>Uncommon</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.08</td>
+            </tr><tr>
+              <td>#009/088</td>
+              <td>Uncommon</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.24</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.08</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/010/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/010/high.webp" alt="Rowlet"></td>
+        <td>
+          <div class="cname">Rowlet <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 2 printings, 3 versions</div>
+          <div class="ctext"><div class="meta">Basic · 80 HP · Grass · weak: Fire ×2 · retreat 2 · reg. J</div><div class="atk"><b><span class="en" title="Grass">G</span> Find a Friend</b> - Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.</div><div class="atk"><b><span class="en" title="Colorless">C</span><span class="en" title="Colorless">C</span><span class="en" title="Colorless">C</span> Tackle</b> <span class="dmg">30</span></div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#010/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.09</td>
+            </tr><tr>
+              <td>#010/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.21</td>
+            </tr><tr>
+              <td>#090/088</td>
+              <td>Illustration Rare</td>
+              <td>Holofoil</td>
+              <td class="pr">$5.41</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.09</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/011/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/011/high.webp" alt="Dartrix"></td>
+        <td>
+          <div class="cname">Dartrix <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Stage1 · 100 HP · Grass · evolves from Rowlet · weak: Fire ×2 · retreat 2 · reg. J</div><div class="atk"><b><span class="en" title="Grass">G</span> Leafage</b> <span class="dmg">20</span></div><div class="atk"><b><span class="en" title="Colorless">C</span><span class="en" title="Colorless">C</span><span class="en" title="Colorless">C</span> Feather Shot</b> - Discard all Energy from this Pokémon, and this attack does 90 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#011/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.10</td>
+            </tr><tr>
+              <td>#011/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.20</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.10</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/012/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/012/high.webp" alt="Decidueye ex"></td>
+        <td>
+          <div class="cname">Decidueye ex <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Double Rare · 2 printings, 2 versions</div>
+          <div class="ctext"><div class="meta">Stage2 · 320 HP · Grass · evolves from Dartrix · weak: Fire ×2 · retreat 2 · reg. J</div><div class="ab"><b>Ability: Sniper's Eye</b> - If your opponent has exactly 4 cards in their hand, ignore all {C} Energy in the costs of attacks used by this Pokémon.</div><div class="atk"><b><span class="en" title="Grass">G</span><span class="en" title="Colorless">C</span><span class="en" title="Colorless">C</span><span class="en" title="Colorless">C</span> Crushing Arrow</b> <span class="dmg">240</span> Discard an Energy from your opponent's Active Pokémon.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#012/088</td>
+              <td>Double Rare</td>
+              <td>Holofoil</td>
+              <td class="pr cheap">$0.61</td>
+            </tr><tr>
+              <td>#100/088</td>
+              <td>Ultra Rare</td>
+              <td>Holofoil</td>
+              <td class="pr">$2.17</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.61</div>
+          <span class="badge" style="background:hsl(30,70%,85%)">≤ $1.00</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/013/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/013/high.webp" alt="Fletchinder"></td>
+        <td>
+          <div class="cname">Fletchinder <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Stage1 · 90 HP · Fire · evolves from Fletchling · weak: Lightning ×2 · retreat 1 · reg. J</div><div class="atk"><b><span class="en" title="Fire">F</span><span class="en" title="Fire">F</span> Flare</b> <span class="dmg">60</span></div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#013/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.07</td>
+            </tr><tr>
+              <td>#013/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.21</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.07</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/014/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/014/high.webp" alt="Talonflame"></td>
+        <td>
+          <div class="cname">Talonflame <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Uncommon · 2 printings, 3 versions</div>
+          <div class="ctext"><div class="meta">Stage2 · 150 HP · Fire · evolves from Fletchinder · weak: Lightning ×2 · retreat 1 · reg. J</div><div class="ab"><b>Ability: Sky Hunt</b> - Once during your turn, you may use this Ability. Flip a coin. If heads, discard a random card from your opponent's hand.</div><div class="atk"><b><span class="en" title="Fire">F</span><span class="en" title="Fire">F</span> Fire Wing</b> <span class="dmg">110</span></div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#014/088</td>
+              <td>Uncommon</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.09</td>
+            </tr><tr>
+              <td>#014/088</td>
+              <td>Uncommon</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.18</td>
+            </tr><tr>
+              <td>#091/088</td>
+              <td>Illustration Rare</td>
+              <td>Holofoil</td>
+              <td class="pr">$2.55</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.09</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/015/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/015/high.webp" alt="Salandit"></td>
+        <td>
+          <div class="cname">Salandit <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Basic · 70 HP · Fire · weak: Water ×2 · retreat 1 · reg. J</div><div class="atk"><b><span class="en" title="Fire">F</span> Fire Claws</b> <span class="dmg">20</span></div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#015/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.11</td>
+            </tr><tr>
+              <td>#015/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.22</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.11</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/016/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/016/high.webp" alt="Salazzle ex"></td>
+        <td>
+          <div class="cname">Salazzle ex <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Double Rare · 2 printings, 2 versions</div>
+          <div class="ctext"><div class="meta">Stage1 · 260 HP · Fire · evolves from Salandit · weak: Water ×2 · retreat 1 · reg. J</div><div class="atk"><b><span class="en" title="Fire">F</span> Nasty Plot</b> - Search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.</div><div class="atk"><b><span class="en" title="Fire">F</span><span class="en" title="Fire">F</span> Dire Nails</b> <span class="dmg">100</span> Your opponent's Active Pokémon is now Burned and Poisoned. Switch this Pokémon with 1 of your Benched Pokémon.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#016/088</td>
+              <td>Double Rare</td>
+              <td>Holofoil</td>
+              <td class="pr cheap">$0.48</td>
+            </tr><tr>
+              <td>#101/088</td>
+              <td>Ultra Rare</td>
+              <td>Holofoil</td>
+              <td class="pr">$1.53</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.48</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/017/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/017/high.webp" alt="Turtonator"></td>
+        <td>
+          <div class="cname">Turtonator <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Uncommon · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Basic · 120 HP · Fire · weak: Water ×2 · retreat 2 · reg. J</div><div class="ab"><b>Ability: Shell Spikes</b> - If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), discard an Energy from the Attacking Pokémon.</div><div class="atk"><b><span class="en" title="Fire">F</span><span class="en" title="Fire">F</span><span class="en" title="Colorless">C</span> Heat Breath</b> <span class="dmg">80+</span> Flip a coin. If heads, this attack does 80 more damage.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#017/088</td>
+              <td>Uncommon</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.08</td>
+            </tr><tr>
+              <td>#017/088</td>
+              <td>Uncommon</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.20</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.08</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/018/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/018/high.webp" alt="Seel"></td>
+        <td>
+          <div class="cname">Seel <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Basic · 80 HP · Water · weak: Lightning ×2 · retreat 2 · reg. J</div><div class="atk"><b><span class="en" title="Water">W</span> Rain Splash</b> <span class="dmg">10</span></div><div class="atk"><b><span class="en" title="Water">W</span><span class="en" title="Water">W</span> Wave Splash</b> <span class="dmg">30</span></div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#018/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.11</td>
+            </tr><tr>
+              <td>#018/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.25</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.11</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/019/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/019/high.webp" alt="Dewgong"></td>
+        <td>
+          <div class="cname">Dewgong <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Rare · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Stage1 · 130 HP · Water · evolves from Seel · weak: Lightning ×2 · retreat 2 · reg. J</div><div class="ab"><b>Ability: Wash Out</b> - As often as you like during your turn, you may use this Ability. Move a {W} Energy from 1 of your Benched Pokémon to your Active Pokémon.</div><div class="atk"><b><span class="en" title="Water">W</span><span class="en" title="Water">W</span> Wave Splash</b> <span class="dmg">60</span></div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#019/088</td>
+              <td>Rare</td>
+              <td>Holofoil</td>
+              <td class="pr cheap">$0.15</td>
+            </tr><tr>
+              <td>#019/088</td>
+              <td>Rare</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.24</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.15</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/020/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/020/high.webp" alt="Staryu"></td>
+        <td>
+          <div class="cname">Staryu <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Basic · 70 HP · Water · weak: Lightning ×2 · retreat 1 · reg. J</div><div class="atk"><b><span class="en" title="Water">W</span> Water Gun</b> <span class="dmg">20</span></div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#020/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.16</td>
+            </tr><tr>
+              <td>#020/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.28</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.16</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/021/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/021/high.webp" alt="Mega Starmie ex"></td>
+        <td>
+          <div class="cname">Mega Starmie ex <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Double Rare · 3 printings, 3 versions</div>
+          <div class="ctext"><div class="meta">Stage1 · 330 HP · Water · evolves from Staryu · weak: Lightning ×2 · retreat 2 · reg. J</div><div class="atk"><b><span class="en" title="Water">W</span> Jetting Blow</b> <span class="dmg">120</span> This attack also does 50 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)</div><div class="atk"><b><span class="en" title="Colorless">C</span><span class="en" title="Colorless">C</span><span class="en" title="Colorless">C</span> Nebula Beam</b> <span class="dmg">210</span> This attack's damage isn't affected by Weakness or Resistance, or by any effects on your opponent's Active Pokémon.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#021/088</td>
+              <td>Double Rare</td>
+              <td>Holofoil</td>
+              <td class="pr cheap">$0.66</td>
+            </tr><tr>
+              <td>#102/088</td>
+              <td>Ultra Rare</td>
+              <td>Holofoil</td>
+              <td class="pr">$7.38</td>
+            </tr><tr>
+              <td>#118/088</td>
+              <td>Special Illustration Rare</td>
+              <td>Holofoil</td>
+              <td class="pr">$56.76</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.66</div>
+          <span class="badge" style="background:hsl(30,70%,85%)">≤ $1.00</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/022/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/022/high.webp" alt="Lapras ex"></td>
+        <td>
+          <div class="cname">Lapras ex <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Double Rare · 1 printing, 1 version</div>
+          <div class="ctext"><div class="meta">Basic · 210 HP · Water · weak: Lightning ×2 · retreat 2 · reg. I</div><div class="atk"><b><span class="en" title="Water">W</span> Hydro Turn</b> <span class="dmg">30×</span> This attack does 30 damage for each {W} Energy attached to this Pokémon. Switch this Pokémon with 1 of your Benched Pokémon.</div><div class="atk"><b><span class="en" title="Water">W</span><span class="en" title="Water">W</span><span class="en" title="Water">W</span> Surf</b> <span class="dmg">140</span></div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#022/088</td>
+              <td>Double Rare</td>
+              <td>Holofoil</td>
+              <td class="pr cheap">$0.55</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.55</div>
+          <span class="badge" style="background:hsl(30,70%,85%)">≤ $1.00</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/023/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/023/high.webp" alt="Amaura"></td>
+        <td>
+          <div class="cname">Amaura <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Stage1 · 100 HP · Water · evolves from Antique Sail Fossil · weak: Metal ×2 · retreat 3 · reg. J</div><div class="atk"><b><span class="en" title="Water">W</span><span class="en" title="Colorless">C</span> Icy Wind</b> <span class="dmg">50</span> Your opponent's Active Pokémon is now Asleep.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#023/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.12</td>
+            </tr><tr>
+              <td>#023/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.29</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.12</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/024/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/024/high.webp" alt="Aurorus"></td>
+        <td>
+          <div class="cname">Aurorus <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Rare · 2 printings, 3 versions</div>
+          <div class="ctext"><div class="meta">Stage2 · 170 HP · Water · evolves from Amaura · weak: Metal ×2 · retreat 3 · reg. J</div><div class="ab"><b>Ability: Tundra Wall</b> - All of your Pokémon that have any {W} Energy attached take 50 less damage from attacks from your opponent's Pokémon (after applying Weakness and Resistance). The effect of Tundra Wall doesn't stack.</div><div class="atk"><b><span class="en" title="Water">W</span><span class="en" title="Water">W</span><span class="en" title="Colorless">C</span> Freezing Chill</b> <span class="dmg">150</span> During your opponent's next turn, the Defending Pokémon can't use attacks.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#024/088</td>
+              <td>Rare</td>
+              <td>Holofoil</td>
+              <td class="pr cheap">$0.12</td>
+            </tr><tr>
+              <td>#024/088</td>
+              <td>Rare</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.24</td>
+            </tr><tr>
+              <td>#092/088</td>
+              <td>Illustration Rare</td>
+              <td>Holofoil</td>
+              <td class="pr">$3.47</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.12</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/025/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/025/high.webp" alt="Volcanion"></td>
+        <td>
+          <div class="cname">Volcanion <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Uncommon · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Basic · 130 HP · Water · weak: Lightning ×2 · retreat 3 · reg. J</div><div class="atk"><b><span class="en" title="Water">W</span><span class="en" title="Colorless">C</span> Strength</b> <span class="dmg">50</span></div><div class="atk"><b><span class="en" title="Water">W</span><span class="en" title="Water">W</span><span class="en" title="Colorless">C</span> Powerful Steam</b> <span class="dmg">90×</span> Flip a coin for each {W} Energy attached to this Pokémon. This attack does 90 damage for each heads.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#025/088</td>
+              <td>Uncommon</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.08</td>
+            </tr><tr>
+              <td>#025/088</td>
+              <td>Uncommon</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.21</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.08</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/026/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/026/high.webp" alt="Shinx"></td>
+        <td>
+          <div class="cname">Shinx <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Basic · 70 HP · Lightning · weak: Fighting ×2 · retreat 1 · reg. J</div><div class="atk"><b><span class="en" title="Lightning">L</span> Double Scratch</b> <span class="dmg">10×</span> Flip 2 coins. This attack does 10 damage for each heads.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#026/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.13</td>
+            </tr><tr>
+              <td>#026/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.24</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.13</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/027/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/027/high.webp" alt="Luxio"></td>
+        <td>
+          <div class="cname">Luxio <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Uncommon · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Stage1 · 90 HP · Lightning · evolves from Shinx · weak: Fighting ×2 · retreat 1 · reg. J</div><div class="ab"><b>Ability: Fighting Roar</b> - If your opponent's Active Pokémon is a Pokémon ex, this Pokémon can evolve during your first turn or the turn you play it.</div><div class="atk"><b><span class="en" title="Lightning">L</span><span class="en" title="Colorless">C</span> Static Shock</b> <span class="dmg">40</span></div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#027/088</td>
+              <td>Uncommon</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.15</td>
+            </tr><tr>
+              <td>#027/088</td>
+              <td>Uncommon</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.25</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.15</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/028/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/028/high.webp" alt="Luxray"></td>
+        <td>
+          <div class="cname">Luxray <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Rare · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Stage2 · 150 HP · Lightning · evolves from Luxio · weak: Fighting ×2 · retreat 0 · reg. J</div><div class="atk"><b><span class="en" title="Lightning">L</span><span class="en" title="Colorless">C</span> Incessant Onslaught</b> <span class="dmg">70×</span> This attack does 70 damage for each Prize card you have taken.</div><div class="atk"><b><span class="en" title="Lightning">L</span><span class="en" title="Colorless">C</span><span class="en" title="Colorless">C</span> Strong Volt</b> <span class="dmg">200</span> Discard 2 Energy from this Pokémon.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#028/088</td>
+              <td>Rare</td>
+              <td>Holofoil</td>
+              <td class="pr cheap">$0.14</td>
+            </tr><tr>
+              <td>#028/088</td>
+              <td>Rare</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.22</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.14</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/029/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/029/high.webp" alt="Dedenne"></td>
+        <td>
+          <div class="cname">Dedenne <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 2 printings, 3 versions</div>
+          <div class="ctext"><div class="meta">Basic · 70 HP · Lightning · weak: Fighting ×2 · retreat 1 · reg. J</div><div class="atk"><b><span class="en" title="Lightning">L</span> Tail Generator</b> - Choose Basic {L} Energy cards from your discard pile up to the amount of Energy attached to all of your opponent's Pokémon and attach them to your {L} Pokémon in any way you like.</div><div class="atk"><b><span class="en" title="Lightning">L</span><span class="en" title="Colorless">C</span> Thunder Shock</b> <span class="dmg">30</span> Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#029/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.15</td>
+            </tr><tr>
+              <td>#029/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.26</td>
+            </tr><tr>
+              <td>#093/088</td>
+              <td>Illustration Rare</td>
+              <td>Holofoil</td>
+              <td class="pr">$6.07</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.15</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/030/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/030/high.webp" alt="Clefairy"></td>
+        <td>
+          <div class="cname">Clefairy <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 2 printings, 3 versions</div>
+          <div class="ctext"><div class="meta">Basic · 70 HP · Psychic · weak: Metal ×2 · retreat 1 · reg. J</div><div class="atk"><b><span class="en" title="Psychic">P</span> Follow Me</b> - Switch in 1 of your opponent's Benched Pokémon to the Active Spot.</div><div class="atk"><b><span class="en" title="Psychic">P</span><span class="en" title="Psychic">P</span> Flop</b> <span class="dmg">30</span></div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#030/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.13</td>
+            </tr><tr>
+              <td>#030/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.24</td>
+            </tr><tr>
+              <td>#094/088</td>
+              <td>Illustration Rare</td>
+              <td>Holofoil</td>
+              <td class="pr">$24.19</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.13</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/031/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/031/high.webp" alt="Mega Clefable ex"></td>
+        <td>
+          <div class="cname">Mega Clefable ex <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Double Rare · 3 printings, 3 versions</div>
+          <div class="ctext"><div class="meta">Stage1 · 320 HP · Psychic · evolves from Clefairy · weak: Metal ×2 · retreat 1 · reg. J</div><div class="ab"><b>Ability: Luminous Wing</b> - Prevent all effects of your opponent's Pokémon's Abilities done to this Pokémon.</div><div class="atk"><b><span class="en" title="Psychic">P</span><span class="en" title="Psychic">P</span> Shooting Moons</b> <span class="dmg">120+</span> You may discard up to 4 Energy cards from your hand, and this attack does 40 more damage for each card you discarded in this way.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#031/088</td>
+              <td>Double Rare</td>
+              <td>Holofoil</td>
+              <td class="pr cheap">$0.54</td>
+            </tr><tr>
+              <td>#103/088</td>
+              <td>Ultra Rare</td>
+              <td>Holofoil</td>
+              <td class="pr">$6.33</td>
+            </tr><tr>
+              <td>#119/088</td>
+              <td>Special Illustration Rare</td>
+              <td>Holofoil</td>
+              <td class="pr">$63.46</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.54</div>
+          <span class="badge" style="background:hsl(30,70%,85%)">≤ $1.00</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/032/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/032/high.webp" alt="Mawile"></td>
+        <td>
+          <div class="cname">Mawile <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Basic · 110 HP · Psychic · weak: Metal ×2 · retreat 2 · reg. J</div><div class="atk"><b><span class="en" title="Psychic">P</span><span class="en" title="Colorless">C</span> Double Eater</b> <span class="dmg">60×</span> Discard up to 2 Energy cards from your hand, and this attack does 60 damage for each card you discarded in this way.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#032/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.14</td>
+            </tr><tr>
+              <td>#032/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.24</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.14</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/033/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/033/high.webp" alt="Espurr"></td>
+        <td>
+          <div class="cname">Espurr <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 2 printings, 3 versions</div>
+          <div class="ctext"><div class="meta">Basic · 60 HP · Psychic · weak: Darkness ×2 · retreat 1 · reg. J</div><div class="atk"><b><span class="en" title="Colorless">C</span> Nap</b> - Heal 20 damage from this Pokémon.</div><div class="atk"><b><span class="en" title="Psychic">P</span> Stampede</b> <span class="dmg">10</span></div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#033/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.09</td>
+            </tr><tr>
+              <td>#033/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.20</td>
+            </tr><tr>
+              <td>#095/088</td>
+              <td>Illustration Rare</td>
+              <td>Holofoil</td>
+              <td class="pr">$5.21</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.09</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/034/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/034/high.webp" alt="Meowstic"></td>
+        <td>
+          <div class="cname">Meowstic <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Uncommon · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Stage1 · 100 HP · Psychic · evolves from Espurr · weak: Darkness ×2 · retreat 1 · reg. J</div><div class="atk"><b><span class="en" title="Psychic">P</span> Perplex</b> - Your opponent's Active Pokémon is now Confused.</div><div class="atk"><b><span class="en" title="Psychic">P</span> Psychic</b> <span class="dmg">30+</span> This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#034/088</td>
+              <td>Uncommon</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.11</td>
+            </tr><tr>
+              <td>#034/088</td>
+              <td>Uncommon</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.24</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.11</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/035/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/035/high.webp" alt="Spritzee"></td>
+        <td>
+          <div class="cname">Spritzee <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Basic · 70 HP · Psychic · weak: Metal ×2 · retreat 1 · reg. J</div><div class="atk"><b><span class="en" title="Colorless">C</span> Sweet Scent</b> - Heal 30 damage from 1 of your Pokémon.</div><div class="atk"><b><span class="en" title="Psychic">P</span> Ram</b> <span class="dmg">10</span></div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#035/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.16</td>
+            </tr><tr>
+              <td>#035/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.27</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.16</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/036/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/036/high.webp" alt="Aromatisse"></td>
+        <td>
+          <div class="cname">Aromatisse <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Uncommon · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Stage1 · 120 HP · Psychic · evolves from Spritzee · weak: Metal ×2 · retreat 1 · reg. J</div><div class="ab"><b>Ability: Scent Collection</b> - Once during your turn, you may use this Ability. Search your deck for up to 2 Basic {P} Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.</div><div class="atk"><b><span class="en" title="Psychic">P</span><span class="en" title="Colorless">C</span> Draining Kiss</b> <span class="dmg">50</span> Heal 30 damage from this Pokémon.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#036/088</td>
+              <td>Uncommon</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.22</td>
+            </tr><tr>
+              <td>#036/088</td>
+              <td>Uncommon</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.25</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.22</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/037/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/037/high.webp" alt="Nosepass"></td>
+        <td>
+          <div class="cname">Nosepass <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Basic · 90 HP · Fighting · weak: Grass ×2 · retreat 3 · reg. J</div><div class="atk"><b><span class="en" title="Fighting">F</span><span class="en" title="Fighting">F</span> Rolling Rocks</b> <span class="dmg">40</span></div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#037/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.07</td>
+            </tr><tr>
+              <td>#037/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.24</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.07</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/038/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/038/high.webp" alt="Probopass"></td>
+        <td>
+          <div class="cname">Probopass <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 2 printings, 3 versions</div>
+          <div class="ctext"><div class="meta">Stage1 · 140 HP · Fighting · evolves from Nosepass · weak: Grass ×2 · retreat 3 · reg. J</div><div class="atk"><b><span class="en" title="Fighting">F</span><span class="en" title="Fighting">F</span> Rolling Rocks</b> <span class="dmg">60</span></div><div class="atk"><b><span class="en" title="Fighting">F</span><span class="en" title="Fighting">F</span><span class="en" title="Fighting">F</span><span class="en" title="Colorless">C</span> Obliterating Nose</b> <span class="dmg">260</span> Discard 3 Energy from this Pokémon.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#038/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.10</td>
+            </tr><tr>
+              <td>#038/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.20</td>
+            </tr><tr>
+              <td>#096/088</td>
+              <td>Illustration Rare</td>
+              <td>Holofoil</td>
+              <td class="pr">$1.06</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.10</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/039/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/039/high.webp" alt="Hippopotas"></td>
+        <td>
+          <div class="cname">Hippopotas <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Basic · 100 HP · Fighting · weak: Grass ×2 · retreat 4 · reg. J</div><div class="atk"><b><span class="en" title="Fighting">F</span> Sand Attack</b> <span class="dmg">10</span> During your opponent's next turn, if the Defending Pokémon tries to use an attack, your opponent flips a coin. If tails, that attack doesn't happen.</div><div class="atk"><b><span class="en" title="Fighting">F</span><span class="en" title="Colorless">C</span><span class="en" title="Colorless">C</span> Bite</b> <span class="dmg">60</span></div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#039/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.03</td>
+            </tr><tr>
+              <td>#039/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.24</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.03</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/040/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/040/high.webp" alt="Hippowdon"></td>
+        <td>
+          <div class="cname">Hippowdon <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Uncommon · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Stage1 · 150 HP · Fighting · evolves from Hippopotas · weak: Grass ×2 · retreat 4 · reg. J</div><div class="atk"><b><span class="en" title="Fighting">F</span><span class="en" title="Fighting">F</span><span class="en" title="Colorless">C</span> Twister Spewing</b> <span class="dmg">80</span> If you played Tarragon from your hand during this turn, discard the top 3 cards of your opponent's deck.</div><div class="atk"><b><span class="en" title="Fighting">F</span><span class="en" title="Fighting">F</span><span class="en" title="Colorless">C</span><span class="en" title="Colorless">C</span> Heavy Impact</b> <span class="dmg">130</span></div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#040/088</td>
+              <td>Uncommon</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.07</td>
+            </tr><tr>
+              <td>#040/088</td>
+              <td>Uncommon</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.23</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.07</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/041/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/041/high.webp" alt="Landorus"></td>
+        <td>
+          <div class="cname">Landorus <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Rare · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Basic · 120 HP · Fighting · weak: Grass ×2 · retreat 1 · reg. J</div><div class="atk"><b><span class="en" title="Fighting">F</span><span class="en" title="Fighting">F</span> Rock Tumble</b> <span class="dmg">50</span> This attack's damage isn't affected by Resistance.</div><div class="atk"><b><span class="en" title="Fighting">F</span><span class="en" title="Fighting">F</span><span class="en" title="Colorless">C</span> Screw Knuckle</b> <span class="dmg">120</span> Put an Energy attached to this Pokémon into your hand.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#041/088</td>
+              <td>Rare</td>
+              <td>Holofoil</td>
+              <td class="pr cheap">$0.10</td>
+            </tr><tr>
+              <td>#041/088</td>
+              <td>Rare</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.20</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.10</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/042/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/042/high.webp" alt="Binacle"></td>
+        <td>
+          <div class="cname">Binacle <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Basic · 80 HP · Fighting · weak: Grass ×2 · retreat 2 · reg. J</div><div class="atk"><b><span class="en" title="Fighting">F</span> Double Draw</b> - Draw 2 cards.</div><div class="atk"><b><span class="en" title="Fighting">F</span><span class="en" title="Fighting">F</span> Scratch</b> <span class="dmg">30</span></div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#042/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.13</td>
+            </tr><tr>
+              <td>#042/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.23</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.13</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/043/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/043/high.webp" alt="Barbaracle"></td>
+        <td>
+          <div class="cname">Barbaracle <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Uncommon · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Stage1 · 130 HP · Fighting · evolves from Binacle · weak: Grass ×2 · retreat 2 · reg. J</div><div class="ab"><b>Ability: Stone Arms</b> - Once during your turn, you may use this Ability. Attach a Basic {F} Energy card from your hand to 1 of your {F} Pokémon.</div><div class="atk"><b><span class="en" title="Fighting">F</span><span class="en" title="Fighting">F</span><span class="en" title="Colorless">C</span> Hammer In</b> <span class="dmg">80</span></div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#043/088</td>
+              <td>Uncommon</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.09</td>
+            </tr><tr>
+              <td>#043/088</td>
+              <td>Uncommon</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.24</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.09</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/044/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/044/high.webp" alt="Tyrunt"></td>
+        <td>
+          <div class="cname">Tyrunt <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Stage1 · 100 HP · Fighting · evolves from Antique Jaw Fossil · weak: Grass ×2 · retreat 3 · reg. J</div><div class="atk"><b><span class="en" title="Fighting">F</span><span class="en" title="Colorless">C</span> Get Angry</b> <span class="dmg">20×</span> This attack does 20 damage for each damage counter on this Pokémon.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#044/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.16</td>
+            </tr><tr>
+              <td>#044/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.26</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.16</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/045/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/045/high.webp" alt="Tyrantrum"></td>
+        <td>
+          <div class="cname">Tyrantrum <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Rare · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Stage2 · 180 HP · Fighting · evolves from Tyrunt · weak: Grass ×2 · retreat 3 · reg. J</div><div class="ab"><b>Ability: Tyrannically Gutsy</b> - If this Pokémon has any Special Energy attached, it gets +150 HP.</div><div class="atk"><b><span class="en" title="Fighting">F</span><span class="en" title="Colorless">C</span> Wreak Havoc</b> <span class="dmg">160</span> Flip a coin until you get tails. For each heads, discard the top card of your opponent's deck.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#045/088</td>
+              <td>Rare</td>
+              <td>Holofoil</td>
+              <td class="pr cheap">$0.24</td>
+            </tr><tr>
+              <td>#045/088</td>
+              <td>Rare</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.27</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.24</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/046/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/046/high.webp" alt="Hawlucha"></td>
+        <td>
+          <div class="cname">Hawlucha <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Basic · 70 HP · Fighting · weak: Psychic ×2 · retreat 0 · reg. J</div><div class="atk"><b><span class="en" title="Fighting">F</span> Vengeful Kick</b> <span class="dmg">30+</span> If your Benched Pokémon have any damage counters on them, this attack does 60 more damage.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#046/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.10</td>
+            </tr><tr>
+              <td>#046/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.20</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.10</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/047/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/047/high.webp" alt="Mega Zygarde ex"></td>
+        <td>
+          <div class="cname">Mega Zygarde ex <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Double Rare · 4 printings, 4 versions</div>
+          <div class="ctext"><div class="meta">Basic · 310 HP · Fighting · weak: Grass ×2 · retreat 2 · reg. J</div><div class="atk"><b><span class="en" title="Fighting">F</span><span class="en" title="Fighting">F</span><span class="en" title="Fighting">F</span> Gaia Wave</b> <span class="dmg">200</span> During your opponent's next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).</div><div class="atk"><b><span class="en" title="Fighting">F</span><span class="en" title="Fighting">F</span><span class="en" title="Fighting">F</span><span class="en" title="Fighting">F</span><span class="en" title="Fighting">F</span> Nullifying Zero</b> - For each of your opponent's Pokémon, flip a coin. If heads, this attack does 150 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#047/088</td>
+              <td>Double Rare</td>
+              <td>Holofoil</td>
+              <td class="pr cheap">$0.61</td>
+            </tr><tr>
+              <td>#104/088</td>
+              <td>Ultra Rare</td>
+              <td>Holofoil</td>
+              <td class="pr">$6.71</td>
+            </tr><tr>
+              <td>#120/088</td>
+              <td>Special Illustration Rare</td>
+              <td>Holofoil</td>
+              <td class="pr">$67.60</td>
+            </tr><tr>
+              <td>#124/088</td>
+              <td>Mega Hyper Rare</td>
+              <td>Holofoil</td>
+              <td class="pr">$146.49</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.61</div>
+          <span class="badge" style="background:hsl(30,70%,85%)">≤ $1.00</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/048/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/048/high.webp" alt="Gastly"></td>
+        <td>
+          <div class="cname">Gastly <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Basic · 70 HP · Darkness · weak: Fighting ×2 · retreat 1 · reg. J</div><div class="atk"><b><span class="en" title="Darkness">D</span> Surprise Attack</b> <span class="dmg">30</span> Flip a coin. If tails, this attack does nothing.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#048/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.16</td>
+            </tr><tr>
+              <td>#048/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.20</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.16</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/049/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/049/high.webp" alt="Haunter"></td>
+        <td>
+          <div class="cname">Haunter <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Stage1 · 100 HP · Darkness · evolves from Gastly · weak: Fighting ×2 · retreat 1 · reg. J</div><div class="atk"><b><span class="en" title="Darkness">D</span> Haunt</b> - Place 3 damage counters on your opponent's Active Pokémon.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#049/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.18</td>
+            </tr><tr>
+              <td>#049/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.24</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.18</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/050/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/050/high.webp" alt="Gengar"></td>
+        <td>
+          <div class="cname">Gengar <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Rare · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Stage2 · 130 HP · Darkness · evolves from Haunter · weak: Fighting ×2 · retreat 1 · reg. J</div><div class="ab"><b>Ability: Infinite Shadow</b> - If this Pokémon is Knocked Out by damage from an attack from your opponent's Pokémon, put it into your hand instead of the discard pile. (Discard all attached cards.)</div><div class="atk"><b><span class="en" title="Darkness">D</span> Mind Jack</b> <span class="dmg">10+</span> This attack does 30 more damage for each of your opponent's Benched Pokémon.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#050/088</td>
+              <td>Rare</td>
+              <td>Holofoil</td>
+              <td class="pr cheap">$0.60</td>
+            </tr><tr>
+              <td>#050/088</td>
+              <td>Rare</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$1.10</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.60</div>
+          <span class="badge" style="background:hsl(30,70%,85%)">≤ $1.00</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/051/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/051/high.webp" alt="Skorupi"></td>
+        <td>
+          <div class="cname">Skorupi <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Basic · 80 HP · Darkness · weak: Fighting ×2 · retreat 2 · reg. J</div><div class="atk"><b><span class="en" title="Darkness">D</span><span class="en" title="Darkness">D</span> Poison Jab</b> <span class="dmg">20</span> Your opponent's Active Pokémon is now Poisoned.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#051/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.13</td>
+            </tr><tr>
+              <td>#051/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.26</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.13</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/052/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/052/high.webp" alt="Drapion"></td>
+        <td>
+          <div class="cname">Drapion <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Uncommon · 2 printings, 3 versions</div>
+          <div class="ctext"><div class="meta">Stage1 · 140 HP · Darkness · evolves from Skorupi · weak: Fighting ×2 · retreat 3 · reg. J</div><div class="atk"><b><span class="en" title="Darkness">D</span><span class="en" title="Darkness">D</span> Wrack Down</b> <span class="dmg">60</span></div><div class="atk"><b><span class="en" title="Darkness">D</span><span class="en" title="Darkness">D</span><span class="en" title="Darkness">D</span> Hazardous Tail</b> <span class="dmg">100</span> This Pokémon also does 70 damage to itself. Your opponent's Active Pokémon is now Paralyzed and Poisoned.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#052/088</td>
+              <td>Uncommon</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.13</td>
+            </tr><tr>
+              <td>#052/088</td>
+              <td>Uncommon</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.24</td>
+            </tr><tr>
+              <td>#097/088</td>
+              <td>Illustration Rare</td>
+              <td>Holofoil</td>
+              <td class="pr">$1.63</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.13</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/053/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/053/high.webp" alt="Yveltal ex"></td>
+        <td>
+          <div class="cname">Yveltal ex <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Double Rare · 2 printings, 2 versions</div>
+          <div class="ctext"><div class="meta">Basic · 210 HP · Darkness · weak: Lightning ×2 · retreat 1 · reg. J</div><div class="atk"><b><span class="en" title="Darkness">D</span><span class="en" title="Darkness">D</span><span class="en" title="Colorless">C</span> Soul Destroyer</b> - Knock Out each of your opponent's Pokémon that has 50 HP or less remaining.</div><div class="atk"><b><span class="en" title="Darkness">D</span><span class="en" title="Darkness">D</span><span class="en" title="Colorless">C</span> Dark Strike</b> <span class="dmg">210</span> During your next turn, this Pokémon can't use Dark Strike.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#053/088</td>
+              <td>Double Rare</td>
+              <td>Holofoil</td>
+              <td class="pr cheap">$0.59</td>
+            </tr><tr>
+              <td>#105/088</td>
+              <td>Ultra Rare</td>
+              <td>Holofoil</td>
+              <td class="pr">$5.25</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.59</div>
+          <span class="badge" style="background:hsl(30,70%,85%)">≤ $1.00</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/054/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/054/high.webp" alt="Chien-Pao"></td>
+        <td>
+          <div class="cname">Chien-Pao <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Rare · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Basic · 120 HP · Darkness · weak: Grass ×2 · retreat 1 · reg. J</div><div class="atk"><b><span class="en" title="Darkness">D</span> Strafe</b> <span class="dmg">20</span> You may switch this Pokémon with 1 of your Benched Pokémon.</div><div class="atk"><b><span class="en" title="Darkness">D</span><span class="en" title="Darkness">D</span><span class="en" title="Colorless">C</span> Rising Blade</b> <span class="dmg">80+</span> If your opponent's Active Pokémon is a Pokémon ex, this attack does 80 more damage.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#054/088</td>
+              <td>Rare</td>
+              <td>Holofoil</td>
+              <td class="pr cheap">$0.14</td>
+            </tr><tr>
+              <td>#054/088</td>
+              <td>Rare</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.22</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.14</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/055/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/055/high.webp" alt="Mega Skarmory ex"></td>
+        <td>
+          <div class="cname">Mega Skarmory ex <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Double Rare · 2 printings, 2 versions</div>
+          <div class="ctext"><div class="meta">Basic · 260 HP · Metal · weak: Lightning ×2 · retreat 0 · reg. J</div><div class="atk"><b><span class="en" title="Metal">M</span><span class="en" title="Metal">M</span><span class="en" title="Colorless">C</span> Sonic Ripper</b> - Shuffle all Energy attached to this Pokémon into your deck, and this attack does 220 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#055/088</td>
+              <td>Double Rare</td>
+              <td>Holofoil</td>
+              <td class="pr cheap">$0.58</td>
+            </tr><tr>
+              <td>#106/088</td>
+              <td>Ultra Rare</td>
+              <td>Holofoil</td>
+              <td class="pr">$4.17</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.58</div>
+          <span class="badge" style="background:hsl(30,70%,85%)">≤ $1.00</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/056/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/056/high.webp" alt="Honedge"></td>
+        <td>
+          <div class="cname">Honedge <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Basic · 70 HP · Metal · weak: Fire ×2 · retreat 2 · reg. J</div><div class="atk"><b><span class="en" title="Colorless">C</span> Cut</b> <span class="dmg">10</span></div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#056/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.12</td>
+            </tr><tr>
+              <td>#056/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.22</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.12</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/057/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/057/high.webp" alt="Doublade"></td>
+        <td>
+          <div class="cname">Doublade <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 2 printings, 3 versions</div>
+          <div class="ctext"><div class="meta">Stage1 · 100 HP · Metal · evolves from Honedge · weak: Fire ×2 · retreat 2 · reg. J</div><div class="atk"><b><span class="en" title="Colorless">C</span><span class="en" title="Colorless">C</span> Weaponized Swords</b> <span class="dmg">60×</span> Reveal any number of Honedge, Doublade, and Aegislash from your hand, and this attack does 60 damage for each card you revealed in this way.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#057/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.13</td>
+            </tr><tr>
+              <td>#057/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.21</td>
+            </tr><tr>
+              <td>#098/088</td>
+              <td>Illustration Rare</td>
+              <td>Holofoil</td>
+              <td class="pr">$2.61</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.13</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/058/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/058/high.webp" alt="Aegislash"></td>
+        <td>
+          <div class="cname">Aegislash <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Uncommon · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Stage2 · 150 HP · Metal · evolves from Doublade · weak: Fire ×2 · retreat 3 · reg. J</div><div class="atk"><b><span class="en" title="Colorless">C</span><span class="en" title="Colorless">C</span><span class="en" title="Colorless">C</span> Slash</b> <span class="dmg">80</span></div><div class="atk"><b><span class="en" title="Metal">M</span><span class="en" title="Colorless">C</span><span class="en" title="Colorless">C</span><span class="en" title="Colorless">C</span> Metal Slash</b> <span class="dmg">230</span> During your next turn, this Pokémon can't use attacks.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#058/088</td>
+              <td>Uncommon</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.07</td>
+            </tr><tr>
+              <td>#058/088</td>
+              <td>Uncommon</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.24</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.07</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/059/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/059/high.webp" alt="Klefki"></td>
+        <td>
+          <div class="cname">Klefki <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Basic · 70 HP · Metal · weak: Fire ×2 · retreat 1 · reg. J</div><div class="atk"><b><span class="en" title="Metal">M</span> Memory Lock</b> <span class="dmg">30</span> Choose 1 of your opponent's Active Pokémon's attacks. During your opponent's next turn, that Pokémon can't use that attack.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#059/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.08</td>
+            </tr><tr>
+              <td>#059/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.24</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.08</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/060/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/060/high.webp" alt="Rattata"></td>
+        <td>
+          <div class="cname">Rattata <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Basic · 40 HP · Colorless · weak: Fighting ×2 · retreat 1 · reg. J</div><div class="atk"><b><span class="en" title="Colorless">C</span> Take Down</b> <span class="dmg">30</span> This Pokémon also does 10 damage to itself.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#060/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.13</td>
+            </tr><tr>
+              <td>#060/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.17</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.13</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/061/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/061/high.webp" alt="Raticate"></td>
+        <td>
+          <div class="cname">Raticate <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Uncommon · 2 printings, 3 versions</div>
+          <div class="ctext"><div class="meta">Stage1 · 90 HP · Colorless · evolves from Rattata · weak: Fighting ×2 · retreat 1 · reg. J</div><div class="atk"><b><span class="en" title="Colorless">C</span> Scrape Off</b> <span class="dmg">20</span> Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.</div><div class="atk"><b><span class="en" title="Colorless">C</span> Retaliatory Incisors</b> <span class="dmg">40×</span> This attack does 40 damage for each damage counter on all of your Benched Rattata.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#061/088</td>
+              <td>Uncommon</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.11</td>
+            </tr><tr>
+              <td>#061/088</td>
+              <td>Uncommon</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.21</td>
+            </tr><tr>
+              <td>#099/088</td>
+              <td>Illustration Rare</td>
+              <td>Holofoil</td>
+              <td class="pr">$2.80</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.11</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/062/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/062/high.webp" alt="Meowth ex"></td>
+        <td>
+          <div class="cname">Meowth ex <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Double Rare · 3 printings, 3 versions</div>
+          <div class="ctext"><div class="meta">Basic · 170 HP · Colorless · weak: Fighting ×2 · retreat 1 · reg. J</div><div class="ab"><b>Ability: Last-Ditch Catch</b> - Once during your turn, when you play this Pokémon from your hand onto your Bench, you may use this Ability. Search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck. You can't use more than 1 Ability that has &quot;Last-Ditch&quot; in its name each turn.</div><div class="atk"><b><span class="en" title="Colorless">C</span><span class="en" title="Colorless">C</span><span class="en" title="Colorless">C</span> Tuck Tail</b> <span class="dmg">60</span> Put this Pokémon and all attached cards into your hand.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#062/088</td>
+              <td>Double Rare</td>
+              <td>Holofoil</td>
+              <td class="pr cheap">$2.91</td>
+            </tr><tr>
+              <td>#107/088</td>
+              <td>Ultra Rare</td>
+              <td>Holofoil</td>
+              <td class="pr">$14.84</td>
+            </tr><tr>
+              <td>#121/088</td>
+              <td>Special Illustration Rare</td>
+              <td>Holofoil</td>
+              <td class="pr">$150.34</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$2.91</div>
+          <span class="badge over">> $1.00</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/063/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/063/high.webp" alt="Snorlax"></td>
+        <td>
+          <div class="cname">Snorlax <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Basic · 160 HP · Colorless · weak: Fighting ×2 · retreat 4 · reg. J</div><div class="atk"><b><span class="en" title="Colorless">C</span> Gormandizer</b> - Flip a coin until you get tails. Search your deck for an amount of Basic Energy up to the number of heads and attach it to this Pokémon. Then, shuffle your deck.</div><div class="atk"><b><span class="en" title="Colorless">C</span><span class="en" title="Colorless">C</span><span class="en" title="Colorless">C</span><span class="en" title="Colorless">C</span> Collapse</b> <span class="dmg">160</span> This Pokémon is now Asleep.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#063/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.15</td>
+            </tr><tr>
+              <td>#063/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.30</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.15</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/064/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/064/high.webp" alt="Bunnelby"></td>
+        <td>
+          <div class="cname">Bunnelby <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Basic · 70 HP · Colorless · weak: Fighting ×2 · retreat 1 · reg. J</div><div class="atk"><b><span class="en" title="Colorless">C</span> Smash Kick</b> <span class="dmg">10</span></div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#064/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.09</td>
+            </tr><tr>
+              <td>#064/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.20</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.09</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/065/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/065/high.webp" alt="Diggersby"></td>
+        <td>
+          <div class="cname">Diggersby <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Uncommon · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Stage1 · 150 HP · Colorless · evolves from Bunnelby · weak: Fighting ×2 · retreat 4 · reg. J</div><div class="atk"><b><span class="en" title="Colorless">C</span> Earthquake</b> <span class="dmg">140</span> This attack also does 30 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)</div><div class="atk"><b><span class="en" title="Colorless">C</span><span class="en" title="Colorless">C</span><span class="en" title="Colorless">C</span> Whap Down</b> <span class="dmg">100</span></div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#065/088</td>
+              <td>Uncommon</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.07</td>
+            </tr><tr>
+              <td>#065/088</td>
+              <td>Uncommon</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.25</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.07</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/066/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/066/high.webp" alt="Fletchling"></td>
+        <td>
+          <div class="cname">Fletchling <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Basic · 60 HP · Colorless · weak: Lightning ×2 · retreat 1 · reg. J</div><div class="atk"><b><span class="en" title="Colorless">C</span> Chirp</b> - Search your deck for up to 2 Pokémon with {F} Resistance, reveal them, and put them into your hand. Then, shuffle your deck.</div><div class="atk"><b><span class="en" title="Colorless">C</span><span class="en" title="Colorless">C</span> Peck</b> <span class="dmg">20</span></div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#066/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.12</td>
+            </tr><tr>
+              <td>#066/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.18</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.12</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/067/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/067/high.webp" alt="Furfrou"></td>
+        <td>
+          <div class="cname">Furfrou <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Basic · 90 HP · Colorless · weak: Fighting ×2 · retreat 1 · reg. J</div><div class="atk"><b><span class="en" title="Colorless">C</span> Hand Trim</b> - Discard random cards from your opponent's hand until they have 5 cards in their hand.</div><div class="atk"><b><span class="en" title="Colorless">C</span> Headbutt</b> <span class="dmg">30</span></div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#067/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.05</td>
+            </tr><tr>
+              <td>#067/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.19</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.05</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/068/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/068/high.webp" alt="Antique Jaw Fossil"></td>
+        <td>
+          <div class="cname">Antique Jaw Fossil <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Item · reg. J</div><div class="ab"><b>Ability: Intimidating Jaw</b> - As long as this Pokémon is in the Active Spot, attacks used by your opponent's Active Pokémon do 30 less damage (before applying Weakness and Resistance).</div><div class="fx">Play this card as if it were a 60-HP Basic {C} Pokémon. This card can't be affected by any Special Conditions and can't retreat.
+
+At any time during your turn, you may discard this card from play.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#068/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.17</td>
+            </tr><tr>
+              <td>#068/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.21</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.17</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/069/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/069/high.webp" alt="Antique Sail Fossil"></td>
+        <td>
+          <div class="cname">Antique Sail Fossil <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Item · reg. J</div><div class="ab"><b>Ability: Protective Sail</b> - Whenever your opponent plays a Supporter card from their hand, prevent all effects of that card done to this Pokémon.</div><div class="fx">Play this card as if it were a 60-HP Basic {C} Pokémon. This card can't be affected by any Special Conditions and can't retreat.
+
+At any time during your turn, you may discard this card from play.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#069/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.14</td>
+            </tr><tr>
+              <td>#069/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.21</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.14</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/070/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/070/high.webp" alt="Core Memory"></td>
+        <td>
+          <div class="cname">Core Memory <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Uncommon · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Tool · reg. J</div><div class="atk"><b><span class="en" title="Fighting">F</span><span class="en" title="Fighting">F</span><span class="en" title="Fighting">F</span><span class="en" title="Fighting">F</span> Geobuster</b> <span class="dmg">350</span> Discard all Energy from this Pokémon.</div><div class="fx">The Mega Zygarde ex this card is attached to can use the attack on this card. (You still need the necessary Energy to use this attack.)</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#070/088</td>
+              <td>Uncommon</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.14</td>
+            </tr><tr>
+              <td>#070/088</td>
+              <td>Uncommon</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.20</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.14</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/071/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/071/high.webp" alt="Crushing Hammer"></td>
+        <td>
+          <div class="cname">Crushing Hammer <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Item · reg. J</div><div class="fx">Flip a coin. If heads, discard an Energy from 1 of your opponent's Pokémon.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#071/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.13</td>
+            </tr><tr>
+              <td>#071/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.24</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.13</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/072/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/072/high.webp" alt="Energy Search"></td>
+        <td>
+          <div class="cname">Energy Search <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Item · reg. J</div><div class="fx">Search your deck for a Basic Energy card, reveal it, and put it into your hand. Then, shuffle your deck.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#072/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.15</td>
+            </tr><tr>
+              <td>#072/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.20</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.15</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/073/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/073/high.webp" alt="Energy Swatter"></td>
+        <td>
+          <div class="cname">Energy Swatter <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Uncommon · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Item · reg. J</div><div class="fx">Your opponent reveals their hand, and you choose an Energy card you find there and put it on the bottom of their deck.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#073/088</td>
+              <td>Uncommon</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.08</td>
+            </tr><tr>
+              <td>#073/088</td>
+              <td>Uncommon</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.21</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.08</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/074/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/074/high.webp" alt="Hole-Digging Shovel"></td>
+        <td>
+          <div class="cname">Hole-Digging Shovel <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Item · reg. I</div><div class="fx">Discard the top 2 cards of your deck.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#074/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.10</td>
+            </tr><tr>
+              <td>#074/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.17</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.10</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/075/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/075/high.webp" alt="Jacinthe"></td>
+        <td>
+          <div class="cname">Jacinthe <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Uncommon · 3 printings, 4 versions</div>
+          <div class="ctext"><div class="meta">Supporter · reg. J</div><div class="fx">Heal 150 damage from 1 of your {P} Pokémon.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#075/088</td>
+              <td>Uncommon</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.11</td>
+            </tr><tr>
+              <td>#075/088</td>
+              <td>Uncommon</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.25</td>
+            </tr><tr>
+              <td>#110/088</td>
+              <td>Ultra Rare</td>
+              <td>Holofoil</td>
+              <td class="pr">$3.55</td>
+            </tr><tr>
+              <td>#122/088</td>
+              <td>Special Illustration Rare</td>
+              <td>Holofoil</td>
+              <td class="pr">$26.30</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.11</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/076/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/076/high.webp" alt="Judge"></td>
+        <td>
+          <div class="cname">Judge <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Uncommon · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Supporter · reg. J</div><div class="fx">Each player shuffles their hand into their deck and draws 4 cards.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#076/088</td>
+              <td>Uncommon</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.20</td>
+            </tr><tr>
+              <td>#076/088</td>
+              <td>Uncommon</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.23</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.20</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/077/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/077/high.webp" alt="Lumiose City"></td>
+        <td>
+          <div class="cname">Lumiose City <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Uncommon · 2 printings, 3 versions</div>
+          <div class="ctext"><div class="meta">Stadium · reg. J</div><div class="fx">Once during each player's turn, that player may search their deck for a Basic Pokémon and put it onto their Bench. Then, that player shuffles their deck. If a player searches their deck in this way, their turn ends.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#077/088</td>
+              <td>Uncommon</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.10</td>
+            </tr><tr>
+              <td>#077/088</td>
+              <td>Uncommon</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.16</td>
+            </tr><tr>
+              <td>#111/088</td>
+              <td>Ultra Rare</td>
+              <td>Holofoil</td>
+              <td class="pr">$1.92</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.10</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/078/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/078/high.webp" alt="Lumiose Galette"></td>
+        <td>
+          <div class="cname">Lumiose Galette <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Uncommon · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Item · reg. J</div><div class="fx">Heal 20 damage and remove a Special Condition from your Active Pokémon.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#078/088</td>
+              <td>Uncommon</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.08</td>
+            </tr><tr>
+              <td>#078/088</td>
+              <td>Uncommon</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.23</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.08</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/079/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/079/high.webp" alt="Naveen"></td>
+        <td>
+          <div class="cname">Naveen <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Uncommon · 2 printings, 3 versions</div>
+          <div class="ctext"><div class="meta">Supporter · reg. J</div><div class="fx">Draw cards until you have 5 cards in your hand. Before drawing cards, you may discard any number of cards from your hand. (If you can't draw any cards in this way, you can't use this card.)</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#079/088</td>
+              <td>Uncommon</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.11</td>
+            </tr><tr>
+              <td>#079/088</td>
+              <td>Uncommon</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.16</td>
+            </tr><tr>
+              <td>#112/088</td>
+              <td>Ultra Rare</td>
+              <td>Holofoil</td>
+              <td class="pr">$2.26</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.11</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/080/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/080/high.webp" alt="Poké Ball"></td>
+        <td>
+          <div class="cname">Poké Ball <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Item · reg. J</div><div class="fx">Flip a coin. If heads, search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#080/088</td>
+              <td>Common</td>
+              <td>Normal <span style="color:#888">Poke Ball</span></td>
+              <td class="pr">$0.21</td>
+            </tr><tr>
+              <td>#080/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil <span style="color:#888">Poke Ball</span></td>
+              <td class="pr cheap">$0.17</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.17</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/081/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/081/high.webp" alt="Poké Pad"></td>
+        <td>
+          <div class="cname">Poké Pad <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Uncommon · 2 printings, 3 versions</div>
+          <div class="ctext"><div class="meta">Item · reg. J</div><div class="fx">Search your deck for a Pokémon that doesn't have a Rule Box, reveal it, and put it into your hand. Then, shuffle your deck. (Pokémon ex, Pokémon V, etc. have Rule Boxes.)</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#081/088</td>
+              <td>Uncommon</td>
+              <td>Normal <span style="color:#888">Poke Pad - 081/088</span></td>
+              <td class="pr cheap">$0.26</td>
+            </tr><tr>
+              <td>#081/088</td>
+              <td>Uncommon</td>
+              <td>Reverse Holofoil <span style="color:#888">Poke Pad - 081/088</span></td>
+              <td class="pr">$0.44</td>
+            </tr><tr>
+              <td>#113/088</td>
+              <td>Ultra Rare</td>
+              <td>Holofoil <span style="color:#888">Poke Pad - 113/088</span></td>
+              <td class="pr">$13.06</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.26</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/082/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/082/high.webp" alt="Pokémon Catcher"></td>
+        <td>
+          <div class="cname">Pokémon Catcher <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Item · reg. J</div><div class="fx">Flip a coin. If heads, switch in 1 of your opponent's Benched Pokémon to the Active Spot.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#082/088</td>
+              <td>Common</td>
+              <td>Normal <span style="color:#888">Pokemon Catcher</span></td>
+              <td class="pr cheap">$0.15</td>
+            </tr><tr>
+              <td>#082/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil <span style="color:#888">Pokemon Catcher</span></td>
+              <td class="pr">$0.26</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.15</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/083/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/083/high.webp" alt="Potion"></td>
+        <td>
+          <div class="cname">Potion <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Common · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Item · reg. J</div><div class="fx">Heal 30 damage from 1 of your Pokémon.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#083/088</td>
+              <td>Common</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.14</td>
+            </tr><tr>
+              <td>#083/088</td>
+              <td>Common</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.22</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.14</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/084/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/084/high.webp" alt="Rosa's Encouragement"></td>
+        <td>
+          <div class="cname">Rosa's Encouragement <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Uncommon · 3 printings, 4 versions</div>
+          <div class="ctext"><div class="meta">Supporter · reg. J</div><div class="fx">You can use this card only if you have more Prize cards remaining than your opponent.
+
+Attach up to 2 Basic Energy cards from your discard pile to 1 of your Stage 2 Pokémon.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#084/088</td>
+              <td>Uncommon</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.13</td>
+            </tr><tr>
+              <td>#084/088</td>
+              <td>Uncommon</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.22</td>
+            </tr><tr>
+              <td>#114/088</td>
+              <td>Ultra Rare</td>
+              <td>Holofoil</td>
+              <td class="pr">$5.32</td>
+            </tr><tr>
+              <td>#123/088</td>
+              <td>Special Illustration Rare</td>
+              <td>Holofoil</td>
+              <td class="pr">$63.55</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.13</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/085/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/085/high.webp" alt="Tarragon"></td>
+        <td>
+          <div class="cname">Tarragon <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Uncommon · 2 printings, 3 versions</div>
+          <div class="ctext"><div class="meta">Supporter · reg. J</div><div class="fx">Put up to 4 in any combination of {F} Pokémon and Basic {F} Energy cards from your discard pile into your hand.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#085/088</td>
+              <td>Uncommon</td>
+              <td>Normal</td>
+              <td class="pr cheap">$0.09</td>
+            </tr><tr>
+              <td>#085/088</td>
+              <td>Uncommon</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.24</td>
+            </tr><tr>
+              <td>#116/088</td>
+              <td>Ultra Rare</td>
+              <td>Holofoil</td>
+              <td class="pr">$2.64</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.09</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/086/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/086/high.webp" alt="Growing Grass Energy"></td>
+        <td>
+          <div class="cname">Growing Grass Energy <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Rare · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Normal Energy · reg. J</div><div class="fx">As long as this card is attached to a Pokémon, it provides {G} Energy.
+The {G} Pokémon this card is attached to gets +20 HP.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#086/088</td>
+              <td>Rare</td>
+              <td>Holofoil</td>
+              <td class="pr cheap">$0.20</td>
+            </tr><tr>
+              <td>#086/088</td>
+              <td>Rare</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.24</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.20</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/087/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/087/high.webp" alt="Rocky Fighting Energy"></td>
+        <td>
+          <div class="cname">Rocky Fighting Energy <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Rare · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Normal Energy · reg. J</div><div class="fx">As long as this card is attached to a Pokémon, it provides {F} Energy.
+Prevent all effects of attacks used by your opponent's Pokémon done to the {F} Pokémon this card is attached to. (Existing effects are not removed. Damage is not an effect.)</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#087/088</td>
+              <td>Rare</td>
+              <td>Holofoil</td>
+              <td class="pr cheap">$0.18</td>
+            </tr><tr>
+              <td>#087/088</td>
+              <td>Rare</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr cheap">$0.18</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.18</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/088/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/088/high.webp" alt="Telepathic Psychic Energy"></td>
+        <td>
+          <div class="cname">Telepathic Psychic Energy <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Rare · 1 printing, 2 versions</div>
+          <div class="ctext"><div class="meta">Normal Energy · reg. J</div><div class="fx">As long as this card is attached to a Pokémon, it provides {P} Energy.
+When you attach this card from your hand to a {P} Pokémon, search your deck for up to 2 Basic {P} Pokémon and put them onto your Bench. Then, shuffle your deck.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#088/088</td>
+              <td>Rare</td>
+              <td>Holofoil</td>
+              <td class="pr cheap">$0.31</td>
+            </tr><tr>
+              <td>#088/088</td>
+              <td>Rare</td>
+              <td>Reverse Holofoil</td>
+              <td class="pr">$0.33</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$0.31</div>
+          <span class="badge" style="background:hsl(120,70%,85%)">≤ 50¢</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/108/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/108/high.webp" alt="Energy Recycler"></td>
+        <td>
+          <div class="cname">Energy Recycler <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Ultra Rare · 1 printing, 1 version</div>
+          <div class="ctext"><div class="meta">Item · reg. I</div><div class="fx">Shuffle up to 5 Basic Energy cards from your discard pile into your deck.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#108/088</td>
+              <td>Ultra Rare</td>
+              <td>Holofoil</td>
+              <td class="pr cheap">$2.60</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$2.60</div>
+          <span class="badge over">> $1.00</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/109/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/109/high.webp" alt="Forest of Vitality"></td>
+        <td>
+          <div class="cname">Forest of Vitality <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Ultra Rare · 1 printing, 1 version</div>
+          <div class="ctext"><div class="meta">Stadium · reg. I</div><div class="fx">Each player's {G} Pokémon can evolve into {G} Pokémon during the turn they play those Pokémon, except during their first turn.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#109/088</td>
+              <td>Ultra Rare</td>
+              <td>Holofoil</td>
+              <td class="pr cheap">$5.67</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$5.67</div>
+          <span class="badge over">> $1.00</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/115/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/115/high.webp" alt="Sacred Ash"></td>
+        <td>
+          <div class="cname">Sacred Ash <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Ultra Rare · 1 printing, 1 version</div>
+          <div class="ctext"><div class="meta">Item · reg. I</div><div class="fx">Shuffle up to 5 Pokémon from your discard pile into your deck.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#115/088</td>
+              <td>Ultra Rare</td>
+              <td>Holofoil</td>
+              <td class="pr cheap">$2.00</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$2.00</div>
+          <span class="badge over">> $1.00</span>
+        </td>
+      </tr>
+<tr class="cardrow">
+        <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/117/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/117/high.webp" alt="Wondrous Patch"></td>
+        <td>
+          <div class="cname">Wondrous Patch <span class="st ok" title="All printings matched to TCGdex; card text identical">✓</span></div>
+          <div class="crarity">Ultra Rare · 1 printing, 1 version</div>
+          <div class="ctext"><div class="meta">Item · reg. I</div><div class="fx">Attach a Basic {P} Energy card from your discard pile to 1 of your Benched {P} Pokémon.</div></div>
+        </td>
+        <td><table class="versions"><tr>
+              <td>#117/088</td>
+              <td>Ultra Rare</td>
+              <td>Holofoil</td>
+              <td class="pr cheap">$2.72</td>
+            </tr></table></td>
+        <td style="text-align:right">
+          <div class="minp">$2.72</div>
+          <span class="badge over">> $1.00</span>
+        </td>
+      </tr>
+</tbody>
+</table>
+</div>
+
+<div id="imgpop"><img alt=""></div>
+<script>
+(function () {
+  var pop = document.getElementById("imgpop");
+  var popImg = pop.querySelector("img");
+  function move(e) {
+    var w = 480, h = 671; // standard card aspect ratio at popup width
+    var x = e.clientX + 20, y = e.clientY - h / 3;
+    if (x + w > innerWidth - 8) x = e.clientX - w - 20;
+    y = Math.max(8, Math.min(y, innerHeight - h - 8));
+    pop.style.left = x + "px";
+    pop.style.top = y + "px";
+  }
+  document.querySelectorAll("[data-hi]").forEach(function (el) {
+    el.addEventListener("mouseenter", function (e) {
+      popImg.src = el.dataset.hi;
+      pop.style.display = "block";
+      move(e);
+    });
+    el.addEventListener("mousemove", move);
+    el.addEventListener("mouseleave", function () {
+      pop.style.display = "none";
+      popImg.removeAttribute("src");
+    });
+  });
+})();
+</script>
+</body>
+</html>

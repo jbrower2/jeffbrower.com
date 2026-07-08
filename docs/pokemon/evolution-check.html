@@ -1,0 +1,1273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Evolution data — missing evolveFrom review</title>
+<style>
+  :root { color-scheme: light; }
+  body { font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         margin: 2rem auto; max-width: 1500px; padding: 0 1rem; color: #1a1a2e; }
+  h1 { margin-bottom: 0.25rem; }
+  .subtitle { color: #555; margin-top: 0; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0 2rem; font-size: 0.85rem; }
+  th, td { border: 1px solid #ccc; padding: 0.35rem 0.5rem; text-align: right; }
+  thead th { background: #2c2c54; color: #fff; }
+  thead th.cap { font-size: 1rem; text-align: center; }
+  tbody th { text-align: left; background: #f4f4fb; white-space: nowrap; }
+  tbody th a { color: inherit; }
+  td.na { color: #999; text-align: center; }
+  td.pct .v { font-weight: 600; }
+  td.pct .n { color: #666; font-size: 0.72rem; white-space: nowrap; display: block; }
+  td.num { font-variant-numeric: tabular-nums; }
+  tfoot td, tfoot th { background: #eaeaf5; font-weight: 600; }
+  .notes { background: #f8f8ff; border: 1px solid #ddd; border-radius: 8px; padding: 1rem 1.5rem; font-size: 0.9rem; }
+  .notes li { margin: 0.3rem 0; }
+  .wrap { overflow-x: auto; }
+  .gs { border-left: 3px solid #2c2c54; }
+  .badge { display: inline-block; padding: 0.1rem 0.45rem; border-radius: 999px; font-weight: 600; font-size: 0.8rem; white-space: nowrap; }
+  .badge.over { background: #fdd; color: #922; }
+  .badge.noprice { background: #eee; color: #777; }
+  .st { font-weight: 700; }
+  .st.ok { color: #1a7f37; }
+  .st.warn { color: #b58900; }
+  .st.bad { color: #b02a2a; }
+
+  .cardrow td { vertical-align: top; text-align: left; }
+  .thumb { width: 96px; min-width: 96px; }
+  .thumb img { width: 96px; border-radius: 5px; display: block; }
+  .thumb .noimg { width: 96px; height: 133px; background: #eee; border-radius: 5px;
+                  display: flex; align-items: center; justify-content: center; color: #999; font-size: 0.7rem; }
+  .cname { font-weight: 700; font-size: 1rem; }
+  .crarity { color: #666; font-size: 0.8rem; }
+  .ctext { max-width: 560px; font-size: 0.78rem; color: #333; }
+  .ctext .meta { color: #777; margin-bottom: 0.15rem; }
+  .ctext .ab b { color: #a33; }
+  .ctext .atk b { color: #223a8f; }
+  .ctext .dmg { display: inline-block; min-width: 0.8rem; padding: 0 0.3rem; border-radius: 7px;
+                background: #223a8f; color: #fff; font-size: 0.7rem; font-weight: 700; text-align: center; }
+  .ctext > div { margin-bottom: 0.2rem; }
+  .en { display: inline-block; width: 1rem; height: 1rem; border-radius: 50%; background: #ddd;
+        text-align: center; line-height: 1rem; font-size: 0.65rem; font-weight: 700; margin-right: 1px; }
+  .versions { font-size: 0.78rem; border-collapse: collapse; margin: 0; }
+  .versions td { border: none; border-bottom: 1px solid #eee; padding: 0.15rem 0.5rem 0.15rem 0; text-align: left; }
+  .versions td.pr { text-align: right; font-variant-numeric: tabular-nums; }
+  .versions td.cheap { color: #1a7f37; font-weight: 600; }
+  .minp { font-size: 1rem; font-weight: 700; white-space: nowrap; }
+  .backlink { margin-bottom: 1rem; display: inline-block; }
+  #imgpop { position: fixed; display: none; z-index: 100; pointer-events: none; }
+  #imgpop img { width: 480px; border-radius: 14px; box-shadow: 0 10px 34px rgba(0,0,0,0.45); display: block; }
+
+  .evo { text-align: left; white-space: nowrap; }
+  .evo .arrow { color: #888; font-size: 0.75rem; }
+  .evo b { font-size: 0.95rem; }
+  .sets { text-align: left; font-size: 0.8rem; }
+  .sets .lid { color: #999; }
+  .cnt { font-size: 0.8rem; font-weight: 400; color: #666; }
+  .sourcedesc { font-size: 0.85rem; margin-top: -0.4rem; max-width: 900px; }
+  .sourcedesc.st-ok { color: #1a7f37; } .sourcedesc.st-warn { color: #9a7000; } .sourcedesc.st-bad { color: #b02a2a; }
+  .chip { display:inline-block; padding:0.05rem 0.4rem; border-radius:999px; font-size:0.72rem; font-weight:600; }
+  .banner { border-radius: 8px; padding: 0.7rem 1.1rem; margin: 1rem 0 1.5rem; font-weight: 600; }
+  .banner.ok { background: #e6f6ea; border: 1px solid #9ad0aa; color: #14682f; }
+  .banner.bad { background: #fdeaea; border: 1px solid #e0a0a0; color: #a31f1f; }
+</style>
+</head>
+<body>
+<a class="backlink" href="index.html">← back to summary</a>
+<h1>Evolution data — <code>evolveFrom</code> review</h1>
+<p class="subtitle">127 species (173 cards) are Stage&nbsp;1/2 Pokémon whose original TCGdex record had no
+<code>evolveFrom</code>. Each pre-evolution below has been written into the <code>carddata/</code> cache so evolution
+families link correctly. Hover a card for a larger image. Generated 2026-07-07 21:48 UTC.</p>
+<div class="banner ok">
+  ✓ Verified: every Stage 1/2 Pokémon across all 18 sets now has an evolveFrom (0 missing).
+</div>
+<h2>Inferred from evolution line <span class="cnt">44 species</span></h2>
+<p class="sourcedesc st-warn">Not present anywhere in TCGdex data; filled from the known Pokémon evolution line. Please verify.</p>
+<div class="wrap"><table>
+<thead><tr><th></th><th>Card</th><th>Inferred pre-evolution</th><th>Appears in</th></tr></thead>
+<tbody>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/024/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/024/high.webp" alt="Aurorus"></td>
+          <td>
+            <div class="cname">Aurorus</div>
+            <div class="crarity"><span class="chip" style="background:#3a9bdc;color:#fff">Water</span> Stage 2 · 2 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Amaura</b></td>
+          <td class="sets"><a href="cards/me03-perfect-order.html">ME03</a> <span class="lid">#024</span>, <a href="cards/me03-perfect-order.html">ME03</a> <span class="lid">#092</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/013/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/013/high.webp" alt="Beautifly"></td>
+          <td>
+            <div class="cname">Beautifly</div>
+            <div class="crarity"><span class="chip" style="background:#5aa469;color:#fff">Grass</span> Stage 2 · 2 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Silcoon</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#013</span>, <a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#219</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/028/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/028/high.webp" alt="Camerupt"></td>
+          <td>
+            <div class="cname">Camerupt</div>
+            <div class="crarity"><span class="chip" style="background:#e0632c;color:#fff">Fire</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Numel</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#028</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/014/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/014/high.webp" alt="Cascoon"></td>
+          <td>
+            <div class="cname">Cascoon</div>
+            <div class="crarity"><span class="chip" style="background:#5aa469;color:#fff">Grass</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Wurmple</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#014</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02/022/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02/022/high.webp" alt="Dewgong"></td>
+          <td>
+            <div class="cname">Dewgong</div>
+            <div class="crarity"><span class="chip" style="background:#3a9bdc;color:#fff">Water</span> Stage 1 · 3 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Seel</b></td>
+          <td class="sets"><a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#022</span>, <a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#097</span>, <a href="cards/me03-perfect-order.html">ME03</a> <span class="lid">#019</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/065/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/065/high.webp" alt="Diggersby"></td>
+          <td>
+            <div class="cname">Diggersby</div>
+            <div class="crarity"><span class="chip" style="background:#b9b4a8;color:#222">Colorless</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Bunnelby</b></td>
+          <td class="sets"><a href="cards/me03-perfect-order.html">ME03</a> <span class="lid">#065</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/151/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/151/high.webp" alt="Dragonair"></td>
+          <td>
+            <div class="cname">Dragonair</div>
+            <div class="crarity"><span class="chip" style="background:#b7952f;color:#fff">Dragon</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Dratini</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#151</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/052/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/052/high.webp" alt="Drapion"></td>
+          <td>
+            <div class="cname">Drapion</div>
+            <div class="crarity"><span class="chip" style="background:#4a4a63;color:#fff">Darkness</span> Stage 1 · 2 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Skorupi</b></td>
+          <td class="sets"><a href="cards/me03-perfect-order.html">ME03</a> <span class="lid">#052</span>, <a href="cards/me03-perfect-order.html">ME03</a> <span class="lid">#097</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/015/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/015/high.webp" alt="Dustox"></td>
+          <td>
+            <div class="cname">Dustox</div>
+            <div class="crarity"><span class="chip" style="background:#5aa469;color:#fff">Grass</span> Stage 2 · 2 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Cascoon</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#015</span>, <a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#220</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02/070/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02/070/high.webp" alt="Empoleon ex"></td>
+          <td>
+            <div class="cname">Empoleon ex</div>
+            <div class="crarity"><span class="chip" style="background:#8a97a5;color:#222">Metal</span> Stage 2 · 2 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Prinplup</b></td>
+          <td class="sets"><a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#070</span>, <a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#114</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/002/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/002/high.webp" alt="Erika's Gloom"></td>
+          <td>
+            <div class="cname">Erika's Gloom</div>
+            <div class="crarity"><span class="chip" style="background:#5aa469;color:#fff">Grass</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Erika's Oddish</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#002</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/006/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/006/high.webp" alt="Erika's Victreebel"></td>
+          <td>
+            <div class="cname">Erika's Victreebel</div>
+            <div class="crarity"><span class="chip" style="background:#5aa469;color:#fff">Grass</span> Stage 2 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Erika's Weepinbell</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#006</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/003/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/003/high.webp" alt="Erika's Vileplume ex"></td>
+          <td>
+            <div class="cname">Erika's Vileplume ex</div>
+            <div class="crarity"><span class="chip" style="background:#5aa469;color:#fff">Grass</span> Stage 2 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Erika's Gloom</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#003</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/005/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/005/high.webp" alt="Erika's Weepinbell"></td>
+          <td>
+            <div class="cname">Erika's Weepinbell</div>
+            <div class="crarity"><span class="chip" style="background:#5aa469;color:#fff">Grass</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Erika's Bellsprout</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#005</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02/053/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02/053/high.webp" alt="Flygon"></td>
+          <td>
+            <div class="cname">Flygon</div>
+            <div class="crarity"><span class="chip" style="background:#b8542c;color:#fff">Fighting</span> Stage 2 · 3 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Vibrava</b></td>
+          <td class="sets"><a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#053</span>, <a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#101</span>, <a href="cards/me-mega-evolution-promo.html">MEP</a> <span class="lid">#016</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/131/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/131/high.webp" alt="Galarian Linoone"></td>
+          <td>
+            <div class="cname">Galarian Linoone</div>
+            <div class="crarity"><span class="chip" style="background:#4a4a63;color:#fff">Darkness</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Galarian Zigzagoon</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#131</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/132/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/132/high.webp" alt="Galarian Obstagoon"></td>
+          <td>
+            <div class="cname">Galarian Obstagoon</div>
+            <div class="crarity"><span class="chip" style="background:#4a4a63;color:#fff">Darkness</span> Stage 2 · 2 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Galarian Linoone</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#132</span>, <a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#245</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/050/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/050/high.webp" alt="Gengar"></td>
+          <td>
+            <div class="cname">Gengar</div>
+            <div class="crarity"><span class="chip" style="background:#4a4a63;color:#fff">Darkness</span> Stage 2 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Haunter</b></td>
+          <td class="sets"><a href="cards/me03-perfect-order.html">ME03</a> <span class="lid">#050</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02/050/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02/050/high.webp" alt="Gliscor"></td>
+          <td>
+            <div class="cname">Gliscor</div>
+            <div class="crarity"><span class="chip" style="background:#b8542c;color:#fff">Fighting</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Gligar</b></td>
+          <td class="sets"><a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#050</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02/002/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02/002/high.webp" alt="Gloom"></td>
+          <td>
+            <div class="cname">Gloom</div>
+            <div class="crarity"><span class="chip" style="background:#5aa469;color:#fff">Grass</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Oddish</b></td>
+          <td class="sets"><a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#002</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/040/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/040/high.webp" alt="Golduck"></td>
+          <td>
+            <div class="cname">Golduck</div>
+            <div class="crarity"><span class="chip" style="background:#3a9bdc;color:#fff">Water</span> Stage 1 · 2 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Psyduck</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#040</span>, <a href="cards/me-mega-evolution-promo.html">MEP</a> <span class="lid">#008</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02/038/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02/038/high.webp" alt="Granbull"></td>
+          <td>
+            <div class="cname">Granbull</div>
+            <div class="crarity"><span class="chip" style="background:#9a5ba6;color:#fff">Psychic</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Snubbull</b></td>
+          <td class="sets"><a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#038</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02/058/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02/058/high.webp" alt="Honchkrow"></td>
+          <td>
+            <div class="cname">Honchkrow</div>
+            <div class="crarity"><span class="chip" style="background:#4a4a63;color:#fff">Darkness</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Murkrow</b></td>
+          <td class="sets"><a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#058</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/096/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/096/high.webp" alt="Hop's Trevenant"></td>
+          <td>
+            <div class="cname">Hop's Trevenant</div>
+            <div class="crarity"><span class="chip" style="background:#9a5ba6;color:#fff">Psychic</span> Stage 1 · 2 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Hop's Phantump</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#096</span>, <a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#237</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/174/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/174/high.webp" alt="Larry's Braviary"></td>
+          <td>
+            <div class="cname">Larry's Braviary</div>
+            <div class="crarity"><span class="chip" style="background:#b9b4a8;color:#222">Colorless</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Larry's Rufflet</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#174</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/164/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/164/high.webp" alt="Larry's Dudunsparce ex"></td>
+          <td>
+            <div class="cname">Larry's Dudunsparce ex</div>
+            <div class="crarity"><span class="chip" style="background:#b9b4a8;color:#222">Colorless</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Larry's Dunsparce</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#164</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/170/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/170/high.webp" alt="Larry's Staraptor"></td>
+          <td>
+            <div class="cname">Larry's Staraptor</div>
+            <div class="crarity"><span class="chip" style="background:#b9b4a8;color:#222">Colorless</span> Stage 2 · 2 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Larry's Staravia</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#170</span>, <a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#249</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/169/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/169/high.webp" alt="Larry's Staravia"></td>
+          <td>
+            <div class="cname">Larry's Staravia</div>
+            <div class="crarity"><span class="chip" style="background:#b9b4a8;color:#222">Colorless</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Larry's Starly</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#169</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02/082/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02/082/high.webp" alt="Linoone"></td>
+          <td>
+            <div class="cname">Linoone</div>
+            <div class="crarity"><span class="chip" style="background:#b9b4a8;color:#222">Colorless</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Zigzagoon</b></td>
+          <td class="sets"><a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#082</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/028/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/028/high.webp" alt="Luxray"></td>
+          <td>
+            <div class="cname">Luxray</div>
+            <div class="crarity"><span class="chip" style="background:#e6b422;color:#222">Lightning</span> Stage 2 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Luxio</b></td>
+          <td class="sets"><a href="cards/me03-perfect-order.html">ME03</a> <span class="lid">#028</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02/025/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02/025/high.webp" alt="Mamoswine"></td>
+          <td>
+            <div class="cname">Mamoswine</div>
+            <div class="crarity"><span class="chip" style="background:#3a9bdc;color:#fff">Water</span> Stage 2 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Piloswine</b></td>
+          <td class="sets"><a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#025</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/086/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/086/high.webp" alt="Mismagius"></td>
+          <td>
+            <div class="cname">Mismagius</div>
+            <div class="crarity"><span class="chip" style="background:#9a5ba6;color:#fff">Psychic</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Misdreavus</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#086</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/050/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/050/high.webp" alt="N's Vanillish"></td>
+          <td>
+            <div class="cname">N's Vanillish</div>
+            <div class="crarity"><span class="chip" style="background:#3a9bdc;color:#fff">Water</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>N's Vanillite</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#050</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/051/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/051/high.webp" alt="N's Vanilluxe"></td>
+          <td>
+            <div class="cname">N's Vanilluxe</div>
+            <div class="crarity"><span class="chip" style="background:#3a9bdc;color:#fff">Water</span> Stage 2 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>N's Vanillish</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#051</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02/033/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02/033/high.webp" alt="Pawmo"></td>
+          <td>
+            <div class="cname">Pawmo</div>
+            <div class="crarity"><span class="chip" style="background:#e6b422;color:#222">Lightning</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Pawmi</b></td>
+          <td class="sets"><a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#033</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02/028/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02/028/high.webp" alt="Prinplup"></td>
+          <td>
+            <div class="cname">Prinplup</div>
+            <div class="crarity"><span class="chip" style="background:#3a9bdc;color:#fff">Water</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Piplup</b></td>
+          <td class="sets"><a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#028</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/061/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/061/high.webp" alt="Raticate"></td>
+          <td>
+            <div class="cname">Raticate</div>
+            <div class="crarity"><span class="chip" style="background:#b9b4a8;color:#222">Colorless</span> Stage 1 · 2 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Rattata</b></td>
+          <td class="sets"><a href="cards/me03-perfect-order.html">ME03</a> <span class="lid">#061</span>, <a href="cards/me03-perfect-order.html">ME03</a> <span class="lid">#099</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/012/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/012/high.webp" alt="Silcoon"></td>
+          <td>
+            <div class="cname">Silcoon</div>
+            <div class="crarity"><span class="chip" style="background:#5aa469;color:#fff">Grass</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Wurmple</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#012</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/101/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/101/high.webp" alt="Team Rocket's Dugtrio"></td>
+          <td>
+            <div class="cname">Team Rocket's Dugtrio</div>
+            <div class="crarity"><span class="chip" style="background:#b8542c;color:#fff">Fighting</span> Stage 1 · 2 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Team Rocket's Diglett</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#101</span>, <a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#239</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/078/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/078/high.webp" alt="Team Rocket's Exeggutor"></td>
+          <td>
+            <div class="cname">Team Rocket's Exeggutor</div>
+            <div class="crarity"><span class="chip" style="background:#9a5ba6;color:#fff">Psychic</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Team Rocket's Exeggcute</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#078</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/127/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/127/high.webp" alt="Team Rocket's Honchkrow"></td>
+          <td>
+            <div class="cname">Team Rocket's Honchkrow</div>
+            <div class="crarity"><span class="chip" style="background:#4a4a63;color:#fff">Darkness</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Team Rocket's Murkrow</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#127</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02/068/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02/068/high.webp" alt="Toxtricity"></td>
+          <td>
+            <div class="cname">Toxtricity</div>
+            <div class="crarity"><span class="chip" style="background:#4a4a63;color:#fff">Darkness</span> Stage 1 · 3 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Toxel</b></td>
+          <td class="sets"><a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#068</span>, <a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#103</span>, <a href="cards/me-mega-evolution-promo.html">MEP</a> <span class="lid">#017</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02/003/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02/003/high.webp" alt="Vileplume"></td>
+          <td>
+            <div class="cname">Vileplume</div>
+            <div class="crarity"><span class="chip" style="background:#5aa469;color:#fff">Grass</span> Stage 2 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Gloom</b></td>
+          <td class="sets"><a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#003</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02/077/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02/077/high.webp" alt="Wigglytuff"></td>
+          <td>
+            <div class="cname">Wigglytuff</div>
+            <div class="crarity"><span class="chip" style="background:#b9b4a8;color:#222">Colorless</span> Stage 1 · 2 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Jigglypuff</b></td>
+          <td class="sets"><a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#077</span>, <a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#105</span></td>
+        </tr>
+</tbody></table></div>
+<h2>Fossil / Restored <span class="cnt">1 species</span></h2>
+<p class="sourcedesc st-warn">Revived from a Fossil item card in the same set (matching TCGdex's convention for other fossils).</p>
+<div class="wrap"><table>
+<thead><tr><th></th><th>Card</th><th>Inferred pre-evolution</th><th>Appears in</th></tr></thead>
+<tbody>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/023/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/023/high.webp" alt="Amaura"></td>
+          <td>
+            <div class="cname">Amaura</div>
+            <div class="crarity"><span class="chip" style="background:#3a9bdc;color:#fff">Water</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Antique Sail Fossil</b></td>
+          <td class="sets"><a href="cards/me03-perfect-order.html">ME03</a> <span class="lid">#023</span></td>
+        </tr>
+</tbody></table></div>
+<h2>Auto-filled from another set <span class="cnt">82 species</span></h2>
+<p class="sourcedesc st-ok">This species carries this evolveFrom on a printing in another set; copied verbatim from TCGdex.</p>
+<div class="wrap"><table>
+<thead><tr><th></th><th>Card</th><th>Inferred pre-evolution</th><th>Appears in</th></tr></thead>
+<tbody>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/058/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/058/high.webp" alt="Aegislash"></td>
+          <td>
+            <div class="cname">Aegislash</div>
+            <div class="crarity"><span class="chip" style="background:#8a97a5;color:#222">Metal</span> Stage 2 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Doublade</b></td>
+          <td class="sets"><a href="cards/me03-perfect-order.html">ME03</a> <span class="lid">#058</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/sv/sv06/082/low.webp" data-hi="https://assets.tcgdex.net/en/sv/sv06/082/high.webp" alt="Alakazam"></td>
+          <td>
+            <div class="cname">Alakazam</div>
+            <div class="crarity"><span class="chip" style="background:#9a5ba6;color:#fff">Psychic</span> Stage 2 · 2 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Kadabra</b></td>
+          <td class="sets"><a href="cards/me-mega-evolution-promo.html">MEP</a> <span class="lid">#003</span>, <a href="cards/me-mega-evolution-promo.html">MEP</a> <span class="lid">#009</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02/044/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02/044/high.webp" alt="Alcremie"></td>
+          <td>
+            <div class="cname">Alcremie</div>
+            <div class="crarity"><span class="chip" style="background:#9a5ba6;color:#fff">Psychic</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Milcery</b></td>
+          <td class="sets"><a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#044</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02/079/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02/079/high.webp" alt="Ambipom"></td>
+          <td>
+            <div class="cname">Ambipom</div>
+            <div class="crarity"><span class="chip" style="background:#b9b4a8;color:#222">Colorless</span> Stage 1 · 2 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Aipom</b></td>
+          <td class="sets"><a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#079</span>, <a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#107</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02/075/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02/075/high.webp" alt="Archaludon"></td>
+          <td>
+            <div class="cname">Archaludon</div>
+            <div class="crarity"><span class="chip" style="background:#8a97a5;color:#222">Metal</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Duraludon</b></td>
+          <td class="sets"><a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#075</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/002/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/002/high.webp" alt="Ariados"></td>
+          <td>
+            <div class="cname">Ariados</div>
+            <div class="crarity"><span class="chip" style="background:#5aa469;color:#fff">Grass</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Spinarak</b></td>
+          <td class="sets"><a href="cards/me03-perfect-order.html">ME03</a> <span class="lid">#002</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/036/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/036/high.webp" alt="Aromatisse"></td>
+          <td>
+            <div class="cname">Aromatisse</div>
+            <div class="crarity"><span class="chip" style="background:#9a5ba6;color:#fff">Psychic</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Spritzee</b></td>
+          <td class="sets"><a href="cards/me03-perfect-order.html">ME03</a> <span class="lid">#036</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/091/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/091/high.webp" alt="Banette"></td>
+          <td>
+            <div class="cname">Banette</div>
+            <div class="crarity"><span class="chip" style="background:#9a5ba6;color:#fff">Psychic</span> Stage 1 · 2 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Shuppet</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#091</span>, <a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#234</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/043/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/043/high.webp" alt="Barbaracle"></td>
+          <td>
+            <div class="cname">Barbaracle</div>
+            <div class="crarity"><span class="chip" style="background:#b8542c;color:#fff">Fighting</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Binacle</b></td>
+          <td class="sets"><a href="cards/me03-perfect-order.html">ME03</a> <span class="lid">#043</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/009/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/009/high.webp" alt="Bayleef"></td>
+          <td>
+            <div class="cname">Bayleef</div>
+            <div class="crarity"><span class="chip" style="background:#5aa469;color:#fff">Grass</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Chikorita</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#009</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/147/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/147/high.webp" alt="Bisharp"></td>
+          <td>
+            <div class="cname">Bisharp</div>
+            <div class="crarity"><span class="chip" style="background:#8a97a5;color:#222">Metal</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Pawniard</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#147</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02/031/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02/031/high.webp" alt="Boltund"></td>
+          <td>
+            <div class="cname">Boltund</div>
+            <div class="crarity"><span class="chip" style="background:#e6b422;color:#222">Lightning</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Yamper</b></td>
+          <td class="sets"><a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#031</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02/047/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02/047/high.webp" alt="Brambleghast"></td>
+          <td>
+            <div class="cname">Brambleghast</div>
+            <div class="crarity"><span class="chip" style="background:#9a5ba6;color:#fff">Psychic</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Bramblin</b></td>
+          <td class="sets"><a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#047</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02/072/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02/072/high.webp" alt="Bronzong"></td>
+          <td>
+            <div class="cname">Bronzong</div>
+            <div class="crarity"><span class="chip" style="background:#8a97a5;color:#222">Metal</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Bronzor</b></td>
+          <td class="sets"><a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#072</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/119/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/119/high.webp" alt="Carkol"></td>
+          <td>
+            <div class="cname">Carkol</div>
+            <div class="crarity"><span class="chip" style="background:#b8542c;color:#fff">Fighting</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Rolycoly</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#119</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02/020/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02/020/high.webp" alt="Ceruledge"></td>
+          <td>
+            <div class="cname">Ceruledge</div>
+            <div class="crarity"><span class="chip" style="background:#e0632c;color:#fff">Fire</span> Stage 1 · 2 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Charcadet</b></td>
+          <td class="sets"><a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#020</span>, <a href="cards/me-mega-evolution-promo.html">MEP</a> <span class="lid">#014</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/065/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/065/high.webp" alt="Charjabug"></td>
+          <td>
+            <div class="cname">Charjabug</div>
+            <div class="crarity"><span class="chip" style="background:#e6b422;color:#222">Lightning</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Grubbin</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#065</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02/012/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02/012/high.webp" alt="Charmeleon"></td>
+          <td>
+            <div class="cname">Charmeleon</div>
+            <div class="crarity"><span class="chip" style="background:#e0632c;color:#fff">Fire</span> Stage 1 · 2 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Charmander</b></td>
+          <td class="sets"><a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#012</span>, <a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#021</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/075/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/075/high.webp" alt="Clefable"></td>
+          <td>
+            <div class="cname">Clefable</div>
+            <div class="crarity"><span class="chip" style="background:#9a5ba6;color:#fff">Psychic</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Clefairy</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#075</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/120/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/120/high.webp" alt="Coalossal"></td>
+          <td>
+            <div class="cname">Coalossal</div>
+            <div class="crarity"><span class="chip" style="background:#b8542c;color:#fff">Fighting</span> Stage 2 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Carkol</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#120</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/042/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/042/high.webp" alt="Croconaw"></td>
+          <td>
+            <div class="cname">Croconaw</div>
+            <div class="crarity"><span class="chip" style="background:#3a9bdc;color:#fff">Water</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Totodile</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#042</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/110/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/110/high.webp" alt="Cynthia's Gabite"></td>
+          <td>
+            <div class="cname">Cynthia's Gabite</div>
+            <div class="crarity"><span class="chip" style="background:#b8542c;color:#fff">Fighting</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Cynthia's Gible</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#110</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/111/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/111/high.webp" alt="Cynthia's Garchomp ex"></td>
+          <td>
+            <div class="cname">Cynthia's Garchomp ex</div>
+            <div class="crarity"><span class="chip" style="background:#b8542c;color:#fff">Fighting</span> Stage 2 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Cynthia's Gabite</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#111</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02/016/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02/016/high.webp" alt="Darmanitan"></td>
+          <td>
+            <div class="cname">Darmanitan</div>
+            <div class="crarity"><span class="chip" style="background:#e0632c;color:#fff">Fire</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Darumaka</b></td>
+          <td class="sets"><a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#016</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/011/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/011/high.webp" alt="Dartrix"></td>
+          <td>
+            <div class="cname">Dartrix</div>
+            <div class="crarity"><span class="chip" style="background:#5aa469;color:#fff">Grass</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Rowlet</b></td>
+          <td class="sets"><a href="cards/me03-perfect-order.html">ME03</a> <span class="lid">#011</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/166/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/166/high.webp" alt="Delcatty"></td>
+          <td>
+            <div class="cname">Delcatty</div>
+            <div class="crarity"><span class="chip" style="background:#b9b4a8;color:#222">Colorless</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Skitty</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#166</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/057/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/057/high.webp" alt="Doublade"></td>
+          <td>
+            <div class="cname">Doublade</div>
+            <div class="crarity"><span class="chip" style="background:#8a97a5;color:#222">Metal</span> Stage 1 · 2 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Honedge</b></td>
+          <td class="sets"><a href="cards/me03-perfect-order.html">ME03</a> <span class="lid">#057</span>, <a href="cards/me03-perfect-order.html">ME03</a> <span class="lid">#098</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/160/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/160/high.webp" alt="Dragapult ex"></td>
+          <td>
+            <div class="cname">Dragapult ex</div>
+            <div class="crarity"><span class="chip" style="background:#b7952f;color:#fff">Dragon</span> Stage 2 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Drakloak</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#160</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/159/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/159/high.webp" alt="Drakloak"></td>
+          <td>
+            <div class="cname">Drakloak</div>
+            <div class="crarity"><span class="chip" style="background:#b7952f;color:#fff">Dragon</span> Stage 1 · 2 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Dreepy</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#159</span>, <a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#248</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/sv/sv07/061/low.webp" data-hi="https://assets.tcgdex.net/en/sv/sv07/061/high.webp" alt="Drifblim"></td>
+          <td>
+            <div class="cname">Drifblim</div>
+            <div class="crarity"><span class="chip" style="background:#9a5ba6;color:#fff">Psychic</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Drifloon</b></td>
+          <td class="sets"><a href="cards/me-mega-evolution-promo.html">MEP</a> <span class="lid">#006</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/060/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/060/high.webp" alt="Eelektrik"></td>
+          <td>
+            <div class="cname">Eelektrik</div>
+            <div class="crarity"><span class="chip" style="background:#e6b422;color:#222">Lightning</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Tynamo</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#060</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/024/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/024/high.webp" alt="Ethan's Magcargo"></td>
+          <td>
+            <div class="cname">Ethan's Magcargo</div>
+            <div class="crarity"><span class="chip" style="background:#e0632c;color:#fff">Fire</span> Stage 1 · 2 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Ethan's Slugma</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#024</span>, <a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#222</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/013/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/013/high.webp" alt="Fletchinder"></td>
+          <td>
+            <div class="cname">Fletchinder</div>
+            <div class="crarity"><span class="chip" style="background:#e0632c;color:#fff">Fire</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Fletchling</b></td>
+          <td class="sets"><a href="cards/me03-perfect-order.html">ME03</a> <span class="lid">#013</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/053/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/053/high.webp" alt="Frosmoth"></td>
+          <td>
+            <div class="cname">Frosmoth</div>
+            <div class="crarity"><span class="chip" style="background:#3a9bdc;color:#fff">Water</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Snom</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#053</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02/055/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02/055/high.webp" alt="Haunter"></td>
+          <td>
+            <div class="cname">Haunter</div>
+            <div class="crarity"><span class="chip" style="background:#4a4a63;color:#fff">Darkness</span> Stage 1 · 3 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Gastly</b></td>
+          <td class="sets"><a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#055</span>, <a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#124</span>, <a href="cards/me03-perfect-order.html">ME03</a> <span class="lid">#049</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/064/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/064/high.webp" alt="Heliolisk"></td>
+          <td>
+            <div class="cname">Heliolisk</div>
+            <div class="crarity"><span class="chip" style="background:#e6b422;color:#222">Lightning</span> Stage 1 · 2 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Helioptile</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#064</span>, <a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#229</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/040/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/040/high.webp" alt="Hippowdon"></td>
+          <td>
+            <div class="cname">Hippowdon</div>
+            <div class="crarity"><span class="chip" style="background:#b8542c;color:#fff">Fighting</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Hippopotas</b></td>
+          <td class="sets"><a href="cards/me03-perfect-order.html">ME03</a> <span class="lid">#040</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me01/041/low.webp" data-hi="https://assets.tcgdex.net/en/me/me01/041/high.webp" alt="Inteleon"></td>
+          <td>
+            <div class="cname">Inteleon</div>
+            <div class="crarity"><span class="chip" style="background:#3a9bdc;color:#fff">Water</span> Stage 2 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Drizzile</b></td>
+          <td class="sets"><a href="cards/me-mega-evolution-promo.html">MEP</a> <span class="lid">#002</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/070/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/070/high.webp" alt="Iono's Bellibolt ex"></td>
+          <td>
+            <div class="cname">Iono's Bellibolt ex</div>
+            <div class="crarity"><span class="chip" style="background:#e6b422;color:#222">Lightning</span> Stage 1 · 2 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Iono's Tadbulb</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#070</span>, <a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#279</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/072/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/072/high.webp" alt="Iono's Kilowattrel"></td>
+          <td>
+            <div class="cname">Iono's Kilowattrel</div>
+            <div class="crarity"><span class="chip" style="background:#e6b422;color:#222">Lightning</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Iono's Wattrel</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#072</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/148/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/148/high.webp" alt="Kingambit"></td>
+          <td>
+            <div class="cname">Kingambit</div>
+            <div class="crarity"><span class="chip" style="background:#8a97a5;color:#222">Metal</span> Stage 2 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Bisharp</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#148</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/088/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/088/high.webp" alt="Kirlia"></td>
+          <td>
+            <div class="cname">Kirlia</div>
+            <div class="crarity"><span class="chip" style="background:#9a5ba6;color:#fff">Psychic</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Ralts</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#088</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02/065/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02/065/high.webp" alt="Krokorok"></td>
+          <td>
+            <div class="cname">Krokorok</div>
+            <div class="crarity"><span class="chip" style="background:#4a4a63;color:#fff">Darkness</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Sandile</b></td>
+          <td class="sets"><a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#065</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02/066/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02/066/high.webp" alt="Krookodile"></td>
+          <td>
+            <div class="cname">Krookodile</div>
+            <div class="crarity"><span class="chip" style="background:#4a4a63;color:#fff">Darkness</span> Stage 2 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Krokorok</b></td>
+          <td class="sets"><a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#066</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02/010/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02/010/high.webp" alt="Lokix"></td>
+          <td>
+            <div class="cname">Lokix</div>
+            <div class="crarity"><span class="chip" style="background:#5aa469;color:#fff">Grass</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Nymble</b></td>
+          <td class="sets"><a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#010</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02/006/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02/006/high.webp" alt="Lombre"></td>
+          <td>
+            <div class="cname">Lombre</div>
+            <div class="crarity"><span class="chip" style="background:#5aa469;color:#fff">Grass</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Lotad</b></td>
+          <td class="sets"><a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#006</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02/007/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02/007/high.webp" alt="Ludicolo"></td>
+          <td>
+            <div class="cname">Ludicolo</div>
+            <div class="crarity"><span class="chip" style="background:#5aa469;color:#fff">Grass</span> Stage 2 · 2 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Lombre</b></td>
+          <td class="sets"><a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#007</span>, <a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#095</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/027/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/027/high.webp" alt="Luxio"></td>
+          <td>
+            <div class="cname">Luxio</div>
+            <div class="crarity"><span class="chip" style="background:#e6b422;color:#222">Lightning</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Shinx</b></td>
+          <td class="sets"><a href="cards/me03-perfect-order.html">ME03</a> <span class="lid">#027</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/287/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/287/high.webp" alt="Marnie's Grimmsnarl ex"></td>
+          <td>
+            <div class="cname">Marnie's Grimmsnarl ex</div>
+            <div class="crarity"><span class="chip" style="background:#4a4a63;color:#fff">Darkness</span> Stage 2 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Marnie's Morgrem</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#287</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/104/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/104/high.webp" alt="Medicham"></td>
+          <td>
+            <div class="cname">Medicham</div>
+            <div class="crarity"><span class="chip" style="background:#b8542c;color:#fff">Fighting</span> Stage 1 · 2 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Meditite</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#104</span>, <a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#241</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02/013/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02/013/high.webp" alt="Mega Charizard X ex"></td>
+          <td>
+            <div class="cname">Mega Charizard X ex</div>
+            <div class="crarity"><span class="chip" style="background:#e0632c;color:#fff">Fire</span> Stage 2 · 4 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Charmeleon</b></td>
+          <td class="sets"><a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#013</span>, <a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#109</span>, <a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#125</span>, <a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#130</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/022/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/022/high.webp" alt="Mega Charizard Y ex"></td>
+          <td>
+            <div class="cname">Mega Charizard Y ex</div>
+            <div class="crarity"><span class="chip" style="background:#e0632c;color:#fff">Fire</span> Stage 2 · 2 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Charmeleon</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#022</span>, <a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#294</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/089/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/089/high.webp" alt="Mega Gardevoir ex"></td>
+          <td>
+            <div class="cname">Mega Gardevoir ex</div>
+            <div class="crarity"><span class="chip" style="background:#9a5ba6;color:#fff">Psychic</span> Stage 2 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Kirlia</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#089</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me01/010/low.webp" data-hi="https://assets.tcgdex.net/en/me/me01/010/high.webp" alt="Meganium"></td>
+          <td>
+            <div class="cname">Meganium</div>
+            <div class="crarity"><span class="chip" style="background:#5aa469;color:#fff">Grass</span> Stage 2 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Bayleef</b></td>
+          <td class="sets"><a href="cards/me-mega-evolution-promo.html">MEP</a> <span class="lid">#001</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/034/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/034/high.webp" alt="Meowstic"></td>
+          <td>
+            <div class="cname">Meowstic</div>
+            <div class="crarity"><span class="chip" style="background:#9a5ba6;color:#fff">Psychic</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Espurr</b></td>
+          <td class="sets"><a href="cards/me03-perfect-order.html">ME03</a> <span class="lid">#034</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/129/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/129/high.webp" alt="Mightyena"></td>
+          <td>
+            <div class="cname">Mightyena</div>
+            <div class="crarity"><span class="chip" style="background:#4a4a63;color:#fff">Darkness</span> Stage 1 · 2 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Poochyena</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#129</span>, <a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#243</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/033/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/033/high.webp" alt="N's Darmanitan"></td>
+          <td>
+            <div class="cname">N's Darmanitan</div>
+            <div class="crarity"><span class="chip" style="background:#e0632c;color:#fff">Fire</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>N's Darumaka</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#033</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/137/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/137/high.webp" alt="N's Zoroark ex"></td>
+          <td>
+            <div class="cname">N's Zoroark ex</div>
+            <div class="crarity"><span class="chip" style="background:#4a4a63;color:#fff">Darkness</span> Stage 1 · 2 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>N's Zorua</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#137</span>, <a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#286</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/157/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/157/high.webp" alt="Noivern"></td>
+          <td>
+            <div class="cname">Noivern</div>
+            <div class="crarity"><span class="chip" style="background:#b7952f;color:#fff">Dragon</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Noibat</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#157</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/140/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/140/high.webp" alt="Pangoro"></td>
+          <td>
+            <div class="cname">Pangoro</div>
+            <div class="crarity"><span class="chip" style="background:#4a4a63;color:#fff">Darkness</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Pancham</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#140</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02/034/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02/034/high.webp" alt="Pawmot"></td>
+          <td>
+            <div class="cname">Pawmot</div>
+            <div class="crarity"><span class="chip" style="background:#e6b422;color:#222">Lightning</span> Stage 2 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Pawmo</b></td>
+          <td class="sets"><a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#034</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/030/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/030/high.webp" alt="Pignite"></td>
+          <td>
+            <div class="cname">Pignite</div>
+            <div class="crarity"><span class="chip" style="background:#e0632c;color:#fff">Fire</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Tepig</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#030</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02/024/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02/024/high.webp" alt="Piloswine"></td>
+          <td>
+            <div class="cname">Piloswine</div>
+            <div class="crarity"><span class="chip" style="background:#3a9bdc;color:#fff">Water</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Swinub</b></td>
+          <td class="sets"><a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#024</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/038/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/038/high.webp" alt="Probopass"></td>
+          <td>
+            <div class="cname">Probopass</div>
+            <div class="crarity"><span class="chip" style="background:#b8542c;color:#fff">Fighting</span> Stage 1 · 2 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Nosepass</b></td>
+          <td class="sets"><a href="cards/me03-perfect-order.html">ME03</a> <span class="lid">#038</span>, <a href="cards/me03-perfect-order.html">ME03</a> <span class="lid">#096</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/037/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/037/high.webp" alt="Raboot"></td>
+          <td>
+            <div class="cname">Raboot</div>
+            <div class="crarity"><span class="chip" style="background:#e0632c;color:#fff">Fire</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Scorbunny</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#037</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/056/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/056/high.webp" alt="Raichu"></td>
+          <td>
+            <div class="cname">Raichu</div>
+            <div class="crarity"><span class="chip" style="background:#e6b422;color:#222">Lightning</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Pikachu</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#056</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/035/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/035/high.webp" alt="Salazzle"></td>
+          <td>
+            <div class="cname">Salazzle</div>
+            <div class="crarity"><span class="chip" style="background:#e0632c;color:#fff">Fire</span> Stage 1 · 2 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Salandit</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#035</span>, <a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#224</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/006/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/006/high.webp" alt="Serperior"></td>
+          <td>
+            <div class="cname">Serperior</div>
+            <div class="crarity"><span class="chip" style="background:#5aa469;color:#fff">Grass</span> Stage 2 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Servine</b></td>
+          <td class="sets"><a href="cards/me03-perfect-order.html">ME03</a> <span class="lid">#006</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/005/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/005/high.webp" alt="Servine"></td>
+          <td>
+            <div class="cname">Servine</div>
+            <div class="crarity"><span class="chip" style="background:#5aa469;color:#fff">Grass</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Snivy</b></td>
+          <td class="sets"><a href="cards/me03-perfect-order.html">ME03</a> <span class="lid">#005</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/094/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/094/high.webp" alt="Slurpuff"></td>
+          <td>
+            <div class="cname">Slurpuff</div>
+            <div class="crarity"><span class="chip" style="background:#9a5ba6;color:#fff">Psychic</span> Stage 1 · 2 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Swirlix</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#094</span>, <a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#236</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/008/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/008/high.webp" alt="Spewpa"></td>
+          <td>
+            <div class="cname">Spewpa</div>
+            <div class="crarity"><span class="chip" style="background:#5aa469;color:#fff">Grass</span> Stage 1 · 2 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Scatterbug</b></td>
+          <td class="sets"><a href="cards/me03-perfect-order.html">ME03</a> <span class="lid">#008</span>, <a href="cards/me03-perfect-order.html">ME03</a> <span class="lid">#089</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/289/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/289/high.webp" alt="Steven's Metagross ex"></td>
+          <td>
+            <div class="cname">Steven's Metagross ex</div>
+            <div class="crarity"><span class="chip" style="background:#8a97a5;color:#222">Metal</span> Stage 2 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Steven's Metang</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#289</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/014/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/014/high.webp" alt="Talonflame"></td>
+          <td>
+            <div class="cname">Talonflame</div>
+            <div class="crarity"><span class="chip" style="background:#e0632c;color:#fff">Fire</span> Stage 2 · 2 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Fletchinder</b></td>
+          <td class="sets"><a href="cards/me03-perfect-order.html">ME03</a> <span class="lid">#014</span>, <a href="cards/me03-perfect-order.html">ME03</a> <span class="lid">#091</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/019/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/019/high.webp" alt="Team Rocket's Spidops"></td>
+          <td>
+            <div class="cname">Team Rocket's Spidops</div>
+            <div class="crarity"><span class="chip" style="background:#5aa469;color:#fff">Grass</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Team Rocket's Tarountula</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#019</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/082/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/082/high.webp" alt="Togekiss"></td>
+          <td>
+            <div class="cname">Togekiss</div>
+            <div class="crarity"><span class="chip" style="background:#9a5ba6;color:#fff">Psychic</span> Stage 2 · 2 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Togetic</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#082</span>, <a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#235</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/081/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/081/high.webp" alt="Togetic"></td>
+          <td>
+            <div class="cname">Togetic</div>
+            <div class="crarity"><span class="chip" style="background:#9a5ba6;color:#fff">Psychic</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Togepi</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#081</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/045/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/045/high.webp" alt="Tyrantrum"></td>
+          <td>
+            <div class="cname">Tyrantrum</div>
+            <div class="crarity"><span class="chip" style="background:#b8542c;color:#fff">Fighting</span> Stage 2 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Tyrunt</b></td>
+          <td class="sets"><a href="cards/me03-perfect-order.html">ME03</a> <span class="lid">#045</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/044/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/044/high.webp" alt="Tyrunt"></td>
+          <td>
+            <div class="cname">Tyrunt</div>
+            <div class="crarity"><span class="chip" style="background:#b8542c;color:#fff">Fighting</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Antique Jaw Fossil</b></td>
+          <td class="sets"><a href="cards/me03-perfect-order.html">ME03</a> <span class="lid">#044</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02/052/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02/052/high.webp" alt="Vibrava"></td>
+          <td>
+            <div class="cname">Vibrava</div>
+            <div class="crarity"><span class="chip" style="background:#b8542c;color:#fff">Fighting</span> Stage 1 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Trapinch</b></td>
+          <td class="sets"><a href="cards/me02-phantasmal-flames.html">ME02</a> <span class="lid">#052</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/066/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/066/high.webp" alt="Vikavolt"></td>
+          <td>
+            <div class="cname">Vikavolt</div>
+            <div class="crarity"><span class="chip" style="background:#e6b422;color:#222">Lightning</span> Stage 2 · 2 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Charjabug</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#066</span>, <a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#230</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me03/009/low.webp" data-hi="https://assets.tcgdex.net/en/me/me03/009/high.webp" alt="Vivillon"></td>
+          <td>
+            <div class="cname">Vivillon</div>
+            <div class="crarity"><span class="chip" style="background:#5aa469;color:#fff">Grass</span> Stage 2 · 1 card</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Spewpa</b></td>
+          <td class="sets"><a href="cards/me03-perfect-order.html">ME03</a> <span class="lid">#009</span></td>
+        </tr>
+<tr class="cardrow">
+          <td class="thumb"><img loading="lazy" src="https://assets.tcgdex.net/en/me/me02.5/045/low.webp" data-hi="https://assets.tcgdex.net/en/me/me02.5/045/high.webp" alt="Weavile"></td>
+          <td>
+            <div class="cname">Weavile</div>
+            <div class="crarity"><span class="chip" style="background:#3a9bdc;color:#fff">Water</span> Stage 1 · 2 cards</div>
+          </td>
+          <td class="evo"><span class="arrow">evolves from</span> <b>Sneasel</b></td>
+          <td class="sets"><a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#045</span>, <a href="cards/me-ascended-heroes.html">ASH</a> <span class="lid">#228</span></td>
+        </tr>
+</tbody></table></div>
+
+<div id="imgpop"><img alt=""></div>
+<script>
+(function () {
+  var pop = document.getElementById("imgpop");
+  var popImg = pop.querySelector("img");
+  function move(e) {
+    var w = 480, h = 671; // standard card aspect ratio at popup width
+    var x = e.clientX + 20, y = e.clientY - h / 3;
+    if (x + w > innerWidth - 8) x = e.clientX - w - 20;
+    y = Math.max(8, Math.min(y, innerHeight - h - 8));
+    pop.style.left = x + "px";
+    pop.style.top = y + "px";
+  }
+  document.querySelectorAll("[data-hi]").forEach(function (el) {
+    el.addEventListener("mouseenter", function (e) {
+      popImg.src = el.dataset.hi;
+      pop.style.display = "block";
+      move(e);
+    });
+    el.addEventListener("mousemove", move);
+    el.addEventListener("mouseleave", function () {
+      pop.style.display = "none";
+      popImg.removeAttribute("src");
+    });
+  });
+})();
+</script>
+</body>
+</html>

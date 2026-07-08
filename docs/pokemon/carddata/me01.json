@@ -1,0 +1,7478 @@
+{
+ "tcgdexId": "me01",
+ "setName": "Mega Evolution",
+ "fetched": "2026-07-07T19:04:41.076Z",
+ "cards": [
+  {
+   "localId": "001",
+   "name": "Bulbasaur",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 80,
+   "types": [
+    "Grass"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Grass"
+     ],
+     "name": "Bind Down",
+     "effect": "During your opponent's next turn, the Defending Pokémon can't retreat.",
+     "damage": 10
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fire",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/001",
+   "dexId": [
+    1
+   ]
+  },
+  {
+   "localId": "002",
+   "name": "Ivysaur",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 110,
+   "types": [
+    "Grass"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Bulbasaur",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Grass",
+      "Grass"
+     ],
+     "name": "Razor Leaf",
+     "damage": 60
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fire",
+     "value": "×2"
+    }
+   ],
+   "retreat": 3,
+   "image": "https://assets.tcgdex.net/en/me/me01/002",
+   "dexId": [
+    2
+   ]
+  },
+  {
+   "localId": "003",
+   "name": "Mega Venusaur ex",
+   "category": "Pokemon",
+   "rarity": "Double rare",
+   "regulationMark": "I",
+   "hp": 380,
+   "types": [
+    "Grass"
+   ],
+   "stage": "Stage2",
+   "suffix": "ex",
+   "evolveFrom": "Ivysaur",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": [
+    {
+     "type": "Ability",
+     "name": "Solar Transfer",
+     "effect": "As often as you like during your turn, you may use this Ability. Move a Basic {G} Energy from 1 of your Pokémon to another of your Pokémon."
+    }
+   ],
+   "attacks": [
+    {
+     "cost": [
+      "Grass",
+      "Grass",
+      "Grass",
+      "Grass"
+     ],
+     "name": "Jungle Dump",
+     "effect": "Heal 30 damage from this Pokémon.",
+     "damage": 240
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fire",
+     "value": "×2"
+    }
+   ],
+   "retreat": 4,
+   "image": "https://assets.tcgdex.net/en/me/me01/003",
+   "dexId": [
+    3
+   ]
+  },
+  {
+   "localId": "004",
+   "name": "Exeggcute",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 60,
+   "types": [
+    "Grass"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless"
+     ],
+     "name": "Jam-Packed",
+     "effect": "Search your deck for a Basic {G} Energy card and attach it to this Pokémon. Then, shuffle your deck."
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fire",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/004",
+   "dexId": [
+    102
+   ]
+  },
+  {
+   "localId": "005",
+   "name": "Exeggutor",
+   "category": "Pokemon",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": 140,
+   "types": [
+    "Grass"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Exeggcute",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Grass"
+     ],
+     "name": "Guard Press",
+     "effect": "During your opponent's next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+     "damage": 30
+    },
+    {
+     "cost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Stomping Wood",
+     "effect": "This attack does 30 more damage for each {G} Energy attached to this Pokémon.",
+     "damage": "60+"
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fire",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/005",
+   "dexId": [
+    103
+   ]
+  },
+  {
+   "localId": "006",
+   "name": "Tangela",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 80,
+   "types": [
+    "Grass"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Grass"
+     ],
+     "name": "Poison Powder",
+     "effect": "Your opponent's Active Pokémon is now Poisoned."
+    },
+    {
+     "cost": [
+      "Grass",
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Hook",
+     "damage": 30
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fire",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/006",
+   "dexId": [
+    114
+   ]
+  },
+  {
+   "localId": "007",
+   "name": "Tangrowth",
+   "category": "Pokemon",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": 150,
+   "types": [
+    "Grass"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Tangela",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Grass",
+      "Colorless"
+     ],
+     "name": "Absorb",
+     "effect": "Heal 30 damage from this Pokémon.",
+     "damage": 30
+    },
+    {
+     "cost": [
+      "Grass",
+      "Grass",
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Pumped-Up Whip",
+     "effect": "If this Pokémon has at least 2 extra Energy attached (in addition to this attack's cost), this attack does 140 more damage.",
+     "damage": "120+"
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fire",
+     "value": "×2"
+    }
+   ],
+   "retreat": 4,
+   "image": "https://assets.tcgdex.net/en/me/me01/007",
+   "dexId": [
+    465
+   ]
+  },
+  {
+   "localId": "008",
+   "name": "Chikorita",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 70,
+   "types": [
+    "Grass"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Grass"
+     ],
+     "name": "Razor Leaf",
+     "damage": 20
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fire",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/008",
+   "dexId": [
+    152
+   ]
+  },
+  {
+   "localId": "009",
+   "name": "Bayleef",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 110,
+   "types": [
+    "Grass"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Chikorita",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Grass",
+      "Colorless"
+     ],
+     "name": "Push Down",
+     "effect": "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
+     "damage": 50
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fire",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/009",
+   "dexId": [
+    153
+   ]
+  },
+  {
+   "localId": "010",
+   "name": "Meganium",
+   "category": "Pokemon",
+   "rarity": "Rare",
+   "regulationMark": "I",
+   "hp": 160,
+   "types": [
+    "Grass"
+   ],
+   "stage": "Stage2",
+   "suffix": null,
+   "evolveFrom": "Bayleef",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": [
+    {
+     "type": "Ability",
+     "name": "Wild Growth",
+     "effect": "Each Basic {G} Energy attached to all of your Pokémon provides {G}{G} Energy. The effect of Wild Growth doesn't stack."
+    }
+   ],
+   "attacks": [
+    {
+     "cost": [
+      "Grass",
+      "Grass",
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Solar Beam",
+     "damage": 140
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fire",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/010",
+   "dexId": [
+    154
+   ]
+  },
+  {
+   "localId": "011",
+   "name": "Shuckle",
+   "category": "Pokemon",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": 80,
+   "types": [
+    "Grass"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": [
+    {
+     "type": "Ability",
+     "name": "Fermented Juice",
+     "effect": "Once during your turn, if this Pokémon has any {G} Energy attached, you may use this Ability. Heal 30 damage from 1 of your Pokémon."
+    }
+   ],
+   "attacks": [
+    {
+     "cost": [
+      "Grass",
+      "Colorless"
+     ],
+     "name": "Rollout",
+     "damage": 30
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fire",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/011",
+   "dexId": [
+    213
+   ]
+  },
+  {
+   "localId": "012",
+   "name": "Celebi",
+   "category": "Pokemon",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": 80,
+   "types": [
+    "Grass"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Grass"
+     ],
+     "name": "Traverse Time",
+     "effect": "Search your deck for up to 3 in any combination of {G} Pokémon and Stadium cards, reveal them, and put them into your hand. Then, shuffle your deck."
+    },
+    {
+     "cost": [
+      "Grass"
+     ],
+     "name": "Solar Cutter",
+     "damage": 30
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fire",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/012",
+   "dexId": [
+    251
+   ]
+  },
+  {
+   "localId": "013",
+   "name": "Seedot",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 60,
+   "types": [
+    "Grass"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless"
+     ],
+     "name": "Nap",
+     "effect": "Heal 20 damage from this Pokémon."
+    },
+    {
+     "cost": [
+      "Grass",
+      "Colorless"
+     ],
+     "name": "Seed Bomb",
+     "damage": 20
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fire",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/013",
+   "dexId": [
+    273
+   ]
+  },
+  {
+   "localId": "014",
+   "name": "Nuzleaf",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 100,
+   "types": [
+    "Grass"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Seedot",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Grass"
+     ],
+     "name": "Pound",
+     "damage": 30
+    },
+    {
+     "cost": [
+      "Grass",
+      "Colorless"
+     ],
+     "name": "Low Kick",
+     "damage": 50
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fire",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/014",
+   "dexId": [
+    274
+   ]
+  },
+  {
+   "localId": "015",
+   "name": "Shiftry",
+   "category": "Pokemon",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": 160,
+   "types": [
+    "Grass"
+   ],
+   "stage": "Stage2",
+   "suffix": null,
+   "evolveFrom": "Nuzleaf",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Grass"
+     ],
+     "name": "Reversing Gust",
+     "effect": "Flip a coin. If heads, choose 1 of your opponent's Pokémon. Shuffle that Pokémon and all attached cards into their deck."
+    },
+    {
+     "cost": [
+      "Grass",
+      "Colorless"
+     ],
+     "name": "Perplex",
+     "effect": "Your opponent's Active Pokémon is now Confused.",
+     "damage": 100
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fire",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/015",
+   "dexId": [
+    275
+   ]
+  },
+  {
+   "localId": "016",
+   "name": "Nincada",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 50,
+   "types": [
+    "Grass"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless"
+     ],
+     "name": "Scratch",
+     "damage": 20
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fire",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/016",
+   "dexId": [
+    290
+   ]
+  },
+  {
+   "localId": "017",
+   "name": "Ninjask",
+   "category": "Pokemon",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": 80,
+   "types": [
+    "Grass"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Nincada",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": [
+    {
+     "type": "Ability",
+     "name": "Cast-Off Shell",
+     "effect": "Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Search your deck for a Shedinja and put it onto your Bench. Then, shuffle your deck."
+    }
+   ],
+   "attacks": [
+    {
+     "cost": [
+      "Grass",
+      "Colorless"
+     ],
+     "name": "U-turn",
+     "effect": "Switch this Pokémon with 1 of your Benched Pokémon.",
+     "damage": 90
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fire",
+     "value": "×2"
+    }
+   ],
+   "retreat": 0,
+   "image": "https://assets.tcgdex.net/en/me/me01/017",
+   "dexId": [
+    291
+   ]
+  },
+  {
+   "localId": "018",
+   "name": "Dhelmise",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 120,
+   "types": [
+    "Grass"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Grass",
+      "Colorless"
+     ],
+     "name": "Earthen Power",
+     "effect": "If you have a Stadium in play, this attack does 50 more damage.",
+     "damage": "30+"
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fire",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/018",
+   "dexId": [
+    781
+   ]
+  },
+  {
+   "localId": "019",
+   "name": "Vulpix",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 70,
+   "types": [
+    "Fire"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless"
+     ],
+     "name": "Stampede",
+     "damage": 10
+    },
+    {
+     "cost": [
+      "Fire",
+      "Colorless"
+     ],
+     "name": "Combustion",
+     "damage": 20
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Water",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/019",
+   "dexId": [
+    37
+   ]
+  },
+  {
+   "localId": "020",
+   "name": "Ninetales",
+   "category": "Pokemon",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": 120,
+   "types": [
+    "Fire"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Vulpix",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless"
+     ],
+     "name": "Supernatural Shapeshifter",
+     "effect": "Discard the top card of your deck, and if that card is a Supporter card, use the effect of that card as the effect of this attack."
+    },
+    {
+     "cost": [
+      "Fire",
+      "Colorless"
+     ],
+     "name": "Combustion",
+     "damage": 60
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Water",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/020",
+   "dexId": [
+    38
+   ]
+  },
+  {
+   "localId": "021",
+   "name": "Numel",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 80,
+   "types": [
+    "Fire"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Fire"
+     ],
+     "name": "Call for Family",
+     "effect": "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck."
+    },
+    {
+     "cost": [
+      "Fire",
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Flare",
+     "damage": 30
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Water",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/021",
+   "dexId": [
+    322
+   ]
+  },
+  {
+   "localId": "022",
+   "name": "Mega Camerupt ex",
+   "category": "Pokemon",
+   "rarity": "Double rare",
+   "regulationMark": "I",
+   "hp": 340,
+   "types": [
+    "Fire"
+   ],
+   "stage": "Stage1",
+   "suffix": "ex",
+   "evolveFrom": "Numel",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Fire"
+     ],
+     "name": "Roasting Heat",
+     "effect": "If your opponent's Active Pokémon is Burned, this attack does 160 more damage.",
+     "damage": "80+"
+    },
+    {
+     "cost": [
+      "Fire",
+      "Colorless",
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Volcanic Meteor",
+     "effect": "Discard 2 Energy from this Pokémon.",
+     "damage": 280
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Water",
+     "value": "×2"
+    }
+   ],
+   "retreat": 4,
+   "image": "https://assets.tcgdex.net/en/me/me01/022",
+   "dexId": [
+    323
+   ]
+  },
+  {
+   "localId": "023",
+   "name": "Litleo",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 70,
+   "types": [
+    "Fire"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Fire",
+      "Colorless"
+     ],
+     "name": "Flare",
+     "damage": 30
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Water",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/023",
+   "dexId": [
+    667
+   ]
+  },
+  {
+   "localId": "024",
+   "name": "Pyroar",
+   "category": "Pokemon",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": 130,
+   "types": [
+    "Fire"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Litleo",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": [
+    {
+     "type": "Ability",
+     "name": "Intimidating Fang",
+     "effect": "As long as this Pokémon is in the Active Spot, attacks used by your opponent's Active Pokémon do 30 less damage (before applying Weakness and Resistance)."
+    }
+   ],
+   "attacks": [
+    {
+     "cost": [
+      "Fire",
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Searing Flame",
+     "effect": "Your opponent's Active Pokémon is now Burned.",
+     "damage": 70
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Water",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/024",
+   "dexId": [
+    668
+   ]
+  },
+  {
+   "localId": "025",
+   "name": "Volcanion",
+   "category": "Pokemon",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": 130,
+   "types": [
+    "Fire"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Fire"
+     ],
+     "name": "Singe",
+     "effect": "Your opponent's Active Pokémon is now Burned."
+    },
+    {
+     "cost": [
+      "Fire",
+      "Fire",
+      "Colorless"
+     ],
+     "name": "Backfire",
+     "effect": "Put 2 {R} Energy attached to this Pokémon into your hand.",
+     "damage": 130
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Water",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/025",
+   "dexId": [
+    721
+   ]
+  },
+  {
+   "localId": "026",
+   "name": "Scorbunny",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 70,
+   "types": [
+    "Fire"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless"
+     ],
+     "name": "Wild Kick",
+     "effect": "Flip a coin. If tails, this attack does nothing.",
+     "damage": 30
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Water",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/026",
+   "dexId": [
+    813
+   ]
+  },
+  {
+   "localId": "027",
+   "name": "Raboot",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 100,
+   "types": [
+    "Fire"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Scorbunny",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless"
+     ],
+     "name": "Jumping Kick",
+     "effect": "This attack does 40 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Water",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/027",
+   "dexId": [
+    814
+   ]
+  },
+  {
+   "localId": "028",
+   "name": "Cinderace",
+   "category": "Pokemon",
+   "rarity": "Rare",
+   "regulationMark": "I",
+   "hp": 160,
+   "types": [
+    "Fire"
+   ],
+   "stage": "Stage2",
+   "suffix": null,
+   "evolveFrom": "Raboot",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": [
+    {
+     "type": "Ability",
+     "name": "Explosiveness",
+     "effect": "If this Pokémon is in your hand when you are setting up to play, you may put it face down in the Active Spot."
+    }
+   ],
+   "attacks": [
+    {
+     "cost": [
+      "Colorless"
+     ],
+     "name": "Turbo Flare",
+     "effect": "Search your deck for up to 3 Basic Energy cards and attach them to your Benched Pokémon in any way you like. Then, shuffle your deck.",
+     "damage": 50
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Water",
+     "value": "×2"
+    }
+   ],
+   "retreat": 0,
+   "image": "https://assets.tcgdex.net/en/me/me01/028",
+   "dexId": [
+    815
+   ]
+  },
+  {
+   "localId": "029",
+   "name": "Sizzlipede",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 80,
+   "types": [
+    "Fire"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Fire"
+     ],
+     "name": "Ram",
+     "damage": 10
+    },
+    {
+     "cost": [
+      "Fire",
+      "Fire",
+      "Colorless"
+     ],
+     "name": "Combustion",
+     "damage": 50
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Water",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/029",
+   "dexId": [
+    850
+   ]
+  },
+  {
+   "localId": "030",
+   "name": "Centiskorch",
+   "category": "Pokemon",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": 140,
+   "types": [
+    "Fire"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Sizzlipede",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Coiling Crush",
+     "effect": "Flip 2 coins. For each heads, discard an Energy from your opponent's Active Pokémon.",
+     "damage": 50
+    },
+    {
+     "cost": [
+      "Fire",
+      "Fire",
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Heat Crawler",
+     "damage": 140
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Water",
+     "value": "×2"
+    }
+   ],
+   "retreat": 3,
+   "image": "https://assets.tcgdex.net/en/me/me01/030",
+   "dexId": [
+    851
+   ]
+  },
+  {
+   "localId": "031",
+   "name": "Chi-Yu",
+   "category": "Pokemon",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": 110,
+   "types": [
+    "Fire"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Fire"
+     ],
+     "name": "Scorching Earth",
+     "effect": "If your opponent has a Stadium in play, discard it. If you do, your opponent can't play any Stadium cards from their hand during their next turn.",
+     "damage": 40
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Water",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/031",
+   "dexId": [
+    1004
+   ]
+  },
+  {
+   "localId": "032",
+   "name": "Mantine",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 110,
+   "types": [
+    "Water"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless"
+     ],
+     "name": "Call for Family",
+     "effect": "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck."
+    },
+    {
+     "cost": [
+      "Water",
+      "Colorless"
+     ],
+     "name": "Waterfall",
+     "damage": 50
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Lightning",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/032",
+   "dexId": [
+    226
+   ]
+  },
+  {
+   "localId": "033",
+   "name": "Corphish",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 80,
+   "types": [
+    "Water"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless"
+     ],
+     "name": "Vise Grip",
+     "damage": 10
+    },
+    {
+     "cost": [
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Take Down",
+     "effect": "This Pokémon also does 10 damage to itself.",
+     "damage": 30
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Lightning",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/033",
+   "dexId": [
+    341
+   ]
+  },
+  {
+   "localId": "034",
+   "name": "Kyogre",
+   "category": "Pokemon",
+   "rarity": "Rare",
+   "regulationMark": "I",
+   "hp": 150,
+   "types": [
+    "Water"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Water"
+     ],
+     "name": "Riptide",
+     "effect": "This attack does 20 damage for each Basic {W} Energy card in your discard pile. Then, shuffle those cards into your deck.",
+     "damage": "20×"
+    },
+    {
+     "cost": [
+      "Water",
+      "Water",
+      "Colorless"
+     ],
+     "name": "Swirling Waves",
+     "effect": "Discard 2 Energy from this Pokémon.",
+     "damage": 130
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Lightning",
+     "value": "×2"
+    }
+   ],
+   "retreat": 3,
+   "image": "https://assets.tcgdex.net/en/me/me01/034",
+   "dexId": [
+    382
+   ]
+  },
+  {
+   "localId": "035",
+   "name": "Snover",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 90,
+   "types": [
+    "Water"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Water"
+     ],
+     "name": "Beat",
+     "damage": 10
+    },
+    {
+     "cost": [
+      "Water",
+      "Water"
+     ],
+     "name": "Icy Snow",
+     "damage": 30
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Metal",
+     "value": "×2"
+    }
+   ],
+   "retreat": 3,
+   "image": "https://assets.tcgdex.net/en/me/me01/035",
+   "dexId": [
+    459
+   ]
+  },
+  {
+   "localId": "036",
+   "name": "Mega Abomasnow ex",
+   "category": "Pokemon",
+   "rarity": "Double rare",
+   "regulationMark": "I",
+   "hp": 350,
+   "types": [
+    "Water"
+   ],
+   "stage": "Stage1",
+   "suffix": "ex",
+   "evolveFrom": "Snover",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Water",
+      "Water"
+     ],
+     "name": "Hammer-lanche",
+     "effect": "Discard the top 6 cards of your deck, and this attack does 100 damage for each Basic {W} Energy card that you discarded in this way.",
+     "damage": "100×"
+    },
+    {
+     "cost": [
+      "Water",
+      "Water",
+      "Water"
+     ],
+     "name": "Frost Barrier",
+     "effect": "During your opponent's next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+     "damage": 200
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Metal",
+     "value": "×2"
+    }
+   ],
+   "retreat": 4,
+   "image": "https://assets.tcgdex.net/en/me/me01/036",
+   "dexId": [
+    460
+   ]
+  },
+  {
+   "localId": "037",
+   "name": "Clauncher",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 80,
+   "types": [
+    "Water"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Water",
+      "Water"
+     ],
+     "name": "Wave Splash",
+     "damage": 50
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Lightning",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/037",
+   "dexId": [
+    692
+   ]
+  },
+  {
+   "localId": "038",
+   "name": "Clawitzer",
+   "category": "Pokemon",
+   "rarity": "Rare",
+   "regulationMark": "I",
+   "hp": 130,
+   "types": [
+    "Water"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Clauncher",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": [
+    {
+     "type": "Ability",
+     "name": "Fall Back to Reload",
+     "effect": "Once during your turn, when this Pokémon moves from the Active Spot to your Bench, you may use this Ability. Attach up to 2 Basic {W} Energy cards from your hand to this Pokémon."
+    }
+   ],
+   "attacks": [
+    {
+     "cost": [
+      "Water",
+      "Water",
+      "Water"
+     ],
+     "name": "Aqua Launcher",
+     "effect": "Discard all Energy from this Pokémon.",
+     "damage": 210
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Lightning",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/038",
+   "dexId": [
+    693
+   ]
+  },
+  {
+   "localId": "039",
+   "name": "Sobble",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 70,
+   "types": [
+    "Water"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Water"
+     ],
+     "name": "Surprise Attack",
+     "effect": "Flip a coin. If tails, this attack does nothing.",
+     "damage": 30
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Lightning",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/039",
+   "dexId": [
+    816
+   ]
+  },
+  {
+   "localId": "040",
+   "name": "Drizzile",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 100,
+   "types": [
+    "Water"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Sobble",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Water"
+     ],
+     "name": "Double Stab",
+     "effect": "Flip 2 coins. This attack does 30 damage for each heads.",
+     "damage": "30×"
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Lightning",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/040",
+   "dexId": [
+    817
+   ]
+  },
+  {
+   "localId": "041",
+   "name": "Inteleon",
+   "category": "Pokemon",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": 150,
+   "types": [
+    "Water"
+   ],
+   "stage": "Stage2",
+   "suffix": null,
+   "evolveFrom": "Drizzile",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Water"
+     ],
+     "name": "Bring Down",
+     "effect": "Choose a Pokémon in play (yours or your opponent's) that has the least HP remaining, except for this Pokémon, and it is Knocked Out."
+    },
+    {
+     "cost": [
+      "Water"
+     ],
+     "name": "Water Shot",
+     "effect": "Discard an Energy from this Pokémon.",
+     "damage": 110
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Lightning",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/041",
+   "dexId": [
+    818
+   ]
+  },
+  {
+   "localId": "042",
+   "name": "Snom",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 50,
+   "types": [
+    "Water"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Water"
+     ],
+     "name": "Hide",
+     "effect": "Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon."
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Metal",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/042",
+   "dexId": [
+    872
+   ]
+  },
+  {
+   "localId": "043",
+   "name": "Frosmoth",
+   "category": "Pokemon",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": 110,
+   "types": [
+    "Water"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Snom",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Water"
+     ],
+     "name": "Chilling Wings",
+     "effect": "This attack does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Your opponent's Active Pokémon is now Asleep."
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Metal",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/043",
+   "dexId": [
+    873
+   ]
+  },
+  {
+   "localId": "044",
+   "name": "Eiscue",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 110,
+   "types": [
+    "Water"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless"
+     ],
+     "name": "Freezing Headbutt",
+     "effect": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+     "damage": 20
+    },
+    {
+     "cost": [
+      "Water",
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Tackle",
+     "damage": 90
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Metal",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/044",
+   "dexId": [
+    875
+   ]
+  },
+  {
+   "localId": "045",
+   "name": "Magnemite",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 70,
+   "types": [
+    "Lightning"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Lightning"
+     ],
+     "name": "Beam",
+     "damage": 10
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fighting",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/045",
+   "dexId": [
+    81
+   ]
+  },
+  {
+   "localId": "046",
+   "name": "Magneton",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 90,
+   "types": [
+    "Lightning"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Magnemite",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Lightning"
+     ],
+     "name": "Thunder Shock",
+     "effect": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+     "damage": 30
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fighting",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/046",
+   "dexId": [
+    82
+   ]
+  },
+  {
+   "localId": "047",
+   "name": "Magnezone",
+   "category": "Pokemon",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": 160,
+   "types": [
+    "Lightning"
+   ],
+   "stage": "Stage2",
+   "suffix": null,
+   "evolveFrom": "Magneton",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Lightning"
+     ],
+     "name": "Upper Spark",
+     "effect": "If this Pokémon evolved from Magneton during this turn, this attack does 120 more damage.",
+     "damage": "50+"
+    },
+    {
+     "cost": [
+      "Lightning",
+      "Lightning"
+     ],
+     "name": "Flashing Bolt",
+     "effect": "During your next turn, this Pokémon can't use Flashing Bolt.",
+     "damage": 160
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fighting",
+     "value": "×2"
+    }
+   ],
+   "retreat": 3,
+   "image": "https://assets.tcgdex.net/en/me/me01/047",
+   "dexId": [
+    462
+   ]
+  },
+  {
+   "localId": "048",
+   "name": "Raikou",
+   "category": "Pokemon",
+   "rarity": "Rare",
+   "regulationMark": "I",
+   "hp": 120,
+   "types": [
+    "Lightning"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Lightning",
+      "Lightning"
+     ],
+     "name": "Electro Fall",
+     "effect": "If you have at least 4 {L} Energy in play, this attack does 90 more damage.",
+     "damage": "30+"
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fighting",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/048",
+   "dexId": [
+    243
+   ]
+  },
+  {
+   "localId": "049",
+   "name": "Electrike",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 70,
+   "types": [
+    "Lightning"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Lightning"
+     ],
+     "name": "Thunder Jolt",
+     "effect": "This Pokémon also does 10 damage to itself.",
+     "damage": 30
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fighting",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/049",
+   "dexId": [
+    309
+   ]
+  },
+  {
+   "localId": "050",
+   "name": "Mega Manectric ex",
+   "category": "Pokemon",
+   "rarity": "Double rare",
+   "regulationMark": "I",
+   "hp": 330,
+   "types": [
+    "Lightning"
+   ],
+   "stage": "Stage1",
+   "suffix": "ex",
+   "evolveFrom": "Electrike",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Lightning",
+      "Lightning"
+     ],
+     "name": "Flash Ray",
+     "effect": "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Basic Pokémon.",
+     "damage": 120
+    },
+    {
+     "cost": [
+      "Lightning",
+      "Lightning",
+      "Lightning"
+     ],
+     "name": "Riotous Blasting",
+     "effect": "You may discard all Energy from this Pokémon and have this attack do 130 more damage.",
+     "damage": "200+"
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fighting",
+     "value": "×2"
+    }
+   ],
+   "retreat": 0,
+   "image": "https://assets.tcgdex.net/en/me/me01/050",
+   "dexId": [
+    310
+   ]
+  },
+  {
+   "localId": "051",
+   "name": "Pachirisu",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 70,
+   "types": [
+    "Lightning"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Lightning"
+     ],
+     "name": "Electrified Incisors",
+     "effect": "During your opponent's next turn, whenever they attach an Energy card from their hand to the Defending Pokémon, place 8 damage counters on that Pokémon.",
+     "damage": 10
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fighting",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/051",
+   "dexId": [
+    417
+   ]
+  },
+  {
+   "localId": "052",
+   "name": "Helioptile",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 70,
+   "types": [
+    "Lightning"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless"
+     ],
+     "name": "Double Scratch",
+     "effect": "Flip 2 coins. This attack does 10 damage for each heads.",
+     "damage": "10×"
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fighting",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/052",
+   "dexId": [
+    694
+   ]
+  },
+  {
+   "localId": "053",
+   "name": "Heliolisk",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 120,
+   "types": [
+    "Lightning"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Helioptile",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless"
+     ],
+     "name": "Dazzle Blast",
+     "effect": "Your opponent's Active Pokémon is now Confused.",
+     "damage": 20
+    },
+    {
+     "cost": [
+      "Lightning",
+      "Colorless"
+     ],
+     "name": "Head Bolt",
+     "damage": 70
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fighting",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/053",
+   "dexId": [
+    695
+   ]
+  },
+  {
+   "localId": "054",
+   "name": "Abra",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 50,
+   "types": [
+    "Psychic"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Psychic"
+     ],
+     "name": "Teleportation Attack",
+     "effect": "Switch this Pokémon with 1 of your Benched Pokémon.",
+     "damage": 10
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Darkness",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/054",
+   "dexId": [
+    63
+   ]
+  },
+  {
+   "localId": "055",
+   "name": "Kadabra",
+   "category": "Pokemon",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": 80,
+   "types": [
+    "Psychic"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Abra",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": [
+    {
+     "type": "Ability",
+     "name": "Psychic Draw",
+     "effect": "Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Draw 2 cards."
+    }
+   ],
+   "attacks": [
+    {
+     "cost": [
+      "Psychic"
+     ],
+     "name": "Super Psy Bolt",
+     "damage": 30
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Darkness",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/055",
+   "dexId": [
+    64
+   ]
+  },
+  {
+   "localId": "056",
+   "name": "Alakazam",
+   "category": "Pokemon",
+   "rarity": "Rare",
+   "regulationMark": "I",
+   "hp": 140,
+   "types": [
+    "Psychic"
+   ],
+   "stage": "Stage2",
+   "suffix": null,
+   "evolveFrom": "Kadabra",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": [
+    {
+     "type": "Ability",
+     "name": "Psychic Draw",
+     "effect": "Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Draw 3 cards."
+    }
+   ],
+   "attacks": [
+    {
+     "cost": [
+      "Psychic"
+     ],
+     "name": "Powerful Hand",
+     "effect": "Place 2 damage counters on your opponent's Active Pokémon for each card in your hand."
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Darkness",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/056",
+   "dexId": [
+    65
+   ]
+  },
+  {
+   "localId": "057",
+   "name": "Jynx",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 110,
+   "types": [
+    "Psychic"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Psychic",
+      "Psychic"
+     ],
+     "name": "Psychic",
+     "effect": "This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon.",
+     "damage": "30+"
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Darkness",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/057",
+   "dexId": [
+    124
+   ]
+  },
+  {
+   "localId": "058",
+   "name": "Ralts",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 70,
+   "types": [
+    "Psychic"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless"
+     ],
+     "name": "Collect",
+     "effect": "Draw a card."
+    },
+    {
+     "cost": [
+      "Psychic"
+     ],
+     "name": "Headbutt",
+     "damage": 10
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Darkness",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/058",
+   "dexId": [
+    280
+   ]
+  },
+  {
+   "localId": "059",
+   "name": "Kirlia",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 100,
+   "types": [
+    "Psychic"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Ralts",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Psychic"
+     ],
+     "name": "Call Sign",
+     "effect": "Search your deck for up to 3 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck."
+    },
+    {
+     "cost": [
+      "Psychic"
+     ],
+     "name": "Psyshot",
+     "damage": 30
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Darkness",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/059",
+   "dexId": [
+    281
+   ]
+  },
+  {
+   "localId": "060",
+   "name": "Mega Gardevoir ex",
+   "category": "Pokemon",
+   "rarity": "Double rare",
+   "regulationMark": "I",
+   "hp": 360,
+   "types": [
+    "Psychic"
+   ],
+   "stage": "Stage2",
+   "suffix": "ex",
+   "evolveFrom": "Kirlia",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Psychic"
+     ],
+     "name": "Overflowing Wishes",
+     "effect": "For each of your Benched Pokémon, search your deck for a Basic {P} Energy card and attach it to that Pokémon. Then, shuffle your deck."
+    },
+    {
+     "cost": [
+      "Psychic"
+     ],
+     "name": "Mega Symphonia",
+     "effect": "This attack does 50 damage for each {P} Energy attached to all of your Pokémon.",
+     "damage": "50×"
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Darkness",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/060",
+   "dexId": [
+    282
+   ]
+  },
+  {
+   "localId": "061",
+   "name": "Shedinja",
+   "category": "Pokemon",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": 60,
+   "types": [
+    "Psychic"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Nincada",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": [
+    {
+     "type": "Ability",
+     "name": "Fragile Husk",
+     "effect": "If this Pokémon is Knocked Out by damage from an attack from your opponent's Pokémon ex, your opponent can't take any Prize cards for it."
+    }
+   ],
+   "attacks": [
+    {
+     "cost": [
+      "Psychic"
+     ],
+     "name": "Damage Beat",
+     "effect": "This attack does 20 damage for each damage counter on your opponent's Active Pokémon.",
+     "damage": "20×"
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Darkness",
+     "value": "×2"
+    }
+   ],
+   "retreat": 0,
+   "image": "https://assets.tcgdex.net/en/me/me01/061",
+   "dexId": [
+    292
+   ]
+  },
+  {
+   "localId": "062",
+   "name": "Spoink",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 70,
+   "types": [
+    "Psychic"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Psychic"
+     ],
+     "name": "Triple Spin",
+     "effect": "Flip 3 coins. This attack does 10 damage for each heads.",
+     "damage": "10×"
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Darkness",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/062",
+   "dexId": [
+    325
+   ]
+  },
+  {
+   "localId": "063",
+   "name": "Grumpig",
+   "category": "Pokemon",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": 120,
+   "types": [
+    "Psychic"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Spoink",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": [
+    {
+     "type": "Ability",
+     "name": "Energized Steps",
+     "effect": "Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Look at the top 4 cards of your deck and attach any number of Basic Energy cards you find there to your Pokémon in any way you like. Shuffle the other cards back into your deck."
+    }
+   ],
+   "attacks": [
+    {
+     "cost": [
+      "Psychic",
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Psychic Sphere",
+     "damage": 60
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Darkness",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/063",
+   "dexId": [
+    326
+   ]
+  },
+  {
+   "localId": "064",
+   "name": "Xerneas",
+   "category": "Pokemon",
+   "rarity": "Rare",
+   "regulationMark": "I",
+   "hp": 120,
+   "types": [
+    "Psychic"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Psychic"
+     ],
+     "name": "Geo Gate",
+     "effect": "Search your deck for up to 3 Basic {P} Pokémon and put them onto your Bench. Then, shuffle your deck."
+    },
+    {
+     "cost": [
+      "Psychic",
+      "Psychic",
+      "Colorless"
+     ],
+     "name": "Bright Horns",
+     "effect": "During your next turn, this Pokémon can't use Bright Horns.",
+     "damage": 120
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Metal",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/064",
+   "dexId": [
+    716
+   ]
+  },
+  {
+   "localId": "065",
+   "name": "Greavard",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 80,
+   "types": [
+    "Psychic"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Psychic"
+     ],
+     "name": "Stampede",
+     "damage": 10
+    },
+    {
+     "cost": [
+      "Psychic",
+      "Colorless"
+     ],
+     "name": "Take Down",
+     "effect": "This Pokémon also does 10 damage to itself.",
+     "damage": 40
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Darkness",
+     "value": "×2"
+    }
+   ],
+   "retreat": 3,
+   "image": "https://assets.tcgdex.net/en/me/me01/065",
+   "dexId": [
+    971
+   ]
+  },
+  {
+   "localId": "066",
+   "name": "Houndstone",
+   "category": "Pokemon",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": 140,
+   "types": [
+    "Psychic"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Greavard",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Psychic"
+     ],
+     "name": "Horrifying Bite",
+     "effect": "Flip a coin until you get tails. For each heads, choose a random card from your opponent's hand. Your opponent reveals those cards and shuffles them into their deck.",
+     "damage": 30
+    },
+    {
+     "cost": [
+      "Psychic",
+      "Psychic",
+      "Colorless"
+     ],
+     "name": "Hammer In",
+     "damage": 130
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Darkness",
+     "value": "×2"
+    }
+   ],
+   "retreat": 3,
+   "image": "https://assets.tcgdex.net/en/me/me01/066",
+   "dexId": [
+    972
+   ]
+  },
+  {
+   "localId": "067",
+   "name": "Gimmighoul",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 70,
+   "types": [
+    "Psychic"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless"
+     ],
+     "name": "Slap",
+     "damage": 10
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Darkness",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/067",
+   "dexId": [
+    999
+   ]
+  },
+  {
+   "localId": "068",
+   "name": "Sandshrew",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 70,
+   "types": [
+    "Fighting"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless"
+     ],
+     "name": "Dig Claws",
+     "damage": 10
+    },
+    {
+     "cost": [
+      "Fighting",
+      "Colorless"
+     ],
+     "name": "Mud-Slap",
+     "damage": 20
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Grass",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/068",
+   "dexId": [
+    27
+   ]
+  },
+  {
+   "localId": "069",
+   "name": "Sandslash",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 120,
+   "types": [
+    "Fighting"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Sandshrew",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Sand Attack",
+     "effect": "During your opponent's next turn, if the Defending Pokémon tries to use an attack, your opponent flips a coin. If tails, that attack doesn't happen.",
+     "damage": 50
+    },
+    {
+     "cost": [
+      "Fighting",
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Mud Shot",
+     "damage": 100
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Grass",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/069",
+   "dexId": [
+    28
+   ]
+  },
+  {
+   "localId": "070",
+   "name": "Onix",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 120,
+   "types": [
+    "Fighting"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Bind",
+     "effect": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+     "damage": 30
+    },
+    {
+     "cost": [
+      "Colorless",
+      "Colorless",
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Strength",
+     "damage": 100
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Grass",
+     "value": "×2"
+    }
+   ],
+   "retreat": 4,
+   "image": "https://assets.tcgdex.net/en/me/me01/070",
+   "dexId": [
+    95
+   ]
+  },
+  {
+   "localId": "071",
+   "name": "Tyrogue",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 30,
+   "types": [
+    "Fighting"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "name": "Pow-Pow Punching",
+     "effect": "Flip a coin until you get tails. This attack does 30 more damage for each heads.",
+     "damage": "10+"
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Psychic",
+     "value": "×2"
+    }
+   ],
+   "retreat": 0,
+   "image": "https://assets.tcgdex.net/en/me/me01/071",
+   "dexId": [
+    236
+   ]
+  },
+  {
+   "localId": "072",
+   "name": "Makuhita",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 80,
+   "types": [
+    "Fighting"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Fighting"
+     ],
+     "name": "Corkscrew Punch",
+     "damage": 10
+    },
+    {
+     "cost": [
+      "Fighting",
+      "Fighting"
+     ],
+     "name": "Confront",
+     "damage": 30
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Psychic",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/072",
+   "dexId": [
+    296
+   ]
+  },
+  {
+   "localId": "073",
+   "name": "Hariyama",
+   "category": "Pokemon",
+   "rarity": "Rare",
+   "regulationMark": "I",
+   "hp": 150,
+   "types": [
+    "Fighting"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Makuhita",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": [
+    {
+     "type": "Ability",
+     "name": "Heave-Ho Catcher",
+     "effect": "Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Switch in 1 of your opponent's Benched Pokémon to the Active Spot."
+    }
+   ],
+   "attacks": [
+    {
+     "cost": [
+      "Fighting",
+      "Fighting",
+      "Fighting"
+     ],
+     "name": "Wild Press",
+     "effect": "This Pokémon also does 70 damage to itself.",
+     "damage": 210
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Psychic",
+     "value": "×2"
+    }
+   ],
+   "retreat": 3,
+   "image": "https://assets.tcgdex.net/en/me/me01/073",
+   "dexId": [
+    297
+   ]
+  },
+  {
+   "localId": "074",
+   "name": "Lunatone",
+   "category": "Pokemon",
+   "rarity": "Rare",
+   "regulationMark": "I",
+   "hp": 110,
+   "types": [
+    "Fighting"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": [
+    {
+     "type": "Ability",
+     "name": "Lunar Cycle",
+     "effect": "Once during your turn, if you have Solrock in play, you may discard a Basic {F} Energy card from your hand in order to use this Ability. Draw 3 cards. You can't use more than 1 Lunar Cycle Ability each turn."
+    }
+   ],
+   "attacks": [
+    {
+     "cost": [
+      "Fighting",
+      "Fighting"
+     ],
+     "name": "Power Gem",
+     "damage": 50
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Grass",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/074",
+   "dexId": [
+    337
+   ]
+  },
+  {
+   "localId": "075",
+   "name": "Solrock",
+   "category": "Pokemon",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": 110,
+   "types": [
+    "Fighting"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Fighting"
+     ],
+     "name": "Cosmic Beam",
+     "effect": "If you don't have Lunatone on your Bench, this attack does nothing. This attack's damage isn't affected by Weakness or Resistance.",
+     "damage": 70
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Grass",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/075",
+   "dexId": [
+    338
+   ]
+  },
+  {
+   "localId": "076",
+   "name": "Riolu",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 80,
+   "types": [
+    "Fighting"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Fighting"
+     ],
+     "name": "Accelerating Stab",
+     "effect": "During your next turn, this Pokémon can't use Accelerating Stab.",
+     "damage": 30
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Psychic",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/076",
+   "dexId": [
+    447
+   ]
+  },
+  {
+   "localId": "077",
+   "name": "Mega Lucario ex",
+   "category": "Pokemon",
+   "rarity": "Double rare",
+   "regulationMark": "I",
+   "hp": 340,
+   "types": [
+    "Fighting"
+   ],
+   "stage": "Stage1",
+   "suffix": "ex",
+   "evolveFrom": "Riolu",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Fighting"
+     ],
+     "name": "Aura Jab",
+     "effect": "Attach up to 3 Basic {F} Energy cards from your discard pile to your Benched Pokémon in any way you like.",
+     "damage": 130
+    },
+    {
+     "cost": [
+      "Fighting",
+      "Fighting"
+     ],
+     "name": "Mega Brave",
+     "effect": "During your next turn, this Pokémon can't use Mega Brave.",
+     "damage": 270
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Psychic",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/077",
+   "dexId": [
+    448
+   ]
+  },
+  {
+   "localId": "078",
+   "name": "Croagunk",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 70,
+   "types": [
+    "Fighting"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Fighting"
+     ],
+     "name": "Smack",
+     "damage": 20
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Psychic",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/078",
+   "dexId": [
+    453
+   ]
+  },
+  {
+   "localId": "079",
+   "name": "Toxicroak",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 130,
+   "types": [
+    "Fighting"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Croagunk",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Fighting"
+     ],
+     "name": "Reckless Charge",
+     "effect": "This Pokémon also does 20 damage to itself.",
+     "damage": 70
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Psychic",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/079",
+   "dexId": [
+    454
+   ]
+  },
+  {
+   "localId": "080",
+   "name": "Marshadow",
+   "category": "Pokemon",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": 90,
+   "types": [
+    "Fighting"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Fighting",
+      "Fighting"
+     ],
+     "name": "Shadowy Side Kick",
+     "effect": "If your opponent's Pokémon is Knocked Out by damage from this attack, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.",
+     "damage": 60
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Psychic",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/080",
+   "dexId": [
+    802
+   ]
+  },
+  {
+   "localId": "081",
+   "name": "Stonjourner",
+   "category": "Pokemon",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": 130,
+   "types": [
+    "Fighting"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Fighting"
+     ],
+     "name": "Stony Kick",
+     "effect": "This attack also does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+     "damage": 20
+    },
+    {
+     "cost": [
+      "Fighting",
+      "Fighting",
+      "Colorless"
+     ],
+     "name": "Boundless Power",
+     "effect": "During your next turn, this Pokémon can't use attacks.",
+     "damage": 140
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Grass",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/081",
+   "dexId": [
+    874
+   ]
+  },
+  {
+   "localId": "082",
+   "name": "Nacli",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 70,
+   "types": [
+    "Fighting"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless"
+     ],
+     "name": "Ram",
+     "damage": 10
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Grass",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/082",
+   "dexId": [
+    932
+   ]
+  },
+  {
+   "localId": "083",
+   "name": "Naclstack",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 110,
+   "types": [
+    "Fighting"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Nacli",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Fighting",
+      "Colorless"
+     ],
+     "name": "Rock Hurl",
+     "effect": "This attack's damage isn't affected by Resistance.",
+     "damage": 50
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Grass",
+     "value": "×2"
+    }
+   ],
+   "retreat": 3,
+   "image": "https://assets.tcgdex.net/en/me/me01/083",
+   "dexId": [
+    933
+   ]
+  },
+  {
+   "localId": "084",
+   "name": "Garganacl",
+   "category": "Pokemon",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": 180,
+   "types": [
+    "Fighting"
+   ],
+   "stage": "Stage2",
+   "suffix": null,
+   "evolveFrom": "Naclstack",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": [
+    {
+     "type": "Ability",
+     "name": "Powerful a-Salt",
+     "effect": "Attacks used by your {F} Pokémon do 30 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance)."
+    }
+   ],
+   "attacks": [
+    {
+     "cost": [
+      "Fighting",
+      "Fighting",
+      "Colorless"
+     ],
+     "name": "Hammer In",
+     "damage": 130
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Grass",
+     "value": "×2"
+    }
+   ],
+   "retreat": 4,
+   "image": "https://assets.tcgdex.net/en/me/me01/084",
+   "dexId": [
+    934
+   ]
+  },
+  {
+   "localId": "085",
+   "name": "Crawdaunt",
+   "category": "Pokemon",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": 130,
+   "types": [
+    "Darkness"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Corphish",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless"
+     ],
+     "name": "Vise Grip",
+     "damage": 30
+    },
+    {
+     "cost": [
+      "Darkness",
+      "Darkness",
+      "Colorless"
+     ],
+     "name": "Cutting Riposte",
+     "effect": "If this Pokémon has any damage counters on it, this attack can be used for {D}.",
+     "damage": 130
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Grass",
+     "value": "×2"
+    }
+   ],
+   "retreat": 3,
+   "image": "https://assets.tcgdex.net/en/me/me01/085",
+   "dexId": [
+    342
+   ]
+  },
+  {
+   "localId": "086",
+   "name": "Mega Absol ex",
+   "category": "Pokemon",
+   "rarity": "Double rare",
+   "regulationMark": "I",
+   "hp": 280,
+   "types": [
+    "Darkness"
+   ],
+   "stage": "Basic",
+   "suffix": "ex",
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Darkness",
+      "Colorless"
+     ],
+     "name": "Terminal Period",
+     "effect": "If your opponent's Active Pokémon has exactly 6 damage counters on it, that Pokémon is Knocked Out."
+    },
+    {
+     "cost": [
+      "Darkness",
+      "Darkness",
+      "Colorless"
+     ],
+     "name": "Claw of Darkness",
+     "effect": "Your opponent reveals their hand, and you discard a card you find there.",
+     "damage": 200
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Grass",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/086",
+   "dexId": [
+    351
+   ]
+  },
+  {
+   "localId": "087",
+   "name": "Spiritomb",
+   "category": "Pokemon",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": 80,
+   "types": [
+    "Darkness"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": [
+    {
+     "type": "Ability",
+     "name": "Spiteful Swirl",
+     "effect": "If your Active {D} Pokémon is damaged by an attack from your opponent's Pokémon (even if your Active {D} Pokémon is Knocked Out), place 1 damage counter on the Attacking Pokémon."
+    }
+   ],
+   "attacks": [
+    {
+     "cost": [
+      "Darkness"
+     ],
+     "name": "Mountain Breaker",
+     "effect": "Discard the top card of your opponent's deck.",
+     "damage": 10
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Grass",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/087",
+   "dexId": [
+    442
+   ]
+  },
+  {
+   "localId": "088",
+   "name": "Yveltal",
+   "category": "Pokemon",
+   "rarity": "Rare",
+   "regulationMark": "I",
+   "hp": 110,
+   "types": [
+    "Darkness"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Darkness"
+     ],
+     "name": "Clutch",
+     "effect": "During your opponent's next turn, the Defending Pokémon can't retreat.",
+     "damage": 20
+    },
+    {
+     "cost": [
+      "Darkness",
+      "Darkness",
+      "Colorless"
+     ],
+     "name": "Dark Feather",
+     "damage": 110
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Lightning",
+     "value": "×2"
+    }
+   ],
+   "retreat": 0,
+   "image": "https://assets.tcgdex.net/en/me/me01/088",
+   "dexId": [
+    717
+   ]
+  },
+  {
+   "localId": "089",
+   "name": "Nickit",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 70,
+   "types": [
+    "Darkness"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Darkness"
+     ],
+     "name": "Darkness Fang",
+     "damage": 20
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Grass",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/089",
+   "dexId": [
+    827
+   ]
+  },
+  {
+   "localId": "090",
+   "name": "Thievul",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 120,
+   "types": [
+    "Darkness"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Nickit",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless"
+     ],
+     "name": "Greedy Hunt",
+     "effect": "You may draw cards until you have 6 cards in your hand.",
+     "damage": 20
+    },
+    {
+     "cost": [
+      "Darkness",
+      "Colorless"
+     ],
+     "name": "Pitch-Black Fangs",
+     "damage": 60
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Grass",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/090",
+   "dexId": [
+    828
+   ]
+  },
+  {
+   "localId": "091",
+   "name": "Shroodle",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 60,
+   "types": [
+    "Darkness"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Darkness",
+      "Colorless"
+     ],
+     "name": "Poison Jab",
+     "effect": "Your opponent's Active Pokémon is now Poisoned.",
+     "damage": 20
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fighting",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/091",
+   "dexId": [
+    944
+   ]
+  },
+  {
+   "localId": "092",
+   "name": "Grafaiai",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 100,
+   "types": [
+    "Darkness"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Shroodle",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Darkness",
+      "Colorless"
+     ],
+     "name": "Miraculous Paint",
+     "effect": "Flip a coin. If heads, choose a Special Condition. Your opponent's Active Pokémon is now affected by that Special Condition.",
+     "damage": 90
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fighting",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/092",
+   "dexId": [
+    945
+   ]
+  },
+  {
+   "localId": "093",
+   "name": "Steelix",
+   "category": "Pokemon",
+   "rarity": "Rare",
+   "regulationMark": "I",
+   "hp": 200,
+   "types": [
+    "Metal"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Onix",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Welcoming Tail",
+     "effect": "If you have exactly 6 Prize cards remaining, this attack does 200 more damage.",
+     "damage": "40+"
+    },
+    {
+     "cost": [
+      "Metal",
+      "Metal",
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Skull Bash",
+     "damage": 140
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fire",
+     "value": "×2"
+    }
+   ],
+   "retreat": 4,
+   "image": "https://assets.tcgdex.net/en/me/me01/093",
+   "dexId": [
+    208
+   ]
+  },
+  {
+   "localId": "094",
+   "name": "Mega Mawile ex",
+   "category": "Pokemon",
+   "rarity": "Double rare",
+   "regulationMark": "I",
+   "hp": 270,
+   "types": [
+    "Metal"
+   ],
+   "stage": "Basic",
+   "suffix": "ex",
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Metal",
+      "Metal"
+     ],
+     "name": "Gobble Down",
+     "effect": "This attack does 80 damage for each Prize card you have taken.",
+     "damage": "80×"
+    },
+    {
+     "cost": [
+      "Metal",
+      "Metal",
+      "Colorless"
+     ],
+     "name": "Huge Bite",
+     "effect": "If your opponent's Active Pokémon already has any damage counters on it, this attack's base damage is 30.",
+     "damage": 260
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fire",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/094",
+   "dexId": [
+    303
+   ]
+  },
+  {
+   "localId": "095",
+   "name": "Dialga",
+   "category": "Pokemon",
+   "rarity": "Rare",
+   "regulationMark": "I",
+   "hp": 140,
+   "types": [
+    "Metal"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Metal"
+     ],
+     "name": "Beam",
+     "damage": 30
+    },
+    {
+     "cost": [
+      "Metal",
+      "Metal",
+      "Colorless"
+     ],
+     "name": "Chrono Burst",
+     "effect": "You may shuffle all Energy attached to this Pokémon into your deck and have this attack do 80 more damage.",
+     "damage": "80+"
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fire",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/095",
+   "dexId": [
+    483
+   ]
+  },
+  {
+   "localId": "096",
+   "name": "Tinkatink",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 70,
+   "types": [
+    "Metal"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Metal"
+     ],
+     "name": "Beat",
+     "damage": 20
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fire",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/096",
+   "dexId": [
+    957
+   ]
+  },
+  {
+   "localId": "097",
+   "name": "Tinkatuff",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 90,
+   "types": [
+    "Metal"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Tinkatink",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": [
+    {
+     "type": "Ability",
+     "name": "Haphazard Hammer",
+     "effect": "Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon."
+    }
+   ],
+   "attacks": [
+    {
+     "cost": [
+      "Metal"
+     ],
+     "name": "Light Punch",
+     "damage": 30
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fire",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/097",
+   "dexId": [
+    958
+   ]
+  },
+  {
+   "localId": "098",
+   "name": "Tinkaton",
+   "category": "Pokemon",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": 160,
+   "types": [
+    "Metal"
+   ],
+   "stage": "Stage2",
+   "suffix": null,
+   "evolveFrom": "Tinkatuff",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Metal"
+     ],
+     "name": "Windup Swing",
+     "effect": "This attack does 60 less damage for each Energy attached to your opponent's Active Pokémon.",
+     "damage": "240-"
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fire",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/098",
+   "dexId": [
+    959
+   ]
+  },
+  {
+   "localId": "099",
+   "name": "Gholdengo",
+   "category": "Pokemon",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": 130,
+   "types": [
+    "Metal"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Gimmighoul",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless"
+     ],
+     "name": "All-You-Can-Grab",
+     "effect": "Flip a coin until you get tails. Search your deck for a number of cards up to the number of heads and put them into your hand. Then, shuffle your deck."
+    },
+    {
+     "cost": [
+      "Metal",
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Speed Attack",
+     "damage": 100
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fire",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/099",
+   "dexId": [
+    1000
+   ]
+  },
+  {
+   "localId": "100",
+   "name": "Mega Latias ex",
+   "category": "Pokemon",
+   "rarity": "Double rare",
+   "regulationMark": "I",
+   "hp": 280,
+   "types": [
+    "Dragon"
+   ],
+   "stage": "Basic",
+   "suffix": "ex",
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless"
+     ],
+     "name": "Strafe",
+     "effect": "You may switch this Pokémon with 1 of your Benched Pokémon.",
+     "damage": 40
+    },
+    {
+     "cost": [
+      "Fire",
+      "Psychic",
+      "Colorless"
+     ],
+     "name": "Illusory Impulse",
+     "effect": "Discard all Energy from this Pokémon.",
+     "damage": 300
+    }
+   ],
+   "weaknesses": null,
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/100",
+   "dexId": [
+    380
+   ]
+  },
+  {
+   "localId": "101",
+   "name": "Latios",
+   "category": "Pokemon",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": 130,
+   "types": [
+    "Dragon"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": [
+    {
+     "type": "Ability",
+     "name": "Lustrous Assist",
+     "effect": "Once during your turn, when your Mega Latias ex moves from your Bench to the Active Spot, you may use this Ability. Move any amount of Energy from your Benched Pokémon to your Active Pokémon."
+    }
+   ],
+   "attacks": [
+    {
+     "cost": [
+      "Water",
+      "Psychic",
+      "Colorless"
+     ],
+     "name": "Dragon Claw",
+     "damage": 130
+    }
+   ],
+   "weaknesses": null,
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/101",
+   "dexId": [
+    381
+   ]
+  },
+  {
+   "localId": "102",
+   "name": "Spearow",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 60,
+   "types": [
+    "Colorless"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless"
+     ],
+     "name": "Pluck",
+     "effect": "Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.",
+     "damage": 10
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Lightning",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/102",
+   "dexId": [
+    21
+   ]
+  },
+  {
+   "localId": "103",
+   "name": "Fearow",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 100,
+   "types": [
+    "Colorless"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Spearow",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless"
+     ],
+     "name": "Repeating Drill",
+     "effect": "Flip 5 coins. This attack does 30 damage for each heads.",
+     "damage": "30×"
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Lightning",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/103",
+   "dexId": [
+    22
+   ]
+  },
+  {
+   "localId": "104",
+   "name": "Mega Kangaskhan ex",
+   "category": "Pokemon",
+   "rarity": "Double rare",
+   "regulationMark": "I",
+   "hp": 300,
+   "types": [
+    "Colorless"
+   ],
+   "stage": "Basic",
+   "suffix": "ex",
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": [
+    {
+     "type": "Ability",
+     "name": "Run Errand",
+     "effect": "Once during your turn, if this Pokémon is in the Active Spot, you may use this Ability. Draw 2 cards. You can't use more than 1 Run Errand Ability each turn."
+    }
+   ],
+   "attacks": [
+    {
+     "cost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Rapid-Fire Combo",
+     "effect": "Flip a coin until you get tails. This attack does 50 more damage for each heads.",
+     "damage": "200+"
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fighting",
+     "value": "×2"
+    }
+   ],
+   "retreat": 3,
+   "image": "https://assets.tcgdex.net/en/me/me01/104",
+   "dexId": [
+    115
+   ]
+  },
+  {
+   "localId": "105",
+   "name": "Delibird",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 90,
+   "types": [
+    "Colorless"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless"
+     ],
+     "name": "Quick Gift",
+     "effect": "If you go first, you can use this attack during your first turn. Search your deck for a card and put it into your hand. Then, shuffle your deck."
+    },
+    {
+     "cost": [
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Gentle Slap",
+     "damage": 30
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Lightning",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/105",
+   "dexId": [
+    225
+   ]
+  },
+  {
+   "localId": "106",
+   "name": "Miltank",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 120,
+   "types": [
+    "Colorless"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Bellyful of Milk",
+     "effect": "Flip 2 coins. If both of them are heads, heal all damage from 1 of your Pokémon."
+    },
+    {
+     "cost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Tackle",
+     "damage": 60
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fighting",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/106",
+   "dexId": [
+    241
+   ]
+  },
+  {
+   "localId": "107",
+   "name": "Buneary",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 70,
+   "types": [
+    "Colorless"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless"
+     ],
+     "name": "Charm",
+     "effect": "During your opponent's next turn, attacks used by the Defending Pokémon do 20 less damage (before applying Weakness and Resistance)."
+    },
+    {
+     "cost": [
+      "Colorless"
+     ],
+     "name": "Skip",
+     "damage": 10
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fighting",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/107",
+   "dexId": [
+    427
+   ]
+  },
+  {
+   "localId": "108",
+   "name": "Lopunny",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 110,
+   "types": [
+    "Colorless"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Buneary",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless"
+     ],
+     "name": "Dashing Kick",
+     "effect": "This attack does 50 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    },
+    {
+     "cost": [
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Spiral Kick",
+     "damage": 60
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fighting",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/108",
+   "dexId": [
+    428
+   ]
+  },
+  {
+   "localId": "109",
+   "name": "Yungoos",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 70,
+   "types": [
+    "Colorless"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless"
+     ],
+     "name": "Collect",
+     "effect": "Draw a card."
+    },
+    {
+     "cost": [
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Gnaw",
+     "damage": 20
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fighting",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/109",
+   "dexId": [
+    734
+   ]
+  },
+  {
+   "localId": "110",
+   "name": "Gumshoos",
+   "category": "Pokemon",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": 100,
+   "types": [
+    "Colorless"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Yungoos",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": [
+    {
+     "type": "Ability",
+     "name": "Evidence Gathering",
+     "effect": "Once during your turn, you may use this Ability. Switch a card from your hand with the top card of your deck."
+    }
+   ],
+   "attacks": [
+    {
+     "cost": [
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Bite",
+     "damage": 50
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fighting",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/110",
+   "dexId": [
+    735
+   ]
+  },
+  {
+   "localId": "111",
+   "name": "Stufful",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 70,
+   "types": [
+    "Colorless"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless"
+     ],
+     "name": "Light Punch",
+     "damage": 10
+    },
+    {
+     "cost": [
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Flop",
+     "damage": 20
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fighting",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/111",
+   "dexId": [
+    759
+   ]
+  },
+  {
+   "localId": "112",
+   "name": "Bewear",
+   "category": "Pokemon",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": 130,
+   "types": [
+    "Colorless"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Stufful",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Knuckle Punch",
+     "damage": 50
+    },
+    {
+     "cost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Hyper Lariat",
+     "effect": "Flip 2 coins. If both of them are heads, this attack does 100 more damage.",
+     "damage": "100+"
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fighting",
+     "value": "×2"
+    }
+   ],
+   "retreat": 3,
+   "image": "https://assets.tcgdex.net/en/me/me01/112",
+   "dexId": [
+    760
+   ]
+  },
+  {
+   "localId": "113",
+   "name": "Acerola's Mischief",
+   "category": "Trainer",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": null,
+   "types": null,
+   "stage": null,
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": "Supporter",
+   "energyType": null,
+   "effect": "You can use this card only if your opponent has 2 or fewer Prize cards remaining.\n\nChoose 1 of your Pokémon in play. During your opponent's next turn, prevent all damage from and effects of attacks done to that Pokémon by your opponent's Pokémon ex.",
+   "abilities": null,
+   "attacks": null,
+   "weaknesses": null,
+   "retreat": null,
+   "image": "https://assets.tcgdex.net/en/me/me01/113"
+  },
+  {
+   "localId": "114",
+   "name": "Boss's Orders",
+   "category": "Trainer",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": null,
+   "types": null,
+   "stage": null,
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": "Supporter",
+   "energyType": null,
+   "effect": "Switch in 1 of your opponent's Benched Pokémon to the Active Spot.",
+   "abilities": null,
+   "attacks": null,
+   "weaknesses": null,
+   "retreat": null,
+   "image": "https://assets.tcgdex.net/en/me/me01/114"
+  },
+  {
+   "localId": "115",
+   "name": "Energy Switch",
+   "category": "Trainer",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": null,
+   "types": null,
+   "stage": null,
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": "Item",
+   "energyType": null,
+   "effect": "Move a Basic Energy from 1 of your Pokémon to another of your Pokémon.",
+   "abilities": null,
+   "attacks": null,
+   "weaknesses": null,
+   "retreat": null,
+   "image": "https://assets.tcgdex.net/en/me/me01/115"
+  },
+  {
+   "localId": "116",
+   "name": "Fighting Gong",
+   "category": "Trainer",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": null,
+   "types": null,
+   "stage": null,
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": "Item",
+   "energyType": null,
+   "effect": "Search your deck for a Basic {F} Energy card or a Basic {F} Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
+   "abilities": null,
+   "attacks": null,
+   "weaknesses": null,
+   "retreat": null,
+   "image": "https://assets.tcgdex.net/en/me/me01/116"
+  },
+  {
+   "localId": "117",
+   "name": "Forest of Vitality",
+   "category": "Trainer",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": null,
+   "types": null,
+   "stage": null,
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": "Stadium",
+   "energyType": null,
+   "effect": "Each player's {G} Pokémon can evolve into {G} Pokémon during the turn they play those Pokémon, except during their first turn.",
+   "abilities": null,
+   "attacks": null,
+   "weaknesses": null,
+   "retreat": null,
+   "image": "https://assets.tcgdex.net/en/me/me01/117"
+  },
+  {
+   "localId": "118",
+   "name": "Iron Defender",
+   "category": "Trainer",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": null,
+   "types": null,
+   "stage": null,
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": "Item",
+   "energyType": null,
+   "effect": "During your opponent's next turn, all of your {M} Pokémon take 30 less damage from attacks from your opponent's Pokémon (after applying Weakness and Resistance). (This includes new Pokémon that come into play.)",
+   "abilities": null,
+   "attacks": null,
+   "weaknesses": null,
+   "retreat": null,
+   "image": "https://assets.tcgdex.net/en/me/me01/118"
+  },
+  {
+   "localId": "119",
+   "name": "Lillie's Determination",
+   "category": "Trainer",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": null,
+   "types": null,
+   "stage": null,
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": "Supporter",
+   "energyType": null,
+   "effect": "Shuffle your hand into your deck. Then, draw 6 cards. If you have exactly 6 Prize cards remaining, draw 8 cards instead.",
+   "abilities": null,
+   "attacks": null,
+   "weaknesses": null,
+   "retreat": null,
+   "image": "https://assets.tcgdex.net/en/me/me01/119"
+  },
+  {
+   "localId": "120",
+   "name": "Lt. Surge's Bargain",
+   "category": "Trainer",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": null,
+   "types": null,
+   "stage": null,
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": "Supporter",
+   "energyType": null,
+   "effect": "Ask your opponent if each player may take a Prize card. If yes, each player takes a Prize card. If no, you draw 4 cards.",
+   "abilities": null,
+   "attacks": null,
+   "weaknesses": null,
+   "retreat": null,
+   "image": "https://assets.tcgdex.net/en/me/me01/120"
+  },
+  {
+   "localId": "121",
+   "name": "Mega Signal",
+   "category": "Trainer",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": null,
+   "types": null,
+   "stage": null,
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": "Item",
+   "energyType": null,
+   "effect": "Search your deck for a Mega Evolution Pokémon ex, reveal it, and put it into your hand. Then, shuffle your deck.",
+   "abilities": null,
+   "attacks": null,
+   "weaknesses": null,
+   "retreat": null,
+   "image": "https://assets.tcgdex.net/en/me/me01/121"
+  },
+  {
+   "localId": "122",
+   "name": "Mystery Garden",
+   "category": "Trainer",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": null,
+   "types": null,
+   "stage": null,
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": "Stadium",
+   "energyType": null,
+   "effect": "Once during each player's turn, that player may discard an Energy card from their hand in order to draw cards until they have as many cards in their hand as they have {P} Pokémon in play.",
+   "abilities": null,
+   "attacks": null,
+   "weaknesses": null,
+   "retreat": null,
+   "image": "https://assets.tcgdex.net/en/me/me01/122"
+  },
+  {
+   "localId": "123",
+   "name": "Pokémon Center Lady",
+   "category": "Trainer",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": null,
+   "types": null,
+   "stage": null,
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": "Supporter",
+   "energyType": null,
+   "effect": "Heal 60 damage from 1 of your Pokémon, and it recovers from all Special Conditions.",
+   "abilities": null,
+   "attacks": null,
+   "weaknesses": null,
+   "retreat": null,
+   "image": "https://assets.tcgdex.net/en/me/me01/123"
+  },
+  {
+   "localId": "124",
+   "name": "Premium Power Pro",
+   "category": "Trainer",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": null,
+   "types": null,
+   "stage": null,
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": "Item",
+   "energyType": null,
+   "effect": "During this turn, attacks used by your {F} Pokémon do 30 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
+   "abilities": null,
+   "attacks": null,
+   "weaknesses": null,
+   "retreat": null,
+   "image": "https://assets.tcgdex.net/en/me/me01/124"
+  },
+  {
+   "localId": "125",
+   "name": "Rare Candy",
+   "category": "Trainer",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": null,
+   "types": null,
+   "stage": null,
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": "Item",
+   "energyType": null,
+   "effect": "Choose 1 of your Basic Pokémon in play. If you have a Stage 2 card in your hand that evolves from that Pokémon, put that card onto the Basic Pokémon to evolve it, skipping the Stage 1. You can't use this card during your first turn or on a Basic Pokémon that was put into play this turn.",
+   "abilities": null,
+   "attacks": null,
+   "weaknesses": null,
+   "retreat": null,
+   "image": "https://assets.tcgdex.net/en/me/me01/125"
+  },
+  {
+   "localId": "126",
+   "name": "Repel",
+   "category": "Trainer",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": null,
+   "types": null,
+   "stage": null,
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": "Item",
+   "energyType": null,
+   "effect": "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
+   "abilities": null,
+   "attacks": null,
+   "weaknesses": null,
+   "retreat": null,
+   "image": "https://assets.tcgdex.net/en/me/me01/126"
+  },
+  {
+   "localId": "127",
+   "name": "Risky Ruins",
+   "category": "Trainer",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": null,
+   "types": null,
+   "stage": null,
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": "Stadium",
+   "energyType": null,
+   "effect": "Whenever any player puts a Basic non-{D} Pokémon onto their Bench during their turn, place 2 damage counters on that Pokémon.",
+   "abilities": null,
+   "attacks": null,
+   "weaknesses": null,
+   "retreat": null,
+   "image": "https://assets.tcgdex.net/en/me/me01/127"
+  },
+  {
+   "localId": "128",
+   "name": "Strange Timepiece",
+   "category": "Trainer",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": null,
+   "types": null,
+   "stage": null,
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": "Item",
+   "energyType": null,
+   "effect": "Devolve 1 of your evolved {P} Pokémon by putting any number of Evolution cards on it into your hand. (That Pokémon can't evolve this turn.)",
+   "abilities": null,
+   "attacks": null,
+   "weaknesses": null,
+   "retreat": null,
+   "image": "https://assets.tcgdex.net/en/me/me01/128"
+  },
+  {
+   "localId": "129",
+   "name": "Surfing Beach",
+   "category": "Trainer",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": null,
+   "types": null,
+   "stage": null,
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": "Stadium",
+   "energyType": null,
+   "effect": "Once during each player's turn, that player may switch their Active {W} Pokémon with 1 of their Benched {W} Pokémon.",
+   "abilities": null,
+   "attacks": null,
+   "weaknesses": null,
+   "retreat": null,
+   "image": "https://assets.tcgdex.net/en/me/me01/129"
+  },
+  {
+   "localId": "130",
+   "name": "Switch",
+   "category": "Trainer",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": null,
+   "types": null,
+   "stage": null,
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": "Item",
+   "energyType": null,
+   "effect": "Switch your Active Pokémon with 1 of your Benched Pokémon.",
+   "abilities": null,
+   "attacks": null,
+   "weaknesses": null,
+   "retreat": null,
+   "image": "https://assets.tcgdex.net/en/me/me01/130"
+  },
+  {
+   "localId": "131",
+   "name": "Ultra Ball",
+   "category": "Trainer",
+   "rarity": "Common",
+   "regulationMark": "I",
+   "hp": null,
+   "types": null,
+   "stage": null,
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": "Item",
+   "energyType": null,
+   "effect": "You can use this card only if you discard 2 other cards from your hand.\n\nSearch your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
+   "abilities": null,
+   "attacks": null,
+   "weaknesses": null,
+   "retreat": null,
+   "image": "https://assets.tcgdex.net/en/me/me01/131"
+  },
+  {
+   "localId": "132",
+   "name": "Wally's Compassion",
+   "category": "Trainer",
+   "rarity": "Uncommon",
+   "regulationMark": "I",
+   "hp": null,
+   "types": null,
+   "stage": null,
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": "Supporter",
+   "energyType": null,
+   "effect": "Heal all damage from 1 of your Mega Evolution Pokémon ex. If you healed any damage in this way, put all Energy attached to that Pokémon into your hand.",
+   "abilities": null,
+   "attacks": null,
+   "weaknesses": null,
+   "retreat": null,
+   "image": "https://assets.tcgdex.net/en/me/me01/132"
+  },
+  {
+   "localId": "133",
+   "name": "Bulbasaur",
+   "category": "Pokemon",
+   "rarity": "Illustration rare",
+   "regulationMark": "I",
+   "hp": 80,
+   "types": [
+    "Grass"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Grass"
+     ],
+     "name": "Bind Down",
+     "effect": "During your opponent's next turn, the Defending Pokémon can't retreat.",
+     "damage": 10
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fire",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/133",
+   "dexId": [
+    1
+   ]
+  },
+  {
+   "localId": "134",
+   "name": "Ivysaur",
+   "category": "Pokemon",
+   "rarity": "Illustration rare",
+   "regulationMark": "I",
+   "hp": 110,
+   "types": [
+    "Grass"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Bulbasaur",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Grass",
+      "Grass"
+     ],
+     "name": "Razor Leaf",
+     "damage": 60
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fire",
+     "value": "×2"
+    }
+   ],
+   "retreat": 3,
+   "image": "https://assets.tcgdex.net/en/me/me01/134",
+   "dexId": [
+    2
+   ]
+  },
+  {
+   "localId": "135",
+   "name": "Exeggutor",
+   "category": "Pokemon",
+   "rarity": "Illustration rare",
+   "regulationMark": "I",
+   "hp": 140,
+   "types": [
+    "Grass"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Exeggcute",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Grass"
+     ],
+     "name": "Guard Press",
+     "effect": "During your opponent's next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+     "damage": 30
+    },
+    {
+     "cost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Stomping Wood",
+     "effect": "This attack does 30 more damage for each {G} Energy attached to this Pokémon.",
+     "damage": "60+"
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fire",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/135",
+   "dexId": [
+    103
+   ]
+  },
+  {
+   "localId": "136",
+   "name": "Shuckle",
+   "category": "Pokemon",
+   "rarity": "Illustration rare",
+   "regulationMark": "I",
+   "hp": 80,
+   "types": [
+    "Grass"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": [
+    {
+     "type": "Ability",
+     "name": "Fermented Juice",
+     "effect": "Once during your turn, if this Pokémon has any {G} Energy attached, you may use this Ability. Heal 30 damage from 1 of your Pokémon."
+    }
+   ],
+   "attacks": [
+    {
+     "cost": [
+      "Grass",
+      "Colorless"
+     ],
+     "name": "Rollout",
+     "damage": 30
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fire",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/136",
+   "dexId": [
+    213
+   ]
+  },
+  {
+   "localId": "137",
+   "name": "Ninjask",
+   "category": "Pokemon",
+   "rarity": "Illustration rare",
+   "regulationMark": "I",
+   "hp": 80,
+   "types": [
+    "Grass"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Nincada",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": [
+    {
+     "type": "Ability",
+     "name": "Cast-Off Shell",
+     "effect": "Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Search your deck for a Shedinja and put it onto your Bench. Then, shuffle your deck."
+    }
+   ],
+   "attacks": [
+    {
+     "cost": [
+      "Grass",
+      "Colorless"
+     ],
+     "name": "U-turn",
+     "effect": "Switch this Pokémon with 1 of your Benched Pokémon.",
+     "damage": 90
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fire",
+     "value": "×2"
+    }
+   ],
+   "retreat": 0,
+   "image": "https://assets.tcgdex.net/en/me/me01/137",
+   "dexId": [
+    291
+   ]
+  },
+  {
+   "localId": "138",
+   "name": "Vulpix",
+   "category": "Pokemon",
+   "rarity": "Illustration rare",
+   "regulationMark": "I",
+   "hp": 70,
+   "types": [
+    "Fire"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless"
+     ],
+     "name": "Stampede",
+     "damage": 10
+    },
+    {
+     "cost": [
+      "Fire",
+      "Colorless"
+     ],
+     "name": "Combustion",
+     "damage": 20
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Water",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/138",
+   "dexId": [
+    37
+   ]
+  },
+  {
+   "localId": "139",
+   "name": "Litleo",
+   "category": "Pokemon",
+   "rarity": "Illustration rare",
+   "regulationMark": "I",
+   "hp": 70,
+   "types": [
+    "Fire"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Fire",
+      "Colorless"
+     ],
+     "name": "Flare",
+     "damage": 30
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Water",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/139",
+   "dexId": [
+    667
+   ]
+  },
+  {
+   "localId": "140",
+   "name": "Snover",
+   "category": "Pokemon",
+   "rarity": "Illustration rare",
+   "regulationMark": "I",
+   "hp": 90,
+   "types": [
+    "Water"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Water"
+     ],
+     "name": "Beat",
+     "damage": 10
+    },
+    {
+     "cost": [
+      "Water",
+      "Water"
+     ],
+     "name": "Icy Snow",
+     "damage": 30
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Metal",
+     "value": "×2"
+    }
+   ],
+   "retreat": 3,
+   "image": "https://assets.tcgdex.net/en/me/me01/140",
+   "dexId": [
+    459
+   ]
+  },
+  {
+   "localId": "141",
+   "name": "Clawitzer",
+   "category": "Pokemon",
+   "rarity": "Illustration rare",
+   "regulationMark": "I",
+   "hp": 130,
+   "types": [
+    "Water"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Clauncher",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": [
+    {
+     "type": "Ability",
+     "name": "Fall Back to Reload",
+     "effect": "Once during your turn, when this Pokémon moves from the Active Spot to your Bench, you may use this Ability. Attach up to 2 Basic {W} Energy cards from your hand to this Pokémon."
+    }
+   ],
+   "attacks": [
+    {
+     "cost": [
+      "Water",
+      "Water",
+      "Water"
+     ],
+     "name": "Aqua Launcher",
+     "effect": "Discard all Energy from this Pokémon.",
+     "damage": 210
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Lightning",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/141",
+   "dexId": [
+    693
+   ]
+  },
+  {
+   "localId": "142",
+   "name": "Inteleon",
+   "category": "Pokemon",
+   "rarity": "Illustration rare",
+   "regulationMark": "I",
+   "hp": 150,
+   "types": [
+    "Water"
+   ],
+   "stage": "Stage2",
+   "suffix": null,
+   "evolveFrom": "Drizzile",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Water"
+     ],
+     "name": "Bring Down",
+     "effect": "Choose a Pokémon in play (yours or your opponent's) that has the least HP remaining, except for this Pokémon, and it is Knocked Out."
+    },
+    {
+     "cost": [
+      "Water"
+     ],
+     "name": "Water Shot",
+     "effect": "Discard an Energy from this Pokémon.",
+     "damage": 110
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Lightning",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/142",
+   "dexId": [
+    818
+   ]
+  },
+  {
+   "localId": "143",
+   "name": "Helioptile",
+   "category": "Pokemon",
+   "rarity": "Illustration rare",
+   "regulationMark": "I",
+   "hp": 70,
+   "types": [
+    "Lightning"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless"
+     ],
+     "name": "Double Scratch",
+     "effect": "Flip 2 coins. This attack does 10 damage for each heads.",
+     "damage": "10×"
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fighting",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/143",
+   "dexId": [
+    694
+   ]
+  },
+  {
+   "localId": "144",
+   "name": "Shedinja",
+   "category": "Pokemon",
+   "rarity": "Illustration rare",
+   "regulationMark": "I",
+   "hp": 60,
+   "types": [
+    "Psychic"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Nincada",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": [
+    {
+     "type": "Ability",
+     "name": "Fragile Husk",
+     "effect": "If this Pokémon is Knocked Out by damage from an attack from your opponent's Pokémon ex, your opponent can't take any Prize cards for it."
+    }
+   ],
+   "attacks": [
+    {
+     "cost": [
+      "Psychic"
+     ],
+     "name": "Damage Beat",
+     "effect": "This attack does 20 damage for each damage counter on your opponent's Active Pokémon.",
+     "damage": "20×"
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Darkness",
+     "value": "×2"
+    }
+   ],
+   "retreat": 0,
+   "image": "https://assets.tcgdex.net/en/me/me01/144",
+   "dexId": [
+    292
+   ]
+  },
+  {
+   "localId": "145",
+   "name": "Houndstone",
+   "category": "Pokemon",
+   "rarity": "Illustration rare",
+   "regulationMark": "I",
+   "hp": 140,
+   "types": [
+    "Psychic"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Greavard",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Psychic"
+     ],
+     "name": "Horrifying Bite",
+     "effect": "Flip a coin until you get tails. For each heads, choose a random card from your opponent's hand. Your opponent reveals those cards and shuffles them into their deck.",
+     "damage": 30
+    },
+    {
+     "cost": [
+      "Psychic",
+      "Psychic",
+      "Colorless"
+     ],
+     "name": "Hammer In",
+     "damage": 130
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Darkness",
+     "value": "×2"
+    }
+   ],
+   "retreat": 3,
+   "image": "https://assets.tcgdex.net/en/me/me01/145",
+   "dexId": [
+    972
+   ]
+  },
+  {
+   "localId": "146",
+   "name": "Marshadow",
+   "category": "Pokemon",
+   "rarity": "Illustration rare",
+   "regulationMark": "I",
+   "hp": 90,
+   "types": [
+    "Fighting"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Fighting",
+      "Fighting"
+     ],
+     "name": "Shadowy Side Kick",
+     "effect": "If your opponent's Pokémon is Knocked Out by damage from this attack, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.",
+     "damage": 60
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Psychic",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/146",
+   "dexId": [
+    802
+   ]
+  },
+  {
+   "localId": "147",
+   "name": "Garganacl",
+   "category": "Pokemon",
+   "rarity": "Illustration rare",
+   "regulationMark": "I",
+   "hp": 180,
+   "types": [
+    "Fighting"
+   ],
+   "stage": "Stage2",
+   "suffix": null,
+   "evolveFrom": "Naclstack",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": [
+    {
+     "type": "Ability",
+     "name": "Powerful a-Salt",
+     "effect": "Attacks used by your {F} Pokémon do 30 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance)."
+    }
+   ],
+   "attacks": [
+    {
+     "cost": [
+      "Fighting",
+      "Fighting",
+      "Colorless"
+     ],
+     "name": "Hammer In",
+     "damage": 130
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Grass",
+     "value": "×2"
+    }
+   ],
+   "retreat": 4,
+   "image": "https://assets.tcgdex.net/en/me/me01/147",
+   "dexId": [
+    934
+   ]
+  },
+  {
+   "localId": "148",
+   "name": "Spiritomb",
+   "category": "Pokemon",
+   "rarity": "Illustration rare",
+   "regulationMark": "I",
+   "hp": 80,
+   "types": [
+    "Darkness"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": [
+    {
+     "type": "Ability",
+     "name": "Spiteful Swirl",
+     "effect": "If your Active {D} Pokémon is damaged by an attack from your opponent's Pokémon (even if your Active {D} Pokémon is Knocked Out), place 1 damage counter on the Attacking Pokémon."
+    }
+   ],
+   "attacks": [
+    {
+     "cost": [
+      "Darkness"
+     ],
+     "name": "Mountain Breaker",
+     "effect": "Discard the top card of your opponent's deck.",
+     "damage": 10
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Grass",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/148",
+   "dexId": [
+    442
+   ]
+  },
+  {
+   "localId": "149",
+   "name": "Shroodle",
+   "category": "Pokemon",
+   "rarity": "Illustration rare",
+   "regulationMark": "I",
+   "hp": 60,
+   "types": [
+    "Darkness"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Darkness",
+      "Colorless"
+     ],
+     "name": "Poison Jab",
+     "effect": "Your opponent's Active Pokémon is now Poisoned.",
+     "damage": 20
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fighting",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/149",
+   "dexId": [
+    944
+   ]
+  },
+  {
+   "localId": "150",
+   "name": "Steelix",
+   "category": "Pokemon",
+   "rarity": "Illustration rare",
+   "regulationMark": "I",
+   "hp": 200,
+   "types": [
+    "Metal"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Onix",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Welcoming Tail",
+     "effect": "If you have exactly 6 Prize cards remaining, this attack does 200 more damage.",
+     "damage": "40+"
+    },
+    {
+     "cost": [
+      "Metal",
+      "Metal",
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Skull Bash",
+     "damage": 140
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fire",
+     "value": "×2"
+    }
+   ],
+   "retreat": 4,
+   "image": "https://assets.tcgdex.net/en/me/me01/150",
+   "dexId": [
+    208
+   ]
+  },
+  {
+   "localId": "151",
+   "name": "Spearow",
+   "category": "Pokemon",
+   "rarity": "Illustration rare",
+   "regulationMark": "I",
+   "hp": 60,
+   "types": [
+    "Colorless"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless"
+     ],
+     "name": "Pluck",
+     "effect": "Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.",
+     "damage": 10
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Lightning",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/151",
+   "dexId": [
+    21
+   ]
+  },
+  {
+   "localId": "152",
+   "name": "Delibird",
+   "category": "Pokemon",
+   "rarity": "Illustration rare",
+   "regulationMark": "I",
+   "hp": 90,
+   "types": [
+    "Colorless"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless"
+     ],
+     "name": "Quick Gift",
+     "effect": "If you go first, you can use this attack during your first turn. Search your deck for a card and put it into your hand. Then, shuffle your deck."
+    },
+    {
+     "cost": [
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Gentle Slap",
+     "damage": 30
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Lightning",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/152",
+   "dexId": [
+    225
+   ]
+  },
+  {
+   "localId": "153",
+   "name": "Gumshoos",
+   "category": "Pokemon",
+   "rarity": "Illustration rare",
+   "regulationMark": "I",
+   "hp": 100,
+   "types": [
+    "Colorless"
+   ],
+   "stage": "Stage1",
+   "suffix": null,
+   "evolveFrom": "Yungoos",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": [
+    {
+     "type": "Ability",
+     "name": "Evidence Gathering",
+     "effect": "Once during your turn, you may use this Ability. Switch a card from your hand with the top card of your deck."
+    }
+   ],
+   "attacks": [
+    {
+     "cost": [
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Bite",
+     "damage": 50
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fighting",
+     "value": "×2"
+    }
+   ],
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/153",
+   "dexId": [
+    735
+   ]
+  },
+  {
+   "localId": "154",
+   "name": "Stufful",
+   "category": "Pokemon",
+   "rarity": "Illustration rare",
+   "regulationMark": "I",
+   "hp": 70,
+   "types": [
+    "Colorless"
+   ],
+   "stage": "Basic",
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless"
+     ],
+     "name": "Light Punch",
+     "damage": 10
+    },
+    {
+     "cost": [
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Flop",
+     "damage": 20
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fighting",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/154",
+   "dexId": [
+    759
+   ]
+  },
+  {
+   "localId": "155",
+   "name": "Mega Venusaur ex",
+   "category": "Pokemon",
+   "rarity": "Ultra Rare",
+   "regulationMark": "I",
+   "hp": 380,
+   "types": [
+    "Grass"
+   ],
+   "stage": "Stage2",
+   "suffix": "ex",
+   "evolveFrom": "Ivysaur",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": [
+    {
+     "type": "Ability",
+     "name": "Solar Transfer",
+     "effect": "As often as you like during your turn, you may use this Ability. Move a Basic {G} Energy from 1 of your Pokémon to another of your Pokémon."
+    }
+   ],
+   "attacks": [
+    {
+     "cost": [
+      "Grass",
+      "Grass",
+      "Grass",
+      "Grass"
+     ],
+     "name": "Jungle Dump",
+     "effect": "Heal 30 damage from this Pokémon.",
+     "damage": 240
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fire",
+     "value": "×2"
+    }
+   ],
+   "retreat": 4,
+   "image": "https://assets.tcgdex.net/en/me/me01/155",
+   "dexId": [
+    3
+   ]
+  },
+  {
+   "localId": "156",
+   "name": "Mega Camerupt ex",
+   "category": "Pokemon",
+   "rarity": "Ultra Rare",
+   "regulationMark": "I",
+   "hp": 340,
+   "types": [
+    "Fire"
+   ],
+   "stage": "Stage1",
+   "suffix": "ex",
+   "evolveFrom": "Numel",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Fire"
+     ],
+     "name": "Roasting Heat",
+     "effect": "If your opponent's Active Pokémon is Burned, this attack does 160 more damage.",
+     "damage": "80+"
+    },
+    {
+     "cost": [
+      "Fire",
+      "Colorless",
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Volcanic Meteor",
+     "effect": "Discard 2 Energy from this Pokémon.",
+     "damage": 280
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Water",
+     "value": "×2"
+    }
+   ],
+   "retreat": 4,
+   "image": "https://assets.tcgdex.net/en/me/me01/156",
+   "dexId": [
+    323
+   ]
+  },
+  {
+   "localId": "157",
+   "name": "Mega Abomasnow ex",
+   "category": "Pokemon",
+   "rarity": "Ultra Rare",
+   "regulationMark": "I",
+   "hp": 350,
+   "types": [
+    "Water"
+   ],
+   "stage": "Stage1",
+   "suffix": "ex",
+   "evolveFrom": "Snover",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Water",
+      "Water"
+     ],
+     "name": "Hammer-lanche",
+     "effect": "Discard the top 6 cards of your deck, and this attack does 100 damage for each Basic {W} Energy card that you discarded in this way.",
+     "damage": "100×"
+    },
+    {
+     "cost": [
+      "Water",
+      "Water",
+      "Water"
+     ],
+     "name": "Frost Barrier",
+     "effect": "During your opponent's next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+     "damage": 200
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Metal",
+     "value": "×2"
+    }
+   ],
+   "retreat": 4,
+   "image": "https://assets.tcgdex.net/en/me/me01/157",
+   "dexId": [
+    460
+   ]
+  },
+  {
+   "localId": "158",
+   "name": "Mega Manectric ex",
+   "category": "Pokemon",
+   "rarity": "Ultra Rare",
+   "regulationMark": "I",
+   "hp": 330,
+   "types": [
+    "Lightning"
+   ],
+   "stage": "Stage1",
+   "suffix": "ex",
+   "evolveFrom": "Electrike",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Lightning",
+      "Lightning"
+     ],
+     "name": "Flash Ray",
+     "effect": "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Basic Pokémon.",
+     "damage": 120
+    },
+    {
+     "cost": [
+      "Lightning",
+      "Lightning",
+      "Lightning"
+     ],
+     "name": "Riotous Blasting",
+     "effect": "You may discard all Energy from this Pokémon and have this attack do 130 more damage.",
+     "damage": "200+"
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fighting",
+     "value": "×2"
+    }
+   ],
+   "retreat": 0,
+   "image": "https://assets.tcgdex.net/en/me/me01/158",
+   "dexId": [
+    310
+   ]
+  },
+  {
+   "localId": "159",
+   "name": "Mega Gardevoir ex",
+   "category": "Pokemon",
+   "rarity": "Ultra Rare",
+   "regulationMark": "I",
+   "hp": 360,
+   "types": [
+    "Psychic"
+   ],
+   "stage": "Stage2",
+   "suffix": "ex",
+   "evolveFrom": "Kirlia",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Psychic"
+     ],
+     "name": "Overflowing Wishes",
+     "effect": "For each of your Benched Pokémon, search your deck for a Basic {P} Energy card and attach it to that Pokémon. Then, shuffle your deck."
+    },
+    {
+     "cost": [
+      "Psychic"
+     ],
+     "name": "Mega Symphonia",
+     "effect": "This attack does 50 damage for each {P} Energy attached to all of your Pokémon.",
+     "damage": "50×"
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Darkness",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/159",
+   "dexId": [
+    282
+   ]
+  },
+  {
+   "localId": "160",
+   "name": "Mega Lucario ex",
+   "category": "Pokemon",
+   "rarity": "Ultra Rare",
+   "regulationMark": "I",
+   "hp": 340,
+   "types": [
+    "Fighting"
+   ],
+   "stage": "Stage1",
+   "suffix": "ex",
+   "evolveFrom": "Riolu",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Fighting"
+     ],
+     "name": "Aura Jab",
+     "effect": "Attach up to 3 Basic {F} Energy cards from your discard pile to your Benched Pokémon in any way you like.",
+     "damage": 130
+    },
+    {
+     "cost": [
+      "Fighting",
+      "Fighting"
+     ],
+     "name": "Mega Brave",
+     "effect": "During your next turn, this Pokémon can't use Mega Brave.",
+     "damage": 270
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Psychic",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/160",
+   "dexId": [
+    448
+   ]
+  },
+  {
+   "localId": "161",
+   "name": "Mega Absol ex",
+   "category": "Pokemon",
+   "rarity": "Ultra Rare",
+   "regulationMark": "I",
+   "hp": 280,
+   "types": [
+    "Darkness"
+   ],
+   "stage": "Basic",
+   "suffix": "ex",
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Darkness",
+      "Colorless"
+     ],
+     "name": "Terminal Period",
+     "effect": "If your opponent's Active Pokémon has exactly 6 damage counters on it, that Pokémon is Knocked Out."
+    },
+    {
+     "cost": [
+      "Darkness",
+      "Darkness",
+      "Colorless"
+     ],
+     "name": "Claw of Darkness",
+     "effect": "Your opponent reveals their hand, and you discard a card you find there.",
+     "damage": 200
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Grass",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/161",
+   "dexId": [
+    351
+   ]
+  },
+  {
+   "localId": "162",
+   "name": "Mega Mawile ex",
+   "category": "Pokemon",
+   "rarity": "Ultra Rare",
+   "regulationMark": "I",
+   "hp": 270,
+   "types": [
+    "Metal"
+   ],
+   "stage": "Basic",
+   "suffix": "ex",
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Metal",
+      "Metal"
+     ],
+     "name": "Gobble Down",
+     "effect": "This attack does 80 damage for each Prize card you have taken.",
+     "damage": "80×"
+    },
+    {
+     "cost": [
+      "Metal",
+      "Metal",
+      "Colorless"
+     ],
+     "name": "Huge Bite",
+     "effect": "If your opponent's Active Pokémon already has any damage counters on it, this attack's base damage is 30.",
+     "damage": 260
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fire",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/162",
+   "dexId": [
+    303
+   ]
+  },
+  {
+   "localId": "163",
+   "name": "Mega Latias ex",
+   "category": "Pokemon",
+   "rarity": "Ultra Rare",
+   "regulationMark": "I",
+   "hp": 280,
+   "types": [
+    "Dragon"
+   ],
+   "stage": "Basic",
+   "suffix": "ex",
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless"
+     ],
+     "name": "Strafe",
+     "effect": "You may switch this Pokémon with 1 of your Benched Pokémon.",
+     "damage": 40
+    },
+    {
+     "cost": [
+      "Fire",
+      "Psychic",
+      "Colorless"
+     ],
+     "name": "Illusory Impulse",
+     "effect": "Discard all Energy from this Pokémon.",
+     "damage": 300
+    }
+   ],
+   "weaknesses": null,
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/163",
+   "dexId": [
+    380
+   ]
+  },
+  {
+   "localId": "164",
+   "name": "Mega Kangaskhan ex",
+   "category": "Pokemon",
+   "rarity": "Ultra Rare",
+   "regulationMark": "I",
+   "hp": 300,
+   "types": [
+    "Colorless"
+   ],
+   "stage": "Basic",
+   "suffix": "ex",
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": [
+    {
+     "type": "Ability",
+     "name": "Run Errand",
+     "effect": "Once during your turn, if this Pokémon is in the Active Spot, you may use this Ability. Draw 2 cards. You can't use more than 1 Run Errand Ability each turn."
+    }
+   ],
+   "attacks": [
+    {
+     "cost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Rapid-Fire Combo",
+     "effect": "Flip a coin until you get tails. This attack does 50 more damage for each heads.",
+     "damage": "200+"
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fighting",
+     "value": "×2"
+    }
+   ],
+   "retreat": 3,
+   "image": "https://assets.tcgdex.net/en/me/me01/164",
+   "dexId": [
+    115
+   ]
+  },
+  {
+   "localId": "165",
+   "name": "Acerola's Mischief",
+   "category": "Trainer",
+   "rarity": "Ultra Rare",
+   "regulationMark": "I",
+   "hp": null,
+   "types": null,
+   "stage": null,
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": "Supporter",
+   "energyType": null,
+   "effect": "You can use this card only if your opponent has 2 or fewer Prize cards remaining.\n\nChoose 1 of your Pokémon in play. During your opponent's next turn, prevent all damage from and effects of attacks done to that Pokémon by your opponent's Pokémon ex.",
+   "abilities": null,
+   "attacks": null,
+   "weaknesses": null,
+   "retreat": null,
+   "image": "https://assets.tcgdex.net/en/me/me01/165"
+  },
+  {
+   "localId": "166",
+   "name": "Air Balloon",
+   "category": "Trainer",
+   "rarity": "Ultra Rare",
+   "regulationMark": "I",
+   "hp": null,
+   "types": null,
+   "stage": null,
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": "Tool",
+   "energyType": null,
+   "effect": "The Retreat Cost of the Pokémon this card is attached to is {C}{C} less.",
+   "abilities": null,
+   "attacks": null,
+   "weaknesses": null,
+   "retreat": null,
+   "image": "https://assets.tcgdex.net/en/me/me01/166"
+  },
+  {
+   "localId": "167",
+   "name": "Buddy-Buddy Poffin",
+   "category": "Trainer",
+   "rarity": "Ultra Rare",
+   "regulationMark": "H",
+   "hp": null,
+   "types": null,
+   "stage": null,
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": "Item",
+   "energyType": null,
+   "effect": "Search your deck for up to 2 Basic Pokémon with 70 HP or less and put them onto your Bench. Then, shuffle your deck.",
+   "abilities": null,
+   "attacks": null,
+   "weaknesses": null,
+   "retreat": null,
+   "image": "https://assets.tcgdex.net/en/me/me01/167"
+  },
+  {
+   "localId": "168",
+   "name": "Fighting Gong",
+   "category": "Trainer",
+   "rarity": "Ultra Rare",
+   "regulationMark": "I",
+   "hp": null,
+   "types": null,
+   "stage": null,
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": "Item",
+   "energyType": null,
+   "effect": "Search your deck for a Basic {F} Energy card or a Basic {F} Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
+   "abilities": null,
+   "attacks": null,
+   "weaknesses": null,
+   "retreat": null,
+   "image": "https://assets.tcgdex.net/en/me/me01/168"
+  },
+  {
+   "localId": "169",
+   "name": "Lillie's Determination",
+   "category": "Trainer",
+   "rarity": "Ultra Rare",
+   "regulationMark": "I",
+   "hp": null,
+   "types": null,
+   "stage": null,
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": "Supporter",
+   "energyType": null,
+   "effect": "Shuffle your hand into your deck. Then, draw 6 cards. If you have exactly 6 Prize cards remaining, draw 8 cards instead.",
+   "abilities": null,
+   "attacks": null,
+   "weaknesses": null,
+   "retreat": null,
+   "image": "https://assets.tcgdex.net/en/me/me01/169"
+  },
+  {
+   "localId": "170",
+   "name": "Lt. Surge's Bargain",
+   "category": "Trainer",
+   "rarity": "Ultra Rare",
+   "regulationMark": "I",
+   "hp": null,
+   "types": null,
+   "stage": null,
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": "Supporter",
+   "energyType": null,
+   "effect": "Ask your opponent if each player may take a Prize card. If yes, each player takes a Prize card. If no, you draw 4 cards.",
+   "abilities": null,
+   "attacks": null,
+   "weaknesses": null,
+   "retreat": null,
+   "image": "https://assets.tcgdex.net/en/me/me01/170"
+  },
+  {
+   "localId": "171",
+   "name": "Mega Signal",
+   "category": "Trainer",
+   "rarity": "Ultra Rare",
+   "regulationMark": "I",
+   "hp": null,
+   "types": null,
+   "stage": null,
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": "Item",
+   "energyType": null,
+   "effect": "Search your deck for a Mega Evolution Pokémon ex, reveal it, and put it into your hand. Then, shuffle your deck.",
+   "abilities": null,
+   "attacks": null,
+   "weaknesses": null,
+   "retreat": null,
+   "image": "https://assets.tcgdex.net/en/me/me01/171"
+  },
+  {
+   "localId": "172",
+   "name": "Mystery Garden",
+   "category": "Trainer",
+   "rarity": "Ultra Rare",
+   "regulationMark": "I",
+   "hp": null,
+   "types": null,
+   "stage": null,
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": "Stadium",
+   "energyType": null,
+   "effect": "Once during each player's turn, that player may discard an Energy card from their hand in order to draw cards until they have as many cards in their hand as they have {P} Pokémon in play.",
+   "abilities": null,
+   "attacks": null,
+   "weaknesses": null,
+   "retreat": null,
+   "image": "https://assets.tcgdex.net/en/me/me01/172"
+  },
+  {
+   "localId": "173",
+   "name": "Night Stretcher",
+   "category": "Trainer",
+   "rarity": "Ultra Rare",
+   "regulationMark": "H",
+   "hp": null,
+   "types": null,
+   "stage": null,
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": "Item",
+   "energyType": null,
+   "effect": "Put a Pokémon or a Basic Energy card from your discard pile into your hand.",
+   "abilities": null,
+   "attacks": null,
+   "weaknesses": null,
+   "retreat": null,
+   "image": "https://assets.tcgdex.net/en/me/me01/173"
+  },
+  {
+   "localId": "174",
+   "name": "Premium Power Pro",
+   "category": "Trainer",
+   "rarity": "Ultra Rare",
+   "regulationMark": "I",
+   "hp": null,
+   "types": null,
+   "stage": null,
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": "Item",
+   "energyType": null,
+   "effect": "During this turn, attacks used by your {F} Pokémon do 30 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
+   "abilities": null,
+   "attacks": null,
+   "weaknesses": null,
+   "retreat": null,
+   "image": "https://assets.tcgdex.net/en/me/me01/174"
+  },
+  {
+   "localId": "175",
+   "name": "Rare Candy",
+   "category": "Trainer",
+   "rarity": "Ultra Rare",
+   "regulationMark": "I",
+   "hp": null,
+   "types": null,
+   "stage": null,
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": "Item",
+   "energyType": null,
+   "effect": "Choose 1 of your Basic Pokémon in play. If you have a Stage 2 card in your hand that evolves from that Pokémon, put that card onto the Basic Pokémon to evolve it, skipping the Stage 1. You can't use this card during your first turn or on a Basic Pokémon that was put into play this turn.",
+   "abilities": null,
+   "attacks": null,
+   "weaknesses": null,
+   "retreat": null,
+   "image": "https://assets.tcgdex.net/en/me/me01/175"
+  },
+  {
+   "localId": "176",
+   "name": "Wally's Compassion",
+   "category": "Trainer",
+   "rarity": "Ultra Rare",
+   "regulationMark": "I",
+   "hp": null,
+   "types": null,
+   "stage": null,
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": "Supporter",
+   "energyType": null,
+   "effect": "Heal all damage from 1 of your Mega Evolution Pokémon ex. If you healed any damage in this way, put all Energy attached to that Pokémon into your hand.",
+   "abilities": null,
+   "attacks": null,
+   "weaknesses": null,
+   "retreat": null,
+   "image": "https://assets.tcgdex.net/en/me/me01/176"
+  },
+  {
+   "localId": "177",
+   "name": "Mega Venusaur ex",
+   "category": "Pokemon",
+   "rarity": "Special illustration rare",
+   "regulationMark": "I",
+   "hp": 380,
+   "types": [
+    "Grass"
+   ],
+   "stage": "Stage2",
+   "suffix": "ex",
+   "evolveFrom": "Ivysaur",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": [
+    {
+     "type": "Ability",
+     "name": "Solar Transfer",
+     "effect": "As often as you like during your turn, you may use this Ability. Move a Basic {G} Energy from 1 of your Pokémon to another of your Pokémon."
+    }
+   ],
+   "attacks": [
+    {
+     "cost": [
+      "Grass",
+      "Grass",
+      "Grass",
+      "Grass"
+     ],
+     "name": "Jungle Dump",
+     "effect": "Heal 30 damage from this Pokémon.",
+     "damage": 240
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fire",
+     "value": "×2"
+    }
+   ],
+   "retreat": 4,
+   "image": "https://assets.tcgdex.net/en/me/me01/177",
+   "dexId": [
+    3
+   ]
+  },
+  {
+   "localId": "178",
+   "name": "Mega Gardevoir ex",
+   "category": "Pokemon",
+   "rarity": "Special illustration rare",
+   "regulationMark": "I",
+   "hp": 360,
+   "types": [
+    "Psychic"
+   ],
+   "stage": "Stage2",
+   "suffix": "ex",
+   "evolveFrom": "Kirlia",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Psychic"
+     ],
+     "name": "Overflowing Wishes",
+     "effect": "For each of your Benched Pokémon, search your deck for a Basic {P} Energy card and attach it to that Pokémon. Then, shuffle your deck."
+    },
+    {
+     "cost": [
+      "Psychic"
+     ],
+     "name": "Mega Symphonia",
+     "effect": "This attack does 50 damage for each {P} Energy attached to all of your Pokémon.",
+     "damage": "50×"
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Darkness",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/178",
+   "dexId": [
+    282
+   ]
+  },
+  {
+   "localId": "179",
+   "name": "Mega Lucario ex",
+   "category": "Pokemon",
+   "rarity": "Special illustration rare",
+   "regulationMark": "I",
+   "hp": 340,
+   "types": [
+    "Fighting"
+   ],
+   "stage": "Stage1",
+   "suffix": "ex",
+   "evolveFrom": "Riolu",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Fighting"
+     ],
+     "name": "Aura Jab",
+     "effect": "Attach up to 3 Basic {F} Energy cards from your discard pile to your Benched Pokémon in any way you like.",
+     "damage": 130
+    },
+    {
+     "cost": [
+      "Fighting",
+      "Fighting"
+     ],
+     "name": "Mega Brave",
+     "effect": "During your next turn, this Pokémon can't use Mega Brave.",
+     "damage": 270
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Psychic",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/179",
+   "dexId": [
+    448
+   ]
+  },
+  {
+   "localId": "180",
+   "name": "Mega Absol ex",
+   "category": "Pokemon",
+   "rarity": "Special illustration rare",
+   "regulationMark": "I",
+   "hp": 280,
+   "types": [
+    "Darkness"
+   ],
+   "stage": "Basic",
+   "suffix": "ex",
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Darkness",
+      "Colorless"
+     ],
+     "name": "Terminal Period",
+     "effect": "If your opponent's Active Pokémon has exactly 6 damage counters on it, that Pokémon is Knocked Out."
+    },
+    {
+     "cost": [
+      "Darkness",
+      "Darkness",
+      "Colorless"
+     ],
+     "name": "Claw of Darkness",
+     "effect": "Your opponent reveals their hand, and you discard a card you find there.",
+     "damage": 200
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Grass",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/180",
+   "dexId": [
+    351
+   ]
+  },
+  {
+   "localId": "181",
+   "name": "Mega Latias ex",
+   "category": "Pokemon",
+   "rarity": "Special illustration rare",
+   "regulationMark": "I",
+   "hp": 280,
+   "types": [
+    "Dragon"
+   ],
+   "stage": "Basic",
+   "suffix": "ex",
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Colorless"
+     ],
+     "name": "Strafe",
+     "effect": "You may switch this Pokémon with 1 of your Benched Pokémon.",
+     "damage": 40
+    },
+    {
+     "cost": [
+      "Fire",
+      "Psychic",
+      "Colorless"
+     ],
+     "name": "Illusory Impulse",
+     "effect": "Discard all Energy from this Pokémon.",
+     "damage": 300
+    }
+   ],
+   "weaknesses": null,
+   "retreat": 1,
+   "image": "https://assets.tcgdex.net/en/me/me01/181",
+   "dexId": [
+    380
+   ]
+  },
+  {
+   "localId": "182",
+   "name": "Mega Kangaskhan ex",
+   "category": "Pokemon",
+   "rarity": "Special illustration rare",
+   "regulationMark": "I",
+   "hp": 300,
+   "types": [
+    "Colorless"
+   ],
+   "stage": "Basic",
+   "suffix": "ex",
+   "evolveFrom": null,
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": [
+    {
+     "type": "Ability",
+     "name": "Run Errand",
+     "effect": "Once during your turn, if this Pokémon is in the Active Spot, you may use this Ability. Draw 2 cards. You can't use more than 1 Run Errand Ability each turn."
+    }
+   ],
+   "attacks": [
+    {
+     "cost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+     ],
+     "name": "Rapid-Fire Combo",
+     "effect": "Flip a coin until you get tails. This attack does 50 more damage for each heads.",
+     "damage": "200+"
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Fighting",
+     "value": "×2"
+    }
+   ],
+   "retreat": 3,
+   "image": "https://assets.tcgdex.net/en/me/me01/182",
+   "dexId": [
+    115
+   ]
+  },
+  {
+   "localId": "183",
+   "name": "Acerola's Mischief",
+   "category": "Trainer",
+   "rarity": "Special illustration rare",
+   "regulationMark": "I",
+   "hp": null,
+   "types": null,
+   "stage": null,
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": "Supporter",
+   "energyType": null,
+   "effect": "You can use this card only if your opponent has 2 or fewer Prize cards remaining.\n\nChoose 1 of your Pokémon in play. During your opponent's next turn, prevent all damage from and effects of attacks done to that Pokémon by your opponent's Pokémon ex.",
+   "abilities": null,
+   "attacks": null,
+   "weaknesses": null,
+   "retreat": null,
+   "image": "https://assets.tcgdex.net/en/me/me01/183"
+  },
+  {
+   "localId": "184",
+   "name": "Lillie's Determination",
+   "category": "Trainer",
+   "rarity": "Special illustration rare",
+   "regulationMark": "I",
+   "hp": null,
+   "types": null,
+   "stage": null,
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": "Supporter",
+   "energyType": null,
+   "effect": "Shuffle your hand into your deck. Then, draw 6 cards. If you have exactly 6 Prize cards remaining, draw 8 cards instead.",
+   "abilities": null,
+   "attacks": null,
+   "weaknesses": null,
+   "retreat": null,
+   "image": "https://assets.tcgdex.net/en/me/me01/184"
+  },
+  {
+   "localId": "185",
+   "name": "Lt. Surge's Bargain",
+   "category": "Trainer",
+   "rarity": "Special illustration rare",
+   "regulationMark": "I",
+   "hp": null,
+   "types": null,
+   "stage": null,
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": "Supporter",
+   "energyType": null,
+   "effect": "Ask your opponent if each player may take a Prize card. If yes, each player takes a Prize card. If no, you draw 4 cards.",
+   "abilities": null,
+   "attacks": null,
+   "weaknesses": null,
+   "retreat": null,
+   "image": "https://assets.tcgdex.net/en/me/me01/185"
+  },
+  {
+   "localId": "186",
+   "name": "Wally's Compassion",
+   "category": "Trainer",
+   "rarity": "Special illustration rare",
+   "regulationMark": "I",
+   "hp": null,
+   "types": null,
+   "stage": null,
+   "suffix": null,
+   "evolveFrom": null,
+   "trainerType": "Supporter",
+   "energyType": null,
+   "effect": "Heal all damage from 1 of your Mega Evolution Pokémon ex. If you healed any damage in this way, put all Energy attached to that Pokémon into your hand.",
+   "abilities": null,
+   "attacks": null,
+   "weaknesses": null,
+   "retreat": null,
+   "image": "https://assets.tcgdex.net/en/me/me01/186"
+  },
+  {
+   "localId": "187",
+   "name": "Mega Gardevoir ex",
+   "category": "Pokemon",
+   "rarity": "Mega Hyper Rare",
+   "regulationMark": "I",
+   "hp": 360,
+   "types": [
+    "Psychic"
+   ],
+   "stage": "Stage2",
+   "suffix": "ex",
+   "evolveFrom": "Kirlia",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Psychic"
+     ],
+     "name": "Overflowing Wishes",
+     "effect": "For each of your Benched Pokémon, search your deck for a Basic {P} Energy card and attach it to that Pokémon. Then, shuffle your deck."
+    },
+    {
+     "cost": [
+      "Psychic"
+     ],
+     "name": "Mega Symphonia",
+     "effect": "This attack does 50 damage for each {P} Energy attached to all of your Pokémon.",
+     "damage": "50×"
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Darkness",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/187",
+   "dexId": [
+    282
+   ]
+  },
+  {
+   "localId": "188",
+   "name": "Mega Lucario ex",
+   "category": "Pokemon",
+   "rarity": "Mega Hyper Rare",
+   "regulationMark": "I",
+   "hp": 340,
+   "types": [
+    "Fighting"
+   ],
+   "stage": "Stage1",
+   "suffix": "ex",
+   "evolveFrom": "Riolu",
+   "trainerType": null,
+   "energyType": null,
+   "effect": null,
+   "abilities": null,
+   "attacks": [
+    {
+     "cost": [
+      "Fighting"
+     ],
+     "name": "Aura Jab",
+     "effect": "Attach up to 3 Basic {F} Energy cards from your discard pile to your Benched Pokémon in any way you like.",
+     "damage": 130
+    },
+    {
+     "cost": [
+      "Fighting",
+      "Fighting"
+     ],
+     "name": "Mega Brave",
+     "effect": "During your next turn, this Pokémon can't use Mega Brave.",
+     "damage": 270
+    }
+   ],
+   "weaknesses": [
+    {
+     "type": "Psychic",
+     "value": "×2"
+    }
+   ],
+   "retreat": 2,
+   "image": "https://assets.tcgdex.net/en/me/me01/188",
+   "dexId": [
+    448
+   ]
+  }
+ ]
+}
