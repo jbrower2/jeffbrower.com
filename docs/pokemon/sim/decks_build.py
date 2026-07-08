@@ -22,24 +22,74 @@ DECKGEN = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 TRAINERS = json.load(open(os.path.join(DECKGEN, 'trainers.json')))   # name -> {trainerType, rarity, effect}
 
 
-def trainer_package(ace, sup_cards):
-    """The consistency shell of Common/Uncommon Trainers the engine knows how to play."""
-    pkg = []
+FAMILIES = ["Team Rocket's", "Ethan's", "Arven's", "Hop's", "Marnie's", "Iono's",
+            "Cynthia's", "Erika's", "Steven's", "Larry's", "Misty's", "Lillie's"]
+# type -> best C/U energy-consistency card for a high-cost mono deck
+TYPE_ENERGY = {'Grass': 'Bug Catching Set', 'Fire': 'Firebreather', 'Fighting': 'Fighting Gong',
+               'Darkness': "Janine's Secret Art", 'Metal': 'Philippe', 'Water': 'Earthen Vessel',
+               'Lightning': 'Earthen Vessel', 'Psychic': 'Earthen Vessel'}
+# named family -> its signature engine (all Common/Uncommon, all implemented generically)
+FAMILY_TECH = {"Ethan's": [("Ethan's Adventure", 3)], "Arven's": [("Arven's Sandwich", 2)],
+               "Hop's": [("Hop's Bag", 2)], "Marnie's": [("Janine's Secret Art", 2)],
+               "Team Rocket's": [("Team Rocket's Great Ball", 2), ("Team Rocket's Transceiver", 1)]}
+
+
+def _family_of(names):
+    for fam in FAMILIES:
+        if any(n.startswith(fam + ' ') for n in names):
+            return fam
+    return None
+
+
+def trainer_package(deck, ace, sup_cards):
+    """Deep-research Trainer selector: a universal consistency core + tech chosen from the
+    deck's structure (Stage-2 → Rare Candy + Dawn; Mega → Mega Signal; multi-color → Crispin;
+    high-cost mono → type energy card; tanky → heal; named family → its engine)."""
+    pkg = {}
     def addT(name, n):
-        r = TRAINERS.get(name)
-        if r:
-            pkg.append((n, dict(r, name=name)))
-    addT("Professor's Research", 3)   # draw 7
-    addT("Friends in Paldea", 2)      # draw 3
-    addT("Boss's Orders", 2)          # gust
-    addT("Buddy-Buddy Poffin", 3)     # 2 small basics to bench
-    addT("Poké Ball", 2)              # search a Pokémon
-    addT("Switch", 2)                 # free pivot
-    addT("Earthen Vessel", 1)         # 2 basic energy to hand
-    addT("Night Stretcher", 1)        # recover Pokémon/energy from discard
-    if ace.stage == 2 or any(s.stage == 2 for s in sup_cards):
-        addT("Rare Candy", 4)         # Basic -> Stage 2 skip
-    return pkg
+        if TRAINERS.get(name):
+            pkg[name] = min(4, pkg.get(name, 0) + n)
+
+    # --- universal consistency core ---
+    addT("Professor's Research", 2)   # draw 7
+    addT("Cheren", 2)                 # draw 3
+    addT("Boss's Orders", 2)          # gust for KOs
+    addT("Buddy-Buddy Poffin", 2)     # small basics to bench
+    addT("Poké Ball", 1)              # find a Pokémon
+    addT("Switch", 1)                 # free pivot
+    addT("Night Stretcher", 1)        # recover the ace / energy from discard
+    addT("Earthen Vessel", 1)         # energy to hand
+
+    types = deck_types(ace, sup_cards); prim = types[0] if types else 'Water'
+    stage2 = ace.stage == 2 or any(s.stage == 2 for s in sup_cards)
+    mega = ace.name.startswith('Mega ')
+    multi = len(types) >= 2
+    maxcost = max((len(a['cost']) for a in ace.attacks), default=2)
+
+    # --- ace finders ---
+    if mega:
+        addT("Mega Signal", 2)        # tutor the singleton Mega-ex
+    elif ace.is_ex:
+        addT("Cyrano", 1)             # tutor Pokémon ex
+    if stage2:
+        addT("Rare Candy", 4)         # Basic -> Stage 2 skip (the key evolution enabler)
+        addT("Dawn", 1)               # fetch a Basic + Stage 1 + Stage 2 at once
+
+    # --- energy consistency ---
+    if multi:
+        addT("Crispin", 2)            # two basic energy of DIFFERENT types (fixes 2-color)
+    elif maxcost >= 4:
+        addT(TYPE_ENERGY.get(prim, 'Energy Search'), 2)
+
+    # --- tanky decks want healing ---
+    if ace.hp >= 310:
+        addT("Pokémon Center Lady", 2)
+
+    # --- named family engine ---
+    for nm, n in FAMILY_TECH.get(_family_of([deck['premium']] + deck.get('supports', [])), []):
+        addT(nm, n)
+
+    return [(n, dict(TRAINERS[nm], name=nm)) for nm, n in pkg.items()]
 L2T = {'G': 'Grass', 'R': 'Fire', 'W': 'Water', 'L': 'Lightning', 'P': 'Psychic',
        'F': 'Fighting', 'D': 'Darkness', 'M': 'Metal'}
 bolds = re.compile(r'\*\*([^*]+)\*\*')
@@ -150,7 +200,7 @@ def build_spec(deck):
         for j, pre in enumerate(preevo_chain(sc)):
             add(pre, 3 if j == 0 else 2)
     types = deck_types(ace, sup_cards)
-    trainers = trainer_package(ace, sup_cards)
+    trainers = trainer_package(deck, ace, sup_cards)
     n_trainer = sum(n for n, _ in trainers)
     # backup attacker lines until Pokémon + Trainers ≈ 46 (leaving ~14 basic energy)
     exclude = {ace.name} | {s.name for s in sup_cards} | {p.name for p in preevo_chain(ace)}

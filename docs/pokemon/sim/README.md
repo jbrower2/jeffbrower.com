@@ -64,11 +64,15 @@ Night Stretcher (recovery) — and `decks_build.trainer_package` gives every dec
 shell. This **rebalanced the field**: Lightning 80→66, Grass 34→45, walls (Vibrant Wall)
 25%→77%; still 0 draws.
 
-**Next lever — per-deck Trainer tech (deep research):** replace the one generic shell with the
-best package *per archetype* — implement more effects (heal Supporters/Items for stall,
-energy-accel Supporters like Crispin/Janine's/Firebreather, named engines like Ethan's
-Adventure / Arven's Sandwich / Hop's Bag) and map each deck to its ideal Trainer suite. Then
-niche effects (gust targeting, per-condition scaling, Punk-Up/X-Boot search-accel) + AI polish.
+**Per-deck Trainer tech is done.** A generic text-driven resolver (`_tcat` + `_do_*` in
+`engine.py`) handles draw / gust / search-Pokémon / search-energy / energy-accel / heal /
+Rare-Candy / switch / recover, so any Trainer in a package "just works," and
+`decks_build.trainer_package` is an archetype selector: universal core + Stage-2 → Rare Candy
++ Dawn, Mega → Mega Signal, multi-color → Crispin, high-cost mono → type energy card, tanky →
+Pokémon Center Lady, named family → its engine. **Field is now balanced**: median ~50%,
+133/165 in a 30–70% band, 0 draws, tight cross-archetype matchups. Optional polish:
+Stadiums/Tools, smarter AI sequencing + gust-target choice, and a few weak archetypes
+(2-color Multi like Salamence, slow Metal lines).
 
 ## Extending
 

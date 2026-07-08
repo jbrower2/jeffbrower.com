@@ -14,7 +14,7 @@ Scope of v1 — NOT yet modeled (base-combat baseline; see EFFECTS registry to e
 Deck spec: list of (count:int, item) where item is a Card or an energy type string
 like 'Grass'. Basic energy is unlimited; every other card is capped at 4 by the builder.
 """
-import random
+import random, re
 from collections import Counter
 from cards import load_cards
 import effects
@@ -301,63 +301,148 @@ class Game:
                 return True
         return False
 
-    def play_draw(self, me, name):
-        if name == "Professor's Research":
+    # --- generic, text-driven Trainer resolvers (so per-deck tech works, not just the core) ---
+    def _tcat(self, name, eff):
+        e = eff.lower()
+        if name == 'Rare Candy': return 'CANDY'
+        if 'switch in 1 of your opponent' in e: return 'GUST'
+        if 'switch your active' in e and 'bench' in e: return 'SWITCH'
+        if 'attach' in e and 'energy' in e and ('from your discard' in e or 'search your deck' in e): return 'ACCEL'
+        if 'onto your bench' in e and 'pok' in e: return 'BENCH'
+        if 'search your deck' in e and 'pok' in e and 'into your hand' in e: return 'SEARCHPOKE'
+        if 'search your deck' in e and 'energy' in e and 'into your hand' in e: return 'SEARCHNRG'
+        if 'from your discard pile into your hand' in e: return 'RECOVER'
+        if 'heal' in e and 'damage' in e: return 'HEAL'
+        if 'draw' in e: return 'DRAW'
+        return 'OTHER'
+
+    def _do_accel(self, me, eff):
+        tgt = self.ace_mon(me) or me.active
+        if not tgt: return False
+        letters = [x for x in re.findall(r'\{(\w)\}', eff) if x in 'GRWLPFDM']
+        letters = letters or [c for c in (self._cheapest_cost(tgt) or '') if c in 'GRWLPFDM']
+        n = 2 if 'up to 2' in eff.lower() else 1
+        did = 0
+        for L in (letters or list('GRWLPFDM')):
+            t = L2T[L]
+            while did < n and me.disc_energy.get(t, 0) > 0:
+                me.disc_energy[t] -= 1; tgt.energy[t] += 1; did += 1
+            while did < n:
+                idx = next((i for i in range(len(me.deck)) if me.deck[i] == ('E', t)), None)
+                if idx is None: break
+                me.deck.pop(idx); tgt.energy[t] += 1; did += 1
+            if did >= n: break
+        return did > 0
+
+    def _do_heal(self, me, eff):
+        m = re.search(r'heal (\d+) damage', eff.lower())
+        if not m: return False
+        amt = int(m.group(1)); e = eff.lower(); did = False
+        if 'each of your' in e or 'from each' in e:
+            for x in me.all_mons():
+                if x.damage > 0: x.damage = max(0, x.damage - amt); did = True
+        else:
+            tgt = max(me.all_mons(), key=lambda x: x.damage, default=None)
+            if tgt and tgt.damage > 0: tgt.damage = max(0, tgt.damage - amt); did = True
+        return did
+
+    def _poke_qual(self, eff):
+        e = eff.lower()
+        if 'mega evolution pok' in e: return lambda c: c.name.startswith('Mega ') and c.is_ex
+        if 'pokémon ex' in e or 'pokemon ex' in e: return lambda c: c.is_ex
+        m = re.search(r'\{(\w)\} pok', e)
+        if m: return lambda c, t=L2T[m.group(1).upper()]: c.ptype == t
+        if 'basic' in e and 'evolution' not in e: return lambda c: c.stage == 0
+        return lambda c: True
+
+    def _do_search_poke(self, me, eff, to_bench=False):
+        q = self._poke_qual(eff)
+        n = 3 if 'up to 3' in eff.lower() else (2 if 'up to 2' in eff.lower() else 1)
+        if to_bench:
+            return self._search_basics_to_bench(me, q, n) > 0
+        if not self.ace_mon(me) and not self._find_in_hand(me, lambda x: x[0] == 'P' and x[1].key == me.ace_key):
+            if self._search_deck_to_hand(me, lambda x: x[0] == 'P' and x[1].key == me.ace_key and q(x[1])):
+                return True
+        return self._search_deck_to_hand(me, lambda x: x[0] == 'P' and q(x[1]), n) > 0
+
+    def _do_draw(self, me, eff):
+        e = eff.lower()
+        if 'discard your hand and draw 7' in e:
             for t in me.hand:
                 if t[0] == 'E': me.disc_energy[t[1]] += 1
                 elif t[0] == 'P': me.discard.append(t)
-            me.hand = []; me.draw(7)
-        elif name == "Judge":
-            me.deck += me.hand; me.hand = []; self.rng.shuffle(me.deck); me.draw(4)
-        else:
-            me.draw(3)
+            me.hand = []; me.draw(7); return True
+        m = re.search(r'until you have (\d+) card', e)
+        if m:
+            if 'shuffle your hand' in e:
+                me.deck += me.hand; me.hand = []; self.rng.shuffle(me.deck)
+            while len(me.hand) < int(m.group(1)) and me.draw(1):
+                pass
+            return True
+        if 'shuffle your hand into your deck' in e:
+            m2 = re.search(r'draw (\d+)', e); me.deck += me.hand; me.hand = []
+            self.rng.shuffle(me.deck); me.draw(int(m2.group(1)) if m2 else 4); return True
+        m = re.search(r'draw (\d+) card', e)
+        if m: me.draw(int(m.group(1))); return True
+        return False
+
+    def _do_recover(self, me):
+        rec = next((x for x in me.discard if x[0] == 'P' and x[1].key == me.ace_key), None) \
+            or next((x for x in me.discard if x[0] == 'P'), None)
+        if rec: me.discard.remove(rec); me.hand.append(rec); return True
+        return False
 
     def play_trainers(self, me, opp):
-        # ITEMS (unlimited) — develop the board / fetch the ace
+        # ---- ITEMS / TOOLS (unlimited) ----
         changed = True
         while changed:
             changed = False
-            for t in list(me.hand):
-                if t[0] != 'T' or t[1]['trainerType'] != 'Item':
-                    continue
-                nm = t[1]['name']; done = False
-                if nm == 'Rare Candy':
-                    done = self._rare_candy(me)
-                elif nm == 'Buddy-Buddy Poffin':
-                    done = len(me.bench) < 5 and self._search_basics_to_bench(me, lambda c: c.hp <= 70, 2) > 0
-                elif nm in ('Poké Ball', 'Poké Pad', 'Dusk Ball', 'Nest Ball'):
-                    if not self.ace_mon(me) and not self._find_in_hand(me, lambda x: x[0] == 'P' and x[1].key == me.ace_key):
-                        want = lambda x: x[0] == 'P' and x[1].key == me.ace_key
-                        done = self._search_deck_to_hand(me, want) > 0 or self._search_deck_to_hand(me, lambda x: x[0] == 'P') > 0
-                    else:
-                        done = self._search_deck_to_hand(me, lambda x: x[0] == 'P') > 0
-                elif nm in ('Energy Search', 'Earthen Vessel'):
-                    if sum(1 for x in me.hand if x[0] == 'E') < 2:
-                        done = self._search_deck_to_hand(me, lambda x: x[0] == 'E', 2 if nm == 'Earthen Vessel' else 1) > 0
-                elif nm == 'Night Stretcher':
-                    rec = next((x for x in me.discard if x[0] == 'P' and x[1].key == me.ace_key), None) \
-                        or next((x for x in me.discard if x[0] == 'P'), None)
-                    if rec:
-                        me.discard.remove(rec); me.hand.append(rec); done = True
+            for t in [x for x in me.hand if x[0] == 'T' and x[1]['trainerType'] in ('Item', 'Tool')]:
+                eff = t[1].get('effect', ''); cat = self._tcat(t[1]['name'], eff); done = False
+                if cat == 'CANDY': done = self._rare_candy(me)
+                elif cat == 'BENCH': done = len(me.bench) < 5 and self._do_search_poke(me, eff, to_bench=True)
+                elif cat == 'SEARCHPOKE': done = (not self.ace_mon(me) or len(me.bench) < 3) and self._do_search_poke(me, eff)
+                elif cat == 'SEARCHNRG': done = sum(1 for x in me.hand if x[0] == 'E') < 2 and self._search_deck_to_hand(me, lambda x: x[0] == 'E', 2) > 0
+                elif cat == 'ACCEL': done = ((self.ace_mon(me) and not self._fundable(self.ace_mon(me))) or (me.active and not self._fundable(me.active))) and self._do_accel(me, eff)
+                elif cat == 'HEAL': done = me.active and me.active.damage >= 60 and self._do_heal(me, eff)
+                elif cat == 'RECOVER': done = any(x[0] == 'P' and x[1].key == me.ace_key for x in me.discard) and self._do_recover(me)
                 if done:
                     me.hand.remove(t); changed = True; break
-        # SUPPORTER (one per turn) — gust for a KO, else draw to dig
+        # ---- SUPPORTER (one per turn) ----
         sup = [t for t in me.hand if t[0] == 'T' and t[1]['trainerType'] == 'Supporter']
         if not sup:
             return
-        boss = next((t for t in sup if t[1]['name'] == "Boss's Orders"), None)
+        boss = next((t for t in sup if self._tcat(t[1]['name'], t[1].get('effect', '')) == 'GUST'), None)
         if boss and self._gust(me, opp):
             me.hand.remove(boss); return
-        if len(me.hand) <= 5:                               # only dig when the hand is thin
-            names = [t[1]['name'] for t in sup]
-            for pref in ("Professor's Research", "Judge", "Cheren", "Friends in Paldea", "Urbain"):
-                if pref in names:
-                    if pref == "Professor's Research" and len(me.hand) > 3:
-                        continue                            # don't torch a medium hand
-                    tok = next(t for t in sup if t[1]['name'] == pref)
-                    me.hand.remove(tok)                     # remove before resolving (Prof clears hand)
-                    self.play_draw(me, pref)
-                    return
+        ace = self.ace_mon(me)
+        underfunded = (ace and not self._fundable(ace)) or (me.active and not self._fundable(me.active))
+        hurt = me.active and me.active.damage >= 80
+        need_poke = (not ace) or len(me.bench) < 3
+        short_nrg = sum(1 for x in me.hand if x[0] == 'E') < 2
+
+        def score(t):
+            eff = t[1].get('effect', '').lower(); c = self._tcat(t[1]['name'], eff)
+            if c == 'DRAW':
+                if 'discard your hand and draw 7' in eff: return 30 if len(me.hand) <= 3 else 0
+                return 20 if len(me.hand) <= 4 else 6
+            if c == 'ACCEL': return 25 if underfunded else 4
+            if c == 'HEAL': return 22 if hurt else 0
+            if c == 'SEARCHPOKE': return 16 if need_poke else 3
+            if c == 'SEARCHNRG': return 12 if short_nrg else 2
+            if c == 'BENCH': return 11 if len(me.bench) < 4 else 0
+            return 0
+        best = max(sup, key=score)
+        if score(best) <= 0:
+            return
+        eff = best[1].get('effect', ''); c = self._tcat(best[1]['name'], eff)
+        me.hand.remove(best)                                # commit the supporter, then resolve
+        if c == 'DRAW': self._do_draw(me, eff)
+        elif c == 'ACCEL': self._do_accel(me, eff)
+        elif c == 'HEAL': self._do_heal(me, eff)
+        elif c == 'SEARCHPOKE': self._do_search_poke(me, eff)
+        elif c == 'SEARCHNRG': self._search_deck_to_hand(me, lambda x: x[0] == 'E', 2)
+        elif c == 'BENCH': self._do_search_poke(me, eff, to_bench=True)
 
     def ai_main(self, me, opp):
         for m in me.all_mons():
