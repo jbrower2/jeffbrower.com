@@ -93,7 +93,12 @@ Template per deck (keep exactly):
 - **`exes.md`**: complete — every legal ex (~145) by energy type, plus Multi and Colorless, with the Palafin/Zero-to-Hero note corrected.
 - **`decks.md`**: **165 decks** — Grass 19, Fire 15, Water 20, Lightning 12, Psychic 17, Fighting 16, Darkness 13, Metal 17, Colorless 19, Multi 10, Team Rocket's 7. All verified (0 hard errors).
 - **`deckgen/`**: the persisted pipeline (`printings.json` + scripts + per-section deck source files).
+- **`sim/`**: the match simulator (v1). Auto-builds all 165 archetypes into legal 60-card lists and plays a round-robin; runs the full field in ~20s.
 
-## Next step: the simulator
+## Format (confirmed)
 
-Encode the 165 decks as full 60-card lists on `deckgen/printings.json`, then build a match engine (turn structure, energy attach, evolution, attacks/abilities, prizes, special conditions) to compute head-to-head win rates and optimize each deck. Deck size is still unconfirmed (assumed 60) — settle that first.
+Standard PTCG: **exactly 60 cards, max 4 copies** of any non-basic-energy card, unlimited basic energy. The price rule is a **physical-copy cap**: at most **1 card ≤$1.00** + **2 cards ≤$0.50** (3 "money" cards total); everything else is C/U or basic energy. Data pool is Pokémon-only, so decks are Pokémon + basic energy (no Trainers).
+
+## Simulator status & next step
+
+`sim/` is a working **v1 = base combat only** (setup, turns, energy/evolve/attack, base damage, Weakness ×2, prizes, win, greedy AI). It does **not** yet model attack/ability *text effects*, so the current ranking is a raw-damage baseline that **under-values combo/status/control decks** — do not treat it as a verdict. Next step: the **effect registry** (see `sim/README.md`) — add handlers for energy acceleration, scaling damage, status, heal/reduction, spread/disruption (in that impact order), re-running `sim_run.py --all` after each layer.
