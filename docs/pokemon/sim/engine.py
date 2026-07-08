@@ -39,6 +39,8 @@ class Mon:
         self.cd_turn = -1            # game turn the cooldown was set
         self.status = {}             # special conditions: Burned/Poisoned/Asleep/Paralyzed/Confused
         self.poison_amt = 10         # poison damage per checkup (raised by heavy-poison attacks)
+        self.dr_amount = 0           # temporary damage reduction amount
+        self.dr_turn = -9            # game turn the temp reduction was set (applies the turn after)
     @property
     def hp_left(self):
         return self.card.hp - self.damage
@@ -138,6 +140,9 @@ class Game:
         for p in self.players:
             p.setup()
 
+    def is_ko(self, mon, owner):
+        return mon.damage >= mon.card.hp + effects.team_hp_bonus(owner)
+
     def winner(self):
         for i, p in enumerate(self.players):
             if p.lost:
@@ -184,8 +189,10 @@ class Game:
             me.hand.remove(tok)
         # 4) energy-acceleration abilities (once per pokemon per turn)
         for mon in me.all_mons():
+            if effects.abilities_disabled(mon, me, opp):
+                continue
             for ab in mon.card.abilities:
-                h = effects.ABILITY_ACCEL.get(ab['name'])
+                h = effects.ABILITY_ACCEL.get(ab['name']) or effects.HEAL_ABILITIES.get(ab['name'])
                 if h:
                     h(me, opp, mon, self)
 
@@ -218,16 +225,23 @@ class Game:
             atk = self.best_attack(me, opp, me.active, opp.active)
             if atk and atk[2] > 0:
                 a, dmg, _ = atk
+                ctx = (me, opp, me.active, opp.active, self)
+                dmg = effects.incoming_damage(dmg, me.active, opp.active, opp, self)
                 opp.active.damage += dmg
                 self.log(f"  {me.name}'s {me.active.card.name} uses {a['name']} for {dmg} "
                          f"({opp.active.card.name} {max(0,opp.active.hp_left)}/{opp.active.card.hp})")
-                ctx = (me, opp, me.active, opp.active, self)
                 effects.attack_side_effects(ctx, a)
                 effects.apply_attack_status(ctx, a)
+                for b in effects.apply_spread(ctx, a):           # bench spread KOs
+                    if b in opp.bench:
+                        for t, n in b.energy.items():
+                            opp.disc_energy[t] += n
+                        opp.discard.append(('P', b.card)); opp.bench.remove(b)
+                        me.take_prize(2 if b.card.is_ex else 1)
                 cd = effects.attack_cooldown(a)
                 if cd:
                     me.active.cd_name = cd; me.active.cd_turn = self.turn
-                if opp.active.hp_left <= 0:                       # defender KO
+                if self.is_ko(opp.active, opp):                  # defender KO
                     ko = opp.active
                     self.log(f"    KO {ko.card.name}!")
                     for t, n in ko.energy.items():
@@ -235,7 +249,7 @@ class Game:
                     opp.discard.append(('P', ko.card))
                     me.take_prize(2 if ko.card.is_ex else 1)
                     opp.promote()
-                if me.active and me.active.hp_left <= 0:          # attacker self-KO (recoil)
+                if me.active and self.is_ko(me.active, me):       # attacker self-KO (recoil)
                     ko = me.active
                     for t, n in ko.energy.items():
                         me.disc_energy[t] += n
@@ -255,7 +269,7 @@ class Game:
             if not p.active:
                 continue
             effects.checkup(p.active, self.rng)
-            if p.active.hp_left <= 0:
+            if self.is_ko(p.active, p):
                 ko = p.active
                 for t, n in ko.energy.items():
                     p.disc_energy[t] += n

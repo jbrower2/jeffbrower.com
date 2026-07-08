@@ -29,6 +29,8 @@ def eval_count(frag, ctx):
     m = re.search(r'\{(\w)\} energy attached to this pok', f)
     if m: return mon.energy.get(L2T[m.group(1).upper()], 0)
     if 'energy attached to this pok' in f: return mon.total_energy()
+    m = re.search(r'\{(\w)\} energy attached to all of your pok', f)
+    if m: return _energy_in_play(me, L2T[m.group(1).upper()])
     if 'energy attached to all of your pok' in f: return _energy_in_play(me)
     if "energy attached to your opponent" in f: return dfn.total_energy() if dfn else 0
     if 'damage counter on this pok' in f: return mon.damage // 10
@@ -136,6 +138,38 @@ def attack_side_effects(ctx, attack):
             t = max(mon.energy, key=lambda k: mon.energy[k]); mon.energy[t] -= 1
             if mon.energy[t] <= 0: del mon.energy[t]
             me.disc_energy[t] += 1
+    # healing
+    tl = text.lower()
+    if re.search(r'heal (\d+) damage from each pok', tl):                       # both players' Pokémon
+        n = int(re.search(r'heal (\d+) damage from each pok', tl).group(1))
+        for pl in (me, opp):
+            for x in pl.all_mons(): x.damage = max(0, x.damage - n)
+    elif re.search(r'heal (\d+) damage from each of your pok', tl):             # your team
+        n = int(re.search(r'heal (\d+) damage from each of your pok', tl).group(1))
+        for x in me.all_mons(): x.damage = max(0, x.damage - n)
+    elif re.search(r'heal (\d+) damage from this pok', tl):                     # self
+        mon.damage = max(0, mon.damage - int(re.search(r'heal (\d+) damage from this pok', tl).group(1)))
+    # temporary self damage-reduction "during your opponent's next turn ... takes N less"
+    m = re.search(r'this pok\w*mon takes (\d+) less damage from attacks', tl)
+    if m:
+        mon.dr_amount = int(m.group(1)); mon.dr_turn = g.turn
+
+def apply_spread(ctx, attack):
+    """Damage to the opponent's BENCH. Returns benched Mons that were KO'd (for prizes)."""
+    me, opp, mon, dfn, g = ctx
+    text = attack['text']
+    m = re.search(r'does (\d+) damage to (each|1|2|3) of your opponent', text, re.I) \
+        or re.search(r'also does (\d+) damage to (each|1|2|3) of your opponent', text, re.I)
+    if not m or not opp.bench:
+        return []
+    amt = int(m.group(1)); how = m.group(2)
+    targets = list(opp.bench) if how == 'each' else sorted(opp.bench, key=lambda b: b.hp_left)[:int(how) if how.isdigit() else 1]
+    ko = []
+    for b in targets:
+        b.damage += amt          # bench damage ignores weakness/resistance
+        if b.damage >= b.card.hp:
+            ko.append(b)
+    return ko
 
 def attack_cooldown(attack):
     """Return the attack name it disables next turn, 'ALL', or None."""
@@ -264,3 +298,84 @@ def can_attack(mon, rng):
 
 def clear_paralysis(mon):
     mon.status.pop('Paralyzed', None)
+
+
+# ----------------------------------------- layer 4: reduction / immunity / HP / heal
+def incoming_damage(dmg, atk_mon, dfn_mon, dfn_player, g):
+    """Adjust damage to a defender: immunity, coin-prevent, flat reductions, temp buffs."""
+    if dmg <= 0:
+        return dmg
+    for ab in dfn_mon.card.abilities:                       # immunity / coin-prevent on the DEFENDER
+        t = ab['text'].lower()
+        if 'prevent all damage' in t and 'done to this pok' in t:
+            if 'pokémon ex' in t or 'pokemon ex' in t:
+                if atk_mon.card.is_ex: return 0
+            elif 'that have an ability' in t:
+                if atk_mon.card.abilities: return 0
+            elif '200 or more' in t:
+                if dmg >= 200: return 0
+            else:
+                return 0
+        if 'flip a coin' in t and 'prevent that damage' in t:
+            if g.rng.random() < 0.5: return 0
+    red = 0
+    for src in dfn_player.all_mons():                       # flat reductions from anything in play
+        for ab in src.card.abilities:
+            t = ab['text'].lower()
+            m = re.search(r'takes? (\d+) less damage from attacks', t)   # "takes" (self) or "take" (team)
+            if not m:
+                continue
+            n = int(m.group(1))
+            if 'all of your' in t:
+                em = re.search(r'\{(\w)\} energy attached', t)
+                if em:
+                    if dfn_mon.energy.get(L2T[em.group(1).upper()], 0) > 0: red += n
+                elif "steven's" in t:
+                    if dfn_mon.card.name.startswith("Steven's"): red += n
+                else:
+                    red += n
+            elif 'this pok' in t and src is dfn_mon:
+                red += n
+    if getattr(dfn_mon, 'dr_turn', -9) + 1 == g.turn:       # temp "-N during opponent's next turn"
+        red += getattr(dfn_mon, 'dr_amount', 0)
+    return max(0, dmg - red)
+
+def team_hp_bonus(player):
+    """+HP auras in play (e.g. Ludicolo's Vibrant Dance). Doesn't stack."""
+    b = 0
+    for m in player.all_mons():
+        for ab in m.card.abilities:
+            hm = re.search(r'all of your pok\w*mon in play get \+(\d+) hp', ab['text'].lower())
+            if hm: b = max(b, int(hm.group(1)))
+    return b
+
+def _confectionary(me, opp, mon, g):        # Alcremie ex: heal 30 from your most-damaged
+    tgt = max(me.all_mons(), key=lambda m: m.damage, default=None)
+    if tgt and tgt.damage > 0: tgt.damage = max(0, tgt.damage - 30); return True
+    return False
+def _lovely_fragrance(me, opp, mon, g):     # Erika's Vileplume ex: heal 30 from each of yours
+    did = False
+    for x in me.all_mons():
+        if x.damage > 0: x.damage = max(0, x.damage - 30); did = True
+    return did
+def _auto_heal(me, opp, mon, g):            # Magearna (approx: 90 off your most-damaged / turn)
+    tgt = max(me.all_mons(), key=lambda m: m.damage, default=None)
+    if tgt and tgt.damage > 0: tgt.damage = max(0, tgt.damage - 90); return True
+    return False
+HEAL_ABILITIES = {'Confectionary Gift': _confectionary,
+                  'Lovely Fragrance': _lovely_fragrance, 'Auto Heal': _auto_heal}
+
+
+# --------------------------------------------- layer 5: ability lock
+def abilities_disabled(mon, me, opp):
+    """Is `mon`'s ability shut off? Flutter Mane (opp active) locks the facing Active;
+    Iron Thorns' Initialization (opp active) locks Rule-Box (ex) abilities."""
+    oa = opp.active
+    if oa and oa is not mon:
+        for ab in oa.card.abilities:
+            t = ab['text'].lower()
+            if 'has no abilities' in t and mon is me.active:            # Flutter Mane
+                return True
+            if 'have no abilities' in t and 'rule box' in t and mon.card.is_ex:  # Iron Thorns
+                return True
+    return False

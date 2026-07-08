@@ -41,17 +41,25 @@ win by prizes / no-Pokémon / deck-out, a greedy AI.
   resolved at a between-turns Checkup (poison tick incl. heavy-poison amounts, burn +
   coin-off, sleep coin-off), Sleep/Paralysis block attacking, Confusion is a coin flip.
 
-**Not yet modeled (next layers):** (4) healing + damage reduction / HP buffs / immunity
-(wall decks like Vibrant Wall, heal engines, Aurorus/Klinklang reductions), (5) spread +
-gust + disruption (bench snipe, damage-move combos, ability lock like Flutter Mane /
-Iron Thorns, hand/energy disruption), plus a few remaining accel abilities (Punk Up,
-X-Boot, Regi-charges from discard, Ripening Charge) and scaling patterns (per special
-condition). So **wall / heal / lock / spread decks are still under-valued** — treat their
-low win rates as "not modeled yet," not weak.
+- **(4) Healing / damage reduction / HP buffs / immunity** — `incoming_damage()` applies
+  immunity (vs-ex like Crustle/Sylveon, ≥200 like Drednaw, coin-prevent, ability-immunity),
+  flat reductions (self "takes N less" + team "take N less", incl. energy/name-conditioned
+  Aurorus/Klinklang/Carbink/Curly-Wall), and temp "-N next turn" self-buffs; `team_hp_bonus()`
+  adds +HP auras (Ludicolo); attack + `HEAL_ABILITIES` handlers heal.
+- **(5) Spread + ability-lock** — `apply_spread()` deals bench damage (KOs benched → prizes);
+  `abilities_disabled()` shuts off a player's abilities under Flutter Mane / Iron Thorns.
+
+**The frontier is no longer effects — it's decklist & AI quality.** The decks still
+under-valued (Vibrant Wall, Flutter Lock, Symphonia, TR Condition Stack, Hydrapple) all
+need to *assemble* a 2–3-line engine, which the heuristic, trainer-less, energy-heavy
+auto-lists + greedy AI can't do reliably. Next improvements, in order: (a) better
+`decks_build.py` (tune energy/line ratios, fewer dead lines), (b) a smarter AI in
+`engine.ai_main` (retreat, target/attack selection, prioritize setup attacks & abilities),
+(c) remaining niche effects (gust targeting, per-special-condition scaling, Punk-Up/X-Boot
+search-accel, energy/hand disruption).
 
 ## Extending
 
-Add a scaling pattern in `effects.eval_count` / `eval_cond`; add an energy-accel ability
-to `effects.ABILITY_ACCEL`; add heal/reduction/spread as new hooks in `engine` (main
-phase for abilities, `_checkup` / damage application for passives). Re-run
-`sim_run.py --all` after each addition and watch the ranking re-shape.
+Scaling: `effects.eval_count` / `eval_cond`. Energy accel: `effects.ABILITY_ACCEL`.
+Heal: `effects.HEAL_ABILITIES`. Reduction/immunity: `effects.incoming_damage`. Spread:
+`effects.apply_spread`. Re-run `sim_run.py --all` after each change and watch the ranking move.
