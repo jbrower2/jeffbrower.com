@@ -23,30 +23,35 @@ python3 sim_run.py --section G --games 60
 rule is a physical-copy cap (1 card ≤$1 + 2 cards ≤$0.50). No Trainer cards — the
 data pool is Pokémon-only — so decklists are Pokémon + basic energy.
 
-## ⚠️ v1 fidelity: base combat only
+## Fidelity: effect registry (`effects.py`)
 
-**Implemented:** setup/mulligans, 6 prizes, turn loop (draw / bench / evolve / one
-energy attach / retreat / attack), energy-cost checks, **base** attack damage,
-Weakness ×2, KO + prizes (2 for ex), win by prizes / no-Pokémon / deck-out, a greedy AI.
+**Core rules:** setup/mulligans, 6 prizes, turn loop (draw / bench / evolve / one
+energy attach / attack), energy-cost checks, Weakness ×2, KO + prizes (2 for ex),
+win by prizes / no-Pokémon / deck-out, a greedy AI.
 
-**Not yet modeled:** attack/ability **text effects** — scaling damage ("×"/"+"
-attacks use their printed base as a floor), energy acceleration, healing, spread,
-status (burn/poison/sleep/etc.), search, and disruption.
+**Effect layers implemented:**
+- **(1) Energy acceleration** — `ABILITY_ACCEL` handlers (Dynamotor, Inferno Fandango,
+  Electric Streamer, Golden Flame, Metal Maker, Stone Arms, Wash Out, Metal Road) plus
+  from-hand / from-discard / from-deck helpers. Discard-energy pool is tracked.
+- **(2) Scaling damage** — generic evaluator for `×` / `+` / `-` attacks: per-energy,
+  per-bench, per-prize, per-damage-counter, per-type-in-play, coin-flip, and `if <cond>`
+  bonuses (ex / evolution / stage-2 / damaged / burned-poisoned / bench-damaged / etc.).
+  Plus attack side-effects: recoil, self-energy discard, and cooldowns.
+- **(3) Special conditions** — Burn/Poison/Sleep/Paralysis/Confusion: applied by attacks,
+  resolved at a between-turns Checkup (poison tick incl. heavy-poison amounts, burn +
+  coin-off, sleep coin-off), Sleep/Paralysis block attacking, Confusion is a coin flip.
 
-**Therefore the current ranking is a raw-damage baseline, not a verdict.** Combo,
-status, control, and energy-scaling decks (burn, Symphonia, Eelektrik, poison,
-spread, Palafin, Zero-to-Hero, etc.) are systematically **under**-valued right now —
-their payoffs simply don't fire. Big-printed-number Basics look artificially strong.
+**Not yet modeled (next layers):** (4) healing + damage reduction / HP buffs / immunity
+(wall decks like Vibrant Wall, heal engines, Aurorus/Klinklang reductions), (5) spread +
+gust + disruption (bench snipe, damage-move combos, ability lock like Flutter Mane /
+Iron Thorns, hand/energy disruption), plus a few remaining accel abilities (Punk Up,
+X-Boot, Regi-charges from discard, Ripening Charge) and scaling patterns (per special
+condition). So **wall / heal / lock / spread decks are still under-valued** — treat their
+low win rates as "not modeled yet," not weak.
 
-## Next layer: the effect registry (to make results meaningful)
+## Extending
 
-The engine has two clean hooks:
-- `Game.best_attack` — where an attack's **damage** is computed (add scaling/conditional handlers here).
-- `Game.ai_main` — where **abilities** resolve each turn (add accel/heal/search/status handlers here).
-
-Plan: a registry mapping ability/attack name → handler, implemented in impact order —
-(1) energy acceleration abilities (Dynamotor, Golden Flame, Metal Maker, Wash Out, Regi-charges),
-(2) common scaling-damage patterns (per-energy, per-bench, per-prize, per-damage-counter),
-(3) status (burn/poison checkup, sleep/paralysis skip-turn), (4) heal + damage reduction,
-(5) spread + gust + disruption. Re-run `sim_run.py --all` after each layer and watch the
-ranking re-shape toward the cohesive archetypes.
+Add a scaling pattern in `effects.eval_count` / `eval_cond`; add an energy-accel ability
+to `effects.ABILITY_ACCEL`; add heal/reduction/spread as new hooks in `engine` (main
+phase for abilities, `_checkup` / damage application for passives). Re-run
+`sim_run.py --all` after each addition and watch the ranking re-shape.

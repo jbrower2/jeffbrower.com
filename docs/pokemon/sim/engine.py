@@ -17,6 +17,7 @@ like 'Grass'. Basic energy is unlimited; every other card is capped at 4 by the 
 import random
 from collections import Counter
 from cards import load_cards
+import effects
 
 BY_KEY, BY_NAME = load_cards()
 TYPE_OF_ENERGY = {'Grass': 'Grass', 'Fire': 'Fire', 'Water': 'Water', 'Lightning': 'Lightning',
@@ -33,6 +34,11 @@ class Mon:
         self.damage = 0
         self.energy = Counter()      # type -> count of attached basic energy
         self.turns = 0               # turns in play (for evolution eligibility)
+        self.came_from_bench = False # moved bench->active this turn (for Gale-Thrust-style bonuses)
+        self.cd_name = None          # attack name (or 'ALL') on cooldown
+        self.cd_turn = -1            # game turn the cooldown was set
+        self.status = {}             # special conditions: Burned/Poisoned/Asleep/Paralyzed/Confused
+        self.poison_amt = 10         # poison damage per checkup (raised by heavy-poison attacks)
     @property
     def hp_left(self):
         return self.card.hp - self.damage
@@ -54,6 +60,7 @@ class Player:
         self.active = None
         self.bench = []
         self.discard = []
+        self.disc_energy = Counter()   # basic energy in the discard pile, by type
         self.prizes = []
         self.prizes_taken = 0
         self.lost = False
@@ -141,7 +148,9 @@ class Game:
         return None
 
     # ---- AI main phase ----
-    def ai_main(self, me):
+    def ai_main(self, me, opp):
+        for m in me.all_mons():
+            m.came_from_bench = False
         # 1) bench any basics
         for t in list(me.basics_in_hand()):
             if len(me.bench) >= 5:
@@ -173,42 +182,86 @@ class Game:
             tok = energies[0]
             me.active.energy[tok[1]] += 1
             me.hand.remove(tok)
+        # 4) energy-acceleration abilities (once per pokemon per turn)
+        for mon in me.all_mons():
+            for ab in mon.card.abilities:
+                h = effects.ABILITY_ACCEL.get(ab['name'])
+                if h:
+                    h(me, opp, mon, self)
 
-    def best_attack(self, mon, defender):
-        """Return (attack, damage) for the highest-damage affordable attack, or None."""
+    def best_attack(self, me, opp, mon, defender):
+        """Best affordable, non-cooldowned attack -> (attack, actual_damage, value) or None.
+        Selection uses `value` (damage + a bonus for status-inflicting attacks) so pure
+        status attacks like poison get used; `actual_damage` is what's dealt."""
         best = None
         for a in mon.card.attacks:
             if not cost_met(mon, a['cost']):
                 continue
-            dmg = a['dmg']
+            if mon.cd_turn + 2 == self.turn and mon.cd_name in ('ALL', a['name']):
+                continue
+            ctx = (me, opp, mon, defender, self)
+            dmg = effects.scaling_damage(ctx, a)
             if dmg and defender and defender.card.weakness and defender.card.weakness == mon.card.ptype:
                 dmg *= 2
-            if best is None or dmg > best[1]:
-                best = (a, dmg)
+            value = dmg + (25 if 'is now' in a['text'].lower() else 0)
+            if best is None or value > best[2]:
+                best = (a, dmg, value)
         return best
 
     def take_turn(self, idx, first_turn=False):
         me, opp = self.players[idx], self.players[1 - idx]
         if not me.draw(1):
             me.lost = True; self.log(f"{me.name} decks out"); return
-        self.ai_main(me)
+        self.ai_main(me, opp)
         # attack (not on the very first turn of the game for the starting player)
-        if not first_turn and me.active and opp.active:
-            atk = self.best_attack(me.active, opp.active)
-            if atk and atk[1] > 0:
-                a, dmg = atk
+        if not first_turn and me.active and opp.active and effects.can_attack(me.active, self.rng):
+            atk = self.best_attack(me, opp, me.active, opp.active)
+            if atk and atk[2] > 0:
+                a, dmg, _ = atk
                 opp.active.damage += dmg
                 self.log(f"  {me.name}'s {me.active.card.name} uses {a['name']} for {dmg} "
                          f"({opp.active.card.name} {max(0,opp.active.hp_left)}/{opp.active.card.hp})")
-                if opp.active.hp_left <= 0:
+                ctx = (me, opp, me.active, opp.active, self)
+                effects.attack_side_effects(ctx, a)
+                effects.apply_attack_status(ctx, a)
+                cd = effects.attack_cooldown(a)
+                if cd:
+                    me.active.cd_name = cd; me.active.cd_turn = self.turn
+                if opp.active.hp_left <= 0:                       # defender KO
                     ko = opp.active
                     self.log(f"    KO {ko.card.name}!")
+                    for t, n in ko.energy.items():
+                        opp.disc_energy[t] += n
                     opp.discard.append(('P', ko.card))
                     me.take_prize(2 if ko.card.is_ex else 1)
                     opp.promote()
-        # end of turn: age all my mons
+                if me.active and me.active.hp_left <= 0:          # attacker self-KO (recoil)
+                    ko = me.active
+                    for t, n in ko.energy.items():
+                        me.disc_energy[t] += n
+                    me.discard.append(('P', ko.card))
+                    opp.take_prize(2 if ko.card.is_ex else 1)
+                    me.promote()
+        # end of turn: age, clear my paralysis, run Pokémon Checkup on both actives
         for m in me.all_mons():
             m.turns += 1
+        if me.active:
+            effects.clear_paralysis(me.active)
+        self._checkup()
+
+    def _checkup(self):
+        for i, p in enumerate(self.players):
+            other = self.players[1 - i]
+            if not p.active:
+                continue
+            effects.checkup(p.active, self.rng)
+            if p.active.hp_left <= 0:
+                ko = p.active
+                for t, n in ko.energy.items():
+                    p.disc_energy[t] += n
+                p.discard.append(('P', ko.card))
+                other.take_prize(2 if ko.card.is_ex else 1)
+                p.promote()
 
     def play(self, max_turns=200):
         self.setup()
