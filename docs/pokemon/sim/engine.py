@@ -18,6 +18,7 @@ import random, re
 from collections import Counter
 from cards import load_cards
 import effects
+import special_energy as SE
 
 BY_KEY, BY_NAME = load_cards()
 TYPE_OF_ENERGY = {'Grass': 'Grass', 'Fire': 'Fire', 'Water': 'Water', 'Lightning': 'Lightning',
@@ -42,9 +43,22 @@ class Mon:
         self.poison_amt = 10         # poison damage per checkup (raised by heavy-poison attacks)
         self.dr_amount = 0           # temporary damage reduction amount
         self.dr_turn = -9            # game turn the temp reduction was set (applies the turn after)
+        self.special = []            # names of attached Special Energy (for riders/provision)
+        self.ramp = {}               # attack name -> accumulated "next turn does N more" bonus (Echoed Voice)
+    @property
+    def bonus_hp(self):
+        return 20 * self.special.count('Growing Grass Energy')   # Growing Grass: +20 HP
+    @property
+    def max_hp(self):
+        return self.card.hp + self.bonus_hp
     @property
     def hp_left(self):
-        return self.card.hp - self.damage
+        return self.max_hp - self.damage
+    def eff_retreat(self):
+        return 0 if 'Magnetic Metal Energy' in self.special else self.card.retreat
+    def effect_immune(self):
+        """Mist/Rocky Fighting shield opponent attack *effects*; Bubbly Water blocks conditions."""
+        return any(s in ('Mist Energy', 'Rocky Fighting Energy', 'Bubbly Water Energy') for s in self.special)
     def total_energy(self):
         return sum(self.energy.values())
 
@@ -61,7 +75,7 @@ class Player:
                 if isinstance(item, str):
                     self.deck.append(('E', item))
                 elif isinstance(item, dict):
-                    self.deck.append(('T', item))
+                    self.deck.append(('S', item) if 'special_energy' in item else ('T', item))
                 else:
                     self.deck.append(('P', item))
         rng.shuffle(self.deck)
@@ -120,17 +134,23 @@ class Player:
 
 
 def cost_met(mon, cost):
-    """Can `mon`'s attached energy pay `cost` (a letter string like 'GGGG'/'RC')?"""
+    """Can `mon`'s attached energy pay `cost` (a letter string like 'GGGG'/'RC')?
+    Pool keys are types plus two special-energy pseudo-types: 'Colorless' (pays {C} only)
+    and 'Wild' (rainbow — pays any requirement)."""
     need = Counter(cost)
     colorless = need.pop('C', 0)
     pool = Counter(mon.energy)          # type-name -> count
-    # map letters to type names for specific requirements
+    wild = pool.pop('Wild', 0)          # rainbow special energy: fills any requirement
     for letter, cnt in need.items():
         t = L2T[letter]
-        if pool[t] < cnt:
-            return False
-        pool[t] -= cnt
-    return sum(pool.values()) >= colorless
+        use = min(pool.get(t, 0), cnt)
+        pool[t] = pool.get(t, 0) - use; cnt -= use
+        if cnt:                          # cover the typed shortfall with wild pips
+            if wild >= cnt:
+                wild -= cnt
+            else:
+                return False
+    return sum(pool.values()) + wild >= colorless   # 'Colorless' pips count only here
 
 
 class Game:
@@ -203,8 +223,9 @@ class Game:
                     break
 
     def attach_energy(self, me):
-        toks = [t for t in me.hand if t[0] == 'E']
-        if not toks or not me.all_mons():
+        etoks = [t for t in me.hand if t[0] == 'E']
+        stoks = [t for t in me.hand if t[0] == 'S']
+        if not (etoks or stoks) or not me.all_mons():
             return
         ace = self.ace_mon(me)
         # build the ace first (even benched); once it can attack, top up the active
@@ -213,14 +234,60 @@ class Game:
         if target is None:
             return
         need = self._cheapest_cost(target)
+        # 1) a Special Energy that meaningfully advances this target's cost takes priority
+        for t in stoks:
+            prov = self._special_provides(t[1], target)
+            if prov and self._prov_useful(prov, target, need):
+                self._attach_special(me, target, t, prov)
+                return
+        # 2) otherwise the type-matched basic-energy pick
         pick = None
         if need:
-            for t in toks:
+            for t in etoks:
                 letter = T2L.get(t[1])
                 if letter and letter in need and target.energy.get(t[1], 0) < need.count(letter):
                     pick = t; break
-        pick = pick or toks[0]
-        target.energy[pick[1]] += 1; me.hand.remove(pick)
+        pick = pick or (etoks[0] if etoks else None)
+        if pick is not None:
+            target.energy[pick[1]] += 1; me.hand.remove(pick)
+            return
+        # 3) only special energy left in hand — attach the first legal one
+        for t in stoks:
+            prov = self._special_provides(t[1], target)
+            if prov:
+                self._attach_special(me, target, t, prov)
+                return
+
+    def _special_provides(self, sdict, target):
+        """Provision dict for attaching this special energy to `target`, or None if illegal."""
+        name = sdict['special_energy']
+        e = SE.SPECIAL_ENERGY[name]
+        if e.get('constraint') == 'team_rocket' and not target.card.name.startswith("Team Rocket's"):
+            return None
+        return SE.provides(name, target.card)
+
+    @staticmethod
+    def _prov_useful(prov, target, need):
+        """Attach a special energy proactively only if it fills a gap or accelerates."""
+        if prov.get('Wild'):                            # rainbow always helps a typed cost
+            return True
+        if sum(prov.values()) >= 2:                     # 2-pip accel (Team Rocket's / Ignition-on-evo)
+            return True
+        if need:                                        # a typed pip matching an unmet requirement
+            for t, c in prov.items():
+                letter = T2L.get(t)
+                if letter and letter in need and target.energy.get(t, 0) < need.count(letter):
+                    return True
+        return False
+
+    def _attach_special(self, me, target, tok, prov):
+        name = tok[1]['special_energy']
+        for typ, c in prov.items():
+            target.energy[typ] += c
+        target.special.append(name)
+        me.hand.remove(tok)
+        if name == 'Telepathic Psychic Energy':         # on-attach: bench up to 2 Basic {P}
+            self._search_basics_to_bench(me, lambda c: c.ptype == 'Psychic', 2)
 
     def maybe_retreat(self, me, opp):
         if not me.active:
@@ -237,8 +304,8 @@ class Game:
             sw = next((t for t in me.hand if t[0] == 'T' and t[1]['name'] == 'Switch'), None)
             if sw:                                          # free pivot via Switch item
                 me.hand.remove(sw)
-            elif me.active.total_energy() >= me.active.card.retreat:
-                for _ in range(me.active.card.retreat):     # pay retreat by discarding energy
+            elif me.active.total_energy() >= me.active.eff_retreat():
+                for _ in range(me.active.eff_retreat()):    # pay retreat by discarding energy
                     t = max(me.active.energy, key=lambda k: me.active.energy[k])
                     me.active.energy[t] -= 1
                     if me.active.energy[t] <= 0: del me.active.energy[t]
@@ -479,11 +546,11 @@ class Game:
             if mon.cd_turn + 2 == self.turn and mon.cd_name in ('ALL', a['name']):
                 continue
             ctx = (me, opp, mon, defender, self)
-            dmg = effects.scaling_damage(ctx, a)
+            dmg = effects.scaling_damage(ctx, a) + mon.ramp.get(a['name'], 0)
             if dmg and defender and defender.card.weakness and defender.card.weakness == mon.card.ptype:
                 dmg *= 2
             txt = a['text'].lower()
-            value = dmg + (25 if 'is now' in txt else 0)
+            value = dmg + (25 if 'is now' in txt else 0) + effects.spread_value(ctx, a)
             if dmg < 20 and effects.is_utility(a):          # draw/search setup, as a fallback
                 value = max(value, 18)
             if best is None or value > best[2]:
@@ -505,13 +572,17 @@ class Game:
                 opp.active.damage += dmg
                 if self.stats is not None:
                     if me.active.card.key == me.ace_key:
-                        self.stats[idx]['ace_atk'] += 1; self.stats[idx]['ace_dmg_dealt'] += dmg
+                        self.stats[idx]['ace_atk'] += 1
+                        self.stats[idx]['ace_dmg_dealt'] += dmg + effects.spread_value(ctx, a)
                     if opp.active.card.key == opp.ace_key:
                         self.stats[1 - idx]['ace_dmg_taken'] += dmg
+                if dmg > 0 and 'Spiky Energy' in opp.active.special:
+                    me.active.damage += 20                       # Spiky Energy counters the attacker
                 self.log(f"  {me.name}'s {me.active.card.name} uses {a['name']} for {dmg} "
-                         f"({opp.active.card.name} {max(0,opp.active.hp_left)}/{opp.active.card.hp})")
+                         f"({opp.active.card.name} {max(0,opp.active.hp_left)}/{opp.active.max_hp})")
                 effects.attack_side_effects(ctx, a)
-                effects.apply_attack_status(ctx, a)
+                if not opp.active.effect_immune():               # Mist/Rocky/Bubbly block attack effects
+                    effects.apply_attack_status(ctx, a)
                 effects.apply_attack_utility(ctx, a)
                 for b in effects.apply_spread(ctx, a):           # bench spread KOs
                     if b in opp.bench:
@@ -540,6 +611,12 @@ class Game:
         # end of turn: age, clear my paralysis, run Pokémon Checkup on both actives
         for m in me.all_mons():
             m.turns += 1
+            while 'Ignition Energy' in m.special:            # Ignition Energy is discarded end of turn
+                m.special.remove('Ignition Energy')
+                for typ, c in SE.provides('Ignition Energy', m.card).items():
+                    m.energy[typ] -= c
+                    if m.energy[typ] <= 0:
+                        del m.energy[typ]
         if me.active:
             effects.clear_paralysis(me.active)
         self._checkup()

@@ -95,6 +95,16 @@ def eval_cond(text, ctx):
 
 
 # --------------------------------------------------------- scaling damage
+def _self_discard_count(text, mon):
+    """How many energy 'discard (up to) N energy from this Pokémon' removes (capped by attached)."""
+    m = re.search(r'discard (?:up to )?(all|a|an|\d+)[^.]*?energy[^.]*?from this pok', text, re.I)
+    if not m:
+        return 0
+    g1 = m.group(1).lower()
+    want = mon.total_energy() if g1 == 'all' else (1 if g1 in ('a', 'an') else int(g1))
+    return min(want, mon.total_energy())
+
+
 def scaling_damage(ctx, attack):
     """Return pre-weakness damage for an attack, honoring ×/+/- scaling & conditionals."""
     me, opp, mon, dfn, g = ctx
@@ -103,7 +113,11 @@ def scaling_damage(ctx, attack):
         if 'for each heads' in text.lower() or 'flip' in text.lower():
             return base * _flip_heads(text, g.rng)
         m = re.search(r'for each (.+?)(?:\.|$)', text, re.I)
-        return base * (eval_count(m.group(1), ctx) if m else 0)
+        if not m:
+            return 0
+        if 'discard' in m.group(1).lower():         # "does N× for each Energy you discard"
+            return base * _self_discard_count(text, mon)
+        return base * eval_count(m.group(1), ctx)
     if sc == '+':
         dmg = base
         for m in re.finditer(r'does (\d+) more damage for each (.+?)(?:\.|$)', text, re.I):
@@ -130,7 +144,7 @@ def attack_side_effects(ctx, attack):
     text = attack['text']
     m = re.search(r'also does (\d+) damage to itself', text, re.I)
     if m: mon.damage += int(m.group(1))
-    m = re.search(r'discard (all|an|a|\d+) .*?energy from this pok', text, re.I)
+    m = re.search(r'discard (?:up to )?(all|an|a|\d+)[^.]*?energy[^.]*?from this pok', text, re.I)
     if m:
         qty = mon.total_energy() if m.group(1) == 'all' else (1 if m.group(1) in ('a', 'an') else int(m.group(1)))
         for _ in range(qty):
@@ -138,6 +152,8 @@ def attack_side_effects(ctx, attack):
             t = max(mon.energy, key=lambda k: mon.energy[k]); mon.energy[t] -= 1
             if mon.energy[t] <= 0: del mon.energy[t]
             me.disc_energy[t] += 1
+    elif re.search(r'shuffle all energy attached to this pok', text, re.I):
+        mon.energy.clear()                          # Sonic Ripper: energy cost shuffled into the deck
     # healing
     tl = text.lower()
     if re.search(r'heal (\d+) damage from each pok', tl):                       # both players' Pokémon
@@ -153,6 +169,10 @@ def attack_side_effects(ctx, attack):
     m = re.search(r'this pok\w*mon takes (\d+) less damage from attacks', tl)
     if m:
         mon.dr_amount = int(m.group(1)); mon.dr_turn = g.turn
+    # Echoed-Voice ramp: "this Pokémon's <Attack> attack does N more damage" — stacks per use
+    m = re.search(r"this pok\w*mon's .+? attack does (\d+) more damage", tl)
+    if m:
+        mon.ramp[attack['name']] = mon.ramp.get(attack['name'], 0) + int(m.group(1))
 
 def apply_spread(ctx, attack):
     """Damage to the opponent's BENCH. Returns benched Mons that were KO'd (for prizes)."""
@@ -170,6 +190,17 @@ def apply_spread(ctx, attack):
         if b.damage >= b.card.hp:
             ko.append(b)
     return ko
+
+def spread_value(ctx, attack):
+    """Damage an attack deals to the opponent's Pokémon via spread/snipe clauses — added to an
+    attack's selection value so pure-spread/snipe attackers (Iron Crown, Mega Skarmory) get used."""
+    me, opp, mon, dfn, g = ctx
+    m = re.search(r'(\d+) damage to (each|1|2|3) of your opponent', attack['text'], re.I)
+    if not m:
+        return 0
+    amt = int(m.group(1)); how = m.group(2)
+    n = len(opp.bench) if how == 'each' else min(int(how), max(1, len(opp.bench)))
+    return amt * n
 
 def _search(me, n, kind):
     """Move up to n tokens of a kind ('P' Pokémon / 'E' energy) from deck to hand."""

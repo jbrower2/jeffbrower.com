@@ -1,0 +1,1338 @@
+optimizing 165 decks | field=165 | 24 games/pairing | cap=44 muts | 8 round(s) | workers=9
+[r1   1/165     38s] ACCEPT Bouffalant's Wall                 51.8 ->  54.1  -1 Sprigatito +1 Cheren
+[r1   2/165     73s] ACCEPT Rabbit Punch                      50.8 ->  52.4  -1 Water Energy +1 Cheren
+[r1   3/165    109s] ACCEPT Tail Spin (Turbo)                 53.0 ->  57.2  -1 Scorbunny +1 Poké Ball
+[r1   4/165    144s] ACCEPT Tail Spin (Grind)                 57.3 ->  60.9  -1 Dunsparce +1 Poké Ball
+[r1   5/165    176s] ACCEPT Nurse Blissey                     53.7 ->  58.1  -1 Basculin +1 Cyrano
+[r1   6/165    210s] ACCEPT Tenacious Tail                    30.6 ->  32.4  -1 Dunsparce +1 Cheren
+[r1   7/165    242s] ACCEPT Errand Runner                     55.3 ->  57.9  -1 Scorbunny +1 Cheren
+[r1   8/165    281s] ACCEPT Larry's Sleepover                 18.3 ->  22.8  -1 Larry's Dunsparce +1 Eiscue
+[r1   9/165    311s] ACCEPT Payback Worm                      60.1 ->  64.3  -1 Mawile +1 Philippe
+[r1  10/165    345s] ACCEPT Blood Moon Rising                 46.4 ->  48.5  -1 Dunsparce +1 Eiscue
+[r1  11/165    375s] ACCEPT Sonic Wall                        49.6 ->  53.0  -1 Basculin +1 Poké Ball
+[r1  12/165    409s] ACCEPT Quick Draw                        34.5 ->  37.5  -1 Articuno +1 Water Energy
+[r1  13/165    443s] ACCEPT Fresh Bite                        51.5 ->  54.5  -1 Arven's Skwovet +1 Earthen Vessel
+[r1  14/165    476s] ACCEPT Ball Lightning                    41.7 ->  44.3  -1 Scorbunny +1 Dawn
+[r1  15/165    510s] ACCEPT Great Swing                       41.1 ->  46.0  -1 Chewtle +1 Water Energy
+[r1  16/165    545s] ACCEPT Mirror Beak                       42.3 ->  43.4  -1 Floragato +1 Cheren
+[r1  17/165    573s] ACCEPT Cyclizar Splash                   48.8 ->  53.9  -1 Scorbunny +1 Dawn
+[r1  18/165    603s] ACCEPT Terapagos Bench-Scale             51.6 ->  55.8  -1 Togepi +1 Crispin
+[r1  19/165    637s] ACCEPT Bouffalant Herd                   71.4 ->  75.5  -1 Chewtle +1 Ultra Ball
+[r1  20/165    668s] ACCEPT Yveltal Soul Reap                 46.9 ->  50.1  -1 Bombirdier +1 Poké Pad
+[r1  21/165    697s] ACCEPT Okidogi Self-Poison Burst         50.3 ->  52.1  -1 Bombirdier +1 Poké Ball
+[r1  22/165    724s] ACCEPT Marnie's Punk Up Wheel            55.8 ->  59.7  -1 Toxel +1 Janine's Secret Art
+[r1  23/165    755s] ACCEPT Tyranitar Item-Lock Twins         45.1 ->  48.8  -1 Pupitar +1 Energy Search
+[r1  24/165    784s] ACCEPT Scrafty Counterattack Wall        56.1 ->  60.5  -1 Bombirdier +1 Cheren
+[r1  25/165    815s] ACCEPT Krookodile Revenge Lockdown       40.6 ->  46.1  -1 Yveltal +1 Darkness Energy
+[r1  26/165    845s] ACCEPT Clodsire Poison Lockdown          48.0 ->  51.6  -1 Bombirdier +1 Cheren
+[r1  27/165    871s] ACCEPT Mandibuzz Bench Snipe             51.7 ->  55.3  -1 Bombirdier +1 Ultra Ball
+[r1  28/165    902s] ACCEPT Hydreigon Basic Bounty            41.0 ->  44.2  -1 Toxel +1 Janine's Secret Art
+[r1  29/165    929s] ACCEPT Sharpedo Glass Cannon             64.2 ->  67.5  -1 Bombirdier +1 Buddy-Buddy Poffin
+[r1  30/165    957s] ACCEPT Marnie's Ex-Punisher              53.9 ->  57.3  -1 Zorua +1 Ultra Ball
+[r1  31/165    982s] ACCEPT Absol Hand-Rip Aggro              70.1 ->  73.5  -1 Yveltal +1 Poké Ball
+[r1  32/165   1013s] ACCEPT Munkidori Vanilla Beats           45.7 ->  47.3  -1 Bombirdier +1 Ultra Ball
+[r1  33/165   1041s] ACCEPT Gust & Guarantee                  68.5 ->  70.9  -1 Makuhita +1 Cheren
+[r1  34/165   1072s] ACCEPT Stonewall Softener                39.1 ->  42.3  -1 Shellos +1 Energy Search
+[r1  35/165   1107s] ACCEPT Champion's Call                   51.9 ->  57.5  -1 Cynthia's Roselia +1 Earthen Vessel
+[r1  36/165   1134s]   ---- Rock Battery                      73.8 ->  74.6  
+[r1  37/165   1160s] ACCEPT Aura Overflow                     81.7 ->  83.4  -1 Solrock +1 Buddy-Buddy Poffin
+[r1  38/165   1186s] ACCEPT Drill & Snipe                     78.2 ->  79.7  -1 Solrock +1 Buddy-Buddy Poffin
+[r1  39/165   1212s] ACCEPT Perfect Order Beatdown            87.1 ->  88.4  -1 Solrock +1 Night Stretcher
+[r1  40/165   1241s] ACCEPT Grudge Match                      74.4 ->  75.5  -1 Solrock +1 Cheren
+[r1  41/165   1272s] ACCEPT Cornerstone Fortress              57.1 ->  60.9  -1 Trapinch +1 Energy Search
+[r1  42/165   1299s]   ---- Stuck in the Mud                  74.1 ->  74.2  
+[r1  43/165   1330s]   ---- Bait the Boulder                  73.9 ->  74.8  
+[r1  44/165   1362s] ACCEPT Slow Burn                         51.5 ->  55.1  -1 Rhyhorn +1 Energy Search
+[r1  45/165   1392s] ACCEPT Tusk Stampede                     61.7 ->  64.6  -1 Piloswine +1 Earthen Vessel
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/multiprocessing/resource_tracker.py:324: UserWarning: resource_tracker: There appear to be 5 leaked semaphore objects to clean up at shutdown: {'/mp-9fdkosk7', '/mp-0sn4jxd1', '/mp-bxtk__7h', '/mp-dznflvev', '/mp-__lpg4ol'}
+  warnings.warn(
+resuming: 45 deck-rounds already recorded, skipping those
+optimizing 165 decks | field=165 | 24 games/pairing | cap=44 muts | 8 round(s) | workers=9
+[r1  46/165     30s] ACCEPT Coinflip Comeback                 74.2 ->  75.4  -1 Solrock +1 Earthen Vessel
+[r1  47/165     62s] ACCEPT Mega Gallade Blitz                69.0 ->  70.5  -1 Kirlia +1 Cheren
+[r1  48/165     89s]   ---- Koraidon Kaiser                   76.0 ->  76.5  
+[r1  49/165    117s] ACCEPT Wild Growth Overdrive             35.2 ->  39.6  -1 Chikorita +1 Cheren
+[r1  50/165    146s] ACCEPT Erika's Garden Party              38.0 ->  42.2  -1 Oddish +1 Earthen Vessel
+[r1  51/165    176s] ACCEPT Forest March                      49.4 ->  54.7  -1 Snivy +1 Poké Pad
+[r1  52/165    207s] ACCEPT Spore Lock                        37.3 ->  40.7  -1 Metapod +1 Cheren
+[r1  53/165    234s] ACCEPT Oil Salvo Sniper                  37.4 ->  40.4  -1 Metapod +1 Earthen Vessel
+[r1  54/165    265s] ACCEPT Regal Cheer Aggro                 20.7 ->  23.4  -1 Oddish +1 Energy Search
+[r1  55/165    292s] ACCEPT Solar Bank                        34.6 ->  37.6  -1 Dipplin +1 Cheren
+[r1  56/165    322s] ACCEPT Swarm of the Hive                 42.1 ->  46.8  -1 Metapod +1 Cheren
+[r1  57/165    348s] ACCEPT Buzzing Boost Shuttle             47.1 ->  48.6  -1 Grass Energy +1 Cheren
+[r1  58/165    375s] ACCEPT Juggernaut Wall                   63.9 ->  68.5  -1 Quilladin +1 Dawn
+[r1  59/165    410s] ACCEPT Energy Gift Express               14.4 ->  16.4  -1 Cottonee +1 Cheren
+[r1  60/165    440s] ACCEPT Arrow of Denial                   25.5 ->  28.0  -1 Dartrix +1 Earthen Vessel
+[r1  61/165    469s] ACCEPT Rapid Vernier Nova                51.3 ->  53.9  -1 Teal Mask Ogerpon +1 Cyrano
+[r1  62/165    504s] ACCEPT Bottom-Deck Gambit                40.3 ->  42.1  -1 Teal Mask Ogerpon +1 Grass Energy
+[r1  63/165    532s] ACCEPT Steeped Discard                   46.5 ->  52.1  -1 Cottonee +1 Ultra Ball
+[r1  64/165    558s] ACCEPT Vengeful Attrition                61.6 ->  64.1  -1 Teal Mask Ogerpon +1 Poké Ball
+[r1  65/165    589s] ACCEPT Mega Meganium Bouquet             34.2 ->  39.0  -1 Bayleef +1 Cheren
+[r1  66/165    618s] ACCEPT Hydrapple Syrup Storm             33.8 ->  37.2  -1 Dipplin +1 Poké Pad
+[r1  67/165    647s] ACCEPT Bench Fortress                    56.8 ->  58.8  -1 Dwebble +1 Ultra Ball
+[r1  68/165    702s] ACCEPT Eelektrik Recursion               52.5 ->  56.7  -1 Shinx +1 Lightning Energy
+[r1  69/165    743s] ACCEPT Overvolt Overload                 61.5 ->  63.2  -1 Shinx +1 Cheren
+[r1  70/165    788s]   ---- Iono's Streamer                   55.0 ->  55.6  
+[r1  71/165    835s] ACCEPT Manectric Aggro                   46.9 ->  49.8  -1 Pawmi +1 Energy Search
+[r1  72/165    889s] ACCEPT Luxray Nuke                       46.6 ->  51.4  -1 Iron Hands +1 Lightning Energy
+[r1  73/165    921s] ACCEPT Iron Thorns Lock                  77.0 ->  78.0  -1 Miraidon +1 Lightning Energy
+[r1  74/165    961s] ACCEPT Kilowattrel Pivot                 63.8 ->  66.3  -1 Mareep +1 Energy Search
+[r1  75/165    996s] ACCEPT Hop's Pincurchin                  67.5 ->  69.5  -1 Iron Hands +1 Switch
+[r1  76/165   1028s] ACCEPT Tapu Koko Swarm                   66.8 ->  70.9  -1 Pawmi +1 Lightning Energy
+[r1  77/165   1063s]   ---- Zekrom Comeback                   79.2 ->  79.7  
+[r1  78/165   1110s] ACCEPT Rotom Tool                        41.9 ->  44.7  -1 Miraidon +1 Lightning Energy
+[r1  79/165   1143s] ACCEPT Miraidon Hadron                   69.2 ->  70.8  -1 Iron Valiant +1 Crispin
+[r1  80/165   1167s] ACCEPT Steven's Steel Sanctuary          39.4 ->  42.7  -1 Pawniard +1 Ultra Ball
+[r1  81/165   1199s] ACCEPT Alloy Bulwark                     33.5 ->  38.1  -1 Klang +1 Cheren
+[r1  82/165   1228s] ACCEPT Regi-Charge Attrition             59.6 ->  65.8  -1 Mawile +1 Philippe
+[r1  83/165   1262s] ACCEPT Emperor's Stance Wall             25.5 ->  29.3  -1 Meltan +1 Metal Energy
+[r1  84/165   1295s] ACCEPT Alloy Overdrive                   33.6 ->  37.1  -1 Pawniard +1 Cheren
+[r1  85/165   1322s] ACCEPT Bench Battery                     66.7 ->  71.8  -1 Mawile +1 Poké Ball
+[r1  86/165   1354s] ACCEPT Hop's Champion Rush               46.4 ->  51.0  -1 Mawile +1 Philippe
+[r1  87/165   1391s] ACCEPT Steel Armament Blitz              31.7 ->  35.3  -1 Bisharp +1 Energy Search
+[r1  88/165   1422s] ACCEPT Metallic Signal Toolbox           40.4 ->  44.9  -1 Mawile +1 Metal Energy
+[r1  89/165   1453s] ACCEPT Chrono Draw Engine                41.2 ->  46.2  -1 Klink +1 Dawn
+[r1  90/165   1484s] ACCEPT Prize Snowball                    59.6 ->  64.1  -1 Pawniard +1 Ultra Ball
+[r1  91/165   1517s] ACCEPT Static Cling Combo                44.2 ->  46.5  -1 Mawile +1 Registeel
+[r1  92/165   1549s] ACCEPT Cinderace Snipe                   44.4 ->  49.1  -1 Darkness Energy +1 Crispin
+[r1  93/165   1587s] ACCEPT Salamence Splash                  19.4 ->  27.0  -1 Bagon +1 Crispin
+[r1  94/165   1616s] ACCEPT Galvantula Item-Lock              60.4 ->  63.5  -1 Solrock +1 Cheren
+[r1  95/165   1646s] ACCEPT Alolan Exeggutor KO-Flip          42.3 ->  46.2  -1 Basculin +1 Earthen Vessel
+[r1  96/165   1679s] ACCEPT Miraidon Future                   69.4 ->  71.4  -1 Iron Valiant +1 Crispin
+[r1  97/165   1708s] ACCEPT Flygon Anti-Ex                    49.8 ->  52.0  -1 Vibrava +1 Fighting Energy
+[r1  98/165   1742s] ACCEPT Mega Dragalge Poison              48.0 ->  52.5  -1 Toxel +1 Cheren
+[r1  99/165   1772s] ACCEPT Palossand Control                 40.7 ->  45.0  -1 Duskull +1 Crispin
+[r1 100/165   1802s] ACCEPT Tatsugiri Toolbox                 42.6 ->  47.9  -1 Basculin +1 Crispin
+[r1 101/165   1845s] ACCEPT Mega Latias Nuke                  38.6 ->  42.6  -1 Fennekin +1 Crispin
+[r1 102/165   1880s] ACCEPT Mega Skarmory Snipe                9.2 ->  10.6  -1 Pawniard +1 Registeel
+[r1 103/165   1914s] ACCEPT Revavroom Hit-and-Run             34.3 ->  37.3  -1 Pawniard +1 Poké Ball
+[r1 104/165   1953s] ACCEPT Scizor Flex                       29.2 ->  32.2  -1 Klang +1 Earthen Vessel
+[r1 105/165   1985s] ACCEPT Melmetal Axe                      40.5 ->  46.6  -1 Mawile +1 Philippe
+[r1 106/165   2017s] ACCEPT Metal Maker Ramp                  28.7 ->  33.4  -1 Bisharp +1 Metal Energy
+[r1 107/165   2049s] ACCEPT Symphonia Flood                   47.5 ->  52.8  -1 Latios +1 Psychic Energy
+[r1 108/165   2080s] ACCEPT Warded Symphonia                  38.5 ->  42.8  -1 Abra +1 Cheren
+[r1 109/165   2113s] ACCEPT Scattergun Ward                   52.8 ->  57.1  -1 Abra +1 Cheren
+[r1 110/165   2143s]   ---- Cobalt Crossfire                  26.1 ->  26.9  
+[r1 111/165   2170s] ACCEPT Waltz of Whispers                 55.4 ->  59.0  -1 Latios +1 Cheren
+[r1 112/165   2202s] ACCEPT Deep Prison                       34.5 ->  36.9  -1 Yamask +1 Earthen Vessel
+[r1 113/165   2230s] ACCEPT Fairy-Slayer                      60.9 ->  63.5  -1 Latios +1 Poké Ball
+[r1 114/165   2260s] ACCEPT Full Hand Nova                    59.5 ->  63.2  -1 Latios +1 Cheren
+[r1 115/165   2295s]   ---- Curtain-Riser                     25.5 ->  25.7  
+[r1 116/165   2325s] ACCEPT Silent Scream                     38.6 ->  40.5  -1 Latios +1 Psychic Energy
+[r1 117/165   2355s] ACCEPT Sweet Stall                       36.5 ->  41.0  -1 Gothita +1 Cheren
+[r1 118/165   2392s]   ---- Detonation Coat                   16.6 ->  16.8  
+[r1 119/165   2421s] ACCEPT Coin-Flip Reaper                  45.0 ->  48.0  -1 Latios +1 Buddy-Buddy Poffin
+[r1 120/165   2450s] ACCEPT Mercy for All                     58.3 ->  60.7  -1 Latios +1 Psychic Energy
+[r1 121/165   2478s] ACCEPT Battle-Scarred Bench              51.1 ->  56.1  -1 Duskull +1 Ultra Ball
+[r1 122/165   2511s]   ---- Flutter Lock                      53.1 ->  54.0  
+[r1 123/165   2539s] ACCEPT Bubble Balloon                    55.1 ->  59.2  -1 Latios +1 Cheren
+[r1 124/165   2573s] ACCEPT Burn Engine                       49.7 ->  54.6  -1 Slugma +1 Poké Ball
+[r1 125/165   2601s] ACCEPT Ethan's Turbo                     53.2 ->  57.5  -1 Ethan's Slugma +1 Cheren
+[r1 126/165   2635s] ACCEPT Emboar Overload                   28.6 ->  32.0  -1 Heatmor +1 Fire Energy
+[r1 127/165   2665s] ACCEPT Pyroar Wall                       44.6 ->  46.9  -1 Fuecoco +1 Earthen Vessel
+[r1 128/165   2692s] ACCEPT Volcanion Spread-Burn             47.7 ->  56.1  -1 Magmar +1 Crispin
+[r1 129/165   2720s] ACCEPT Reshiram Comeback                 69.7 ->  72.5  -1 Iron Moth +1 Poké Ball
+[r1 130/165   2750s] ACCEPT Incineroar Bench-Punish           31.0 ->  34.7  -1 Slugma +1 Earthen Vessel
+[r1 131/165   2782s] ACCEPT Salazzle Toolbox                  29.6 ->  33.0  -1 Litwick +1 Earthen Vessel
+[r1 132/165   2815s] ACCEPT Hearthflame Anti-Evolution        48.3 ->  50.1  -1 Druddigon +1 Cheren
+[r1 133/165   2844s] ACCEPT Magcargo Mill-Burn                51.9 ->  56.1  -1 Magmar +1 Ultra Ball
+[r1 134/165   2873s] ACCEPT Scovillain Rage                   52.8 ->  58.6  -1 Capsakid +1 Crispin
+[r1 135/165   2902s] ACCEPT Gouging Fire Pivot                56.4 ->  61.9  -1 Chimchar +1 Crispin
+[r1 136/165   2931s] ACCEPT Oricorio Support-Trap             52.2 ->  53.7  -1 Iron Moth +1 Cyrano
+[r1 137/165   2958s] ACCEPT Reshiram Fire Wing                69.3 ->  71.8  -1 Druddigon +1 Poké Ball
+[r1 138/165   2986s] ACCEPT Retaliation Burn                  55.4 ->  59.3  -1 Magmar +1 Cyrano
+[r1 139/165   3016s] ACCEPT TR Spread                         46.1 ->  51.1  -1 Team Rocket's Larvitar +1 Crispin
+[r1 140/165   3042s] ACCEPT TR Nido Family                    52.2 ->  57.3  -1 Team Rocket's Murkrow +1 Janine's Secret Art
+[r1 141/165   3070s] ACCEPT TR Persian Copycat                44.7 ->  50.8  -1 Yveltal +1 Darkness Energy
+[r1 142/165   3101s] ACCEPT TR Rocket Rush Swarm              33.5 ->  38.0  -1 Team Rocket's Golbat +1 Crispin
+[r1 143/165   3128s] ACCEPT TR Condition Stack                43.2 ->  48.9  -1 Team Rocket's Exeggcute +1 Crispin
+[r1 144/165   3156s] ACCEPT TR Disruption Lock                56.2 ->  60.8  -1 Seviper +1 Cheren
+[r1 145/165   3187s] ACCEPT TR Moltres Removal                61.1 ->  64.7  -1 Team Rocket's Murkrow +1 Crispin
+[r1 146/165   3218s] ACCEPT Starmie Jetstream Rush            52.3 ->  54.4  -1 Oshawott +1 Cheren
+[r1 147/165   3250s] ACCEPT Croconaw Chip, Mega Crunch        35.1 ->  40.1  -1 Tirtouga +1 Water Energy
+[r1 148/165   3278s] ACCEPT Starmie Tundra Fortress           55.9 ->  58.4  -1 Cubchoo +1 Poké Ball
+[r1 149/165   3310s] ACCEPT Samurott's Ambush                 43.4 ->  45.8  -1 Oshawott +1 Cheren
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/multiprocessing/resource_tracker.py:324: UserWarning: resource_tracker: There appear to be 5 leaked semaphore objects to clean up at shutdown: {'/mp-49rpqttr', '/mp-dv13jqh4', '/mp-965d_9qo', '/mp-9xcfo45a', '/mp-92m34618'}
+  warnings.warn(
+resuming: 149 deck-rounds already recorded, skipping those
+optimizing 165 decks | field=165 | 24 games/pairing | cap=44 muts | 8 round(s) | workers=9
+[r1 150/165     37s] ACCEPT Frozen Fortress                   23.8 ->  27.6  -1 Cubchoo +1 Eiscue
+[r1 151/165     69s] ACCEPT Hydro Turn Hit-and-Run            48.9 ->  52.0  -1 Clamperl +1 Ultra Ball
+[r1 152/165    103s] ACCEPT Deep Current Overload             34.2 ->  38.7  -1 Clamperl +1 Cheren
+[r1 153/165    140s] ACCEPT Serene Slumber                    57.3 ->  61.2  -1 Cubchoo +1 Poké Ball
+[r1 154/165    171s] ACCEPT Purge and Plunder                 40.4 ->  43.1  -1 Tirtouga +1 Eiscue
+[r1 155/165    216s] ACCEPT Misty's Deep Freeze               33.9 ->  35.9  -1 Cubchoo +1 Water Energy
+[r1 156/165    251s] ACCEPT Avalanche Flood                   52.2 ->  57.4  -1 Cubchoo +1 Ultra Ball
+[r1 157/165    279s] ACCEPT Wellspring Reload                 40.3 ->  44.7  -1 Basculin +1 Energy Search
+[r1 158/165    311s] ACCEPT Dondozo's Gambit                  53.8 ->  56.4  -1 Basculin +1 Poké Pad
+[r1 159/165    343s] ACCEPT Paradox Sandman                   44.3 ->  48.3  -1 Basculin +1 Eiscue
+[r1 160/165    373s] ACCEPT Prize Blizzard                    51.6 ->  55.3  -1 Cubchoo +1 Poké Ball
+[r1 161/165    404s] ACCEPT Frostbite Recoil                  39.6 ->  44.8  -1 Snorunt +1 Energy Search
+[r1 162/165    435s] ACCEPT Tricolor Burst — Experimental     39.8 ->  43.8  -1 Tirtouga +1 Water Energy
+[r1 163/165    468s] ACCEPT Zero to Hero                      44.8 ->  47.6  -1 Dewott +1 Eiscue
+[r1 164/165    501s] ACCEPT Wash Out Current                  37.6 ->  40.8  -1 Seel +1 Ultra Ball
+[r1 165/165    539s] ACCEPT Vibrant Wall                      53.2 ->  58.2  -1 Water Energy +1 Poké Ball
+=== round 1 done: 16 changes | top: Perfect Order Beatdown 86.38% | median 50.46% ===
+[r2   1/165    689s] ACCEPT Bouffalant's Wall                 50.5 ->  53.5  -1 Sprigatito +1 Dawn
+[r2   2/165    723s] ACCEPT Rabbit Punch                      49.5 ->  52.0  -1 Basculin +1 Water Energy
+[r2   3/165    758s] ACCEPT Tail Spin (Turbo)                 55.0 ->  56.9  -1 Scorbunny +1 Poké Ball
+[r2   4/165    791s] ACCEPT Tail Spin (Grind)                 58.4 ->  61.0  -1 Dunsparce +1 Cheren
+[r2   5/165    821s] ACCEPT Nurse Blissey                     54.8 ->  57.6  -1 Dunsparce +1 Poké Ball
+[r2   6/165    854s] ACCEPT Tenacious Tail                    29.2 ->  32.7  -1 Articuno +1 Water Energy
+[r2   7/165    886s] ACCEPT Errand Runner                     54.7 ->  57.9  -1 Dunsparce +1 Cheren
+[r2   8/165    924s] ACCEPT Larry's Sleepover                 20.5 ->  26.6  -1 Larry's Dunsparce +1 Eiscue
+[r2   9/165    953s] ACCEPT Payback Worm                      62.1 ->  64.2  -1 Chewtle +1 Philippe
+[r2  10/165    987s] ACCEPT Blood Moon Rising                 45.0 ->  48.5  -1 Dunsparce +1 Eiscue
+[r2  11/165   1016s] ACCEPT Sonic Wall                        49.4 ->  52.9  -1 Basculin +1 Cheren
+[r2  12/165   1050s] ACCEPT Quick Draw                        32.8 ->  36.4  -1 Basculin +1 Cheren
+[r2  13/165   1084s] ACCEPT Fresh Bite                        50.2 ->  52.3  -1 Arven's Skwovet +1 Eiscue
+[r2  14/165   1116s] ACCEPT Ball Lightning                    39.5 ->  41.1  -1 Articuno +1 Water Energy
+[r2  15/165   1147s] ACCEPT Great Swing                       42.6 ->  45.4  -1 Scorbunny +1 Cheren
+[r2  16/165   1182s] ACCEPT Mirror Beak                       39.4 ->  41.4  -1 Sprigatito +1 Cheren
+[r2  17/165   1210s] ACCEPT Cyclizar Splash                   52.0 ->  54.7  -1 Scorbunny +1 Crispin
+[r2  18/165   1240s] ACCEPT Terapagos Bench-Scale             51.9 ->  57.2  -1 Togetic +1 Poké Ball
+[r2  19/165   1275s] ACCEPT Bouffalant Herd                   72.2 ->  74.4  -1 Basculin +1 Poké Ball
+[r2  20/165   1307s] ACCEPT Yveltal Soul Reap                 44.6 ->  46.5  -1 Bombirdier +1 Poké Ball
+[r2  21/165   1335s] ACCEPT Okidogi Self-Poison Burst         48.7 ->  50.0  -1 Yveltal +1 Cheren
+[r2  22/165   1362s] ACCEPT Marnie's Punk Up Wheel            56.9 ->  60.7  -1 Toxel +1 Janine's Secret Art
+[r2  23/165   1392s] ACCEPT Tyranitar Item-Lock Twins         45.1 ->  47.7  -1 Seviper +1 Darkness Energy
+[r2  24/165   1421s] ACCEPT Scrafty Counterattack Wall        56.5 ->  59.8  -1 Bombirdier +1 Cheren
+[r2  25/165   1451s] ACCEPT Krookodile Revenge Lockdown       42.7 ->  44.1  -1 Krokorok +1 Cheren
+[r2  26/165   1481s] ACCEPT Clodsire Poison Lockdown          47.7 ->  49.3  -1 Bombirdier +1 Poké Ball
+[r2  27/165   1507s] ACCEPT Mandibuzz Bench Snipe             50.9 ->  55.3  -1 Bombirdier +1 Poké Pad
+[r2  28/165   1536s] ACCEPT Hydreigon Basic Bounty            42.5 ->  45.5  -1 Deino +1 Cheren
+[r2  29/165   1564s] ACCEPT Sharpedo Glass Cannon             64.6 ->  68.3  -1 Bombirdier +1 Ultra Ball
+[r2  30/165   1591s] ACCEPT Marnie's Ex-Punisher              54.4 ->  58.8  -1 Zorua +1 Janine's Secret Art
+[r2  31/165   1617s] ACCEPT Absol Hand-Rip Aggro              71.2 ->  72.2  -1 Darkness Energy +1 Ultra Ball
+[r2  32/165   1647s] ACCEPT Munkidori Vanilla Beats           42.1 ->  43.6  -1 Bombirdier +1 Buddy-Buddy Poffin
+[r2  33/165   1675s] ACCEPT Gust & Guarantee                  68.3 ->  71.2  -1 Makuhita +1 Earthen Vessel
+[r2  34/165   1706s] ACCEPT Stonewall Softener                39.0 ->  44.3  -1 Rhydon +1 Fighting Energy
+[r2  35/165   1738s] ACCEPT Champion's Call                   54.4 ->  57.2  -1 Cynthia's Gabite +1 Fighting Energy
+[r2  36/165   1767s] ACCEPT Rock Battery                      71.2 ->  72.4  -1 Stonjourner +1 Fighting Energy
+[r2  37/165   1792s] ACCEPT Aura Overflow                     80.9 ->  83.3  -1 Solrock +1 Cheren
+[r2  38/165   1818s] ACCEPT Drill & Snipe                     77.3 ->  79.2  -1 Solrock +1 Cheren
+[r2  39/165   1845s]   ---- Perfect Order Beatdown            86.1 ->  86.0  
+[r2  40/165   1873s] ACCEPT Grudge Match                      72.1 ->  73.6  -1 Stonjourner +1 Fighting Energy
+[r2  41/165   1904s] ACCEPT Cornerstone Fortress              59.6 ->  62.6  -1 Rhyhorn +1 Earthen Vessel
+[r2  42/165   1932s]   ---- Stuck in the Mud                  70.3 ->  71.0  
+[r2  43/165   1962s] ACCEPT Bait the Boulder                  70.4 ->  71.5  -1 Sawk +1 Earthen Vessel
+[r2  44/165   1994s] ACCEPT Slow Burn                         51.4 ->  55.1  -1 Rhyhorn +1 Energy Search
+[r2  45/165   2024s] ACCEPT Tusk Stampede                     61.9 ->  64.9  -1 Piloswine +1 Earthen Vessel
+[r2  46/165   2053s]   ---- Coinflip Comeback                 72.1 ->  72.1  
+[r2  47/165   2083s] ACCEPT Mega Gallade Blitz                67.6 ->  70.3  -1 Kirlia +1 Cheren
+[r2  48/165   2111s] ACCEPT Koraidon Kaiser                   72.4 ->  73.5  -1 Solrock +1 Cyrano
+[r2  49/165   2140s] ACCEPT Wild Growth Overdrive             36.8 ->  41.6  -1 Chikorita +1 Cheren
+[r2  50/165   2167s] ACCEPT Erika's Garden Party              39.0 ->  43.0  -1 Erika's Bellsprout +1 Cheren
+[r2  51/165   2194s] ACCEPT Forest March                      52.1 ->  56.7  -1 Snivy +1 Poké Ball
+[r2  52/165   2225s] ACCEPT Spore Lock                        36.7 ->  40.7  -1 Metapod +1 Poké Ball
+[r2  53/165   2252s] ACCEPT Oil Salvo Sniper                  37.6 ->  42.5  -1 Cottonee +1 Grass Energy
+[r2  54/165   2282s] ACCEPT Regal Cheer Aggro                 21.1 ->  25.8  -1 Oddish +1 Grass Energy
+[r2  55/165   2310s] ACCEPT Solar Bank                        35.1 ->  39.2  -1 Dipplin +1 Cheren
+[r2  56/165   2339s] ACCEPT Swarm of the Hive                 42.7 ->  47.7  -1 Metapod +1 Energy Search
+[r2  57/165   2366s] ACCEPT Buzzing Boost Shuttle             45.4 ->  47.7  -1 Virizion +1 Cheren
+[r2  58/165   2394s] ACCEPT Juggernaut Wall                   66.5 ->  67.7  -1 Chespin +1 Earthen Vessel
+[r2  59/165   2428s] ACCEPT Energy Gift Express               14.7 ->  18.4  -1 Cottonee +1 Fennel
+[r2  60/165   2457s] ACCEPT Arrow of Denial                   26.0 ->  28.0  -1 Rowlet +1 Energy Search
+[r2  61/165   2486s] ACCEPT Rapid Vernier Nova                49.4 ->  50.8  -1 Teal Mask Ogerpon +1 Cyrano
+[r2  62/165   2521s] ACCEPT Bottom-Deck Gambit                39.5 ->  42.5  -1 Rellor +1 Cheren
+[r2  63/165   2547s] ACCEPT Steeped Discard                   49.6 ->  52.9  -1 Cottonee +1 Poké Ball
+[r2  64/165   2573s] ACCEPT Vengeful Attrition                60.9 ->  62.4  -1 Grass Energy +1 Poké Pad
+[r2  65/165   2603s] ACCEPT Mega Meganium Bouquet             36.3 ->  39.0  -1 Bayleef +1 Energy Search
+[r2  66/165   2630s] ACCEPT Hydrapple Syrup Storm             34.3 ->  38.6  -1 Chikorita +1 Grass Energy
+[r2  67/165   2654s] ACCEPT Bench Fortress                    56.6 ->  58.3  -1 Dwebble +1 Buddy-Buddy Poffin
+[r2  68/165   2703s] ACCEPT Eelektrik Recursion               56.4 ->  59.1  -1 Shinx +1 Lightning Energy
+[r2  69/165   2740s] ACCEPT Overvolt Overload                 61.1 ->  63.7  -1 Iron Hands +1 Lightning Energy
+[r2  70/165   2781s] ACCEPT Iono's Streamer                   52.9 ->  54.8  -1 Pawmi +1 Lightning Energy
+[r2  71/165   2824s] ACCEPT Manectric Aggro                   47.6 ->  49.5  -1 Pawmi +1 Lightning Energy
+[r2  72/165   2872s] ACCEPT Luxray Nuke                       50.4 ->  52.1  -1 Luxio +1 Lightning Energy
+[r2  73/165   2902s]   ---- Iron Thorns Lock                  76.4 ->  77.1  
+[r2  74/165   2938s] ACCEPT Kilowattrel Pivot                 62.6 ->  66.9  -1 Mareep +1 Lightning Energy
+[r2  75/165   2971s] ACCEPT Hop's Pincurchin                  66.7 ->  67.9  -1 Iron Hands +1 Fennel
+[r2  76/165   3000s] ACCEPT Tapu Koko Swarm                   68.3 ->  70.9  -1 Pawmi +1 Earthen Vessel
+[r2  77/165   3033s] ACCEPT Zekrom Comeback                   76.8 ->  78.0  -1 Miraidon +1 Lightning Energy
+[r2  78/165   3075s] ACCEPT Rotom Tool                        44.5 ->  50.0  -1 Miraidon +1 Lightning Energy
+[r2  79/165   3104s] ACCEPT Miraidon Hadron                   68.2 ->  71.4  -1 Iron Valiant +1 Poké Ball
+[r2  80/165   3126s] ACCEPT Steven's Steel Sanctuary          40.2 ->  43.9  -1 Pawniard +1 Cheren
+[r2  81/165   3155s] ACCEPT Alloy Bulwark                     34.7 ->  37.2  -1 Klang +1 Cheren
+[r2  82/165   3181s] ACCEPT Regi-Charge Attrition             62.0 ->  64.6  -1 Metal Energy +1 Ultra Ball
+[r2  83/165   3212s] ACCEPT Emperor's Stance Wall             26.6 ->  29.8  -1 Genesect +1 Metal Energy
+[r2  84/165   3241s] ACCEPT Alloy Overdrive                   34.2 ->  36.8  -1 Pawniard +1 Ultra Ball
+[r2  85/165   3266s] ACCEPT Bench Battery                     67.8 ->  71.1  -1 Onix +1 Cyrano
+[r2  86/165   3294s] ACCEPT Hop's Champion Rush               47.5 ->  54.0  -1 Hop's Wooloo +1 Philippe
+[r2  87/165   3327s] ACCEPT Steel Armament Blitz              31.4 ->  32.6  -1 Mawile +1 Metal Energy
+[r2  88/165   3355s] ACCEPT Metallic Signal Toolbox           41.5 ->  44.8  -1 Pawniard +1 Poké Ball
+[r2  89/165   3383s] ACCEPT Chrono Draw Engine                42.6 ->  45.4  -1 Klang +1 Cheren
+[r2  90/165   3410s] ACCEPT Prize Snowball                    60.7 ->  63.4  -1 Bisharp +1 Cheren
+[r2  91/165   3440s] ACCEPT Static Cling Combo                42.5 ->  44.5  -1 Mawile +1 Registeel
+[r2  92/165   3469s] ACCEPT Cinderace Snipe                   46.8 ->  49.2  -1 Solrock +1 Fighting Energy
+[r2  93/165   3501s] ACCEPT Salamence Splash                  24.9 ->  30.6  -1 Basculin +1 Crispin
+[r2  94/165   3528s] ACCEPT Galvantula Item-Lock              59.9 ->  65.1  -1 Solrock +1 Crispin
+[r2  95/165   3555s] ACCEPT Alolan Exeggutor KO-Flip          43.0 ->  47.4  -1 Basculin +1 Crispin
+[r2  96/165   3583s] ACCEPT Miraidon Future                   69.1 ->  72.1  -1 Iron Valiant +1 Cheren
+[r2  97/165   3610s] ACCEPT Flygon Anti-Ex                    49.8 ->  55.3  -1 Rhyhorn +1 Fighting Energy
+[r2  98/165   3640s] ACCEPT Mega Dragalge Poison              48.6 ->  51.3  -1 Toxel +1 Crispin
+[r2  99/165   3666s] ACCEPT Palossand Control                 42.7 ->  46.6  -1 Duskull +1 Cheren
+[r2 100/165   3692s]   ---- Tatsugiri Toolbox                 45.8 ->  46.7  
+[r2 101/165   3730s] ACCEPT Mega Latias Nuke                  40.4 ->  45.0  -1 Fennekin +1 Crispin
+[r2 102/165   3761s] ACCEPT Mega Skarmory Snipe                9.1 ->  12.0  -1 Bisharp +1 Registeel
+[r2 103/165   3791s] ACCEPT Revavroom Hit-and-Run             33.5 ->  37.1  -1 Pawniard +1 Earthen Vessel
+[r2 104/165   3826s] ACCEPT Scizor Flex                       28.5 ->  29.9  -1 Klang +1 Earthen Vessel
+[r2 105/165   3855s] ACCEPT Melmetal Axe                      42.9 ->  46.3  -1 Metal Energy +1 Philippe
+[r2 106/165   3884s] ACCEPT Metal Maker Ramp                  30.4 ->  33.5  -1 Pawniard +1 Poké Ball
+[r2 107/165   3912s] ACCEPT Symphonia Flood                   48.6 ->  49.7  -1 Kirlia +1 Poké Ball
+[r2 108/165   3940s] ACCEPT Warded Symphonia                  39.8 ->  42.9  -1 Abra +1 Energy Search
+[r2 109/165   3970s] ACCEPT Scattergun Ward                   55.9 ->  58.6  -1 Darkness Energy +1 Crispin
+[r2 110/165   3997s]   ---- Cobalt Crossfire                  23.7 ->  24.4  
+[r2 111/165   4021s] ACCEPT Waltz of Whispers                 55.5 ->  58.2  -1 Latios +1 Poké Ball
+[r2 112/165   4049s] ACCEPT Deep Prison                       35.6 ->  39.0  -1 Yamask +1 Cheren
+[r2 113/165   4075s] ACCEPT Fairy-Slayer                      61.0 ->  62.6  -1 Latios +1 Ultra Ball
+[r2 114/165   4103s] ACCEPT Full Hand Nova                    58.6 ->  61.3  -1 Latios +1 Cheren
+[r2 115/165   4133s]   ---- Curtain-Riser                     22.4 ->  22.9  
+[r2 116/165   4160s] ACCEPT Silent Scream                     35.6 ->  37.7  -1 Duskull +1 Cheren
+[r2 117/165   4187s] ACCEPT Sweet Stall                       37.7 ->  39.7  -1 Gothita +1 Cheren
+[r2 118/165   4220s]   ---- Detonation Coat                   14.5 ->  14.8  
+[r2 119/165   4246s] ACCEPT Coin-Flip Reaper                  44.8 ->  46.9  -1 Latios +1 Buddy-Buddy Poffin
+[r2 120/165   4272s] ACCEPT Mercy for All                     56.2 ->  59.6  -1 Gothorita +1 Poké Ball
+[r2 121/165   4297s] ACCEPT Battle-Scarred Bench              53.9 ->  58.1  -1 Duskull +1 Ultra Ball
+[r2 122/165   4326s]   ---- Flutter Lock                      50.8 ->  51.3  
+[r2 123/165   4351s] ACCEPT Bubble Balloon                    54.9 ->  57.9  -1 Latios +1 Poké Ball
+[r2 124/165   4382s] ACCEPT Burn Engine                       51.0 ->  52.9  -1 Slugma +1 Cheren
+[r2 125/165   4407s] ACCEPT Ethan's Turbo                     54.9 ->  57.5  -1 Ethan's Slugma +1 Firebreather
+[r2 126/165   4437s] ACCEPT Emboar Overload                   30.3 ->  34.0  -1 Pignite +1 Energy Search
+[r2 127/165   4462s] ACCEPT Pyroar Wall                       44.1 ->  49.2  -1 Fennekin +1 Earthen Vessel
+[r2 128/165   4487s] ACCEPT Volcanion Spread-Burn             53.2 ->  58.6  -1 Chimchar +1 Crispin
+[r2 129/165   4511s] ACCEPT Reshiram Comeback                 69.1 ->  71.5  -1 Iron Moth +1 Poké Ball
+[r2 130/165   4538s] ACCEPT Incineroar Bench-Punish           32.5 ->  35.6  -1 Slugma +1 Energy Search
+[r2 131/165   4567s] ACCEPT Salazzle Toolbox                  30.8 ->  34.0  -1 Druddigon +1 Fire Energy
+[r2 132/165   4597s]   ---- Hearthflame Anti-Evolution        47.6 ->  48.6  
+[r2 133/165   4623s] ACCEPT Magcargo Mill-Burn                53.2 ->  54.9  -1 Magmar +1 Buddy-Buddy Poffin
+[r2 134/165   4647s] ACCEPT Scovillain Rage                   55.9 ->  61.7  -1 Slugma +1 Crispin
+[r2 135/165   4673s] ACCEPT Gouging Fire Pivot                58.4 ->  61.4  -1 Chimchar +1 Crispin
+[r2 136/165   4699s] ACCEPT Oricorio Support-Trap             48.2 ->  49.8  -1 Druddigon +1 Ultra Ball
+[r2 137/165   4723s] ACCEPT Reshiram Fire Wing                68.6 ->  71.2  -1 Druddigon +1 Ultra Ball
+[r2 138/165   4747s] ACCEPT Retaliation Burn                  55.7 ->  59.9  -1 Magmar +1 Poké Ball
+[r2 139/165   4774s] ACCEPT TR Spread                         48.8 ->  51.5  -1 Team Rocket's Larvitar +1 Energy Search
+[r2 140/165   4797s] ACCEPT TR Nido Family                    55.4 ->  62.0  -1 Team Rocket's Murkrow +1 Janine's Secret Art
+[r2 141/165   4823s] ACCEPT TR Persian Copycat                47.4 ->  50.6  -1 Team Rocket's Murkrow +1 Cheren
+[r2 142/165   4851s] ACCEPT TR Rocket Rush Swarm              35.4 ->  36.9  -1 Team Rocket's Tarountula +1 Darkness Energy
+[r2 143/165   4874s] ACCEPT TR Condition Stack                46.9 ->  55.5  -1 Team Rocket's Exeggcute +1 Crispin
+[r2 144/165   4899s] ACCEPT TR Disruption Lock                57.6 ->  61.4  -1 Seviper +1 Crispin
+[r2 145/165   4926s] ACCEPT TR Moltres Removal                62.4 ->  65.6  -1 Seviper +1 Crispin
+[r2 146/165   4953s] ACCEPT Starmie Jetstream Rush            50.8 ->  54.7  -1 Oshawott +1 Poké Ball
+[r2 147/165   4981s] ACCEPT Croconaw Chip, Mega Crunch        37.7 ->  38.7  -1 Croconaw +1 Eiscue
+[r2 148/165   5006s] ACCEPT Starmie Tundra Fortress           56.2 ->  60.4  -1 Cubchoo +1 Poké Ball
+[r2 149/165   5036s] ACCEPT Samurott's Ambush                 41.3 ->  44.3  -1 Articuno +1 Water Energy
+[r2 150/165   5068s] ACCEPT Frozen Fortress                   24.7 ->  27.8  -1 Cubchoo +1 Energy Search
+[r2 151/165   5095s] ACCEPT Hydro Turn Hit-and-Run            48.8 ->  51.5  -1 Clauncher +1 Poké Ball
+[r2 152/165   5124s] ACCEPT Deep Current Overload             35.3 ->  38.7  -1 Clauncher +1 Water Energy
+[r2 153/165   5157s] ACCEPT Serene Slumber                    60.0 ->  63.5  -1 Water Energy +1 Ultra Ball
+[r2 154/165   5187s] ACCEPT Purge and Plunder                 38.3 ->  40.7  -1 Tirtouga +1 Eiscue
+[r2 155/165   5227s] ACCEPT Misty's Deep Freeze               33.6 ->  36.2  -1 Cubchoo +1 Buddy-Buddy Poffin
+[r2 156/165   5259s] ACCEPT Avalanche Flood                   55.1 ->  56.8  -1 Basculin +1 Water Energy
+[r2 157/165   5285s] ACCEPT Wellspring Reload                 41.2 ->  44.4  -1 Basculin +1 Water Energy
+[r2 158/165   5314s] ACCEPT Dondozo's Gambit                  53.6 ->  55.8  -1 Cubchoo +1 Poké Ball
+[r2 159/165   5344s] ACCEPT Paradox Sandman                   43.5 ->  46.2  -1 Basculin +1 Eiscue
+[r2 160/165   5371s] ACCEPT Prize Blizzard                    52.1 ->  54.8  -1 Amaura +1 Earthen Vessel
+[r2 161/165   5398s] ACCEPT Frostbite Recoil                  39.9 ->  43.3  -1 Snorunt +1 Earthen Vessel
+[r2 162/165   5427s] ACCEPT Tricolor Burst — Experimental     40.1 ->  42.2  -1 Basculin +1 Cheren
+[r2 163/165   5458s] ACCEPT Zero to Hero                      44.2 ->  49.0  -1 Dewott +1 Poké Ball
+[r2 164/165   5487s] ACCEPT Wash Out Current                  37.8 ->  40.1  -1 Clauncher +1 Water Energy
+[r2 165/165   5524s] ACCEPT Vibrant Wall                      56.2 ->  59.4  -1 Lotad +1 Poké Pad
+=== round 2 done: 155 changes | top: Perfect Order Beatdown 84.63% | median 49.82% ===
+[r3   1/165   5660s] ACCEPT Bouffalant's Wall                 50.7 ->  54.3  -1 Basculin +1 Water Energy
+[r3   2/165   5690s] ACCEPT Rabbit Punch                      48.5 ->  52.0  -1 Scorbunny +1 Earthen Vessel
+[r3   3/165   5721s] ACCEPT Tail Spin (Turbo)                 54.5 ->  57.5  -1 Articuno +1 Water Energy
+[r3   4/165   5750s] ACCEPT Tail Spin (Grind)                 57.6 ->  61.0  -1 Dunsparce +1 Cheren
+[r3   5/165   5777s] ACCEPT Nurse Blissey                     54.2 ->  57.9  -1 Dunsparce +1 Buddy-Buddy Poffin
+[r3   6/165   5808s] ACCEPT Tenacious Tail                    29.3 ->  31.5  -1 Sprigatito +1 Cheren
+[r3   7/165   5836s] ACCEPT Errand Runner                     55.6 ->  58.9  -1 Dunsparce +1 Earthen Vessel
+[r3   8/165   5872s] ACCEPT Larry's Sleepover                 24.1 ->  29.1  -1 Larry's Dunsparce +1 Cheren
+[r3   9/165   5897s] ACCEPT Payback Worm                      60.6 ->  63.8  -1 Mawile +1 Cyrano
+[r3  10/165   5928s] ACCEPT Blood Moon Rising                 44.2 ->  49.2  -1 Dunsparce +1 Eiscue
+[r3  11/165   5955s] ACCEPT Sonic Wall                        48.7 ->  50.9  -1 Wailmer +1 Water Energy
+[r3  12/165   5986s] ACCEPT Quick Draw                        32.4 ->  35.0  -1 Scorbunny +1 Eiscue
+[r3  13/165   6017s] ACCEPT Fresh Bite                        48.9 ->  51.2  -1 Arven's Skwovet +1 Earthen Vessel
+[r3  14/165   6046s] ACCEPT Ball Lightning                    38.5 ->  41.1  -1 Scorbunny +1 Energy Search
+[r3  15/165   6074s] ACCEPT Great Swing                       43.6 ->  49.6  -1 Scorbunny +1 Cheren
+[r3  16/165   6106s] ACCEPT Mirror Beak                       38.1 ->  39.2  -1 Keldeo +1 Water Energy
+[r3  17/165   6131s] ACCEPT Cyclizar Splash                   52.4 ->  55.7  -1 Raboot +1 Poké Pad
+[r3  18/165   6157s] ACCEPT Terapagos Bench-Scale             55.8 ->  58.7  -1 Togepi +1 Crispin
+[r3  19/165   6188s] ACCEPT Bouffalant Herd                   72.6 ->  74.2  -1 Basculin +1 Poké Ball
+[r3  20/165   6218s] ACCEPT Yveltal Soul Reap                 42.7 ->  43.9  -1 Toxel +1 Ultra Ball
+[r3  21/165   6244s] ACCEPT Okidogi Self-Poison Burst         46.8 ->  47.9  -1 Darkness Energy +1 Poké Ball
+[r3  22/165   6266s] ACCEPT Marnie's Punk Up Wheel            58.5 ->  62.7  -1 Toxel +1 Cheren
+[r3  23/165   6293s]   ---- Tyranitar Item-Lock Twins         45.2 ->  46.2  
+[r3  24/165   6319s] ACCEPT Scrafty Counterattack Wall        56.6 ->  58.2  -1 Bombirdier +1 Ultra Ball
+[r3  25/165   6348s] ACCEPT Krookodile Revenge Lockdown       40.9 ->  42.4  -1 Krokorok +1 Poké Ball
+[r3  26/165   6375s]   ---- Clodsire Poison Lockdown          47.0 ->  47.7  
+[r3  27/165   6399s] ACCEPT Mandibuzz Bench Snipe             52.2 ->  53.9  -1 Bombirdier +1 Ultra Ball
+[r3  28/165   6426s] ACCEPT Hydreigon Basic Bounty            42.5 ->  48.7  -1 Toxel +1 Janine's Secret Art
+[r3  29/165   6451s] ACCEPT Sharpedo Glass Cannon             66.1 ->  69.0  -1 Darkness Energy +1 Cheren
+[r3  30/165   6474s] ACCEPT Marnie's Ex-Punisher              57.1 ->  60.2  -1 Zorua +1 Cheren
+[r3  31/165   6498s] ACCEPT Absol Hand-Rip Aggro              69.5 ->  72.0  -1 Darkness Energy +1 Ultra Ball
+[r3  32/165   6526s] ACCEPT Munkidori Vanilla Beats           40.5 ->  41.7  -1 Zorua +1 Poké Ball
+[r3  33/165   6551s] ACCEPT Gust & Guarantee                  68.6 ->  70.4  -1 Makuhita +1 Cheren
+[r3  34/165   6579s] ACCEPT Stonewall Softener                40.5 ->  46.4  -1 Rhydon +1 Fighting Energy
+[r3  35/165   6608s] ACCEPT Champion's Call                   54.8 ->  56.9  -1 Cynthia's Roselia +1 Cheren
+[r3  36/165   6633s]   ---- Rock Battery                      68.7 ->  69.1  
+[r3  37/165   6657s] ACCEPT Aura Overflow                     81.3 ->  82.7  -1 Fighting Energy +1 Ultra Ball
+[r3  38/165   6680s]   ---- Drill & Snipe                     76.9 ->  77.6  
+[r3  39/165   6705s]   ---- Perfect Order Beatdown            84.2 ->  84.3  
+[r3  40/165   6731s]   ---- Grudge Match                      71.0 ->  71.2  
+[r3  41/165   6759s] ACCEPT Cornerstone Fortress              60.0 ->  63.5  -1 Trapinch +1 Earthen Vessel
+[r3  42/165   6784s]   ---- Stuck in the Mud                  67.5 ->  68.5  
+[r3  43/165   6812s] ACCEPT Bait the Boulder                  68.9 ->  70.0  -1 Stonjourner +1 Sawk
+[r3  44/165   6841s] ACCEPT Slow Burn                         51.7 ->  56.3  -1 Rhyhorn +1 Earthen Vessel
+[r3  45/165   6868s] ACCEPT Tusk Stampede                     62.4 ->  65.1  -1 Piloswine +1 Earthen Vessel
+[r3  46/165   6895s]   ---- Coinflip Comeback                 68.9 ->  69.0  
+[r3  47/165   6922s] ACCEPT Mega Gallade Blitz                67.3 ->  69.1  -1 Kirlia +1 Earthen Vessel
+[r3  48/165   6948s]   ---- Koraidon Kaiser                   70.8 ->  71.1  
+[r3  49/165   6973s] ACCEPT Wild Growth Overdrive             39.5 ->  43.3  -1 Chikorita +1 Earthen Vessel
+[r3  50/165   6998s] ACCEPT Erika's Garden Party              41.7 ->  47.3  -1 Erika's Bellsprout +1 Cheren
+[r3  51/165   7022s] ACCEPT Forest March                      53.9 ->  55.9  -1 Snivy +1 Cheren
+[r3  52/165   7051s] ACCEPT Spore Lock                        38.4 ->  40.8  -1 Oddish +1 Cheren
+[r3  53/165   7075s] ACCEPT Oil Salvo Sniper                  40.3 ->  42.4  -1 Metapod +1 Earthen Vessel
+[r3  54/165   7101s] ACCEPT Regal Cheer Aggro                 23.8 ->  25.4  -1 Gloom +1 Cheren
+[r3  55/165   7127s] ACCEPT Solar Bank                        37.6 ->  41.7  -1 Applin +1 Earthen Vessel
+[r3  56/165   7153s] ACCEPT Swarm of the Hive                 43.8 ->  48.7  -1 Caterpie +1 Cyrano
+[r3  57/165   7178s] ACCEPT Buzzing Boost Shuttle             45.6 ->  47.3  -1 Virizion +1 Poké Ball
+[r3  58/165   7203s] ACCEPT Juggernaut Wall                   65.6 ->  67.5  -1 Quilladin +1 Earthen Vessel
+[r3  59/165   7233s] ACCEPT Energy Gift Express               15.9 ->  18.4  -1 Cottonee +1 Earthen Vessel
+[r3  60/165   7259s] ACCEPT Arrow of Denial                   25.9 ->  29.1  -1 Dartrix +1 Cheren
+[r3  61/165   7286s]   ---- Rapid Vernier Nova                47.5 ->  48.5  
+[r3  62/165   7317s] ACCEPT Bottom-Deck Gambit                40.6 ->  41.7  -1 Metapod +1 Buddy-Buddy Poffin
+[r3  63/165   7341s] ACCEPT Steeped Discard                   49.8 ->  52.1  -1 Cottonee +1 Buddy-Buddy Poffin
+[r3  64/165   7364s] ACCEPT Vengeful Attrition                58.7 ->  60.1  -1 Grass Energy +1 Ultra Ball
+[r3  65/165   7392s] ACCEPT Mega Meganium Bouquet             37.4 ->  40.3  -1 Carnivine +1 Grass Energy
+[r3  66/165   7419s] ACCEPT Hydrapple Syrup Storm             35.7 ->  37.5  -1 Teal Mask Ogerpon +1 Grass Energy
+[r3  67/165   7442s] ACCEPT Bench Fortress                    55.4 ->  56.9  -1 Grass Energy +1 Ultra Ball
+[r3  68/165   7490s] ACCEPT Eelektrik Recursion               57.2 ->  60.4  -1 Shinx +1 Ultra Ball
+[r3  69/165   7526s] ACCEPT Overvolt Overload                 61.6 ->  64.3  -1 Shinx +1 Lightning Energy
+[r3  70/165   7568s] ACCEPT Iono's Streamer                   53.1 ->  55.3  -1 Pawmi +1 Lightning Energy
+[r3  71/165   7610s] ACCEPT Manectric Aggro                   46.5 ->  49.7  -1 Iron Hands +1 Lightning Energy
+[r3  72/165   7657s] ACCEPT Luxray Nuke                       49.6 ->  52.4  -1 Iron Hands +1 Lightning Energy
+[r3  73/165   7687s] ACCEPT Iron Thorns Lock                  73.8 ->  75.3  -1 Iron Hands +1 Poké Pad
+[r3  74/165   7722s] ACCEPT Kilowattrel Pivot                 63.2 ->  65.5  -1 Mareep +1 Energy Search
+[r3  75/165   7754s] ACCEPT Hop's Pincurchin                  65.1 ->  68.4  -1 Iron Hands +1 Fennel
+[r3  76/165   7784s]   ---- Tapu Koko Swarm                   68.5 ->  69.0  
+[r3  77/165   7816s] ACCEPT Zekrom Comeback                   74.8 ->  77.0  -1 Iron Hands +1 Buddy-Buddy Poffin
+[r3  78/165   7858s] ACCEPT Rotom Tool                        47.3 ->  48.8  -1 Miraidon +1 Lightning Energy
+[r3  79/165   7888s] ACCEPT Miraidon Hadron                   67.9 ->  70.2  -1 Iron Valiant +1 Crispin
+[r3  80/165   7908s] ACCEPT Steven's Steel Sanctuary          41.2 ->  45.4  -1 Klink +1 Poké Pad
+[r3  81/165   7937s] ACCEPT Alloy Bulwark                     35.5 ->  38.8  -1 Skarmory +1 Poké Ball
+[r3  82/165   7963s] ACCEPT Regi-Charge Attrition             60.6 ->  63.4  -1 Mawile +1 Philippe
+[r3  83/165   7993s] ACCEPT Emperor's Stance Wall             27.9 ->  31.6  -1 Prinplup +1 Cheren
+[r3  84/165   8022s] ACCEPT Alloy Overdrive                   33.2 ->  37.4  -1 Bisharp +1 Metal Energy
+[r3  85/165   8046s] ACCEPT Bench Battery                     68.3 ->  69.5  -1 Mawile +1 Cyrano
+[r3  86/165   8074s] ACCEPT Hop's Champion Rush               48.8 ->  52.0  -1 Hop's Wooloo +1 Cyrano
+[r3  87/165   8106s] ACCEPT Steel Armament Blitz              27.8 ->  29.7  -1 Genesect +1 Metal Energy
+[r3  88/165   8134s] ACCEPT Metallic Signal Toolbox           42.0 ->  45.4  -1 Klink +1 Poké Ball
+[r3  89/165   8162s]   ---- Chrono Draw Engine                42.2 ->  42.7  
+[r3  90/165   8189s]   ---- Prize Snowball                    61.0 ->  61.6  
+[r3  91/165   8219s]   ---- Static Cling Combo                41.4 ->  42.1  
+[r3  92/165   8246s] ACCEPT Cinderace Snipe                   45.5 ->  51.1  -1 Raboot +1 Crispin
+[r3  93/165   8278s] ACCEPT Salamence Splash                  28.8 ->  33.0  -1 Basculin +1 Energy Search
+[r3  94/165   8303s] ACCEPT Galvantula Item-Lock              62.1 ->  66.8  -1 Solrock +1 Crispin
+[r3  95/165   8329s] ACCEPT Alolan Exeggutor KO-Flip          44.4 ->  47.9  -1 Basculin +1 Earthen Vessel
+[r3  96/165   8358s] ACCEPT Miraidon Future                   68.6 ->  71.1  -1 Iron Valiant +1 Cyrano
+[r3  97/165   8384s] ACCEPT Flygon Anti-Ex                    52.3 ->  55.8  -1 Rhyhorn +1 Ultra Ball
+[r3  98/165   8412s] ACCEPT Mega Dragalge Poison              49.9 ->  54.0  -1 Toxel +1 Energy Search
+[r3  99/165   8438s] ACCEPT Palossand Control                 43.9 ->  45.6  -1 Duskull +1 Crispin
+[r3 100/165   8464s] ACCEPT Tatsugiri Toolbox                 41.3 ->  46.3  -1 Basculin +1 Crispin
+[r3 101/165   8502s] ACCEPT Mega Latias Nuke                  42.3 ->  45.3  -1 Braixen +1 Cheren
+[r3 102/165   8532s]   ---- Mega Skarmory Snipe                9.8 ->  10.1  
+[r3 103/165   8563s] ACCEPT Revavroom Hit-and-Run             34.6 ->  38.2  -1 Pawniard +1 Cheren
+[r3 104/165   8598s] ACCEPT Scizor Flex                       27.5 ->  30.1  -1 Klink +1 Earthen Vessel
+[r3 105/165   8625s] ACCEPT Melmetal Axe                      43.5 ->  45.2  -1 Meltan +1 Cheren
+[r3 106/165   8655s] ACCEPT Metal Maker Ramp                  29.5 ->  32.0  -1 Pawniard +1 Cheren
+[r3 107/165   8683s] ACCEPT Symphonia Flood                   46.8 ->  48.8  -1 Kirlia +1 Earthen Vessel
+[r3 108/165   8709s] ACCEPT Warded Symphonia                  40.4 ->  43.9  -1 Kadabra +1 Psychic Energy
+[r3 109/165   8739s] ACCEPT Scattergun Ward                   56.3 ->  60.2  -1 Abra +1 Poké Ball
+[r3 110/165   8766s]   ---- Cobalt Crossfire                  21.3 ->  21.9  
+[r3 111/165   8789s] ACCEPT Waltz of Whispers                 54.8 ->  57.7  -1 Latios +1 Poké Ball
+[r3 112/165   8817s] ACCEPT Deep Prison                       36.0 ->  40.3  -1 Yamask +1 Earthen Vessel
+[r3 113/165   8843s] ACCEPT Fairy-Slayer                      58.7 ->  60.8  -1 Latios +1 Night Stretcher
+[r3 114/165   8871s] ACCEPT Full Hand Nova                    58.3 ->  61.1  -1 Latios +1 Poké Ball
+[r3 115/165   8901s]   ---- Curtain-Riser                     19.5 ->  19.9  
+[r3 116/165   8928s] ACCEPT Silent Scream                     34.4 ->  36.1  -1 Duskull +1 Cheren
+[r3 117/165   8955s] ACCEPT Sweet Stall                       36.2 ->  39.7  -1 Gothita +1 Ultra Ball
+[r3 118/165   8988s]   ---- Detonation Coat                   12.9 ->  13.5  
+[r3 119/165   9015s] ACCEPT Coin-Flip Reaper                  42.4 ->  43.8  -1 Latios +1 Poké Ball
+[r3 120/165   9041s] ACCEPT Mercy for All                     56.5 ->  59.0  -1 Xerneas +1 Psychic Energy
+[r3 121/165   9066s] ACCEPT Battle-Scarred Bench              55.8 ->  59.7  -1 Duskull +1 Poké Ball
+[r3 122/165   9094s]   ---- Flutter Lock                      48.0 ->  48.7  
+[r3 123/165   9119s] ACCEPT Bubble Balloon                    54.7 ->  58.6  -1 Latios +1 Poké Ball
+[r3 124/165   9150s] ACCEPT Burn Engine                       50.1 ->  54.0  -1 Slugma +1 Cheren
+[r3 125/165   9175s] ACCEPT Ethan's Turbo                     55.2 ->  59.2  -1 Ethan's Cyndaquil +1 Firebreather
+[r3 126/165   9204s] ACCEPT Emboar Overload                   31.1 ->  33.6  -1 Pignite +1 Earthen Vessel
+[r3 127/165   9230s] ACCEPT Pyroar Wall                       44.6 ->  46.6  -1 Fennekin +1 Earthen Vessel
+[r3 128/165   9254s] ACCEPT Volcanion Spread-Burn             56.6 ->  59.0  -1 Chimchar +1 Dawn
+[r3 129/165   9279s] ACCEPT Reshiram Comeback                 68.7 ->  71.7  -1 Iron Moth +1 Ultra Ball
+[r3 130/165   9305s] ACCEPT Incineroar Bench-Punish           32.7 ->  38.5  -1 Slugma +1 Firebreather
+[r3 131/165   9332s] ACCEPT Salazzle Toolbox                  31.1 ->  36.0  -1 Litwick +1 Cheren
+[r3 132/165   9362s] ACCEPT Hearthflame Anti-Evolution        43.6 ->  45.3  -1 Druddigon +1 Cheren
+[r3 133/165   9389s] ACCEPT Magcargo Mill-Burn                52.6 ->  55.5  -1 Magmar +1 Poké Ball
+[r3 134/165   9412s] ACCEPT Scovillain Rage                   59.4 ->  62.4  -1 Slugma +1 Cheren
+[r3 135/165   9438s] ACCEPT Gouging Fire Pivot                57.3 ->  61.9  -1 Chimchar +1 Fire Energy
+[r3 136/165   9463s] ACCEPT Oricorio Support-Trap             47.0 ->  48.2  -1 Iron Moth +1 Cheren
+[r3 137/165   9487s] ACCEPT Reshiram Fire Wing                69.1 ->  70.6  -1 Druddigon +1 Poké Ball
+[r3 138/165   9511s] ACCEPT Retaliation Burn                  57.2 ->  58.2  -1 Slugma +1 Poké Ball
+[r3 139/165   9538s] ACCEPT TR Spread                         48.8 ->  52.6  -1 Team Rocket's Larvitar +1 Energy Search
+[r3 140/165   9560s] ACCEPT TR Nido Family                    59.6 ->  62.0  -1 Team Rocket's Murkrow +1 Cheren
+[r3 141/165   9586s] ACCEPT TR Persian Copycat                47.4 ->  49.7  -1 Team Rocket's Murkrow +1 Team Rocket's Great Ball
+[r3 142/165   9612s] ACCEPT TR Rocket Rush Swarm              34.3 ->  38.4  -1 Team Rocket's Zubat +1 Crispin
+[r3 143/165   9634s] ACCEPT TR Condition Stack                52.6 ->  54.7  -1 Team Rocket's Exeggcute +1 Team Rocket's Nidorino
+[r3 144/165   9658s] ACCEPT TR Disruption Lock                58.8 ->  63.5  -1 Seviper +1 Crispin
+[r3 145/165   9685s] ACCEPT TR Moltres Removal                62.1 ->  65.3  -1 Team Rocket's Murkrow +1 Cyrano
+[r3 146/165   9711s] ACCEPT Starmie Jetstream Rush            52.5 ->  55.7  -1 Clauncher +1 Water Energy
+[r3 147/165   9741s] ACCEPT Croconaw Chip, Mega Crunch        36.7 ->  40.0  -1 Basculin +1 Eiscue
+[r3 148/165   9765s] ACCEPT Starmie Tundra Fortress           58.6 ->  61.5  -1 Cubchoo +1 Cheren
+[r3 149/165   9795s] ACCEPT Samurott's Ambush                 41.2 ->  44.6  -1 Amaura +1 Water Energy
+[r3 150/165   9827s] ACCEPT Frozen Fortress                   26.6 ->  28.9  -1 Cetoddle +1 Eiscue
+[r3 151/165   9853s] ACCEPT Hydro Turn Hit-and-Run            47.1 ->  50.1  -1 Clauncher +1 Poké Ball
+[r3 152/165   9882s] ACCEPT Deep Current Overload             35.3 ->  40.8  -1 Clamperl +1 Eiscue
+[r3 153/165   9915s] ACCEPT Serene Slumber                    61.4 ->  64.2  -1 Cubchoo +1 Poké Ball
+[r3 154/165   9946s] ACCEPT Purge and Plunder                 37.6 ->  39.4  -1 Tirtouga +1 Eiscue
+[r3 155/165   9986s] ACCEPT Misty's Deep Freeze               33.5 ->  35.2  -1 Basculin +1 Water Energy
+[r3 156/165  10017s] ACCEPT Avalanche Flood                   53.5 ->  56.8  -1 Cubchoo +1 Eiscue
+[r3 157/165  10042s] ACCEPT Wellspring Reload                 41.4 ->  42.8  -1 Cubchoo +1 Cheren
+[r3 158/165  10071s] ACCEPT Dondozo's Gambit                  52.4 ->  54.4  -1 Cubchoo +1 Water Energy
+[r3 159/165  10101s] ACCEPT Paradox Sandman                   42.8 ->  45.4  -1 Basculin +1 Cheren
+[r3 160/165  10128s] ACCEPT Prize Blizzard                    51.8 ->  53.7  -1 Cubchoo +1 Poké Ball
+[r3 161/165  10155s] ACCEPT Frostbite Recoil                  40.8 ->  43.2  -1 Amaura +1 Energy Search
+[r3 162/165  10184s] ACCEPT Tricolor Burst — Experimental     39.3 ->  42.2  -1 Basculin +1 Eiscue
+[r3 163/165  10215s] ACCEPT Zero to Hero                      45.0 ->  49.3  -1 Oshawott +1 Ultra Ball
+[r3 164/165  10244s] ACCEPT Wash Out Current                  38.1 ->  42.5  -1 Seel +1 Ultra Ball
+[r3 165/165  10281s] ACCEPT Vibrant Wall                      57.4 ->  61.9  -1 Lotad +1 Poké Ball
+=== round 3 done: 146 changes | top: Perfect Order Beatdown 82.98% | median 49.8% ===
+[r4   1/165  10417s] ACCEPT Bouffalant's Wall                 51.8 ->  52.9  -1 Floragato +1 Earthen Vessel
+[r4   2/165  10447s] ACCEPT Rabbit Punch                      49.2 ->  53.0  -1 Scorbunny +1 Cheren
+[r4   3/165  10478s] ACCEPT Tail Spin (Turbo)                 55.2 ->  58.4  -1 Articuno +1 Water Energy
+[r4   4/165  10507s] ACCEPT Tail Spin (Grind)                 59.2 ->  60.6  -1 Basculin +1 Poké Ball
+[r4   5/165  10534s] ACCEPT Nurse Blissey                     55.8 ->  58.2  -1 Dunsparce +1 Poké Ball
+[r4   6/165  10566s] ACCEPT Tenacious Tail                    29.1 ->  30.1  -1 Sprigatito +1 Eiscue
+[r4   7/165  10594s] ACCEPT Errand Runner                     57.1 ->  59.9  -1 Dunsparce +1 Energy Search
+[r4   8/165  10630s] ACCEPT Larry's Sleepover                 27.4 ->  33.8  -1 Larry's Dunsparce +1 Water Energy
+[r4   9/165  10654s] ACCEPT Payback Worm                      61.5 ->  64.0  -1 Mawile +1 Poké Ball
+[r4  10/165  10686s] ACCEPT Blood Moon Rising                 45.6 ->  46.9  -1 Basculin +1 Buddy-Buddy Poffin
+[r4  11/165  10713s] ACCEPT Sonic Wall                        47.9 ->  50.1  -1 Basculin +1 Eiscue
+[r4  12/165  10744s] ACCEPT Quick Draw                        31.9 ->  34.8  -1 Basculin +1 Eiscue
+[r4  13/165  10776s] ACCEPT Fresh Bite                        49.3 ->  53.9  -1 Basculin +1 Poké Ball
+[r4  14/165  10805s] ACCEPT Ball Lightning                    37.9 ->  39.0  -1 Basculin +1 Cheren
+[r4  15/165  10834s] ACCEPT Great Swing                       46.5 ->  50.3  -1 Scorbunny +1 Poké Ball
+[r4  16/165  10865s] ACCEPT Mirror Beak                       36.1 ->  38.1  -1 Floragato +1 Energy Search
+[r4  17/165  10890s] ACCEPT Cyclizar Splash                   53.6 ->  58.0  -1 Scorbunny +1 Crispin
+[r4  18/165  10916s] ACCEPT Terapagos Bench-Scale             56.6 ->  58.5  -1 Togetic +1 Cheren
+[r4  19/165  10948s]   ---- Bouffalant Herd                   72.7 ->  73.4  
+[r4  20/165  10978s] ACCEPT Yveltal Soul Reap                 39.9 ->  41.7  -1 Toxel +1 Fennel
+[r4  21/165  11005s] ACCEPT Okidogi Self-Poison Burst         45.4 ->  47.2  -1 Yveltal +1 Fennel
+[r4  22/165  11027s]   ---- Marnie's Punk Up Wheel            61.4 ->  62.2  
+[r4  23/165  11054s] ACCEPT Tyranitar Item-Lock Twins         43.5 ->  44.6  -1 Pupitar +1 Cheren
+[r4  24/165  11080s] ACCEPT Scrafty Counterattack Wall        57.1 ->  61.1  -1 Bombirdier +1 Ultra Ball
+[r4  25/165  11109s]   ---- Krookodile Revenge Lockdown       40.7 ->  41.2  
+[r4  26/165  11137s] ACCEPT Clodsire Poison Lockdown          44.7 ->  47.0  -1 Bombirdier +1 Ultra Ball
+[r4  27/165  11162s] ACCEPT Mandibuzz Bench Snipe             51.4 ->  54.1  -1 Bombirdier +1 Cheren
+[r4  28/165  11187s]   ---- Hydreigon Basic Bounty            46.4 ->  46.9  
+[r4  29/165  11213s] ACCEPT Sharpedo Glass Cannon             66.8 ->  69.5  -1 Bombirdier +1 Cheren
+[r4  30/165  11236s] ACCEPT Marnie's Ex-Punisher              58.9 ->  61.3  -1 Darkness Energy +1 Janine's Secret Art
+[r4  31/165  11260s] ACCEPT Absol Hand-Rip Aggro              69.9 ->  71.0  -1 Yveltal +1 Cheren
+[r4  32/165  11289s] ACCEPT Munkidori Vanilla Beats           37.8 ->  38.9  -1 Bombirdier +1 Night Stretcher
+[r4  33/165  11314s] ACCEPT Gust & Guarantee                  68.4 ->  70.4  -1 Stonjourner +1 Fighting Energy
+[r4  34/165  11341s] ACCEPT Stonewall Softener                44.0 ->  46.4  -1 Shellos +1 Earthen Vessel
+[r4  35/165  11369s] ACCEPT Champion's Call                   55.0 ->  59.0  -1 Cynthia's Roselia +1 Crispin
+[r4  36/165  11395s] ACCEPT Rock Battery                      65.4 ->  66.6  -1 Solrock +1 Fennel
+[r4  37/165  11418s]   ---- Aura Overflow                     81.7 ->  82.6  
+[r4  38/165  11441s] ACCEPT Drill & Snipe                     74.8 ->  76.1  -1 Solrock +1 Buddy-Buddy Poffin
+[r4  39/165  11466s]   ---- Perfect Order Beatdown            82.7 ->  83.6  
+[r4  40/165  11492s]   ---- Grudge Match                      67.9 ->  68.3  
+[r4  41/165  11520s] ACCEPT Cornerstone Fortress              59.8 ->  62.9  -1 Rhyhorn +1 Energy Search
+[r4  42/165  11546s]   ---- Stuck in the Mud                  64.7 ->  65.3  
+[r4  43/165  11574s]   ---- Bait the Boulder                  67.3 ->  67.8  
+[r4  44/165  11603s] ACCEPT Slow Burn                         53.1 ->  54.5  -1 Solrock +1 Earthen Vessel
+[r4  45/165  11630s] ACCEPT Tusk Stampede                     62.8 ->  66.1  -1 Solrock +1 Cheren
+[r4  46/165  11657s]   ---- Coinflip Comeback                 66.7 ->  66.7  
+[r4  47/165  11685s] ACCEPT Mega Gallade Blitz                68.4 ->  71.0  -1 Makuhita +1 Earthen Vessel
+[r4  48/165  11711s]   ---- Koraidon Kaiser                   68.4 ->  68.6  
+[r4  49/165  11735s] ACCEPT Wild Growth Overdrive             41.2 ->  44.7  -1 Ivysaur +1 Energy Search
+[r4  50/165  11760s]   ---- Erika's Garden Party              46.2 ->  46.6  
+[r4  51/165  11785s] ACCEPT Forest March                      53.6 ->  57.6  -1 Servine +1 Cheren
+[r4  52/165  11813s] ACCEPT Spore Lock                        38.1 ->  40.5  -1 Oddish +1 Earthen Vessel
+[r4  53/165  11836s] ACCEPT Oil Salvo Sniper                  40.3 ->  44.3  -1 Cottonee +1 Cheren
+[r4  54/165  11864s] ACCEPT Regal Cheer Aggro                 24.2 ->  26.7  -1 Gloom +1 Earthen Vessel
+[r4  55/165  11888s] ACCEPT Solar Bank                        40.0 ->  45.2  -1 Applin +1 Energy Search
+[r4  56/165  11915s] ACCEPT Swarm of the Hive                 45.6 ->  48.3  -1 Caterpie +1 Cheren
+[r4  57/165  11939s] ACCEPT Buzzing Boost Shuttle             44.9 ->  47.0  -1 Teal Mask Ogerpon +1 Grass Energy
+[r4  58/165  11964s] ACCEPT Juggernaut Wall                   65.7 ->  66.8  -1 Virizion +1 Professor's Research
+[r4  59/165  11992s] ACCEPT Energy Gift Express               17.6 ->  23.0  -1 Cottonee +1 Energy Search
+[r4  60/165  12019s] ACCEPT Arrow of Denial                   27.4 ->  28.7  -1 Teal Mask Ogerpon +1 Grass Energy
+[r4  61/165  12045s] ACCEPT Rapid Vernier Nova                45.2 ->  46.4  -1 Virizion +1 Cheren
+[r4  62/165  12077s] ACCEPT Bottom-Deck Gambit                39.1 ->  42.9  -1 Virizion +1 Grass Energy
+[r4  63/165  12101s] ACCEPT Steeped Discard                   50.3 ->  52.5  -1 Virizion +1 Cheren
+[r4  64/165  12125s] ACCEPT Vengeful Attrition                58.5 ->  59.6  -1 Teal Mask Ogerpon +1 Cheren
+[r4  65/165  12152s] ACCEPT Mega Meganium Bouquet             38.5 ->  41.1  -1 Carnivine +1 Grass Energy
+[r4  66/165  12177s] ACCEPT Hydrapple Syrup Storm             34.9 ->  37.4  -1 Grass Energy +1 Cheren
+[r4  67/165  12202s] ACCEPT Bench Fortress                    54.7 ->  56.4  -1 Grass Energy +1 Buddy-Buddy Poffin
+[r4  68/165  12249s] ACCEPT Eelektrik Recursion               58.4 ->  61.9  -1 Miraidon +1 Eelektrik
+[r4  69/165  12285s]   ---- Overvolt Overload                 62.8 ->  63.4  
+[r4  70/165  12325s] ACCEPT Iono's Streamer                   53.2 ->  56.8  -1 Pawmi +1 Earthen Vessel
+[r4  71/165  12368s] ACCEPT Manectric Aggro                   49.3 ->  50.9  -1 Iron Hands +1 Lightning Energy
+[r4  72/165  12414s] ACCEPT Luxray Nuke                       50.8 ->  57.0  -1 Shinx +1 Lightning Energy
+[r4  73/165  12444s] ACCEPT Iron Thorns Lock                  73.6 ->  75.5  -1 Iron Hands +1 Switch
+[r4  74/165  12478s] ACCEPT Kilowattrel Pivot                 63.7 ->  65.8  -1 Iron Hands +1 Lightning Energy
+[r4  75/165  12512s]   ---- Hop's Pincurchin                  66.7 ->  67.3  
+[r4  76/165  12542s] ACCEPT Tapu Koko Swarm                   65.2 ->  67.0  -1 Miraidon +1 Lightning Energy
+[r4  77/165  12575s] ACCEPT Zekrom Comeback                   74.9 ->  76.5  -1 Iron Hands +1 Fennel
+[r4  78/165  12617s] ACCEPT Rotom Tool                        46.9 ->  51.0  -1 Iron Hands +1 Lightning Energy
+[r4  79/165  12646s] ACCEPT Miraidon Hadron                   69.0 ->  70.4  -1 Iron Valiant +1 Professor's Research
+[r4  80/165  12666s] ACCEPT Steven's Steel Sanctuary          43.1 ->  44.9  -1 Pawniard +1 Steven's Metang
+[r4  81/165  12694s] ACCEPT Alloy Bulwark                     37.2 ->  39.9  -1 Skarmory +1 Poké Ball
+[r4  82/165  12719s] ACCEPT Regi-Charge Attrition             60.6 ->  64.2  -1 Mawile +1 Ultra Ball
+[r4  83/165  12749s] ACCEPT Emperor's Stance Wall             30.5 ->  33.1  -1 Mawile +1 Metal Energy
+[r4  84/165  12777s] ACCEPT Alloy Overdrive                   35.0 ->  37.7  -1 Pawniard +1 Cheren
+[r4  85/165  12801s] ACCEPT Bench Battery                     66.9 ->  68.5  -1 Metal Energy +1 Cheren
+[r4  86/165  12829s] ACCEPT Hop's Champion Rush               48.5 ->  51.6  -1 Mawile +1 Earthen Vessel
+[r4  87/165  12861s] ACCEPT Steel Armament Blitz              28.5 ->  30.0  -1 Genesect +1 Metal Energy
+[r4  88/165  12888s] ACCEPT Metallic Signal Toolbox           43.7 ->  45.9  -1 Pawniard +1 Energy Search
+[r4  89/165  12916s]   ---- Chrono Draw Engine                40.4 ->  41.3  
+[r4  90/165  12944s] ACCEPT Prize Snowball                    59.1 ->  60.9  -1 Bisharp +1 Cheren
+[r4  91/165  12973s] ACCEPT Static Cling Combo                38.7 ->  39.7  -1 Mawile +1 Fennel
+[r4  92/165  13001s] ACCEPT Cinderace Snipe                   49.2 ->  51.6  -1 Raboot +1 Cheren
+[r4  93/165  13031s] ACCEPT Salamence Splash                  31.9 ->  34.0  -1 Bagon +1 Cheren
+[r4  94/165  13056s] ACCEPT Galvantula Item-Lock              64.6 ->  67.4  -1 Solrock +1 Cheren
+[r4  95/165  13082s] ACCEPT Alolan Exeggutor KO-Flip          46.6 ->  49.6  -1 Basculin +1 Cheren
+[r4  96/165  13111s] ACCEPT Miraidon Future                   69.2 ->  72.6  -1 Iron Valiant +1 Buddy-Buddy Poffin
+[r4  97/165  13136s] ACCEPT Flygon Anti-Ex                    53.4 ->  56.6  -1 Solrock +1 Fighting Energy
+[r4  98/165  13164s] ACCEPT Mega Dragalge Poison              52.8 ->  55.7  -1 Snorunt +1 Crispin
+[r4  99/165  13189s] ACCEPT Palossand Control                 43.2 ->  48.8  -1 Abra +1 Cheren
+[r4 100/165  13215s] ACCEPT Tatsugiri Toolbox                 44.2 ->  45.6  -1 Darkness Energy +1 Cheren
+[r4 101/165  13252s] ACCEPT Mega Latias Nuke                  43.5 ->  45.9  -1 Fennekin +1 Psychic Energy
+[r4 102/165  13282s]   ---- Mega Skarmory Snipe                9.7 ->   9.9  
+[r4 103/165  13312s] ACCEPT Revavroom Hit-and-Run             35.5 ->  39.9  -1 Bisharp +1 Energy Search
+[r4 104/165  13347s] ACCEPT Scizor Flex                       27.3 ->  29.1  -1 Klink +1 Energy Search
+[r4 105/165  13374s] ACCEPT Melmetal Axe                      42.5 ->  45.4  -1 Heatran +1 Metal Energy
+[r4 106/165  13403s] ACCEPT Metal Maker Ramp                  29.5 ->  32.3  -1 Klink +1 Cheren
+[r4 107/165  13431s]   ---- Symphonia Flood                   46.6 ->  47.3  
+[r4 108/165  13457s] ACCEPT Warded Symphonia                  42.6 ->  44.3  -1 Abra +1 Buddy-Buddy Poffin
+[r4 109/165  13487s] ACCEPT Scattergun Ward                   59.5 ->  63.3  -1 Abra +1 Crispin
+[r4 110/165  13513s]   ---- Cobalt Crossfire                  19.9 ->  20.6  
+[r4 111/165  13537s] ACCEPT Waltz of Whispers                 56.4 ->  57.7  -1 Latios +1 Poké Ball
+[r4 112/165  13565s] ACCEPT Deep Prison                       38.6 ->  40.8  -1 Duskull +1 Poké Ball
+[r4 113/165  13591s] ACCEPT Fairy-Slayer                      58.0 ->  60.3  -1 Latios +1 Poké Ball
+[r4 114/165  13619s] ACCEPT Full Hand Nova                    59.4 ->  61.1  -1 Latios +1 Buddy-Buddy Poffin
+[r4 115/165  13649s]   ---- Curtain-Riser                     18.0 ->  18.2  
+[r4 116/165  13677s] ACCEPT Silent Scream                     34.1 ->  36.0  -1 Duskull +1 Earthen Vessel
+[r4 117/165  13704s] ACCEPT Sweet Stall                       37.2 ->  39.4  -1 Iron Valiant +1 Psychic Energy
+[r4 118/165  13735s]   ---- Detonation Coat                   11.7 ->  11.6  
+[r4 119/165  13762s] ACCEPT Coin-Flip Reaper                  40.2 ->  43.6  -1 Latios +1 Fennel
+[r4 120/165  13788s] ACCEPT Mercy for All                     56.1 ->  58.2  -1 Gothorita +1 Cheren
+[r4 121/165  13813s] ACCEPT Battle-Scarred Bench              57.2 ->  58.8  -1 Dusclops +1 Buddy-Buddy Poffin
+[r4 122/165  13843s]   ---- Flutter Lock                      47.1 ->  47.4  
+[r4 123/165  13867s] ACCEPT Bubble Balloon                    57.2 ->  59.8  -1 Latios +1 Cheren
+[r4 124/165  13898s] ACCEPT Burn Engine                       52.3 ->  54.5  -1 Magmar +1 Buddy-Buddy Poffin
+[r4 125/165  13923s] ACCEPT Ethan's Turbo                     57.2 ->  60.6  -1 Ethan's Slugma +1 Earthen Vessel
+[r4 126/165  13952s] ACCEPT Emboar Overload                   31.8 ->  34.0  -1 Tepig +1 Cheren
+[r4 127/165  13977s] ACCEPT Pyroar Wall                       44.3 ->  48.4  -1 Fire Energy +1 Cheren
+[r4 128/165  14001s] ACCEPT Volcanion Spread-Burn             57.1 ->  59.3  -1 Chimchar +1 Earthen Vessel
+[r4 129/165  14025s] ACCEPT Reshiram Comeback                 68.7 ->  70.4  -1 Fire Energy +1 Cheren
+[r4 130/165  14052s] ACCEPT Incineroar Bench-Punish           36.7 ->  38.7  -1 Magmar +1 Cheren
+[r4 131/165  14079s] ACCEPT Salazzle Toolbox                  33.7 ->  38.0  -1 Litwick +1 Ultra Ball
+[r4 132/165  14109s] ACCEPT Hearthflame Anti-Evolution        43.0 ->  44.2  -1 Iron Moth +1 Buddy-Buddy Poffin
+[r4 133/165  14135s] ACCEPT Magcargo Mill-Burn                53.6 ->  55.2  -1 Druddigon +1 Poké Ball
+[r4 134/165  14157s] ACCEPT Scovillain Rage                   60.5 ->  65.4  -1 Slugma +1 Energy Search
+[r4 135/165  14183s] ACCEPT Gouging Fire Pivot                58.5 ->  62.2  -1 Monferno +1 Earthen Vessel
+[r4 136/165  14208s] ACCEPT Oricorio Support-Trap             44.9 ->  46.8  -1 Iron Moth +1 Buddy-Buddy Poffin
+[r4 137/165  14232s] ACCEPT Reshiram Fire Wing                68.0 ->  69.5  -1 Fire Energy +1 Cheren
+[r4 138/165  14256s] ACCEPT Retaliation Burn                  55.6 ->  58.8  -1 Slugma +1 Poké Ball
+[r4 139/165  14282s] ACCEPT TR Spread                         49.8 ->  52.1  -1 Darkness Energy +1 Energy Search
+[r4 140/165  14304s] ACCEPT TR Nido Family                    60.5 ->  62.8  -1 Team Rocket's Nidorino +1 Cheren
+[r4 141/165  14330s] ACCEPT TR Persian Copycat                47.5 ->  52.4  -1 Team Rocket's Murkrow +1 Cheren
+[r4 142/165  14356s] ACCEPT TR Rocket Rush Swarm              36.0 ->  37.8  -1 Team Rocket's Golbat +1 Earthen Vessel
+[r4 143/165  14378s] ACCEPT TR Condition Stack                52.8 ->  54.4  -1 Team Rocket's Nidorino +1 Cheren
+[r4 144/165  14401s] ACCEPT TR Disruption Lock                62.1 ->  65.5  -1 Seviper +1 Cheren
+[r4 145/165  14427s] ACCEPT TR Moltres Removal                63.1 ->  65.5  -1 Team Rocket's Murkrow +1 Cheren
+[r4 146/165  14453s] ACCEPT Starmie Jetstream Rush            54.4 ->  58.7  -1 Oshawott +1 Cheren
+[r4 147/165  14484s] ACCEPT Croconaw Chip, Mega Crunch        38.9 ->  41.8  -1 Basculin +1 Water Energy
+[r4 148/165  14508s] ACCEPT Starmie Tundra Fortress           60.3 ->  64.1  -1 Amaura +1 Cheren
+[r4 149/165  14538s]   ---- Samurott's Ambush                 41.9 ->  42.7  
+[r4 150/165  14571s] ACCEPT Frozen Fortress                   27.1 ->  30.1  -1 Cubchoo +1 Earthen Vessel
+[r4 151/165  14598s] ACCEPT Hydro Turn Hit-and-Run            47.4 ->  49.7  -1 Water Energy +1 Eiscue
+[r4 152/165  14628s] ACCEPT Deep Current Overload             39.2 ->  43.1  -1 Clamperl +1 Ultra Ball
+[r4 153/165  14662s] ACCEPT Serene Slumber                    63.9 ->  67.3  -1 Cubchoo +1 Ultra Ball
+[r4 154/165  14692s] ACCEPT Purge and Plunder                 36.9 ->  39.4  -1 Articuno +1 Water Energy
+[r4 155/165  14733s] ACCEPT Misty's Deep Freeze               33.5 ->  36.5  -1 Articuno +1 Water Energy
+[r4 156/165  14764s] ACCEPT Avalanche Flood                   54.8 ->  58.9  -1 Cubchoo +1 Cheren
+[r4 157/165  14789s] ACCEPT Wellspring Reload                 39.7 ->  42.0  -1 Basculin +1 Cheren
+[r4 158/165  14819s] ACCEPT Dondozo's Gambit                  52.3 ->  53.4  -1 Cubchoo +1 Eiscue
+[r4 159/165  14849s] ACCEPT Paradox Sandman                   41.7 ->  44.3  -1 Articuno +1 Water Energy
+[r4 160/165  14876s] ACCEPT Prize Blizzard                    50.8 ->  53.1  -1 Amaura +1 Earthen Vessel
+[r4 161/165  14904s] ACCEPT Frostbite Recoil                  40.2 ->  42.1  -1 Snorunt +1 Cyrano
+[r4 162/165  14933s] ACCEPT Tricolor Burst — Experimental     39.1 ->  42.6  -1 Articuno +1 Water Energy
+[r4 163/165  14964s] ACCEPT Zero to Hero                      47.6 ->  50.2  -1 Basculin +1 Eiscue
+[r4 164/165  14991s] ACCEPT Wash Out Current                  40.1 ->  41.4  -1 Seel +1 Poké Ball
+[r4 165/165  15029s] ACCEPT Vibrant Wall                      61.9 ->  63.5  -1 Lotad +1 Poké Ball
+=== round 4 done: 143 changes | top: Perfect Order Beatdown 82.39% | median 50.89% ===
+[r5   1/165  15164s] ACCEPT Bouffalant's Wall                 51.2 ->  53.5  -1 Sprigatito +1 Earthen Vessel
+[r5   2/165  15194s] ACCEPT Rabbit Punch                      52.2 ->  55.8  -1 Raboot +1 Water Energy
+[r5   3/165  15223s] ACCEPT Tail Spin (Turbo)                 56.7 ->  59.0  -1 Scorbunny +1 Eiscue
+[r5   4/165  15252s] ACCEPT Tail Spin (Grind)                 58.8 ->  62.0  -1 Basculin +1 Ultra Ball
+[r5   5/165  15279s] ACCEPT Nurse Blissey                     56.4 ->  57.7  -1 Articuno +1 Water Energy
+[r5   6/165  15310s] ACCEPT Tenacious Tail                    28.0 ->  31.9  -1 Basculin +1 Water Energy
+[r5   7/165  15338s] ACCEPT Errand Runner                     57.7 ->  63.2  -1 Scorbunny +1 Energy Search
+[r5   8/165  15372s] ACCEPT Larry's Sleepover                 31.4 ->  33.9  -1 Larry's Staravia +1 Energy Search
+[r5   9/165  15396s] ACCEPT Payback Worm                      62.5 ->  63.9  -1 Metal Energy +1 Ultra Ball
+[r5  10/165  15428s] ACCEPT Blood Moon Rising                 44.2 ->  46.2  -1 Basculin +1 Eiscue
+[r5  11/165  15455s] ACCEPT Sonic Wall                        47.1 ->  48.4  -1 Water Energy +1 Fennel
+[r5  12/165  15487s] ACCEPT Quick Draw                        31.3 ->  34.0  -1 Scorbunny +1 Eiscue
+[r5  13/165  15518s] ACCEPT Fresh Bite                        51.3 ->  53.9  -1 Basculin +1 Cheren
+[r5  14/165  15547s] ACCEPT Ball Lightning                    35.2 ->  37.5  -1 Basculin +1 Energy Search
+[r5  15/165  15575s] ACCEPT Great Swing                       49.1 ->  50.7  -1 Chewtle +1 Water Energy
+[r5  16/165  15606s] ACCEPT Mirror Beak                       35.5 ->  37.5  -1 Basculin +1 Earthen Vessel
+[r5  17/165  15630s] ACCEPT Cyclizar Splash                   55.1 ->  57.1  -1 Raboot +1 Fire Energy
+[r5  18/165  15656s] ACCEPT Terapagos Bench-Scale             56.5 ->  58.7  -1 Grass Energy +1 Cheren
+[r5  19/165  15688s] ACCEPT Bouffalant Herd                   69.9 ->  72.1  -1 Basculin +1 Cyrano
+[r5  20/165  15717s] ACCEPT Yveltal Soul Reap                 38.5 ->  41.2  -1 Bombirdier +1 Fennel
+[r5  21/165  15744s] ACCEPT Okidogi Self-Poison Burst         44.5 ->  46.2  -1 Yveltal +1 Fennel
+[r5  22/165  15766s] ACCEPT Marnie's Punk Up Wheel            59.4 ->  61.1  -1 Darkness Energy +1 Ultra Ball
+[r5  23/165  15793s] ACCEPT Tyranitar Item-Lock Twins         42.1 ->  43.3  -1 Seviper +1 Darkness Energy
+[r5  24/165  15819s] ACCEPT Scrafty Counterattack Wall        58.3 ->  59.7  -1 Yveltal +1 Buddy-Buddy Poffin
+[r5  25/165  15847s] ACCEPT Krookodile Revenge Lockdown       38.1 ->  39.4  -1 Seviper +1 Darkness Energy
+[r5  26/165  15875s] ACCEPT Clodsire Poison Lockdown          42.5 ->  44.9  -1 Bombirdier +1 Night Stretcher
+[r5  27/165  15900s] ACCEPT Mandibuzz Bench Snipe             50.7 ->  52.9  -1 Yveltal +1 Ultra Ball
+[r5  28/165  15925s]   ---- Hydreigon Basic Bounty            44.4 ->  45.2  
+[r5  29/165  15951s] ACCEPT Sharpedo Glass Cannon             68.1 ->  70.1  -1 Darkness Energy +1 Ultra Ball
+[r5  30/165  15973s] ACCEPT Marnie's Ex-Punisher              59.1 ->  61.5  -1 Marnie's Morgrem +1 Cheren
+[r5  31/165  15997s] ACCEPT Absol Hand-Rip Aggro              69.3 ->  70.4  -1 Bombirdier +1 Poké Ball
+[r5  32/165  16026s]   ---- Munkidori Vanilla Beats           35.8 ->  36.5  
+[r5  33/165  16050s]   ---- Gust & Guarantee                  69.3 ->  69.4  
+[r5  34/165  16077s] ACCEPT Stonewall Softener                43.9 ->  47.9  -1 Shellos +1 Earthen Vessel
+[r5  35/165  16105s] ACCEPT Champion's Call                   57.0 ->  59.8  -1 Cynthia's Gabite +1 Earthen Vessel
+[r5  36/165  16131s]   ---- Rock Battery                      64.0 ->  64.7  
+[r5  37/165  16154s] ACCEPT Aura Overflow                     80.2 ->  81.4  -1 Fighting Energy +1 Poké Ball
+[r5  38/165  16178s] ACCEPT Drill & Snipe                     73.4 ->  74.4  -1 Solrock +1 Cheren
+[r5  39/165  16202s]   ---- Perfect Order Beatdown            82.2 ->  82.9  
+[r5  40/165  16228s]   ---- Grudge Match                      64.8 ->  65.7  
+[r5  41/165  16255s] ACCEPT Cornerstone Fortress              60.6 ->  64.9  -1 Rhyhorn +1 Poké Pad
+[r5  42/165  16281s] ACCEPT Stuck in the Mud                  61.5 ->  62.6  -1 Throh +1 Fighting Energy
+[r5  43/165  16309s]   ---- Bait the Boulder                  64.7 ->  65.0  
+[r5  44/165  16337s] ACCEPT Slow Burn                         51.6 ->  53.6  -1 Solrock +1 Energy Search
+[r5  45/165  16364s] ACCEPT Tusk Stampede                     62.2 ->  64.6  -1 Solrock +1 Poké Ball
+[r5  46/165  16391s]   ---- Coinflip Comeback                 64.6 ->  64.7  
+[r5  47/165  16418s] ACCEPT Mega Gallade Blitz                68.9 ->  71.5  -1 Makuhita +1 Earthen Vessel
+[r5  48/165  16444s]   ---- Koraidon Kaiser                   65.8 ->  66.1  
+[r5  49/165  16468s] ACCEPT Wild Growth Overdrive             42.0 ->  45.6  -1 Ivysaur +1 Energy Search
+[r5  50/165  16492s] ACCEPT Erika's Garden Party              43.9 ->  45.1  -1 Grass Energy +1 Energy Search
+[r5  51/165  16517s] ACCEPT Forest March                      55.8 ->  60.8  -1 Servine +1 Poké Ball
+[r5  52/165  16546s]   ---- Spore Lock                        38.4 ->  39.2  
+[r5  53/165  16569s] ACCEPT Oil Salvo Sniper                  42.1 ->  43.7  -1 Cottonee +1 Earthen Vessel
+[r5  54/165  16595s] ACCEPT Regal Cheer Aggro                 24.5 ->  28.5  -1 Oddish +1 Energy Search
+[r5  55/165  16620s] ACCEPT Solar Bank                        42.5 ->  48.3  -1 Applin +1 Earthen Vessel
+[r5  56/165  16646s] ACCEPT Swarm of the Hive                 47.3 ->  48.7  -1 Caterpie +1 Poké Ball
+[r5  57/165  16670s] ACCEPT Buzzing Boost Shuttle             44.4 ->  47.0  -1 Virizion +1 Buddy-Buddy Poffin
+[r5  58/165  16695s] ACCEPT Juggernaut Wall                   65.0 ->  66.4  -1 Virizion +1 Cheren
+[r5  59/165  16721s] ACCEPT Energy Gift Express               20.4 ->  24.3  -1 Chikorita +1 Energy Search
+[r5  60/165  16746s] ACCEPT Arrow of Denial                   27.1 ->  29.4  -1 Poltchageist +1 Grass Energy
+[r5  61/165  16773s] ACCEPT Rapid Vernier Nova                43.2 ->  44.9  -1 Teal Mask Ogerpon +1 Poké Ball
+[r5  62/165  16803s] ACCEPT Bottom-Deck Gambit                40.6 ->  43.2  -1 Virizion +1 Grass Energy
+[r5  63/165  16827s] ACCEPT Steeped Discard                   49.1 ->  50.8  -1 Virizion +1 Cheren
+[r5  64/165  16851s] ACCEPT Vengeful Attrition                57.4 ->  58.8  -1 Teal Mask Ogerpon +1 Cheren
+[r5  65/165  16877s] ACCEPT Mega Meganium Bouquet             38.4 ->  44.3  -1 Carnivine +1 Grass Energy
+[r5  66/165  16902s]   ---- Hydrapple Syrup Storm             35.9 ->  36.6  
+[r5  67/165  16927s]   ---- Bench Fortress                    54.4 ->  54.9  
+[r5  68/165  16974s] ACCEPT Eelektrik Recursion               61.0 ->  63.3  -1 Luxio +1 Lightning Energy
+[r5  69/165  17010s] ACCEPT Overvolt Overload                 61.1 ->  62.3  -1 Togedemaru +1 Cheren
+[r5  70/165  17051s] ACCEPT Iono's Streamer                   54.1 ->  58.1  -1 Miraidon +1 Lightning Energy
+[r5  71/165  17092s] ACCEPT Manectric Aggro                   49.7 ->  52.6  -1 Iron Hands +1 Lightning Energy
+[r5  72/165  17137s] ACCEPT Luxray Nuke                       53.3 ->  58.9  -1 Iron Hands +1 Lightning Energy
+[r5  73/165  17167s]   ---- Iron Thorns Lock                  73.1 ->  74.0  
+[r5  74/165  17201s]   ---- Kilowattrel Pivot                 64.6 ->  65.3  
+[r5  75/165  17235s]   ---- Hop's Pincurchin                  63.7 ->  63.9  
+[r5  76/165  17265s] ACCEPT Tapu Koko Swarm                   65.3 ->  67.8  -1 Pawmi +1 Buddy-Buddy Poffin
+[r5  77/165  17299s] ACCEPT Zekrom Comeback                   73.9 ->  75.7  -1 Iron Hands +1 Buddy-Buddy Poffin
+[r5  78/165  17341s] ACCEPT Rotom Tool                        50.8 ->  54.8  -1 Iron Hands +1 Lightning Energy
+[r5  79/165  17369s] ACCEPT Miraidon Hadron                   67.9 ->  69.9  -1 Xerneas +1 Poké Ball
+[r5  80/165  17388s] ACCEPT Steven's Steel Sanctuary          43.3 ->  44.9  -1 Metal Energy +1 Crispin
+[r5  81/165  17416s] ACCEPT Alloy Bulwark                     37.1 ->  40.6  -1 Skarmory +1 Energy Search
+[r5  82/165  17442s] ACCEPT Regi-Charge Attrition             63.1 ->  65.2  -1 Mawile +1 Cyrano
+[r5  83/165  17471s] ACCEPT Emperor's Stance Wall             31.0 ->  33.9  -1 Meltan +1 Metal Energy
+[r5  84/165  17499s] ACCEPT Alloy Overdrive                   35.7 ->  39.0  -1 Skarmory +1 Energy Search
+[r5  85/165  17523s] ACCEPT Bench Battery                     65.8 ->  68.0  -1 Mawile +1 Night Stretcher
+[r5  86/165  17551s] ACCEPT Hop's Champion Rush               48.8 ->  50.4  -1 Hop's Wooloo +1 Cheren
+[r5  87/165  17582s] ACCEPT Steel Armament Blitz              27.1 ->  28.1  -1 Pawniard +1 Fennel
+[r5  88/165  17609s] ACCEPT Metallic Signal Toolbox           43.1 ->  47.3  -1 Pawniard +1 Energy Search
+[r5  89/165  17637s]   ---- Chrono Draw Engine                37.3 ->  38.1  
+[r5  90/165  17664s] ACCEPT Prize Snowball                    58.0 ->  60.2  -1 Mawile +1 Earthen Vessel
+[r5  91/165  17693s]   ---- Static Cling Combo                36.9 ->  37.4  
+[r5  92/165  17721s] ACCEPT Cinderace Snipe                   48.5 ->  50.6  -1 Raboot +1 Fighting Energy
+[r5  93/165  17750s] ACCEPT Salamence Splash                  32.9 ->  34.2  -1 Basculin +1 Cheren
+[r5  94/165  17774s]   ---- Galvantula Item-Lock              66.6 ->  67.1  
+[r5  95/165  17800s] ACCEPT Alolan Exeggutor KO-Flip          47.7 ->  51.0  -1 Tirtouga +1 Earthen Vessel
+[r5  96/165  17829s] ACCEPT Miraidon Future                   68.8 ->  72.1  -1 Xerneas +1 Crispin
+[r5  97/165  17853s] ACCEPT Flygon Anti-Ex                    54.2 ->  56.4  -1 Rhyhorn +1 Poké Ball
+[r5  98/165  17880s] ACCEPT Mega Dragalge Poison              53.2 ->  57.0  -1 Snorunt +1 Cheren
+[r5  99/165  17905s] ACCEPT Palossand Control                 46.1 ->  49.5  -1 Kadabra +1 Energy Search
+[r5 100/165  17931s] ACCEPT Tatsugiri Toolbox                 43.0 ->  44.6  -1 Basculin +1 Cheren
+[r5 101/165  17967s] ACCEPT Mega Latias Nuke                  43.1 ->  46.6  -1 Heatmor +1 Earthen Vessel
+[r5 102/165  17996s]   ---- Mega Skarmory Snipe                8.1 ->   8.5  
+[r5 103/165  18026s] ACCEPT Revavroom Hit-and-Run             37.1 ->  40.8  -1 Bisharp +1 Cheren
+[r5 104/165  18060s] ACCEPT Scizor Flex                       25.6 ->  29.4  -1 Klink +1 Ultra Ball
+[r5 105/165  18086s] ACCEPT Melmetal Axe                      42.1 ->  43.9  -1 Metal Energy +1 Cheren
+[r5 106/165  18114s] ACCEPT Metal Maker Ramp                  29.7 ->  31.1  -1 Klink +1 Energy Search
+[r5 107/165  18143s]   ---- Symphonia Flood                   44.3 ->  45.3  
+[r5 108/165  18168s] ACCEPT Warded Symphonia                  42.1 ->  45.6  -1 Kirlia +1 Cheren
+[r5 109/165  18196s] ACCEPT Scattergun Ward                   62.0 ->  66.9  -1 Kadabra +1 Poké Pad
+[r5 110/165  18222s] ACCEPT Cobalt Crossfire                  17.9 ->  18.9  -1 Xerneas +1 Psychic Energy
+[r5 111/165  18245s] ACCEPT Waltz of Whispers                 55.2 ->  58.5  -1 Psychic Energy +1 Cheren
+[r5 112/165  18272s] ACCEPT Deep Prison                       39.5 ->  42.6  -1 Duskull +1 Cheren
+[r5 113/165  18298s] ACCEPT Fairy-Slayer                      58.1 ->  59.9  -1 Xerneas +1 Night Stretcher
+[r5 114/165  18326s] ACCEPT Full Hand Nova                    58.3 ->  60.0  -1 Psychic Energy +1 Poké Ball
+[r5 115/165  18356s]   ---- Curtain-Riser                     15.5 ->  15.9  
+[r5 116/165  18383s]   ---- Silent Scream                     32.1 ->  33.1  
+[r5 117/165  18408s] ACCEPT Sweet Stall                       36.5 ->  40.3  -1 Gothorita +1 Energy Search
+[r5 118/165  18439s]   ---- Detonation Coat                   11.1 ->  11.5  
+[r5 119/165  18466s] ACCEPT Coin-Flip Reaper                  40.8 ->  42.7  -1 Greavard +1 Cheren
+[r5 120/165  18491s] ACCEPT Mercy for All                     54.2 ->  56.6  -1 Gothita +1 Mega Signal
+[r5 121/165  18516s] ACCEPT Battle-Scarred Bench              57.2 ->  60.9  -1 Dusclops +1 Cheren
+[r5 122/165  18545s]   ---- Flutter Lock                      45.7 ->  45.2  
+[r5 123/165  18570s] ACCEPT Bubble Balloon                    56.3 ->  57.9  -1 Psychic Energy +1 Poké Ball
+[r5 124/165  18600s] ACCEPT Burn Engine                       51.6 ->  53.2  -1 Fire Energy +1 Energy Search
+[r5 125/165  18624s] ACCEPT Ethan's Turbo                     58.3 ->  61.3  -1 Ethan's Quilava +1 Earthen Vessel
+[r5 126/165  18653s] ACCEPT Emboar Overload                   31.4 ->  34.1  -1 Druddigon +1 Fire Energy
+[r5 127/165  18678s] ACCEPT Pyroar Wall                       45.2 ->  49.3  -1 Fuecoco +1 Cheren
+[r5 128/165  18701s] ACCEPT Volcanion Spread-Burn             57.1 ->  60.0  -1 Magmar +1 Cheren
+[r5 129/165  18726s] ACCEPT Reshiram Comeback                 67.9 ->  70.1  -1 Iron Moth +1 Night Stretcher
+[r5 130/165  18752s] ACCEPT Incineroar Bench-Punish           37.0 ->  40.8  -1 Torracat +1 Fire Energy
+[r5 131/165  18779s] ACCEPT Salazzle Toolbox                  36.0 ->  39.8  -1 Magmar +1 Cheren
+[r5 132/165  18808s]   ---- Hearthflame Anti-Evolution        41.0 ->  41.9  
+[r5 133/165  18833s] ACCEPT Magcargo Mill-Burn                52.0 ->  54.3  -1 Iron Moth +1 Fire Energy
+[r5 134/165  18855s] ACCEPT Scovillain Rage                   63.2 ->  65.8  -1 Carnivine +1 Ultra Ball
+[r5 135/165  18881s] ACCEPT Gouging Fire Pivot                59.1 ->  61.0  -1 Monferno +1 Fighting Energy
+[r5 136/165  18906s]   ---- Oricorio Support-Trap             44.6 ->  45.3  
+[r5 137/165  18930s] ACCEPT Reshiram Fire Wing                66.8 ->  69.0  -1 Iron Moth +1 Night Stretcher
+[r5 138/165  18954s] ACCEPT Retaliation Burn                  55.9 ->  57.9  -1 Slugma +1 Cheren
+[r5 139/165  18980s] ACCEPT TR Spread                         48.6 ->  50.9  -1 Team Rocket's Pupitar +1 Darkness Energy
+[r5 140/165  19002s] ACCEPT TR Nido Family                    61.2 ->  62.6  -1 Darkness Energy +1 Energy Search
+[r5 141/165  19028s] ACCEPT TR Persian Copycat                49.5 ->  51.8  -1 Bombirdier +1 Earthen Vessel
+[r5 142/165  19052s]   ---- TR Rocket Rush Swarm              35.8 ->  36.8  
+[r5 143/165  19074s] ACCEPT TR Condition Stack                53.4 ->  55.3  -1 Team Rocket's Nidorino +1 Cheren
+[r5 144/165  19097s]   ---- TR Disruption Lock                63.9 ->  64.4  
+[r5 145/165  19123s] ACCEPT TR Moltres Removal                63.3 ->  65.4  -1 Seviper +1 Cheren
+[r5 146/165  19149s] ACCEPT Starmie Jetstream Rush            56.7 ->  58.8  -1 Dewott +1 Mega Signal
+[r5 147/165  19178s] ACCEPT Croconaw Chip, Mega Crunch        39.4 ->  42.0  -1 Tirtouga +1 Water Energy
+[r5 148/165  19203s] ACCEPT Starmie Tundra Fortress           61.8 ->  63.3  -1 Amaura +1 Earthen Vessel
+[r5 149/165  19232s]   ---- Samurott's Ambush                 38.3 ->  39.2  
+[r5 150/165  19266s] ACCEPT Frozen Fortress                   27.3 ->  29.4  -1 Amaura +1 Poké Ball
+[r5 151/165  19293s] ACCEPT Hydro Turn Hit-and-Run            46.1 ->  48.2  -1 Clauncher +1 Cheren
+[r5 152/165  19322s] ACCEPT Deep Current Overload             41.5 ->  44.6  -1 Clauncher +1 Eiscue
+[r5 153/165  19356s] ACCEPT Serene Slumber                    66.8 ->  68.9  -1 Amaura +1 Ultra Ball
+[r5 154/165  19387s] ACCEPT Purge and Plunder                 35.9 ->  38.1  -1 Basculin +1 Earthen Vessel
+[r5 155/165  19426s]   ---- Misty's Deep Freeze               34.7 ->  35.6  
+[r5 156/165  19458s] ACCEPT Avalanche Flood                   56.4 ->  58.9  -1 Basculin +1 Cheren
+[r5 157/165  19483s] ACCEPT Wellspring Reload                 39.6 ->  41.6  -1 Cubchoo +1 Poké Ball
+[r5 158/165  19513s] ACCEPT Dondozo's Gambit                  50.1 ->  51.3  -1 Keldeo +1 Water Energy
+[r5 159/165  19543s] ACCEPT Paradox Sandman                   40.4 ->  43.3  -1 Tirtouga +1 Cyrano
+[r5 160/165  19571s] ACCEPT Prize Blizzard                    49.8 ->  51.5  -1 Cubchoo +1 Earthen Vessel
+[r5 161/165  19598s] ACCEPT Frostbite Recoil                  39.6 ->  41.3  -1 Articuno +1 Water Energy
+[r5 162/165  19627s] ACCEPT Tricolor Burst — Experimental     39.6 ->  42.2  -1 Water Energy +1 Eiscue
+[r5 163/165  19659s] ACCEPT Zero to Hero                      47.1 ->  51.5  -1 Clauncher +1 Eiscue
+[r5 164/165  19686s]   ---- Wash Out Current                  40.1 ->  40.7  
+[r5 165/165  19724s] ACCEPT Vibrant Wall                      62.5 ->  65.2  -1 Lombre +1 Ultra Ball
+=== round 5 done: 134 changes | top: Perfect Order Beatdown 80.18% | median 51.02% ===
+[r6   1/165  19860s] ACCEPT Bouffalant's Wall                 50.6 ->  52.9  -1 Basculin +1 Poké Ball
+[r6   2/165  19889s] ACCEPT Rabbit Punch                      53.1 ->  55.8  -1 Scorbunny +1 Poké Pad
+[r6   3/165  19920s] ACCEPT Tail Spin (Turbo)                 56.9 ->  59.5  -1 Basculin +1 Poké Ball
+[r6   4/165  19948s] ACCEPT Tail Spin (Grind)                 59.7 ->  63.1  -1 Basculin +1 Eiscue
+[r6   5/165  19975s] ACCEPT Nurse Blissey                     54.6 ->  56.4  -1 Basculin +1 Eiscue
+[r6   6/165  20006s] ACCEPT Tenacious Tail                    28.9 ->  30.8  -1 Floragato +1 Water Energy
+[r6   7/165  20034s] ACCEPT Errand Runner                     59.5 ->  61.5  -1 Basculin +1 Earthen Vessel
+[r6   8/165  20069s] ACCEPT Larry's Sleepover                 30.2 ->  32.4  -1 Larry's Staravia +1 Eiscue
+[r6   9/165  20094s]   ---- Payback Worm                      61.0 ->  62.0  
+[r6  10/165  20127s] ACCEPT Blood Moon Rising                 44.0 ->  45.0  -1 Articuno +1 Water Energy
+[r6  11/165  20154s] ACCEPT Sonic Wall                        45.3 ->  47.2  -1 Basculin +1 Cheren
+[r6  12/165  20187s] ACCEPT Quick Draw                        30.5 ->  33.0  -1 Scorbunny +1 Earthen Vessel
+[r6  13/165  20218s] ACCEPT Fresh Bite                        50.9 ->  53.8  -1 Basculin +1 Ultra Ball
+[r6  14/165  20248s] ACCEPT Ball Lightning                    34.2 ->  36.5  -1 Basculin +1 Eiscue
+[r6  15/165  20274s] ACCEPT Great Swing                       48.3 ->  50.9  -1 Vigoroth +1 Eiscue
+[r6  16/165  20306s] ACCEPT Mirror Beak                       35.2 ->  36.4  -1 Basculin +1 Eiscue
+[r6  17/165  20329s] ACCEPT Cyclizar Splash                   54.6 ->  56.5  -1 Heatmor +1 Wo-Chien
+[r6  18/165  20355s] ACCEPT Terapagos Bench-Scale             56.0 ->  57.6  -1 Togepi +1 Earthen Vessel
+[r6  19/165  20388s] ACCEPT Bouffalant Herd                   68.5 ->  71.7  -1 Basculin +1 Ultra Ball
+[r6  20/165  20417s] ACCEPT Yveltal Soul Reap                 36.6 ->  37.8  -1 Toxel +1 Cheren
+[r6  21/165  20444s] ACCEPT Okidogi Self-Poison Burst         42.7 ->  45.0  -1 Bombirdier +1 Night Stretcher
+[r6  22/165  20467s] ACCEPT Marnie's Punk Up Wheel            58.4 ->  60.6  -1 Marnie's Morgrem +1 Cheren
+[r6  23/165  20493s] ACCEPT Tyranitar Item-Lock Twins         40.7 ->  44.0  -1 Pupitar +1 Cheren
+[r6  24/165  20520s] ACCEPT Scrafty Counterattack Wall        57.9 ->  60.4  -1 Yveltal +1 Poké Ball
+[r6  25/165  20548s] ACCEPT Krookodile Revenge Lockdown       36.9 ->  39.9  -1 Bombirdier +1 Darkness Energy
+[r6  26/165  20576s] ACCEPT Clodsire Poison Lockdown          41.6 ->  44.8  -1 Yveltal +1 Ultra Ball
+[r6  27/165  20601s] ACCEPT Mandibuzz Bench Snipe             50.5 ->  52.8  -1 Yveltal +1 Cheren
+[r6  28/165  20626s] ACCEPT Hydreigon Basic Bounty            41.2 ->  43.0  -1 Toxel +1 Buddy-Buddy Poffin
+[r6  29/165  20653s] ACCEPT Sharpedo Glass Cannon             68.5 ->  69.7  -1 Bombirdier +1 Buddy-Buddy Poffin
+[r6  30/165  20676s] ACCEPT Marnie's Ex-Punisher              59.0 ->  60.6  -1 Marnie's Morgrem +1 Buddy-Buddy Poffin
+[r6  31/165  20701s] ACCEPT Absol Hand-Rip Aggro              67.3 ->  68.6  -1 Bombirdier +1 Ultra Ball
+[r6  32/165  20729s] ACCEPT Munkidori Vanilla Beats           32.8 ->  34.0  -1 Bombirdier +1 Energy Search
+[r6  33/165  20754s]   ---- Gust & Guarantee                  66.5 ->  67.3  
+[r6  34/165  20781s] ACCEPT Stonewall Softener                46.4 ->  49.7  -1 Rhyhorn +1 Energy Search
+[r6  35/165  20809s] ACCEPT Champion's Call                   57.5 ->  61.1  -1 Cynthia's Gible +1 Crispin
+[r6  36/165  20834s] ACCEPT Rock Battery                      60.7 ->  62.1  -1 Solrock +1 Earthen Vessel
+[r6  37/165  20858s] ACCEPT Aura Overflow                     78.6 ->  80.8  -1 Solrock +1 Poké Ball
+[r6  38/165  20882s] ACCEPT Drill & Snipe                     71.5 ->  73.5  -1 Fighting Energy +1 Ultra Ball
+[r6  39/165  20907s] ACCEPT Perfect Order Beatdown            79.7 ->  80.8  -1 Stonjourner +1 Fighting Energy
+[r6  40/165  20934s] ACCEPT Grudge Match                      61.3 ->  63.3  -1 Hisuian Growlithe +1 Poké Ball
+[r6  41/165  20962s] ACCEPT Cornerstone Fortress              62.4 ->  64.4  -1 Trapinch +1 Ultra Ball
+[r6  42/165  20988s] ACCEPT Stuck in the Mud                  58.9 ->  61.0  -1 Stonjourner +1 Fighting Energy
+[r6  43/165  21017s] ACCEPT Bait the Boulder                  60.7 ->  62.3  -1 Throh +1 Fighting Energy
+[r6  44/165  21046s] ACCEPT Slow Burn                         50.7 ->  53.2  -1 Solrock +1 Energy Search
+[r6  45/165  21073s] ACCEPT Tusk Stampede                     62.4 ->  65.3  -1 Solrock +1 Ultra Ball
+[r6  46/165  21100s]   ---- Coinflip Comeback                 60.5 ->  61.3  
+[r6  47/165  21127s] ACCEPT Mega Gallade Blitz                69.7 ->  73.0  -1 Makuhita +1 Poké Ball
+[r6  48/165  21153s]   ---- Koraidon Kaiser                   62.2 ->  63.2  
+[r6  49/165  21177s] ACCEPT Wild Growth Overdrive             43.6 ->  45.1  -1 Grass Energy +1 Energy Search
+[r6  50/165  21202s] ACCEPT Erika's Garden Party              42.8 ->  44.9  -1 Oddish +1 Energy Search
+[r6  51/165  21227s]   ---- Forest March                      59.2 ->  59.2  
+[r6  52/165  21255s]   ---- Spore Lock                        37.0 ->  37.5  
+[r6  53/165  21278s] ACCEPT Oil Salvo Sniper                  42.3 ->  46.4  -1 Caterpie +1 Poké Ball
+[r6  54/165  21304s] ACCEPT Regal Cheer Aggro                 27.1 ->  29.3  -1 Grass Energy +1 Earthen Vessel
+[r6  55/165  21329s] ACCEPT Solar Bank                        47.3 ->  49.7  -1 Ivysaur +1 Earthen Vessel
+[r6  56/165  21355s] ACCEPT Swarm of the Hive                 46.0 ->  47.5  -1 Kakuna +1 Earthen Vessel
+[r6  57/165  21379s] ACCEPT Buzzing Boost Shuttle             44.5 ->  48.0  -1 Virizion +1 Poké Ball
+[r6  58/165  21404s] ACCEPT Juggernaut Wall                   64.3 ->  65.8  -1 Virizion +1 Mega Signal
+[r6  59/165  21430s]   ---- Energy Gift Express               22.0 ->  22.7  
+[r6  60/165  21455s] ACCEPT Arrow of Denial                   27.4 ->  31.8  -1 Poltchageist +1 Grass Energy
+[r6  61/165  21482s] ACCEPT Rapid Vernier Nova                41.9 ->  43.1  -1 Teal Mask Ogerpon +1 Poké Ball
+[r6  62/165  21511s] ACCEPT Bottom-Deck Gambit                41.8 ->  44.0  -1 Virizion +1 Grass Energy
+[r6  63/165  21535s] ACCEPT Steeped Discard                   48.4 ->  50.7  -1 Virizion +1 Ultra Ball
+[r6  64/165  21559s] ACCEPT Vengeful Attrition                56.3 ->  57.6  -1 Grass Energy +1 Night Stretcher
+[r6  65/165  21585s]   ---- Mega Meganium Bouquet             42.6 ->  42.8  
+[r6  66/165  21611s] ACCEPT Hydrapple Syrup Storm             34.4 ->  35.6  -1 Teal Mask Ogerpon +1 Grass Energy
+[r6  67/165  21636s] ACCEPT Bench Fortress                    52.7 ->  54.3  -1 Bayleef +1 Grass Energy
+[r6  68/165  21682s]   ---- Eelektrik Recursion               62.0 ->  62.2  
+[r6  69/165  21717s] ACCEPT Overvolt Overload                 61.1 ->  63.4  -1 Shinx +1 Lightning Energy
+[r6  70/165  21757s] ACCEPT Iono's Streamer                   57.1 ->  60.2  -1 Miraidon +1 Lightning Energy
+[r6  71/165  21798s] ACCEPT Manectric Aggro                   51.2 ->  55.7  -1 Pawmi +1 Earthen Vessel
+[r6  72/165  21843s] ACCEPT Luxray Nuke                       56.7 ->  60.5  -1 Shinx +1 Cheren
+[r6  73/165  21873s] ACCEPT Iron Thorns Lock                  70.2 ->  71.7  -1 Iron Hands +1 Cheren
+[r6  74/165  21908s] ACCEPT Kilowattrel Pivot                 63.6 ->  65.3  -1 Miraidon +1 Lightning Energy
+[r6  75/165  21942s]   ---- Hop's Pincurchin                  61.7 ->  62.0  
+[r6  76/165  21973s]   ---- Tapu Koko Swarm                   65.2 ->  65.8  
+[r6  77/165  22007s] ACCEPT Zekrom Comeback                   73.0 ->  77.0  -1 Miraidon +1 Lightning Energy
+[r6  78/165  22048s] ACCEPT Rotom Tool                        52.9 ->  57.7  -1 Miraidon +1 Lightning Energy
+[r6  79/165  22078s] ACCEPT Miraidon Hadron                   67.8 ->  71.7  -1 Xerneas +1 Psychic Energy
+[r6  80/165  22097s] ACCEPT Steven's Steel Sanctuary          43.3 ->  45.8  -1 Klink +1 Cyrano
+[r6  81/165  22125s] ACCEPT Alloy Bulwark                     38.2 ->  42.0  -1 Klink +1 Energy Search
+[r6  82/165  22151s]   ---- Regi-Charge Attrition             63.2 ->  63.9  
+[r6  83/165  22180s] ACCEPT Emperor's Stance Wall             32.5 ->  34.2  -1 Prinplup +1 Cheren
+[r6  84/165  22208s] ACCEPT Alloy Overdrive                   37.6 ->  40.8  -1 Skarmory +1 Poké Ball
+[r6  85/165  22232s] ACCEPT Bench Battery                     65.8 ->  67.5  -1 Mawile +1 Poké Pad
+[r6  86/165  22261s]   ---- Hop's Champion Rush               47.6 ->  48.4  
+[r6  87/165  22292s] ACCEPT Steel Armament Blitz              25.1 ->  26.8  -1 Mawile +1 Metal Energy
+[r6  88/165  22318s] ACCEPT Metallic Signal Toolbox           45.1 ->  47.9  -1 Klang +1 Poké Ball
+[r6  89/165  22346s]   ---- Chrono Draw Engine                34.1 ->  35.0  
+[r6  90/165  22374s] ACCEPT Prize Snowball                    58.8 ->  61.9  -1 Mawile +1 Poké Ball
+[r6  91/165  22402s]   ---- Static Cling Combo                34.0 ->  34.7  
+[r6  92/165  22430s] ACCEPT Cinderace Snipe                   48.3 ->  51.8  -1 Raboot +1 Cheren
+[r6  93/165  22459s] ACCEPT Salamence Splash                  32.5 ->  35.7  -1 Basculin +1 Earthen Vessel
+[r6  94/165  22484s] ACCEPT Galvantula Item-Lock              63.6 ->  65.2  -1 Sawk +1 Zeraora
+[r6  95/165  22510s] ACCEPT Alolan Exeggutor KO-Flip          48.6 ->  52.7  -1 Tirtouga +1 Crispin
+[r6  96/165  22539s] ACCEPT Miraidon Future                   70.6 ->  74.2  -1 Xerneas +1 Cheren
+[r6  97/165  22564s] ACCEPT Flygon Anti-Ex                    54.8 ->  57.9  -1 Rhydon +1 Fighting Energy
+[r6  98/165  22590s] ACCEPT Mega Dragalge Poison              56.0 ->  60.2  -1 Snorunt +1 Darkness Energy
+[r6  99/165  22616s] ACCEPT Palossand Control                 47.1 ->  51.9  -1 Kadabra +1 Earthen Vessel
+[r6 100/165  22642s] ACCEPT Tatsugiri Toolbox                 41.7 ->  43.4  -1 Basculin +1 Switch
+[r6 101/165  22678s] ACCEPT Mega Latias Nuke                  44.6 ->  46.7  -1 Xerneas +1 Psychic Energy
+[r6 102/165  22707s]   ---- Mega Skarmory Snipe                7.8 ->   7.8  
+[r6 103/165  22737s] ACCEPT Revavroom Hit-and-Run             38.7 ->  42.1  -1 Mawile +1 Poké Ball
+[r6 104/165  22771s] ACCEPT Scizor Flex                       27.1 ->  29.6  -1 Mawile +1 Poké Ball
+[r6 105/165  22799s] ACCEPT Melmetal Axe                      40.9 ->  42.3  -1 Heatran +1 Onix
+[r6 106/165  22827s] ACCEPT Metal Maker Ramp                  29.2 ->  31.1  -1 Pawniard +1 Metal Energy
+[r6 107/165  22856s]   ---- Symphonia Flood                   41.6 ->  42.6  
+[r6 108/165  22882s] ACCEPT Warded Symphonia                  44.0 ->  45.4  -1 Kirlia +1 Earthen Vessel
+[r6 109/165  22910s] ACCEPT Scattergun Ward                   66.2 ->  67.6  -1 Psychic Energy +1 Ultra Ball
+[r6 110/165  22936s]   ---- Cobalt Crossfire                  16.4 ->  17.3  
+[r6 111/165  22960s]   ---- Waltz of Whispers                 56.8 ->  57.6  
+[r6 112/165  22988s] ACCEPT Deep Prison                       40.6 ->  42.5  -1 Duskull +1 Earthen Vessel
+[r6 113/165  23014s] ACCEPT Fairy-Slayer                      57.9 ->  59.0  -1 Xerneas +1 Poké Ball
+[r6 114/165  23042s] ACCEPT Full Hand Nova                    58.1 ->  59.5  -1 Xerneas +1 Psychic Energy
+[r6 115/165  23071s]   ---- Curtain-Riser                     13.3 ->  13.9  
+[r6 116/165  23098s] ACCEPT Silent Scream                     29.3 ->  30.7  -1 Latios +1 Earthen Vessel
+[r6 117/165  23124s] ACCEPT Sweet Stall                       37.7 ->  40.7  -1 Gothorita +1 Poké Ball
+[r6 118/165  23155s]   ---- Detonation Coat                   10.0 ->  10.3  
+[r6 119/165  23182s]   ---- Coin-Flip Reaper                  40.0 ->  40.8  
+[r6 120/165  23208s] ACCEPT Mercy for All                     54.4 ->  56.8  -1 Latios +1 Cheren
+[r6 121/165  23233s] ACCEPT Battle-Scarred Bench              58.4 ->  63.0  -1 Latios +1 Energy Search
+[r6 122/165  23262s] ACCEPT Flutter Lock                      43.5 ->  44.6  -1 Xerneas +1 Psychic Energy
+[r6 123/165  23287s]   ---- Bubble Balloon                    56.1 ->  57.1  
+[r6 124/165  23317s]   ---- Burn Engine                       50.2 ->  51.1  
+[r6 125/165  23341s] ACCEPT Ethan's Turbo                     58.9 ->  60.8  -1 Ethan's Quilava +1 Dawn
+[r6 126/165  23369s] ACCEPT Emboar Overload                   33.0 ->  36.4  -1 Pignite +1 Energy Search
+[r6 127/165  23394s] ACCEPT Pyroar Wall                       46.5 ->  49.6  -1 Fennekin +1 Buddy-Buddy Poffin
+[r6 128/165  23418s] ACCEPT Volcanion Spread-Burn             59.3 ->  62.2  -1 Magmar +1 Cheren
+[r6 129/165  23443s]   ---- Reshiram Comeback                 68.7 ->  69.7  
+[r6 130/165  23469s] ACCEPT Incineroar Bench-Punish           38.5 ->  41.9  -1 Magmar +1 Energy Search
+[r6 131/165  23496s] ACCEPT Salazzle Toolbox                  38.2 ->  39.7  -1 Magmar +1 Earthen Vessel
+[r6 132/165  23525s] ACCEPT Hearthflame Anti-Evolution        37.9 ->  39.1  -1 Druddigon +1 Cyrano
+[r6 133/165  23550s]   ---- Magcargo Mill-Burn                51.9 ->  52.9  
+[r6 134/165  23572s] ACCEPT Scovillain Rage                   63.2 ->  65.5  -1 Carnivine +1 Earthen Vessel
+[r6 135/165  23598s] ACCEPT Gouging Fire Pivot                57.9 ->  61.1  -1 Solrock +1 Energy Search
+[r6 136/165  23623s] ACCEPT Oricorio Support-Trap             40.4 ->  41.9  -1 Iron Moth +1 Cheren
+[r6 137/165  23647s] ACCEPT Reshiram Fire Wing                67.6 ->  69.1  -1 Iron Moth +1 Cyrano
+[r6 138/165  23671s] ACCEPT Retaliation Burn                  55.3 ->  56.9  -1 Druddigon +1 Cheren
+[r6 139/165  23697s] ACCEPT TR Spread                         49.1 ->  51.8  -1 Darkness Energy +1 Cheren
+[r6 140/165  23719s]   ---- TR Nido Family                    61.1 ->  62.0  
+[r6 141/165  23746s] ACCEPT TR Persian Copycat                49.4 ->  52.5  -1 Bombirdier +1 Buddy-Buddy Poffin
+[r6 142/165  23770s] ACCEPT TR Rocket Rush Swarm              32.8 ->  36.8  -1 Team Rocket's Murkrow +1 Darkness Energy
+[r6 143/165  23792s] ACCEPT TR Condition Stack                54.3 ->  55.5  -1 Darkness Energy +1 Team Rocket's Great Ball
+[r6 144/165  23816s] ACCEPT TR Disruption Lock                62.2 ->  64.2  -1 Xerneas +1 Buddy-Buddy Poffin
+[r6 145/165  23842s]   ---- TR Moltres Removal                63.9 ->  64.7  
+[r6 146/165  23868s] ACCEPT Starmie Jetstream Rush            57.5 ->  60.1  -1 Dewott +1 Ultra Ball
+[r6 147/165  23897s] ACCEPT Croconaw Chip, Mega Crunch        39.4 ->  43.3  -1 Tirtouga +1 Water Energy
+[r6 148/165  23922s] ACCEPT Starmie Tundra Fortress           62.1 ->  65.2  -1 Amaura +1 Poké Ball
+[r6 149/165  23952s] ACCEPT Samurott's Ambush                 35.6 ->  37.3  -1 Dewott +1 Cheren
+[r6 150/165  23985s] ACCEPT Frozen Fortress                   26.8 ->  29.1  -1 Amaura +1 Eiscue
+[r6 151/165  24013s]   ---- Hydro Turn Hit-and-Run            45.4 ->  46.2  
+[r6 152/165  24043s] ACCEPT Deep Current Overload             42.5 ->  47.7  -1 Seadra +1 Energy Search
+[r6 153/165  24077s] ACCEPT Serene Slumber                    68.4 ->  70.4  -1 Keldeo +1 Water Energy
+[r6 154/165  24107s] ACCEPT Purge and Plunder                 35.7 ->  37.0  -1 Glastrier +1 Water Energy
+[r6 155/165  24146s] ACCEPT Misty's Deep Freeze               32.8 ->  34.5  -1 Articuno +1 Water Energy
+[r6 156/165  24178s] ACCEPT Avalanche Flood                   57.6 ->  60.6  -1 Basculin +1 Poké Ball
+[r6 157/165  24203s] ACCEPT Wellspring Reload                 39.5 ->  40.5  -1 Articuno +1 Water Energy
+[r6 158/165  24232s] ACCEPT Dondozo's Gambit                  49.4 ->  52.0  -1 Basculin +1 Night Stretcher
+[r6 159/165  24263s]   ---- Paradox Sandman                   40.2 ->  41.2  
+[r6 160/165  24290s] ACCEPT Prize Blizzard                    48.6 ->  51.5  -1 Basculin +1 Night Stretcher
+[r6 161/165  24316s] ACCEPT Frostbite Recoil                  39.2 ->  41.5  -1 Basculin +1 Poké Ball
+[r6 162/165  24346s] ACCEPT Tricolor Burst — Experimental     39.8 ->  41.6  -1 Basculin +1 Poké Ball
+[r6 163/165  24378s] ACCEPT Zero to Hero                      49.5 ->  51.0  -1 Oshawott +1 Cheren
+[r6 164/165  24405s] ACCEPT Wash Out Current                  38.0 ->  39.5  -1 Articuno +1 Water Energy
+[r6 165/165  24443s] ACCEPT Vibrant Wall                      64.9 ->  66.7  -1 Lombre +1 Buddy-Buddy Poffin
+=== round 6 done: 135 changes | top: Perfect Order Beatdown 79.93% | median 51.47% ===
+[r7   1/165  24578s] ACCEPT Bouffalant's Wall                 51.1 ->  53.0  -1 Floragato +1 Cheren
+[r7   2/165  24606s] ACCEPT Rabbit Punch                      54.5 ->  57.2  -1 Basculin +1 Earthen Vessel
+[r7   3/165  24637s] ACCEPT Tail Spin (Turbo)                 57.9 ->  60.3  -1 Basculin +1 Earthen Vessel
+[r7   4/165  24666s] ACCEPT Tail Spin (Grind)                 61.8 ->  64.3  -1 Basculin +1 Energy Search
+[r7   5/165  24693s] ACCEPT Nurse Blissey                     55.2 ->  57.9  -1 Basculin +1 Cheren
+[r7   6/165  24724s] ACCEPT Tenacious Tail                    29.0 ->  30.2  -1 Basculin +1 Water Energy
+[r7   7/165  24752s] ACCEPT Errand Runner                     60.2 ->  63.5  -1 Basculin +1 Mega Signal
+[r7   8/165  24787s] ACCEPT Larry's Sleepover                 31.3 ->  33.6  -1 Larry's Starly +1 Eiscue
+[r7   9/165  24812s] ACCEPT Payback Worm                      58.3 ->  59.5  -1 Chewtle +1 Earthen Vessel
+[r7  10/165  24844s]   ---- Blood Moon Rising                 42.8 ->  43.6  
+[r7  11/165  24871s] ACCEPT Sonic Wall                        44.6 ->  46.3  -1 Wailmer +1 Earthen Vessel
+[r7  12/165  24904s] ACCEPT Quick Draw                        31.3 ->  32.5  -1 Articuno +1 Water Energy
+[r7  13/165  24935s] ACCEPT Fresh Bite                        51.9 ->  54.2  -1 Basculin +1 Earthen Vessel
+[r7  14/165  24965s] ACCEPT Ball Lightning                    34.8 ->  36.5  -1 Scorbunny +1 Earthen Vessel
+[r7  15/165  24993s] ACCEPT Great Swing                       49.9 ->  56.2  -1 Raboot +1 Eiscue
+[r7  16/165  25024s] ACCEPT Mirror Beak                       34.2 ->  36.8  -1 Sprigatito +1 Eiscue
+[r7  17/165  25047s] ACCEPT Cyclizar Splash                   54.8 ->  58.8  -1 Xerneas +1 Psychic Energy
+[r7  18/165  25073s]   ---- Terapagos Bench-Scale             57.1 ->  57.7  
+[r7  19/165  25106s]   ---- Bouffalant Herd                   69.8 ->  70.7  
+[r7  20/165  25135s] ACCEPT Yveltal Soul Reap                 35.2 ->  36.8  -1 Yveltal +1 Cheren
+[r7  21/165  25162s] ACCEPT Okidogi Self-Poison Burst         43.9 ->  46.2  -1 Yveltal +1 Cyrano
+[r7  22/165  25185s] ACCEPT Marnie's Punk Up Wheel            59.1 ->  61.2  -1 Marnie's Morgrem +1 Buddy-Buddy Poffin
+[r7  23/165  25212s] ACCEPT Tyranitar Item-Lock Twins         42.9 ->  45.4  -1 Seviper +1 Darkness Energy
+[r7  24/165  25239s] ACCEPT Scrafty Counterattack Wall        59.2 ->  61.2  -1 Yveltal +1 Night Stretcher
+[r7  25/165  25266s] ACCEPT Krookodile Revenge Lockdown       38.0 ->  41.3  -1 Bombirdier +1 Darkness Energy
+[r7  26/165  25294s] ACCEPT Clodsire Poison Lockdown          41.1 ->  42.9  -1 Darkness Energy +1 Cheren
+[r7  27/165  25319s] ACCEPT Mandibuzz Bench Snipe             51.3 ->  52.6  -1 Yveltal +1 Poké Ball
+[r7  28/165  25344s] ACCEPT Hydreigon Basic Bounty            42.0 ->  43.4  -1 Deino +1 Cheren
+[r7  29/165  25370s]   ---- Sharpedo Glass Cannon             69.0 ->  69.7  
+[r7  30/165  25395s] ACCEPT Marnie's Ex-Punisher              59.1 ->  60.5  -1 Marnie's Morgrem +1 Poké Ball
+[r7  31/165  25419s] ACCEPT Absol Hand-Rip Aggro              66.0 ->  68.1  -1 Bombirdier +1 Night Stretcher
+[r7  32/165  25448s] ACCEPT Munkidori Vanilla Beats           32.3 ->  33.5  -1 Yveltal +1 Cheren
+[r7  33/165  25472s]   ---- Gust & Guarantee                  64.9 ->  65.9  
+[r7  34/165  25499s] ACCEPT Stonewall Softener                48.2 ->  51.5  -1 Rhyhorn +1 Earthen Vessel
+[r7  35/165  25527s]   ---- Champion's Call                   60.0 ->  60.5  
+[r7  36/165  25552s]   ---- Rock Battery                      59.4 ->  60.0  
+[r7  37/165  25575s] ACCEPT Aura Overflow                     79.3 ->  81.2  -1 Solrock +1 Cheren
+[r7  38/165  25599s]   ---- Drill & Snipe                     73.1 ->  73.7  
+[r7  39/165  25624s]   ---- Perfect Order Beatdown            80.0 ->  80.8  
+[r7  40/165  25651s]   ---- Grudge Match                      61.1 ->  61.9  
+[r7  41/165  25679s] ACCEPT Cornerstone Fortress              63.4 ->  64.8  -1 Solrock +1 Energy Search
+[r7  42/165  25705s]   ---- Stuck in the Mud                  57.4 ->  57.8  
+[r7  43/165  25732s] ACCEPT Bait the Boulder                  59.9 ->  61.2  -1 Stonjourner +1 Fighting Energy
+[r7  44/165  25761s]   ---- Slow Burn                         51.9 ->  52.9  
+[r7  45/165  25787s] ACCEPT Tusk Stampede                     63.6 ->  66.8  -1 Solrock +1 Cheren
+[r7  46/165  25814s]   ---- Coinflip Comeback                 59.3 ->  59.5  
+[r7  47/165  25841s]   ---- Mega Gallade Blitz                72.0 ->  72.8  
+[r7  48/165  25867s] ACCEPT Koraidon Kaiser                   59.7 ->  60.9  -1 Stonjourner +1 Fighting Energy
+[r7  49/165  25891s] ACCEPT Wild Growth Overdrive             43.9 ->  45.4  -1 Bulbasaur +1 Buddy-Buddy Poffin
+[r7  50/165  25914s] ACCEPT Erika's Garden Party              44.0 ->  48.3  -1 Erika's Bellsprout +1 Earthen Vessel
+[r7  51/165  25939s]   ---- Forest March                      57.4 ->  58.2  
+[r7  52/165  25967s]   ---- Spore Lock                        35.4 ->  36.0  
+[r7  53/165  25989s] ACCEPT Oil Salvo Sniper                  44.6 ->  46.6  -1 Grass Energy +1 Cheren
+[r7  54/165  26015s]   ---- Regal Cheer Aggro                 27.5 ->  28.3  
+[r7  55/165  26039s] ACCEPT Solar Bank                        48.8 ->  49.8  -1 Grass Energy +1 Energy Search
+[r7  56/165  26065s]   ---- Swarm of the Hive                 44.9 ->  45.8  
+[r7  57/165  26089s] ACCEPT Buzzing Boost Shuttle             46.2 ->  48.8  -1 Teal Mask Ogerpon +1 Buddy-Buddy Poffin
+[r7  58/165  26114s] ACCEPT Juggernaut Wall                   64.8 ->  66.2  -1 Virizion +1 Earthen Vessel
+[r7  59/165  26139s]   ---- Energy Gift Express               20.7 ->  21.4  
+[r7  60/165  26163s] ACCEPT Arrow of Denial                   30.5 ->  31.9  -1 Rowlet +1 Cheren
+[r7  61/165  26189s]   ---- Rapid Vernier Nova                40.9 ->  41.5  
+[r7  62/165  26218s] ACCEPT Bottom-Deck Gambit                42.3 ->  45.3  -1 Virizion +1 Grass Energy
+[r7  63/165  26242s] ACCEPT Steeped Discard                   48.4 ->  51.3  -1 Virizion +1 Buddy-Buddy Poffin
+[r7  64/165  26267s]   ---- Vengeful Attrition                55.7 ->  56.6  
+[r7  65/165  26292s] ACCEPT Mega Meganium Bouquet             41.1 ->  43.1  -1 Bayleef +1 Cheren
+[r7  66/165  26317s] ACCEPT Hydrapple Syrup Storm             35.1 ->  37.1  -1 Teal Mask Ogerpon +1 Grass Energy
+[r7  67/165  26342s] ACCEPT Bench Fortress                    53.7 ->  55.3  -1 Grass Energy +1 Cheren
+[r7  68/165  26388s] ACCEPT Eelektrik Recursion               61.4 ->  62.7  -1 Luxio +1 Lightning Energy
+[r7  69/165  26423s] ACCEPT Overvolt Overload                 61.4 ->  64.3  -1 Iron Hands +1 Lightning Energy
+[r7  70/165  26464s] ACCEPT Iono's Streamer                   59.2 ->  61.6  -1 Miraidon +1 Pawmo
+[r7  71/165  26504s] ACCEPT Manectric Aggro                   55.1 ->  56.5  -1 Miraidon +1 Lightning Energy
+[r7  72/165  26549s] ACCEPT Luxray Nuke                       60.1 ->  62.4  -1 Iron Hands +1 Lightning Energy
+[r7  73/165  26580s] ACCEPT Iron Thorns Lock                  70.6 ->  71.9  -1 Iron Hands +1 Poké Pad
+[r7  74/165  26614s]   ---- Kilowattrel Pivot                 64.6 ->  65.6  
+[r7  75/165  26648s]   ---- Hop's Pincurchin                  60.8 ->  61.6  
+[r7  76/165  26679s]   ---- Tapu Koko Swarm                   64.5 ->  65.4  
+[r7  77/165  26713s] ACCEPT Zekrom Comeback                   75.8 ->  79.2  -1 Miraidon +1 Lightning Energy
+[r7  78/165  26754s] ACCEPT Rotom Tool                        56.7 ->  58.6  -1 Shinx +1 Earthen Vessel
+[r7  79/165  26783s] ACCEPT Miraidon Hadron                   69.7 ->  72.7  -1 Xerneas +1 Ultra Ball
+[r7  80/165  26801s] ACCEPT Steven's Steel Sanctuary          45.0 ->  47.7  -1 Klink +1 Buddy-Buddy Poffin
+[r7  81/165  26829s] ACCEPT Alloy Bulwark                     41.0 ->  43.9  -1 Klink +1 Earthen Vessel
+[r7  82/165  26855s]   ---- Regi-Charge Attrition             61.3 ->  62.3  
+[r7  83/165  26884s] ACCEPT Emperor's Stance Wall             33.0 ->  34.6  -1 Genesect +1 Metal Energy
+[r7  84/165  26912s] ACCEPT Alloy Overdrive                   39.6 ->  41.4  -1 Bisharp +1 Energy Search
+[r7  85/165  26936s] ACCEPT Bench Battery                     66.2 ->  67.7  -1 Onix +1 Switch
+[r7  86/165  26964s] ACCEPT Hop's Champion Rush               44.9 ->  46.7  -1 Mawile +1 Cheren
+[r7  87/165  26994s] ACCEPT Steel Armament Blitz              24.5 ->  26.1  -1 Mawile +1 Metal Energy
+[r7  88/165  27021s] ACCEPT Metallic Signal Toolbox           46.7 ->  47.7  -1 Klink +1 Cheren
+[r7  89/165  27049s]   ---- Chrono Draw Engine                33.1 ->  33.6  
+[r7  90/165  27076s] ACCEPT Prize Snowball                    61.0 ->  62.6  -1 Mawile +1 Energy Search
+[r7  91/165  27105s]   ---- Static Cling Combo                31.4 ->  32.2  
+[r7  92/165  27132s] ACCEPT Cinderace Snipe                   50.9 ->  52.2  -1 Solrock +1 Fighting Energy
+[r7  93/165  27161s] ACCEPT Salamence Splash                  35.1 ->  37.0  -1 Glastrier +1 Fire Energy
+[r7  94/165  27186s] ACCEPT Galvantula Item-Lock              63.6 ->  67.2  -1 Stonjourner +1 Zeraora
+[r7  95/165  27211s] ACCEPT Alolan Exeggutor KO-Flip          52.1 ->  56.0  -1 Tirtouga +1 Energy Search
+[r7  96/165  27240s] ACCEPT Miraidon Future                   71.1 ->  75.7  -1 Xerneas +1 Lightning Energy
+[r7  97/165  27264s] ACCEPT Flygon Anti-Ex                    57.1 ->  58.9  -1 Vibrava +1 Cheren
+[r7  98/165  27290s] ACCEPT Mega Dragalge Poison              59.2 ->  61.0  -1 Basculin +1 Energy Search
+[r7  99/165  27315s] ACCEPT Palossand Control                 50.1 ->  52.2  -1 Abra +1 Poké Ball
+[r7 100/165  27341s]   ---- Tatsugiri Toolbox                 41.5 ->  41.6  
+[r7 101/165  27377s] ACCEPT Mega Latias Nuke                  45.5 ->  50.3  -1 Heatmor +1 Earthen Vessel
+[r7 102/165  27405s]   ---- Mega Skarmory Snipe                6.8 ->   7.4  
+[r7 103/165  27435s] ACCEPT Revavroom Hit-and-Run             41.4 ->  43.8  -1 Mawile +1 Earthen Vessel
+[r7 104/165  27469s] ACCEPT Scizor Flex                       27.9 ->  29.9  -1 Mawile +1 Cheren
+[r7 105/165  27496s] ACCEPT Melmetal Axe                      40.6 ->  43.3  -1 Mawile +1 Earthen Vessel
+[r7 106/165  27525s] ACCEPT Metal Maker Ramp                  30.1 ->  31.8  -1 Klang +1 Poké Ball
+[r7 107/165  27553s]   ---- Symphonia Flood                   41.0 ->  41.8  
+[r7 108/165  27579s] ACCEPT Warded Symphonia                  43.6 ->  45.6  -1 Dusclops +1 Psychic Energy
+[r7 109/165  27609s] ACCEPT Scattergun Ward                   66.8 ->  68.0  -1 Seviper +1 Darkness Energy
+[r7 110/165  27634s] ACCEPT Cobalt Crossfire                  15.2 ->  16.4  -1 Latios +1 Buddy-Buddy Poffin
+[r7 111/165  27658s]   ---- Waltz of Whispers                 55.0 ->  55.9  
+[r7 112/165  27685s] ACCEPT Deep Prison                       41.7 ->  45.2  -1 Latios +1 Psychic Energy
+[r7 113/165  27711s] ACCEPT Fairy-Slayer                      57.0 ->  58.3  -1 Xerneas +1 Cyrano
+[r7 114/165  27739s]   ---- Full Hand Nova                    58.5 ->  59.0  
+[r7 115/165  27767s]   ---- Curtain-Riser                     12.9 ->  13.3  
+[r7 116/165  27793s] ACCEPT Silent Scream                     29.0 ->  31.1  -1 Latios +1 Psychic Energy
+[r7 117/165  27819s] ACCEPT Sweet Stall                       39.1 ->  40.9  -1 Latios +1 Earthen Vessel
+[r7 118/165  27849s]   ---- Detonation Coat                    9.1 ->   9.5  
+[r7 119/165  27876s]   ---- Coin-Flip Reaper                  38.4 ->  39.2  
+[r7 120/165  27902s] ACCEPT Mercy for All                     55.3 ->  57.8  -1 Latios +1 Ultra Ball
+[r7 121/165  27927s] ACCEPT Battle-Scarred Bench              61.0 ->  63.3  -1 Latios +1 Cheren
+[r7 122/165  27956s] ACCEPT Flutter Lock                      43.4 ->  44.8  -1 Kirlia +1 Ultra Ball
+[r7 123/165  27981s] ACCEPT Bubble Balloon                    54.9 ->  56.3  -1 Iron Valiant +1 Buddy-Buddy Poffin
+[r7 124/165  28011s] ACCEPT Burn Engine                       48.5 ->  50.0  -1 Magmar +1 Poké Ball
+[r7 125/165  28035s] ACCEPT Ethan's Turbo                     58.9 ->  60.7  -1 Iron Moth +1 Cheren
+[r7 126/165  28062s] ACCEPT Emboar Overload                   35.1 ->  36.3  -1 Druddigon +1 Fire Energy
+[r7 127/165  28088s] ACCEPT Pyroar Wall                       48.7 ->  51.2  -1 Fuecoco +1 Poké Ball
+[r7 128/165  28112s] ACCEPT Volcanion Spread-Burn             60.7 ->  63.4  -1 Solrock +1 Earthen Vessel
+[r7 129/165  28137s]   ---- Reshiram Comeback                 67.0 ->  68.0  
+[r7 130/165  28162s] ACCEPT Incineroar Bench-Punish           41.1 ->  44.2  -1 Magmar +1 Energy Search
+[r7 131/165  28188s] ACCEPT Salazzle Toolbox                  38.2 ->  41.9  -1 Magmar +1 Poké Ball
+[r7 132/165  28217s] ACCEPT Hearthflame Anti-Evolution        37.6 ->  39.9  -1 Druddigon +1 Night Stretcher
+[r7 133/165  28242s] ACCEPT Magcargo Mill-Burn                49.8 ->  51.4  -1 Druddigon +1 Cheren
+[r7 134/165  28264s] ACCEPT Scovillain Rage                   64.3 ->  67.8  -1 Carnivine +1 Cheren
+[r7 135/165  28289s] ACCEPT Gouging Fire Pivot                59.9 ->  62.1  -1 Solrock +1 Cheren
+[r7 136/165  28315s]   ---- Oricorio Support-Trap             39.3 ->  40.3  
+[r7 137/165  28339s] ACCEPT Reshiram Fire Wing                67.7 ->  69.1  -1 Iron Moth +1 Night Stretcher
+[r7 138/165  28362s] ACCEPT Retaliation Burn                  55.2 ->  56.3  -1 Druddigon +1 Cyrano
+[r7 139/165  28389s] ACCEPT TR Spread                         49.8 ->  51.8  -1 Team Rocket's Golbat +1 Cheren
+[r7 140/165  28411s]   ---- TR Nido Family                    60.8 ->  61.1  
+[r7 141/165  28437s] ACCEPT TR Persian Copycat                50.5 ->  53.7  -1 Bombirdier +1 Buddy-Buddy Poffin
+[r7 142/165  28461s] ACCEPT TR Rocket Rush Swarm              36.1 ->  37.7  -1 Team Rocket's Tarountula +1 Team Rocket's Golbat
+[r7 143/165  28483s]   ---- TR Condition Stack                55.0 ->  55.6  
+[r7 144/165  28506s] ACCEPT TR Disruption Lock                63.3 ->  65.4  -1 Xerneas +1 Poké Ball
+[r7 145/165  28533s]   ---- TR Moltres Removal                62.2 ->  63.0  
+[r7 146/165  28559s] ACCEPT Starmie Jetstream Rush            58.9 ->  60.8  -1 Clauncher +1 Ultra Ball
+[r7 147/165  28588s] ACCEPT Croconaw Chip, Mega Crunch        41.9 ->  45.5  -1 Articuno +1 Eiscue
+[r7 148/165  28613s] ACCEPT Starmie Tundra Fortress           63.4 ->  66.1  -1 Basculin +1 Buddy-Buddy Poffin
+[r7 149/165  28642s] ACCEPT Samurott's Ambush                 35.6 ->  37.6  -1 Articuno +1 Water Energy
+[r7 150/165  28677s] ACCEPT Frozen Fortress                   27.8 ->  30.2  -1 Amaura +1 Cheren
+[r7 151/165  28705s]   ---- Hydro Turn Hit-and-Run            44.1 ->  44.1  
+[r7 152/165  28735s] ACCEPT Deep Current Overload             46.3 ->  48.6  -1 Seadra +1 Cheren
+[r7 153/165  28767s] ACCEPT Serene Slumber                    69.7 ->  72.1  -1 Amaura +1 Buddy-Buddy Poffin
+[r7 154/165  28797s] ACCEPT Purge and Plunder                 34.5 ->  36.8  -1 Basculin +1 Fennel
+[r7 155/165  28836s] ACCEPT Misty's Deep Freeze               34.5 ->  35.8  -1 Cubchoo +1 Eiscue
+[r7 156/165  28867s] ACCEPT Avalanche Flood                   58.6 ->  60.5  -1 Basculin +1 Mega Signal
+[r7 157/165  28892s] ACCEPT Wellspring Reload                 38.7 ->  41.0  -1 Articuno +1 Water Energy
+[r7 158/165  28920s] ACCEPT Dondozo's Gambit                  49.8 ->  52.2  -1 Articuno +1 Water Energy
+[r7 159/165  28950s]   ---- Paradox Sandman                   39.5 ->  39.7  
+[r7 160/165  28977s] ACCEPT Prize Blizzard                    49.9 ->  52.3  -1 Basculin +1 Cheren
+[r7 161/165  29003s]   ---- Frostbite Recoil                  39.7 ->  40.3  
+[r7 162/165  29032s] ACCEPT Tricolor Burst — Experimental     39.4 ->  41.3  -1 Articuno +1 Water Energy
+[r7 163/165  29065s] ACCEPT Zero to Hero                      48.9 ->  51.2  -1 Basculin +1 Water Energy
+[r7 164/165  29091s] ACCEPT Wash Out Current                  37.9 ->  41.9  -1 Articuno +1 Water Energy
+[r7 165/165  29130s] ACCEPT Vibrant Wall                      66.8 ->  68.1  -1 Basculin +1 Water Energy
+=== round 7 done: 122 changes | top: Aura Overflow 80.84% | median 51.68% ===
+[r8   1/165  29265s] ACCEPT Bouffalant's Wall                 51.9 ->  53.4  -1 Basculin +1 Cyrano
+[r8   2/165  29293s] ACCEPT Rabbit Punch                      56.6 ->  58.8  -1 Basculin +1 Poké Ball
+[r8   3/165  29322s] ACCEPT Tail Spin (Turbo)                 59.0 ->  61.7  -1 Basculin +1 Cheren
+[r8   4/165  29351s] ACCEPT Tail Spin (Grind)                 62.1 ->  64.9  -1 Chewtle +1 Eiscue
+[r8   5/165  29377s] ACCEPT Nurse Blissey                     55.7 ->  57.9  -1 Basculin +1 Cheren
+[r8   6/165  29408s] ACCEPT Tenacious Tail                    28.3 ->  29.7  -1 Sprigatito +1 Eiscue
+[r8   7/165  29435s] ACCEPT Errand Runner                     62.1 ->  64.4  -1 Basculin +1 Poké Ball
+[r8   8/165  29472s] ACCEPT Larry's Sleepover                 31.8 ->  33.3  -1 Articuno +1 Water Energy
+[r8   9/165  29496s] ACCEPT Payback Worm                      57.5 ->  59.7  -1 Mawile +1 Cheren
+[r8  10/165  29528s]   ---- Blood Moon Rising                 41.2 ->  41.4  
+[r8  11/165  29555s] ACCEPT Sonic Wall                        43.3 ->  47.2  -1 Wailmer +1 Poké Ball
+[r8  12/165  29587s] ACCEPT Quick Draw                        30.5 ->  32.9  -1 Articuno +1 Water Energy
+[r8  13/165  29618s] ACCEPT Fresh Bite                        52.5 ->  53.8  -1 Chewtle +1 Cheren
+[r8  14/165  29648s] ACCEPT Ball Lightning                    33.6 ->  34.7  -1 Raboot +1 Eiscue
+[r8  15/165  29676s] ACCEPT Great Swing                       54.1 ->  56.6  -1 Basculin +1 Eiscue
+[r8  16/165  29709s] ACCEPT Mirror Beak                       34.6 ->  36.3  -1 Articuno +1 Water Energy
+[r8  17/165  29731s] ACCEPT Cyclizar Splash                   56.6 ->  59.2  -1 Carnivine +1 Energy Search
+[r8  18/165  29758s] ACCEPT Terapagos Bench-Scale             55.2 ->  56.6  -1 Basculin +1 Earthen Vessel
+[r8  19/165  29790s] ACCEPT Bouffalant Herd                   68.5 ->  69.6  -1 Articuno +1 Buddy-Buddy Poffin
+[r8  20/165  29820s] ACCEPT Yveltal Soul Reap                 35.2 ->  36.6  -1 Bombirdier +1 Night Stretcher
+[r8  21/165  29846s] ACCEPT Okidogi Self-Poison Burst         44.7 ->  46.2  -1 Seviper +1 Cheren
+[r8  22/165  29870s] ACCEPT Marnie's Punk Up Wheel            59.3 ->  61.2  -1 Darkness Energy +1 Energy Search
+[r8  23/165  29896s] ACCEPT Tyranitar Item-Lock Twins         42.9 ->  44.1  -1 Darkness Energy +1 Energy Search
+[r8  24/165  29922s] ACCEPT Scrafty Counterattack Wall        59.1 ->  60.1  -1 Yveltal +1 Earthen Vessel
+[r8  25/165  29948s] ACCEPT Krookodile Revenge Lockdown       39.3 ->  40.4  -1 Bombirdier +1 Darkness Energy
+[r8  26/165  29977s] ACCEPT Clodsire Poison Lockdown          40.7 ->  42.6  -1 Yveltal +1 Buddy-Buddy Poffin
+[r8  27/165  30002s] ACCEPT Mandibuzz Bench Snipe             51.6 ->  53.5  -1 Yveltal +1 Buddy-Buddy Poffin
+[r8  28/165  30027s] ACCEPT Hydreigon Basic Bounty            41.6 ->  44.4  -1 Bombirdier +1 Earthen Vessel
+[r8  29/165  30054s] ACCEPT Sharpedo Glass Cannon             67.3 ->  68.9  -1 Yveltal +1 Poké Ball
+[r8  30/165  30078s] ACCEPT Marnie's Ex-Punisher              58.5 ->  60.5  -1 Bombirdier +1 Earthen Vessel
+[r8  31/165  30102s] ACCEPT Absol Hand-Rip Aggro              66.8 ->  68.8  -1 Bombirdier +1 Poké Ball
+[r8  32/165  30131s] ACCEPT Munkidori Vanilla Beats           31.5 ->  32.5  -1 Yveltal +1 Buddy-Buddy Poffin
+[r8  33/165  30156s] ACCEPT Gust & Guarantee                  63.9 ->  65.1  -1 Solrock +1 Poké Ball
+[r8  34/165  30182s] ACCEPT Stonewall Softener                51.1 ->  55.2  -1 Rhyhorn +1 Energy Search
+[r8  35/165  30209s] ACCEPT Champion's Call                   57.2 ->  59.2  -1 Cynthia's Gabite +1 Cheren
+[r8  36/165  30234s]   ---- Rock Battery                      58.2 ->  58.5  
+[r8  37/165  30257s]   ---- Aura Overflow                     80.5 ->  81.0  
+[r8  38/165  30281s]   ---- Drill & Snipe                     72.0 ->  72.6  
+[r8  39/165  30306s] ACCEPT Perfect Order Beatdown            78.9 ->  80.6  -1 Solrock +1 Poké Ball
+[r8  40/165  30333s] ACCEPT Grudge Match                      59.3 ->  60.7  -1 Hisuian Growlithe +1 Earthen Vessel
+[r8  41/165  30360s] ACCEPT Cornerstone Fortress              63.5 ->  66.0  -1 Vibrava +1 Earthen Vessel
+[r8  42/165  30386s]   ---- Stuck in the Mud                  56.2 ->  56.8  
+[r8  43/165  30413s] ACCEPT Bait the Boulder                  57.9 ->  60.2  -1 Stonjourner +1 Fighting Energy
+[r8  44/165  30441s] ACCEPT Slow Burn                         49.2 ->  51.3  -1 Solrock +1 Cheren
+[r8  45/165  30468s]   ---- Tusk Stampede                     65.5 ->  65.0  
+[r8  46/165  30495s]   ---- Coinflip Comeback                 56.4 ->  56.7  
+[r8  47/165  30522s]   ---- Mega Gallade Blitz                70.4 ->  70.9  
+[r8  48/165  30547s] ACCEPT Koraidon Kaiser                   58.2 ->  59.4  -1 Solrock +1 Buddy-Buddy Poffin
+[r8  49/165  30571s] ACCEPT Wild Growth Overdrive             44.3 ->  46.0  -1 Bayleef +1 Grass Energy
+[r8  50/165  30594s] ACCEPT Erika's Garden Party              46.8 ->  49.6  -1 Oddish +1 Ultra Ball
+[r8  51/165  30620s]   ---- Forest March                      56.6 ->  57.5  
+[r8  52/165  30648s]   ---- Spore Lock                        33.6 ->  34.3  
+[r8  53/165  30671s] ACCEPT Oil Salvo Sniper                  44.9 ->  48.3  -1 Caterpie +1 Poké Ball
+[r8  54/165  30697s] ACCEPT Regal Cheer Aggro                 25.5 ->  26.7  -1 Grass Energy +1 Earthen Vessel
+[r8  55/165  30720s] ACCEPT Solar Bank                        48.4 ->  49.5  -1 Carnivine +1 Ivysaur
+[r8  56/165  30746s] ACCEPT Swarm of the Hive                 42.5 ->  44.5  -1 Carnivine +1 Grass Energy
+[r8  57/165  30770s] ACCEPT Buzzing Boost Shuttle             46.3 ->  48.0  -1 Teal Mask Ogerpon +1 Poké Ball
+[r8  58/165  30795s] ACCEPT Juggernaut Wall                   64.9 ->  67.9  -1 Teal Mask Ogerpon +1 Cheren
+[r8  59/165  30821s]   ---- Energy Gift Express               19.3 ->  19.9  
+[r8  60/165  30844s] ACCEPT Arrow of Denial                   30.0 ->  33.1  -1 Dartrix +1 Buddy-Buddy Poffin
+[r8  61/165  30871s]   ---- Rapid Vernier Nova                39.3 ->  40.1  
+[r8  62/165  30899s] ACCEPT Bottom-Deck Gambit                43.5 ->  45.7  -1 Metapod +1 Cheren
+[r8  63/165  30923s] ACCEPT Steeped Discard                   49.2 ->  51.0  -1 Teal Mask Ogerpon +1 Ultra Ball
+[r8  64/165  30948s] ACCEPT Vengeful Attrition                53.4 ->  54.8  -1 Grass Energy +1 Buddy-Buddy Poffin
+[r8  65/165  30974s] ACCEPT Mega Meganium Bouquet             41.7 ->  43.4  -1 Virizion +1 Grass Energy
+[r8  66/165  30997s]   ---- Hydrapple Syrup Storm             35.9 ->  36.8  
+[r8  67/165  31023s] ACCEPT Bench Fortress                    53.4 ->  55.6  -1 Dwebble +1 Ultra Ball
+[r8  68/165  31068s] ACCEPT Eelektrik Recursion               60.7 ->  64.9  -1 Miraidon +1 Lightning Energy
+[r8  69/165  31103s] ACCEPT Overvolt Overload                 63.2 ->  67.6  -1 Iron Hands +1 Lightning Energy
+[r8  70/165  31144s] ACCEPT Iono's Streamer                   60.1 ->  61.6  -1 Iono's Wattrel +1 Buddy-Buddy Poffin
+[r8  71/165  31184s] ACCEPT Manectric Aggro                   54.4 ->  60.1  -1 Iron Hands +1 Lightning Energy
+[r8  72/165  31229s] ACCEPT Luxray Nuke                       60.4 ->  66.0  -1 Miraidon +1 Lightning Energy
+[r8  73/165  31260s] ACCEPT Iron Thorns Lock                  70.5 ->  73.2  -1 Miraidon +1 Fennel
+[r8  74/165  31294s] ACCEPT Kilowattrel Pivot                 63.4 ->  66.0  -1 Miraidon +1 Lightning Energy
+[r8  75/165  31329s]   ---- Hop's Pincurchin                  57.7 ->  58.5  
+[r8  76/165  31360s] ACCEPT Tapu Koko Swarm                   62.6 ->  64.2  -1 Iron Hands +1 Lightning Energy
+[r8  77/165  31394s] ACCEPT Zekrom Comeback                   78.3 ->  81.3  -1 Iron Hands +1 Fennel
+[r8  78/165  31434s] ACCEPT Rotom Tool                        57.2 ->  60.0  -1 Iron Hands +1 Luxio
+[r8  79/165  31463s] ACCEPT Miraidon Hadron                   70.1 ->  72.8  -1 Xerneas +1 Ultra Ball
+[r8  80/165  31482s] ACCEPT Steven's Steel Sanctuary          45.8 ->  48.2  -1 Steven's Beldum +1 Cheren
+[r8  81/165  31510s] ACCEPT Alloy Bulwark                     42.7 ->  44.2  -1 Klink +1 Energy Search
+[r8  82/165  31536s] ACCEPT Regi-Charge Attrition             59.4 ->  61.0  -1 Genesect +1 Cheren
+[r8  83/165  31564s] ACCEPT Emperor's Stance Wall             33.4 ->  35.9  -1 Meltan +1 Metal Energy
+[r8  84/165  31592s] ACCEPT Alloy Overdrive                   40.1 ->  42.5  -1 Skarmory +1 Ultra Ball
+[r8  85/165  31615s] ACCEPT Bench Battery                     65.6 ->  68.1  -1 Genesect +1 Night Stretcher
+[r8  86/165  31644s]   ---- Hop's Champion Rush               45.6 ->  46.3  
+[r8  87/165  31673s] ACCEPT Steel Armament Blitz              24.4 ->  25.7  -1 Pawniard +1 Cheren
+[r8  88/165  31700s] ACCEPT Metallic Signal Toolbox           46.6 ->  48.5  -1 Klink +1 Cheren
+[r8  89/165  31728s]   ---- Chrono Draw Engine                31.6 ->  32.1  
+[r8  90/165  31755s] ACCEPT Prize Snowball                    61.1 ->  64.2  -1 Mawile +1 Night Stretcher
+[r8  91/165  31783s] ACCEPT Static Cling Combo                29.3 ->  30.8  -1 Mawile +1 Registeel
+[r8  92/165  31810s] ACCEPT Cinderace Snipe                   50.4 ->  54.2  -1 Solrock +1 Energy Search
+[r8  93/165  31839s] ACCEPT Salamence Splash                  35.3 ->  37.1  -1 Shelgon +1 Water Energy
+[r8  94/165  31865s] ACCEPT Galvantula Item-Lock              65.2 ->  66.2  -1 Stonjourner +1 Zeraora
+[r8  95/165  31890s] ACCEPT Alolan Exeggutor KO-Flip          53.5 ->  57.2  -1 Solrock +1 Ultra Ball
+[r8  96/165  31919s]   ---- Miraidon Future                   74.5 ->  74.8  
+[r8  97/165  31943s] ACCEPT Flygon Anti-Ex                    57.4 ->  59.7  -1 Rhydon +1 Fighting Energy
+[r8  98/165  31968s] ACCEPT Mega Dragalge Poison              61.1 ->  62.8  -1 Basculin +1 Ultra Ball
+[r8  99/165  31994s] ACCEPT Palossand Control                 50.9 ->  54.0  -1 Abra +1 Earthen Vessel
+[r8 100/165  32019s]   ---- Tatsugiri Toolbox                 39.3 ->  39.8  
+[r8 101/165  32055s] ACCEPT Mega Latias Nuke                  49.3 ->  51.9  -1 Braixen +1 Cheren
+[r8 102/165  32084s]   ---- Mega Skarmory Snipe                6.4 ->   6.5  
+[r8 103/165  32113s] ACCEPT Revavroom Hit-and-Run             41.8 ->  44.6  -1 Mawile +1 Earthen Vessel
+[r8 104/165  32148s]   ---- Scizor Flex                       27.7 ->  28.6  
+[r8 105/165  32175s] ACCEPT Melmetal Axe                      40.9 ->  42.9  -1 Heatran +1 Metal Energy
+[r8 106/165  32203s] ACCEPT Metal Maker Ramp                  31.0 ->  32.6  -1 Klang +1 Earthen Vessel
+[r8 107/165  32231s] ACCEPT Symphonia Flood                   39.0 ->  40.5  -1 Kirlia +1 Cheren
+[r8 108/165  32257s] ACCEPT Warded Symphonia                  44.7 ->  46.2  -1 Psychic Energy +1 Ultra Ball
+[r8 109/165  32286s] ACCEPT Scattergun Ward                   67.6 ->  69.8  -1 Kadabra +1 Cheren
+[r8 110/165  32311s] ACCEPT Cobalt Crossfire                  14.9 ->  16.0  -1 Latios +1 Fennel
+[r8 111/165  32335s] ACCEPT Waltz of Whispers                 53.8 ->  55.3  -1 Iron Valiant +1 Buddy-Buddy Poffin
+[r8 112/165  32362s] ACCEPT Deep Prison                       42.4 ->  47.1  -1 Dusclops +1 Ultra Ball
+[r8 113/165  32388s] ACCEPT Fairy-Slayer                      56.5 ->  59.1  -1 Xerneas +1 Cheren
+[r8 114/165  32416s]   ---- Full Hand Nova                    57.6 ->  58.2  
+[r8 115/165  32444s] ACCEPT Curtain-Riser                     11.9 ->  13.0  -1 Latios +1 Flutter Mane
+[r8 116/165  32470s] ACCEPT Silent Scream                     29.6 ->  32.1  -1 Latios +1 Energy Search
+[r8 117/165  32495s] ACCEPT Sweet Stall                       39.1 ->  42.5  -1 Xerneas +1 Psychic Energy
+[r8 118/165  32525s]   ---- Detonation Coat                    8.7 ->   9.1  
+[r8 119/165  32553s] ACCEPT Coin-Flip Reaper                  36.4 ->  37.7  -1 Xerneas +1 Psychic Energy
+[r8 120/165  32579s] ACCEPT Mercy for All                     57.1 ->  59.6  -1 Latios +1 Psychic Energy
+[r8 121/165  32603s] ACCEPT Battle-Scarred Bench              62.6 ->  64.8  -1 Latios +1 Buddy-Buddy Poffin
+[r8 122/165  32631s]   ---- Flutter Lock                      42.7 ->  43.5  
+[r8 123/165  32656s] ACCEPT Bubble Balloon                    54.0 ->  56.9  -1 Iron Valiant +1 Buddy-Buddy Poffin
+[r8 124/165  32687s] ACCEPT Burn Engine                       48.3 ->  52.0  -1 Magmar +1 Firebreather
+[r8 125/165  32710s] ACCEPT Ethan's Turbo                     59.8 ->  60.9  -1 Iron Moth +1 Energy Search
+[r8 126/165  32737s] ACCEPT Emboar Overload                   34.7 ->  36.4  -1 Druddigon +1 Fire Energy
+[r8 127/165  32763s] ACCEPT Pyroar Wall                       48.0 ->  51.4  -1 Crocalor +1 Energy Search
+[r8 128/165  32787s] ACCEPT Volcanion Spread-Burn             61.3 ->  62.8  -1 Solrock +1 Poké Ball
+[r8 129/165  32811s] ACCEPT Reshiram Comeback                 64.5 ->  66.6  -1 Heatmor +1 Cyrano
+[r8 130/165  32838s] ACCEPT Incineroar Bench-Punish           43.9 ->  47.6  -1 Torracat +1 Earthen Vessel
+[r8 131/165  32864s] ACCEPT Salazzle Toolbox                  39.9 ->  45.5  -1 Lampent +1 Earthen Vessel
+[r8 132/165  32892s]   ---- Hearthflame Anti-Evolution        38.4 ->  38.9  
+[r8 133/165  32916s] ACCEPT Magcargo Mill-Burn                49.8 ->  52.6  -1 Druddigon +1 Cheren
+[r8 134/165  32938s] ACCEPT Scovillain Rage                   65.3 ->  67.0  -1 Carnivine +1 Ultra Ball
+[r8 135/165  32964s] ACCEPT Gouging Fire Pivot                60.3 ->  61.3  -1 Solrock +1 Cheren
+[r8 136/165  32988s]   ---- Oricorio Support-Trap             37.8 ->  38.7  
+[r8 137/165  33013s] ACCEPT Reshiram Fire Wing                67.0 ->  69.6  -1 Iron Moth +1 Ultra Ball
+[r8 138/165  33036s] ACCEPT Retaliation Burn                  54.4 ->  56.0  -1 Druddigon +1 Night Stretcher
+[r8 139/165  33062s] ACCEPT TR Spread                         50.3 ->  53.1  -1 Team Rocket's Zubat +1 Crispin
+[r8 140/165  33085s]   ---- TR Nido Family                    58.8 ->  58.7  
+[r8 141/165  33111s] ACCEPT TR Persian Copycat                51.7 ->  53.1  -1 Bombirdier +1 Earthen Vessel
+[r8 142/165  33135s] ACCEPT TR Rocket Rush Swarm              36.3 ->  38.3  -1 Team Rocket's Tarountula +1 Team Rocket's Golbat
+[r8 143/165  33157s]   ---- TR Condition Stack                53.8 ->  54.2  
+[r8 144/165  33180s] ACCEPT TR Disruption Lock                63.7 ->  65.1  -1 Xerneas +1 Poké Ball
+[r8 145/165  33206s] ACCEPT TR Moltres Removal                61.0 ->  62.4  -1 Seviper +1 Earthen Vessel
+[r8 146/165  33231s] ACCEPT Starmie Jetstream Rush            58.9 ->  62.6  -1 Clauncher +1 Buddy-Buddy Poffin
+[r8 147/165  33261s] ACCEPT Croconaw Chip, Mega Crunch        43.9 ->  47.6  -1 Articuno +1 Eiscue
+[r8 148/165  33286s] ACCEPT Starmie Tundra Fortress           65.0 ->  68.7  -1 Basculin +1 Buddy-Buddy Poffin
+[r8 149/165  33315s] ACCEPT Samurott's Ambush                 36.3 ->  37.9  -1 Dewott +1 Energy Search
+[r8 150/165  33349s] ACCEPT Frozen Fortress                   28.4 ->  29.8  -1 Basculin +1 Cheren
+[r8 151/165  33377s]   ---- Hydro Turn Hit-and-Run            41.7 ->  42.2  
+[r8 152/165  33408s]   ---- Deep Current Overload             47.2 ->  47.8  
+[r8 153/165  33440s] ACCEPT Serene Slumber                    71.1 ->  73.8  -1 Amaura +1 Ultra Ball
+[r8 154/165  33470s] ACCEPT Purge and Plunder                 34.3 ->  35.5  -1 Basculin +1 Buddy-Buddy Poffin
+[r8 155/165  33510s] ACCEPT Misty's Deep Freeze               33.5 ->  36.9  -1 Articuno +1 Water Energy
+[r8 156/165  33541s] ACCEPT Avalanche Flood                   58.3 ->  61.1  -1 Articuno +1 Water Energy
+[r8 157/165  33565s] ACCEPT Wellspring Reload                 39.3 ->  42.4  -1 Basculin +1 Energy Search
+[r8 158/165  33594s]   ---- Dondozo's Gambit                  50.9 ->  51.9  
+[r8 159/165  33624s] ACCEPT Paradox Sandman                   37.0 ->  38.2  -1 Basculin +1 Energy Search
+[r8 160/165  33651s] ACCEPT Prize Blizzard                    50.5 ->  51.9  -1 Basculin +1 Night Stretcher
+[r8 161/165  33677s] ACCEPT Frostbite Recoil                  37.8 ->  39.5  -1 Amaura +1 Cheren
+[r8 162/165  33706s] ACCEPT Tricolor Burst — Experimental     40.0 ->  41.8  -1 Basculin +1 Cheren
+[r8 163/165  33738s] ACCEPT Zero to Hero                      49.0 ->  51.2  -1 Basculin +1 Water Energy
+[r8 164/165  33764s] ACCEPT Wash Out Current                  40.6 ->  44.1  -1 Basculin +1 Water Energy
+[r8 165/165  33801s] ACCEPT Vibrant Wall                      67.6 ->  69.9  -1 Basculin +1 Water Energy
+=== round 8 done: 135 changes | top: Zekrom Comeback 80.64% | median 52.41% ===
+=== ALL ROUNDS COMPLETE ===

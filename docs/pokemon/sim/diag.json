@@ -1,0 +1,4355 @@
+[
+ {
+  "name": "Bouffalant's Wall",
+  "sec": "C",
+  "wr": 50.4,
+  "apr": 88.5,
+  "at": 2.4,
+  "adm": 596.8,
+  "e": [
+   15,
+   16
+  ],
+  "t": [
+   18,
+   25
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -1.62,
+  "tdelta": 18.06,
+  "why": "Bouffalant ex is already the format's cleanest ex-check by itself; Drednaw and Meowscarada"
+ },
+ {
+  "name": "Rabbit Punch",
+  "sec": "C",
+  "wr": 57.0,
+  "apr": 77.0,
+  "at": 6.4,
+  "adm": 529.0,
+  "e": [
+   12,
+   13
+  ],
+  "t": [
+   21,
+   27
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 5.75,
+  "tdelta": 22.65,
+  "why": "the whole plan is \"retreat, then swing\" every turn; Cinderace makes sure the incoming Lopu"
+ },
+ {
+  "name": "Tail Spin (Turbo)",
+  "sec": "C",
+  "wr": 59.6,
+  "apr": 79.0,
+  "at": 6.5,
+  "adm": 588.3,
+  "e": [
+   14,
+   16
+  ],
+  "t": [
+   18,
+   23
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 7.06,
+  "tdelta": 22.14,
+  "why": "Cinderace's bulk energy-drop is exactly what an \"energy count = damage\" attacker wants \u2014 l"
+ },
+ {
+  "name": "Tail Spin (Grind)",
+  "sec": "C",
+  "wr": 63.8,
+  "apr": 80.5,
+  "at": 7.0,
+  "adm": 623.1,
+  "e": [
+   18,
+   18
+  ],
+  "t": [
+   13,
+   19
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 6.63,
+  "tdelta": 22.86,
+  "why": "where the Turbo build front-loads Energy through Cinderace, this build refuses to die (Smo"
+ },
+ {
+  "name": "Nurse Blissey",
+  "sec": "C",
+  "wr": 56.5,
+  "apr": 77.9,
+  "at": 6.4,
+  "adm": 531.7,
+  "e": [
+   21,
+   22
+  ],
+  "t": [
+   13,
+   19
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 2.49,
+  "tdelta": 21.23,
+  "why": "Chansey's own attack accelerates Energy onto the board, Magearna heals whatever received i"
+ },
+ {
+  "name": "Tenacious Tail",
+  "sec": "C",
+  "wr": 27.6,
+  "apr": 51.4,
+  "at": 9.8,
+  "adm": 141.4,
+  "e": [
+   14,
+   18
+  ],
+  "t": [
+   18,
+   20
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -3.2,
+  "tdelta": 16.87,
+  "why": "every opponent in this format runs exactly one ex, so Tenacious Tail is a reliable 60-for-"
+ },
+ {
+  "name": "Errand Runner",
+  "sec": "C",
+  "wr": 63.4,
+  "apr": 90.1,
+  "at": 2.3,
+  "adm": 775.9,
+  "e": [
+   14,
+   14
+  ],
+  "t": [
+   19,
+   27
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 7.14,
+  "tdelta": 24.95,
+  "why": "Run Errand alone out-draws almost anything else in the format; Cinderace just gets Rapid-F"
+ },
+ {
+  "name": "Larry's Sleepover",
+  "sec": "C",
+  "wr": 33.2,
+  "apr": 0.0,
+  "at": 0.0,
+  "adm": 0.0,
+  "e": [
+   14,
+   16
+  ],
+  "t": [
+   18,
+   20
+  ],
+  "strand": "no Larry's Dunsparce (Basic) \u2014 line dead",
+  "engines_lost": [],
+  "fam": "Larry's",
+  "fam_cut": [
+   "Larry's Dunsparce 4->0",
+   "Larry's Starly 3->2",
+   "Larry's Staravia 2->0"
+  ],
+  "flags": [
+   "ACE-DEAD",
+   "LINE-STRANDED",
+   "FAMILY-CUT"
+  ],
+  "gain": 13.03,
+  "tdelta": 30.47,
+  "why": "Komala's free attachment stacks Energy on Larry's Dudunsparce ex without ever spending its"
+ },
+ {
+  "name": "Payback Worm",
+  "sec": "C",
+  "wr": 57.2,
+  "apr": 86.1,
+  "at": 3.3,
+  "adm": 498.9,
+  "e": [
+   23,
+   22
+  ],
+  "t": [
+   15,
+   22
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -2.21,
+  "tdelta": 16.89,
+  "why": "Orthworm ex only ever wants Metal Energy anyway (Rock Tomb's cost is Colorless, but Pummel"
+ },
+ {
+  "name": "Blood Moon Rising",
+  "sec": "C",
+  "wr": 40.2,
+  "apr": 73.5,
+  "at": 4.9,
+  "adm": 355.9,
+  "e": [
+   23,
+   24
+  ],
+  "t": [
+   15,
+   16
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -7.29,
+  "tdelta": 14.96,
+  "why": "this deck is explicitly built to be behind \u2014 Magearna keeps Ursaluna alive through the exp"
+ },
+ {
+  "name": "Sonic Wall",
+  "sec": "C",
+  "wr": 45.5,
+  "apr": 74.8,
+  "at": 6.8,
+  "adm": 509.3,
+  "e": [
+   21,
+   21
+  ],
+  "t": [
+   13,
+   19
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -4.75,
+  "tdelta": 20.1,
+  "why": "Agility's coin-flip full-prevention and Wailord's raw 240 HP both buy time cheaply, so Noi"
+ },
+ {
+  "name": "Quick Draw",
+  "sec": "C",
+  "wr": 29.7,
+  "apr": 80.1,
+  "at": 4.9,
+  "adm": 238.8,
+  "e": [
+   15,
+   18
+  ],
+  "t": [
+   18,
+   20
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -3.38,
+  "tdelta": 21.1,
+  "why": "Spike Draw is cheap enough to fire every turn while you ramp toward Wild Scissors, so Zang"
+ },
+ {
+  "name": "Fresh Bite",
+  "sec": "C",
+  "wr": 53.8,
+  "apr": 75.8,
+  "at": 7.2,
+  "adm": 522.0,
+  "e": [
+   16,
+   16
+  ],
+  "t": [
+   15,
+   22
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": "Arven's",
+  "fam_cut": [
+   "Arven's Skwovet 3->0"
+  ],
+  "flags": [
+   "FAMILY-CUT"
+  ],
+  "gain": 0.71,
+  "tdelta": 21.17,
+  "why": "Toedscruel's Pull does double duty \u2014 it forces up whatever the opponent least wants Active"
+ },
+ {
+  "name": "Ball Lightning",
+  "sec": "C",
+  "wr": 30.8,
+  "apr": 85.0,
+  "at": 3.8,
+  "adm": 315.6,
+  "e": [
+   18,
+   19
+  ],
+  "t": [
+   18,
+   23
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -8.69,
+  "tdelta": 15.1,
+  "why": "flagged as the simplest, highest-variance deck in the set \u2014 there's no scaling engine to b"
+ },
+ {
+  "name": "Great Swing",
+  "sec": "C",
+  "wr": 54.2,
+  "apr": 69.5,
+  "at": 10.1,
+  "adm": 607.5,
+  "e": [
+   14,
+   16
+  ],
+  "t": [
+   20,
+   23
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 14.2,
+  "tdelta": 30.57,
+  "why": "flagged \u2014 this format guarantees every opponent runs one ex, so Born to Slack is usually s"
+ },
+ {
+  "name": "Mirror Beak",
+  "sec": "C",
+  "wr": 33.3,
+  "apr": 80.9,
+  "at": 4.3,
+  "adm": 327.4,
+  "e": [
+   16,
+   18
+  ],
+  "t": [
+   20,
+   24
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -7.57,
+  "tdelta": 13.71,
+  "why": "flagged as the most conditional deck here \u2014 matching Energy counts with whatever the oppon"
+ },
+ {
+  "name": "Cyclizar Splash",
+  "sec": "C",
+  "wr": 56.8,
+  "apr": 82.6,
+  "at": 3.3,
+  "adm": 403.2,
+  "e": [
+   16,
+   18
+  ],
+  "t": [
+   20,
+   25
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 7.95,
+  "tdelta": 25.87,
+  "why": "Break Through is a fine colorless baseline, and Cinderace's any-type ramp turns Zircon Roa"
+ },
+ {
+  "name": "Terapagos Bench-Scale",
+  "sec": "C",
+  "wr": 55.1,
+  "apr": 80.4,
+  "at": 3.7,
+  "adm": 438.3,
+  "e": [
+   13,
+   12
+  ],
+  "t": [
+   20,
+   27
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 3.68,
+  "tdelta": 19.76,
+  "why": "a full bench turns Unified Beatdown into a 150+ swing for two energy, and Togekiss shorten"
+ },
+ {
+  "name": "Bouffalant Herd",
+  "sec": "C",
+  "wr": 69.1,
+  "apr": 90.2,
+  "at": 2.2,
+  "adm": 699.2,
+  "e": [
+   25,
+   25
+  ],
+  "t": [
+   13,
+   19
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -3.3,
+  "tdelta": 14.44,
+  "why": "running the non-ex Bouffalant next to Bouffalant ex turns on Curly Wall, so your entire Ba"
+ },
+ {
+  "name": "Yveltal Soul Reap",
+  "sec": "D",
+  "wr": 34.7,
+  "apr": 82.6,
+  "at": 2.5,
+  "adm": 545.9,
+  "e": [
+   25,
+   25
+  ],
+  "t": [
+   13,
+   21
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -11.08,
+  "tdelta": 14.87,
+  "why": "Poison Point punishes every incoming attack for free, and once poison ticks (or trades) pu"
+ },
+ {
+  "name": "Okidogi Self-Poison Burst",
+  "sec": "D",
+  "wr": 40.8,
+  "apr": 83.5,
+  "at": 2.6,
+  "adm": 600.7,
+  "e": [
+   28,
+   27
+  ],
+  "t": [
+   13,
+   21
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -6.25,
+  "tdelta": 13.7,
+  "why": "Poisonous Musculature's self-poison isn't a downside here \u2014 it's the switch that turns on "
+ },
+ {
+  "name": "Marnie's Punk Up Wheel",
+  "sec": "D",
+  "wr": 61.4,
+  "apr": 66.4,
+  "at": 8.3,
+  "adm": 353.9,
+  "e": [
+   13,
+   11
+  ],
+  "t": [
+   22,
+   29
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": "Marnie's",
+  "fam_cut": [
+   "Marnie's Morgrem 3->1"
+  ],
+  "flags": [
+   "FAMILY-CUT"
+  ],
+  "gain": 4.6,
+  "tdelta": 19.74,
+  "why": "Punk Up's one-time 5-Energy dump can go straight onto Morpeko instead of Grimmsnarl, turni"
+ },
+ {
+  "name": "Tyranitar Item-Lock Twins",
+  "sec": "D",
+  "wr": 42.0,
+  "apr": 54.4,
+  "at": 9.9,
+  "adm": 357.0,
+  "e": [
+   13,
+   15
+  ],
+  "t": [
+   20,
+   24
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -3.43,
+  "tdelta": 15.52,
+  "why": "Lead with non-ex Tyranitar's Daunting Gaze to shut off opposing Items while Pupitar banks "
+ },
+ {
+  "name": "Scrafty Counterattack Wall",
+  "sec": "D",
+  "wr": 57.7,
+  "apr": 79.2,
+  "at": 5.8,
+  "adm": 520.7,
+  "e": [
+   21,
+   21
+  ],
+  "t": [
+   16,
+   24
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 2.11,
+  "tdelta": 20.18,
+  "why": "Counterattacking Crest and Poison Point share the exact same trigger condition, so no matt"
+ },
+ {
+  "name": "Krookodile Revenge Lockdown",
+  "sec": "D",
+  "wr": 38.4,
+  "apr": 56.0,
+  "at": 9.4,
+  "adm": 266.2,
+  "e": [
+   14,
+   19
+  ],
+  "t": [
+   20,
+   22
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -1.5,
+  "tdelta": 17.04,
+  "why": "Corner traps the opponent's attacker in place while non-ex Krookodile's Vengeful Fang turn"
+ },
+ {
+  "name": "Clodsire Poison Lockdown",
+  "sec": "D",
+  "wr": 40.1,
+  "apr": 75.1,
+  "at": 6.3,
+  "adm": 515.5,
+  "e": [
+   24,
+   23
+  ],
+  "t": [
+   13,
+   20
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -7.8,
+  "tdelta": 16.69,
+  "why": "Poison Ring's retreat-lock guarantees the Poison damage actually ticks instead of letting "
+ },
+ {
+  "name": "Mandibuzz Bench Snipe",
+  "sec": "D",
+  "wr": 51.0,
+  "apr": 79.8,
+  "at": 5.3,
+  "adm": 481.8,
+  "e": [
+   24,
+   24
+  ],
+  "t": [
+   13,
+   21
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 0.18,
+  "tdelta": 19.91,
+  "why": "Look for Prey forces a fresh, guaranteed-weak Basic (\u226470 HP) onto the opponent's bench, an"
+ },
+ {
+  "name": "Hydreigon Basic Bounty",
+  "sec": "D",
+  "wr": 43.1,
+  "apr": 46.4,
+  "at": 10.6,
+  "adm": 139.0,
+  "e": [
+   13,
+   13
+  ],
+  "t": [
+   22,
+   28
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 2.21,
+  "tdelta": 18.31,
+  "why": "Zweilous's Double Hit and Deino's own attacks soften up early opposing Basics, and every o"
+ },
+ {
+  "name": "Sharpedo Glass Cannon",
+  "sec": "D",
+  "wr": 68.5,
+  "apr": 77.2,
+  "at": 5.9,
+  "adm": 824.4,
+  "e": [
+   21,
+   19
+  ],
+  "t": [
+   16,
+   23
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 2.95,
+  "tdelta": 17.41,
+  "why": "Greedy Fang draws into the next play every turn Sharpedo is out, and the moment it's absor"
+ },
+ {
+  "name": "Marnie's Ex-Punisher",
+  "sec": "D",
+  "wr": 57.6,
+  "apr": 64.1,
+  "at": 9.0,
+  "adm": 338.9,
+  "e": [
+   13,
+   12
+  ],
+  "t": [
+   22,
+   30
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": "Marnie's",
+  "fam_cut": [
+   "Marnie's Morgrem 3->0"
+  ],
+  "flags": [
+   "FAMILY-CUT"
+  ],
+  "gain": 4.93,
+  "tdelta": 20.62,
+  "why": "Punk Up's 5-Energy dump can fuel Purrloin or Liepard directly the instant Grimmsnarl evolv"
+ },
+ {
+  "name": "Absol Hand-Rip Aggro",
+  "sec": "D",
+  "wr": 68.0,
+  "apr": 90.7,
+  "at": 1.5,
+  "adm": 841.2,
+  "e": [
+   27,
+   25
+  ],
+  "t": [
+   14,
+   22
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -3.02,
+  "tdelta": 14.45,
+  "why": "As a Basic ex, Mega Absol ex needs no evolution and can swing Claw of Darkness as early as"
+ },
+ {
+  "name": "Munkidori Vanilla Beats",
+  "sec": "D",
+  "wr": 31.3,
+  "apr": 82.6,
+  "at": 3.3,
+  "adm": 455.0,
+  "e": [
+   25,
+   25
+  ],
+  "t": [
+   13,
+   20
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -13.87,
+  "tdelta": 8.86,
+  "why": "With its actual namesake synergy unavailable, Munkidori ex is just a flat 190 hit every ot"
+ },
+ {
+  "name": "Gust & Guarantee",
+  "sec": "F",
+  "wr": 64.4,
+  "apr": 70.8,
+  "at": 7.7,
+  "adm": 443.0,
+  "e": [
+   21,
+   22
+  ],
+  "t": [
+   13,
+   17
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -5.82,
+  "tdelta": 10.21,
+  "why": "Hariyama's evolve-in gust lets you choose any support or tech sitting safely on the oppone"
+ },
+ {
+  "name": "Stonewall Softener",
+  "sec": "F",
+  "wr": 51.8,
+  "apr": 62.7,
+  "at": 8.8,
+  "adm": 309.9,
+  "e": [
+   11,
+   13
+  ],
+  "t": [
+   18,
+   24
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 12.85,
+  "tdelta": 31.65,
+  "why": "Rhyperior holds the Active Spot and no-sells opposing Supporters while Medicham ex charges"
+ },
+ {
+  "name": "Champion's Call",
+  "sec": "F",
+  "wr": 55.9,
+  "apr": 54.8,
+  "at": 11.0,
+  "adm": 349.3,
+  "e": [
+   13,
+   14
+  ],
+  "t": [
+   22,
+   28
+  ],
+  "strand": null,
+  "engines_lost": [
+   "Cynthia's Gabite({'name': \"Champion's Call\", 'text': \"- Once during your turn, you may search your deck for a Cynthia's Pok\u00e9mon, reveal it, and put it into your hand. Then, shuffle your deck.\"})"
+  ],
+  "fam": "Cynthia's",
+  "fam_cut": [
+   "Cynthia's Gible 4->3",
+   "Cynthia's Gabite 3->0",
+   "Cynthia's Roselia 3->0"
+  ],
+  "flags": [
+   "FAMILY-CUT"
+  ],
+  "gain": 4.93,
+  "tdelta": 23.16,
+  "why": "Gabite's Champion's Call digs up whichever piece is missing since it searches for any Cynt"
+ },
+ {
+  "name": "Rock Battery",
+  "sec": "F",
+  "wr": 55.8,
+  "apr": 84.1,
+  "at": 3.6,
+  "adm": 413.7,
+  "e": [
+   26,
+   27
+  ],
+  "t": [
+   15,
+   17
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -17.89,
+  "tdelta": 3.76,
+  "why": "Regi Charge turns every discarded Fighting Energy straight back into fuel for Regirock ex,"
+ },
+ {
+  "name": "Aura Overflow",
+  "sec": "F",
+  "wr": 78.2,
+  "apr": 81.1,
+  "at": 6.2,
+  "adm": 726.9,
+  "e": [
+   21,
+   19
+  ],
+  "t": [
+   16,
+   22
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -2.21,
+  "tdelta": 10.74,
+  "why": "Aura Jab is a full 130-damage attack that also free-ramps a second Bench attacker every si"
+ },
+ {
+  "name": "Drill & Snipe",
+  "sec": "F",
+  "wr": 69.5,
+  "apr": 72.5,
+  "at": 7.4,
+  "adm": 482.3,
+  "e": [
+   24,
+   23
+  ],
+  "t": [
+   13,
+   18
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -8.94,
+  "tdelta": 7.81,
+  "why": "Piercing Drill's Bench snipe converts any chip damage already sitting on the opponent's Be"
+ },
+ {
+  "name": "Perfect Order Beatdown",
+  "sec": "F",
+  "wr": 80.0,
+  "apr": 88.5,
+  "at": 2.5,
+  "adm": 872.9,
+  "e": [
+   23,
+   24
+  ],
+  "t": [
+   18,
+   20
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -7.57,
+  "tdelta": 4.22,
+  "why": "Every attacker here is a Basic Pok\u00e9mon, so there's no evolution risk \u2014 Barbaracle's extra "
+ },
+ {
+  "name": "Grudge Match",
+  "sec": "F",
+  "wr": 58.7,
+  "apr": 78.9,
+  "at": 4.3,
+  "adm": 507.4,
+  "e": [
+   25,
+   26
+  ],
+  "t": [
+   13,
+   16
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -16.34,
+  "tdelta": 5.87,
+  "why": "Ordinary combat attrition \u2014 a damaged attacker retreating to the Bench, or an early Pok\u00e9mo"
+ },
+ {
+  "name": "Cornerstone Fortress",
+  "sec": "F",
+  "wr": 63.8,
+  "apr": 85.2,
+  "at": 3.2,
+  "adm": 500.0,
+  "e": [
+   13,
+   13
+  ],
+  "t": [
+   18,
+   26
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 6.76,
+  "tdelta": 23.37,
+  "why": "Ogerpon shrugs off any Ability-attacker's damage outright, Rhyperior separately shuts off "
+ },
+ {
+  "name": "Stuck in the Mud",
+  "sec": "F",
+  "wr": 54.8,
+  "apr": 71.1,
+  "at": 4.9,
+  "adm": 407.3,
+  "e": [
+   28,
+   30
+  ],
+  "t": [
+   13,
+   13
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -19.9,
+  "tdelta": 3.13,
+  "why": "Big Bite locks the opponent's Active in place for a turn so it can't just retreat away fro"
+ },
+ {
+  "name": "Bait the Boulder",
+  "sec": "F",
+  "wr": 57.1,
+  "apr": 71.6,
+  "at": 5.2,
+  "adm": 528.6,
+  "e": [
+   28,
+   31
+  ],
+  "t": [
+   13,
+   14
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -16.56,
+  "tdelta": 7.45,
+  "why": "Repulsor Axe's punish triggers on damage taken even through a KO, so trading Iron Boulder "
+ },
+ {
+  "name": "Slow Burn",
+  "sec": "F",
+  "wr": 51.9,
+  "apr": 66.1,
+  "at": 9.0,
+  "adm": 305.0,
+  "e": [
+   14,
+   14
+  ],
+  "t": [
+   18,
+   25
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -2.51,
+  "tdelta": 19.76,
+  "why": "Tornado Rush's buff only pays off if the same Lucario ex is still around and swinging next"
+ },
+ {
+  "name": "Tusk Stampede",
+  "sec": "F",
+  "wr": 60.8,
+  "apr": 67.3,
+  "at": 8.8,
+  "adm": 415.3,
+  "e": [
+   14,
+   14
+  ],
+  "t": [
+   20,
+   27
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -0.05,
+  "tdelta": 20.4,
+  "why": "Mamoswine ex and the plain Mamoswine print both evolve from Piloswine and are both Stage 2"
+ },
+ {
+  "name": "Coinflip Comeback",
+  "sec": "F",
+  "wr": 55.5,
+  "apr": 77.7,
+  "at": 4.0,
+  "adm": 424.1,
+  "e": [
+   27,
+   27
+  ],
+  "t": [
+   14,
+   15
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -20.35,
+  "tdelta": 1.24,
+  "why": "Every attacker here is a Basic, so the deck is fast and never stranded on a needed evoluti"
+ },
+ {
+  "name": "Mega Gallade Blitz",
+  "sec": "F",
+  "wr": 67.1,
+  "apr": 70.7,
+  "at": 9.1,
+  "adm": 558.4,
+  "e": [
+   14,
+   14
+  ],
+  "t": [
+   21,
+   27
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -0.59,
+  "tdelta": 14.58,
+  "why": "Gale Slash hits 200 for a single {F} the turn Gallade evolves undamaged, so the plan is a "
+ },
+ {
+  "name": "Koraidon Kaiser",
+  "sec": "F",
+  "wr": 58.6,
+  "apr": 78.9,
+  "at": 4.1,
+  "adm": 509.5,
+  "e": [
+   28,
+   29
+  ],
+  "t": [
+   13,
+   15
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -18.93,
+  "tdelta": 3.45,
+  "why": "this Koraidon ex trades mono-color for raw power \u2014 Kaiser Tackle hits 280 off a Basic; Lan"
+ },
+ {
+  "name": "Wild Growth Overdrive",
+  "sec": "G",
+  "wr": 46.0,
+  "apr": 59.8,
+  "at": 7.7,
+  "adm": 360.1,
+  "e": [
+   14,
+   14
+  ],
+  "t": [
+   23,
+   30
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 9.99,
+  "tdelta": 24.51,
+  "why": "Wild Growth's \"provides {G}{G}\" is guaranteed to satisfy attack costs, so 2 real Energy ca"
+ },
+ {
+  "name": "Erika's Garden Party",
+  "sec": "G",
+  "wr": 48.9,
+  "apr": 65.1,
+  "at": 7.1,
+  "adm": 329.6,
+  "e": [
+   12,
+   11
+  ],
+  "t": [
+   20,
+   27
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": "Erika's",
+  "fam_cut": [
+   "Erika's Bellsprout 3->0"
+  ],
+  "flags": [
+   "FAMILY-CUT"
+  ],
+  "gain": 10.45,
+  "tdelta": 24.08,
+  "why": "Erika's Tangela keeps refilling the board with Erika's-named Pok\u00e9mon so Victreebel's per-E"
+ },
+ {
+  "name": "Forest March",
+  "sec": "G",
+  "wr": 56.8,
+  "apr": 73.1,
+  "at": 7.2,
+  "adm": 497.2,
+  "e": [
+   13,
+   13
+  ],
+  "t": [
+   20,
+   25
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 5.21,
+  "tdelta": 20.98,
+  "why": "Forest March and Regal Command both scale purely off how many of your own Pok\u00e9mon are simp"
+ },
+ {
+  "name": "Spore Lock",
+  "sec": "G",
+  "wr": 31.4,
+  "apr": 65.2,
+  "at": 7.6,
+  "adm": 261.0,
+  "e": [
+   13,
+   13
+  ],
+  "t": [
+   18,
+   22
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -6.23,
+  "tdelta": 12.19,
+  "why": "Pollen Bomb alone lands two conditions in a single hit, and the free Amoonguss (non-ex) si"
+ },
+ {
+  "name": "Oil Salvo Sniper",
+  "sec": "G",
+  "wr": 47.1,
+  "apr": 67.4,
+  "at": 6.5,
+  "adm": 342.8,
+  "e": [
+   14,
+   14
+  ],
+  "t": [
+   20,
+   27
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 8.87,
+  "tdelta": 25.05,
+  "why": "Oil Salvo's six Resistance-ignoring instances let Arboliva ex snipe down a whole row of lo"
+ },
+ {
+  "name": "Regal Cheer Aggro",
+  "sec": "G",
+  "wr": 27.5,
+  "apr": 55.9,
+  "at": 8.3,
+  "adm": 153.8,
+  "e": [
+   11,
+   10
+  ],
+  "t": [
+   22,
+   28
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 4.82,
+  "tdelta": 18.67,
+  "why": "Regal Cheer is passive and applies to every attack from every one of your Pok\u00e9mon, not jus"
+ },
+ {
+  "name": "Solar Bank",
+  "sec": "G",
+  "wr": 47.8,
+  "apr": 65.4,
+  "at": 6.9,
+  "adm": 441.4,
+  "e": [
+   14,
+   13
+  ],
+  "t": [
+   23,
+   30
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 12.91,
+  "tdelta": 26.83,
+  "why": "No Meganium here, so there's no Wild Growth stacking question at all \u2014 Solar Transfer just"
+ },
+ {
+  "name": "Swarm of the Hive",
+  "sec": "G",
+  "wr": 44.3,
+  "apr": 64.9,
+  "at": 7.9,
+  "adm": 353.0,
+  "e": [
+   13,
+   14
+  ],
+  "t": [
+   20,
+   26
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 2.49,
+  "tdelta": 22.11,
+  "why": "Rumbling Bees' damage is literally a headcount of Beedrill ex on your side, so the deck's "
+ },
+ {
+  "name": "Buzzing Boost Shuttle",
+  "sec": "G",
+  "wr": 46.2,
+  "apr": 75.3,
+  "at": 5.8,
+  "adm": 430.0,
+  "e": [
+   22,
+   22
+  ],
+  "t": [
+   15,
+   22
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -0.82,
+  "tdelta": 18.15,
+  "why": "Yanmega (non-ex)'s Gyro Shockwave switches itself out for a Benched Pok\u00e9mon as part of its"
+ },
+ {
+  "name": "Juggernaut Wall",
+  "sec": "G",
+  "wr": 64.7,
+  "apr": 87.5,
+  "at": 2.6,
+  "adm": 655.7,
+  "e": [
+   17,
+   17
+  ],
+  "t": [
+   19,
+   27
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 1.68,
+  "tdelta": 16.03,
+  "why": "Juggernaut Horn and Needly Armor are both \"you shouldn't have attacked that\" mechanics \u2014 o"
+ },
+ {
+  "name": "Energy Gift Express",
+  "sec": "G",
+  "wr": 18.7,
+  "apr": 0.0,
+  "at": 0.0,
+  "adm": 0.0,
+  "e": [
+   14,
+   14
+  ],
+  "t": [
+   18,
+   23
+  ],
+  "strand": "no Cottonee (Basic) \u2014 line dead",
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "BROKEN",
+   "ACE-DEAD",
+   "LINE-STRANDED"
+  ],
+  "gain": 3.99,
+  "tdelta": 17.45,
+  "why": "Energy Gift is Whimsicott ex's whole turn, so it can't also swing that turn \u2014 but it drops"
+ },
+ {
+  "name": "Arrow of Denial",
+  "sec": "G",
+  "wr": 32.2,
+  "apr": 42.6,
+  "at": 10.5,
+  "adm": 175.4,
+  "e": [
+   13,
+   16
+  ],
+  "t": [
+   22,
+   27
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 6.3,
+  "tdelta": 20.35,
+  "why": "Decidueye (non-ex)'s Power Shot discards a Basic {G} Energy straight from your hand as its"
+ },
+ {
+  "name": "Rapid Vernier Nova",
+  "sec": "G",
+  "wr": 37.8,
+  "apr": 85.3,
+  "at": 2.1,
+  "adm": 453.4,
+  "e": [
+   28,
+   28
+  ],
+  "t": [
+   13,
+   18
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -13.87,
+  "tdelta": 8.13,
+  "why": "Playing Iron Leaves ex onto the Bench isn't an attack, so Rapid Vernier can vacuum every E"
+ },
+ {
+  "name": "Bottom-Deck Gambit",
+  "sec": "G",
+  "wr": 46.0,
+  "apr": 56.3,
+  "at": 8.4,
+  "adm": 408.8,
+  "e": [
+   14,
+   19
+  ],
+  "t": [
+   18,
+   21
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 3.07,
+  "tdelta": 19.79,
+  "why": "Psychic is dedicated anti-ex tech \u2014 the more Energy an opposing ex has piled onto its atta"
+ },
+ {
+  "name": "Steeped Discard",
+  "sec": "G",
+  "wr": 50.0,
+  "apr": 72.4,
+  "at": 5.4,
+  "adm": 413.0,
+  "e": [
+   21,
+   21
+  ],
+  "t": [
+   13,
+   21
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 3.35,
+  "tdelta": 22.31,
+  "why": "Spill the Tea discards your own Energy for immediate damage and stocks the discard pile; R"
+ },
+ {
+  "name": "Vengeful Attrition",
+  "sec": "G",
+  "wr": 53.0,
+  "apr": 86.3,
+  "at": 3.0,
+  "adm": 532.3,
+  "e": [
+   28,
+   24
+  ],
+  "t": [
+   13,
+   20
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -8.71,
+  "tdelta": 10.66,
+  "why": "Vengeful Crush and Avenging Edge share the exact same \"you just lost a Pok\u00e9mon\" trigger \u2014 "
+ },
+ {
+  "name": "Mega Meganium Bouquet",
+  "sec": "G",
+  "wr": 42.5,
+  "apr": 56.7,
+  "at": 9.2,
+  "adm": 457.2,
+  "e": [
+   12,
+   16
+  ],
+  "t": [
+   21,
+   24
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 7.52,
+  "tdelta": 22.48,
+  "why": "Mega Meganium ex and non-ex Meganium share the Bayleef line, so it's one consistent packag"
+ },
+ {
+  "name": "Hydrapple Syrup Storm",
+  "sec": "G",
+  "wr": 35.2,
+  "apr": 53.0,
+  "at": 8.2,
+  "adm": 274.3,
+  "e": [
+   13,
+   16
+  ],
+  "t": [
+   20,
+   22
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 0.64,
+  "tdelta": 15.26,
+  "why": "Syrup Storm scales with grass energy spread across your *entire* board, so you flood the t"
+ },
+ {
+  "name": "Bench Fortress",
+  "sec": "G",
+  "wr": 52.5,
+  "apr": 71.8,
+  "at": 6.4,
+  "adm": 497.4,
+  "e": [
+   14,
+   12
+  ],
+  "t": [
+   20,
+   26
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -2.95,
+  "tdelta": 12.3,
+  "why": "against the ex-and-spread field, Rabsca makes your bench unsnipeable and Crustle can't be "
+ },
+ {
+  "name": "Eelektrik Recursion",
+  "sec": "L",
+  "wr": 64.2,
+  "apr": 81.4,
+  "at": 11.1,
+  "adm": 433.8,
+  "e": [
+   12,
+   17
+  ],
+  "t": [
+   21,
+   22
+  ],
+  "strand": null,
+  "engines_lost": [
+   "Luxio({'name': 'Fighting Roar', 'text': \"- If your opponent's Active Pok\u00e9mon is a Pok\u00e9mon ex, this Pok\u00e9mon can evolve during your first turn or the turn you play it.\"})"
+  ],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 12.02,
+  "tdelta": 21.38,
+  "why": "the discard-all attackers would normally stall \u2014 Dynamotor turns the discard into a refuel"
+ },
+ {
+  "name": "Overvolt Overload",
+  "sec": "L",
+  "wr": 65.5,
+  "apr": 73.4,
+  "at": 10.9,
+  "adm": 703.8,
+  "e": [
+   14,
+   19
+  ],
+  "t": [
+   18,
+   20
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 4.53,
+  "tdelta": 17.9,
+  "why": "Magneton's burst plus Eelektrik's drip is exactly the \"2 extra energy\" High-Voltage Press "
+ },
+ {
+  "name": "Iono's Streamer",
+  "sec": "L",
+  "wr": 59.1,
+  "apr": 78.5,
+  "at": 12.3,
+  "adm": 453.4,
+  "e": [
+   13,
+   17
+  ],
+  "t": [
+   20,
+   22
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": "Iono's",
+  "fam_cut": [
+   "Iono's Wattrel 3->2"
+  ],
+  "flags": [
+   "FAMILY-CUT"
+  ],
+  "gain": 5.36,
+  "tdelta": 18.67,
+  "why": "Electric Streamer only feeds Iono's, so the deck is all-Iono's; Kilowattrel keeps the hand"
+ },
+ {
+  "name": "Manectric Aggro",
+  "sec": "L",
+  "wr": 59.0,
+  "apr": 79.0,
+  "at": 11.1,
+  "adm": 461.8,
+  "e": [
+   11,
+   17
+  ],
+  "t": [
+   21,
+   23
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 11.71,
+  "tdelta": 24.19,
+  "why": "Flash Ray walls the format's many Basic-ex attackers while you build, then Riotous Blastin"
+ },
+ {
+  "name": "Luxray Nuke",
+  "sec": "L",
+  "wr": 65.1,
+  "apr": 51.7,
+  "at": 14.5,
+  "adm": 336.4,
+  "e": [
+   13,
+   20
+  ],
+  "t": [
+   20,
+   21
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 18.7,
+  "tdelta": 32.76,
+  "why": "Volt Strike empties your energy, but Dynamotor rebuilds it from the discard; the non-ex Lu"
+ },
+ {
+  "name": "Iron Thorns Lock",
+  "sec": "L",
+  "wr": 70.5,
+  "apr": 87.3,
+  "at": 4.7,
+  "adm": 528.7,
+  "e": [
+   28,
+   29
+  ],
+  "t": [
+   13,
+   18
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -5.74,
+  "tdelta": 9.93,
+  "why": "a hard counter to the format's ability engines (Eelektrik, Grumpig, Meganium, Steven's all"
+ },
+ {
+  "name": "Kilowattrel Pivot",
+  "sec": "L",
+  "wr": 66.3,
+  "apr": 71.5,
+  "at": 12.7,
+  "adm": 467.7,
+  "e": [
+   14,
+   18
+  ],
+  "t": [
+   18,
+   20
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 1.19,
+  "tdelta": 15.47,
+  "why": "Return Charge keeps a fresh, fully-loaded attacker coming while Thunder Lance grows; Ampha"
+ },
+ {
+  "name": "Hop's Pincurchin",
+  "sec": "L",
+  "wr": 55.7,
+  "apr": 73.6,
+  "at": 6.5,
+  "adm": 332.1,
+  "e": [
+   26,
+   26
+  ],
+  "t": [
+   15,
+   18
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": "Hop's",
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -12.17,
+  "tdelta": 6.45,
+  "why": "Extra Helpings buffs Pincurchin (it's a Hop's) to 150, Counterattack Quills taxes anyone w"
+ },
+ {
+  "name": "Tapu Koko Swarm",
+  "sec": "L",
+  "wr": 62.7,
+  "apr": 80.0,
+  "at": 5.1,
+  "adm": 457.2,
+  "e": [
+   18,
+   21
+  ],
+  "t": [
+   18,
+   20
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -4.04,
+  "tdelta": 12.55,
+  "why": "a fast wide board pushes Linked Lightning to 140+ for a single attachment, and the non-ex "
+ },
+ {
+  "name": "Zekrom Comeback",
+  "sec": "L",
+  "wr": 80.2,
+  "apr": 78.9,
+  "at": 7.0,
+  "adm": 543.2,
+  "e": [
+   28,
+   31
+  ],
+  "t": [
+   13,
+   17
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -0.08,
+  "tdelta": 17.3,
+  "why": "a prize-race payoff on a Basic \u2014 Zekrom scales as you fall behind while Dynamotor refuels "
+ },
+ {
+  "name": "Rotom Tool",
+  "sec": "L",
+  "wr": 60.6,
+  "apr": 82.2,
+  "at": 6.1,
+  "adm": 324.3,
+  "e": [
+   18,
+   24
+  ],
+  "t": [
+   18,
+   19
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 15.75,
+  "tdelta": 27.28,
+  "why": "Thunderbolt refuels off Dynamotor, and Multi Adapter is a strong Tool-stacking engine \u2014 *i"
+ },
+ {
+  "name": "Miraidon Hadron",
+  "sec": "L",
+  "wr": 73.5,
+  "apr": 88.2,
+  "at": 2.9,
+  "adm": 708.4,
+  "e": [
+   26,
+   27
+  ],
+  "t": [
+   15,
+   22
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 0.99,
+  "tdelta": 20.19,
+  "why": "unlike the L/P Miraidon, this printing is mono-lightning, so Eelektrik's engine fully powe"
+ },
+ {
+  "name": "Steven's Steel Sanctuary",
+  "sec": "M",
+  "wr": 46.8,
+  "apr": 62.7,
+  "at": 5.0,
+  "adm": 411.2,
+  "e": [
+   14,
+   13
+  ],
+  "t": [
+   22,
+   29
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": "Steven's",
+  "fam_cut": [
+   "Steven's Beldum 4->3"
+  ],
+  "flags": [
+   "FAMILY-CUT"
+  ],
+  "gain": 7.03,
+  "tdelta": 22.2,
+  "why": "Every Steven's card besides the ex is free C/U, so both support slots are pure upside \u2014 Ca"
+ },
+ {
+  "name": "Alloy Bulwark",
+  "sec": "M",
+  "wr": 46.1,
+  "apr": 77.4,
+  "at": 6.4,
+  "adm": 642.7,
+  "e": [
+   14,
+   14
+  ],
+  "t": [
+   18,
+   26
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 9.4,
+  "tdelta": 24.82,
+  "why": "Duraludon's Duralubeam discards exactly the fuel Archaludon ex's Assemble Alloy wants to r"
+ },
+ {
+  "name": "Regi-Charge Attrition",
+  "sec": "M",
+  "wr": 59.1,
+  "apr": 85.4,
+  "at": 3.5,
+  "adm": 477.8,
+  "e": [
+   23,
+   22
+  ],
+  "t": [
+   15,
+   21
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -1.58,
+  "tdelta": 18.63,
+  "why": "Duraludon discards Energy as an attack cost and Registeel ex's 1-Colorless Regi Charge imm"
+ },
+ {
+  "name": "Emperor's Stance Wall",
+  "sec": "M",
+  "wr": 35.1,
+  "apr": 57.8,
+  "at": 9.7,
+  "adm": 411.9,
+  "e": [
+   11,
+   17
+  ],
+  "t": [
+   20,
+   22
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 8.51,
+  "tdelta": 22.0,
+  "why": "Emperor's Stance hard-blocks Paralysis/Confusion/discard/switch effects outright, Iron Fea"
+ },
+ {
+  "name": "Alloy Overdrive",
+  "sec": "M",
+  "wr": 43.1,
+  "apr": 77.0,
+  "at": 6.3,
+  "adm": 607.1,
+  "e": [
+   14,
+   15
+  ],
+  "t": [
+   18,
+   25
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 7.01,
+  "tdelta": 23.81,
+  "why": "Instead of sitting behind reductions like Alloy Bulwark, this build races: repeated Duralu"
+ },
+ {
+  "name": "Bench Battery",
+  "sec": "M",
+  "wr": 67.3,
+  "apr": 86.4,
+  "at": 2.1,
+  "adm": 890.1,
+  "e": [
+   25,
+   24
+  ],
+  "t": [
+   13,
+   21
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -0.61,
+  "tdelta": 19.11,
+  "why": "Stockpile Energy on the Bench (Duraludon, Steelix, even a second Cobalion) while Metal Bri"
+ },
+ {
+  "name": "Hop's Champion Rush",
+  "sec": "M",
+  "wr": 42.9,
+  "apr": 78.4,
+  "at": 4.2,
+  "adm": 456.4,
+  "e": [
+   21,
+   21
+  ],
+  "t": [
+   17,
+   23
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": "Hop's",
+  "fam_cut": [
+   "Hop's Wooloo 3->0"
+  ],
+  "flags": [
+   "FAMILY-CUT"
+  ],
+  "gain": -4.95,
+  "tdelta": 20.73,
+  "why": "Insta-Strike and Shoot Through chip the whole board every turn, Extra Helpings turns those"
+ },
+ {
+  "name": "Steel Armament Blitz",
+  "sec": "M",
+  "wr": 22.3,
+  "apr": 76.5,
+  "at": 3.6,
+  "adm": 450.1,
+  "e": [
+   18,
+   23
+  ],
+  "t": [
+   18,
+   21
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "BROKEN"
+  ],
+  "gain": -8.97,
+  "tdelta": 13.79,
+  "why": "Steel Armament converts any Basic {M} Energy in the deck into an immediate attachment for "
+ },
+ {
+  "name": "Metallic Signal Toolbox",
+  "sec": "M",
+  "wr": 49.4,
+  "apr": 88.5,
+  "at": 2.6,
+  "adm": 570.0,
+  "e": [
+   13,
+   14
+  ],
+  "t": [
+   18,
+   25
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 6.12,
+  "tdelta": 23.28,
+  "why": "Every Stage card in this list \u2014 Archaludon, Revavroom, Klinklang, Kingambit \u2014 is a legal M"
+ },
+ {
+  "name": "Chrono Draw Engine",
+  "sec": "M",
+  "wr": 30.0,
+  "apr": 81.0,
+  "at": 3.8,
+  "adm": 442.3,
+  "e": [
+   18,
+   18
+  ],
+  "t": [
+   18,
+   20
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -11.92,
+  "tdelta": 7.72,
+  "why": "Time Bellow is a nearly-free card every turn that smooths the draw toward whatever Metal B"
+ },
+ {
+  "name": "Prize Snowball",
+  "sec": "M",
+  "wr": 61.9,
+  "apr": 88.7,
+  "at": 2.9,
+  "adm": 1061.1,
+  "e": [
+   17,
+   17
+  ],
+  "t": [
+   19,
+   26
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 2.57,
+  "tdelta": 18.9,
+  "why": "Duraludon and Scyther bank early prizes cheaply and \u2014 crucially \u2014 without chipping the opp"
+ },
+ {
+  "name": "Static Cling Combo",
+  "sec": "M",
+  "wr": 27.6,
+  "apr": 63.9,
+  "at": 5.8,
+  "adm": 250.9,
+  "e": [
+   28,
+   28
+  ],
+  "t": [
+   13,
+   14
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -16.74,
+  "tdelta": 6.84,
+  "why": "A heads on Stun Needle buys the free turn needed to start the Spiky Rolling chain (80 \u2192 16"
+ },
+ {
+  "name": "Cinderace Snipe",
+  "sec": "MULTI",
+  "wr": 52.7,
+  "apr": 48.5,
+  "at": 10.4,
+  "adm": 308.3,
+  "e": [
+   11,
+   13
+  ],
+  "t": [
+   22,
+   27
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 6.88,
+  "tdelta": 25.61,
+  "why": "Turbo Flare fixes the three-color energy problem, then you alternate a 280 Flare Strike wi"
+ },
+ {
+  "name": "Salamence Splash",
+  "sec": "MULTI",
+  "wr": 35.1,
+  "apr": 43.0,
+  "at": 11.1,
+  "adm": 192.3,
+  "e": [
+   12,
+   14
+  ],
+  "t": [
+   22,
+   28
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 15.55,
+  "tdelta": 27.8,
+  "why": "it plays as a fire deck (Wide Blast + Moltres pressure) and only needs water for the 300 D"
+ },
+ {
+  "name": "Galvantula Item-Lock",
+  "sec": "MULTI",
+  "wr": 64.5,
+  "apr": 65.2,
+  "at": 9.8,
+  "adm": 343.0,
+  "e": [
+   22,
+   22
+  ],
+  "t": [
+   15,
+   19
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 3.38,
+  "tdelta": 22.16,
+  "why": "Charged Web is a 220 anti-ex swing, and Fulgurite adds an item-lock; Raikou and Landorus g"
+ },
+ {
+  "name": "Alolan Exeggutor KO-Flip",
+  "sec": "MULTI",
+  "wr": 56.2,
+  "apr": 72.3,
+  "at": 7.8,
+  "adm": 290.3,
+  "e": [
+   14,
+   14
+  ],
+  "t": [
+   20,
+   28
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 12.99,
+  "tdelta": 29.88,
+  "why": "Tropical Frenzy solves the three-color energy problem in a single attack, then Swinging Sp"
+ },
+ {
+  "name": "Miraidon Future",
+  "sec": "MULTI",
+  "wr": 72.4,
+  "apr": 79.7,
+  "at": 4.2,
+  "adm": 629.3,
+  "e": [
+   26,
+   27
+  ],
+  "t": [
+   15,
+   21
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 1.98,
+  "tdelta": 22.47,
+  "why": "Miraidon, Iron Boulder, and Iron Thorns are all \"Future\" pokemon that share the same light"
+ },
+ {
+  "name": "Flygon Anti-Ex",
+  "sec": "MULTI",
+  "wr": 57.2,
+  "apr": 60.9,
+  "at": 8.5,
+  "adm": 298.9,
+  "e": [
+   11,
+   16
+  ],
+  "t": [
+   22,
+   25
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 7.22,
+  "tdelta": 23.75,
+  "why": "it runs as a mono-fighting hit-and-run deck (Reversing Storm) and only splashes water/meta"
+ },
+ {
+  "name": "Mega Dragalge Poison",
+  "sec": "MULTI",
+  "wr": 60.4,
+  "apr": 69.6,
+  "at": 7.2,
+  "adm": 0.0,
+  "e": [
+   13,
+   14
+  ],
+  "t": [
+   18,
+   25
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 12.73,
+  "tdelta": 25.78,
+  "why": "Pernicious Poison is a 160-a-turn clock, Corrosive Liquid nukes their tools/special energy"
+ },
+ {
+  "name": "Palossand Control",
+  "sec": "MULTI",
+  "wr": 51.0,
+  "apr": 69.6,
+  "at": 7.4,
+  "adm": 282.5,
+  "e": [
+   11,
+   11
+  ],
+  "t": [
+   20,
+   28
+  ],
+  "strand": null,
+  "engines_lost": [
+   "Kadabra({'name': 'Psychic Draw', 'text': '- Once during your turn, when you play this Pok\u00e9mon from your hand to evolve 1 of your Pok\u00e9mon, you may use this Ability. Draw 2 cards.'})"
+  ],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 11.08,
+  "tdelta": 28.98,
+  "why": "Sand Tomb is a colorless 160 you fuel with psychic, and Barite Jail + Dusknoir + Alakazam "
+ },
+ {
+  "name": "Tatsugiri Toolbox",
+  "sec": "MULTI",
+  "wr": 38.6,
+  "apr": 68.7,
+  "at": 4.7,
+  "adm": 237.6,
+  "e": [
+   26,
+   25
+  ],
+  "t": [
+   15,
+   20
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -6.63,
+  "tdelta": 15.12,
+  "why": "Cinnabar Lure builds your board while Surprise Pump reliably chips for 100; Kyogre/Roaring"
+ },
+ {
+  "name": "Mega Latias Nuke",
+  "sec": "MULTI",
+  "wr": 51.4,
+  "apr": 82.1,
+  "at": 3.1,
+  "adm": 687.3,
+  "e": [
+   15,
+   17
+  ],
+  "t": [
+   21,
+   27
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 10.22,
+  "tdelta": 26.96,
+  "why": "Latios is the dedicated enabler this deck was missing \u2014 stack energy on the bench, promote"
+ },
+ {
+  "name": "Mega Skarmory Snipe",
+  "sec": "M",
+  "wr": 6.4,
+  "apr": 77.5,
+  "at": 4.9,
+  "adm": 0.0,
+  "e": [
+   17,
+   17
+  ],
+  "t": [
+   19,
+   19
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "BROKEN"
+  ],
+  "gain": -3.83,
+  "tdelta": 4.42,
+  "why": "Sonic Ripper is a repeatable 220 snipe that ignores their active, so you pick off support "
+ },
+ {
+  "name": "Revavroom Hit-and-Run",
+  "sec": "M",
+  "wr": 43.9,
+  "apr": 73.8,
+  "at": 6.8,
+  "adm": 619.1,
+  "e": [
+   14,
+   14
+  ],
+  "t": [
+   18,
+   26
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 8.99,
+  "tdelta": 26.77,
+  "why": "Shattering Speed nukes for 250 and vanishes (denying the return KO), Accelerator Flash pun"
+ },
+ {
+  "name": "Scizor Flex",
+  "sec": "M",
+  "wr": 28.0,
+  "apr": 72.7,
+  "at": 7.5,
+  "adm": 267.4,
+  "e": [
+   11,
+   11
+  ],
+  "t": [
+   18,
+   25
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -2.97,
+  "tdelta": 17.08,
+  "why": "Steel Wing buys defensive turns and Cross Breaker converts stored metal into a 240 swing o"
+ },
+ {
+  "name": "Melmetal Axe",
+  "sec": "M",
+  "wr": 41.8,
+  "apr": 46.2,
+  "at": 8.9,
+  "adm": 148.1,
+  "e": [
+   19,
+   19
+  ],
+  "t": [
+   15,
+   20
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -1.27,
+  "tdelta": 21.87,
+  "why": "Meltan finds the Tool and the non-ex Melmetal's Reforged Axe swings 250 \u2014 but that needs a"
+ },
+ {
+  "name": "Metal Maker Ramp",
+  "sec": "M",
+  "wr": 31.7,
+  "apr": 86.0,
+  "at": 3.3,
+  "adm": 472.9,
+  "e": [
+   13,
+   15
+  ],
+  "t": [
+   18,
+   24
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 1.14,
+  "tdelta": 19.82,
+  "why": "Metang's Metal Maker is a genuinely free ramp engine (it digs metal straight out of the to"
+ },
+ {
+  "name": "Symphonia Flood",
+  "sec": "P",
+  "wr": 40.2,
+  "apr": 58.1,
+  "at": 9.2,
+  "adm": 368.7,
+  "e": [
+   13,
+   14
+  ],
+  "t": [
+   21,
+   24
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -9.22,
+  "tdelta": 9.8,
+  "why": "Grumpig's on-evolve attach plus Wishes' 1-Energy bulk-attach can flood 4-5 {P} Energy onto"
+ },
+ {
+  "name": "Warded Symphonia",
+  "sec": "P",
+  "wr": 45.7,
+  "apr": 67.5,
+  "at": 7.8,
+  "adm": 479.5,
+  "e": [
+   11,
+   12
+  ],
+  "t": [
+   21,
+   27
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 5.59,
+  "tdelta": 20.9,
+  "why": "Dusclops/Dusknoir scatter damage across the opponent's side while Alakazam confuses and co"
+ },
+ {
+  "name": "Scattergun Ward",
+  "sec": "P",
+  "wr": 68.6,
+  "apr": 73.1,
+  "at": 6.7,
+  "adm": 401.9,
+  "e": [
+   12,
+   11
+  ],
+  "t": [
+   20,
+   27
+  ],
+  "strand": null,
+  "engines_lost": [
+   "Kadabra({'name': 'Psychic Draw', 'text': '- Once during your turn, when you play this Pok\u00e9mon from your hand to evolve 1 of your Pok\u00e9mon, you may use this Ability. Draw 2 cards.'})"
+  ],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 14.07,
+  "tdelta": 24.4,
+  "why": "Dirty Beam and Dusclops seed damage counters across the opponent's board, Munkidori keeps "
+ },
+ {
+  "name": "Cobalt Crossfire",
+  "sec": "P",
+  "wr": 15.0,
+  "apr": 67.0,
+  "at": 4.2,
+  "adm": 0.0,
+  "e": [
+   28,
+   29
+  ],
+  "t": [
+   13,
+   15
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "BROKEN"
+  ],
+  "gain": -11.79,
+  "tdelta": 3.2,
+  "why": "Twin Shotels' unconditional 2-target spread plus Cobalt Command's flat +20 turning Iron Bo"
+ },
+ {
+  "name": "Waltz of Whispers",
+  "sec": "P",
+  "wr": 53.2,
+  "apr": 70.5,
+  "at": 6.3,
+  "adm": 406.4,
+  "e": [
+   24,
+   23
+  ],
+  "t": [
+   13,
+   19
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -2.79,
+  "tdelta": 15.38,
+  "why": "Swirling Prose punishes any retreat, Florges and Farigiraf add two more ways to Confuse on"
+ },
+ {
+  "name": "Deep Prison",
+  "sec": "P",
+  "wr": 44.4,
+  "apr": 72.8,
+  "at": 7.2,
+  "adm": 403.8,
+  "e": [
+   11,
+   12
+  ],
+  "t": [
+   18,
+   25
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 10.41,
+  "tdelta": 25.61,
+  "why": "Shadow Bind removes the escape route and Oceanic Curse removes the Item-based answers, so "
+ },
+ {
+  "name": "Fairy-Slayer",
+  "sec": "P",
+  "wr": 57.4,
+  "apr": 86.8,
+  "at": 1.9,
+  "adm": 623.7,
+  "e": [
+   28,
+   28
+  ],
+  "t": [
+   13,
+   21
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -4.14,
+  "tdelta": 15.61,
+  "why": "220 from Rising Horns cleanly one-shots almost every ex in this entire \u2264$1 pool (only the "
+ },
+ {
+  "name": "Full Hand Nova",
+  "sec": "P",
+  "wr": 56.1,
+  "apr": 77.9,
+  "at": 6.6,
+  "adm": 449.4,
+  "e": [
+   21,
+   21
+  ],
+  "t": [
+   16,
+   21
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -4.35,
+  "tdelta": 13.97,
+  "why": "Kadabra's draw and Clefable's own attacks buy time to hoard Energy in hand rather than att"
+ },
+ {
+  "name": "Curtain-Riser",
+  "sec": "P",
+  "wr": 13.4,
+  "apr": 64.0,
+  "at": 5.3,
+  "adm": 79.6,
+  "e": [
+   28,
+   28
+  ],
+  "t": [
+   13,
+   13
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "BROKEN"
+  ],
+  "gain": -14.76,
+  "tdelta": 1.07,
+  "why": "a turn-one 30 followed by a turn-two 110 from the same attacker is real tempo few budget d"
+ },
+ {
+  "name": "Silent Scream",
+  "sec": "P",
+  "wr": 30.9,
+  "apr": 77.3,
+  "at": 4.2,
+  "adm": 300.8,
+  "e": [
+   18,
+   20
+  ],
+  "t": [
+   18,
+   23
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -9.68,
+  "tdelta": 13.62,
+  "why": "landing Scream into a follow-up Shadow Bind lock denies both resources and mobility while "
+ },
+ {
+  "name": "Sweet Stall",
+  "sec": "P",
+  "wr": 42.2,
+  "apr": 70.0,
+  "at": 6.7,
+  "adm": 344.5,
+  "e": [
+   14,
+   16
+  ],
+  "t": [
+   18,
+   24
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 4.25,
+  "tdelta": 24.0,
+  "why": "Confectionary Gift plus Draining Kiss keep the board patched up while Sweet Circle rewards"
+ },
+ {
+  "name": "Detonation Coat",
+  "sec": "P",
+  "wr": 9.2,
+  "apr": 75.1,
+  "at": 4.1,
+  "adm": 0.0,
+  "e": [
+   27,
+   27
+  ],
+  "t": [
+   14,
+   14
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "BROKEN"
+  ],
+  "gain": -9.08,
+  "tdelta": 0,
+  "why": "Diamond Coat lets Diancie tank in the Active slot while it reaches 2 attached Energy, then"
+ },
+ {
+  "name": "Coin-Flip Reaper",
+  "sec": "P",
+  "wr": 37.0,
+  "apr": 64.3,
+  "at": 7.7,
+  "adm": 235.6,
+  "e": [
+   24,
+   25
+  ],
+  "t": [
+   13,
+   18
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -10.29,
+  "tdelta": 12.93,
+  "why": "Houndstone (base form)'s repeated hand-stripping both disrupts the opponent and skews hand"
+ },
+ {
+  "name": "Mercy for All",
+  "sec": "P",
+  "wr": 59.3,
+  "apr": 90.0,
+  "at": 2.1,
+  "adm": 696.4,
+  "e": [
+   17,
+   20
+  ],
+  "t": [
+   19,
+   24
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -1.09,
+  "tdelta": 20.11,
+  "why": "flagged as the greediest deck here \u2014 Gentle Light heals the opponent exactly as much as yo"
+ },
+ {
+  "name": "Battle-Scarred Bench",
+  "sec": "P",
+  "wr": 61.4,
+  "apr": 77.6,
+  "at": 5.9,
+  "adm": 761.8,
+  "e": [
+   14,
+   14
+  ],
+  "t": [
+   18,
+   26
+  ],
+  "strand": null,
+  "engines_lost": [
+   "**Dusclops({'name': 'Cursed Blast', 'text': \"- Once during your turn, you may put 5 damage counters on 1 of your opponent's Pok\u00e9mon. If you use this Ability, this Pok\u00e9mon is Knocked Out.\"})**"
+  ],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "ENGINE-CUT"
+  ],
+  "gain": 10.95,
+  "tdelta": 27.39,
+  "why": "note the exact wording \u2014 Horrifying Rondo counts damage counters on YOUR bench, not the op"
+ },
+ {
+  "name": "Flutter Lock",
+  "sec": "P",
+  "wr": 40.5,
+  "apr": 58.9,
+  "at": 9.2,
+  "adm": 373.3,
+  "e": [
+   14,
+   15
+  ],
+  "t": [
+   21,
+   22
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -12.02,
+  "tdelta": 2.54,
+  "why": "lead with Flutter Mane to shut off the opponent's active ability (and chip the bench) whil"
+ },
+ {
+  "name": "Bubble Balloon",
+  "sec": "P",
+  "wr": 54.8,
+  "apr": 76.2,
+  "at": 5.7,
+  "adm": 675.3,
+  "e": [
+   24,
+   23
+  ],
+  "t": [
+   13,
+   20
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -0.56,
+  "tdelta": 19.44,
+  "why": "Grumpig and the bench soak up psychic energy, then Bubble Gathering funnels all of it onto"
+ },
+ {
+  "name": "Burn Engine",
+  "sec": "R",
+  "wr": 52.0,
+  "apr": 77.7,
+  "at": 6.9,
+  "adm": 599.0,
+  "e": [
+   13,
+   12
+  ],
+  "t": [
+   18,
+   25
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -0.66,
+  "tdelta": 19.67,
+  "why": "the deck's only job is keeping a Burn stuck; Magmortar turns Burn from 10 into 40 a turn, "
+ },
+ {
+  "name": "Ethan's Turbo",
+  "sec": "R",
+  "wr": 59.6,
+  "apr": 89.7,
+  "at": 1.9,
+  "adm": 682.8,
+  "e": [
+   14,
+   14
+  ],
+  "t": [
+   23,
+   31
+  ],
+  "strand": null,
+  "engines_lost": [
+   "Ethan's Quilava({'name': 'Bonded by the Journey', 'text': \"- Once during your turn, you may search your deck for an Ethan's Adventure card, reveal it, and put it into your hand. Then, shuffle your deck.\"})"
+  ],
+  "fam": "Ethan's",
+  "fam_cut": [
+   "Ethan's Slugma 3->0",
+   "Ethan's Cyndaquil 3->2",
+   "Ethan's Quilava 2->0"
+  ],
+  "flags": [
+   "FAMILY-CUT"
+  ],
+  "gain": 5.06,
+  "tdelta": 22.0,
+  "why": "Golden Flame only pumps Ethan's pokemon, so every attacker is one; pre-load Magcargo on th"
+ },
+ {
+  "name": "Emboar Overload",
+  "sec": "R",
+  "wr": 35.6,
+  "apr": 43.9,
+  "at": 9.2,
+  "adm": 386.4,
+  "e": [
+   12,
+   16
+  ],
+  "t": [
+   21,
+   25
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 5.13,
+  "tdelta": 20.92,
+  "why": "both Emboars share the Pignite line, and Inferno Fandango is the only way to pay 320 this "
+ },
+ {
+  "name": "Pyroar Wall",
+  "sec": "R",
+  "wr": 50.7,
+  "apr": 75.6,
+  "at": 6.2,
+  "adm": 650.8,
+  "e": [
+   14,
+   13
+  ],
+  "t": [
+   21,
+   29
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 4.93,
+  "tdelta": 26.55,
+  "why": "Intimidating Fang (\u221230) + Ferocious Bellow (\u221250) + Skeledirge's effect-immunity stack into"
+ },
+ {
+  "name": "Volcanion Spread-Burn",
+  "sec": "R",
+  "wr": 61.5,
+  "apr": 85.5,
+  "at": 3.3,
+  "adm": 480.4,
+  "e": [
+   13,
+   13
+  ],
+  "t": [
+   20,
+   28
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 12.33,
+  "tdelta": 28.43,
+  "why": "Volcanion applies the Burn by itself and Magmortar makes it hurt, while Scorching Cyclone "
+ },
+ {
+  "name": "Reshiram Comeback",
+  "sec": "R",
+  "wr": 67.1,
+  "apr": 86.4,
+  "at": 2.5,
+  "adm": 842.7,
+  "e": [
+   28,
+   27
+  ],
+  "t": [
+   13,
+   19
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -5.31,
+  "tdelta": 14.25,
+  "why": "three hard-hitting Basics with no evolution lines to brick; Reshiram scales as you fall be"
+ },
+ {
+  "name": "Incineroar Bench-Punish",
+  "sec": "R",
+  "wr": 44.3,
+  "apr": 67.4,
+  "at": 11.5,
+  "adm": 439.7,
+  "e": [
+   14,
+   15
+  ],
+  "t": [
+   22,
+   29
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 14.71,
+  "tdelta": 28.45,
+  "why": "against the bench-heavy decks in this format Blaze Blast gets cheap fast, and every hit le"
+ },
+ {
+  "name": "Salazzle Toolbox",
+  "sec": "R",
+  "wr": 43.3,
+  "apr": 73.3,
+  "at": 7.4,
+  "adm": 276.0,
+  "e": [
+   11,
+   12
+  ],
+  "t": [
+   18,
+   25
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 14.15,
+  "tdelta": 30.5,
+  "why": "Nasty Plot gives the consistency a singleton-ex format needs, Dire Nails stacks two condit"
+ },
+ {
+  "name": "Hearthflame Anti-Evolution",
+  "sec": "R",
+  "wr": 38.4,
+  "apr": 78.3,
+  "at": 3.4,
+  "adm": 606.8,
+  "e": [
+   28,
+   28
+  ],
+  "t": [
+   13,
+   18
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -11.79,
+  "tdelta": 8.27,
+  "why": "almost every premium in the format is an evolved ex, and Dynamic Blaze one-shots them for "
+ },
+ {
+  "name": "Magcargo Mill-Burn",
+  "sec": "R",
+  "wr": 51.5,
+  "apr": 71.4,
+  "at": 6.2,
+  "adm": 433.1,
+  "e": [
+   21,
+   22
+  ],
+  "t": [
+   13,
+   19
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -2.54,
+  "tdelta": 17.16,
+  "why": "a burn shell that also mills \u2014 Ground Burn chips both decks and spikes when it hits energy"
+ },
+ {
+  "name": "Scovillain Rage",
+  "sec": "R",
+  "wr": 66.4,
+  "apr": 61.8,
+  "at": 7.1,
+  "adm": 1403.4,
+  "e": [
+   19,
+   19
+  ],
+  "t": [
+   15,
+   23
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 10.95,
+  "tdelta": 29.67,
+  "why": "once Scovillain has taken a few hits Spicy Rage explodes (a handful of counters = 300+) \u2014 "
+ },
+ {
+  "name": "Gouging Fire Pivot",
+  "sec": "R",
+  "wr": 59.0,
+  "apr": 76.9,
+  "at": 4.0,
+  "adm": 615.2,
+  "e": [
+   16,
+   18
+  ],
+  "t": [
+   20,
+   26
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 2.72,
+  "tdelta": 25.2,
+  "why": "Blaze Blitz hits 260 but forces a rotation, so you pivot to the non-ex Gouging Fire / a ch"
+ },
+ {
+  "name": "Oricorio Support-Trap",
+  "sec": "R",
+  "wr": 38.5,
+  "apr": 83.7,
+  "at": 3.1,
+  "adm": 410.7,
+  "e": [
+   28,
+   28
+  ],
+  "t": [
+   13,
+   18
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -17.86,
+  "tdelta": 7.65,
+  "why": "honestly a trap as a standalone premium \u2014 Excited Turbo needs a {R} Mega ex (a second prem"
+ },
+ {
+  "name": "Reshiram Fire Wing",
+  "sec": "R",
+  "wr": 69.2,
+  "apr": 87.0,
+  "at": 2.0,
+  "adm": 891.8,
+  "e": [
+   28,
+   27
+  ],
+  "t": [
+   13,
+   21
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -1.67,
+  "tdelta": 15.64,
+  "why": "an all-Basic fire beatdown built on the *other* Reshiram ex \u2014 Scorching Fire is a reliable"
+ },
+ {
+  "name": "Retaliation Burn",
+  "sec": "R",
+  "wr": 54.4,
+  "apr": 87.9,
+  "at": 2.0,
+  "adm": 642.0,
+  "e": [
+   22,
+   22
+  ],
+  "t": [
+   13,
+   21
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -2.01,
+  "tdelta": 18.48,
+  "why": "between Volcanion (burns on your turn) and Numel's Incandescent Body (burns on theirs), th"
+ },
+ {
+  "name": "TR Spread",
+  "sec": "TR",
+  "wr": 51.1,
+  "apr": 65.1,
+  "at": 8.2,
+  "adm": 272.8,
+  "e": [
+   12,
+   11
+  ],
+  "t": [
+   25,
+   32
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": "Team Rocket's",
+  "fam_cut": [
+   "Team Rocket's Zubat 4->3",
+   "Team Rocket's Golbat 3->2",
+   "Team Rocket's Larvitar 3->0",
+   "Team Rocket's Pupitar 2->1"
+  ],
+  "flags": [
+   "FAMILY-CUT"
+  ],
+  "gain": 4.14,
+  "tdelta": 23.59,
+  "why": "the deck sprinkles damage counters everywhere \u2014 automatically via Sand Stream, on evolve v"
+ },
+ {
+  "name": "TR Nido Family",
+  "sec": "TR",
+  "wr": 57.6,
+  "apr": 66.5,
+  "at": 7.3,
+  "adm": 398.1,
+  "e": [
+   14,
+   13
+  ],
+  "t": [
+   25,
+   30
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": "Team Rocket's",
+  "fam_cut": [
+   "Team Rocket's Nidorino 3->2",
+   "Team Rocket's Murkrow 3->0"
+  ],
+  "flags": [
+   "FAMILY-CUT"
+  ],
+  "gain": 4.44,
+  "tdelta": 17.79,
+  "why": "run both Nido lines \u2014 Nidoking ex sitting on the bench turns on Nidoqueen's 180 Love Impac"
+ },
+ {
+  "name": "TR Persian Copycat",
+  "sec": "TR",
+  "wr": 50.9,
+  "apr": 77.4,
+  "at": 5.9,
+  "adm": 389.8,
+  "e": [
+   18,
+   19
+  ],
+  "t": [
+   16,
+   23
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": "Team Rocket's",
+  "fam_cut": [
+   "Team Rocket's Murkrow 3->0"
+  ],
+  "flags": [
+   "FAMILY-CUT"
+  ],
+  "gain": 5.51,
+  "tdelta": 26.56,
+  "why": "a colorless disruptor \u2014 Meowth/Chingling grind their hand while Persian steals their best "
+ },
+ {
+  "name": "TR Rocket Rush Swarm",
+  "sec": "TR",
+  "wr": 38.6,
+  "apr": 52.2,
+  "at": 8.6,
+  "adm": 217.9,
+  "e": [
+   11,
+   13
+  ],
+  "t": [
+   25,
+   28
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": "Team Rocket's",
+  "fam_cut": [
+   "Team Rocket's Zubat 4->3",
+   "Team Rocket's Tarountula 3->0",
+   "Team Rocket's Murkrow 3->2"
+  ],
+  "flags": [
+   "FAMILY-CUT"
+  ],
+  "gain": 2.21,
+  "tdelta": 19.45,
+  "why": "pack the deck with cheap Team Rocket's basics so Spidops' Rocket Rush scales toward 200+, "
+ },
+ {
+  "name": "TR Condition Stack",
+  "sec": "TR",
+  "wr": 53.7,
+  "apr": 66.8,
+  "at": 6.9,
+  "adm": 357.6,
+  "e": [
+   14,
+   13
+  ],
+  "t": [
+   25,
+   30
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": "Team Rocket's",
+  "fam_cut": [
+   "Team Rocket's Nidorino 3->2",
+   "Team Rocket's Exeggcute 3->0"
+  ],
+  "flags": [
+   "FAMILY-CUT"
+  ],
+  "gain": 8.72,
+  "tdelta": 20.96,
+  "why": "everything inflicts a special condition, and Muk's Hazardous Venom multiplies off the pile"
+ },
+ {
+  "name": "TR Disruption Lock",
+  "sec": "TR",
+  "wr": 62.6,
+  "apr": 76.6,
+  "at": 5.5,
+  "adm": 362.6,
+  "e": [
+   19,
+   19
+  ],
+  "t": [
+   18,
+   25
+  ],
+  "strand": null,
+  "engines_lost": [
+   "Seviper({'name': 'Excited Power', 'text': \"- If you have any {D} Mega Evolution Pok\u00e9mon ex in play, attacks used by this Pok\u00e9mon do 120 more damage to your opponent's Active Pok\u00e9mon (before applying Weakness and Resistance).\"})"
+  ],
+  "fam": "Team Rocket's",
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 6.04,
+  "tdelta": 22.1,
+  "why": "Arbok shuts off their ability-based engines while Meowth/Grimer attack their hand and boar"
+ },
+ {
+  "name": "TR Moltres Removal",
+  "sec": "TR",
+  "wr": 63.1,
+  "apr": 85.5,
+  "at": 2.6,
+  "adm": 526.0,
+  "e": [
+   20,
+   20
+  ],
+  "t": [
+   18,
+   24
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": "Team Rocket's",
+  "fam_cut": [
+   "Team Rocket's Murkrow 3->0"
+  ],
+  "flags": [
+   "FAMILY-CUT"
+  ],
+  "gain": -1.17,
+  "tdelta": 16.01,
+  "why": "Evil Incineration is a one-sided removal \u2014 no prize, but it wipes their invested attacker "
+ },
+ {
+  "name": "Starmie Jetstream Rush",
+  "sec": "W",
+  "wr": 62.0,
+  "apr": 79.3,
+  "at": 5.4,
+  "adm": 552.8,
+  "e": [
+   12,
+   13
+  ],
+  "t": [
+   21,
+   28
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 8.92,
+  "tdelta": 23.78,
+  "why": "Samurott's ability can drop Mega Starmie ex into the Active Spot the instant it's needed w"
+ },
+ {
+  "name": "Croconaw Chip, Mega Crunch",
+  "sec": "W",
+  "wr": 46.5,
+  "apr": 62.9,
+  "at": 11.1,
+  "adm": 425.3,
+  "e": [
+   13,
+   17
+  ],
+  "t": [
+   21,
+   21
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 9.94,
+  "tdelta": 26.1,
+  "why": "Croconaw's Crunch (or a Bruxish trade) almost always leaves at least one damage counter on"
+ },
+ {
+  "name": "Starmie Tundra Fortress",
+  "sec": "W",
+  "wr": 66.8,
+  "apr": 82.2,
+  "at": 5.0,
+  "adm": 609.8,
+  "e": [
+   14,
+   14
+  ],
+  "t": [
+   21,
+   29
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 10.11,
+  "tdelta": 24.27,
+  "why": "Mega Starmie ex almost always has a {W} Energy attached to fuel Jetting Blow, so Tundra Wa"
+ },
+ {
+  "name": "Samurott's Ambush",
+  "sec": "W",
+  "wr": 36.6,
+  "apr": 81.1,
+  "at": 4.3,
+  "adm": 378.7,
+  "e": [
+   15,
+   18
+  ],
+  "t": [
+   18,
+   21
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -9.24,
+  "tdelta": 14.12,
+  "why": "Samurott's ability satisfies Gale Thrust's \"moved from the Bench\" clause on demand, every "
+ },
+ {
+  "name": "Frozen Fortress",
+  "sec": "W",
+  "wr": 31.3,
+  "apr": 69.5,
+  "at": 8.5,
+  "adm": 196.4,
+  "e": [
+   11,
+   11
+  ],
+  "t": [
+   20,
+   25
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 3.35,
+  "tdelta": 20.5,
+  "why": "Cetitan non-ex's own Solid Body stacks with Aurorus's team-wide Tundra Wall for a combined"
+ },
+ {
+  "name": "Hydro Turn Hit-and-Run",
+  "sec": "W",
+  "wr": 41.1,
+  "apr": 86.0,
+  "at": 3.6,
+  "adm": 440.6,
+  "e": [
+   22,
+   21
+  ],
+  "t": [
+   13,
+   17
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -10.24,
+  "tdelta": 13.18,
+  "why": "Hydro Turn lets Lapras ex hit hard and remove itself from danger in the same breath, and F"
+ },
+ {
+  "name": "Deep Current Overload",
+  "sec": "W",
+  "wr": 48.0,
+  "apr": 67.9,
+  "at": 9.6,
+  "adm": 504.4,
+  "e": [
+   12,
+   13
+  ],
+  "t": [
+   20,
+   24
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 9.55,
+  "tdelta": 28.05,
+  "why": "Kingdra, Gorebyss, and Clawitzer all just want a huge Water-Energy count on the board, so "
+ },
+ {
+  "name": "Serene Slumber",
+  "sec": "W",
+  "wr": 72.5,
+  "apr": 76.9,
+  "at": 5.6,
+  "adm": 670.1,
+  "e": [
+   13,
+   13
+  ],
+  "t": [
+   18,
+   25
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 13.89,
+  "tdelta": 22.54,
+  "why": "Hypno Splash's guaranteed Sleep and Beartic's guaranteed \"can't attack\" lock cover for eac"
+ },
+ {
+  "name": "Purge and Plunder",
+  "sec": "W",
+  "wr": 36.9,
+  "apr": 83.1,
+  "at": 5.4,
+  "adm": 321.1,
+  "e": [
+   20,
+   22
+  ],
+  "t": [
+   18,
+   21
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -8.72,
+  "tdelta": 16.38,
+  "why": "Purging Strike's optional hand-dump conveniently throws spare Basic {W} Energy into the di"
+ },
+ {
+  "name": "Misty's Deep Freeze",
+  "sec": "W",
+  "wr": 37.7,
+  "apr": 70.3,
+  "at": 5.7,
+  "adm": 245.5,
+  "e": [
+   20,
+   25
+  ],
+  "t": [
+   15,
+   16
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": "Misty's",
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 0.35,
+  "tdelta": 15.7,
+  "why": "Misty's Lapras searches the package into hand fast, Splashing Panic's self-mill both threa"
+ },
+ {
+  "name": "Avalanche Flood",
+  "sec": "W",
+  "wr": 61.0,
+  "apr": 79.4,
+  "at": 6.4,
+  "adm": 664.9,
+  "e": [
+   18,
+   20
+  ],
+  "t": [
+   16,
+   21
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 6.32,
+  "tdelta": 24.85,
+  "why": "Hammer-lanche's whole damage output is a function of how much Water Energy is sitting in t"
+ },
+ {
+  "name": "Wellspring Reload",
+  "sec": "W",
+  "wr": 42.0,
+  "apr": 85.4,
+  "at": 3.1,
+  "adm": 202.4,
+  "e": [
+   17,
+   20
+  ],
+  "t": [
+   18,
+   23
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -1.63,
+  "tdelta": 19.73,
+  "why": "Torrential Pump's optional shuffle turns a 100-damage hit into a 220-damage two-for-one bu"
+ },
+ {
+  "name": "Dondozo's Gambit",
+  "sec": "W",
+  "wr": 49.9,
+  "apr": 87.0,
+  "at": 3.1,
+  "adm": 584.4,
+  "e": [
+   15,
+   18
+  ],
+  "t": [
+   20,
+   23
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -5.41,
+  "tdelta": 14.22,
+  "why": "Dynamic Dive's optional self-damage and any hits Dondozo ex soaks up both become fuel for "
+ },
+ {
+  "name": "Paradox Sandman",
+  "sec": "W",
+  "wr": 39.4,
+  "apr": 86.4,
+  "at": 3.5,
+  "adm": 437.5,
+  "e": [
+   20,
+   21
+  ],
+  "t": [
+   18,
+   21
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -9.12,
+  "tdelta": 15.94,
+  "why": "Poliwhirl's Hypnosis and Spheal's Powder Snow both land a guaranteed Special Condition wit"
+ },
+ {
+  "name": "Prize Blizzard",
+  "sec": "W",
+  "wr": 51.2,
+  "apr": 86.8,
+  "at": 2.7,
+  "adm": 478.8,
+  "e": [
+   17,
+   17
+  ],
+  "t": [
+   18,
+   26
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -2.03,
+  "tdelta": 18.82,
+  "why": "Blizzard Burst is unimpressive turn one but scales into a near-board-wipe as the game goes"
+ },
+ {
+  "name": "Frostbite Recoil",
+  "sec": "W",
+  "wr": 38.6,
+  "apr": 86.0,
+  "at": 2.9,
+  "adm": 608.2,
+  "e": [
+   15,
+   16
+  ],
+  "t": [
+   20,
+   26
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -3.1,
+  "tdelta": 18.65,
+  "why": "Black Frost's 250 damage for 4 Energy is among the biggest hits in the pool, and Tundra Wa"
+ },
+ {
+  "name": "Tricolor Burst \u2014 Experimental",
+  "sec": "W",
+  "wr": 42.2,
+  "apr": 74.6,
+  "at": 7.7,
+  "adm": 393.9,
+  "e": [
+   16,
+   18
+  ],
+  "t": [
+   18,
+   21
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": -1.32,
+  "tdelta": 20.61,
+  "why": "Quaquaval keeps the hand stocked with spare Energy for Tricolor Pump to convert into a sin"
+ },
+ {
+  "name": "Zero to Hero",
+  "sec": "W",
+  "wr": 48.9,
+  "apr": 71.4,
+  "at": 8.2,
+  "adm": 669.5,
+  "e": [
+   13,
+   15
+  ],
+  "t": [
+   20,
+   23
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 3.55,
+  "tdelta": 25.09,
+  "why": "Palafin ex can *only* enter play via the non-ex Palafin's Zero to Hero \u2014 so you load up th"
+ },
+ {
+  "name": "Wash Out Current",
+  "sec": "W",
+  "wr": 43.0,
+  "apr": 64.2,
+  "at": 7.0,
+  "adm": 537.1,
+  "e": [
+   12,
+   16
+  ],
+  "t": [
+   20,
+   23
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 2.67,
+  "tdelta": 20.33,
+  "why": "Dewgong's unlimited bench\u2192active energy shuttle pools all your loose water onto Kingdra ev"
+ },
+ {
+  "name": "Vibrant Wall",
+  "sec": "W",
+  "wr": 69.2,
+  "apr": 74.7,
+  "at": 6.2,
+  "adm": 634.3,
+  "e": [
+   11,
+   12
+  ],
+  "t": [
+   18,
+   24
+  ],
+  "strand": null,
+  "engines_lost": [],
+  "fam": null,
+  "fam_cut": [],
+  "flags": [
+   "HEALTHY"
+  ],
+  "gain": 15.21,
+  "tdelta": 22.59,
+  "why": "Vibrant Dance (+40 HP) and Tundra Wall (\u221250) stack on top of Milotic ex's 270 HP and Sleep"
+ }
+]
