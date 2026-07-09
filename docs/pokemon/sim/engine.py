@@ -134,11 +134,16 @@ def cost_met(mon, cost):
 
 
 class Game:
-    def __init__(self, deck_a, deck_b, seed=0, verbose=False):
+    def __init__(self, deck_a, deck_b, seed=0, verbose=False, stats=False):
         self.rng = random.Random(seed)
         self.players = [Player('A', deck_a, self.rng), Player('B', deck_b, self.rng)]
         self.verbose = verbose
         self.turn = 0
+        self.stats = [self._newstat(), self._newstat()] if stats else None
+
+    @staticmethod
+    def _newstat():
+        return {'ace_in_play': 0, 'ace_turn': -1, 'ace_atk': 0, 'ace_dmg_dealt': 0, 'ace_dmg_taken': 0}
 
     def log(self, *a):
         if self.verbose:
@@ -498,6 +503,11 @@ class Game:
                 ctx = (me, opp, me.active, opp.active, self)
                 dmg = effects.incoming_damage(dmg, me.active, opp.active, opp, self)
                 opp.active.damage += dmg
+                if self.stats is not None:
+                    if me.active.card.key == me.ace_key:
+                        self.stats[idx]['ace_atk'] += 1; self.stats[idx]['ace_dmg_dealt'] += dmg
+                    if opp.active.card.key == opp.ace_key:
+                        self.stats[1 - idx]['ace_dmg_taken'] += dmg
                 self.log(f"  {me.name}'s {me.active.card.name} uses {a['name']} for {dmg} "
                          f"({opp.active.card.name} {max(0,opp.active.hp_left)}/{opp.active.card.hp})")
                 effects.attack_side_effects(ctx, a)
@@ -533,6 +543,12 @@ class Game:
         if me.active:
             effects.clear_paralysis(me.active)
         self._checkup()
+        if self.stats is not None:
+            for i, p in enumerate(self.players):
+                if any(m.card.key == p.ace_key for m in p.all_mons()):
+                    self.stats[i]['ace_in_play'] = 1
+                    if self.stats[i]['ace_turn'] < 0:
+                        self.stats[i]['ace_turn'] = self.turn
 
     def _checkup(self):
         for i, p in enumerate(self.players):
