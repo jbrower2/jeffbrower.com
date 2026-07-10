@@ -217,6 +217,29 @@ def wipe_value(ctx, attack):
     ka, bench = conditional_ko(ctx, attack)
     return (200 if ka else 0) + 120 * len(bench)
 
+def team_attack_bonus(ctx, attack):
+    """Team OFFENSIVE buffs: 'attacks used by your Pokémon do N more damage to the Active' — stacks
+    per source in play. Regal Cheer (Serperior ex, all your attacks +20), Cobalt Command (Iron Crown
+    ex, your Future/'Iron ' Pokémon +20 except Iron Crown), Sunny Day (Lilligant, {G}/{R} +20),
+    Primal Knowledge (Carracosta, +30 vs an Evolution defender)."""
+    me, opp, mon, dfn, g = ctx
+    bonus = 0
+    for src in me.all_mons():
+        for ab in src.card.abilities:
+            n = ab['name']
+            if n == 'Regal Cheer':
+                bonus += 20
+            elif n == 'Cobalt Command':
+                if mon.card.name.startswith('Iron ') and not mon.card.name.startswith('Iron Crown'):
+                    bonus += 20
+            elif n == 'Sunny Day':
+                if mon.card.ptype in ('Grass', 'Fire'):
+                    bonus += 20
+            elif n == 'Primal Knowledge':
+                if dfn and dfn.card.stage > 0:
+                    bonus += 30
+    return bonus
+
 def _search(me, n, kind):
     """Move up to n tokens of a kind ('P' Pokémon / 'E' energy) from deck to hand."""
     got = 0

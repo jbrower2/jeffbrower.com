@@ -1,66 +1,66 @@
 {
  "Bouffalant's Wall": {
   "section": "C",
-  "winrate": 50.3,
-  "ace_play_rate": 89.4,
-  "avg_ace_turn": 2.4,
-  "ace_atks_per_game": 4.65,
-  "ace_dmg_dealt_per_game": 571.7,
-  "ace_dmg_taken_per_game": 208.0
+  "winrate": 50.0,
+  "ace_play_rate": 84.1,
+  "avg_ace_turn": 1.7,
+  "ace_atks_per_game": 4.48,
+  "ace_dmg_dealt_per_game": 584.2,
+  "ace_dmg_taken_per_game": 244.4
  },
  "Rabbit Punch": {
   "section": "C",
-  "winrate": 72.3,
-  "ace_play_rate": 84.3,
-  "avg_ace_turn": 6.0,
-  "ace_atks_per_game": 3.82,
-  "ace_dmg_dealt_per_game": 605.3,
-  "ace_dmg_taken_per_game": 201.5
+  "winrate": 74.5,
+  "ace_play_rate": 85.1,
+  "avg_ace_turn": 4.8,
+  "ace_atks_per_game": 4.1,
+  "ace_dmg_dealt_per_game": 674.1,
+  "ace_dmg_taken_per_game": 256.9
  },
  "Tail Spin (Turbo)": {
   "section": "C",
-  "winrate": 65.2,
-  "ace_play_rate": 84.2,
-  "avg_ace_turn": 5.4,
-  "ace_atks_per_game": 4.98,
-  "ace_dmg_dealt_per_game": 701.0,
-  "ace_dmg_taken_per_game": 172.7
+  "winrate": 56.4,
+  "ace_play_rate": 81.5,
+  "avg_ace_turn": 4.8,
+  "ace_atks_per_game": 4.79,
+  "ace_dmg_dealt_per_game": 682.9,
+  "ace_dmg_taken_per_game": 216.5
  },
  "Tail Spin (Grind)": {
   "section": "C",
-  "winrate": 62.2,
-  "ace_play_rate": 81.7,
-  "avg_ace_turn": 6.4,
-  "ace_atks_per_game": 4.48,
-  "ace_dmg_dealt_per_game": 628.0,
-  "ace_dmg_taken_per_game": 146.3
+  "winrate": 57.8,
+  "ace_play_rate": 77.6,
+  "avg_ace_turn": 5.2,
+  "ace_atks_per_game": 4.38,
+  "ace_dmg_dealt_per_game": 653.9,
+  "ace_dmg_taken_per_game": 179.2
  },
  "Nurse Blissey": {
   "section": "C",
-  "winrate": 62.8,
-  "ace_play_rate": 86.5,
-  "avg_ace_turn": 5.6,
-  "ace_atks_per_game": 3.47,
-  "ace_dmg_dealt_per_game": 602.7,
-  "ace_dmg_taken_per_game": 300.2
+  "winrate": 55.6,
+  "ace_play_rate": 82.3,
+  "avg_ace_turn": 4.6,
+  "ace_atks_per_game": 3.23,
+  "ace_dmg_dealt_per_game": 570.0,
+  "ace_dmg_taken_per_game": 334.1
  },
  "Tenacious Tail": {
   "section": "C",
-  "winrate": 35.6,
-  "ace_play_rate": 72.9,
-  "avg_ace_turn": 8.5,
-  "ace_atks_per_game": 1.77,
-  "ace_dmg_dealt_per_game": 256.6,
-  "ace_dmg_taken_per_game": 242.6
+  "winrate": 29.3,
+  "ace_play_rate": 69.4,
+  "avg_ace_turn": 6.0,
+  "ace_atks_per_game": 1.86,
+  "ace_dmg_dealt_per_game": 275.5,
+  "ace_dmg_taken_per_game": 297.5
  },
  "Errand Runner": {
   "section": "C",
-  "winrate": 59.5,
-  "ace_play_rate": 89.8,
-  "avg_ace_turn": 1.5,
-  "ace_atks_per_game": 3.87,
-  "ace_dmg_dealt_per_game": 745.7,
-  "ace_dmg_taken_per_game": 263.2
+  "winrate": 61.6,
+  "ace_play_rate": 89.2,
+  "avg_ace_turn": 1.6,
+  "ace_atks_per_game": 3.6,
+  "ace_dmg_dealt_per_game": 704.5,
+  "ace_dmg_taken_per_game": 274.3
  },
  "Larry's Sleepover": {
   "section": "C",
@@ -73,457 +73,457 @@
  },
  "Payback Worm": {
   "section": "C",
-  "winrate": 55.4,
-  "ace_play_rate": 89.7,
-  "avg_ace_turn": 1.7,
-  "ace_atks_per_game": 2.96,
-  "ace_dmg_dealt_per_game": 482.1,
-  "ace_dmg_taken_per_game": 250.9
+  "winrate": 51.5,
+  "ace_play_rate": 89.2,
+  "avg_ace_turn": 1.4,
+  "ace_atks_per_game": 2.87,
+  "ace_dmg_dealt_per_game": 474.7,
+  "ace_dmg_taken_per_game": 271.4
  },
  "Blood Moon Rising": {
   "section": "C",
-  "winrate": 31.1,
-  "ace_play_rate": 75.7,
-  "avg_ace_turn": 5.5,
-  "ace_atks_per_game": 1.33,
-  "ace_dmg_dealt_per_game": 304.4,
-  "ace_dmg_taken_per_game": 260.9
+  "winrate": 33.6,
+  "ace_play_rate": 79.5,
+  "avg_ace_turn": 4.6,
+  "ace_atks_per_game": 1.4,
+  "ace_dmg_dealt_per_game": 329.1,
+  "ace_dmg_taken_per_game": 295.7
  },
  "Sonic Wall": {
   "section": "C",
-  "winrate": 42.0,
-  "ace_play_rate": 81.9,
-  "avg_ace_turn": 5.6,
-  "ace_atks_per_game": 3.92,
-  "ace_dmg_dealt_per_game": 532.5,
-  "ace_dmg_taken_per_game": 242.6
+  "winrate": 38.7,
+  "ace_play_rate": 77.6,
+  "avg_ace_turn": 5.4,
+  "ace_atks_per_game": 3.45,
+  "ace_dmg_dealt_per_game": 454.6,
+  "ace_dmg_taken_per_game": 270.5
  },
  "Quick Draw": {
   "section": "C",
-  "winrate": 26.5,
-  "ace_play_rate": 81.8,
-  "avg_ace_turn": 4.7,
-  "ace_atks_per_game": 2.64,
-  "ace_dmg_dealt_per_game": 221.6,
-  "ace_dmg_taken_per_game": 203.1
+  "winrate": 26.4,
+  "ace_play_rate": 79.0,
+  "avg_ace_turn": 4.1,
+  "ace_atks_per_game": 2.52,
+  "ace_dmg_dealt_per_game": 218.0,
+  "ace_dmg_taken_per_game": 238.6
  },
  "Fresh Bite": {
   "section": "C",
-  "winrate": 58.2,
-  "ace_play_rate": 86.9,
-  "avg_ace_turn": 5.8,
-  "ace_atks_per_game": 4.66,
-  "ace_dmg_dealt_per_game": 628.5,
-  "ace_dmg_taken_per_game": 266.3
+  "winrate": 52.0,
+  "ace_play_rate": 83.8,
+  "avg_ace_turn": 4.4,
+  "ace_atks_per_game": 4.78,
+  "ace_dmg_dealt_per_game": 660.4,
+  "ace_dmg_taken_per_game": 352.1
  },
  "Ball Lightning": {
   "section": "C",
-  "winrate": 32.3,
-  "ace_play_rate": 88.8,
-  "avg_ace_turn": 3.7,
-  "ace_atks_per_game": 3.06,
-  "ace_dmg_dealt_per_game": 324.3,
-  "ace_dmg_taken_per_game": 262.7
+  "winrate": 33.2,
+  "ace_play_rate": 86.3,
+  "avg_ace_turn": 2.2,
+  "ace_atks_per_game": 2.79,
+  "ace_dmg_dealt_per_game": 309.6,
+  "ace_dmg_taken_per_game": 281.7
  },
  "Great Swing": {
   "section": "C",
-  "winrate": 71.8,
-  "ace_play_rate": 80.4,
-  "avg_ace_turn": 7.2,
-  "ace_atks_per_game": 3.07,
-  "ace_dmg_dealt_per_game": 824.4,
-  "ace_dmg_taken_per_game": 163.5
+  "winrate": 75.3,
+  "ace_play_rate": 84.8,
+  "avg_ace_turn": 6.6,
+  "ace_atks_per_game": 3.23,
+  "ace_dmg_dealt_per_game": 880.6,
+  "ace_dmg_taken_per_game": 181.1
  },
  "Mirror Beak": {
   "section": "C",
-  "winrate": 34.3,
-  "ace_play_rate": 83.8,
-  "avg_ace_turn": 4.3,
-  "ace_atks_per_game": 3.19,
-  "ace_dmg_dealt_per_game": 329.5,
-  "ace_dmg_taken_per_game": 243.5
+  "winrate": 34.8,
+  "ace_play_rate": 86.2,
+  "avg_ace_turn": 2.6,
+  "ace_atks_per_game": 3.14,
+  "ace_dmg_dealt_per_game": 340.0,
+  "ace_dmg_taken_per_game": 287.2
  },
  "Cyclizar Splash": {
   "section": "C",
-  "winrate": 53.5,
-  "ace_play_rate": 88.3,
-  "avg_ace_turn": 2.4,
-  "ace_atks_per_game": 2.59,
-  "ace_dmg_dealt_per_game": 435.7,
-  "ace_dmg_taken_per_game": 196.7
+  "winrate": 60.3,
+  "ace_play_rate": 89.8,
+  "avg_ace_turn": 1.3,
+  "ace_atks_per_game": 2.37,
+  "ace_dmg_dealt_per_game": 399.1,
+  "ace_dmg_taken_per_game": 219.2
  },
  "Terapagos Bench-Scale": {
   "section": "C",
-  "winrate": 50.2,
+  "winrate": 53.6,
   "ace_play_rate": 85.8,
-  "avg_ace_turn": 3.4,
-  "ace_atks_per_game": 2.81,
-  "ace_dmg_dealt_per_game": 395.5,
-  "ace_dmg_taken_per_game": 204.6
+  "avg_ace_turn": 2.5,
+  "ace_atks_per_game": 2.72,
+  "ace_dmg_dealt_per_game": 376.5,
+  "ace_dmg_taken_per_game": 221.8
  },
  "Bouffalant Herd": {
   "section": "C",
-  "winrate": 72.2,
-  "ace_play_rate": 90.5,
-  "avg_ace_turn": 1.5,
-  "ace_atks_per_game": 6.08,
-  "ace_dmg_dealt_per_game": 746.3,
-  "ace_dmg_taken_per_game": 160.3
+  "winrate": 73.8,
+  "ace_play_rate": 93.4,
+  "avg_ace_turn": 1.4,
+  "ace_atks_per_game": 5.72,
+  "ace_dmg_dealt_per_game": 744.5,
+  "ace_dmg_taken_per_game": 202.1
  },
  "Yveltal Soul Reap": {
   "section": "D",
-  "winrate": 27.9,
-  "ace_play_rate": 87.1,
-  "avg_ace_turn": 1.8,
-  "ace_atks_per_game": 2.39,
-  "ace_dmg_dealt_per_game": 512.9,
-  "ace_dmg_taken_per_game": 335.9
+  "winrate": 36.8,
+  "ace_play_rate": 88.1,
+  "avg_ace_turn": 1.9,
+  "ace_atks_per_game": 2.16,
+  "ace_dmg_dealt_per_game": 447.6,
+  "ace_dmg_taken_per_game": 322.6
  },
  "Okidogi Self-Poison Burst": {
   "section": "D",
-  "winrate": 37.6,
-  "ace_play_rate": 82.8,
-  "avg_ace_turn": 2.0,
-  "ace_atks_per_game": 4.29,
-  "ace_dmg_dealt_per_game": 599.5,
-  "ace_dmg_taken_per_game": 275.8
+  "winrate": 39.8,
+  "ace_play_rate": 84.8,
+  "avg_ace_turn": 1.3,
+  "ace_atks_per_game": 4.31,
+  "ace_dmg_dealt_per_game": 577.6,
+  "ace_dmg_taken_per_game": 321.8
  },
  "Marnie's Punk Up Wheel": {
   "section": "D",
-  "winrate": 58.8,
-  "ace_play_rate": 68.8,
-  "avg_ace_turn": 7.0,
-  "ace_atks_per_game": 2.16,
-  "ace_dmg_dealt_per_game": 454.5,
-  "ace_dmg_taken_per_game": 137.4
+  "winrate": 51.8,
+  "ace_play_rate": 69.0,
+  "avg_ace_turn": 5.7,
+  "ace_atks_per_game": 2.12,
+  "ace_dmg_dealt_per_game": 459.5,
+  "ace_dmg_taken_per_game": 175.5
  },
  "Tyranitar Item-Lock Twins": {
   "section": "D",
-  "winrate": 52.9,
-  "ace_play_rate": 78.0,
-  "avg_ace_turn": 5.5,
-  "ace_atks_per_game": 3.74,
-  "ace_dmg_dealt_per_game": 621.9,
-  "ace_dmg_taken_per_game": 243.5
+  "winrate": 53.3,
+  "ace_play_rate": 74.2,
+  "avg_ace_turn": 5.3,
+  "ace_atks_per_game": 3.04,
+  "ace_dmg_dealt_per_game": 554.2,
+  "ace_dmg_taken_per_game": 234.8
  },
  "Scrafty Counterattack Wall": {
   "section": "D",
-  "winrate": 50.5,
-  "ace_play_rate": 78.3,
-  "avg_ace_turn": 5.1,
-  "ace_atks_per_game": 3.02,
-  "ace_dmg_dealt_per_game": 490.4,
-  "ace_dmg_taken_per_game": 259.1
+  "winrate": 47.2,
+  "ace_play_rate": 76.0,
+  "avg_ace_turn": 4.6,
+  "ace_atks_per_game": 2.95,
+  "ace_dmg_dealt_per_game": 492.2,
+  "ace_dmg_taken_per_game": 295.2
  },
  "Krookodile Revenge Lockdown": {
   "section": "D",
-  "winrate": 39.5,
-  "ace_play_rate": 72.3,
-  "avg_ace_turn": 6.9,
-  "ace_atks_per_game": 2.91,
-  "ace_dmg_dealt_per_game": 361.3,
-  "ace_dmg_taken_per_game": 220.3
+  "winrate": 39.0,
+  "ace_play_rate": 66.6,
+  "avg_ace_turn": 6.2,
+  "ace_atks_per_game": 2.46,
+  "ace_dmg_dealt_per_game": 321.8,
+  "ace_dmg_taken_per_game": 228.8
  },
  "Clodsire Poison Lockdown": {
   "section": "D",
-  "winrate": 34.9,
-  "ace_play_rate": 76.0,
-  "avg_ace_turn": 5.3,
-  "ace_atks_per_game": 2.97,
-  "ace_dmg_dealt_per_game": 513.2,
-  "ace_dmg_taken_per_game": 279.5
+  "winrate": 38.4,
+  "ace_play_rate": 74.8,
+  "avg_ace_turn": 4.5,
+  "ace_atks_per_game": 2.52,
+  "ace_dmg_dealt_per_game": 438.5,
+  "ace_dmg_taken_per_game": 280.0
  },
  "Mandibuzz Bench Snipe": {
   "section": "D",
-  "winrate": 42.3,
-  "ace_play_rate": 83.7,
-  "avg_ace_turn": 4.6,
-  "ace_atks_per_game": 3.56,
-  "ace_dmg_dealt_per_game": 499.9,
-  "ace_dmg_taken_per_game": 263.8
+  "winrate": 38.0,
+  "ace_play_rate": 78.4,
+  "avg_ace_turn": 4.2,
+  "ace_atks_per_game": 3.02,
+  "ace_dmg_dealt_per_game": 433.7,
+  "ace_dmg_taken_per_game": 267.1
  },
  "Hydreigon Basic Bounty": {
   "section": "D",
-  "winrate": 41.5,
-  "ace_play_rate": 53.9,
-  "avg_ace_turn": 9.0,
-  "ace_atks_per_game": 0.92,
-  "ace_dmg_dealt_per_game": 181.2,
-  "ace_dmg_taken_per_game": 148.9
+  "winrate": 39.3,
+  "ace_play_rate": 59.9,
+  "avg_ace_turn": 7.2,
+  "ace_atks_per_game": 0.98,
+  "ace_dmg_dealt_per_game": 204.8,
+  "ace_dmg_taken_per_game": 182.7
  },
  "Sharpedo Glass Cannon": {
   "section": "D",
-  "winrate": 67.4,
-  "ace_play_rate": 83.8,
-  "avg_ace_turn": 4.8,
-  "ace_atks_per_game": 3.98,
-  "ace_dmg_dealt_per_game": 839.8,
-  "ace_dmg_taken_per_game": 198.9
+  "winrate": 65.3,
+  "ace_play_rate": 81.6,
+  "avg_ace_turn": 4.1,
+  "ace_atks_per_game": 3.82,
+  "ace_dmg_dealt_per_game": 824.0,
+  "ace_dmg_taken_per_game": 243.4
  },
  "Marnie's Ex-Punisher": {
   "section": "D",
-  "winrate": 56.8,
-  "ace_play_rate": 70.1,
-  "avg_ace_turn": 7.5,
-  "ace_atks_per_game": 2.14,
-  "ace_dmg_dealt_per_game": 448.1,
-  "ace_dmg_taken_per_game": 153.0
+  "winrate": 51.2,
+  "ace_play_rate": 65.9,
+  "avg_ace_turn": 7.2,
+  "ace_atks_per_game": 2.03,
+  "ace_dmg_dealt_per_game": 439.0,
+  "ace_dmg_taken_per_game": 164.3
  },
  "Absol Hand-Rip Aggro": {
   "section": "D",
-  "winrate": 60.7,
-  "ace_play_rate": 88.3,
-  "avg_ace_turn": 1.4,
-  "ace_atks_per_game": 3.84,
-  "ace_dmg_dealt_per_game": 776.4,
-  "ace_dmg_taken_per_game": 265.2
+  "winrate": 61.2,
+  "ace_play_rate": 89.0,
+  "avg_ace_turn": 1.3,
+  "ace_atks_per_game": 3.48,
+  "ace_dmg_dealt_per_game": 727.0,
+  "ace_dmg_taken_per_game": 302.3
  },
  "Munkidori Vanilla Beats": {
   "section": "D",
-  "winrate": 23.9,
-  "ace_play_rate": 80.8,
-  "avg_ace_turn": 2.9,
-  "ace_atks_per_game": 1.94,
-  "ace_dmg_dealt_per_game": 378.4,
-  "ace_dmg_taken_per_game": 278.4
+  "winrate": 28.0,
+  "ace_play_rate": 79.0,
+  "avg_ace_turn": 2.0,
+  "ace_atks_per_game": 1.76,
+  "ace_dmg_dealt_per_game": 356.2,
+  "ace_dmg_taken_per_game": 284.7
  },
  "Gust & Guarantee": {
   "section": "F",
-  "winrate": 59.5,
-  "ace_play_rate": 74.9,
-  "avg_ace_turn": 6.4,
-  "ace_atks_per_game": 2.03,
-  "ace_dmg_dealt_per_game": 434.9,
-  "ace_dmg_taken_per_game": 146.5
+  "winrate": 54.1,
+  "ace_play_rate": 70.3,
+  "avg_ace_turn": 5.9,
+  "ace_atks_per_game": 1.91,
+  "ace_dmg_dealt_per_game": 415.9,
+  "ace_dmg_taken_per_game": 163.9
  },
  "Stonewall Softener": {
   "section": "F",
-  "winrate": 58.7,
-  "ace_play_rate": 74.3,
-  "avg_ace_turn": 6.4,
-  "ace_atks_per_game": 2.0,
-  "ace_dmg_dealt_per_game": 425.1,
-  "ace_dmg_taken_per_game": 161.5
+  "winrate": 58.8,
+  "ace_play_rate": 73.7,
+  "avg_ace_turn": 5.9,
+  "ace_atks_per_game": 1.77,
+  "ace_dmg_dealt_per_game": 386.7,
+  "ace_dmg_taken_per_game": 156.1
  },
  "Champion's Call": {
   "section": "F",
-  "winrate": 59.1,
-  "ace_play_rate": 52.5,
-  "avg_ace_turn": 9.8,
-  "ace_atks_per_game": 1.71,
-  "ace_dmg_dealt_per_game": 346.2,
-  "ace_dmg_taken_per_game": 109.7
+  "winrate": 56.1,
+  "ace_play_rate": 58.1,
+  "avg_ace_turn": 7.5,
+  "ace_atks_per_game": 1.93,
+  "ace_dmg_dealt_per_game": 390.5,
+  "ace_dmg_taken_per_game": 154.4
  },
  "Rock Battery": {
   "section": "F",
-  "winrate": 49.4,
-  "ace_play_rate": 82.1,
-  "avg_ace_turn": 3.6,
-  "ace_atks_per_game": 2.13,
-  "ace_dmg_dealt_per_game": 357.7,
-  "ace_dmg_taken_per_game": 209.7
+  "winrate": 56.9,
+  "ace_play_rate": 79.5,
+  "avg_ace_turn": 3.0,
+  "ace_atks_per_game": 1.89,
+  "ace_dmg_dealt_per_game": 319.6,
+  "ace_dmg_taken_per_game": 202.5
  },
  "Aura Overflow": {
   "section": "F",
-  "winrate": 77.7,
-  "ace_play_rate": 82.6,
-  "avg_ace_turn": 5.1,
-  "ace_atks_per_game": 3.39,
-  "ace_dmg_dealt_per_game": 748.3,
-  "ace_dmg_taken_per_game": 151.4
+  "winrate": 74.3,
+  "ace_play_rate": 83.1,
+  "avg_ace_turn": 4.8,
+  "ace_atks_per_game": 3.31,
+  "ace_dmg_dealt_per_game": 743.9,
+  "ace_dmg_taken_per_game": 202.7
  },
  "Drill & Snipe": {
   "section": "F",
-  "winrate": 66.3,
-  "ace_play_rate": 80.0,
-  "avg_ace_turn": 5.3,
-  "ace_atks_per_game": 3.17,
-  "ace_dmg_dealt_per_game": 620.3,
-  "ace_dmg_taken_per_game": 163.0
+  "winrate": 64.9,
+  "ace_play_rate": 81.5,
+  "avg_ace_turn": 4.3,
+  "ace_atks_per_game": 3.26,
+  "ace_dmg_dealt_per_game": 646.6,
+  "ace_dmg_taken_per_game": 210.7
  },
  "Perfect Order Beatdown": {
   "section": "F",
-  "winrate": 76.9,
-  "ace_play_rate": 89.4,
-  "avg_ace_turn": 2.0,
-  "ace_atks_per_game": 3.96,
-  "ace_dmg_dealt_per_game": 865.2,
-  "ace_dmg_taken_per_game": 202.6
+  "winrate": 75.0,
+  "ace_play_rate": 90.2,
+  "avg_ace_turn": 1.4,
+  "ace_atks_per_game": 3.68,
+  "ace_dmg_dealt_per_game": 817.6,
+  "ace_dmg_taken_per_game": 225.2
  },
  "Grudge Match": {
   "section": "F",
-  "winrate": 53.7,
-  "ace_play_rate": 78.7,
-  "avg_ace_turn": 4.1,
-  "ace_atks_per_game": 3.26,
-  "ace_dmg_dealt_per_game": 448.9,
-  "ace_dmg_taken_per_game": 196.4
+  "winrate": 63.9,
+  "ace_play_rate": 71.0,
+  "avg_ace_turn": 2.7,
+  "ace_atks_per_game": 2.6,
+  "ace_dmg_dealt_per_game": 380.3,
+  "ace_dmg_taken_per_game": 179.1
  },
  "Cornerstone Fortress": {
   "section": "F",
-  "winrate": 62.2,
-  "ace_play_rate": 87.0,
-  "avg_ace_turn": 2.8,
-  "ace_atks_per_game": 3.33,
-  "ace_dmg_dealt_per_game": 490.7,
-  "ace_dmg_taken_per_game": 144.4
+  "winrate": 67.4,
+  "ace_play_rate": 83.8,
+  "avg_ace_turn": 2.5,
+  "ace_atks_per_game": 2.87,
+  "ace_dmg_dealt_per_game": 443.8,
+  "ace_dmg_taken_per_game": 148.0
  },
  "Stuck in the Mud": {
   "section": "F",
-  "winrate": 46.3,
-  "ace_play_rate": 76.7,
-  "avg_ace_turn": 4.7,
-  "ace_atks_per_game": 3.35,
-  "ace_dmg_dealt_per_game": 405.0,
-  "ace_dmg_taken_per_game": 225.9
+  "winrate": 47.4,
+  "ace_play_rate": 71.8,
+  "avg_ace_turn": 3.7,
+  "ace_atks_per_game": 2.81,
+  "ace_dmg_dealt_per_game": 342.6,
+  "ace_dmg_taken_per_game": 233.9
  },
  "Bait the Boulder": {
   "section": "F",
-  "winrate": 54.1,
-  "ace_play_rate": 65.5,
-  "avg_ace_turn": 4.8,
-  "ace_atks_per_game": 2.85,
-  "ace_dmg_dealt_per_game": 414.5,
-  "ace_dmg_taken_per_game": 162.5
+  "winrate": 56.0,
+  "ace_play_rate": 68.7,
+  "avg_ace_turn": 3.9,
+  "ace_atks_per_game": 2.67,
+  "ace_dmg_dealt_per_game": 411.6,
+  "ace_dmg_taken_per_game": 192.9
  },
  "Slow Burn": {
   "section": "F",
-  "winrate": 63.1,
-  "ace_play_rate": 82.2,
-  "avg_ace_turn": 5.6,
-  "ace_atks_per_game": 3.52,
-  "ace_dmg_dealt_per_game": 838.1,
-  "ace_dmg_taken_per_game": 185.1
+  "winrate": 60.9,
+  "ace_play_rate": 78.8,
+  "avg_ace_turn": 4.3,
+  "ace_atks_per_game": 3.4,
+  "ace_dmg_dealt_per_game": 733.6,
+  "ace_dmg_taken_per_game": 230.7
  },
  "Tusk Stampede": {
   "section": "F",
-  "winrate": 59.6,
-  "ace_play_rate": 66.6,
-  "avg_ace_turn": 8.4,
-  "ace_atks_per_game": 2.2,
-  "ace_dmg_dealt_per_game": 437.4,
-  "ace_dmg_taken_per_game": 124.5
+  "winrate": 62.5,
+  "ace_play_rate": 70.8,
+  "avg_ace_turn": 7.1,
+  "ace_atks_per_game": 2.43,
+  "ace_dmg_dealt_per_game": 506.5,
+  "ace_dmg_taken_per_game": 169.0
  },
  "Coinflip Comeback": {
   "section": "F",
-  "winrate": 52.0,
-  "ace_play_rate": 81.3,
-  "avg_ace_turn": 3.2,
-  "ace_atks_per_game": 2.9,
-  "ace_dmg_dealt_per_game": 389.6,
-  "ace_dmg_taken_per_game": 213.9
+  "winrate": 58.9,
+  "ace_play_rate": 80.2,
+  "avg_ace_turn": 2.6,
+  "ace_atks_per_game": 2.57,
+  "ace_dmg_dealt_per_game": 348.4,
+  "ace_dmg_taken_per_game": 225.6
  },
  "Mega Gallade Blitz": {
   "section": "F",
   "winrate": 67.1,
-  "ace_play_rate": 68.9,
-  "avg_ace_turn": 8.5,
-  "ace_atks_per_game": 2.64,
-  "ace_dmg_dealt_per_game": 578.6,
-  "ace_dmg_taken_per_game": 132.3
+  "ace_play_rate": 71.6,
+  "avg_ace_turn": 5.9,
+  "ace_atks_per_game": 2.93,
+  "ace_dmg_dealt_per_game": 669.1,
+  "ace_dmg_taken_per_game": 172.6
  },
  "Koraidon Kaiser": {
   "section": "F",
-  "winrate": 56.1,
-  "ace_play_rate": 82.7,
-  "avg_ace_turn": 2.9,
-  "ace_atks_per_game": 3.46,
-  "ace_dmg_dealt_per_game": 482.0,
-  "ace_dmg_taken_per_game": 204.2
+  "winrate": 50.8,
+  "ace_play_rate": 82.6,
+  "avg_ace_turn": 2.7,
+  "ace_atks_per_game": 2.88,
+  "ace_dmg_dealt_per_game": 418.5,
+  "ace_dmg_taken_per_game": 208.7
  },
  "Wild Growth Overdrive": {
   "section": "G",
-  "winrate": 49.9,
-  "ace_play_rate": 69.5,
-  "avg_ace_turn": 6.3,
-  "ace_atks_per_game": 1.9,
-  "ace_dmg_dealt_per_game": 464.6,
-  "ace_dmg_taken_per_game": 219.7
+  "winrate": 42.6,
+  "ace_play_rate": 70.8,
+  "avg_ace_turn": 5.3,
+  "ace_atks_per_game": 1.88,
+  "ace_dmg_dealt_per_game": 474.1,
+  "ace_dmg_taken_per_game": 284.1
  },
  "Erika's Garden Party": {
   "section": "G",
-  "winrate": 63.9,
-  "ace_play_rate": 78.5,
-  "avg_ace_turn": 5.1,
-  "ace_atks_per_game": 2.76,
-  "ace_dmg_dealt_per_game": 453.3,
-  "ace_dmg_taken_per_game": 204.0
+  "winrate": 57.2,
+  "ace_play_rate": 75.3,
+  "avg_ace_turn": 4.7,
+  "ace_atks_per_game": 2.72,
+  "ace_dmg_dealt_per_game": 455.0,
+  "ace_dmg_taken_per_game": 233.8
  },
  "Forest March": {
   "section": "G",
-  "winrate": 61.5,
-  "ace_play_rate": 80.0,
-  "avg_ace_turn": 5.4,
-  "ace_atks_per_game": 3.42,
-  "ace_dmg_dealt_per_game": 530.9,
-  "ace_dmg_taken_per_game": 214.2
+  "winrate": 60.3,
+  "ace_play_rate": 82.3,
+  "avg_ace_turn": 4.1,
+  "ace_atks_per_game": 3.86,
+  "ace_dmg_dealt_per_game": 576.2,
+  "ace_dmg_taken_per_game": 302.0
  },
  "Spore Lock": {
   "section": "G",
-  "winrate": 40.3,
-  "ace_play_rate": 75.1,
-  "avg_ace_turn": 5.6,
-  "ace_atks_per_game": 3.64,
-  "ace_dmg_dealt_per_game": 329.7,
-  "ace_dmg_taken_per_game": 224.6
+  "winrate": 38.5,
+  "ace_play_rate": 74.4,
+  "avg_ace_turn": 4.1,
+  "ace_atks_per_game": 3.35,
+  "ace_dmg_dealt_per_game": 311.5,
+  "ace_dmg_taken_per_game": 261.5
  },
  "Oil Salvo Sniper": {
   "section": "G",
-  "winrate": 50.0,
-  "ace_play_rate": 77.6,
-  "avg_ace_turn": 5.1,
-  "ace_atks_per_game": 2.35,
-  "ace_dmg_dealt_per_game": 389.1,
-  "ace_dmg_taken_per_game": 229.2
+  "winrate": 40.2,
+  "ace_play_rate": 76.7,
+  "avg_ace_turn": 4.4,
+  "ace_atks_per_game": 2.23,
+  "ace_dmg_dealt_per_game": 376.2,
+  "ace_dmg_taken_per_game": 280.7
  },
  "Regal Cheer Aggro": {
   "section": "G",
-  "winrate": 30.5,
-  "ace_play_rate": 72.5,
-  "avg_ace_turn": 5.8,
-  "ace_atks_per_game": 1.51,
-  "ace_dmg_dealt_per_game": 233.8,
-  "ace_dmg_taken_per_game": 256.1
+  "winrate": 31.7,
+  "ace_play_rate": 68.0,
+  "avg_ace_turn": 5.5,
+  "ace_atks_per_game": 1.41,
+  "ace_dmg_dealt_per_game": 224.2,
+  "ace_dmg_taken_per_game": 244.9
  },
  "Solar Bank": {
   "section": "G",
-  "winrate": 48.8,
-  "ace_play_rate": 74.2,
-  "avg_ace_turn": 5.7,
-  "ace_atks_per_game": 2.04,
-  "ace_dmg_dealt_per_game": 500.5,
-  "ace_dmg_taken_per_game": 257.0
+  "winrate": 44.2,
+  "ace_play_rate": 71.7,
+  "avg_ace_turn": 4.8,
+  "ace_atks_per_game": 1.94,
+  "ace_dmg_dealt_per_game": 478.2,
+  "ace_dmg_taken_per_game": 286.0
  },
  "Swarm of the Hive": {
   "section": "G",
-  "winrate": 51.6,
-  "ace_play_rate": 77.5,
-  "avg_ace_turn": 4.8,
-  "ace_atks_per_game": 3.53,
-  "ace_dmg_dealt_per_game": 400.2,
-  "ace_dmg_taken_per_game": 225.6
+  "winrate": 44.4,
+  "ace_play_rate": 76.9,
+  "avg_ace_turn": 3.9,
+  "ace_atks_per_game": 3.45,
+  "ace_dmg_dealt_per_game": 404.3,
+  "ace_dmg_taken_per_game": 289.8
  },
  "Buzzing Boost Shuttle": {
   "section": "G",
-  "winrate": 39.0,
-  "ace_play_rate": 76.8,
-  "avg_ace_turn": 5.1,
-  "ace_atks_per_game": 1.82,
-  "ace_dmg_dealt_per_game": 395.4,
-  "ace_dmg_taken_per_game": 215.0
+  "winrate": 47.6,
+  "ace_play_rate": 76.7,
+  "avg_ace_turn": 4.6,
+  "ace_atks_per_game": 2.05,
+  "ace_dmg_dealt_per_game": 452.2,
+  "ace_dmg_taken_per_game": 204.2
  },
  "Juggernaut Wall": {
   "section": "G",
-  "winrate": 64.8,
-  "ace_play_rate": 90.3,
-  "avg_ace_turn": 1.5,
-  "ace_atks_per_game": 4.13,
-  "ace_dmg_dealt_per_game": 673.7,
-  "ace_dmg_taken_per_game": 236.7
+  "winrate": 69.5,
+  "ace_play_rate": 89.7,
+  "avg_ace_turn": 0.9,
+  "ace_atks_per_game": 3.84,
+  "ace_dmg_dealt_per_game": 630.8,
+  "ace_dmg_taken_per_game": 281.0
  },
  "Energy Gift Express": {
   "section": "G",
-  "winrate": 16.5,
+  "winrate": 28.8,
   "ace_play_rate": 0.0,
   "avg_ace_turn": 0.0,
   "ace_atks_per_game": 0.0,
@@ -532,956 +532,956 @@
  },
  "Arrow of Denial": {
   "section": "G",
-  "winrate": 38.1,
-  "ace_play_rate": 55.9,
-  "avg_ace_turn": 7.8,
-  "ace_atks_per_game": 1.07,
-  "ace_dmg_dealt_per_game": 260.8,
-  "ace_dmg_taken_per_game": 171.5
+  "winrate": 43.3,
+  "ace_play_rate": 58.6,
+  "avg_ace_turn": 7.1,
+  "ace_atks_per_game": 1.1,
+  "ace_dmg_dealt_per_game": 280.4,
+  "ace_dmg_taken_per_game": 159.9
  },
  "Rapid Vernier Nova": {
   "section": "G",
-  "winrate": 30.7,
-  "ace_play_rate": 88.9,
-  "avg_ace_turn": 1.9,
-  "ace_atks_per_game": 2.11,
-  "ace_dmg_dealt_per_game": 400.9,
-  "ace_dmg_taken_per_game": 265.3
+  "winrate": 43.6,
+  "ace_play_rate": 91.2,
+  "avg_ace_turn": 1.2,
+  "ace_atks_per_game": 1.9,
+  "ace_dmg_dealt_per_game": 367.5,
+  "ace_dmg_taken_per_game": 279.5
  },
  "Bottom-Deck Gambit": {
   "section": "G",
-  "winrate": 53.6,
-  "ace_play_rate": 72.9,
-  "avg_ace_turn": 5.7,
-  "ace_atks_per_game": 3.82,
-  "ace_dmg_dealt_per_game": 538.2,
-  "ace_dmg_taken_per_game": 177.3
+  "winrate": 50.2,
+  "ace_play_rate": 68.4,
+  "avg_ace_turn": 5.3,
+  "ace_atks_per_game": 3.05,
+  "ace_dmg_dealt_per_game": 512.9,
+  "ace_dmg_taken_per_game": 162.8
  },
  "Steeped Discard": {
   "section": "G",
-  "winrate": 50.4,
-  "ace_play_rate": 80.2,
-  "avg_ace_turn": 3.9,
-  "ace_atks_per_game": 3.49,
-  "ace_dmg_dealt_per_game": 430.1,
-  "ace_dmg_taken_per_game": 237.0
+  "winrate": 49.5,
+  "ace_play_rate": 82.1,
+  "avg_ace_turn": 3.6,
+  "ace_atks_per_game": 3.13,
+  "ace_dmg_dealt_per_game": 396.8,
+  "ace_dmg_taken_per_game": 269.3
  },
  "Vengeful Attrition": {
   "section": "G",
-  "winrate": 47.5,
-  "ace_play_rate": 90.8,
-  "avg_ace_turn": 1.9,
-  "ace_atks_per_game": 2.97,
-  "ace_dmg_dealt_per_game": 491.4,
-  "ace_dmg_taken_per_game": 225.5
+  "winrate": 52.8,
+  "ace_play_rate": 90.0,
+  "avg_ace_turn": 1.6,
+  "ace_atks_per_game": 2.55,
+  "ace_dmg_dealt_per_game": 418.0,
+  "ace_dmg_taken_per_game": 227.2
  },
  "Mega Meganium Bouquet": {
   "section": "G",
-  "winrate": 57.5,
-  "ace_play_rate": 75.9,
-  "avg_ace_turn": 5.6,
-  "ace_atks_per_game": 2.43,
-  "ace_dmg_dealt_per_game": 764.7,
-  "ace_dmg_taken_per_game": 183.7
+  "winrate": 61.4,
+  "ace_play_rate": 76.5,
+  "avg_ace_turn": 5.3,
+  "ace_atks_per_game": 2.15,
+  "ace_dmg_dealt_per_game": 724.5,
+  "ace_dmg_taken_per_game": 184.6
  },
  "Hydrapple Syrup Storm": {
   "section": "G",
-  "winrate": 50.8,
-  "ace_play_rate": 71.2,
-  "avg_ace_turn": 5.7,
-  "ace_atks_per_game": 2.71,
-  "ace_dmg_dealt_per_game": 429.1,
-  "ace_dmg_taken_per_game": 190.8
+  "winrate": 50.4,
+  "ace_play_rate": 75.5,
+  "avg_ace_turn": 5.0,
+  "ace_atks_per_game": 2.67,
+  "ace_dmg_dealt_per_game": 427.2,
+  "ace_dmg_taken_per_game": 228.4
  },
  "Bench Fortress": {
   "section": "G",
-  "winrate": 58.0,
-  "ace_play_rate": 79.2,
-  "avg_ace_turn": 5.0,
-  "ace_atks_per_game": 3.33,
-  "ace_dmg_dealt_per_game": 522.1,
-  "ace_dmg_taken_per_game": 220.1
+  "winrate": 57.0,
+  "ace_play_rate": 81.1,
+  "avg_ace_turn": 4.0,
+  "ace_atks_per_game": 3.89,
+  "ace_dmg_dealt_per_game": 575.1,
+  "ace_dmg_taken_per_game": 310.3
  },
  "Eelektrik Recursion": {
   "section": "L",
-  "winrate": 71.0,
-  "ace_play_rate": 88.1,
-  "avg_ace_turn": 8.0,
-  "ace_atks_per_game": 3.11,
-  "ace_dmg_dealt_per_game": 613.4,
-  "ace_dmg_taken_per_game": 260.5
+  "winrate": 62.2,
+  "ace_play_rate": 82.3,
+  "avg_ace_turn": 6.2,
+  "ace_atks_per_game": 3.1,
+  "ace_dmg_dealt_per_game": 611.2,
+  "ace_dmg_taken_per_game": 268.7
  },
  "Overvolt Overload": {
   "section": "L",
-  "winrate": 77.3,
-  "ace_play_rate": 86.1,
-  "avg_ace_turn": 8.0,
-  "ace_atks_per_game": 3.38,
-  "ace_dmg_dealt_per_game": 903.5,
-  "ace_dmg_taken_per_game": 144.5
+  "winrate": 73.0,
+  "ace_play_rate": 83.4,
+  "avg_ace_turn": 7.8,
+  "ace_atks_per_game": 3.16,
+  "ace_dmg_dealt_per_game": 861.2,
+  "ace_dmg_taken_per_game": 165.6
  },
  "Iono's Streamer": {
   "section": "L",
-  "winrate": 61.4,
-  "ace_play_rate": 80.9,
-  "avg_ace_turn": 11.6,
-  "ace_atks_per_game": 2.01,
-  "ace_dmg_dealt_per_game": 485.0,
-  "ace_dmg_taken_per_game": 202.8
+  "winrate": 54.0,
+  "ace_play_rate": 72.6,
+  "avg_ace_turn": 10.8,
+  "ace_atks_per_game": 1.61,
+  "ace_dmg_dealt_per_game": 393.3,
+  "ace_dmg_taken_per_game": 189.6
  },
  "Manectric Aggro": {
   "section": "L",
-  "winrate": 66.2,
-  "ace_play_rate": 79.5,
-  "avg_ace_turn": 11.1,
-  "ace_atks_per_game": 3.17,
-  "ace_dmg_dealt_per_game": 505.5,
-  "ace_dmg_taken_per_game": 227.0
+  "winrate": 58.9,
+  "ace_play_rate": 78.3,
+  "avg_ace_turn": 9.5,
+  "ace_atks_per_game": 3.04,
+  "ace_dmg_dealt_per_game": 492.9,
+  "ace_dmg_taken_per_game": 268.1
  },
  "Luxray Nuke": {
   "section": "L",
-  "winrate": 74.8,
-  "ace_play_rate": 59.5,
-  "avg_ace_turn": 15.3,
-  "ace_atks_per_game": 1.48,
-  "ace_dmg_dealt_per_game": 389.4,
-  "ace_dmg_taken_per_game": 123.6
+  "winrate": 61.6,
+  "ace_play_rate": 68.4,
+  "avg_ace_turn": 14.7,
+  "ace_atks_per_game": 1.79,
+  "ace_dmg_dealt_per_game": 459.3,
+  "ace_dmg_taken_per_game": 157.7
  },
  "Iron Thorns Lock": {
   "section": "L",
-  "winrate": 67.7,
-  "ace_play_rate": 87.3,
-  "avg_ace_turn": 4.6,
-  "ace_atks_per_game": 3.44,
-  "ace_dmg_dealt_per_game": 502.8,
-  "ace_dmg_taken_per_game": 225.2
+  "winrate": 63.6,
+  "ace_play_rate": 90.7,
+  "avg_ace_turn": 3.5,
+  "ace_atks_per_game": 3.16,
+  "ace_dmg_dealt_per_game": 472.2,
+  "ace_dmg_taken_per_game": 284.0
  },
  "Kilowattrel Pivot": {
   "section": "L",
-  "winrate": 76.9,
-  "ace_play_rate": 86.9,
-  "avg_ace_turn": 8.9,
-  "ace_atks_per_game": 3.4,
-  "ace_dmg_dealt_per_game": 654.7,
-  "ace_dmg_taken_per_game": 159.5
+  "winrate": 67.1,
+  "ace_play_rate": 84.2,
+  "avg_ace_turn": 8.4,
+  "ace_atks_per_game": 3.15,
+  "ace_dmg_dealt_per_game": 608.7,
+  "ace_dmg_taken_per_game": 206.5
  },
  "Hop's Pincurchin": {
   "section": "L",
-  "winrate": 58.0,
-  "ace_play_rate": 81.7,
-  "avg_ace_turn": 6.9,
-  "ace_atks_per_game": 2.75,
-  "ace_dmg_dealt_per_game": 348.2,
-  "ace_dmg_taken_per_game": 199.9
+  "winrate": 49.0,
+  "ace_play_rate": 81.1,
+  "avg_ace_turn": 5.4,
+  "ace_atks_per_game": 2.25,
+  "ace_dmg_dealt_per_game": 291.4,
+  "ace_dmg_taken_per_game": 229.3
  },
  "Tapu Koko Swarm": {
   "section": "L",
-  "winrate": 62.6,
-  "ace_play_rate": 84.5,
-  "avg_ace_turn": 6.0,
-  "ace_atks_per_game": 3.11,
-  "ace_dmg_dealt_per_game": 411.1,
-  "ace_dmg_taken_per_game": 194.8
+  "winrate": 59.9,
+  "ace_play_rate": 89.7,
+  "avg_ace_turn": 4.0,
+  "ace_atks_per_game": 3.04,
+  "ace_dmg_dealt_per_game": 426.6,
+  "ace_dmg_taken_per_game": 232.3
  },
  "Zekrom Comeback": {
   "section": "L",
-  "winrate": 76.1,
-  "ace_play_rate": 80.6,
-  "avg_ace_turn": 7.0,
-  "ace_atks_per_game": 3.16,
-  "ace_dmg_dealt_per_game": 508.4,
-  "ace_dmg_taken_per_game": 162.3
+  "winrate": 60.0,
+  "ace_play_rate": 81.0,
+  "avg_ace_turn": 6.4,
+  "ace_atks_per_game": 2.9,
+  "ace_dmg_dealt_per_game": 495.1,
+  "ace_dmg_taken_per_game": 187.2
  },
  "Rotom Tool": {
   "section": "L",
-  "winrate": 63.6,
-  "ace_play_rate": 85.4,
-  "avg_ace_turn": 5.8,
-  "ace_atks_per_game": 2.38,
-  "ace_dmg_dealt_per_game": 325.0,
-  "ace_dmg_taken_per_game": 223.3
+  "winrate": 53.9,
+  "ace_play_rate": 87.3,
+  "avg_ace_turn": 3.3,
+  "ace_atks_per_game": 2.26,
+  "ace_dmg_dealt_per_game": 317.9,
+  "ace_dmg_taken_per_game": 259.6
  },
  "Miraidon Hadron": {
   "section": "L",
-  "winrate": 69.0,
-  "ace_play_rate": 90.7,
-  "avg_ace_turn": 2.3,
-  "ace_atks_per_game": 4.76,
-  "ace_dmg_dealt_per_game": 695.4,
-  "ace_dmg_taken_per_game": 228.8
+  "winrate": 62.9,
+  "ace_play_rate": 90.1,
+  "avg_ace_turn": 2.4,
+  "ace_atks_per_game": 4.08,
+  "ace_dmg_dealt_per_game": 615.5,
+  "ace_dmg_taken_per_game": 251.6
  },
  "Steven's Steel Sanctuary": {
   "section": "M",
-  "winrate": 50.1,
-  "ace_play_rate": 70.6,
-  "avg_ace_turn": 4.2,
-  "ace_atks_per_game": 2.18,
-  "ace_dmg_dealt_per_game": 474.5,
-  "ace_dmg_taken_per_game": 213.0
+  "winrate": 57.1,
+  "ace_play_rate": 73.5,
+  "avg_ace_turn": 4.4,
+  "ace_atks_per_game": 2.15,
+  "ace_dmg_dealt_per_game": 467.1,
+  "ace_dmg_taken_per_game": 217.6
  },
  "Alloy Bulwark": {
   "section": "M",
-  "winrate": 46.5,
-  "ace_play_rate": 80.9,
-  "avg_ace_turn": 4.8,
-  "ace_atks_per_game": 2.77,
-  "ace_dmg_dealt_per_game": 669.9,
-  "ace_dmg_taken_per_game": 268.2
+  "winrate": 46.7,
+  "ace_play_rate": 77.5,
+  "avg_ace_turn": 4.4,
+  "ace_atks_per_game": 2.4,
+  "ace_dmg_dealt_per_game": 572.7,
+  "ace_dmg_taken_per_game": 280.5
  },
  "Regi-Charge Attrition": {
   "section": "M",
-  "winrate": 54.5,
-  "ace_play_rate": 90.0,
-  "avg_ace_turn": 2.1,
-  "ace_atks_per_game": 3.2,
-  "ace_dmg_dealt_per_game": 488.7,
-  "ace_dmg_taken_per_game": 201.5
+  "winrate": 57.3,
+  "ace_play_rate": 85.5,
+  "avg_ace_turn": 1.5,
+  "ace_atks_per_game": 2.99,
+  "ace_dmg_dealt_per_game": 457.3,
+  "ace_dmg_taken_per_game": 203.5
  },
  "Emperor's Stance Wall": {
   "section": "M",
-  "winrate": 47.4,
-  "ace_play_rate": 75.4,
-  "avg_ace_turn": 6.4,
-  "ace_atks_per_game": 2.75,
-  "ace_dmg_dealt_per_game": 624.3,
-  "ace_dmg_taken_per_game": 186.7
+  "winrate": 47.5,
+  "ace_play_rate": 72.7,
+  "avg_ace_turn": 5.3,
+  "ace_atks_per_game": 2.64,
+  "ace_dmg_dealt_per_game": 603.7,
+  "ace_dmg_taken_per_game": 194.7
  },
  "Alloy Overdrive": {
   "section": "M",
-  "winrate": 46.6,
-  "ace_play_rate": 80.9,
-  "avg_ace_turn": 4.9,
-  "ace_atks_per_game": 2.64,
-  "ace_dmg_dealt_per_game": 636.2,
-  "ace_dmg_taken_per_game": 229.6
+  "winrate": 50.9,
+  "ace_play_rate": 76.9,
+  "avg_ace_turn": 4.3,
+  "ace_atks_per_game": 2.39,
+  "ace_dmg_dealt_per_game": 577.1,
+  "ace_dmg_taken_per_game": 263.9
  },
  "Bench Battery": {
   "section": "M",
-  "winrate": 64.7,
-  "ace_play_rate": 89.1,
-  "avg_ace_turn": 1.4,
-  "ace_atks_per_game": 4.03,
-  "ace_dmg_dealt_per_game": 870.4,
-  "ace_dmg_taken_per_game": 238.8
+  "winrate": 61.7,
+  "ace_play_rate": 87.4,
+  "avg_ace_turn": 1.5,
+  "ace_atks_per_game": 3.57,
+  "ace_dmg_dealt_per_game": 779.1,
+  "ace_dmg_taken_per_game": 255.1
  },
  "Hop's Champion Rush": {
   "section": "M",
   "winrate": 38.0,
-  "ace_play_rate": 82.5,
-  "avg_ace_turn": 3.3,
-  "ace_atks_per_game": 4.36,
-  "ace_dmg_dealt_per_game": 551.7,
-  "ace_dmg_taken_per_game": 287.6
+  "ace_play_rate": 78.3,
+  "avg_ace_turn": 3.0,
+  "ace_atks_per_game": 3.73,
+  "ace_dmg_dealt_per_game": 444.4,
+  "ace_dmg_taken_per_game": 313.4
  },
  "Steel Armament Blitz": {
   "section": "M",
-  "winrate": 23.7,
-  "ace_play_rate": 75.3,
-  "avg_ace_turn": 3.2,
-  "ace_atks_per_game": 4.6,
-  "ace_dmg_dealt_per_game": 468.7,
-  "ace_dmg_taken_per_game": 288.3
+  "winrate": 21.1,
+  "ace_play_rate": 75.5,
+  "avg_ace_turn": 1.6,
+  "ace_atks_per_game": 4.13,
+  "ace_dmg_dealt_per_game": 430.0,
+  "ace_dmg_taken_per_game": 319.6
  },
  "Metallic Signal Toolbox": {
   "section": "M",
-  "winrate": 46.8,
-  "ace_play_rate": 87.8,
-  "avg_ace_turn": 2.0,
-  "ace_atks_per_game": 3.44,
-  "ace_dmg_dealt_per_game": 565.5,
-  "ace_dmg_taken_per_game": 197.4
+  "winrate": 48.1,
+  "ace_play_rate": 84.2,
+  "avg_ace_turn": 1.7,
+  "ace_atks_per_game": 3.09,
+  "ace_dmg_dealt_per_game": 503.0,
+  "ace_dmg_taken_per_game": 247.8
  },
  "Chrono Draw Engine": {
   "section": "M",
-  "winrate": 31.4,
-  "ace_play_rate": 88.3,
-  "avg_ace_turn": 2.1,
-  "ace_atks_per_game": 4.13,
-  "ace_dmg_dealt_per_game": 493.2,
-  "ace_dmg_taken_per_game": 284.6
+  "winrate": 35.8,
+  "ace_play_rate": 84.8,
+  "avg_ace_turn": 2.0,
+  "ace_atks_per_game": 3.63,
+  "ace_dmg_dealt_per_game": 485.6,
+  "ace_dmg_taken_per_game": 297.3
  },
  "Prize Snowball": {
   "section": "M",
-  "winrate": 67.4,
-  "ace_play_rate": 90.5,
-  "avg_ace_turn": 1.6,
-  "ace_atks_per_game": 3.58,
-  "ace_dmg_dealt_per_game": 1094.0,
-  "ace_dmg_taken_per_game": 222.3
+  "winrate": 67.7,
+  "ace_play_rate": 88.6,
+  "avg_ace_turn": 1.2,
+  "ace_atks_per_game": 3.44,
+  "ace_dmg_dealt_per_game": 1036.6,
+  "ace_dmg_taken_per_game": 238.0
  },
  "Static Cling Combo": {
   "section": "M",
-  "winrate": 26.3,
-  "ace_play_rate": 79.9,
-  "avg_ace_turn": 2.4,
-  "ace_atks_per_game": 4.26,
-  "ace_dmg_dealt_per_game": 314.2,
-  "ace_dmg_taken_per_game": 258.0
+  "winrate": 20.3,
+  "ace_play_rate": 80.0,
+  "avg_ace_turn": 1.7,
+  "ace_atks_per_game": 3.98,
+  "ace_dmg_dealt_per_game": 290.9,
+  "ace_dmg_taken_per_game": 311.2
  },
  "Cinderace Snipe": {
   "section": "MULTI",
-  "winrate": 51.0,
-  "ace_play_rate": 53.9,
-  "avg_ace_turn": 9.6,
-  "ace_atks_per_game": 1.16,
-  "ace_dmg_dealt_per_game": 334.7,
-  "ace_dmg_taken_per_game": 129.2
+  "winrate": 64.6,
+  "ace_play_rate": 57.4,
+  "avg_ace_turn": 7.8,
+  "ace_atks_per_game": 1.37,
+  "ace_dmg_dealt_per_game": 406.4,
+  "ace_dmg_taken_per_game": 119.5
  },
  "Salamence Splash": {
   "section": "MULTI",
-  "winrate": 48.7,
-  "ace_play_rate": 54.4,
-  "avg_ace_turn": 7.9,
-  "ace_atks_per_game": 1.67,
-  "ace_dmg_dealt_per_game": 415.6,
-  "ace_dmg_taken_per_game": 131.8
+  "winrate": 53.0,
+  "ace_play_rate": 62.1,
+  "avg_ace_turn": 5.4,
+  "ace_atks_per_game": 2.17,
+  "ace_dmg_dealt_per_game": 562.5,
+  "ace_dmg_taken_per_game": 143.3
  },
  "Galvantula Item-Lock": {
   "section": "MULTI",
-  "winrate": 62.5,
-  "ace_play_rate": 67.2,
-  "avg_ace_turn": 9.4,
-  "ace_atks_per_game": 2.28,
-  "ace_dmg_dealt_per_game": 376.3,
-  "ace_dmg_taken_per_game": 128.8
+  "winrate": 58.7,
+  "ace_play_rate": 73.1,
+  "avg_ace_turn": 8.1,
+  "ace_atks_per_game": 2.5,
+  "ace_dmg_dealt_per_game": 435.6,
+  "ace_dmg_taken_per_game": 161.5
  },
  "Alolan Exeggutor KO-Flip": {
   "section": "MULTI",
-  "winrate": 57.9,
-  "ace_play_rate": 80.5,
-  "avg_ace_turn": 5.3,
-  "ace_atks_per_game": 2.49,
-  "ace_dmg_dealt_per_game": 361.0,
-  "ace_dmg_taken_per_game": 197.5
+  "winrate": 56.0,
+  "ace_play_rate": 76.7,
+  "avg_ace_turn": 4.7,
+  "ace_atks_per_game": 2.43,
+  "ace_dmg_dealt_per_game": 359.5,
+  "ace_dmg_taken_per_game": 198.0
  },
  "Miraidon Future": {
   "section": "MULTI",
-  "winrate": 66.6,
-  "ace_play_rate": 82.1,
-  "avg_ace_turn": 3.6,
-  "ace_atks_per_game": 3.98,
-  "ace_dmg_dealt_per_game": 581.7,
-  "ace_dmg_taken_per_game": 194.7
+  "winrate": 64.7,
+  "ace_play_rate": 89.0,
+  "avg_ace_turn": 2.3,
+  "ace_atks_per_game": 3.93,
+  "ace_dmg_dealt_per_game": 595.8,
+  "ace_dmg_taken_per_game": 241.2
  },
  "Flygon Anti-Ex": {
   "section": "MULTI",
-  "winrate": 58.9,
-  "ace_play_rate": 67.5,
-  "avg_ace_turn": 7.1,
-  "ace_atks_per_game": 2.24,
-  "ace_dmg_dealt_per_game": 392.0,
-  "ace_dmg_taken_per_game": 150.0
+  "winrate": 60.6,
+  "ace_play_rate": 74.3,
+  "avg_ace_turn": 6.0,
+  "ace_atks_per_game": 2.48,
+  "ace_dmg_dealt_per_game": 432.0,
+  "ace_dmg_taken_per_game": 202.4
  },
  "Mega Dragalge Poison": {
   "section": "MULTI",
-  "winrate": 64.9,
-  "ace_play_rate": 73.2,
-  "avg_ace_turn": 5.4,
-  "ace_atks_per_game": 2.33,
+  "winrate": 66.2,
+  "ace_play_rate": 78.0,
+  "avg_ace_turn": 4.3,
+  "ace_atks_per_game": 2.81,
   "ace_dmg_dealt_per_game": 0.0,
-  "ace_dmg_taken_per_game": 153.1
+  "ace_dmg_taken_per_game": 192.2
  },
  "Palossand Control": {
   "section": "MULTI",
-  "winrate": 53.3,
-  "ace_play_rate": 78.2,
-  "avg_ace_turn": 4.7,
+  "winrate": 53.4,
+  "ace_play_rate": 75.7,
+  "avg_ace_turn": 4.4,
   "ace_atks_per_game": 2.23,
-  "ace_dmg_dealt_per_game": 349.2,
-  "ace_dmg_taken_per_game": 195.6
+  "ace_dmg_dealt_per_game": 356.9,
+  "ace_dmg_taken_per_game": 207.2
  },
  "Tatsugiri Toolbox": {
   "section": "MULTI",
-  "winrate": 34.5,
-  "ace_play_rate": 68.1,
-  "avg_ace_turn": 4.8,
-  "ace_atks_per_game": 2.16,
-  "ace_dmg_dealt_per_game": 211.2,
-  "ace_dmg_taken_per_game": 147.8
+  "winrate": 37.8,
+  "ace_play_rate": 70.4,
+  "avg_ace_turn": 3.7,
+  "ace_atks_per_game": 1.95,
+  "ace_dmg_dealt_per_game": 192.3,
+  "ace_dmg_taken_per_game": 173.5
  },
  "Mega Latias Nuke": {
   "section": "MULTI",
-  "winrate": 62.2,
-  "ace_play_rate": 87.8,
-  "avg_ace_turn": 2.0,
-  "ace_atks_per_game": 7.17,
-  "ace_dmg_dealt_per_game": 892.8,
-  "ace_dmg_taken_per_game": 387.2
+  "winrate": 60.7,
+  "ace_play_rate": 88.1,
+  "avg_ace_turn": 1.1,
+  "ace_atks_per_game": 6.66,
+  "ace_dmg_dealt_per_game": 847.9,
+  "ace_dmg_taken_per_game": 443.8
  },
  "Mega Skarmory Snipe": {
   "section": "M",
-  "winrate": 6.9,
-  "ace_play_rate": 79.1,
-  "avg_ace_turn": 3.9,
-  "ace_atks_per_game": 0.67,
-  "ace_dmg_dealt_per_game": 148.2,
-  "ace_dmg_taken_per_game": 280.2
+  "winrate": 8.0,
+  "ace_play_rate": 76.3,
+  "avg_ace_turn": 3.5,
+  "ace_atks_per_game": 0.74,
+  "ace_dmg_dealt_per_game": 163.7,
+  "ace_dmg_taken_per_game": 281.0
  },
  "Revavroom Hit-and-Run": {
   "section": "M",
-  "winrate": 50.1,
-  "ace_play_rate": 81.4,
-  "avg_ace_turn": 4.4,
-  "ace_atks_per_game": 3.82,
-  "ace_dmg_dealt_per_game": 689.4,
-  "ace_dmg_taken_per_game": 228.9
+  "winrate": 43.3,
+  "ace_play_rate": 80.2,
+  "avg_ace_turn": 4.1,
+  "ace_atks_per_game": 3.73,
+  "ace_dmg_dealt_per_game": 640.2,
+  "ace_dmg_taken_per_game": 297.4
  },
  "Scizor Flex": {
   "section": "M",
-  "winrate": 39.3,
-  "ace_play_rate": 79.4,
-  "avg_ace_turn": 5.5,
-  "ace_atks_per_game": 3.11,
-  "ace_dmg_dealt_per_game": 612.7,
-  "ace_dmg_taken_per_game": 254.9
+  "winrate": 40.5,
+  "ace_play_rate": 73.6,
+  "avg_ace_turn": 5.0,
+  "ace_atks_per_game": 2.49,
+  "ace_dmg_dealt_per_game": 561.9,
+  "ace_dmg_taken_per_game": 224.5
  },
  "Melmetal Axe": {
   "section": "M",
-  "winrate": 37.1,
-  "ace_play_rate": 48.8,
-  "avg_ace_turn": 9.0,
-  "ace_atks_per_game": 0.92,
-  "ace_dmg_dealt_per_game": 129.6,
-  "ace_dmg_taken_per_game": 137.1
+  "winrate": 39.1,
+  "ace_play_rate": 53.7,
+  "avg_ace_turn": 8.1,
+  "ace_atks_per_game": 1.1,
+  "ace_dmg_dealt_per_game": 159.5,
+  "ace_dmg_taken_per_game": 163.4
  },
  "Metal Maker Ramp": {
   "section": "M",
-  "winrate": 29.9,
-  "ace_play_rate": 88.3,
-  "avg_ace_turn": 2.5,
-  "ace_atks_per_game": 3.77,
-  "ace_dmg_dealt_per_game": 457.8,
-  "ace_dmg_taken_per_game": 253.4
+  "winrate": 33.7,
+  "ace_play_rate": 85.9,
+  "avg_ace_turn": 2.0,
+  "ace_atks_per_game": 3.24,
+  "ace_dmg_dealt_per_game": 414.2,
+  "ace_dmg_taken_per_game": 259.0
  },
  "Symphonia Flood": {
   "section": "P",
-  "winrate": 47.7,
-  "ace_play_rate": 71.4,
-  "avg_ace_turn": 7.2,
-  "ace_atks_per_game": 3.17,
-  "ace_dmg_dealt_per_game": 519.2,
-  "ace_dmg_taken_per_game": 224.4
+  "winrate": 51.0,
+  "ace_play_rate": 75.4,
+  "avg_ace_turn": 5.8,
+  "ace_atks_per_game": 3.14,
+  "ace_dmg_dealt_per_game": 564.1,
+  "ace_dmg_taken_per_game": 252.4
  },
  "Warded Symphonia": {
   "section": "P",
-  "winrate": 51.2,
-  "ace_play_rate": 67.5,
-  "avg_ace_turn": 5.1,
-  "ace_atks_per_game": 2.98,
-  "ace_dmg_dealt_per_game": 518.1,
-  "ace_dmg_taken_per_game": 194.5
+  "winrate": 44.8,
+  "ace_play_rate": 72.5,
+  "avg_ace_turn": 5.2,
+  "ace_atks_per_game": 3.22,
+  "ace_dmg_dealt_per_game": 516.6,
+  "ace_dmg_taken_per_game": 255.4
  },
  "Scattergun Ward": {
   "section": "P",
-  "winrate": 71.5,
-  "ace_play_rate": 73.2,
-  "avg_ace_turn": 6.3,
-  "ace_atks_per_game": 2.75,
-  "ace_dmg_dealt_per_game": 504.7,
-  "ace_dmg_taken_per_game": 46.0
+  "winrate": 56.6,
+  "ace_play_rate": 68.6,
+  "avg_ace_turn": 5.5,
+  "ace_atks_per_game": 2.08,
+  "ace_dmg_dealt_per_game": 400.6,
+  "ace_dmg_taken_per_game": 122.4
  },
  "Cobalt Crossfire": {
   "section": "P",
-  "winrate": 15.1,
-  "ace_play_rate": 68.5,
-  "avg_ace_turn": 4.0,
-  "ace_atks_per_game": 1.52,
-  "ace_dmg_dealt_per_game": 142.8,
-  "ace_dmg_taken_per_game": 227.1
+  "winrate": 18.8,
+  "ace_play_rate": 65.7,
+  "avg_ace_turn": 2.8,
+  "ace_atks_per_game": 1.48,
+  "ace_dmg_dealt_per_game": 134.8,
+  "ace_dmg_taken_per_game": 220.7
  },
  "Waltz of Whispers": {
   "section": "P",
-  "winrate": 55.3,
-  "ace_play_rate": 77.9,
+  "winrate": 56.6,
+  "ace_play_rate": 75.1,
   "avg_ace_turn": 4.6,
-  "ace_atks_per_game": 3.13,
-  "ace_dmg_dealt_per_game": 454.2,
-  "ace_dmg_taken_per_game": 183.3
+  "ace_atks_per_game": 2.69,
+  "ace_dmg_dealt_per_game": 401.3,
+  "ace_dmg_taken_per_game": 204.5
  },
  "Deep Prison": {
   "section": "P",
-  "winrate": 56.9,
-  "ace_play_rate": 82.4,
-  "avg_ace_turn": 4.1,
-  "ace_atks_per_game": 3.42,
-  "ace_dmg_dealt_per_game": 534.8,
-  "ace_dmg_taken_per_game": 203.0
+  "winrate": 41.0,
+  "ace_play_rate": 75.2,
+  "avg_ace_turn": 4.6,
+  "ace_atks_per_game": 2.85,
+  "ace_dmg_dealt_per_game": 454.7,
+  "ace_dmg_taken_per_game": 224.6
  },
  "Fairy-Slayer": {
   "section": "P",
-  "winrate": 50.7,
-  "ace_play_rate": 87.8,
-  "avg_ace_turn": 1.6,
-  "ace_atks_per_game": 4.89,
-  "ace_dmg_dealt_per_game": 598.9,
-  "ace_dmg_taken_per_game": 257.5
+  "winrate": 56.6,
+  "ace_play_rate": 88.3,
+  "avg_ace_turn": 1.0,
+  "ace_atks_per_game": 4.13,
+  "ace_dmg_dealt_per_game": 542.8,
+  "ace_dmg_taken_per_game": 267.1
  },
  "Full Hand Nova": {
   "section": "P",
-  "winrate": 54.6,
-  "ace_play_rate": 81.7,
-  "avg_ace_turn": 4.7,
-  "ace_atks_per_game": 4.18,
-  "ace_dmg_dealt_per_game": 490.2,
-  "ace_dmg_taken_per_game": 282.8
+  "winrate": 50.2,
+  "ace_play_rate": 80.6,
+  "avg_ace_turn": 4.3,
+  "ace_atks_per_game": 3.77,
+  "ace_dmg_dealt_per_game": 448.9,
+  "ace_dmg_taken_per_game": 328.4
  },
  "Curtain-Riser": {
   "section": "P",
-  "winrate": 47.7,
-  "ace_play_rate": 86.2,
-  "avg_ace_turn": 1.9,
-  "ace_atks_per_game": 4.03,
-  "ace_dmg_dealt_per_game": 635.8,
-  "ace_dmg_taken_per_game": 236.8
+  "winrate": 47.6,
+  "ace_play_rate": 84.3,
+  "avg_ace_turn": 1.7,
+  "ace_atks_per_game": 3.85,
+  "ace_dmg_dealt_per_game": 552.9,
+  "ace_dmg_taken_per_game": 287.4
  },
  "Silent Scream": {
   "section": "P",
-  "winrate": 24.4,
-  "ace_play_rate": 74.0,
-  "avg_ace_turn": 2.8,
-  "ace_atks_per_game": 2.41,
-  "ace_dmg_dealt_per_game": 283.3,
-  "ace_dmg_taken_per_game": 228.7
+  "winrate": 35.6,
+  "ace_play_rate": 74.7,
+  "avg_ace_turn": 2.5,
+  "ace_atks_per_game": 1.93,
+  "ace_dmg_dealt_per_game": 231.7,
+  "ace_dmg_taken_per_game": 215.9
  },
  "Sweet Stall": {
   "section": "P",
-  "winrate": 39.6,
-  "ace_play_rate": 73.1,
-  "avg_ace_turn": 5.3,
-  "ace_atks_per_game": 2.26,
-  "ace_dmg_dealt_per_game": 352.0,
-  "ace_dmg_taken_per_game": 214.2
+  "winrate": 40.8,
+  "ace_play_rate": 75.0,
+  "avg_ace_turn": 4.5,
+  "ace_atks_per_game": 2.48,
+  "ace_dmg_dealt_per_game": 393.0,
+  "ace_dmg_taken_per_game": 255.5
  },
  "Detonation Coat": {
   "section": "P",
-  "winrate": 64.0,
-  "ace_play_rate": 85.9,
-  "avg_ace_turn": 1.7,
-  "ace_atks_per_game": 3.55,
-  "ace_dmg_dealt_per_game": 833.0,
-  "ace_dmg_taken_per_game": 229.6
+  "winrate": 68.8,
+  "ace_play_rate": 87.1,
+  "avg_ace_turn": 1.3,
+  "ace_atks_per_game": 3.19,
+  "ace_dmg_dealt_per_game": 759.1,
+  "ace_dmg_taken_per_game": 210.7
  },
  "Coin-Flip Reaper": {
   "section": "P",
-  "winrate": 27.4,
-  "ace_play_rate": 65.9,
-  "avg_ace_turn": 6.1,
-  "ace_atks_per_game": 2.23,
-  "ace_dmg_dealt_per_game": 214.5,
-  "ace_dmg_taken_per_game": 212.8
+  "winrate": 28.0,
+  "ace_play_rate": 64.7,
+  "avg_ace_turn": 5.6,
+  "ace_atks_per_game": 1.81,
+  "ace_dmg_dealt_per_game": 180.4,
+  "ace_dmg_taken_per_game": 199.3
  },
  "Mercy for All": {
   "section": "P",
-  "winrate": 53.4,
-  "ace_play_rate": 89.9,
-  "avg_ace_turn": 1.5,
-  "ace_atks_per_game": 3.41,
-  "ace_dmg_dealt_per_game": 664.0,
-  "ace_dmg_taken_per_game": 255.4
+  "winrate": 54.6,
+  "ace_play_rate": 85.8,
+  "avg_ace_turn": 1.3,
+  "ace_atks_per_game": 3.06,
+  "ace_dmg_dealt_per_game": 604.9,
+  "ace_dmg_taken_per_game": 266.3
  },
  "Battle-Scarred Bench": {
   "section": "P",
-  "winrate": 68.2,
-  "ace_play_rate": 82.9,
-  "avg_ace_turn": 4.6,
-  "ace_atks_per_game": 3.39,
-  "ace_dmg_dealt_per_game": 784.2,
-  "ace_dmg_taken_per_game": 151.2
+  "winrate": 70.0,
+  "ace_play_rate": 84.3,
+  "avg_ace_turn": 3.7,
+  "ace_atks_per_game": 3.34,
+  "ace_dmg_dealt_per_game": 765.8,
+  "ace_dmg_taken_per_game": 202.6
  },
  "Flutter Lock": {
   "section": "P",
-  "winrate": 59.5,
-  "ace_play_rate": 75.0,
-  "avg_ace_turn": 5.5,
-  "ace_atks_per_game": 3.77,
-  "ace_dmg_dealt_per_game": 648.0,
-  "ace_dmg_taken_per_game": 221.7
+  "winrate": 50.0,
+  "ace_play_rate": 71.2,
+  "avg_ace_turn": 5.4,
+  "ace_atks_per_game": 3.27,
+  "ace_dmg_dealt_per_game": 540.0,
+  "ace_dmg_taken_per_game": 262.6
  },
  "Bubble Balloon": {
   "section": "P",
-  "winrate": 48.1,
-  "ace_play_rate": 75.5,
-  "avg_ace_turn": 5.3,
-  "ace_atks_per_game": 2.57,
-  "ace_dmg_dealt_per_game": 619.3,
-  "ace_dmg_taken_per_game": 187.2
+  "winrate": 54.1,
+  "ace_play_rate": 75.8,
+  "avg_ace_turn": 4.3,
+  "ace_atks_per_game": 2.18,
+  "ace_dmg_dealt_per_game": 530.7,
+  "ace_dmg_taken_per_game": 200.7
  },
  "Burn Engine": {
   "section": "R",
-  "winrate": 60.2,
-  "ace_play_rate": 83.0,
-  "avg_ace_turn": 4.8,
-  "ace_atks_per_game": 4.9,
-  "ace_dmg_dealt_per_game": 756.3,
-  "ace_dmg_taken_per_game": 311.9
+  "winrate": 50.9,
+  "ace_play_rate": 80.1,
+  "avg_ace_turn": 4.2,
+  "ace_atks_per_game": 4.14,
+  "ace_dmg_dealt_per_game": 650.9,
+  "ace_dmg_taken_per_game": 344.2
  },
  "Ethan's Turbo": {
   "section": "R",
-  "winrate": 53.0,
-  "ace_play_rate": 91.1,
-  "avg_ace_turn": 1.7,
-  "ace_atks_per_game": 3.29,
-  "ace_dmg_dealt_per_game": 631.4,
-  "ace_dmg_taken_per_game": 224.4
+  "winrate": 52.1,
+  "ace_play_rate": 85.6,
+  "avg_ace_turn": 1.1,
+  "ace_atks_per_game": 2.89,
+  "ace_dmg_dealt_per_game": 555.4,
+  "ace_dmg_taken_per_game": 231.0
  },
  "Emboar Overload": {
   "section": "R",
-  "winrate": 44.9,
-  "ace_play_rate": 66.6,
-  "avg_ace_turn": 6.6,
-  "ace_atks_per_game": 1.8,
-  "ace_dmg_dealt_per_game": 698.5,
-  "ace_dmg_taken_per_game": 139.8
+  "winrate": 48.3,
+  "ace_play_rate": 63.0,
+  "avg_ace_turn": 5.9,
+  "ace_atks_per_game": 1.49,
+  "ace_dmg_dealt_per_game": 563.7,
+  "ace_dmg_taken_per_game": 137.7
  },
  "Pyroar Wall": {
   "section": "R",
-  "winrate": 53.2,
-  "ace_play_rate": 82.5,
-  "avg_ace_turn": 4.3,
-  "ace_atks_per_game": 3.74,
-  "ace_dmg_dealt_per_game": 729.2,
-  "ace_dmg_taken_per_game": 274.9
+  "winrate": 52.1,
+  "ace_play_rate": 77.7,
+  "avg_ace_turn": 3.6,
+  "ace_atks_per_game": 3.35,
+  "ace_dmg_dealt_per_game": 685.7,
+  "ace_dmg_taken_per_game": 299.2
  },
  "Volcanion Spread-Burn": {
   "section": "R",
-  "winrate": 60.5,
-  "ace_play_rate": 84.5,
-  "avg_ace_turn": 3.1,
-  "ace_atks_per_game": 2.3,
-  "ace_dmg_dealt_per_game": 453.5,
-  "ace_dmg_taken_per_game": 185.9
+  "winrate": 56.9,
+  "ace_play_rate": 83.2,
+  "avg_ace_turn": 2.1,
+  "ace_atks_per_game": 2.09,
+  "ace_dmg_dealt_per_game": 395.0,
+  "ace_dmg_taken_per_game": 193.8
  },
  "Reshiram Comeback": {
   "section": "R",
-  "winrate": 60.0,
-  "ace_play_rate": 88.1,
-  "avg_ace_turn": 1.9,
-  "ace_atks_per_game": 4.32,
-  "ace_dmg_dealt_per_game": 850.9,
-  "ace_dmg_taken_per_game": 231.2
+  "winrate": 62.2,
+  "ace_play_rate": 87.6,
+  "avg_ace_turn": 1.1,
+  "ace_atks_per_game": 4.06,
+  "ace_dmg_dealt_per_game": 766.6,
+  "ace_dmg_taken_per_game": 241.9
  },
  "Incineroar Bench-Punish": {
   "section": "R",
-  "winrate": 42.1,
-  "ace_play_rate": 69.4,
-  "avg_ace_turn": 10.7,
-  "ace_atks_per_game": 1.54,
-  "ace_dmg_dealt_per_game": 453.1,
-  "ace_dmg_taken_per_game": 214.0
+  "winrate": 49.8,
+  "ace_play_rate": 68.2,
+  "avg_ace_turn": 10.8,
+  "ace_atks_per_game": 2.01,
+  "ace_dmg_dealt_per_game": 574.8,
+  "ace_dmg_taken_per_game": 222.3
  },
  "Salazzle Toolbox": {
   "section": "R",
-  "winrate": 53.5,
-  "ace_play_rate": 82.5,
-  "avg_ace_turn": 5.0,
-  "ace_atks_per_game": 3.42,
-  "ace_dmg_dealt_per_game": 382.0,
-  "ace_dmg_taken_per_game": 214.5
+  "winrate": 50.6,
+  "ace_play_rate": 79.1,
+  "avg_ace_turn": 3.9,
+  "ace_atks_per_game": 2.91,
+  "ace_dmg_dealt_per_game": 320.9,
+  "ace_dmg_taken_per_game": 238.6
  },
  "Hearthflame Anti-Evolution": {
   "section": "R",
-  "winrate": 29.2,
-  "ace_play_rate": 78.2,
-  "avg_ace_turn": 3.1,
-  "ace_atks_per_game": 1.82,
-  "ace_dmg_dealt_per_game": 518.2,
-  "ace_dmg_taken_per_game": 268.6
+  "winrate": 36.2,
+  "ace_play_rate": 79.7,
+  "avg_ace_turn": 2.1,
+  "ace_atks_per_game": 1.83,
+  "ace_dmg_dealt_per_game": 488.2,
+  "ace_dmg_taken_per_game": 264.4
  },
  "Magcargo Mill-Burn": {
   "section": "R",
-  "winrate": 49.1,
-  "ace_play_rate": 80.4,
-  "avg_ace_turn": 4.8,
-  "ace_atks_per_game": 3.32,
-  "ace_dmg_dealt_per_game": 481.1,
-  "ace_dmg_taken_per_game": 220.3
+  "winrate": 50.7,
+  "ace_play_rate": 76.4,
+  "avg_ace_turn": 4.0,
+  "ace_atks_per_game": 2.89,
+  "ace_dmg_dealt_per_game": 419.5,
+  "ace_dmg_taken_per_game": 230.6
  },
  "Scovillain Rage": {
   "section": "R",
-  "winrate": 62.4,
-  "ace_play_rate": 63.7,
-  "avg_ace_turn": 6.3,
-  "ace_atks_per_game": 2.08,
-  "ace_dmg_dealt_per_game": 1468.2,
-  "ace_dmg_taken_per_game": 133.2
+  "winrate": 51.9,
+  "ace_play_rate": 69.6,
+  "avg_ace_turn": 5.6,
+  "ace_atks_per_game": 2.04,
+  "ace_dmg_dealt_per_game": 1539.6,
+  "ace_dmg_taken_per_game": 172.2
  },
  "Gouging Fire Pivot": {
   "section": "R",
-  "winrate": 61.5,
-  "ace_play_rate": 79.4,
-  "avg_ace_turn": 3.3,
-  "ace_atks_per_game": 3.37,
-  "ace_dmg_dealt_per_game": 602.2,
-  "ace_dmg_taken_per_game": 194.0
+  "winrate": 59.3,
+  "ace_play_rate": 76.1,
+  "avg_ace_turn": 3.2,
+  "ace_atks_per_game": 2.59,
+  "ace_dmg_dealt_per_game": 487.4,
+  "ace_dmg_taken_per_game": 187.7
  },
  "Oricorio Support-Trap": {
   "section": "R",
-  "winrate": 25.1,
-  "ace_play_rate": 83.0,
-  "avg_ace_turn": 3.0,
-  "ace_atks_per_game": 2.27,
-  "ace_dmg_dealt_per_game": 305.8,
-  "ace_dmg_taken_per_game": 209.4
+  "winrate": 30.0,
+  "ace_play_rate": 76.5,
+  "avg_ace_turn": 2.2,
+  "ace_atks_per_game": 1.99,
+  "ace_dmg_dealt_per_game": 264.9,
+  "ace_dmg_taken_per_game": 205.2
  },
  "Reshiram Fire Wing": {
   "section": "R",
-  "winrate": 62.4,
-  "ace_play_rate": 88.5,
-  "avg_ace_turn": 1.4,
-  "ace_atks_per_game": 4.43,
-  "ace_dmg_dealt_per_game": 842.6,
-  "ace_dmg_taken_per_game": 237.6
+  "winrate": 61.1,
+  "ace_play_rate": 90.1,
+  "avg_ace_turn": 1.1,
+  "ace_atks_per_game": 4.38,
+  "ace_dmg_dealt_per_game": 874.2,
+  "ace_dmg_taken_per_game": 271.5
  },
  "Retaliation Burn": {
   "section": "R",
-  "winrate": 49.6,
-  "ace_play_rate": 91.3,
+  "winrate": 53.3,
+  "ace_play_rate": 86.1,
   "avg_ace_turn": 1.2,
-  "ace_atks_per_game": 3.26,
-  "ace_dmg_dealt_per_game": 621.4,
-  "ace_dmg_taken_per_game": 245.9
+  "ace_atks_per_game": 2.79,
+  "ace_dmg_dealt_per_game": 534.1,
+  "ace_dmg_taken_per_game": 220.5
  },
  "TR Spread": {
   "section": "TR",
-  "winrate": 50.5,
-  "ace_play_rate": 66.4,
-  "avg_ace_turn": 7.3,
-  "ace_atks_per_game": 2.65,
-  "ace_dmg_dealt_per_game": 320.4,
-  "ace_dmg_taken_per_game": 187.4
+  "winrate": 50.9,
+  "ace_play_rate": 63.3,
+  "avg_ace_turn": 6.3,
+  "ace_atks_per_game": 2.27,
+  "ace_dmg_dealt_per_game": 283.0,
+  "ace_dmg_taken_per_game": 192.5
  },
  "TR Nido Family": {
   "section": "TR",
-  "winrate": 57.0,
-  "ace_play_rate": 70.2,
-  "avg_ace_turn": 6.8,
-  "ace_atks_per_game": 2.2,
-  "ace_dmg_dealt_per_game": 475.9,
-  "ace_dmg_taken_per_game": 159.7
+  "winrate": 46.6,
+  "ace_play_rate": 61.6,
+  "avg_ace_turn": 6.4,
+  "ace_atks_per_game": 1.82,
+  "ace_dmg_dealt_per_game": 388.2,
+  "ace_dmg_taken_per_game": 165.9
  },
  "TR Persian Copycat": {
   "section": "TR",
-  "winrate": 59.0,
+  "winrate": 55.9,
   "ace_play_rate": 81.8,
   "avg_ace_turn": 4.3,
-  "ace_atks_per_game": 3.68,
-  "ace_dmg_dealt_per_game": 503.0,
-  "ace_dmg_taken_per_game": 195.7
+  "ace_atks_per_game": 3.76,
+  "ace_dmg_dealt_per_game": 516.3,
+  "ace_dmg_taken_per_game": 244.7
  },
  "TR Rocket Rush Swarm": {
   "section": "TR",
-  "winrate": 46.7,
-  "ace_play_rate": 63.1,
-  "avg_ace_turn": 6.5,
-  "ace_atks_per_game": 2.54,
-  "ace_dmg_dealt_per_game": 303.1,
-  "ace_dmg_taken_per_game": 195.8
+  "winrate": 40.5,
+  "ace_play_rate": 66.1,
+  "avg_ace_turn": 5.5,
+  "ace_atks_per_game": 2.6,
+  "ace_dmg_dealt_per_game": 324.9,
+  "ace_dmg_taken_per_game": 248.7
  },
  "TR Condition Stack": {
   "section": "TR",
-  "winrate": 56.2,
-  "ace_play_rate": 73.6,
-  "avg_ace_turn": 5.8,
-  "ace_atks_per_game": 2.39,
-  "ace_dmg_dealt_per_game": 500.6,
-  "ace_dmg_taken_per_game": 183.2
+  "winrate": 60.1,
+  "ace_play_rate": 75.6,
+  "avg_ace_turn": 5.6,
+  "ace_atks_per_game": 2.3,
+  "ace_dmg_dealt_per_game": 495.8,
+  "ace_dmg_taken_per_game": 191.5
  },
  "TR Disruption Lock": {
   "section": "TR",
-  "winrate": 63.9,
-  "ace_play_rate": 80.4,
-  "avg_ace_turn": 4.9,
-  "ace_atks_per_game": 3.04,
-  "ace_dmg_dealt_per_game": 415.0,
-  "ace_dmg_taken_per_game": 165.3
+  "winrate": 64.5,
+  "ace_play_rate": 80.3,
+  "avg_ace_turn": 4.7,
+  "ace_atks_per_game": 2.92,
+  "ace_dmg_dealt_per_game": 402.8,
+  "ace_dmg_taken_per_game": 190.5
  },
  "TR Moltres Removal": {
   "section": "TR",
-  "winrate": 57.8,
-  "ace_play_rate": 87.0,
-  "avg_ace_turn": 2.3,
-  "ace_atks_per_game": 3.96,
-  "ace_dmg_dealt_per_game": 509.2,
-  "ace_dmg_taken_per_game": 194.7
+  "winrate": 51.2,
+  "ace_play_rate": 85.3,
+  "avg_ace_turn": 1.8,
+  "ace_atks_per_game": 3.29,
+  "ace_dmg_dealt_per_game": 426.2,
+  "ace_dmg_taken_per_game": 209.0
  },
  "Starmie Jetstream Rush": {
   "section": "W",
-  "winrate": 76.4,
-  "ace_play_rate": 87.6,
-  "avg_ace_turn": 5.0,
-  "ace_atks_per_game": 3.91,
-  "ace_dmg_dealt_per_game": 765.8,
-  "ace_dmg_taken_per_game": 217.2
+  "winrate": 79.3,
+  "ace_play_rate": 88.1,
+  "avg_ace_turn": 3.7,
+  "ace_atks_per_game": 4.09,
+  "ace_dmg_dealt_per_game": 816.6,
+  "ace_dmg_taken_per_game": 251.2
  },
  "Croconaw Chip, Mega Crunch": {
   "section": "W",
-  "winrate": 66.6,
-  "ace_play_rate": 79.8,
-  "avg_ace_turn": 7.8,
-  "ace_atks_per_game": 2.88,
-  "ace_dmg_dealt_per_game": 714.5,
-  "ace_dmg_taken_per_game": 192.8
+  "winrate": 66.0,
+  "ace_play_rate": 86.7,
+  "avg_ace_turn": 5.5,
+  "ace_atks_per_game": 3.43,
+  "ace_dmg_dealt_per_game": 895.2,
+  "ace_dmg_taken_per_game": 259.1
  },
  "Starmie Tundra Fortress": {
   "section": "W",
-  "winrate": 68.3,
-  "ace_play_rate": 86.9,
-  "avg_ace_turn": 5.7,
-  "ace_atks_per_game": 3.47,
-  "ace_dmg_dealt_per_game": 674.1,
-  "ace_dmg_taken_per_game": 207.5
+  "winrate": 70.7,
+  "ace_play_rate": 86.2,
+  "avg_ace_turn": 4.3,
+  "ace_atks_per_game": 3.78,
+  "ace_dmg_dealt_per_game": 747.3,
+  "ace_dmg_taken_per_game": 264.7
  },
  "Samurott's Ambush": {
   "section": "W",
-  "winrate": 36.4,
-  "ace_play_rate": 86.9,
-  "avg_ace_turn": 3.6,
-  "ace_atks_per_game": 3.44,
-  "ace_dmg_dealt_per_game": 386.7,
-  "ace_dmg_taken_per_game": 238.0
+  "winrate": 39.4,
+  "ace_play_rate": 84.9,
+  "avg_ace_turn": 3.3,
+  "ace_atks_per_game": 3.22,
+  "ace_dmg_dealt_per_game": 373.3,
+  "ace_dmg_taken_per_game": 246.5
  },
  "Frozen Fortress": {
   "section": "W",
-  "winrate": 41.0,
-  "ace_play_rate": 79.8,
-  "avg_ace_turn": 7.9,
-  "ace_atks_per_game": 2.24,
-  "ace_dmg_dealt_per_game": 323.7,
-  "ace_dmg_taken_per_game": 238.1
+  "winrate": 34.9,
+  "ace_play_rate": 75.8,
+  "avg_ace_turn": 5.8,
+  "ace_atks_per_game": 2.03,
+  "ace_dmg_dealt_per_game": 300.8,
+  "ace_dmg_taken_per_game": 262.9
  },
  "Hydro Turn Hit-and-Run": {
   "section": "W",
-  "winrate": 35.3,
-  "ace_play_rate": 89.5,
-  "avg_ace_turn": 2.4,
-  "ace_atks_per_game": 4.18,
-  "ace_dmg_dealt_per_game": 450.7,
-  "ace_dmg_taken_per_game": 294.5
+  "winrate": 39.3,
+  "ace_play_rate": 85.4,
+  "avg_ace_turn": 1.9,
+  "ace_atks_per_game": 3.5,
+  "ace_dmg_dealt_per_game": 441.1,
+  "ace_dmg_taken_per_game": 272.1
  },
  "Deep Current Overload": {
   "section": "W",
-  "winrate": 53.3,
-  "ace_play_rate": 73.2,
-  "avg_ace_turn": 9.9,
-  "ace_atks_per_game": 2.41,
-  "ace_dmg_dealt_per_game": 551.6,
-  "ace_dmg_taken_per_game": 148.8
+  "winrate": 54.0,
+  "ace_play_rate": 72.9,
+  "avg_ace_turn": 7.2,
+  "ace_atks_per_game": 2.58,
+  "ace_dmg_dealt_per_game": 675.0,
+  "ace_dmg_taken_per_game": 189.8
  },
  "Serene Slumber": {
   "section": "W",
-  "winrate": 78.2,
-  "ace_play_rate": 84.6,
-  "avg_ace_turn": 4.5,
-  "ace_atks_per_game": 4.69,
-  "ace_dmg_dealt_per_game": 752.5,
-  "ace_dmg_taken_per_game": 0.0
+  "winrate": 40.9,
+  "ace_play_rate": 82.8,
+  "avg_ace_turn": 4.0,
+  "ace_atks_per_game": 2.58,
+  "ace_dmg_dealt_per_game": 429.0,
+  "ace_dmg_taken_per_game": 244.5
  },
  "Purge and Plunder": {
   "section": "W",
-  "winrate": 35.6,
-  "ace_play_rate": 83.5,
-  "avg_ace_turn": 3.9,
-  "ace_atks_per_game": 4.09,
-  "ace_dmg_dealt_per_game": 331.0,
-  "ace_dmg_taken_per_game": 281.2
+  "winrate": 37.9,
+  "ace_play_rate": 90.8,
+  "avg_ace_turn": 2.1,
+  "ace_atks_per_game": 4.19,
+  "ace_dmg_dealt_per_game": 339.9,
+  "ace_dmg_taken_per_game": 339.4
  },
  "Misty's Deep Freeze": {
   "section": "W",
-  "winrate": 48.3,
-  "ace_play_rate": 79.5,
-  "avg_ace_turn": 6.6,
-  "ace_atks_per_game": 1.97,
-  "ace_dmg_dealt_per_game": 284.0,
-  "ace_dmg_taken_per_game": 224.2
+  "winrate": 29.3,
+  "ace_play_rate": 72.0,
+  "avg_ace_turn": 4.9,
+  "ace_atks_per_game": 1.63,
+  "ace_dmg_dealt_per_game": 236.6,
+  "ace_dmg_taken_per_game": 224.5
  },
  "Avalanche Flood": {
   "section": "W",
-  "winrate": 62.7,
-  "ace_play_rate": 86.4,
-  "avg_ace_turn": 5.5,
-  "ace_atks_per_game": 3.59,
-  "ace_dmg_dealt_per_game": 741.6,
-  "ace_dmg_taken_per_game": 249.4
+  "winrate": 64.9,
+  "ace_play_rate": 85.6,
+  "avg_ace_turn": 5.6,
+  "ace_atks_per_game": 3.47,
+  "ace_dmg_dealt_per_game": 723.4,
+  "ace_dmg_taken_per_game": 276.7
  },
  "Wellspring Reload": {
   "section": "W",
-  "winrate": 31.5,
-  "ace_play_rate": 88.1,
-  "avg_ace_turn": 2.9,
-  "ace_atks_per_game": 3.19,
-  "ace_dmg_dealt_per_game": 340.6,
-  "ace_dmg_taken_per_game": 267.1
+  "winrate": 36.1,
+  "ace_play_rate": 86.3,
+  "avg_ace_turn": 2.2,
+  "ace_atks_per_game": 3.2,
+  "ace_dmg_dealt_per_game": 361.6,
+  "ace_dmg_taken_per_game": 306.5
  },
  "Dondozo's Gambit": {
   "section": "W",
-  "winrate": 41.8,
-  "ace_play_rate": 89.7,
-  "avg_ace_turn": 2.4,
-  "ace_atks_per_game": 4.26,
-  "ace_dmg_dealt_per_game": 581.2,
-  "ace_dmg_taken_per_game": 295.2
+  "winrate": 42.4,
+  "ace_play_rate": 86.0,
+  "avg_ace_turn": 1.6,
+  "ace_atks_per_game": 3.89,
+  "ace_dmg_dealt_per_game": 521.7,
+  "ace_dmg_taken_per_game": 313.4
  },
  "Paradox Sandman": {
   "section": "W",
-  "winrate": 28.4,
-  "ace_play_rate": 86.4,
-  "avg_ace_turn": 3.6,
-  "ace_atks_per_game": 2.95,
-  "ace_dmg_dealt_per_game": 368.1,
-  "ace_dmg_taken_per_game": 256.7
+  "winrate": 31.5,
+  "ace_play_rate": 85.3,
+  "avg_ace_turn": 3.5,
+  "ace_atks_per_game": 2.46,
+  "ace_dmg_dealt_per_game": 307.6,
+  "ace_dmg_taken_per_game": 254.0
  },
  "Prize Blizzard": {
   "section": "W",
-  "winrate": 46.6,
-  "ace_play_rate": 91.1,
-  "avg_ace_turn": 2.3,
-  "ace_atks_per_game": 4.31,
-  "ace_dmg_dealt_per_game": 592.5,
-  "ace_dmg_taken_per_game": 291.3
+  "winrate": 46.7,
+  "ace_play_rate": 83.9,
+  "avg_ace_turn": 1.8,
+  "ace_atks_per_game": 3.48,
+  "ace_dmg_dealt_per_game": 491.0,
+  "ace_dmg_taken_per_game": 280.2
  },
  "Frostbite Recoil": {
   "section": "W",
-  "winrate": 38.8,
-  "ace_play_rate": 93.0,
-  "avg_ace_turn": 1.7,
-  "ace_atks_per_game": 3.17,
-  "ace_dmg_dealt_per_game": 682.8,
-  "ace_dmg_taken_per_game": 223.6
+  "winrate": 39.1,
+  "ace_play_rate": 89.0,
+  "avg_ace_turn": 1.4,
+  "ace_atks_per_game": 2.59,
+  "ace_dmg_dealt_per_game": 544.1,
+  "ace_dmg_taken_per_game": 243.2
  },
  "Tricolor Burst \u2014 Experimental": {
   "section": "W",
-  "winrate": 49.2,
-  "ace_play_rate": 82.4,
-  "avg_ace_turn": 7.5,
-  "ace_atks_per_game": 3.67,
-  "ace_dmg_dealt_per_game": 454.8,
-  "ace_dmg_taken_per_game": 228.8
+  "winrate": 44.5,
+  "ace_play_rate": 79.7,
+  "avg_ace_turn": 6.1,
+  "ace_atks_per_game": 3.17,
+  "ace_dmg_dealt_per_game": 404.6,
+  "ace_dmg_taken_per_game": 245.6
  },
  "Zero to Hero": {
   "section": "W",
-  "winrate": 46.7,
-  "ace_play_rate": 78.9,
-  "avg_ace_turn": 7.2,
-  "ace_atks_per_game": 2.51,
-  "ace_dmg_dealt_per_game": 660.0,
-  "ace_dmg_taken_per_game": 248.3
+  "winrate": 49.9,
+  "ace_play_rate": 80.7,
+  "avg_ace_turn": 6.0,
+  "ace_atks_per_game": 2.45,
+  "ace_dmg_dealt_per_game": 654.2,
+  "ace_dmg_taken_per_game": 272.2
  },
  "Wash Out Current": {
   "section": "W",
-  "winrate": 64.0,
-  "ace_play_rate": 82.6,
-  "avg_ace_turn": 6.9,
-  "ace_atks_per_game": 3.24,
-  "ace_dmg_dealt_per_game": 782.1,
-  "ace_dmg_taken_per_game": 192.7
+  "winrate": 64.7,
+  "ace_play_rate": 81.5,
+  "avg_ace_turn": 4.9,
+  "ace_atks_per_game": 3.27,
+  "ace_dmg_dealt_per_game": 828.4,
+  "ace_dmg_taken_per_game": 215.1
  },
  "Vibrant Wall": {
   "section": "W",
-  "winrate": 74.8,
-  "ace_play_rate": 81.0,
+  "winrate": 44.1,
+  "ace_play_rate": 79.6,
   "avg_ace_turn": 5.0,
-  "ace_atks_per_game": 4.49,
-  "ace_dmg_dealt_per_game": 711.3,
-  "ace_dmg_taken_per_game": 0.0
+  "ace_atks_per_game": 2.57,
+  "ace_dmg_dealt_per_game": 432.6,
+  "ace_dmg_taken_per_game": 226.4
  }
 }

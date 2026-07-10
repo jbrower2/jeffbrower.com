@@ -582,6 +582,8 @@ class Game:
                 continue
             ctx = (me, opp, mon, defender, self)
             dmg = effects.scaling_damage(ctx, a) + mon.ramp.get(a['name'], 0)
+            if dmg > 0:
+                dmg += effects.team_attack_bonus(ctx, a)     # Regal Cheer / Cobalt Command / etc.
             if dmg and defender and defender.card.weakness and defender.card.weakness == mon.card.ptype:
                 dmg *= 2
             txt = a['text'].lower()
