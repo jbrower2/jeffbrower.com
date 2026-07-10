@@ -163,7 +163,7 @@ class Game:
 
     @staticmethod
     def _newstat():
-        return {'dmg_dealt': 0, 'dmg_taken': 0, 'attacks': 0}
+        return {'ace_in_play': 0, 'ace_turn': -1, 'ace_atk': 0, 'ace_dmg_dealt': 0, 'ace_dmg_taken': 0}
 
     def log(self, *a):
         if self.verbose:
@@ -187,18 +187,8 @@ class Game:
 
     # ---- AI main phase ----
     # ---- AI helpers ----
-    def primary(self, me):
-        """The Pokémon to invest energy in this turn — the highest-ceiling attacker in play.
-        Generic 'develop the biggest threat' pick; the deck has no designated ace. Prefers a fully
-        evolved / high-damage Pokémon, tie-broken by energy already attached (finish what's started)."""
-        mons = me.all_mons()
-        if not mons:
-            return None
-
-        def ceiling(m):
-            return max((a['dmg'] for a in m.card.attacks), default=0)
-        cand = [m for m in mons if ceiling(m) > 0] or mons
-        return max(cand, key=lambda m: (ceiling(m), m.card.stage, m.total_energy()))
+    def ace_mon(self, me):
+        return next((m for m in me.all_mons() if m.card.key == me.ace_key), None)
 
     def _dmg_attacks(self, mon):
         return [a for a in mon.card.attacks if a['dmg'] > 0 or 'is now' in a['text'].lower()]
@@ -237,7 +227,7 @@ class Game:
         stoks = [t for t in me.hand if t[0] == 'S']
         if not (etoks or stoks) or not me.all_mons():
             return
-        ace = self.primary(me)
+        ace = self.ace_mon(me)
         # build the ace first (even benched); once it can attack, top up the active
         target = ace if (ace and not self._fundable(ace)) else me.active
         target = target or me.active or (me.bench[0] if me.bench else None)
@@ -302,7 +292,7 @@ class Game:
     def maybe_retreat(self, me, opp):
         if not me.active:
             return
-        ace = self.primary(me)
+        ace = self.ace_mon(me)
         desired = None
         if ace and ace in me.bench and self._fundable(ace):
             desired = ace                                   # promote a ready ace
@@ -434,7 +424,7 @@ class Game:
         return 'OTHER'
 
     def _do_accel(self, me, eff):
-        tgt = self.primary(me) or me.active
+        tgt = self.ace_mon(me) or me.active
         if not tgt: return False
         letters = [x for x in re.findall(r'\{(\w)\}', eff) if x in 'GRWLPFDM']
         letters = letters or [c for c in (self._cheapest_cost(tgt) or '') if c in 'GRWLPFDM']
@@ -477,6 +467,9 @@ class Game:
         n = 3 if 'up to 3' in eff.lower() else (2 if 'up to 2' in eff.lower() else 1)
         if to_bench:
             return self._search_basics_to_bench(me, q, n) > 0
+        if not self.ace_mon(me) and not self._find_in_hand(me, lambda x: x[0] == 'P' and x[1].key == me.ace_key):
+            if self._search_deck_to_hand(me, lambda x: x[0] == 'P' and x[1].key == me.ace_key and q(x[1])):
+                return True
         return self._search_deck_to_hand(me, lambda x: x[0] == 'P' and q(x[1]), n) > 0
 
     def _do_draw(self, me, eff):
@@ -501,11 +494,10 @@ class Game:
         return False
 
     def _do_recover(self, me):
-        ps = [x for x in me.discard if x[0] == 'P']
-        if not ps:
-            return False
-        rec = max(ps, key=lambda x: max((a['dmg'] for a in x[1].attacks), default=0))  # best attacker back
-        me.discard.remove(rec); me.hand.append(rec); return True
+        rec = next((x for x in me.discard if x[0] == 'P' and x[1].key == me.ace_key), None) \
+            or next((x for x in me.discard if x[0] == 'P'), None)
+        if rec: me.discard.remove(rec); me.hand.append(rec); return True
+        return False
 
     def play_trainers(self, me, opp):
         # ---- ITEMS / TOOLS (unlimited) ----
@@ -516,11 +508,11 @@ class Game:
                 eff = t[1].get('effect', ''); cat = self._tcat(t[1]['name'], eff); done = False
                 if cat == 'CANDY': done = self._rare_candy(me)
                 elif cat == 'BENCH': done = len(me.bench) < 5 and self._do_search_poke(me, eff, to_bench=True)
-                elif cat == 'SEARCHPOKE': done = (not self.primary(me) or len(me.bench) < 3) and self._do_search_poke(me, eff)
+                elif cat == 'SEARCHPOKE': done = (not self.ace_mon(me) or len(me.bench) < 3) and self._do_search_poke(me, eff)
                 elif cat == 'SEARCHNRG': done = sum(1 for x in me.hand if x[0] == 'E') < 2 and self._search_deck_to_hand(me, lambda x: x[0] == 'E', 2) > 0
-                elif cat == 'ACCEL': done = ((self.primary(me) and not self._fundable(self.primary(me))) or (me.active and not self._fundable(me.active))) and self._do_accel(me, eff)
+                elif cat == 'ACCEL': done = ((self.ace_mon(me) and not self._fundable(self.ace_mon(me))) or (me.active and not self._fundable(me.active))) and self._do_accel(me, eff)
                 elif cat == 'HEAL': done = me.active and me.active.damage >= 60 and self._do_heal(me, eff)
-                elif cat == 'RECOVER': done = any(x[0] == 'P' for x in me.discard) and self._do_recover(me)
+                elif cat == 'RECOVER': done = any(x[0] == 'P' and x[1].key == me.ace_key for x in me.discard) and self._do_recover(me)
                 if done:
                     me.hand.remove(t); changed = True; break
         # ---- SUPPORTER (one per turn) ----
@@ -530,7 +522,7 @@ class Game:
         boss = next((t for t in sup if self._tcat(t[1]['name'], t[1].get('effect', '')) == 'GUST'), None)
         if boss and self._gust(me, opp):
             me.hand.remove(boss); return
-        ace = self.primary(me)
+        ace = self.ace_mon(me)
         underfunded = (ace and not self._fundable(ace)) or (me.active and not self._fundable(me.active))
         hurt = me.active and me.active.damage >= 80
         need_poke = (not ace) or len(me.bench) < 3
@@ -619,9 +611,11 @@ class Game:
                 dmg = effects.incoming_damage(dmg, me.active, opp.active, opp, self)
                 opp.active.damage += dmg
                 if self.stats is not None:
-                    self.stats[idx]['attacks'] += 1
-                    self.stats[idx]['dmg_dealt'] += dmg + effects.spread_value(ctx, a)
-                    self.stats[1 - idx]['dmg_taken'] += dmg
+                    if me.active.card.key == me.ace_key:
+                        self.stats[idx]['ace_atk'] += 1
+                        self.stats[idx]['ace_dmg_dealt'] += dmg + effects.spread_value(ctx, a)
+                    if opp.active.card.key == opp.ace_key:
+                        self.stats[1 - idx]['ace_dmg_taken'] += dmg
                 if dmg > 0 and 'Spiky Energy' in opp.active.special:
                     me.active.damage += 20                       # Spiky Energy counters the attacker
                 self.log(f"  {me.name}'s {me.active.card.name} uses {a['name']} for {dmg} "
@@ -675,6 +669,12 @@ class Game:
         if me.active:
             effects.clear_paralysis(me.active)
         self._checkup()
+        if self.stats is not None:
+            for i, p in enumerate(self.players):
+                if any(m.card.key == p.ace_key for m in p.all_mons()):
+                    self.stats[i]['ace_in_play'] = 1
+                    if self.stats[i]['ace_turn'] < 0:
+                        self.stats[i]['ace_turn'] = self.turn
 
     def _checkup(self):
         for i, p in enumerate(self.players):

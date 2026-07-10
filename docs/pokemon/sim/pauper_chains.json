@@ -1,0 +1,11407 @@
+[
+{
+"id": "Bulbasaur",
+"top": "Ivysaur",
+"stages": [
+[
+"Bulbasaur",
+"ME01:#001/132",
+0
+],
+[
+"Ivysaur",
+"ME01:#002/132",
+1
+]
+],
+"energy": [
+"G"
+],
+"hp": 110,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Charmander",
+"top": "Charmeleon",
+"stages": [
+[
+"Charmander",
+"ME02:#011/094",
+0
+],
+[
+"Charmeleon",
+"ME02:#012/094",
+1
+]
+],
+"energy": [
+"R"
+],
+"hp": 110,
+"dps": 40.0,
+"abilities": [
+"Agile"
+],
+"tags": [
+"ability",
+"accel",
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Caterpie",
+"top": "Metapod",
+"stages": [
+[
+"Caterpie",
+"SV09:#001/159",
+0
+],
+[
+"Metapod",
+"SV09:#002/159",
+1
+]
+],
+"energy": [
+"G"
+],
+"hp": 90,
+"dps": 0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Weedle",
+"top": "Kakuna",
+"stages": [
+[
+"Weedle",
+"ME04:#001/086",
+0
+],
+[
+"Kakuna",
+"ME04:#002/086",
+1
+]
+],
+"energy": [
+"G"
+],
+"hp": 80,
+"dps": 20.0,
+"abilities": [
+"Exoskeleton"
+],
+"tags": [
+"ability",
+"wall"
+],
+"length": 2
+},
+{
+"id": "Rattata",
+"top": "Raticate",
+"stages": [
+[
+"Rattata",
+"ME03:#060/088",
+0
+],
+[
+"Raticate",
+"ME03:#061/088",
+1
+]
+],
+"energy": [],
+"hp": 90,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Team Rocket's Rattata",
+"top": "Team Rocket's Raticate",
+"stages": [
+[
+"Team Rocket's Rattata",
+"SV10:#147/182",
+0
+],
+[
+"Team Rocket's Raticate",
+"SV10:#148/182",
+1
+]
+],
+"energy": [],
+"hp": 90,
+"dps": 90.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Spearow",
+"top": "Fearow",
+"stages": [
+[
+"Spearow",
+"ME01:#102/132",
+0
+],
+[
+"Fearow",
+"ME01:#103/132",
+1
+]
+],
+"energy": [],
+"hp": 100,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Ekans",
+"top": "Arbok",
+"stages": [
+[
+"Ekans",
+"SV05:#100/162",
+0
+],
+[
+"Arbok",
+"SV05:#101/162",
+1
+]
+],
+"energy": [
+"D"
+],
+"hp": 130,
+"dps": 35.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Team Rocket's Ekans",
+"top": "Team Rocket's Arbok",
+"stages": [
+[
+"Team Rocket's Ekans",
+"SV10:#112/182",
+0
+],
+[
+"Team Rocket's Arbok",
+"SV10:#113/182",
+1
+]
+],
+"energy": [
+"D"
+],
+"hp": 130,
+"dps": 0,
+"abilities": [
+"Potent Glare"
+],
+"tags": [
+"ability",
+"spread"
+],
+"length": 2
+},
+{
+"id": "Pikachu",
+"top": "Raichu",
+"stages": [
+[
+"Pikachu",
+"ASH:#055/217",
+0
+],
+[
+"Raichu",
+"ASH:#056/217",
+1
+]
+],
+"energy": [
+"L"
+],
+"hp": 130,
+"dps": 50.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Sandshrew",
+"top": "Sandslash",
+"stages": [
+[
+"Sandshrew",
+"SV06:#097/167",
+0
+],
+[
+"Sandslash",
+"SV06:#098/167",
+1
+]
+],
+"energy": [
+"F"
+],
+"hp": 120,
+"dps": 60.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Team Rocket's Nidoran\u2640",
+"top": "Team Rocket's Nidoqueen",
+"stages": [
+[
+"Team Rocket's Nidoran\u2640",
+"SV10:#114/182",
+0
+],
+[
+"Team Rocket's Nidorina",
+"SV10:#115/182",
+1
+],
+[
+"Team Rocket's Nidoqueen",
+"SV10:#116/182",
+2
+]
+],
+"energy": [
+"D"
+],
+"hp": 170,
+"dps": 65.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 3
+},
+{
+"id": "Team Rocket's Nidoran\u2642",
+"top": "Team Rocket's Nidorino",
+"stages": [
+[
+"Team Rocket's Nidoran\u2642",
+"SV10:#117/182",
+0
+],
+[
+"Team Rocket's Nidorino",
+"SV10:#118/182",
+1
+]
+],
+"energy": [
+"D"
+],
+"hp": 100,
+"dps": 20.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Clefairy",
+"top": "Clefable",
+"stages": [
+[
+"Clefairy",
+"SV06:#078/167",
+0
+],
+[
+"Clefable",
+"ASH:#075/217",
+1
+]
+],
+"energy": [
+"P"
+],
+"hp": 120,
+"dps": 33.3,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Vulpix",
+"top": "Ninetales",
+"stages": [
+[
+"Vulpix",
+"SV08:#016/191",
+0
+],
+[
+"Ninetales",
+"SV08:#017/191",
+1
+]
+],
+"energy": [
+"R"
+],
+"hp": 120,
+"dps": 50.0,
+"abilities": [],
+"tags": [
+"attacker",
+"spread"
+],
+"length": 2
+},
+{
+"id": "Jigglypuff",
+"top": "Wigglytuff",
+"stages": [
+[
+"Jigglypuff",
+"ME02:#076/094",
+0
+],
+[
+"Wigglytuff",
+"ME02:#077/094",
+1
+]
+],
+"energy": [],
+"hp": 120,
+"dps": 33.3,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Team Rocket's Zubat",
+"top": "Team Rocket's Golbat",
+"stages": [
+[
+"Team Rocket's Zubat",
+"SV10:#120/182",
+0
+],
+[
+"Team Rocket's Golbat",
+"SV10:#121/182",
+1
+]
+],
+"energy": [
+"D"
+],
+"hp": 80,
+"dps": 30.0,
+"abilities": [
+"Sneaky Bite"
+],
+"tags": [
+"ability",
+"status"
+],
+"length": 2
+},
+{
+"id": "Zubat",
+"top": "Crobat",
+"stages": [
+[
+"Zubat",
+"SFA:#027/064",
+0
+],
+[
+"Golbat",
+"SFA:#028/064",
+1
+],
+[
+"Crobat",
+"SFA:#029/064",
+2
+]
+],
+"energy": [
+"D"
+],
+"hp": 130,
+"dps": 60.0,
+"abilities": [
+"Shadowy Envoy"
+],
+"tags": [
+"ability",
+"attacker",
+"engine",
+"status"
+],
+"length": 3
+},
+{
+"id": "Erika's Oddish",
+"top": "Erika's Gloom",
+"stages": [
+[
+"Erika's Oddish",
+"ASH:#001/217",
+0
+],
+[
+"Erika's Gloom",
+"ASH:#002/217",
+1
+]
+],
+"energy": [
+"G"
+],
+"hp": 90,
+"dps": 25.0,
+"abilities": [],
+"tags": [
+"status"
+],
+"length": 2
+},
+{
+"id": "Oddish",
+"top": "Gloom",
+"stages": [
+[
+"Oddish",
+"ME02:#001/094",
+0
+],
+[
+"Gloom",
+"ME02:#002/094",
+1
+]
+],
+"energy": [
+"G"
+],
+"hp": 70,
+"dps": 20.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Paras",
+"top": "Parasect",
+"stages": [
+[
+"Paras",
+"SV09:#004/159",
+0
+],
+[
+"Parasect",
+"SV09:#005/159",
+1
+]
+],
+"energy": [
+"G"
+],
+"hp": 120,
+"dps": 30.0,
+"abilities": [],
+"tags": [
+"status"
+],
+"length": 2
+},
+{
+"id": "Alolan Diglett",
+"top": "Alolan Dugtrio",
+"stages": [
+[
+"Alolan Diglett",
+"SV08:#122/191",
+0
+],
+[
+"Alolan Dugtrio",
+"SV08:#123/191",
+1
+]
+],
+"energy": [],
+"hp": 110,
+"dps": 120.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Team Rocket's Diglett",
+"top": "Team Rocket's Dugtrio",
+"stages": [
+[
+"Team Rocket's Diglett",
+"ASH:#100/217",
+0
+],
+[
+"Team Rocket's Dugtrio",
+"ASH:#101/217",
+1
+]
+],
+"energy": [
+"F"
+],
+"hp": 100,
+"dps": 25.0,
+"abilities": [
+"Holes"
+],
+"tags": [
+"ability"
+],
+"length": 2
+},
+{
+"id": "Meowth",
+"top": "Persian",
+"stages": [
+[
+"Meowth",
+"SFA:#048/064",
+0
+],
+[
+"Persian",
+"SFA:#049/064",
+1
+]
+],
+"energy": [],
+"hp": 110,
+"dps": 33.3,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Team Rocket's Meowth",
+"top": "Team Rocket's Meowth",
+"stages": [
+[
+"Team Rocket's Meowth",
+"SV10:#149/182",
+0
+]
+],
+"energy": [],
+"hp": 70,
+"dps": 10.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Misty's Psyduck",
+"top": "Misty's Psyduck",
+"stages": [
+[
+"Misty's Psyduck",
+"SV10:#045/182",
+0
+]
+],
+"energy": [
+"W"
+],
+"hp": 70,
+"dps": 30.0,
+"abilities": [
+"Flustered Leap"
+],
+"tags": [
+"ability"
+],
+"length": 1
+},
+{
+"id": "Psyduck",
+"top": "Golduck",
+"stages": [
+[
+"Psyduck",
+"ASH:#039/217",
+0
+],
+[
+"Golduck",
+"ASH:#040/217",
+1
+]
+],
+"energy": [],
+"hp": 120,
+"dps": 20.0,
+"abilities": [
+"Damp",
+"Damp"
+],
+"tags": [
+"ability"
+],
+"length": 2
+},
+{
+"id": "Mankey",
+"top": "Annihilape",
+"stages": [
+[
+"Mankey",
+"SV10:#090/182",
+0
+],
+[
+"Primeape",
+"SV08:#099/191",
+1
+],
+[
+"Annihilape",
+"SV08:#100/191",
+2
+]
+],
+"energy": [
+"F"
+],
+"hp": 140,
+"dps": 130.0,
+"abilities": [],
+"tags": [
+"attacker",
+"status"
+],
+"length": 3
+},
+{
+"id": "Growlithe",
+"top": "Arcanine",
+"stages": [
+[
+"Growlithe",
+"SV10:#027/182",
+0
+],
+[
+"Arcanine",
+"SV10:#028/182",
+1
+]
+],
+"energy": [
+"R"
+],
+"hp": 140,
+"dps": 33.3,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Hisuian Growlithe",
+"top": "Hisuian Growlithe",
+"stages": [
+[
+"Hisuian Growlithe",
+"SV06:#099/167",
+0
+]
+],
+"energy": [
+"F"
+],
+"hp": 80,
+"dps": 20.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Poliwag",
+"top": "Poliwrath",
+"stages": [
+[
+"Poliwag",
+"SV06:#041/167",
+0
+],
+[
+"Poliwhirl",
+"SV06:#042/167",
+1
+],
+[
+"Poliwrath",
+"SV06:#043/167",
+2
+]
+],
+"energy": [
+"W"
+],
+"hp": 170,
+"dps": 60.0,
+"abilities": [],
+"tags": [
+"attacker",
+"status"
+],
+"length": 3
+},
+{
+"id": "Abra",
+"top": "Kadabra",
+"stages": [
+[
+"Abra",
+"SV06:#080/167",
+0
+],
+[
+"Kadabra",
+"ME01:#055/132",
+1
+]
+],
+"energy": [
+"P"
+],
+"hp": 80,
+"dps": 30.0,
+"abilities": [
+"Teleporter",
+"Psychic Draw"
+],
+"tags": [
+"ability",
+"engine"
+],
+"length": 2
+},
+{
+"id": "Erika's Bellsprout",
+"top": "Erika's Weepinbell",
+"stages": [
+[
+"Erika's Bellsprout",
+"ASH:#004/217",
+0
+],
+[
+"Erika's Weepinbell",
+"ASH:#005/217",
+1
+]
+],
+"energy": [
+"G"
+],
+"hp": 90,
+"dps": 35.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Alolan Geodude",
+"top": "Alolan Golem",
+"stages": [
+[
+"Alolan Geodude",
+"SV09:#044/159",
+0
+],
+[
+"Alolan Graveler",
+"SV09:#045/159",
+1
+],
+[
+"Alolan Golem",
+"SV09:#046/159",
+2
+]
+],
+"energy": [
+"L"
+],
+"hp": 180,
+"dps": 80.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 3
+},
+{
+"id": "Ponyta",
+"top": "Rapidash",
+"stages": [
+[
+"Ponyta",
+"SV07:#019/142",
+0
+],
+[
+"Rapidash",
+"SV10:#030/182",
+1
+]
+],
+"energy": [
+"R"
+],
+"hp": 110,
+"dps": 30.0,
+"abilities": [
+"Hurried Gait"
+],
+"tags": [
+"ability",
+"engine"
+],
+"length": 2
+},
+{
+"id": "Slowpoke",
+"top": "Slowking",
+"stages": [
+[
+"Slowpoke",
+"PRE:#018/131",
+0
+],
+[
+"Slowking",
+"SV07:#058/142",
+1
+]
+],
+"energy": [
+"P"
+],
+"hp": 120,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Magnemite",
+"top": "Magnezone",
+"stages": [
+[
+"Magnemite",
+"SV08:#058/191",
+0
+],
+[
+"Magneton",
+"SV08:#059/191",
+1
+],
+[
+"Magnezone",
+"ME01:#047/132",
+2
+]
+],
+"energy": [
+"L"
+],
+"hp": 160,
+"dps": 80.0,
+"abilities": [
+"Overvolt Discharge"
+],
+"tags": [
+"ability",
+"accel",
+"attacker"
+],
+"length": 3
+},
+{
+"id": "Farfetch'd",
+"top": "Farfetch'd",
+"stages": [
+[
+"Farfetch'd",
+"SV06:#132/167",
+0
+]
+],
+"energy": [],
+"hp": 70,
+"dps": 30.0,
+"abilities": [
+"Impromptu Carrier"
+],
+"tags": [
+"ability",
+"engine"
+],
+"length": 1
+},
+{
+"id": "Seel",
+"top": "Dewgong",
+"stages": [
+[
+"Seel",
+"ME03:#018/088",
+0
+],
+[
+"Dewgong",
+"ME02:#022/094",
+1
+]
+],
+"energy": [
+"W"
+],
+"hp": 130,
+"dps": 35.0,
+"abilities": [
+"Thick Fat"
+],
+"tags": [
+"ability",
+"attacker",
+"wall"
+],
+"length": 2
+},
+{
+"id": "Team Rocket's Grimer",
+"top": "Team Rocket's Muk",
+"stages": [
+[
+"Team Rocket's Grimer",
+"SV10:#123/182",
+0
+],
+[
+"Team Rocket's Muk",
+"SV10:#124/182",
+1
+]
+],
+"energy": [
+"D"
+],
+"hp": 150,
+"dps": 33.3,
+"abilities": [],
+"tags": [
+"status"
+],
+"length": 2
+},
+{
+"id": "Gastly",
+"top": "Haunter",
+"stages": [
+[
+"Gastly",
+"ME03:#048/088",
+0
+],
+[
+"Haunter",
+"ASH:#124/217",
+1
+]
+],
+"energy": [
+"D"
+],
+"hp": 100,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Onix",
+"top": "Onix",
+"stages": [
+[
+"Onix",
+"ME01:#070/132",
+0
+]
+],
+"energy": [],
+"hp": 120,
+"dps": 25.0,
+"abilities": [],
+"tags": [
+"status"
+],
+"length": 1
+},
+{
+"id": "Drowzee",
+"top": "Hypno",
+"stages": [
+[
+"Drowzee",
+"SFA:#016/064",
+0
+],
+[
+"Hypno",
+"SFA:#017/064",
+1
+]
+],
+"energy": [
+"P"
+],
+"hp": 110,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Team Rocket's Drowzee",
+"top": "Team Rocket's Hypno",
+"stages": [
+[
+"Team Rocket's Drowzee",
+"SV10:#079/182",
+0
+],
+[
+"Team Rocket's Hypno",
+"SV10:#080/182",
+1
+]
+],
+"energy": [
+"P"
+],
+"hp": 130,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Iono's Voltorb",
+"top": "Iono's Electrode",
+"stages": [
+[
+"Iono's Voltorb",
+"SV09:#047/159",
+0
+],
+[
+"Iono's Electrode",
+"SV09:#048/159",
+1
+]
+],
+"energy": [
+"L"
+],
+"hp": 100,
+"dps": 33.3,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Exeggcute",
+"top": "Exeggutor",
+"stages": [
+[
+"Exeggcute",
+"PRE:#001/131",
+0
+],
+[
+"Exeggutor",
+"SV08:#003/191",
+1
+]
+],
+"energy": [
+"G"
+],
+"hp": 130,
+"dps": 60.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Team Rocket's Exeggcute",
+"top": "Team Rocket's Exeggcute",
+"stages": [
+[
+"Team Rocket's Exeggcute",
+"ASH:#077/217",
+0
+]
+],
+"energy": [
+"P"
+],
+"hp": 60,
+"dps": 10.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Cubone",
+"top": "Alolan Marowak",
+"stages": [
+[
+"Cubone",
+"SV07:#072/142",
+0
+],
+[
+"Alolan Marowak",
+"SV09:#057/159",
+1
+]
+],
+"energy": [
+"P"
+],
+"hp": 120,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Lickitung",
+"top": "Lickilicky",
+"stages": [
+[
+"Lickitung",
+"SV05:#124/162",
+0
+],
+[
+"Lickilicky",
+"SV05:#125/162",
+1
+]
+],
+"energy": [],
+"hp": 150,
+"dps": 25.0,
+"abilities": [],
+"tags": [
+"status"
+],
+"length": 2
+},
+{
+"id": "Koffing",
+"top": "Weezing",
+"stages": [
+[
+"Koffing",
+"SV09:#091/159",
+0
+],
+[
+"Weezing",
+"SV09:#092/159",
+1
+]
+],
+"energy": [
+"D"
+],
+"hp": 130,
+"dps": 30.0,
+"abilities": [],
+"tags": [
+"status"
+],
+"length": 2
+},
+{
+"id": "Team Rocket's Koffing",
+"top": "Team Rocket's Weezing",
+"stages": [
+[
+"Team Rocket's Koffing",
+"SV10:#125/182",
+0
+],
+[
+"Team Rocket's Weezing",
+"SV10:#126/182",
+1
+]
+],
+"energy": [
+"D"
+],
+"hp": 130,
+"dps": 20.0,
+"abilities": [
+"Smog Signals"
+],
+"tags": [
+"ability",
+"engine"
+],
+"length": 2
+},
+{
+"id": "Rhyhorn",
+"top": "Rhydon",
+"stages": [
+[
+"Rhyhorn",
+"SV07:#074/142",
+0
+],
+[
+"Rhydon",
+"SV07:#075/142",
+1
+]
+],
+"energy": [
+"F"
+],
+"hp": 140,
+"dps": 26.7,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Chansey",
+"top": "Chansey",
+"stages": [
+[
+"Chansey",
+"SV06:#133/167",
+0
+]
+],
+"energy": [],
+"hp": 120,
+"dps": 26.7,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Erika's Tangela",
+"top": "Erika's Tangela",
+"stages": [
+[
+"Erika's Tangela",
+"ASH:#007/217",
+0
+]
+],
+"energy": [
+"G"
+],
+"hp": 80,
+"dps": 25.0,
+"abilities": [
+"Gathering of Blossoms"
+],
+"tags": [
+"ability",
+"engine",
+"status"
+],
+"length": 1
+},
+{
+"id": "Tangela",
+"top": "Tangrowth",
+"stages": [
+[
+"Tangela",
+"SV06:#001/167",
+0
+],
+[
+"Tangrowth",
+"SV06:#002/167",
+1
+]
+],
+"energy": [
+"G"
+],
+"hp": 150,
+"dps": 50.0,
+"abilities": [
+"Thicket Body"
+],
+"tags": [
+"ability",
+"attacker",
+"wall"
+],
+"length": 2
+},
+{
+"id": "Kangaskhan",
+"top": "Kangaskhan",
+"stages": [
+[
+"Kangaskhan",
+"SV10:#151/182",
+0
+]
+],
+"energy": [],
+"hp": 120,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Horsea",
+"top": "Seadra",
+"stages": [
+[
+"Horsea",
+"SFA:#010/064",
+0
+],
+[
+"Seadra",
+"SFA:#011/064",
+1
+]
+],
+"energy": [
+"W"
+],
+"hp": 90,
+"dps": 20.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Goldeen",
+"top": "Seaking",
+"stages": [
+[
+"Goldeen",
+"PRE:#020/131",
+0
+],
+[
+"Seaking",
+"PRE:#021/131",
+1
+]
+],
+"energy": [],
+"hp": 110,
+"dps": 60.0,
+"abilities": [
+"Festival Lead",
+"Festival Lead"
+],
+"tags": [
+"ability",
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Misty's Staryu",
+"top": "Misty's Starmie",
+"stages": [
+[
+"Misty's Staryu",
+"SV10:#046/182",
+0
+],
+[
+"Misty's Starmie",
+"SV10:#047/182",
+1
+]
+],
+"energy": [
+"W"
+],
+"hp": 100,
+"dps": 60.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Staryu",
+"top": "Staryu",
+"stages": [
+[
+"Staryu",
+"ME03:#020/088",
+0
+]
+],
+"energy": [
+"W"
+],
+"hp": 70,
+"dps": 20.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Mr. Mime",
+"top": "Mr. Mime",
+"stages": [
+[
+"Mr. Mime",
+"SV05:#063/162",
+0
+]
+],
+"energy": [
+"P"
+],
+"hp": 90,
+"dps": 20.0,
+"abilities": [],
+"tags": [
+"status"
+],
+"length": 1
+},
+{
+"id": "Scyther",
+"top": "Scyther",
+"stages": [
+[
+"Scyther",
+"SV05:#001/162",
+0
+]
+],
+"energy": [],
+"hp": 90,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Jynx",
+"top": "Jynx",
+"stages": [
+[
+"Jynx",
+"SV06:#046/167",
+0
+]
+],
+"energy": [
+"W"
+],
+"hp": 90,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Electabuzz",
+"top": "Electivire",
+"stages": [
+[
+"Electabuzz",
+"SV10:#068/182",
+0
+],
+[
+"Electivire",
+"SV07:#047/142",
+1
+]
+],
+"energy": [
+"L"
+],
+"hp": 150,
+"dps": 110.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Magmar",
+"top": "Magmar",
+"stages": [
+[
+"Magmar",
+"SV09:#020/159",
+0
+]
+],
+"energy": [
+"R"
+],
+"hp": 80,
+"dps": 15.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Ethan's Pinsir",
+"top": "Ethan's Pinsir",
+"stages": [
+[
+"Ethan's Pinsir",
+"SV10:#001/182",
+0
+]
+],
+"energy": [
+"G"
+],
+"hp": 120,
+"dps": 23.3,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Pinsir",
+"top": "Pinsir",
+"stages": [
+[
+"Pinsir",
+"SV06:#003/167",
+0
+]
+],
+"energy": [
+"G"
+],
+"hp": 110,
+"dps": 33.3,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Paldean Tauros",
+"top": "Paldean Tauros",
+"stages": [
+[
+"Paldean Tauros",
+"ME02:#048/094",
+0
+]
+],
+"energy": [
+"F"
+],
+"hp": 130,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 1
+},
+{
+"id": "Tauros",
+"top": "Tauros",
+"stages": [
+[
+"Tauros",
+"SV10:#152/182",
+0
+]
+],
+"energy": [],
+"hp": 130,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Misty's Magikarp",
+"top": "Misty's Magikarp",
+"stages": [
+[
+"Misty's Magikarp",
+"SV10:#048/182",
+0
+]
+],
+"energy": [
+"W"
+],
+"hp": 30,
+"dps": 10.0,
+"abilities": [
+"So Submerged"
+],
+"tags": [
+"ability",
+"wall"
+],
+"length": 1
+},
+{
+"id": "Lapras",
+"top": "Lapras",
+"stages": [
+[
+"Lapras",
+"SV07:#031/142",
+0
+]
+],
+"energy": [
+"W"
+],
+"hp": 130,
+"dps": 26.7,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Misty's Lapras",
+"top": "Misty's Lapras",
+"stages": [
+[
+"Misty's Lapras",
+"SV10:#050/182",
+0
+]
+],
+"energy": [
+"W"
+],
+"hp": 110,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Eevee",
+"top": "Glaceon",
+"stages": [
+[
+"Eevee",
+"SV08:#143/191",
+0
+],
+[
+"Glaceon",
+"SV06:#054/167",
+1
+]
+],
+"energy": [
+"W"
+],
+"hp": 120,
+"dps": 35.0,
+"abilities": [
+"Boosted Evolution"
+],
+"tags": [
+"ability",
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Team Rocket's Porygon",
+"top": "Team Rocket's Porygon-Z",
+"stages": [
+[
+"Team Rocket's Porygon",
+"SV10:#153/182",
+0
+],
+[
+"Team Rocket's Porygon2",
+"SV10:#154/182",
+1
+],
+[
+"Team Rocket's Porygon-Z",
+"SV10:#155/182",
+2
+]
+],
+"energy": [],
+"hp": 140,
+"dps": 10.0,
+"abilities": [
+"Reconstitute"
+],
+"tags": [
+"ability",
+"engine"
+],
+"length": 3
+},
+{
+"id": "Snorlax",
+"top": "Snorlax",
+"stages": [
+[
+"Snorlax",
+"ME03:#063/088",
+0
+]
+],
+"energy": [],
+"hp": 160,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker",
+"status"
+],
+"length": 1
+},
+{
+"id": "Articuno",
+"top": "Articuno",
+"stages": [
+[
+"Articuno",
+"SV09:#032/159",
+0
+]
+],
+"energy": [
+"W"
+],
+"hp": 110,
+"dps": 36.7,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 1
+},
+{
+"id": "Dratini",
+"top": "Dragonair",
+"stages": [
+[
+"Dratini",
+"ASH:#150/217",
+0
+],
+[
+"Dragonair",
+"ASH:#151/217",
+1
+]
+],
+"energy": [
+"L",
+"W"
+],
+"hp": 100,
+"dps": 30.0,
+"abilities": [
+"Evolutionary Guidance"
+],
+"tags": [
+"ability",
+"accel",
+"engine"
+],
+"length": 2
+},
+{
+"id": "Mewtwo",
+"top": "Mewtwo",
+"stages": [
+[
+"Mewtwo",
+"SV07:#059/142",
+0
+]
+],
+"energy": [
+"P"
+],
+"hp": 130,
+"dps": 33.3,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Chikorita",
+"top": "Bayleef",
+"stages": [
+[
+"Chikorita",
+"ME01:#008/132",
+0
+],
+[
+"Bayleef",
+"ASH:#009/217",
+1
+]
+],
+"energy": [
+"G"
+],
+"hp": 100,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Ethan's Cyndaquil",
+"top": "Ethan's Quilava",
+"stages": [
+[
+"Ethan's Cyndaquil",
+"SV10:#032/182",
+0
+],
+[
+"Ethan's Quilava",
+"SV10:#033/182",
+1
+]
+],
+"energy": [
+"R"
+],
+"hp": 100,
+"dps": 40.0,
+"abilities": [
+"Bonded by the Journey"
+],
+"tags": [
+"ability",
+"attacker",
+"engine"
+],
+"length": 2
+},
+{
+"id": "Totodile",
+"top": "Croconaw",
+"stages": [
+[
+"Totodile",
+"ASH:#041/217",
+0
+],
+[
+"Croconaw",
+"SV05:#040/162",
+1
+]
+],
+"energy": [
+"W"
+],
+"hp": 90,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Sentret",
+"top": "Furret",
+"stages": [
+[
+"Sentret",
+"SV09:#118/159",
+0
+],
+[
+"Furret",
+"SV09:#119/159",
+1
+]
+],
+"energy": [],
+"hp": 120,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Hoothoot",
+"top": "Noctowl",
+"stages": [
+[
+"Hoothoot",
+"PRE:#077/131",
+0
+],
+[
+"Noctowl",
+"SV05:#127/162",
+1
+]
+],
+"energy": [],
+"hp": 110,
+"dps": 35.0,
+"abilities": [
+"Insomnia"
+],
+"tags": [
+"ability",
+"attacker",
+"wall"
+],
+"length": 2
+},
+{
+"id": "Ledyba",
+"top": "Ledyba",
+"stages": [
+[
+"Ledyba",
+"SV07:#002/142",
+0
+]
+],
+"energy": [],
+"hp": 60,
+"dps": 15.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Spinarak",
+"top": "Ariados",
+"stages": [
+[
+"Spinarak",
+"SV06:#004/167",
+0
+],
+[
+"Ariados",
+"SV06:#005/167",
+1
+]
+],
+"energy": [
+"G"
+],
+"hp": 90,
+"dps": 10.0,
+"abilities": [
+"Big Net"
+],
+"tags": [
+"ability"
+],
+"length": 2
+},
+{
+"id": "Chinchou",
+"top": "Lanturn",
+"stages": [
+[
+"Chinchou",
+"SV07:#048/142",
+0
+],
+[
+"Lanturn",
+"SV07:#049/142",
+1
+]
+],
+"energy": [
+"L"
+],
+"hp": 120,
+"dps": 46.7,
+"abilities": [],
+"tags": [
+"attacker",
+"status"
+],
+"length": 2
+},
+{
+"id": "Ethan's Pichu",
+"top": "Ethan's Pichu",
+"stages": [
+[
+"Ethan's Pichu",
+"SV10:#071/182",
+0
+]
+],
+"energy": [],
+"hp": 30,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Togepi",
+"top": "Togetic",
+"stages": [
+[
+"Togepi",
+"SV08:#070/191",
+0
+],
+[
+"Togetic",
+"SV08:#071/191",
+1
+]
+],
+"energy": [],
+"hp": 90,
+"dps": 15.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Mareep",
+"top": "Flaaffy",
+"stages": [
+[
+"Mareep",
+"ME04:#027/086",
+0
+],
+[
+"Flaaffy",
+"ME04:#028/086",
+1
+]
+],
+"energy": [
+"L"
+],
+"hp": 90,
+"dps": 20.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Team Rocket's Mareep",
+"top": "Team Rocket's Ampharos",
+"stages": [
+[
+"Team Rocket's Mareep",
+"SV10:#072/182",
+0
+],
+[
+"Team Rocket's Flaaffy",
+"SV10:#073/182",
+1
+],
+[
+"Team Rocket's Ampharos",
+"SV10:#074/182",
+2
+]
+],
+"energy": [
+"L"
+],
+"hp": 140,
+"dps": 46.7,
+"abilities": [
+"Darkest Impulse"
+],
+"tags": [
+"ability",
+"attacker"
+],
+"length": 3
+},
+{
+"id": "Marill",
+"top": "Azumarill",
+"stages": [
+[
+"Marill",
+"SV08:#073/191",
+0
+],
+[
+"Azumarill",
+"SV08:#074/191",
+1
+]
+],
+"energy": [
+"P"
+],
+"hp": 120,
+"dps": 57.5,
+"abilities": [
+"Glistening Bubbles"
+],
+"tags": [
+"ability",
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Ethan's Sudowoodo",
+"top": "Ethan's Sudowoodo",
+"stages": [
+[
+"Ethan's Sudowoodo",
+"SV10:#093/182",
+0
+]
+],
+"energy": [
+"F"
+],
+"hp": 110,
+"dps": 20.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Sudowoodo",
+"top": "Sudowoodo",
+"stages": [
+[
+"Sudowoodo",
+"ME04:#043/086",
+0
+]
+],
+"energy": [
+"F"
+],
+"hp": 110,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Aipom",
+"top": "Ambipom",
+"stages": [
+[
+"Aipom",
+"SV06:#137/167",
+0
+],
+[
+"Ambipom",
+"SV06:#138/167",
+1
+]
+],
+"energy": [],
+"hp": 110,
+"dps": 33.3,
+"abilities": [
+"Wicked Tail"
+],
+"tags": [
+"ability"
+],
+"length": 2
+},
+{
+"id": "Sunkern",
+"top": "Sunflora",
+"stages": [
+[
+"Sunkern",
+"SV06:#006/167",
+0
+],
+[
+"Sunflora",
+"SV06:#007/167",
+1
+]
+],
+"energy": [
+"G"
+],
+"hp": 100,
+"dps": 60.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Yanma",
+"top": "Yanma",
+"stages": [
+[
+"Yanma",
+"SV10:#002/182",
+0
+]
+],
+"energy": [
+"G"
+],
+"hp": 70,
+"dps": 15.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Paldean Wooper",
+"top": "Paldean Wooper",
+"stages": [
+[
+"Paldean Wooper",
+"SV09:#093/159",
+0
+]
+],
+"energy": [
+"D"
+],
+"hp": 60,
+"dps": 10.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Murkrow",
+"top": "Honchkrow",
+"stages": [
+[
+"Murkrow",
+"ME02:#057/094",
+0
+],
+[
+"Honchkrow",
+"ME02:#058/094",
+1
+]
+],
+"energy": [
+"D"
+],
+"hp": 130,
+"dps": 30.0,
+"abilities": [],
+"tags": [
+"spread"
+],
+"length": 2
+},
+{
+"id": "Team Rocket's Murkrow",
+"top": "Team Rocket's Murkrow",
+"stages": [
+[
+"Team Rocket's Murkrow",
+"ASH:#126/217",
+0
+]
+],
+"energy": [
+"D"
+],
+"hp": 80,
+"dps": 15.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Misdreavus",
+"top": "Misdreavus",
+"stages": [
+[
+"Misdreavus",
+"ME02:#035/094",
+0
+]
+],
+"energy": [
+"P"
+],
+"hp": 70,
+"dps": 20.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Girafarig",
+"top": "Farigiraf",
+"stages": [
+[
+"Girafarig",
+"SV06:#083/167",
+0
+],
+[
+"Farigiraf",
+"SV06:#084/167",
+1
+]
+],
+"energy": [
+"P"
+],
+"hp": 140,
+"dps": 26.7,
+"abilities": [],
+"tags": [
+"status"
+],
+"length": 2
+},
+{
+"id": "Pineco",
+"top": "Forretress",
+"stages": [
+[
+"Pineco",
+"SV05:#002/162",
+0
+],
+[
+"Forretress",
+"SV05:#110/162",
+1
+]
+],
+"energy": [
+"M"
+],
+"hp": 130,
+"dps": 43.3,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Dunsparce",
+"top": "Dunsparce",
+"stages": [
+[
+"Dunsparce",
+"SV05:#128/162",
+0
+]
+],
+"energy": [],
+"hp": 60,
+"dps": 15.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Larry's Dunsparce",
+"top": "Larry's Dunsparce",
+"stages": [
+[
+"Larry's Dunsparce",
+"ASH:#163/217",
+0
+]
+],
+"energy": [],
+"hp": 70,
+"dps": 10.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Gligar",
+"top": "Gliscor",
+"stages": [
+[
+"Gligar",
+"ME02:#049/094",
+0
+],
+[
+"Gliscor",
+"ME02:#050/094",
+1
+]
+],
+"energy": [
+"F"
+],
+"hp": 120,
+"dps": 50.0,
+"abilities": [],
+"tags": [
+"attacker",
+"status"
+],
+"length": 2
+},
+{
+"id": "Snubbull",
+"top": "Granbull",
+"stages": [
+[
+"Snubbull",
+"ME02:#037/094",
+0
+],
+[
+"Granbull",
+"ME02:#038/094",
+1
+]
+],
+"energy": [
+"P"
+],
+"hp": 130,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Qwilfish",
+"top": "Qwilfish",
+"stages": [
+[
+"Qwilfish",
+"ME04:#052/086",
+0
+]
+],
+"energy": [
+"D"
+],
+"hp": 90,
+"dps": 30.0,
+"abilities": [
+"Poison Point"
+],
+"tags": [
+"ability"
+],
+"length": 1
+},
+{
+"id": "Shuckle",
+"top": "Shuckle",
+"stages": [
+[
+"Shuckle",
+"ME01:#011/132",
+0
+]
+],
+"energy": [
+"G"
+],
+"hp": 80,
+"dps": 15.0,
+"abilities": [
+"Fermented Juice"
+],
+"tags": [
+"ability",
+"accel"
+],
+"length": 1
+},
+{
+"id": "Heracross",
+"top": "Heracross",
+"stages": [
+[
+"Heracross",
+"SV06:#008/167",
+0
+]
+],
+"energy": [
+"G"
+],
+"hp": 120,
+"dps": 32.5,
+"abilities": [],
+"tags": [
+"status"
+],
+"length": 1
+},
+{
+"id": "Sneasel",
+"top": "Weavile",
+"stages": [
+[
+"Sneasel",
+"PRE:#061/131",
+0
+],
+[
+"Weavile",
+"ASH:#045/217",
+1
+]
+],
+"energy": [
+"W"
+],
+"hp": 100,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker",
+"status"
+],
+"length": 2
+},
+{
+"id": "Ethan's Slugma",
+"top": "Ethan's Slugma",
+"stages": [
+[
+"Ethan's Slugma",
+"ASH:#023/217",
+0
+]
+],
+"energy": [
+"R"
+],
+"hp": 80,
+"dps": 20.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Slugma",
+"top": "Slugma",
+"stages": [
+[
+"Slugma",
+"SV05:#028/162",
+0
+]
+],
+"energy": [
+"R"
+],
+"hp": 80,
+"dps": 10.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Swinub",
+"top": "Mamoswine",
+"stages": [
+[
+"Swinub",
+"ME02:#023/094",
+0
+],
+[
+"Piloswine",
+"SV09:#078/159",
+1
+],
+[
+"Mamoswine",
+"ME02:#025/094",
+2
+]
+],
+"energy": [
+"W"
+],
+"hp": 180,
+"dps": 50.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 3
+},
+{
+"id": "Remoraid",
+"top": "Octillery",
+"stages": [
+[
+"Remoraid",
+"ME04:#016/086",
+0
+],
+[
+"Octillery",
+"ME04:#017/086",
+1
+]
+],
+"energy": [
+"W"
+],
+"hp": 110,
+"dps": 60.0,
+"abilities": [],
+"tags": [
+"attacker",
+"status"
+],
+"length": 2
+},
+{
+"id": "Delibird",
+"top": "Delibird",
+"stages": [
+[
+"Delibird",
+"ME04:#018/086",
+0
+]
+],
+"energy": [],
+"hp": 90,
+"dps": 20.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Mantine",
+"top": "Mantine",
+"stages": [
+[
+"Mantine",
+"SV08:#040/191",
+0
+]
+],
+"energy": [
+"W"
+],
+"hp": 110,
+"dps": 30.0,
+"abilities": [],
+"tags": [
+"spread"
+],
+"length": 1
+},
+{
+"id": "Skarmory",
+"top": "Skarmory",
+"stages": [
+[
+"Skarmory",
+"SV10:#141/182",
+0
+]
+],
+"energy": [
+"M"
+],
+"hp": 110,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Steven's Skarmory",
+"top": "Steven's Skarmory",
+"stages": [
+[
+"Steven's Skarmory",
+"SV10:#142/182",
+0
+]
+],
+"energy": [
+"M"
+],
+"hp": 120,
+"dps": 15.0,
+"abilities": [],
+"tags": [
+"spread"
+],
+"length": 1
+},
+{
+"id": "Houndour",
+"top": "Houndoom",
+"stages": [
+[
+"Houndour",
+"PRE:#062/131",
+0
+],
+[
+"Houndoom",
+"PRE:#063/131",
+1
+]
+],
+"energy": [
+"D"
+],
+"hp": 120,
+"dps": 33.3,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Team Rocket's Houndour",
+"top": "Team Rocket's Houndoom",
+"stages": [
+[
+"Team Rocket's Houndour",
+"SV10:#037/182",
+0
+],
+[
+"Team Rocket's Houndoom",
+"SV10:#038/182",
+1
+]
+],
+"energy": [
+"R"
+],
+"hp": 130,
+"dps": 60.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Phanpy",
+"top": "Donphan",
+"stages": [
+[
+"Phanpy",
+"SV08:#102/191",
+0
+],
+[
+"Donphan",
+"ME04:#045/086",
+1
+]
+],
+"energy": [
+"F"
+],
+"hp": 150,
+"dps": 45.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Smeargle",
+"top": "Smeargle",
+"stages": [
+[
+"Smeargle",
+"ME02:#080/094",
+0
+]
+],
+"energy": [],
+"hp": 80,
+"dps": 20.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Tyrogue",
+"top": "Tyrogue",
+"stages": [
+[
+"Tyrogue",
+"ME01:#071/132",
+0
+]
+],
+"energy": [],
+"hp": 30,
+"dps": 10.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Hitmontop",
+"top": "Hitmontop",
+"stages": [
+[
+"Hitmontop",
+"ASH:#102/217",
+0
+]
+],
+"energy": [
+"F"
+],
+"hp": 100,
+"dps": 25.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Smoochum",
+"top": "Smoochum",
+"stages": [
+[
+"Smoochum",
+"SV08:#075/191",
+0
+]
+],
+"energy": [],
+"hp": 30,
+"dps": 0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Miltank",
+"top": "Miltank",
+"stages": [
+[
+"Miltank",
+"PRE:#081/131",
+0
+]
+],
+"energy": [],
+"hp": 130,
+"dps": 50.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 1
+},
+{
+"id": "Suicune",
+"top": "Suicune",
+"stages": [
+[
+"Suicune",
+"PRE:#024/131",
+0
+]
+],
+"energy": [
+"W"
+],
+"hp": 120,
+"dps": 33.3,
+"abilities": [],
+"tags": [
+"spread"
+],
+"length": 1
+},
+{
+"id": "Larvitar",
+"top": "Pupitar",
+"stages": [
+[
+"Larvitar",
+"PRE:#047/131",
+0
+],
+[
+"Pupitar",
+"SV09:#081/159",
+1
+]
+],
+"energy": [],
+"hp": 90,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Team Rocket's Larvitar",
+"top": "Team Rocket's Pupitar",
+"stages": [
+[
+"Team Rocket's Larvitar",
+"SV10:#094/182",
+0
+],
+[
+"Team Rocket's Pupitar",
+"SV10:#095/182",
+1
+]
+],
+"energy": [],
+"hp": 100,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Ho-Oh",
+"top": "Ho-Oh",
+"stages": [
+[
+"Ho-Oh",
+"SV08:#019/191",
+0
+]
+],
+"energy": [
+"R"
+],
+"hp": 130,
+"dps": 33.3,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Celebi",
+"top": "Celebi",
+"stages": [
+[
+"Celebi",
+"SV07:#004/142",
+0
+]
+],
+"energy": [
+"G"
+],
+"hp": 80,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Torchic",
+"top": "Combusken",
+"stages": [
+[
+"Torchic",
+"SV09:#022/159",
+0
+],
+[
+"Combusken",
+"SV09:#023/159",
+1
+]
+],
+"energy": [
+"R"
+],
+"hp": 90,
+"dps": 25.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Poochyena",
+"top": "Mightyena",
+"stages": [
+[
+"Poochyena",
+"ASH:#128/217",
+0
+],
+[
+"Mightyena",
+"ASH:#129/217",
+1
+]
+],
+"energy": [
+"D"
+],
+"hp": 120,
+"dps": 43.3,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Galarian Zigzagoon",
+"top": "Galarian Obstagoon",
+"stages": [
+[
+"Galarian Zigzagoon",
+"ASH:#130/217",
+0
+],
+[
+"Galarian Linoone",
+"ASH:#131/217",
+1
+],
+[
+"Galarian Obstagoon",
+"ASH:#132/217",
+2
+]
+],
+"energy": [
+"D"
+],
+"hp": 170,
+"dps": 53.3,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 3
+},
+{
+"id": "Zigzagoon",
+"top": "Linoone",
+"stages": [
+[
+"Zigzagoon",
+"ME02:#081/094",
+0
+],
+[
+"Linoone",
+"ME02:#082/094",
+1
+]
+],
+"energy": [],
+"hp": 100,
+"dps": 70.0,
+"abilities": [
+"Excited Dash"
+],
+"tags": [
+"ability",
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Wurmple",
+"top": "Beautifly",
+"stages": [
+[
+"Wurmple",
+"ASH:#011/217",
+0
+],
+[
+"Silcoon",
+"ASH:#012/217",
+1
+],
+[
+"Beautifly",
+"ASH:#013/217",
+2
+]
+],
+"energy": [
+"G"
+],
+"hp": 130,
+"dps": 80.0,
+"abilities": [
+"Multiplying Cocoon"
+],
+"tags": [
+"ability",
+"attacker",
+"engine",
+"status"
+],
+"length": 3
+},
+{
+"id": "Lotad",
+"top": "Ludicolo",
+"stages": [
+[
+"Lotad",
+"SV09:#035/159",
+0
+],
+[
+"Lombre",
+"SV09:#036/159",
+1
+],
+[
+"Ludicolo",
+"ME02:#007/094",
+2
+]
+],
+"energy": [
+"G"
+],
+"hp": 160,
+"dps": 60.0,
+"abilities": [
+"Excited Heal"
+],
+"tags": [
+"ability",
+"attacker"
+],
+"length": 3
+},
+{
+"id": "Seedot",
+"top": "Shiftry",
+"stages": [
+[
+"Seedot",
+"ME01:#013/132",
+0
+],
+[
+"Nuzleaf",
+"ME01:#014/132",
+1
+],
+[
+"Shiftry",
+"SV05:#005/162",
+2
+]
+],
+"energy": [
+"G"
+],
+"hp": 150,
+"dps": 70.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 3
+},
+{
+"id": "Taillow",
+"top": "Swellow",
+"stages": [
+[
+"Taillow",
+"SV10:#156/182",
+0
+],
+[
+"Swellow",
+"SV10:#157/182",
+1
+]
+],
+"energy": [],
+"hp": 100,
+"dps": 35.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Wingull",
+"top": "Pelipper",
+"stages": [
+[
+"Wingull",
+"SV09:#038/159",
+0
+],
+[
+"Pelipper",
+"SV09:#039/159",
+1
+]
+],
+"energy": [
+"W"
+],
+"hp": 120,
+"dps": 35.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Ralts",
+"top": "Kirlia",
+"stages": [
+[
+"Ralts",
+"ME01:#058/132",
+0
+],
+[
+"Kirlia",
+"ASH:#088/217",
+1
+]
+],
+"energy": [
+"P"
+],
+"hp": 100,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Shroomish",
+"top": "Breloom",
+"stages": [
+[
+"Shroomish",
+"SV10:#005/182",
+0
+],
+[
+"Breloom",
+"SV05:#007/162",
+1
+]
+],
+"energy": [
+"G"
+],
+"hp": 120,
+"dps": 60.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Slakoth",
+"top": "Vigoroth",
+"stages": [
+[
+"Slakoth",
+"SV08:#145/191",
+0
+],
+[
+"Vigoroth",
+"SV08:#146/191",
+1
+]
+],
+"energy": [],
+"hp": 90,
+"dps": 25.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Nincada",
+"top": "Ninjask",
+"stages": [
+[
+"Nincada",
+"ME01:#016/132",
+0
+],
+[
+"Ninjask",
+"ME01:#017/132",
+1
+]
+],
+"energy": [
+"G"
+],
+"hp": 80,
+"dps": 45.0,
+"abilities": [
+"Cast-Off Shell"
+],
+"tags": [
+"ability",
+"attacker",
+"engine"
+],
+"length": 2
+},
+{
+"id": "Makuhita",
+"top": "Makuhita",
+"stages": [
+[
+"Makuhita",
+"ME01:#072/132",
+0
+]
+],
+"energy": [
+"F"
+],
+"hp": 80,
+"dps": 15.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Nosepass",
+"top": "Probopass",
+"stages": [
+[
+"Nosepass",
+"SV06:#101/167",
+0
+],
+[
+"Probopass",
+"ME03:#038/088",
+1
+]
+],
+"energy": [
+"F"
+],
+"hp": 140,
+"dps": 65.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Skitty",
+"top": "Delcatty",
+"stages": [
+[
+"Skitty",
+"ASH:#165/217",
+0
+],
+[
+"Delcatty",
+"ASH:#166/217",
+1
+]
+],
+"energy": [],
+"hp": 100,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Sableye",
+"top": "Sableye",
+"stages": [
+[
+"Sableye",
+"ME02:#059/094",
+0
+]
+],
+"energy": [
+"D"
+],
+"hp": 80,
+"dps": 20.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Mawile",
+"top": "Mawile",
+"stages": [
+[
+"Mawile",
+"SV05:#112/162",
+0
+]
+],
+"energy": [
+"M"
+],
+"hp": 90,
+"dps": 33.3,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Aron",
+"top": "Aggron",
+"stages": [
+[
+"Aron",
+"SV06:#120/167",
+0
+],
+[
+"Lairon",
+"SV06:#121/167",
+1
+],
+[
+"Aggron",
+"SV06:#122/167",
+2
+]
+],
+"energy": [
+"M"
+],
+"hp": 180,
+"dps": 50.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 3
+},
+{
+"id": "Meditite",
+"top": "Medicham",
+"stages": [
+[
+"Meditite",
+"SV07:#078/142",
+0
+],
+[
+"Medicham",
+"ASH:#104/217",
+1
+]
+],
+"energy": [
+"F"
+],
+"hp": 120,
+"dps": 150.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Electrike",
+"top": "Manectric",
+"stages": [
+[
+"Electrike",
+"ME01:#049/132",
+0
+],
+[
+"Manectric",
+"SV10:#076/182",
+1
+]
+],
+"energy": [
+"L"
+],
+"hp": 120,
+"dps": 60.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Volbeat",
+"top": "Volbeat",
+"stages": [
+[
+"Volbeat",
+"SV06:#009/167",
+0
+]
+],
+"energy": [],
+"hp": 70,
+"dps": 10.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Illumise",
+"top": "Illumise",
+"stages": [
+[
+"Illumise",
+"SV06:#010/167",
+0
+]
+],
+"energy": [
+"G"
+],
+"hp": 70,
+"dps": 15.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Cynthia's Roselia",
+"top": "Cynthia's Roselia",
+"stages": [
+[
+"Cynthia's Roselia",
+"SV10:#007/182",
+0
+]
+],
+"energy": [],
+"hp": 70,
+"dps": 20.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Roselia",
+"top": "Roserade",
+"stages": [
+[
+"Roselia",
+"SV05:#008/162",
+0
+],
+[
+"Roserade",
+"SV05:#009/162",
+1
+]
+],
+"energy": [],
+"hp": 130,
+"dps": 35.0,
+"abilities": [
+"Poison Point",
+"Poison Point"
+],
+"tags": [
+"ability",
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Gulpin",
+"top": "Swalot",
+"stages": [
+[
+"Gulpin",
+"SV07:#091/142",
+0
+],
+[
+"Swalot",
+"SV07:#092/142",
+1
+]
+],
+"energy": [
+"D"
+],
+"hp": 130,
+"dps": 33.3,
+"abilities": [],
+"tags": [
+"status"
+],
+"length": 2
+},
+{
+"id": "Carvanha",
+"top": "Sharpedo",
+"stages": [
+[
+"Carvanha",
+"ME02:#060/094",
+0
+],
+[
+"Sharpedo",
+"SV05:#043/162",
+1
+]
+],
+"energy": [
+"W"
+],
+"hp": 120,
+"dps": 33.3,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Wailmer",
+"top": "Wailmer",
+"stages": [
+[
+"Wailmer",
+"SV09:#040/159",
+0
+]
+],
+"energy": [],
+"hp": 130,
+"dps": 20.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Numel",
+"top": "Camerupt",
+"stages": [
+[
+"Numel",
+"ASH:#027/217",
+0
+],
+[
+"Camerupt",
+"ASH:#028/217",
+1
+]
+],
+"energy": [
+"R"
+],
+"hp": 140,
+"dps": 110.0,
+"abilities": [
+"Incandescent Body"
+],
+"tags": [
+"ability",
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Torkoal",
+"top": "Torkoal",
+"stages": [
+[
+"Torkoal",
+"SV06:#030/167",
+0
+]
+],
+"energy": [
+"R"
+],
+"hp": 130,
+"dps": 36.7,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 1
+},
+{
+"id": "Spoink",
+"top": "Grumpig",
+"stages": [
+[
+"Spoink",
+"ME01:#062/132",
+0
+],
+[
+"Grumpig",
+"ME01:#063/132",
+1
+]
+],
+"energy": [
+"P"
+],
+"hp": 120,
+"dps": 20.0,
+"abilities": [
+"Energized Steps"
+],
+"tags": [
+"ability",
+"accel"
+],
+"length": 2
+},
+{
+"id": "Trapinch",
+"top": "Vibrava",
+"stages": [
+[
+"Trapinch",
+"SV08:#104/191",
+0
+],
+[
+"Vibrava",
+"ME02:#052/094",
+1
+]
+],
+"energy": [
+"F"
+],
+"hp": 90,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Swablu",
+"top": "Altaria",
+"stages": [
+[
+"Swablu",
+"SV08:#148/191",
+0
+],
+[
+"Altaria",
+"SV08:#134/191",
+1
+]
+],
+"energy": [
+"M",
+"W"
+],
+"hp": 120,
+"dps": 50.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Zangoose",
+"top": "Zangoose",
+"stages": [
+[
+"Zangoose",
+"SV08:#149/191",
+0
+]
+],
+"energy": [],
+"hp": 90,
+"dps": 10.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Seviper",
+"top": "Seviper",
+"stages": [
+[
+"Seviper",
+"ME02:#062/094",
+0
+]
+],
+"energy": [
+"D"
+],
+"hp": 120,
+"dps": 40.0,
+"abilities": [
+"Excited Power"
+],
+"tags": [
+"ability",
+"attacker",
+"buff"
+],
+"length": 1
+},
+{
+"id": "Solrock",
+"top": "Solrock",
+"stages": [
+[
+"Solrock",
+"ASH:#106/217",
+0
+]
+],
+"energy": [
+"F"
+],
+"hp": 110,
+"dps": 70.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 1
+},
+{
+"id": "Corphish",
+"top": "Crawdaunt",
+"stages": [
+[
+"Corphish",
+"SV06:#047/167",
+0
+],
+[
+"Crawdaunt",
+"SV06:#048/167",
+1
+]
+],
+"energy": [
+"W"
+],
+"hp": 130,
+"dps": 60.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Baltoy",
+"top": "Claydol",
+"stages": [
+[
+"Baltoy",
+"ME04:#046/086",
+0
+],
+[
+"Claydol",
+"ME04:#047/086",
+1
+]
+],
+"energy": [
+"F"
+],
+"hp": 120,
+"dps": 50.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Steven's Baltoy",
+"top": "Steven's Claydol",
+"stages": [
+[
+"Steven's Baltoy",
+"SV10:#083/182",
+0
+],
+[
+"Steven's Claydol",
+"SV10:#084/182",
+1
+]
+],
+"energy": [
+"P"
+],
+"hp": 120,
+"dps": 73.3,
+"abilities": [],
+"tags": [
+"attacker",
+"status"
+],
+"length": 2
+},
+{
+"id": "Cynthia's Feebas",
+"top": "Cynthia's Milotic",
+"stages": [
+[
+"Cynthia's Feebas",
+"SV10:#052/182",
+0
+],
+[
+"Cynthia's Milotic",
+"SV10:#053/182",
+1
+]
+],
+"energy": [
+"W"
+],
+"hp": 130,
+"dps": 30.0,
+"abilities": [],
+"tags": [
+"spread"
+],
+"length": 2
+},
+{
+"id": "Feebas",
+"top": "Milotic",
+"stages": [
+[
+"Feebas",
+"SV06:#049/167",
+0
+],
+[
+"Milotic",
+"SV06:#050/167",
+1
+]
+],
+"energy": [
+"W"
+],
+"hp": 120,
+"dps": 33.3,
+"abilities": [
+"Mentally Calm"
+],
+"tags": [
+"ability",
+"wall"
+],
+"length": 2
+},
+{
+"id": "Castform Sunny Form",
+"top": "Castform Sunny Form",
+"stages": [
+[
+"Castform Sunny Form",
+"SV08:#020/191",
+0
+]
+],
+"energy": [
+"R"
+],
+"hp": 70,
+"dps": 25.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Kecleon",
+"top": "Kecleon",
+"stages": [
+[
+"Kecleon",
+"SV08:#150/191",
+0
+]
+],
+"energy": [],
+"hp": 70,
+"dps": 0,
+"abilities": [
+"Expert Hider"
+],
+"tags": [
+"ability",
+"spread",
+"wall"
+],
+"length": 1
+},
+{
+"id": "Shuppet",
+"top": "Banette",
+"stages": [
+[
+"Shuppet",
+"ASH:#090/217",
+0
+],
+[
+"Banette",
+"SV09:#060/159",
+1
+]
+],
+"energy": [
+"P"
+],
+"hp": 90,
+"dps": 35.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Duskull",
+"top": "Dusclops",
+"stages": [
+[
+"Duskull",
+"PRE:#035/131",
+0
+],
+[
+"Dusclops",
+"SFA:#019/064",
+1
+]
+],
+"energy": [
+"P"
+],
+"hp": 90,
+"dps": 25.0,
+"abilities": [
+"Cursed Blast"
+],
+"tags": [
+"ability"
+],
+"length": 2
+},
+{
+"id": "Tropius",
+"top": "Tropius",
+"stages": [
+[
+"Tropius",
+"SV09:#123/159",
+0
+]
+],
+"energy": [],
+"hp": 110,
+"dps": 25.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Chimecho",
+"top": "Chimecho",
+"stages": [
+[
+"Chimecho",
+"SV06:#085/167",
+0
+]
+],
+"energy": [
+"P"
+],
+"hp": 70,
+"dps": 20.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Absol",
+"top": "Absol",
+"stages": [
+[
+"Absol",
+"ME02:#063/094",
+0
+]
+],
+"energy": [
+"D"
+],
+"hp": 110,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Snorunt",
+"top": "Glalie",
+"stages": [
+[
+"Snorunt",
+"SV06:#051/167",
+0
+],
+[
+"Glalie",
+"SV06:#052/167",
+1
+]
+],
+"energy": [
+"W"
+],
+"hp": 120,
+"dps": 46.7,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Spheal",
+"top": "Walrein",
+"stages": [
+[
+"Spheal",
+"SV08:#043/191",
+0
+],
+[
+"Sealeo",
+"SV08:#044/191",
+1
+],
+[
+"Walrein",
+"SV08:#045/191",
+2
+]
+],
+"energy": [
+"W"
+],
+"hp": 170,
+"dps": 85.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 3
+},
+{
+"id": "Clamperl",
+"top": "Huntail",
+"stages": [
+[
+"Clamperl",
+"SV10:#054/182",
+0
+],
+[
+"Huntail",
+"SV10:#055/182",
+1
+]
+],
+"energy": [
+"W"
+],
+"hp": 110,
+"dps": 26.7,
+"abilities": [
+"Diver's Catch"
+],
+"tags": [
+"ability",
+"accel"
+],
+"length": 2
+},
+{
+"id": "Bagon",
+"top": "Shelgon",
+"stages": [
+[
+"Bagon",
+"SV09:#112/159",
+0
+],
+[
+"Shelgon",
+"SV09:#113/159",
+1
+]
+],
+"energy": [
+"R",
+"W"
+],
+"hp": 100,
+"dps": 26.7,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Beldum",
+"top": "Metagross",
+"stages": [
+[
+"Beldum",
+"SV05:#113/162",
+0
+],
+[
+"Metang",
+"SV05:#114/162",
+1
+],
+[
+"Metagross",
+"ME04:#061/086",
+2
+]
+],
+"energy": [
+"M"
+],
+"hp": 180,
+"dps": 60.0,
+"abilities": [
+"Metal Maker"
+],
+"tags": [
+"ability",
+"accel",
+"attacker"
+],
+"length": 3
+},
+{
+"id": "Steven's Beldum",
+"top": "Steven's Metang",
+"stages": [
+[
+"Steven's Beldum",
+"SV10:#143/182",
+0
+],
+[
+"Steven's Metang",
+"SV10:#144/182",
+1
+]
+],
+"energy": [
+"M"
+],
+"hp": 100,
+"dps": 35.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Regice",
+"top": "Regice",
+"stages": [
+[
+"Regice",
+"SV09:#042/159",
+0
+]
+],
+"energy": [
+"W"
+],
+"hp": 120,
+"dps": 30.0,
+"abilities": [],
+"tags": [
+"spread"
+],
+"length": 1
+},
+{
+"id": "Registeel",
+"top": "Registeel",
+"stages": [
+[
+"Registeel",
+"SV08:#125/191",
+0
+]
+],
+"energy": [
+"M"
+],
+"hp": 130,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Latias",
+"top": "Latias",
+"stages": [
+[
+"Latias",
+"SV05:#067/162",
+0
+]
+],
+"energy": [
+"P"
+],
+"hp": 110,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Latios",
+"top": "Latios",
+"stages": [
+[
+"Latios",
+"ME01:#101/132",
+0
+]
+],
+"energy": [
+"P",
+"W"
+],
+"hp": 130,
+"dps": 43.3,
+"abilities": [
+"Lustrous Assist"
+],
+"tags": [
+"ability",
+"attacker"
+],
+"length": 1
+},
+{
+"id": "Jirachi",
+"top": "Jirachi",
+"stages": [
+[
+"Jirachi",
+"SV07:#098/142",
+0
+]
+],
+"energy": [
+"M"
+],
+"hp": 80,
+"dps": 15.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Deoxys",
+"top": "Deoxys",
+"stages": [
+[
+"Deoxys",
+"ME04:#032/086",
+0
+]
+],
+"energy": [
+"P"
+],
+"hp": 120,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker",
+"spread"
+],
+"length": 1
+},
+{
+"id": "Turtwig",
+"top": "Grotle",
+"stages": [
+[
+"Turtwig",
+"SV05:#010/162",
+0
+],
+[
+"Grotle",
+"SV05:#011/162",
+1
+]
+],
+"energy": [
+"G"
+],
+"hp": 120,
+"dps": 20.0,
+"abilities": [
+"Solid Shell"
+],
+"tags": [
+"ability",
+"wall"
+],
+"length": 2
+},
+{
+"id": "Chimchar",
+"top": "Monferno",
+"stages": [
+[
+"Chimchar",
+"SV06:#031/167",
+0
+],
+[
+"Monferno",
+"SV06:#032/167",
+1
+]
+],
+"energy": [
+"R"
+],
+"hp": 90,
+"dps": 26.7,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Piplup",
+"top": "Prinplup",
+"stages": [
+[
+"Piplup",
+"ME02:#027/094",
+0
+],
+[
+"Prinplup",
+"ME02:#028/094",
+1
+]
+],
+"energy": [],
+"hp": 100,
+"dps": 20.0,
+"abilities": [],
+"tags": [
+"spread"
+],
+"length": 2
+},
+{
+"id": "Larry's Starly",
+"top": "Larry's Staravia",
+"stages": [
+[
+"Larry's Starly",
+"ASH:#168/217",
+0
+],
+[
+"Larry's Staravia",
+"ASH:#169/217",
+1
+]
+],
+"energy": [],
+"hp": 90,
+"dps": 25.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Shinx",
+"top": "Luxio",
+"stages": [
+[
+"Shinx",
+"SV06:#066/167",
+0
+],
+[
+"Luxio",
+"ME03:#027/088",
+1
+]
+],
+"energy": [
+"L"
+],
+"hp": 90,
+"dps": 20.0,
+"abilities": [
+"Fighting Roar"
+],
+"tags": [
+"ability"
+],
+"length": 2
+},
+{
+"id": "Budew",
+"top": "Budew",
+"stages": [
+[
+"Budew",
+"ASH:#016/217",
+0
+]
+],
+"energy": [],
+"hp": 30,
+"dps": 10.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Pachirisu",
+"top": "Pachirisu",
+"stages": [
+[
+"Pachirisu",
+"ME01:#051/132",
+0
+]
+],
+"energy": [
+"L"
+],
+"hp": 70,
+"dps": 10.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Buizel",
+"top": "Floatzel",
+"stages": [
+[
+"Buizel",
+"SV10:#057/182",
+0
+],
+[
+"Floatzel",
+"SV10:#058/182",
+1
+]
+],
+"energy": [
+"W"
+],
+"hp": 120,
+"dps": 46.7,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Shellos",
+"top": "Shellos",
+"stages": [
+[
+"Shellos",
+"SV08:#046/191",
+0
+]
+],
+"energy": [],
+"hp": 70,
+"dps": 15.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Drifloon",
+"top": "Drifblim",
+"stages": [
+[
+"Drifloon",
+"SV07:#060/142",
+0
+],
+[
+"Drifblim",
+"SV07:#061/142",
+1
+]
+],
+"energy": [
+"P"
+],
+"hp": 130,
+"dps": 50.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Buneary",
+"top": "Lopunny",
+"stages": [
+[
+"Buneary",
+"PRE:#083/131",
+0
+],
+[
+"Lopunny",
+"PRE:#084/131",
+1
+]
+],
+"energy": [],
+"hp": 90,
+"dps": 45.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Glameow",
+"top": "Purugly",
+"stages": [
+[
+"Glameow",
+"SV07:#116/142",
+0
+],
+[
+"Purugly",
+"SV07:#117/142",
+1
+]
+],
+"energy": [],
+"hp": 120,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Team Rocket's Chingling",
+"top": "Team Rocket's Chingling",
+"stages": [
+[
+"Team Rocket's Chingling",
+"SV10:#085/182",
+0
+]
+],
+"energy": [],
+"hp": 30,
+"dps": 0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Stunky",
+"top": "Skuntank",
+"stages": [
+[
+"Stunky",
+"ME04:#053/086",
+0
+],
+[
+"Skuntank",
+"ME04:#054/086",
+1
+]
+],
+"energy": [
+"D"
+],
+"hp": 110,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Bronzor",
+"top": "Bronzong",
+"stages": [
+[
+"Bronzor",
+"SV08:#126/191",
+0
+],
+[
+"Bronzong",
+"PRE:#067/131",
+1
+]
+],
+"energy": [
+"M"
+],
+"hp": 130,
+"dps": 25.0,
+"abilities": [
+"Protective Bell"
+],
+"tags": [
+"ability",
+"wall"
+],
+"length": 2
+},
+{
+"id": "Chatot",
+"top": "Chatot",
+"stages": [
+[
+"Chatot",
+"SV05:#132/162",
+0
+]
+],
+"energy": [],
+"hp": 70,
+"dps": 20.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Cynthia's Spiritomb",
+"top": "Cynthia's Spiritomb",
+"stages": [
+[
+"Cynthia's Spiritomb",
+"ASH:#133/217",
+0
+]
+],
+"energy": [],
+"hp": 70,
+"dps": 10.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Spiritomb",
+"top": "Spiritomb",
+"stages": [
+[
+"Spiritomb",
+"ME01:#087/132",
+0
+]
+],
+"energy": [
+"D"
+],
+"hp": 80,
+"dps": 10.0,
+"abilities": [
+"Spiteful Swirl"
+],
+"tags": [
+"ability"
+],
+"length": 1
+},
+{
+"id": "Cynthia's Gible",
+"top": "Cynthia's Gabite",
+"stages": [
+[
+"Cynthia's Gible",
+"ASH:#109/217",
+0
+],
+[
+"Cynthia's Gabite",
+"SV10:#103/182",
+1
+]
+],
+"energy": [
+"F"
+],
+"hp": 100,
+"dps": 40.0,
+"abilities": [
+"Champion's Call"
+],
+"tags": [
+"ability",
+"attacker",
+"engine"
+],
+"length": 2
+},
+{
+"id": "Riolu",
+"top": "Riolu",
+"stages": [
+[
+"Riolu",
+"ASH:#112/217",
+0
+]
+],
+"energy": [
+"F"
+],
+"hp": 80,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Hippopotas",
+"top": "Hippowdon",
+"stages": [
+[
+"Hippopotas",
+"PRE:#052/131",
+0
+],
+[
+"Hippowdon",
+"SV10:#106/182",
+1
+]
+],
+"energy": [
+"F"
+],
+"hp": 160,
+"dps": 50.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Skorupi",
+"top": "Drapion",
+"stages": [
+[
+"Skorupi",
+"ME03:#051/088",
+0
+],
+[
+"Drapion",
+"ME03:#052/088",
+1
+]
+],
+"energy": [
+"D"
+],
+"hp": 140,
+"dps": 33.3,
+"abilities": [],
+"tags": [
+"status"
+],
+"length": 2
+},
+{
+"id": "Croagunk",
+"top": "Toxicroak",
+"stages": [
+[
+"Croagunk",
+"ME01:#078/132",
+0
+],
+[
+"Toxicroak",
+"ME01:#079/132",
+1
+]
+],
+"energy": [
+"F"
+],
+"hp": 130,
+"dps": 70.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Carnivine",
+"top": "Carnivine",
+"stages": [
+[
+"Carnivine",
+"SV07:#007/142",
+0
+]
+],
+"energy": [
+"G"
+],
+"hp": 110,
+"dps": 43.3,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 1
+},
+{
+"id": "Finneon",
+"top": "Lumineon",
+"stages": [
+[
+"Finneon",
+"SV07:#035/142",
+0
+],
+[
+"Lumineon",
+"SV07:#036/142",
+1
+]
+],
+"energy": [
+"W"
+],
+"hp": 110,
+"dps": 35.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Snover",
+"top": "Abomasnow",
+"stages": [
+[
+"Snover",
+"SV10:#059/182",
+0
+],
+[
+"Abomasnow",
+"SV10:#060/182",
+1
+]
+],
+"energy": [
+"W"
+],
+"hp": 150,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Fan Rotom",
+"top": "Fan Rotom",
+"stages": [
+[
+"Fan Rotom",
+"ASH:#171/217",
+0
+]
+],
+"energy": [],
+"hp": 70,
+"dps": 70.0,
+"abilities": [
+"Fan Call"
+],
+"tags": [
+"ability",
+"attacker",
+"engine"
+],
+"length": 1
+},
+{
+"id": "Heat Rotom",
+"top": "Heat Rotom",
+"stages": [
+[
+"Heat Rotom",
+"SV10:#043/182",
+0
+]
+],
+"energy": [
+"R"
+],
+"hp": 80,
+"dps": 15.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Mow Rotom",
+"top": "Mow Rotom",
+"stages": [
+[
+"Mow Rotom",
+"SV07:#008/142",
+0
+]
+],
+"energy": [],
+"hp": 90,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Rotom",
+"top": "Rotom",
+"stages": [
+[
+"Rotom",
+"SV08:#061/191",
+0
+]
+],
+"energy": [
+"L"
+],
+"hp": 80,
+"dps": 20.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Wash Rotom",
+"top": "Wash Rotom",
+"stages": [
+[
+"Wash Rotom",
+"SV10:#061/182",
+0
+]
+],
+"energy": [
+"W"
+],
+"hp": 80,
+"dps": 20.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Uxie",
+"top": "Uxie",
+"stages": [
+[
+"Uxie",
+"SV08:#078/191",
+0
+]
+],
+"energy": [
+"P"
+],
+"hp": 70,
+"dps": 0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Mesprit",
+"top": "Mesprit",
+"stages": [
+[
+"Mesprit",
+"SV08:#079/191",
+0
+]
+],
+"energy": [
+"P"
+],
+"hp": 70,
+"dps": 80.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 1
+},
+{
+"id": "Azelf",
+"top": "Azelf",
+"stages": [
+[
+"Azelf",
+"SV08:#080/191",
+0
+]
+],
+"energy": [
+"P"
+],
+"hp": 70,
+"dps": 5.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Heatran",
+"top": "Heatran",
+"stages": [
+[
+"Heatran",
+"PRE:#068/131",
+0
+]
+],
+"energy": [
+"M"
+],
+"hp": 130,
+"dps": 43.3,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 1
+},
+{
+"id": "Regigigas",
+"top": "Regigigas",
+"stages": [
+[
+"Regigigas",
+"PRE:#086/131",
+0
+]
+],
+"energy": [],
+"hp": 160,
+"dps": 25.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Cresselia",
+"top": "Cresselia",
+"stages": [
+[
+"Cresselia",
+"ME02:#039/094",
+0
+]
+],
+"energy": [
+"P"
+],
+"hp": 120,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Phione",
+"top": "Phione",
+"stages": [
+[
+"Phione",
+"SV06:#055/167",
+0
+]
+],
+"energy": [
+"W"
+],
+"hp": 70,
+"dps": 20.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Shaymin",
+"top": "Shaymin",
+"stages": [
+[
+"Shaymin",
+"SV10:#010/182",
+0
+]
+],
+"energy": [],
+"hp": 80,
+"dps": 15.0,
+"abilities": [
+"Flower Curtain"
+],
+"tags": [
+"ability",
+"wall"
+],
+"length": 1
+},
+{
+"id": "Victini",
+"top": "Victini",
+"stages": [
+[
+"Victini",
+"SV08:#021/191",
+0
+]
+],
+"energy": [
+"R"
+],
+"hp": 70,
+"dps": 15.0,
+"abilities": [
+"Victory Cheer"
+],
+"tags": [
+"ability",
+"buff"
+],
+"length": 1
+},
+{
+"id": "Snivy",
+"top": "Servine",
+"stages": [
+[
+"Snivy",
+"ME03:#004/088",
+0
+],
+[
+"Servine",
+"ME03:#005/088",
+1
+]
+],
+"energy": [
+"G"
+],
+"hp": 100,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Tepig",
+"top": "Pignite",
+"stages": [
+[
+"Tepig",
+"ASH:#029/217",
+0
+],
+[
+"Pignite",
+"WHT:#012/086",
+1
+]
+],
+"energy": [
+"R"
+],
+"hp": 110,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Oshawott",
+"top": "Dewott",
+"stages": [
+[
+"Oshawott",
+"WHT:#021/086",
+0
+],
+[
+"Dewott",
+"WHT:#022/086",
+1
+]
+],
+"energy": [
+"W"
+],
+"hp": 100,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Patrat",
+"top": "Watchog",
+"stages": [
+[
+"Patrat",
+"ME04:#070/086",
+0
+],
+[
+"Watchog",
+"WHT:#073/086",
+1
+]
+],
+"energy": [],
+"hp": 90,
+"dps": 80.0,
+"abilities": [
+"Watchful Eye"
+],
+"tags": [
+"ability",
+"attacker",
+"wall"
+],
+"length": 2
+},
+{
+"id": "Lillipup",
+"top": "Stoutland",
+"stages": [
+[
+"Lillipup",
+"WHT:#074/086",
+0
+],
+[
+"Herdier",
+"WHT:#075/086",
+1
+],
+[
+"Stoutland",
+"WHT:#076/086",
+2
+]
+],
+"energy": [],
+"hp": 160,
+"dps": 25.0,
+"abilities": [],
+"tags": [],
+"length": 3
+},
+{
+"id": "Marnie's Purrloin",
+"top": "Marnie's Liepard",
+"stages": [
+[
+"Marnie's Purrloin",
+"SV10:#130/182",
+0
+],
+[
+"Marnie's Liepard",
+"SV10:#131/182",
+1
+]
+],
+"energy": [
+"D"
+],
+"hp": 100,
+"dps": 35.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "N's Purrloin",
+"top": "N's Purrloin",
+"stages": [
+[
+"N's Purrloin",
+"SV09:#096/159",
+0
+]
+],
+"energy": [
+"D"
+],
+"hp": 70,
+"dps": 15.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Purrloin",
+"top": "Liepard",
+"stages": [
+[
+"Purrloin",
+"WHT:#055/086",
+0
+],
+[
+"Liepard",
+"WHT:#056/086",
+1
+]
+],
+"energy": [
+"D"
+],
+"hp": 110,
+"dps": 50.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Pansage",
+"top": "Simisage",
+"stages": [
+[
+"Pansage",
+"BLK:#004/086",
+0
+],
+[
+"Simisage",
+"BLK:#005/086",
+1
+]
+],
+"energy": [],
+"hp": 100,
+"dps": 35.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Pansear",
+"top": "Simisear",
+"stages": [
+[
+"Pansear",
+"SV08:#022/191",
+0
+],
+[
+"Simisear",
+"SV08:#023/191",
+1
+]
+],
+"energy": [
+"R"
+],
+"hp": 90,
+"dps": 70.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Panpour",
+"top": "Simipour",
+"stages": [
+[
+"Panpour",
+"BLK:#017/086",
+0
+],
+[
+"Simipour",
+"BLK:#018/086",
+1
+]
+],
+"energy": [],
+"hp": 100,
+"dps": 35.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Munna",
+"top": "Musharna",
+"stages": [
+[
+"Munna",
+"BLK:#035/086",
+0
+],
+[
+"Musharna",
+"BLK:#036/086",
+1
+]
+],
+"energy": [
+"P"
+],
+"hp": 120,
+"dps": 50.0,
+"abilities": [],
+"tags": [
+"attacker",
+"status"
+],
+"length": 2
+},
+{
+"id": "Pidove",
+"top": "Unfezant",
+"stages": [
+[
+"Pidove",
+"SV05:#133/162",
+0
+],
+[
+"Tranquill",
+"BLK:#072/086",
+1
+],
+[
+"Unfezant",
+"SV05:#135/162",
+2
+]
+],
+"energy": [],
+"hp": 150,
+"dps": 60.0,
+"abilities": [
+"Emergency Evolution"
+],
+"tags": [
+"ability",
+"attacker",
+"engine"
+],
+"length": 3
+},
+{
+"id": "Blitzle",
+"top": "Zebstrika",
+"stages": [
+[
+"Blitzle",
+"WHT:#031/086",
+0
+],
+[
+"Zebstrika",
+"SV08:#063/191",
+1
+]
+],
+"energy": [
+"L"
+],
+"hp": 130,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Roggenrola",
+"top": "Gigalith",
+"stages": [
+[
+"Roggenrola",
+"WHT:#046/086",
+0
+],
+[
+"Boldore",
+"WHT:#047/086",
+1
+],
+[
+"Gigalith",
+"WHT:#048/086",
+2
+]
+],
+"energy": [
+"F"
+],
+"hp": 170,
+"dps": 53.3,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 3
+},
+{
+"id": "Woobat",
+"top": "Swoobat",
+"stages": [
+[
+"Woobat",
+"WHT:#036/086",
+0
+],
+[
+"Swoobat",
+"WHT:#037/086",
+1
+]
+],
+"energy": [],
+"hp": 90,
+"dps": 25.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Drilbur",
+"top": "Excadrill",
+"stages": [
+[
+"Drilbur",
+"SV05:#085/162",
+0
+],
+[
+"Excadrill",
+"SV05:#086/162",
+1
+]
+],
+"energy": [
+"F"
+],
+"hp": 130,
+"dps": 60.0,
+"abilities": [
+"Dig Dig Dig"
+],
+"tags": [
+"ability",
+"attacker",
+"engine"
+],
+"length": 2
+},
+{
+"id": "Audino",
+"top": "Audino",
+"stages": [
+[
+"Audino",
+"BLK:#074/086",
+0
+]
+],
+"energy": [],
+"hp": 100,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Timburr",
+"top": "Conkeldurr",
+"stages": [
+[
+"Timburr",
+"SV06:#103/167",
+0
+],
+[
+"Gurdurr",
+"BLK:#048/086",
+1
+],
+[
+"Conkeldurr",
+"SV06:#105/167",
+2
+]
+],
+"energy": [
+"F"
+],
+"hp": 180,
+"dps": 80.0,
+"abilities": [],
+"tags": [
+"attacker",
+"status"
+],
+"length": 3
+},
+{
+"id": "Tympole",
+"top": "Seismitoad",
+"stages": [
+[
+"Tympole",
+"BLK:#019/086",
+0
+],
+[
+"Palpitoad",
+"BLK:#020/086",
+1
+],
+[
+"Seismitoad",
+"BLK:#021/086",
+2
+]
+],
+"energy": [
+"W"
+],
+"hp": 170,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 3
+},
+{
+"id": "Throh",
+"top": "Throh",
+"stages": [
+[
+"Throh",
+"BLK:#050/086",
+0
+]
+],
+"energy": [
+"F"
+],
+"hp": 130,
+"dps": 60.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 1
+},
+{
+"id": "Sawk",
+"top": "Sawk",
+"stages": [
+[
+"Sawk",
+"WHT:#049/086",
+0
+]
+],
+"energy": [
+"F"
+],
+"hp": 110,
+"dps": 90.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 1
+},
+{
+"id": "Sewaddle",
+"top": "Leavanny",
+"stages": [
+[
+"Sewaddle",
+"WHT:#001/086",
+0
+],
+[
+"Swadloon",
+"WHT:#002/086",
+1
+],
+[
+"Leavanny",
+"WHT:#003/086",
+2
+]
+],
+"energy": [
+"G"
+],
+"hp": 130,
+"dps": 45.0,
+"abilities": [
+"Healing Leaves"
+],
+"tags": [
+"ability",
+"attacker"
+],
+"length": 3
+},
+{
+"id": "Venipede",
+"top": "Scolipede",
+"stages": [
+[
+"Venipede",
+"SV06:#115/167",
+0
+],
+[
+"Whirlipede",
+"BLK:#055/086",
+1
+],
+[
+"Scolipede",
+"BLK:#056/086",
+2
+]
+],
+"energy": [
+"D"
+],
+"hp": 160,
+"dps": 45.0,
+"abilities": [
+"Poison Point"
+],
+"tags": [
+"ability",
+"attacker"
+],
+"length": 3
+},
+{
+"id": "Cottonee",
+"top": "Cottonee",
+"stages": [
+[
+"Cottonee",
+"PRE:#007/131",
+0
+]
+],
+"energy": [
+"G"
+],
+"hp": 60,
+"dps": 10.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Petilil",
+"top": "Lilligant",
+"stages": [
+[
+"Petilil",
+"SV09:#006/159",
+0
+],
+[
+"Lilligant",
+"SV09:#007/159",
+1
+]
+],
+"energy": [
+"G"
+],
+"hp": 110,
+"dps": 20.0,
+"abilities": [
+"Sunny Day"
+],
+"tags": [
+"ability",
+"buff"
+],
+"length": 2
+},
+{
+"id": "Basculin",
+"top": "Basculin",
+"stages": [
+[
+"Basculin",
+"WHT:#024/086",
+0
+]
+],
+"energy": [
+"W"
+],
+"hp": 90,
+"dps": 50.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 1
+},
+{
+"id": "Sandile",
+"top": "Krookodile",
+"stages": [
+[
+"Sandile",
+"BLK:#057/086",
+0
+],
+[
+"Krokorok",
+"ME02:#065/094",
+1
+],
+[
+"Krookodile",
+"ME02:#066/094",
+2
+]
+],
+"energy": [
+"D"
+],
+"hp": 170,
+"dps": 60.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 3
+},
+{
+"id": "Darumaka",
+"top": "Darmanitan",
+"stages": [
+[
+"Darumaka",
+"SV06:#034/167",
+0
+],
+[
+"Darmanitan",
+"SV06:#035/167",
+1
+]
+],
+"energy": [
+"R"
+],
+"hp": 140,
+"dps": 70.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "N's Darumaka",
+"top": "N's Darmanitan",
+"stages": [
+[
+"N's Darumaka",
+"SV09:#026/159",
+0
+],
+[
+"N's Darmanitan",
+"ASH:#033/217",
+1
+]
+],
+"energy": [
+"R"
+],
+"hp": 140,
+"dps": 30.0,
+"abilities": [],
+"tags": [
+"spread"
+],
+"length": 2
+},
+{
+"id": "Maractus",
+"top": "Maractus",
+"stages": [
+[
+"Maractus",
+"SV09:#008/159",
+0
+]
+],
+"energy": [],
+"hp": 110,
+"dps": 20.0,
+"abilities": [
+"Exploding Needles"
+],
+"tags": [
+"ability"
+],
+"length": 1
+},
+{
+"id": "Dwebble",
+"top": "Crustle",
+"stages": [
+[
+"Dwebble",
+"BLK:#051/086",
+0
+],
+[
+"Crustle",
+"BLK:#052/086",
+1
+]
+],
+"energy": [
+"F"
+],
+"hp": 150,
+"dps": 26.7,
+"abilities": [
+"Sturdy"
+],
+"tags": [
+"ability"
+],
+"length": 2
+},
+{
+"id": "Marnie's Scraggy",
+"top": "Marnie's Scrafty",
+"stages": [
+[
+"Marnie's Scraggy",
+"SV10:#132/182",
+0
+],
+[
+"Marnie's Scrafty",
+"SV10:#133/182",
+1
+]
+],
+"energy": [
+"D"
+],
+"hp": 120,
+"dps": 53.3,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Scraggy",
+"top": "Scrafty",
+"stages": [
+[
+"Scraggy",
+"WHT:#057/086",
+0
+],
+[
+"Scrafty",
+"WHT:#058/086",
+1
+]
+],
+"energy": [
+"D"
+],
+"hp": 120,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "N's Sigilyph",
+"top": "N's Sigilyph",
+"stages": [
+[
+"N's Sigilyph",
+"SV09:#064/159",
+0
+]
+],
+"energy": [
+"P"
+],
+"hp": 110,
+"dps": 20.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Sigilyph",
+"top": "Sigilyph",
+"stages": [
+[
+"Sigilyph",
+"SV08:#081/191",
+0
+]
+],
+"energy": [
+"P"
+],
+"hp": 110,
+"dps": 20.0,
+"abilities": [],
+"tags": [
+"status"
+],
+"length": 1
+},
+{
+"id": "Yamask",
+"top": "Yamask",
+"stages": [
+[
+"Yamask",
+"WHT:#039/086",
+0
+]
+],
+"energy": [
+"P"
+],
+"hp": 70,
+"dps": 10.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Trubbish",
+"top": "Garbodor",
+"stages": [
+[
+"Trubbish",
+"WHT:#059/086",
+0
+],
+[
+"Garbodor",
+"ME04:#057/086",
+1
+]
+],
+"energy": [
+"D"
+],
+"hp": 140,
+"dps": 33.3,
+"abilities": [
+"Gloomy Garbage"
+],
+"tags": [
+"ability",
+"wall"
+],
+"length": 2
+},
+{
+"id": "N's Zorua",
+"top": "N's Zorua",
+"stages": [
+[
+"N's Zorua",
+"ASH:#136/217",
+0
+]
+],
+"energy": [
+"D"
+],
+"hp": 70,
+"dps": 20.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Zorua",
+"top": "Zorua",
+"stages": [
+[
+"Zorua",
+"WHT:#061/086",
+0
+]
+],
+"energy": [
+"D"
+],
+"hp": 70,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Minccino",
+"top": "Cinccino",
+"stages": [
+[
+"Minccino",
+"ME04:#072/086",
+0
+],
+[
+"Cinccino",
+"SV09:#126/159",
+1
+]
+],
+"energy": [],
+"hp": 100,
+"dps": 50.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Gothita",
+"top": "Gothorita",
+"stages": [
+[
+"Gothita",
+"WHT:#041/086",
+0
+],
+[
+"Gothorita",
+"WHT:#042/086",
+1
+]
+],
+"energy": [
+"P"
+],
+"hp": 90,
+"dps": 20.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Solosis",
+"top": "Reuniclus",
+"stages": [
+[
+"Solosis",
+"SV05:#070/162",
+0
+],
+[
+"Duosion",
+"SV05:#071/162",
+1
+],
+[
+"Reuniclus",
+"SV05:#072/162",
+2
+]
+],
+"energy": [
+"P"
+],
+"hp": 120,
+"dps": 50.0,
+"abilities": [],
+"tags": [
+"attacker",
+"status"
+],
+"length": 3
+},
+{
+"id": "Ducklett",
+"top": "Swanna",
+"stages": [
+[
+"Ducklett",
+"WHT:#025/086",
+0
+],
+[
+"Swanna",
+"WHT:#026/086",
+1
+]
+],
+"energy": [],
+"hp": 120,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "N's Vanillite",
+"top": "N's Vanilluxe",
+"stages": [
+[
+"N's Vanillite",
+"ASH:#049/217",
+0
+],
+[
+"N's Vanillish",
+"ASH:#050/217",
+1
+],
+[
+"N's Vanilluxe",
+"ASH:#051/217",
+2
+]
+],
+"energy": [
+"W"
+],
+"hp": 150,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker",
+"spread"
+],
+"length": 3
+},
+{
+"id": "Vanillite",
+"top": "Vanilluxe",
+"stages": [
+[
+"Vanillite",
+"WHT:#027/086",
+0
+],
+[
+"Vanillish",
+"WHT:#028/086",
+1
+],
+[
+"Vanilluxe",
+"WHT:#029/086",
+2
+]
+],
+"energy": [
+"W"
+],
+"hp": 150,
+"dps": 30.0,
+"abilities": [],
+"tags": [
+"status"
+],
+"length": 3
+},
+{
+"id": "Deerling",
+"top": "Sawsbuck",
+"stages": [
+[
+"Deerling",
+"WHT:#006/086",
+0
+],
+[
+"Sawsbuck",
+"SV05:#017/162",
+1
+]
+],
+"energy": [
+"G"
+],
+"hp": 130,
+"dps": 36.7,
+"abilities": [
+"Changing Seasons"
+],
+"tags": [
+"ability",
+"attacker",
+"engine"
+],
+"length": 2
+},
+{
+"id": "Emolga",
+"top": "Emolga",
+"stages": [
+[
+"Emolga",
+"ME04:#030/086",
+0
+]
+],
+"energy": [
+"L"
+],
+"hp": 70,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Karrablast",
+"top": "Escavalier",
+"stages": [
+[
+"Karrablast",
+"BLK:#009/086",
+0
+],
+[
+"Escavalier",
+"BLK:#060/086",
+1
+]
+],
+"energy": [
+"M"
+],
+"hp": 130,
+"dps": 90.0,
+"abilities": [
+"Stimulated Evolution"
+],
+"tags": [
+"ability",
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Foongus",
+"top": "Amoonguss",
+"stages": [
+[
+"Foongus",
+"SV09:#010/159",
+0
+],
+[
+"Amoonguss",
+"BLK:#011/086",
+1
+]
+],
+"energy": [
+"G"
+],
+"hp": 120,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Frillish",
+"top": "Frillish",
+"stages": [
+[
+"Frillish",
+"WHT:#044/086",
+0
+]
+],
+"energy": [
+"P"
+],
+"hp": 80,
+"dps": 20.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Alomomola",
+"top": "Alomomola",
+"stages": [
+[
+"Alomomola",
+"BLK:#024/086",
+0
+]
+],
+"energy": [
+"W"
+],
+"hp": 110,
+"dps": 23.3,
+"abilities": [
+"Gentle Fin"
+],
+"tags": [
+"ability"
+],
+"length": 1
+},
+{
+"id": "Joltik",
+"top": "Galvantula",
+"stages": [
+[
+"Joltik",
+"WHT:#033/086",
+0
+],
+[
+"Galvantula",
+"SFA:#002/064",
+1
+]
+],
+"energy": [
+"G"
+],
+"hp": 100,
+"dps": 25.0,
+"abilities": [
+"Compound Eyes"
+],
+"tags": [
+"ability",
+"buff"
+],
+"length": 2
+},
+{
+"id": "N's Joltik",
+"top": "N's Joltik",
+"stages": [
+[
+"N's Joltik",
+"SV09:#049/159",
+0
+]
+],
+"energy": [],
+"hp": 40,
+"dps": 15.0,
+"abilities": [],
+"tags": [
+"status"
+],
+"length": 1
+},
+{
+"id": "Ferroseed",
+"top": "Ferrothorn",
+"stages": [
+[
+"Ferroseed",
+"ME04:#062/086",
+0
+],
+[
+"Ferrothorn",
+"ME04:#063/086",
+1
+]
+],
+"energy": [
+"M"
+],
+"hp": 130,
+"dps": 35.0,
+"abilities": [
+"Startling Drop"
+],
+"tags": [
+"ability",
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Klink",
+"top": "Klang",
+"stages": [
+[
+"Klink",
+"BLK:#061/086",
+0
+],
+[
+"Klang",
+"SV07:#100/142",
+1
+]
+],
+"energy": [],
+"hp": 90,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "N's Klink",
+"top": "N's Klinklang",
+"stages": [
+[
+"N's Klink",
+"SV09:#103/159",
+0
+],
+[
+"N's Klang",
+"SV09:#104/159",
+1
+],
+[
+"N's Klinklang",
+"SV09:#105/159",
+2
+]
+],
+"energy": [
+"M"
+],
+"hp": 160,
+"dps": 50.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 3
+},
+{
+"id": "Tynamo",
+"top": "Eelektross",
+"stages": [
+[
+"Tynamo",
+"ASH:#059/217",
+0
+],
+[
+"Eelektrik",
+"ASH:#060/217",
+1
+],
+[
+"Eelektross",
+"BLK:#032/086",
+2
+]
+],
+"energy": [
+"L"
+],
+"hp": 160,
+"dps": 60.0,
+"abilities": [
+"Dynamotor"
+],
+"tags": [
+"ability",
+"accel",
+"attacker",
+"status"
+],
+"length": 3
+},
+{
+"id": "Elgyem",
+"top": "Beheeyem",
+"stages": [
+[
+"Elgyem",
+"BLK:#040/086",
+0
+],
+[
+"Beheeyem",
+"BLK:#041/086",
+1
+]
+],
+"energy": [
+"P"
+],
+"hp": 90,
+"dps": 26.7,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Litwick",
+"top": "Lampent",
+"stages": [
+[
+"Litwick",
+"SV06:#036/167",
+0
+],
+[
+"Lampent",
+"WHT:#017/086",
+1
+]
+],
+"energy": [
+"R"
+],
+"hp": 80,
+"dps": 50.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Axew",
+"top": "Fraxure",
+"stages": [
+[
+"Axew",
+"SFA:#044/064",
+0
+],
+[
+"Fraxure",
+"SFA:#045/064",
+1
+]
+],
+"energy": [
+"F",
+"M"
+],
+"hp": 100,
+"dps": 40.0,
+"abilities": [
+"Unnerve"
+],
+"tags": [
+"ability",
+"attacker",
+"wall"
+],
+"length": 2
+},
+{
+"id": "Cubchoo",
+"top": "Cubchoo",
+"stages": [
+[
+"Cubchoo",
+"BLK:#025/086",
+0
+]
+],
+"energy": [
+"W"
+],
+"hp": 70,
+"dps": 10.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Cryogonal",
+"top": "Cryogonal",
+"stages": [
+[
+"Cryogonal",
+"BLK:#027/086",
+0
+]
+],
+"energy": [
+"W"
+],
+"hp": 90,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Shelmet",
+"top": "Accelgor",
+"stages": [
+[
+"Shelmet",
+"WHT:#008/086",
+0
+],
+[
+"Accelgor",
+"WHT:#009/086",
+1
+]
+],
+"energy": [
+"G"
+],
+"hp": 100,
+"dps": 50.0,
+"abilities": [
+"Stimulated Evolution"
+],
+"tags": [
+"ability",
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Galarian Stunfisk",
+"top": "Galarian Stunfisk",
+"stages": [
+[
+"Galarian Stunfisk",
+"SV09:#106/159",
+0
+]
+],
+"energy": [],
+"hp": 100,
+"dps": 33.3,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Stunfisk",
+"top": "Stunfisk",
+"stages": [
+[
+"Stunfisk",
+"ASH:#062/217",
+0
+]
+],
+"energy": [
+"L"
+],
+"hp": 110,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Mienfoo",
+"top": "Mienshao",
+"stages": [
+[
+"Mienfoo",
+"WHT:#052/086",
+0
+],
+[
+"Mienshao",
+"WHT:#053/086",
+1
+]
+],
+"energy": [
+"F"
+],
+"hp": 100,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Druddigon",
+"top": "Druddigon",
+"stages": [
+[
+"Druddigon",
+"WHT:#071/086",
+0
+]
+],
+"energy": [
+"R",
+"W"
+],
+"hp": 120,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 1
+},
+{
+"id": "Golett",
+"top": "Golurk",
+"stages": [
+[
+"Golett",
+"BLK:#042/086",
+0
+],
+[
+"Golurk",
+"BLK:#043/086",
+1
+]
+],
+"energy": [
+"P"
+],
+"hp": 160,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Pawniard",
+"top": "Bisharp",
+"stages": [
+[
+"Pawniard",
+"ASH:#146/217",
+0
+],
+[
+"Bisharp",
+"ASH:#147/217",
+1
+]
+],
+"energy": [
+"M"
+],
+"hp": 120,
+"dps": 50.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Bouffalant",
+"top": "Bouffalant",
+"stages": [
+[
+"Bouffalant",
+"SV08:#151/191",
+0
+]
+],
+"energy": [],
+"hp": 130,
+"dps": 37.5,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 1
+},
+{
+"id": "Larry's Rufflet",
+"top": "Larry's Braviary",
+"stages": [
+[
+"Larry's Rufflet",
+"ASH:#173/217",
+0
+],
+[
+"Larry's Braviary",
+"ASH:#174/217",
+1
+]
+],
+"energy": [],
+"hp": 130,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Rufflet",
+"top": "Braviary",
+"stages": [
+[
+"Rufflet",
+"SV08:#152/191",
+0
+],
+[
+"Braviary",
+"BLK:#078/086",
+1
+]
+],
+"energy": [],
+"hp": 140,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Vullaby",
+"top": "Mandibuzz",
+"stages": [
+[
+"Vullaby",
+"WHT:#063/086",
+0
+],
+[
+"Mandibuzz",
+"WHT:#064/086",
+1
+]
+],
+"energy": [],
+"hp": 110,
+"dps": 30.0,
+"abilities": [
+"Look for Prey"
+],
+"tags": [
+"ability"
+],
+"length": 2
+},
+{
+"id": "Heatmor",
+"top": "Heatmor",
+"stages": [
+[
+"Heatmor",
+"SV05:#031/162",
+0
+]
+],
+"energy": [
+"R"
+],
+"hp": 110,
+"dps": 43.3,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 1
+},
+{
+"id": "Durant",
+"top": "Durant",
+"stages": [
+[
+"Durant",
+"WHT:#070/086",
+0
+]
+],
+"energy": [
+"M"
+],
+"hp": 110,
+"dps": 25.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Deino",
+"top": "Zweilous",
+"stages": [
+[
+"Deino",
+"WHT:#065/086",
+0
+],
+[
+"Zweilous",
+"WHT:#066/086",
+1
+]
+],
+"energy": [
+"D"
+],
+"hp": 110,
+"dps": 25.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Larvesta",
+"top": "Volcarona",
+"stages": [
+[
+"Larvesta",
+"SV08:#024/191",
+0
+],
+[
+"Volcarona",
+"SV08:#025/191",
+1
+]
+],
+"energy": [
+"R"
+],
+"hp": 140,
+"dps": 50.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Virizion",
+"top": "Virizion",
+"stages": [
+[
+"Virizion",
+"SV09:#015/159",
+0
+]
+],
+"energy": [
+"G"
+],
+"hp": 120,
+"dps": 33.3,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Tornadus",
+"top": "Tornadus",
+"stages": [
+[
+"Tornadus",
+"SV07:#120/142",
+0
+]
+],
+"energy": [],
+"hp": 110,
+"dps": 33.3,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Reshiram",
+"top": "Reshiram",
+"stages": [
+[
+"Reshiram",
+"SV07:#022/142",
+0
+]
+],
+"energy": [
+"R"
+],
+"hp": 130,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Kyurem",
+"top": "Kyurem",
+"stages": [
+[
+"Kyurem",
+"SFA:#047/064",
+0
+]
+],
+"energy": [
+"M",
+"W"
+],
+"hp": 130,
+"dps": 0,
+"abilities": [
+"Plasma Bane"
+],
+"tags": [
+"ability",
+"spread"
+],
+"length": 1
+},
+{
+"id": "Keldeo",
+"top": "Keldeo",
+"stages": [
+[
+"Keldeo",
+"SV05:#044/162",
+0
+]
+],
+"energy": [
+"W"
+],
+"hp": 110,
+"dps": 36.7,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 1
+},
+{
+"id": "Meloetta",
+"top": "Meloetta",
+"stages": [
+[
+"Meloetta",
+"ME02:#040/094",
+0
+]
+],
+"energy": [
+"P"
+],
+"hp": 90,
+"dps": 25.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Genesect",
+"top": "Genesect",
+"stages": [
+[
+"Genesect",
+"SFA:#040/064",
+0
+]
+],
+"energy": [
+"M"
+],
+"hp": 110,
+"dps": 33.3,
+"abilities": [
+"ACE Nullifier"
+],
+"tags": [
+"ability"
+],
+"length": 1
+},
+{
+"id": "Chespin",
+"top": "Quilladin",
+"stages": [
+[
+"Chespin",
+"ME04:#005/086",
+0
+],
+[
+"Quilladin",
+"ME04:#006/086",
+1
+]
+],
+"energy": [
+"G"
+],
+"hp": 100,
+"dps": 26.7,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Fennekin",
+"top": "Braixen",
+"stages": [
+[
+"Fennekin",
+"ME04:#011/086",
+0
+],
+[
+"Braixen",
+"ME04:#012/086",
+1
+]
+],
+"energy": [
+"R"
+],
+"hp": 100,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Froakie",
+"top": "Frogadier",
+"stages": [
+[
+"Froakie",
+"ME04:#020/086",
+0
+],
+[
+"Frogadier",
+"ME04:#021/086",
+1
+]
+],
+"energy": [
+"W"
+],
+"hp": 100,
+"dps": 25.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Bunnelby",
+"top": "Diggersby",
+"stages": [
+[
+"Bunnelby",
+"ME03:#064/088",
+0
+],
+[
+"Diggersby",
+"ME03:#065/088",
+1
+]
+],
+"energy": [],
+"hp": 150,
+"dps": 140.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Fletchling",
+"top": "Talonflame",
+"stages": [
+[
+"Fletchling",
+"SV07:#121/142",
+0
+],
+[
+"Fletchinder",
+"ME03:#013/088",
+1
+],
+[
+"Talonflame",
+"ME03:#014/088",
+2
+]
+],
+"energy": [
+"R"
+],
+"hp": 150,
+"dps": 55.0,
+"abilities": [
+"Sky Hunt"
+],
+"tags": [
+"ability",
+"attacker"
+],
+"length": 3
+},
+{
+"id": "Scatterbug",
+"top": "Vivillon",
+"stages": [
+[
+"Scatterbug",
+"ME03:#007/088",
+0
+],
+[
+"Spewpa",
+"SV08:#006/191",
+1
+],
+[
+"Vivillon",
+"ME03:#009/088",
+2
+]
+],
+"energy": [
+"G"
+],
+"hp": 120,
+"dps": 60.0,
+"abilities": [
+"Grand Wing"
+],
+"tags": [
+"ability",
+"attacker",
+"engine"
+],
+"length": 3
+},
+{
+"id": "Litleo",
+"top": "Pyroar",
+"stages": [
+[
+"Litleo",
+"PRE:#015/131",
+0
+],
+[
+"Pyroar",
+"ME01:#024/132",
+1
+]
+],
+"energy": [
+"R"
+],
+"hp": 130,
+"dps": 23.3,
+"abilities": [
+"Intimidating Fang"
+],
+"tags": [
+"ability",
+"wall"
+],
+"length": 2
+},
+{
+"id": "Flab\u00e9b\u00e9",
+"top": "Florges",
+"stages": [
+[
+"Flab\u00e9b\u00e9",
+"SV06:#086/167",
+0
+],
+[
+"Floette",
+"SV06:#087/167",
+1
+],
+[
+"Florges",
+"SV06:#088/167",
+2
+]
+],
+"energy": [
+"P"
+],
+"hp": 140,
+"dps": 60.0,
+"abilities": [
+"Captivating Invitation"
+],
+"tags": [
+"ability",
+"attacker"
+],
+"length": 3
+},
+{
+"id": "Pancham",
+"top": "Pangoro",
+"stages": [
+[
+"Pancham",
+"ASH:#115/217",
+0
+],
+[
+"Pangoro",
+"SV09:#099/159",
+1
+]
+],
+"energy": [
+"D"
+],
+"hp": 140,
+"dps": 53.3,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Furfrou",
+"top": "Furfrou",
+"stages": [
+[
+"Furfrou",
+"PRE:#088/131",
+0
+]
+],
+"energy": [],
+"hp": 100,
+"dps": 26.7,
+"abilities": [
+"Fur Coat"
+],
+"tags": [
+"ability",
+"wall"
+],
+"length": 1
+},
+{
+"id": "Espurr",
+"top": "Meowstic",
+"stages": [
+[
+"Espurr",
+"ME03:#033/088",
+0
+],
+[
+"Meowstic",
+"SV08:#085/191",
+1
+]
+],
+"energy": [
+"P"
+],
+"hp": 90,
+"dps": 26.7,
+"abilities": [
+"Beckoning Tail"
+],
+"tags": [
+"ability"
+],
+"length": 2
+},
+{
+"id": "Honedge",
+"top": "Aegislash",
+"stages": [
+[
+"Honedge",
+"ME03:#056/088",
+0
+],
+[
+"Doublade",
+"ME03:#057/088",
+1
+],
+[
+"Aegislash",
+"ME03:#058/088",
+2
+]
+],
+"energy": [
+"M"
+],
+"hp": 150,
+"dps": 57.5,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 3
+},
+{
+"id": "Spritzee",
+"top": "Aromatisse",
+"stages": [
+[
+"Spritzee",
+"PRE:#038/131",
+0
+],
+[
+"Aromatisse",
+"ME03:#036/088",
+1
+]
+],
+"energy": [
+"P"
+],
+"hp": 120,
+"dps": 25.0,
+"abilities": [
+"Scent Collection"
+],
+"tags": [
+"ability",
+"engine"
+],
+"length": 2
+},
+{
+"id": "Swirlix",
+"top": "Slurpuff",
+"stages": [
+[
+"Swirlix",
+"SV06:#089/167",
+0
+],
+[
+"Slurpuff",
+"SV06:#090/167",
+1
+]
+],
+"energy": [
+"P"
+],
+"hp": 120,
+"dps": 45.0,
+"abilities": [
+"Festival Lead"
+],
+"tags": [
+"ability",
+"attacker",
+"status"
+],
+"length": 2
+},
+{
+"id": "Inkay",
+"top": "Malamar",
+"stages": [
+[
+"Inkay",
+"SFA:#033/064",
+0
+],
+[
+"Malamar",
+"SFA:#034/064",
+1
+]
+],
+"energy": [
+"D"
+],
+"hp": 120,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Binacle",
+"top": "Barbaracle",
+"stages": [
+[
+"Binacle",
+"ME03:#042/088",
+0
+],
+[
+"Barbaracle",
+"ME03:#043/088",
+1
+]
+],
+"energy": [
+"F"
+],
+"hp": 130,
+"dps": 26.7,
+"abilities": [
+"Stone Arms"
+],
+"tags": [
+"ability",
+"accel"
+],
+"length": 2
+},
+{
+"id": "Skrelp",
+"top": "Skrelp",
+"stages": [
+[
+"Skrelp",
+"ME04:#058/086",
+0
+]
+],
+"energy": [],
+"hp": 70,
+"dps": 10.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Clauncher",
+"top": "Clauncher",
+"stages": [
+[
+"Clauncher",
+"ME01:#037/132",
+0
+]
+],
+"energy": [
+"W"
+],
+"hp": 80,
+"dps": 25.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Helioptile",
+"top": "Heliolisk",
+"stages": [
+[
+"Helioptile",
+"ASH:#063/217",
+0
+],
+[
+"Heliolisk",
+"ASH:#064/217",
+1
+]
+],
+"energy": [
+"L"
+],
+"hp": 120,
+"dps": 23.3,
+"abilities": [
+"Frilled Generator"
+],
+"tags": [
+"ability",
+"accel",
+"engine"
+],
+"length": 2
+},
+{
+"id": "Hawlucha",
+"top": "Hawlucha",
+"stages": [
+[
+"Hawlucha",
+"ME03:#046/088",
+0
+]
+],
+"energy": [
+"F"
+],
+"hp": 70,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Dedenne",
+"top": "Dedenne",
+"stages": [
+[
+"Dedenne",
+"SV08:#087/191",
+0
+]
+],
+"energy": [
+"P"
+],
+"hp": 70,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Carbink",
+"top": "Carbink",
+"stages": [
+[
+"Carbink",
+"ASH:#117/217",
+0
+]
+],
+"energy": [
+"F"
+],
+"hp": 90,
+"dps": 23.3,
+"abilities": [
+"Double Type"
+],
+"tags": [
+"ability"
+],
+"length": 1
+},
+{
+"id": "Steven's Carbink",
+"top": "Steven's Carbink",
+"stages": [
+[
+"Steven's Carbink",
+"SV10:#086/182",
+0
+]
+],
+"energy": [
+"P"
+],
+"hp": 80,
+"dps": 26.7,
+"abilities": [
+"Stone Palace"
+],
+"tags": [
+"ability",
+"wall"
+],
+"length": 1
+},
+{
+"id": "Goomy",
+"top": "Sliggoo",
+"stages": [
+[
+"Goomy",
+"ME04:#066/086",
+0
+],
+[
+"Sliggoo",
+"ME04:#067/086",
+1
+]
+],
+"energy": [
+"P",
+"W"
+],
+"hp": 90,
+"dps": 35.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Klefki",
+"top": "Klefki",
+"stages": [
+[
+"Klefki",
+"ME03:#059/088",
+0
+]
+],
+"energy": [
+"M"
+],
+"hp": 70,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Hop's Phantump",
+"top": "Hop's Phantump",
+"stages": [
+[
+"Hop's Phantump",
+"ASH:#095/217",
+0
+]
+],
+"energy": [],
+"hp": 70,
+"dps": 10.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Phantump",
+"top": "Trevenant",
+"stages": [
+[
+"Phantump",
+"ME04:#038/086",
+0
+],
+[
+"Trevenant",
+"SV06:#013/167",
+1
+]
+],
+"energy": [
+"G"
+],
+"hp": 120,
+"dps": 43.3,
+"abilities": [
+"Spiteful Evolution"
+],
+"tags": [
+"ability",
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Pumpkaboo",
+"top": "Pumpkaboo",
+"stages": [
+[
+"Pumpkaboo",
+"ME04:#040/086",
+0
+]
+],
+"energy": [
+"P"
+],
+"hp": 60,
+"dps": 20.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Bergmite",
+"top": "Avalugg",
+"stages": [
+[
+"Bergmite",
+"ME04:#023/086",
+0
+],
+[
+"Avalugg",
+"ME04:#024/086",
+1
+]
+],
+"energy": [
+"W"
+],
+"hp": 160,
+"dps": 60.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Noibat",
+"top": "Noivern",
+"stages": [
+[
+"Noibat",
+"PRE:#090/131",
+0
+],
+[
+"Noivern",
+"ASH:#157/217",
+1
+]
+],
+"energy": [
+"D",
+"P"
+],
+"hp": 120,
+"dps": 35.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Xerneas",
+"top": "Xerneas",
+"stages": [
+[
+"Xerneas",
+"SV08:#088/191",
+0
+]
+],
+"energy": [
+"P"
+],
+"hp": 130,
+"dps": 43.3,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 1
+},
+{
+"id": "Yveltal",
+"top": "Yveltal",
+"stages": [
+[
+"Yveltal",
+"SFA:#035/064",
+0
+]
+],
+"energy": [
+"D"
+],
+"hp": 120,
+"dps": 33.3,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Diancie",
+"top": "Diancie",
+"stages": [
+[
+"Diancie",
+"SV07:#086/142",
+0
+]
+],
+"energy": [
+"F"
+],
+"hp": 110,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 1
+},
+{
+"id": "Volcanion",
+"top": "Volcanion",
+"stages": [
+[
+"Volcanion",
+"ME01:#025/132",
+0
+]
+],
+"energy": [
+"R"
+],
+"hp": 130,
+"dps": 43.3,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 1
+},
+{
+"id": "Rowlet",
+"top": "Decidueye",
+"stages": [
+[
+"Rowlet",
+"ME03:#010/088",
+0
+],
+[
+"Dartrix",
+"SFA:#004/064",
+1
+],
+[
+"Decidueye",
+"SFA:#005/064",
+2
+]
+],
+"energy": [
+"G"
+],
+"hp": 150,
+"dps": 170.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 3
+},
+{
+"id": "Litten",
+"top": "Torracat",
+"stages": [
+[
+"Litten",
+"SV05:#032/162",
+0
+],
+[
+"Torracat",
+"SV05:#033/162",
+1
+]
+],
+"energy": [
+"R"
+],
+"hp": 100,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Yungoos",
+"top": "Gumshoos",
+"stages": [
+[
+"Yungoos",
+"ME01:#109/132",
+0
+],
+[
+"Gumshoos",
+"ME01:#110/132",
+1
+]
+],
+"energy": [],
+"hp": 100,
+"dps": 25.0,
+"abilities": [
+"Evidence Gathering"
+],
+"tags": [
+"ability"
+],
+"length": 2
+},
+{
+"id": "Grubbin",
+"top": "Vikavolt",
+"stages": [
+[
+"Grubbin",
+"SV05:#018/162",
+0
+],
+[
+"Charjabug",
+"SV05:#055/162",
+1
+],
+[
+"Vikavolt",
+"ASH:#066/217",
+2
+]
+],
+"energy": [
+"L"
+],
+"hp": 160,
+"dps": 90.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 3
+},
+{
+"id": "Crabrawler",
+"top": "Crabominable",
+"stages": [
+[
+"Crabrawler",
+"SV07:#087/142",
+0
+],
+[
+"Crabominable",
+"SV07:#042/142",
+1
+]
+],
+"energy": [
+"W"
+],
+"hp": 160,
+"dps": 50.0,
+"abilities": [
+"Food Prep"
+],
+"tags": [
+"ability",
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Oricorio",
+"top": "Oricorio",
+"stages": [
+[
+"Oricorio",
+"SV08:#026/191",
+0
+]
+],
+"energy": [
+"R"
+],
+"hp": 90,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Cutiefly",
+"top": "Ribombee",
+"stages": [
+[
+"Cutiefly",
+"SV05:#075/162",
+0
+],
+[
+"Ribombee",
+"SV05:#076/162",
+1
+]
+],
+"energy": [],
+"hp": 70,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Lillie's Cutiefly",
+"top": "Lillie's Cutiefly",
+"stages": [
+[
+"Lillie's Cutiefly",
+"SV09:#066/159",
+0
+]
+],
+"energy": [
+"P"
+],
+"hp": 30,
+"dps": 0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Rockruff",
+"top": "Lycanroc",
+"stages": [
+[
+"Rockruff",
+"SV05:#089/162",
+0
+],
+[
+"Lycanroc",
+"SV05:#090/162",
+1
+]
+],
+"energy": [],
+"hp": 120,
+"dps": 50.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Mudbray",
+"top": "Mudsdale",
+"stages": [
+[
+"Mudbray",
+"SV10:#107/182",
+0
+],
+[
+"Mudsdale",
+"SV10:#108/182",
+1
+]
+],
+"energy": [
+"F"
+],
+"hp": 150,
+"dps": 43.3,
+"abilities": [
+"Mud Coat"
+],
+"tags": [
+"ability",
+"attacker",
+"wall"
+],
+"length": 2
+},
+{
+"id": "Fomantis",
+"top": "Lurantis",
+"stages": [
+[
+"Fomantis",
+"SV10:#013/182",
+0
+],
+[
+"Lurantis",
+"SV10:#014/182",
+1
+]
+],
+"energy": [
+"G"
+],
+"hp": 120,
+"dps": 130.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Morelull",
+"top": "Shiinotic",
+"stages": [
+[
+"Morelull",
+"SV08:#008/191",
+0
+],
+[
+"Shiinotic",
+"SV08:#009/191",
+1
+]
+],
+"energy": [
+"G"
+],
+"hp": 110,
+"dps": 30.0,
+"abilities": [
+"Calming Light"
+],
+"tags": [
+"ability"
+],
+"length": 2
+},
+{
+"id": "Salandit",
+"top": "Salazzle",
+"stages": [
+[
+"Salandit",
+"SV07:#023/142",
+0
+],
+[
+"Salazzle",
+"ASH:#035/217",
+1
+]
+],
+"energy": [
+"R"
+],
+"hp": 120,
+"dps": 43.3,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Stufful",
+"top": "Bewear",
+"stages": [
+[
+"Stufful",
+"SFA:#052/064",
+0
+],
+[
+"Bewear",
+"SFA:#053/064",
+1
+]
+],
+"energy": [],
+"hp": 130,
+"dps": 43.3,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Comfey",
+"top": "Comfey",
+"stages": [
+[
+"Comfey",
+"SV07:#063/142",
+0
+]
+],
+"energy": [
+"P"
+],
+"hp": 70,
+"dps": 20.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Lillie's Comfey",
+"top": "Lillie's Comfey",
+"stages": [
+[
+"Lillie's Comfey",
+"SV09:#068/159",
+0
+]
+],
+"energy": [
+"P"
+],
+"hp": 70,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Oranguru",
+"top": "Oranguru",
+"stages": [
+[
+"Oranguru",
+"SV08:#156/191",
+0
+]
+],
+"energy": [],
+"hp": 120,
+"dps": 26.7,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Passimian",
+"top": "Passimian",
+"stages": [
+[
+"Passimian",
+"SV08:#111/191",
+0
+]
+],
+"energy": [
+"F"
+],
+"hp": 110,
+"dps": 10.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Wimpod",
+"top": "Golisopod",
+"stages": [
+[
+"Wimpod",
+"ME04:#025/086",
+0
+],
+[
+"Golisopod",
+"ME04:#026/086",
+1
+]
+],
+"energy": [
+"W"
+],
+"hp": 140,
+"dps": 50.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Sandygast",
+"top": "Palossand",
+"stages": [
+[
+"Sandygast",
+"SV08:#090/191",
+0
+],
+[
+"Palossand",
+"SV06:#092/167",
+1
+]
+],
+"energy": [
+"P"
+],
+"hp": 150,
+"dps": 37.5,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Komala",
+"top": "Komala",
+"stages": [
+[
+"Komala",
+"SV09:#129/159",
+0
+]
+],
+"energy": [],
+"hp": 100,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Larry's Komala",
+"top": "Larry's Komala",
+"stages": [
+[
+"Larry's Komala",
+"ASH:#175/217",
+0
+]
+],
+"energy": [],
+"hp": 90,
+"dps": 0,
+"abilities": [
+"Lethargic Charge"
+],
+"tags": [
+"ability",
+"accel",
+"status"
+],
+"length": 1
+},
+{
+"id": "Turtonator",
+"top": "Turtonator",
+"stages": [
+[
+"Turtonator",
+"ME03:#017/088",
+0
+]
+],
+"energy": [
+"R"
+],
+"hp": 120,
+"dps": 26.7,
+"abilities": [
+"Shell Spikes"
+],
+"tags": [
+"ability"
+],
+"length": 1
+},
+{
+"id": "Togedemaru",
+"top": "Togedemaru",
+"stages": [
+[
+"Togedemaru",
+"ME02:#073/094",
+0
+]
+],
+"energy": [
+"M"
+],
+"hp": 80,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Mimikyu",
+"top": "Mimikyu",
+"stages": [
+[
+"Mimikyu",
+"ME02:#042/094",
+0
+]
+],
+"energy": [
+"P"
+],
+"hp": 70,
+"dps": 20.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Team Rocket's Mimikyu",
+"top": "Team Rocket's Mimikyu",
+"stages": [
+[
+"Team Rocket's Mimikyu",
+"ASH:#097/217",
+0
+]
+],
+"energy": [
+"P"
+],
+"hp": 60,
+"dps": 0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Bruxish",
+"top": "Bruxish",
+"stages": [
+[
+"Bruxish",
+"SV08:#049/191",
+0
+]
+],
+"energy": [
+"W"
+],
+"hp": 110,
+"dps": 25.0,
+"abilities": [
+"Counterattack"
+],
+"tags": [
+"ability"
+],
+"length": 1
+},
+{
+"id": "Drampa",
+"top": "Drampa",
+"stages": [
+[
+"Drampa",
+"ASH:#176/217",
+0
+]
+],
+"energy": [],
+"hp": 130,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 1
+},
+{
+"id": "Dhelmise",
+"top": "Dhelmise",
+"stages": [
+[
+"Dhelmise",
+"SV09:#070/159",
+0
+]
+],
+"energy": [
+"P"
+],
+"hp": 130,
+"dps": 32.5,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Marshadow",
+"top": "Marshadow",
+"stages": [
+[
+"Marshadow",
+"ME01:#080/132",
+0
+]
+],
+"energy": [
+"F"
+],
+"hp": 90,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Zeraora",
+"top": "Zeraora",
+"stages": [
+[
+"Zeraora",
+"SV05:#057/162",
+0
+]
+],
+"energy": [
+"L"
+],
+"hp": 120,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker",
+"status"
+],
+"length": 1
+},
+{
+"id": "Meltan",
+"top": "Meltan",
+"stages": [
+[
+"Meltan",
+"SV05:#116/162",
+0
+]
+],
+"energy": [
+"M"
+],
+"hp": 80,
+"dps": 25.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Grookey",
+"top": "Rillaboom",
+"stages": [
+[
+"Grookey",
+"SV06:#014/167",
+0
+],
+[
+"Thwackey",
+"SV06:#015/167",
+1
+],
+[
+"Rillaboom",
+"SV06:#016/167",
+2
+]
+],
+"energy": [
+"G"
+],
+"hp": 180,
+"dps": 90.0,
+"abilities": [
+"Boom Boom Groove"
+],
+"tags": [
+"ability",
+"attacker",
+"engine"
+],
+"length": 3
+},
+{
+"id": "Scorbunny",
+"top": "Raboot",
+"stages": [
+[
+"Scorbunny",
+"ME01:#026/132",
+0
+],
+[
+"Raboot",
+"ASH:#037/217",
+1
+]
+],
+"energy": [
+"R"
+],
+"hp": 90,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Sobble",
+"top": "Inteleon",
+"stages": [
+[
+"Sobble",
+"ME01:#039/132",
+0
+],
+[
+"Drizzile",
+"ME01:#040/132",
+1
+],
+[
+"Inteleon",
+"ME01:#041/132",
+2
+]
+],
+"energy": [
+"W"
+],
+"hp": 150,
+"dps": 110.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 3
+},
+{
+"id": "Arven's Skwovet",
+"top": "Arven's Skwovet",
+"stages": [
+[
+"Arven's Skwovet",
+"SV10:#158/182",
+0
+]
+],
+"energy": [],
+"hp": 60,
+"dps": 10.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Skwovet",
+"top": "Greedent",
+"stages": [
+[
+"Skwovet",
+"SV09:#131/159",
+0
+],
+[
+"Greedent",
+"SV09:#132/159",
+1
+]
+],
+"energy": [],
+"hp": 120,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Hop's Rookidee",
+"top": "Hop's Corviknight",
+"stages": [
+[
+"Hop's Rookidee",
+"SV09:#133/159",
+0
+],
+[
+"Hop's Corvisquire",
+"SV09:#134/159",
+1
+],
+[
+"Hop's Corviknight",
+"SV09:#108/159",
+2
+]
+],
+"energy": [
+"M"
+],
+"hp": 170,
+"dps": 50.0,
+"abilities": [],
+"tags": [
+"attacker",
+"spread"
+],
+"length": 3
+},
+{
+"id": "Team Rocket's Blipbug",
+"top": "Team Rocket's Orbeetle",
+"stages": [
+[
+"Team Rocket's Blipbug",
+"SV10:#015/182",
+0
+],
+[
+"Team Rocket's Dottler",
+"SV10:#088/182",
+1
+],
+[
+"Team Rocket's Orbeetle",
+"SV10:#089/182",
+2
+]
+],
+"energy": [
+"P"
+],
+"hp": 130,
+"dps": 13.3,
+"abilities": [
+"Rocket Brain"
+],
+"tags": [
+"ability"
+],
+"length": 3
+},
+{
+"id": "Nickit",
+"top": "Thievul",
+"stages": [
+[
+"Nickit",
+"ME01:#089/132",
+0
+],
+[
+"Thievul",
+"ME01:#090/132",
+1
+]
+],
+"energy": [
+"D"
+],
+"hp": 120,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Gossifleur",
+"top": "Eldegoss",
+"stages": [
+[
+"Gossifleur",
+"SV07:#010/142",
+0
+],
+[
+"Eldegoss",
+"SV07:#011/142",
+1
+]
+],
+"energy": [
+"G"
+],
+"hp": 90,
+"dps": 50.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Hop's Wooloo",
+"top": "Hop's Wooloo",
+"stages": [
+[
+"Hop's Wooloo",
+"SV09:#135/159",
+0
+]
+],
+"energy": [],
+"hp": 70,
+"dps": 16.7,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Wooloo",
+"top": "Dubwool",
+"stages": [
+[
+"Wooloo",
+"SV07:#124/142",
+0
+],
+[
+"Dubwool",
+"SV07:#125/142",
+1
+]
+],
+"energy": [],
+"hp": 130,
+"dps": 35.0,
+"abilities": [
+"Soft Wool"
+],
+"tags": [
+"ability",
+"attacker",
+"wall"
+],
+"length": 2
+},
+{
+"id": "Chewtle",
+"top": "Chewtle",
+"stages": [
+[
+"Chewtle",
+"SV07:#043/142",
+0
+]
+],
+"energy": [],
+"hp": 80,
+"dps": 20.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Yamper",
+"top": "Boltund",
+"stages": [
+[
+"Yamper",
+"SV05:#058/162",
+0
+],
+[
+"Boltund",
+"SV05:#059/162",
+1
+]
+],
+"energy": [],
+"hp": 120,
+"dps": 50.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Rolycoly",
+"top": "Coalossal",
+"stages": [
+[
+"Rolycoly",
+"ASH:#118/217",
+0
+],
+[
+"Carkol",
+"ASH:#119/217",
+1
+],
+[
+"Coalossal",
+"SV05:#095/162",
+2
+]
+],
+"energy": [
+"F"
+],
+"hp": 180,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 3
+},
+{
+"id": "Applin",
+"top": "Dipplin",
+"stages": [
+[
+"Applin",
+"PRE:#009/131",
+0
+],
+[
+"Dipplin",
+"PRE:#010/131",
+1
+]
+],
+"energy": [
+"G"
+],
+"hp": 80,
+"dps": 20.0,
+"abilities": [
+"Festival Lead"
+],
+"tags": [
+"ability"
+],
+"length": 2
+},
+{
+"id": "Hop's Silicobra",
+"top": "Hop's Sandaconda",
+"stages": [
+[
+"Hop's Silicobra",
+"SV09:#086/159",
+0
+],
+[
+"Hop's Sandaconda",
+"SV09:#087/159",
+1
+]
+],
+"energy": [
+"F"
+],
+"hp": 140,
+"dps": 46.7,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Cramorant",
+"top": "Cramorant",
+"stages": [
+[
+"Cramorant",
+"SV09:#137/159",
+0
+]
+],
+"energy": [],
+"hp": 110,
+"dps": 25.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Hop's Cramorant",
+"top": "Hop's Cramorant",
+"stages": [
+[
+"Hop's Cramorant",
+"ASH:#177/217",
+0
+]
+],
+"energy": [],
+"hp": 110,
+"dps": 120.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 1
+},
+{
+"id": "Arrokuda",
+"top": "Barraskewda",
+"stages": [
+[
+"Arrokuda",
+"SV10:#062/182",
+0
+],
+[
+"Barraskewda",
+"SV10:#063/182",
+1
+]
+],
+"energy": [
+"W"
+],
+"hp": 130,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Toxel",
+"top": "Toxel",
+"stages": [
+[
+"Toxel",
+"ME02:#067/094",
+0
+]
+],
+"energy": [
+"D"
+],
+"hp": 70,
+"dps": 10.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Sizzlipede",
+"top": "Centiskorch",
+"stages": [
+[
+"Sizzlipede",
+"SV05:#036/162",
+0
+],
+[
+"Centiskorch",
+"SV08:#028/191",
+1
+]
+],
+"energy": [
+"R"
+],
+"hp": 130,
+"dps": 130.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Clobbopus",
+"top": "Grapploct",
+"stages": [
+[
+"Clobbopus",
+"SV08:#112/191",
+0
+],
+[
+"Grapploct",
+"SV08:#113/191",
+1
+]
+],
+"energy": [
+"F"
+],
+"hp": 140,
+"dps": 43.3,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Impidimp",
+"top": "Grimmsnarl",
+"stages": [
+[
+"Impidimp",
+"SV09:#071/159",
+0
+],
+[
+"Morgrem",
+"SV09:#072/159",
+1
+],
+[
+"Grimmsnarl",
+"SV09:#073/159",
+2
+]
+],
+"energy": [
+"P"
+],
+"hp": 170,
+"dps": 60.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 3
+},
+{
+"id": "Marnie's Impidimp",
+"top": "Marnie's Morgrem",
+"stages": [
+[
+"Marnie's Impidimp",
+"SV10:#134/182",
+0
+],
+[
+"Marnie's Morgrem",
+"SV10:#135/182",
+1
+]
+],
+"energy": [
+"D"
+],
+"hp": 100,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Milcery",
+"top": "Alcremie",
+"stages": [
+[
+"Milcery",
+"SV09:#074/159",
+0
+],
+[
+"Alcremie",
+"ME02:#044/094",
+1
+]
+],
+"energy": [
+"P"
+],
+"hp": 90,
+"dps": 20.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Falinks",
+"top": "Falinks",
+"stages": [
+[
+"Falinks",
+"SV07:#088/142",
+0
+]
+],
+"energy": [],
+"hp": 110,
+"dps": 15.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Snom",
+"top": "Frosmoth",
+"stages": [
+[
+"Snom",
+"ASH:#052/217",
+0
+],
+[
+"Frosmoth",
+"ASH:#053/217",
+1
+]
+],
+"energy": [
+"W"
+],
+"hp": 110,
+"dps": 45.0,
+"abilities": [
+"Alluring Wings"
+],
+"tags": [
+"ability",
+"attacker",
+"engine"
+],
+"length": 2
+},
+{
+"id": "Stonjourner",
+"top": "Stonjourner",
+"stages": [
+[
+"Stonjourner",
+"ME01:#081/132",
+0
+]
+],
+"energy": [
+"F"
+],
+"hp": 130,
+"dps": 46.7,
+"abilities": [],
+"tags": [
+"attacker",
+"spread"
+],
+"length": 1
+},
+{
+"id": "Eiscue",
+"top": "Eiscue",
+"stages": [
+[
+"Eiscue",
+"ME01:#044/132",
+0
+]
+],
+"energy": [
+"W"
+],
+"hp": 110,
+"dps": 30.0,
+"abilities": [],
+"tags": [
+"status"
+],
+"length": 1
+},
+{
+"id": "Indeedee",
+"top": "Indeedee",
+"stages": [
+[
+"Indeedee",
+"SV08:#093/191",
+0
+]
+],
+"energy": [
+"P"
+],
+"hp": 100,
+"dps": 25.0,
+"abilities": [
+"Obliging Heal"
+],
+"tags": [
+"ability"
+],
+"length": 1
+},
+{
+"id": "Marnie's Morpeko",
+"top": "Marnie's Morpeko",
+"stages": [
+[
+"Marnie's Morpeko",
+"SV10:#137/182",
+0
+]
+],
+"energy": [],
+"hp": 70,
+"dps": 6.7,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Morpeko",
+"top": "Morpeko",
+"stages": [
+[
+"Morpeko",
+"SV06:#072/167",
+0
+]
+],
+"energy": [
+"L"
+],
+"hp": 70,
+"dps": 0,
+"abilities": [
+"Snack Seek"
+],
+"tags": [
+"ability"
+],
+"length": 1
+},
+{
+"id": "Cufant",
+"top": "Copperajah",
+"stages": [
+[
+"Cufant",
+"SV09:#109/159",
+0
+],
+[
+"Copperajah",
+"SV09:#110/159",
+1
+]
+],
+"energy": [
+"M"
+],
+"hp": 190,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Duraludon",
+"top": "Archaludon",
+"stages": [
+[
+"Duraludon",
+"SV08:#129/191",
+0
+],
+[
+"Archaludon",
+"ME02:#075/094",
+1
+]
+],
+"energy": [
+"M"
+],
+"hp": 180,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Dreepy",
+"top": "Drakloak",
+"stages": [
+[
+"Dreepy",
+"ASH:#158/217",
+0
+],
+[
+"Drakloak",
+"ASH:#159/217",
+1
+]
+],
+"energy": [
+"P",
+"R"
+],
+"hp": 90,
+"dps": 35.0,
+"abilities": [
+"Recon Directive"
+],
+"tags": [
+"ability",
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Eternatus",
+"top": "Eternatus",
+"stages": [
+[
+"Eternatus",
+"ME02:#069/094",
+0
+]
+],
+"energy": [
+"D"
+],
+"hp": 150,
+"dps": 43.3,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 1
+},
+{
+"id": "Glastrier",
+"top": "Glastrier",
+"stages": [
+[
+"Glastrier",
+"ASH:#054/217",
+0
+]
+],
+"energy": [
+"W"
+],
+"hp": 130,
+"dps": 43.3,
+"abilities": [],
+"tags": [
+"attacker",
+"spread"
+],
+"length": 1
+},
+{
+"id": "Sprigatito",
+"top": "Floragato",
+"stages": [
+[
+"Sprigatito",
+"SV09:#016/159",
+0
+],
+[
+"Floragato",
+"SV09:#017/159",
+1
+]
+],
+"energy": [],
+"hp": 90,
+"dps": 15.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Fuecoco",
+"top": "Crocalor",
+"stages": [
+[
+"Fuecoco",
+"SV08:#029/191",
+0
+],
+[
+"Crocalor",
+"SV08:#030/191",
+1
+]
+],
+"energy": [
+"R"
+],
+"hp": 110,
+"dps": 15.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Quaxly",
+"top": "Quaquaval",
+"stages": [
+[
+"Quaxly",
+"SV08:#050/191",
+0
+],
+[
+"Quaxwell",
+"SV08:#051/191",
+1
+],
+[
+"Quaquaval",
+"SV08:#052/191",
+2
+]
+],
+"energy": [
+"W"
+],
+"hp": 170,
+"dps": 60.0,
+"abilities": [
+"Up-Tempo"
+],
+"tags": [
+"ability",
+"attacker",
+"engine"
+],
+"length": 3
+},
+{
+"id": "Lechonk",
+"top": "Oinkologne",
+"stages": [
+[
+"Lechonk",
+"SV07:#126/142",
+0
+],
+[
+"Oinkologne",
+"SV09:#140/159",
+1
+]
+],
+"energy": [],
+"hp": 120,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Team Rocket's Tarountula",
+"top": "Team Rocket's Tarountula",
+"stages": [
+[
+"Team Rocket's Tarountula",
+"ASH:#018/217",
+0
+]
+],
+"energy": [
+"G"
+],
+"hp": 50,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Nymble",
+"top": "Lokix",
+"stages": [
+[
+"Nymble",
+"SV09:#019/159",
+0
+],
+[
+"Lokix",
+"SV09:#100/159",
+1
+]
+],
+"energy": [
+"D"
+],
+"hp": 120,
+"dps": 60.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Pawmi",
+"top": "Pawmo",
+"stages": [
+[
+"Pawmi",
+"ME02:#032/094",
+0
+],
+[
+"Pawmo",
+"ME02:#033/094",
+1
+]
+],
+"energy": [
+"L"
+],
+"hp": 90,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Tandemaus",
+"top": "Maushold",
+"stages": [
+[
+"Tandemaus",
+"SV08:#157/191",
+0
+],
+[
+"Maushold",
+"SV08:#158/191",
+1
+]
+],
+"energy": [],
+"hp": 80,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Fidough",
+"top": "Fidough",
+"stages": [
+[
+"Fidough",
+"SV07:#066/142",
+0
+]
+],
+"energy": [],
+"hp": 60,
+"dps": 10.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Smoliv",
+"top": "Dolliv",
+"stages": [
+[
+"Smoliv",
+"SV10:#021/182",
+0
+],
+[
+"Dolliv",
+"SV10:#022/182",
+1
+]
+],
+"energy": [
+"G"
+],
+"hp": 90,
+"dps": 20.0,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Squawkabilly",
+"top": "Squawkabilly",
+"stages": [
+[
+"Squawkabilly",
+"SV10:#160/182",
+0
+]
+],
+"energy": [],
+"hp": 70,
+"dps": 20.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Nacli",
+"top": "Garganacl",
+"stages": [
+[
+"Nacli",
+"ME01:#082/132",
+0
+],
+[
+"Naclstack",
+"ME01:#083/132",
+1
+],
+[
+"Garganacl",
+"ME01:#084/132",
+2
+]
+],
+"energy": [
+"F"
+],
+"hp": 180,
+"dps": 43.3,
+"abilities": [
+"Powerful a-Salt"
+],
+"tags": [
+"ability",
+"attacker",
+"buff"
+],
+"length": 3
+},
+{
+"id": "Charcadet",
+"top": "Ceruledge",
+"stages": [
+[
+"Charcadet",
+"SV08:#033/191",
+0
+],
+[
+"Ceruledge",
+"ME02:#020/094",
+1
+]
+],
+"energy": [
+"R"
+],
+"hp": 140,
+"dps": 220.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Iono's Tadbulb",
+"top": "Iono's Tadbulb",
+"stages": [
+[
+"Iono's Tadbulb",
+"ASH:#069/217",
+0
+]
+],
+"energy": [
+"L"
+],
+"hp": 60,
+"dps": 15.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Tadbulb",
+"top": "Bellibolt",
+"stages": [
+[
+"Tadbulb",
+"SV06:#073/167",
+0
+],
+[
+"Bellibolt",
+"SV06:#074/167",
+1
+]
+],
+"energy": [
+"L"
+],
+"hp": 140,
+"dps": 43.3,
+"abilities": [],
+"tags": [
+"attacker",
+"status"
+],
+"length": 2
+},
+{
+"id": "Iono's Wattrel",
+"top": "Iono's Wattrel",
+"stages": [
+[
+"Iono's Wattrel",
+"ASH:#071/217",
+0
+]
+],
+"energy": [
+"L"
+],
+"hp": 60,
+"dps": 10.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Wattrel",
+"top": "Kilowattrel",
+"stages": [
+[
+"Wattrel",
+"SV08:#066/191",
+0
+],
+[
+"Kilowattrel",
+"SV08:#067/191",
+1
+]
+],
+"energy": [
+"L"
+],
+"hp": 120,
+"dps": 53.3,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Arven's Maschiff",
+"top": "Arven's Maschiff",
+"stages": [
+[
+"Arven's Maschiff",
+"SV10:#138/182",
+0
+]
+],
+"energy": [],
+"hp": 70,
+"dps": 16.7,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Shroodle",
+"top": "Grafaiai",
+"stages": [
+[
+"Shroodle",
+"SV08:#120/191",
+0
+],
+[
+"Grafaiai",
+"ME01:#092/132",
+1
+]
+],
+"energy": [
+"D"
+],
+"hp": 100,
+"dps": 45.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Bramblin",
+"top": "Brambleghast",
+"stages": [
+[
+"Bramblin",
+"SV05:#020/162",
+0
+],
+[
+"Brambleghast",
+"ME02:#047/094",
+1
+]
+],
+"energy": [
+"P"
+],
+"hp": 100,
+"dps": 26.7,
+"abilities": [
+"Prison Panic"
+],
+"tags": [
+"ability"
+],
+"length": 2
+},
+{
+"id": "Arven's Toedscool",
+"top": "Arven's Toedscruel",
+"stages": [
+[
+"Arven's Toedscool",
+"SV10:#109/182",
+0
+],
+[
+"Arven's Toedscruel",
+"SV10:#110/182",
+1
+]
+],
+"energy": [],
+"hp": 140,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Toedscool",
+"top": "Toedscruel",
+"stages": [
+[
+"Toedscool",
+"SV07:#017/142",
+0
+],
+[
+"Toedscruel",
+"SV09:#089/159",
+1
+]
+],
+"energy": [
+"F"
+],
+"hp": 130,
+"dps": 26.7,
+"abilities": [
+"Secret Forest Path"
+],
+"tags": [
+"ability"
+],
+"length": 2
+},
+{
+"id": "Klawf",
+"top": "Klawf",
+"stages": [
+[
+"Klawf",
+"SV09:#090/159",
+0
+]
+],
+"energy": [
+"F"
+],
+"hp": 120,
+"dps": 33.3,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Capsakid",
+"top": "Capsakid",
+"stages": [
+[
+"Capsakid",
+"SV08:#012/191",
+0
+]
+],
+"energy": [],
+"hp": 70,
+"dps": 10.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Rellor",
+"top": "Rabsca",
+"stages": [
+[
+"Rellor",
+"SV05:#023/162",
+0
+],
+[
+"Rabsca",
+"SV05:#024/162",
+1
+]
+],
+"energy": [
+"G"
+],
+"hp": 70,
+"dps": 10.0,
+"abilities": [
+"Spherical Shield"
+],
+"tags": [
+"ability",
+"wall"
+],
+"length": 2
+},
+{
+"id": "Flittle",
+"top": "Espathra",
+"stages": [
+[
+"Flittle",
+"SV08:#094/191",
+0
+],
+[
+"Espathra",
+"SV07:#069/142",
+1
+]
+],
+"energy": [
+"P"
+],
+"hp": 130,
+"dps": 50.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Tinkatink",
+"top": "Tinkaton",
+"stages": [
+[
+"Tinkatink",
+"ME01:#096/132",
+0
+],
+[
+"Tinkatuff",
+"ME01:#097/132",
+1
+],
+[
+"Tinkaton",
+"ME01:#098/132",
+2
+]
+],
+"energy": [
+"M"
+],
+"hp": 160,
+"dps": 240.0,
+"abilities": [
+"Haphazard Hammer"
+],
+"tags": [
+"ability",
+"attacker"
+],
+"length": 3
+},
+{
+"id": "Wiglett",
+"top": "Wiglett",
+"stages": [
+[
+"Wiglett",
+"SV05:#047/162",
+0
+]
+],
+"energy": [
+"W"
+],
+"hp": 60,
+"dps": 20.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Bombirdier",
+"top": "Bombirdier",
+"stages": [
+[
+"Bombirdier",
+"SV07:#097/142",
+0
+]
+],
+"energy": [
+"D"
+],
+"hp": 100,
+"dps": 35.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 1
+},
+{
+"id": "Finizen",
+"top": "Palafin",
+"stages": [
+[
+"Finizen",
+"SV06:#059/167",
+0
+],
+[
+"Palafin",
+"SV06:#060/167",
+1
+]
+],
+"energy": [
+"W"
+],
+"hp": 100,
+"dps": 15.0,
+"abilities": [
+"Zero to Hero"
+],
+"tags": [
+"ability",
+"engine"
+],
+"length": 2
+},
+{
+"id": "Varoom",
+"top": "Revavroom",
+"stages": [
+[
+"Varoom",
+"SV06:#124/167",
+0
+],
+[
+"Revavroom",
+"SV07:#109/142",
+1
+]
+],
+"energy": [
+"M"
+],
+"hp": 150,
+"dps": 33.3,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Cyclizar",
+"top": "Cyclizar",
+"stages": [
+[
+"Cyclizar",
+"SV07:#127/142",
+0
+]
+],
+"energy": [],
+"hp": 110,
+"dps": 25.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Glimmet",
+"top": "Glimmora",
+"stages": [
+[
+"Glimmet",
+"SV06:#108/167",
+0
+],
+[
+"Glimmora",
+"SV08:#115/191",
+1
+]
+],
+"energy": [
+"F"
+],
+"hp": 130,
+"dps": 30.0,
+"abilities": [],
+"tags": [
+"status"
+],
+"length": 2
+},
+{
+"id": "Greavard",
+"top": "Houndstone",
+"stages": [
+[
+"Greavard",
+"ME01:#065/132",
+0
+],
+[
+"Houndstone",
+"ME01:#066/132",
+1
+]
+],
+"energy": [
+"P"
+],
+"hp": 140,
+"dps": 43.3,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 2
+},
+{
+"id": "Cetoddle",
+"top": "Cetitan",
+"stages": [
+[
+"Cetoddle",
+"SV10:#064/182",
+0
+],
+[
+"Cetitan",
+"SV08:#054/191",
+1
+]
+],
+"energy": [
+"W"
+],
+"hp": 180,
+"dps": 37.5,
+"abilities": [
+"Solid Body"
+],
+"tags": [
+"ability",
+"attacker",
+"wall"
+],
+"length": 2
+},
+{
+"id": "Veluza",
+"top": "Veluza",
+"stages": [
+[
+"Veluza",
+"SV07:#045/142",
+0
+]
+],
+"energy": [],
+"hp": 130,
+"dps": 27.5,
+"abilities": [
+"Food Prep"
+],
+"tags": [
+"ability"
+],
+"length": 1
+},
+{
+"id": "Tatsugiri",
+"top": "Tatsugiri",
+"stages": [
+[
+"Tatsugiri",
+"SV06:#131/167",
+0
+]
+],
+"energy": [
+"R",
+"W"
+],
+"hp": 70,
+"dps": 25.0,
+"abilities": [
+"Attract Customers"
+],
+"tags": [
+"ability"
+],
+"length": 1
+},
+{
+"id": "Great Tusk",
+"top": "Great Tusk",
+"stages": [
+[
+"Great Tusk",
+"SV05:#097/162",
+0
+]
+],
+"energy": [
+"F"
+],
+"hp": 140,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 1
+},
+{
+"id": "Scream Tail",
+"top": "Scream Tail",
+"stages": [
+[
+"Scream Tail",
+"SV05:#077/162",
+0
+]
+],
+"energy": [],
+"hp": 90,
+"dps": 20.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Brute Bonnet",
+"top": "Brute Bonnet",
+"stages": [
+[
+"Brute Bonnet",
+"SV06:#118/167",
+0
+]
+],
+"energy": [
+"D"
+],
+"hp": 120,
+"dps": 16.7,
+"abilities": [],
+"tags": [
+"status"
+],
+"length": 1
+},
+{
+"id": "Flutter Mane",
+"top": "Flutter Mane",
+"stages": [
+[
+"Flutter Mane",
+"SV08:#096/191",
+0
+]
+],
+"energy": [
+"P"
+],
+"hp": 90,
+"dps": 35.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 1
+},
+{
+"id": "Slither Wing",
+"top": "Slither Wing",
+"stages": [
+[
+"Slither Wing",
+"SFA:#026/064",
+0
+]
+],
+"energy": [
+"F"
+],
+"hp": 140,
+"dps": 43.3,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 1
+},
+{
+"id": "Sandy Shocks",
+"top": "Sandy Shocks",
+"stages": [
+[
+"Sandy Shocks",
+"SV05:#098/162",
+0
+]
+],
+"energy": [
+"F"
+],
+"hp": 120,
+"dps": 30.0,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Iron Treads",
+"top": "Iron Treads",
+"stages": [
+[
+"Iron Treads",
+"SV05:#118/162",
+0
+]
+],
+"energy": [
+"M"
+],
+"hp": 130,
+"dps": 30.0,
+"abilities": [
+"Dual Core"
+],
+"tags": [
+"ability",
+"accel"
+],
+"length": 1
+},
+{
+"id": "Iron Bundle",
+"top": "Iron Bundle",
+"stages": [
+[
+"Iron Bundle",
+"SV08:#055/191",
+0
+]
+],
+"energy": [
+"W"
+],
+"hp": 100,
+"dps": 66.7,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 1
+},
+{
+"id": "Iron Hands",
+"top": "Iron Hands",
+"stages": [
+[
+"Iron Hands",
+"SV05:#061/162",
+0
+]
+],
+"energy": [
+"L"
+],
+"hp": 140,
+"dps": 26.7,
+"abilities": [],
+"tags": [
+"status"
+],
+"length": 1
+},
+{
+"id": "Iron Jugulis",
+"top": "Iron Jugulis",
+"stages": [
+[
+"Iron Jugulis",
+"SV05:#139/162",
+0
+]
+],
+"energy": [],
+"hp": 130,
+"dps": 36.7,
+"abilities": [
+"Automated Combat"
+],
+"tags": [
+"ability",
+"attacker"
+],
+"length": 1
+},
+{
+"id": "Iron Moth",
+"top": "Iron Moth",
+"stages": [
+[
+"Iron Moth",
+"SFA:#009/064",
+0
+]
+],
+"energy": [
+"R"
+],
+"hp": 120,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 1
+},
+{
+"id": "Gimmighoul",
+"top": "Gholdengo",
+"stages": [
+[
+"Gimmighoul",
+"SV08:#097/191",
+0
+],
+[
+"Gholdengo",
+"ME01:#099/132",
+1
+]
+],
+"energy": [
+"M"
+],
+"hp": 130,
+"dps": 33.3,
+"abilities": [],
+"tags": [],
+"length": 2
+},
+{
+"id": "Wo-Chien",
+"top": "Wo-Chien",
+"stages": [
+[
+"Wo-Chien",
+"SV08:#015/191",
+0
+]
+],
+"energy": [
+"G"
+],
+"hp": 130,
+"dps": 43.3,
+"abilities": [],
+"tags": [
+"attacker",
+"spread"
+],
+"length": 1
+},
+{
+"id": "Chi-Yu",
+"top": "Chi-Yu",
+"stages": [
+[
+"Chi-Yu",
+"ME01:#031/132",
+0
+]
+],
+"energy": [
+"R"
+],
+"hp": 110,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 1
+},
+{
+"id": "Iron Valiant",
+"top": "Iron Valiant",
+"stages": [
+[
+"Iron Valiant",
+"SV05:#079/162",
+0
+]
+],
+"energy": [
+"P"
+],
+"hp": 130,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker",
+"spread"
+],
+"length": 1
+},
+{
+"id": "Koraidon",
+"top": "Koraidon",
+"stages": [
+[
+"Koraidon",
+"SV08:#116/191",
+0
+]
+],
+"energy": [
+"F"
+],
+"hp": 130,
+"dps": 36.7,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 1
+},
+{
+"id": "Miraidon",
+"top": "Miraidon",
+"stages": [
+[
+"Miraidon",
+"SV08:#069/191",
+0
+]
+],
+"energy": [
+"L"
+],
+"hp": 120,
+"dps": 33.3,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Poltchageist",
+"top": "Poltchageist",
+"stages": [
+[
+"Poltchageist",
+"SV06:#020/167",
+0
+]
+],
+"energy": [
+"G"
+],
+"hp": 30,
+"dps": 10.0,
+"abilities": [
+"Storehouse Hideaway"
+],
+"tags": [
+"ability",
+"wall"
+],
+"length": 1
+},
+{
+"id": "Cornerstone Mask Ogerpon",
+"top": "Cornerstone Mask Ogerpon",
+"stages": [
+[
+"Cornerstone Mask Ogerpon",
+"SV10:#111/182",
+0
+]
+],
+"energy": [
+"F"
+],
+"hp": 110,
+"dps": 33.3,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Hearthflame Mask Ogerpon",
+"top": "Hearthflame Mask Ogerpon",
+"stages": [
+[
+"Hearthflame Mask Ogerpon",
+"SV10:#044/182",
+0
+]
+],
+"energy": [
+"R"
+],
+"hp": 110,
+"dps": 26.7,
+"abilities": [],
+"tags": [],
+"length": 1
+},
+{
+"id": "Teal Mask Ogerpon",
+"top": "Teal Mask Ogerpon",
+"stages": [
+[
+"Teal Mask Ogerpon",
+"SV10:#026/182",
+0
+]
+],
+"energy": [
+"G"
+],
+"hp": 110,
+"dps": 40.0,
+"abilities": [],
+"tags": [
+"attacker"
+],
+"length": 1
+},
+{
+"id": "Wellspring Mask Ogerpon",
+"top": "Wellspring Mask Ogerpon",
+"stages": [
+[
+"Wellspring Mask Ogerpon",
+"SV10:#067/182",
+0
+]
+],
+"energy": [
+"W"
+],
+"hp": 110,
+"dps": 33.3,
+"abilities": [],
+"tags": [],
+"length": 1
+}
+]

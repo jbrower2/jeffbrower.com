@@ -1,0 +1,358 @@
+#!/usr/bin/env python3
+"""Coevolutionary optimizer for the fully-pauper deck lab (no ace, C/U only).
+
+Score = win% vs the field MINUS a squared-distance composition penalty from the 20 Pokémon /
+25 Trainer / 15 energy target (±4 slack, then strict). Candidate Pokémon are whole evolution
+CHAINS that don't need energy the deck lacks (colorless chains fit anything). Mutation operators:
+  (micro)  ±1 single-card swap among Pokémon / Trainer / energy  (kept from the old system)
+  (a)      swap an entire chain in the deck for a compatible chain
+  (b)      shift member quantities between two chains
+  (c)      add or remove a whole chain, rebalancing energy/trainers to 60
+  (d)      the ±1-2 trainer/energy rebalancing that a–c need for space
+Everything is legality-checked (exactly 60, ≤4 by name, all C/U). Daemon/resume/archive-revert
+infrastructure mirrors optimize.py.
+"""
+import json, os, random, sys, time
+from collections import Counter, defaultdict
+from concurrent.futures import ProcessPoolExecutor
+from cards import load_cards
+from engine import run_match, Game
+from pauper_chains import load_chains, L2T
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+BY_KEY, BY_NAME = load_cards()
+TRAINERS = json.load(open(os.path.join(os.path.dirname(HERE), 'deckgen', 'trainers.json')))
+CHAINS = load_chains()
+CHAIN_BY_MEMBER = {('P', key): ch for ch in CHAINS for (nm, key, st) in ch['stages']}
+T2L = {v: k for k, v in L2T.items()}
+TARGET = {'P': 20, 'T': 25, 'E': 15}
+SLACK, PEN_K = 4, 0.5
+THRESH = 1.0
+
+
+# ---------------- refs ----------------
+def ser(ref):
+    return '|'.join(ref)
+
+def deser(s):
+    return tuple(s.split('|', 1))
+
+def ref_name(ref):
+    if ref[0] == 'E':
+        return ref[1] + ' Energy'
+    if ref[0] == 'T':
+        return ref[1]
+    return BY_KEY[ref[1]].name
+
+def item_of(ref):
+    if ref[0] == 'E':
+        return ref[1]
+    if ref[0] == 'T':
+        return dict(TRAINERS[ref[1]], name=ref[1])
+    return BY_KEY[ref[1]]
+
+def counts_to_spec(counts):
+    return [(n, item_of(r)) for r, n in counts.items() if n > 0]
+
+def as_deck(counts):
+    return (counts_to_spec(counts), None)          # no ace
+
+
+# ---------------- composition + legality ----------------
+def kind_counts(counts):
+    c = {'P': 0, 'T': 0, 'E': 0}
+    for r, n in counts.items():
+        c[r[0]] = c.get(r[0], 0) + n
+    return c
+
+def penalty(counts):
+    kc = kind_counts(counts)
+    pen = 0.0
+    for k, tgt in TARGET.items():
+        over = max(0, abs(kc.get(k, 0) - tgt) - SLACK)
+        pen += over * over
+    return PEN_K * pen
+
+def is_legal(counts):
+    if sum(counts.values()) != 60:
+        return False
+    byname = Counter()
+    for r, n in counts.items():
+        if n < 0:
+            return False
+        if r[0] == 'E':
+            continue
+        if r[0] == 'P' and BY_KEY[r[1]].cat != 'cat-green':   # pauper: C/U only
+            return False
+        byname[ref_name(r)] += n
+    return all(v <= 4 for v in byname.values())
+
+def canon(counts):
+    return tuple(sorted((ser(r), n) for r, n in counts.items() if n > 0))
+
+
+# ---------------- chains ----------------
+def energy_letters(counts):
+    return {T2L[r[1]] for r in counts if r[0] == 'E'}
+
+def primary_etype(counts):
+    es = [(r[1], n) for r, n in counts.items() if r[0] == 'E']
+    return max(es, key=lambda x: x[1])[0] if es else 'Psychic'
+
+def deck_chains(counts):
+    """[(chain, {member_ref: count})] for chains present in the deck."""
+    groups = defaultdict(dict)
+    for r, n in counts.items():
+        if r[0] == 'P' and r in CHAIN_BY_MEMBER:
+            ch = CHAIN_BY_MEMBER[r]
+            groups[ch['id']][r] = n
+    return [(next(c for c in CHAINS if c['id'] == cid), mem) for cid, mem in groups.items()]
+
+def chain_line(ch, base=(3, 2, 1)):
+    return [(('P', key), n) for (nm, key, st), n in zip(ch['stages'], base[:ch['length']])]
+
+def compatible_chains(counts):
+    letters = energy_letters(counts)
+    return [ch for ch in CHAINS if set(ch['energy']) <= letters]
+
+
+def rebalance(counts, etype):
+    """Adjust energy (then trainers) to bring the deck back to exactly 60 (operator d)."""
+    diff = 60 - sum(counts.values())
+    if diff > 0:
+        counts[('E', etype)] += diff
+    elif diff < 0:
+        rem = -diff
+        for pred in (lambda r: r[0] == 'E', lambda r: r[0] == 'T'):
+            for r in sorted([r for r in counts if pred(r)], key=lambda r: -counts[r]):
+                take = min(counts[r], rem); counts[r] -= take; rem -= take
+                if counts[r] <= 0:
+                    del counts[r]
+                if rem == 0:
+                    break
+            if rem == 0:
+                break
+    if counts.get(('E', etype), 0) <= 0:
+        counts.pop(('E', etype), None)
+    return counts
+
+
+# ---------------- mutation generator ----------------
+def mutations(counts, cap=200, rng=random):
+    etype = primary_etype(counts)
+    compat = compatible_chains(counts)
+    present = deck_chains(counts)
+    present_ids = {ch['id'] for ch, _ in present}
+    add_chains = [ch for ch in compat if ch['id'] not in present_ids]
+    trainers = [r for r in counts if r[0] == 'T']
+    energies = [r for r in counts if r[0] == 'E']
+    pokes = [r for r in counts if r[0] == 'P']
+    trainer_adds = [('T', n) for n in TRAINERS]
+    muts, seen = [], set()
+
+    def emit(m, desc):
+        if sum(v for v in m.values() if v > 0) and is_legal(m):
+            k = canon(m)
+            if k not in seen and k != canon(counts):
+                seen.add(k); muts.append((desc, m))
+
+    # ---- micro: single-card swaps among free cards (kept from old system) ----
+    def micro(rem, add):
+        if rem is None or add is None or rem == add or counts.get(rem, 0) < 1:
+            return
+        m = Counter(counts); m[rem] -= 1; m[add] += 1
+        if m[rem] == 0:
+            del m[rem]
+        emit(m, f'-1 {ref_name(rem)} +1 {ref_name(add)}')
+    for a in trainer_adds:                                    # swap energy/weak-poke -> a trainer
+        micro(energies[0] if energies else None, a)
+    for a in [('E', etype)]:                                  # add energy by cutting a trainer
+        for t in trainers[:4]:
+            micro(t, a)
+    for ch in add_chains[:20]:                                # +1 of a compatible chain's basic, -1 energy
+        micro(energies[0] if energies else None, chain_line(ch)[0][0])
+
+    # ---- (a) swap a whole chain for a compatible chain ----
+    for ch_in, members in present:
+        for ch_new in add_chains:
+            m = Counter(counts)
+            for r in list(members):
+                del m[r]
+            for ref, n in chain_line(ch_new, (4, 3, 2)):
+                m[ref] += min(4, n)
+            rebalance(m, etype)
+            emit(m, f'swap chain {ch_in["top"]} -> {ch_new["top"]}')
+
+    # ---- (b) shift member quantities between two chains ----
+    for ch_x, mem_x in present:
+        for ch_y, mem_y in present:
+            if ch_x['id'] == ch_y['id']:
+                continue
+            rx = max(mem_x, key=lambda r: mem_x[r])           # bump the most-present member of X
+            ry = min(mem_y, key=lambda r: mem_y[r])           # trim the least-present member of Y
+            if counts.get(rx, 0) >= 4 or counts.get(ry, 0) < 1:
+                continue
+            m = Counter(counts); m[rx] += 1; m[ry] -= 1
+            if m[ry] == 0:
+                del m[ry]
+            emit(m, f'+1 {ref_name(rx)} / -1 {ref_name(ry)}')
+
+    # ---- (c) add a whole chain (rebalance), or remove a present chain (rebalance) ----
+    for ch_new in add_chains:
+        m = Counter(counts)
+        for ref, n in chain_line(ch_new, (3, 2, 1)):
+            m[ref] += min(4, n)
+        rebalance(m, etype)
+        emit(m, f'add chain {ch_new["top"]}')
+    for ch_in, members in present:
+        if len(present) <= 2:
+            continue                                          # keep at least a couple lines
+        m = Counter(counts)
+        for r in list(members):
+            del m[r]
+        rebalance(m, etype)
+        emit(m, f'remove chain {ch_in["top"]}')
+
+    rng.shuffle(muts)
+    return muts[:cap]
+
+
+# ---------------- parallel gauntlet ----------------
+def _rebuild(cards):
+    return [(n, item_of(deser(r))) for r, n in cards]
+
+def _eval_pairing(task):
+    a_cards, b_cards, games, seed = task
+    res = run_match((_rebuild(a_cards), None), (_rebuild(b_cards), None), games=games, base_seed=seed)
+    return res[0], res[1], res[2]
+
+def build_gauntlet(decks, exclude):
+    return [[(ser(r), c) for r, c in d['counts'].items()] for n, d in decks.items() if n != exclude]
+
+def _run_map(fn, tasks, ex):
+    return map(fn, tasks) if ex is None else ex.map(fn, tasks, chunksize=max(1, len(tasks) // 32))
+
+def winrate(counts, gaunt, games, ex, seed0):
+    a = [(ser(r), n) for r, n in counts.items()]
+    tasks = [(a, bc, games, seed0 + i) for i, bc in enumerate(gaunt)]
+    wa = wb = 0
+    for x, y, _ in _run_map(_eval_pairing, tasks, ex):
+        wa += x; wb += y
+    return 100.0 * wa / max(1, wa + wb)
+
+def score(counts, gaunt, games, ex, seed0):
+    return winrate(counts, gaunt, games, ex, seed0) - penalty(counts)
+
+
+# ---------------- persistence ----------------
+def save(decks, path='pauper_decklists.json'):
+    out = {n: {'cards': {ser(r): c for r, c in d['counts'].items() if c > 0}} for n, d in decks.items()}
+    json.dump(out, open(os.path.join(HERE, path), 'w'), indent=0)
+
+def save_archive(decks):
+    out = {n: [{ser(r): c for r, c in v.items() if c > 0} for v in d.get('archive', [])] for n, d in decks.items()}
+    json.dump(out, open(os.path.join(HERE, 'pauper_archive.json'), 'w'), indent=0)
+
+def append_jsonl(path, rec):
+    with open(path, 'a') as f:
+        f.write(json.dumps(rec) + '\n')
+
+def load_state():
+    raw = json.load(open(os.path.join(HERE, 'pauper_decklists.json')))
+    apath = os.path.join(HERE, 'pauper_archive.json')
+    archive = json.load(open(apath)) if os.path.exists(apath) else {}
+    decks = {}
+    for n, e in raw.items():
+        counts = Counter({deser(k): v for k, v in e['cards'].items()})
+        arc = [Counter({deser(k): v for k, v in v0.items()}) for v0 in archive.get(n, [])]
+        decks[n] = {'counts': counts, 'archive': arc or [Counter(counts)]}
+    return decks
+
+
+def leaderboard(decks, games, ex, rnd, seed0=1):
+    board = []
+    for n, d in decks.items():
+        wr = winrate(d['counts'], build_gauntlet(decks, n), games, ex, seed0)
+        kc = kind_counts(d['counts'])
+        board.append([round(wr - penalty(d['counts']), 2), round(wr, 2), n,
+                      f"{kc['P']}/{kc['T']}/{kc['E']}"])
+    board.sort(reverse=True)
+    json.dump({'round': rnd, 'board': board}, open(os.path.join(HERE, 'pauper_leaderboard.json'), 'w'), indent=1)
+    return board
+
+
+# ---------------- run ----------------
+def run(games=5, rounds=10, cap=200, workers=9, seed0=1):
+    decks = load_state()
+    names = list(decks)
+    ex = ProcessPoolExecutor(workers) if workers > 1 else None
+    hist = os.path.join(HERE, 'pauper_history.jsonl')
+    donef = os.path.join(HERE, 'PAUPER_DONE')
+    done = set()
+    if os.path.exists(hist):
+        for l in open(hist):
+            try:
+                r = json.loads(l); done.add((r['round'], r['deck']))
+            except Exception:
+                pass
+    t0 = time.time()
+    print(f"pauper-optimizing {len(names)} decks | {games} games/pairing | cap={cap} | {rounds} rounds | "
+          f"target {TARGET['P']}/{TARGET['T']}/{TARGET['E']} penalty(slack {SLACK}, k {PEN_K})", flush=True)
+    try:
+        for rnd in range(1, rounds + 1):
+            accepts = 0
+            for i, name in enumerate(names, 1):
+                if (rnd, name) in done:
+                    continue
+                d = decks[name]
+                gaunt = build_gauntlet(decks, name)
+                base = score(d['counts'], gaunt, games, ex, seed0)
+                cands = list(mutations(d['counts'], cap))
+                for vi, av in enumerate(d.get('archive', [])):
+                    if canon(av) != canon(d['counts']):
+                        cands.append((f'revert->v{vi}', Counter(av)))
+                best, seen = None, {canon(d['counts'])}
+                for desc, mc in cands:
+                    k = canon(mc)
+                    if k in seen:
+                        continue
+                    seen.add(k)
+                    sc = score(mc, gaunt, games, ex, seed0)
+                    if best is None or sc > best[1]:
+                        best = (desc, sc, mc)
+                accepted = best is not None and best[1] > base + THRESH
+                append_jsonl(hist, {'round': rnd, 'deck': name, 'base': round(base, 2),
+                                    'best': round(best[1], 2) if best else None,
+                                    'delta': round(best[1] - base, 2) if best else None,
+                                    'mutation': best[0] if best else None,
+                                    'revert': bool(accepted and best[0].startswith('revert')),
+                                    'accepted': accepted, 'ts': time.time()})
+                if accepted:
+                    d['counts'] = best[2]; accepts += 1
+                    if canon(best[2]) not in {canon(a) for a in d['archive']}:
+                        d['archive'].append(Counter(best[2])); d['archive'] = d['archive'][-25:]
+                    save(decks); save_archive(decks)
+                kc = kind_counts(d['counts'])
+                tag = 'ACCEPT' if accepted else '  ----'
+                print(f"[r{rnd} {i:3}/{len(names)} {time.time()-t0:6.0f}s] {tag} {name[:26]:26} "
+                      f"{base:5.1f} -> {(best[1] if best else base):5.1f}  ({kc['P']}/{kc['T']}/{kc['E']})  "
+                      f"{best[0][:34] if accepted else ''}", flush=True)
+            b = leaderboard(decks, games, ex, rnd, seed0)
+            print(f"=== round {rnd} done: {accepts} changes | top {b[0][2]} {b[0][0]} | "
+                  f"median {b[len(b)//2][0]} ===", flush=True)
+        open(donef, 'w').write(str(time.time()))
+        print("=== ALL ROUNDS COMPLETE ===", flush=True)
+    finally:
+        if ex:
+            ex.shutdown()
+
+
+if __name__ == '__main__':
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument('--games', type=int, default=5)
+    ap.add_argument('--rounds', type=int, default=10)
+    ap.add_argument('--cap', type=int, default=200)
+    ap.add_argument('--workers', type=int, default=9)
+    a = ap.parse_args()
+    run(games=a.games, rounds=a.rounds, cap=a.cap, workers=a.workers)
