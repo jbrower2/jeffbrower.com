@@ -20,12 +20,12 @@ for i in $(seq 1 500); do
     echo "[daemon $(date '+%m-%d %H:%M:%S')] OPT_DONE present — all 8 rounds complete (after $i checks)" >> "$DLOG"
     break
   fi
-  if pgrep -f 'optimize.py --games 10' >/dev/null; then
+  if pgrep -f 'optimize.py --games 3' >/dev/null; then
     sleep 20; continue                       # another optimizer instance is already running
   fi
   echo "[daemon $(date '+%m-%d %H:%M:%S')] launch #$i" >> "$DLOG"
   start=$(date +%s)
-  python3 "$SIM/optimize.py" --games 10 --cap 40 --rounds 10 --workers 9 >> "$LOG" 2>&1
+  python3 "$SIM/optimize.py" --games 3 --cap 250 --rounds 5 --workers 9 >> "$LOG" 2>&1
   rc=$?; dur=$(( $(date +%s) - start ))
   echo "[daemon $(date '+%m-%d %H:%M:%S')] optimizer exited rc=$rc after ${dur}s" >> "$DLOG"
   if [ "$dur" -lt 60 ] && [ "$rc" -ne 0 ]; then

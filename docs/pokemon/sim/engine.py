@@ -316,6 +316,41 @@ class Game:
             me.bench.remove(desired); me.bench.append(old)
             me.active = desired; desired.came_from_bench = True
 
+    def _promote_if_idle(self, me, opp):
+        """A cooldown attacker (used a 'can't use next turn' attack last turn) would otherwise sit
+        idle this turn — if a benched Pokémon can attack usefully, promote it so the turn isn't wasted.
+        Scoped to a mon that is *currently mid-cooldown*, so it never disrupts intentional walls."""
+        if not me.active or not me.bench or me.active.cd_name is None:
+            return
+        if me.active.cd_turn + 2 != self.turn:                  # not disabled this turn
+            return
+        cur = self.best_attack(me, opp, me.active, opp.active)
+        if cur and cur[2] > 0:                                  # active still has a useful non-cooldown attack
+            return
+        best = None
+        for m in me.bench:
+            b = self.best_attack(me, opp, m, opp.active)
+            if b and b[2] > 0 and (best is None or b[2] > best[1]):
+                best = (m, b[2])
+        if best is None:
+            return
+        desired = best[0]
+        sw = next((t for t in me.hand if t[0] == 'T' and t[1]['name'] == 'Switch'), None)
+        if sw:
+            me.hand.remove(sw)
+        elif me.active.total_energy() >= me.active.eff_retreat():
+            for _ in range(me.active.eff_retreat()):
+                tk = max(me.active.energy, key=lambda k: me.active.energy[k])
+                me.active.energy[tk] -= 1
+                if me.active.energy[tk] <= 0:
+                    del me.active.energy[tk]
+                me.disc_energy[tk] += 1
+        else:
+            return
+        old = me.active
+        me.bench.remove(desired); me.bench.append(old)
+        me.active = desired; desired.came_from_bench = True
+
     # ---------------- Trainers ----------------
     def _find_in_hand(self, me, pred):
         return next((t for t in me.hand if pred(t)), None)
@@ -550,7 +585,8 @@ class Game:
             if dmg and defender and defender.card.weakness and defender.card.weakness == mon.card.ptype:
                 dmg *= 2
             txt = a['text'].lower()
-            value = dmg + (25 if 'is now' in txt else 0) + effects.spread_value(ctx, a)
+            value = (dmg + (25 if 'is now' in txt else 0)
+                     + effects.spread_value(ctx, a) + effects.wipe_value(ctx, a))
             if dmg < 20 and effects.is_utility(a):          # draw/search setup, as a fallback
                 value = max(value, 18)
             if best is None or value > best[2]:
@@ -563,6 +599,8 @@ class Game:
             me.lost = True; self.log(f"{me.name} decks out"); return
         self.ai_main(me, opp)
         # attack (not on the very first turn of the game for the starting player)
+        if not first_turn and me.active and opp.active:
+            self._promote_if_idle(me, opp)                   # don't waste the turn if the ace is mid-cooldown
         if not first_turn and me.active and opp.active and effects.can_attack(me.active, self.rng):
             atk = self.best_attack(me, opp, me.active, opp.active)
             if atk and atk[2] > 0:
@@ -590,6 +628,15 @@ class Game:
                             opp.disc_energy[t] += n
                         opp.discard.append(('P', b.card)); opp.bench.remove(b)
                         me.take_prize(2 if b.card.is_ex else 1)
+                ka, wipe_bench = effects.conditional_ko(ctx, a)  # board-wipe KO (Soul Destroyer)
+                for b in wipe_bench:
+                    if b in opp.bench:
+                        for t, n in b.energy.items():
+                            opp.disc_energy[t] += n
+                        opp.discard.append(('P', b.card)); opp.bench.remove(b)
+                        me.take_prize(2 if b.card.is_ex else 1)
+                if ka and opp.active:
+                    opp.active.damage = opp.active.max_hp         # force lethal; is_ko below promotes
                 cd = effects.attack_cooldown(a)
                 if cd:
                     me.active.cd_name = cd; me.active.cd_turn = self.turn

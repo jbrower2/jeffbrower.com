@@ -202,6 +202,21 @@ def spread_value(ctx, attack):
     n = len(opp.bench) if how == 'each' else min(int(how), max(1, len(opp.bench)))
     return amt * n
 
+def conditional_ko(ctx, attack):
+    """'Knock Out each of your opponent's Pokémon that has N HP or less remaining.' (Soul Destroyer)
+    Returns (ko_active: bool, benched_to_ko: list) for the engine to take prizes + promote."""
+    me, opp, mon, dfn, g = ctx
+    m = re.search(r'knock out each of your opponent.?s pok\w*mon that has (\d+) hp or less', attack['text'], re.I)
+    if not m or opp.active is None:
+        return (False, [])
+    thr = int(m.group(1))
+    return (opp.active.hp_left <= thr, [b for b in opp.bench if b.hp_left <= thr])
+
+def wipe_value(ctx, attack):
+    """Selection value of a conditional board-wipe (so the AI uses it when it would KO)."""
+    ka, bench = conditional_ko(ctx, attack)
+    return (200 if ka else 0) + 120 * len(bench)
+
 def _search(me, n, kind):
     """Move up to n tokens of a kind ('P' Pokémon / 'E' energy) from deck to hand."""
     got = 0
@@ -368,6 +383,14 @@ def incoming_damage(dmg, atk_mon, dfn_mon, dfn_player, g):
     for ab in dfn_mon.card.abilities:                       # immunity / coin-prevent on the DEFENDER
         t = ab['text'].lower()
         if 'prevent all damage' in t and 'done to this pok' in t:
+            if 'tera' in t or 'on your bench' in t:
+                continue                        # Tera attacker (unmodeled) / bench-based teammate aura (not self-immunity)
+            if 'special energy' in t:
+                if atk_mon.special: return 0    # Carracosta: only vs an attacker carrying Special Energy
+                continue
+            if 'basic pok' in t and ('pokémon ex' in t or 'pokemon ex' in t):
+                if atk_mon.card.is_ex and atk_mon.card.stage == 0: return 0   # Farigiraf ex: only vs Basic ex
+                continue
             if 'pokémon ex' in t or 'pokemon ex' in t:
                 if atk_mon.card.is_ex: return 0
             elif 'that have an ability' in t:

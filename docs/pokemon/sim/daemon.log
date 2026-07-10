@@ -1,4 +1,3 @@
-[daemon 07-09 08:53:30] launch #1
-[daemon 07-09 09:54:46] launch #1
-[daemon 07-09 15:10:41] optimizer exited rc=0 after 18955s
-[daemon 07-09 15:10:46] OPT_DONE present — all 8 rounds complete (after 2 checks)
+[daemon 07-09 16:23:09] launch #1
+[daemon 07-09 21:21:34] optimizer exited rc=0 after 17905s
+[daemon 07-09 21:21:39] OPT_DONE present — all 8 rounds complete (after 2 checks)

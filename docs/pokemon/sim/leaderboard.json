@@ -1,829 +1,829 @@
 {
- "round": 10,
- "games_per_pairing": 10,
+ "round": 5,
+ "games_per_pairing": 3,
  "board": [
   [
-   78.54,
-   "Serene Slumber",
-   "W"
-  ],
-  [
-   77.56,
-   "Overvolt Overload",
-   "L"
-  ],
-  [
-   77.32,
-   "Aura Overflow",
-   "F"
-  ],
-  [
-   75.98,
+   81.1,
    "Starmie Jetstream Rush",
    "W"
   ],
   [
-   75.67,
+   77.64,
+   "Aura Overflow",
+   "F"
+  ],
+  [
+   77.24,
    "Perfect Order Beatdown",
    "F"
   ],
   [
-   75.67,
-   "Kilowattrel Pivot",
-   "L"
-  ],
-  [
-   75.37,
-   "Zekrom Comeback",
-   "L"
-  ],
-  [
-   74.63,
-   "Vibrant Wall",
-   "W"
-  ],
-  [
-   74.51,
-   "Luxray Nuke",
-   "L"
-  ],
-  [
-   72.68,
-   "Great Swing",
-   "C"
-  ],
-  [
-   72.01,
-   "Bouffalant Herd",
-   "C"
-  ],
-  [
-   71.89,
-   "Eelektrik Recursion",
-   "L"
-  ],
-  [
-   71.83,
-   "Scattergun Ward",
-   "P"
-  ],
-  [
-   71.65,
+   76.42,
    "Rabbit Punch",
    "C"
   ],
   [
-   68.78,
-   "Miraidon Hadron",
+   76.22,
+   "Great Swing",
+   "C"
+  ],
+  [
+   73.17,
+   "Overvolt Overload",
    "L"
   ],
   [
-   68.6,
-   "Starmie Tundra Fortress",
-   "W"
+   72.56,
+   "Bouffalant Herd",
+   "C"
   ],
   [
-   68.11,
-   "Iron Thorns Lock",
-   "L"
-  ],
-  [
-   67.8,
-   "Croconaw Chip, Mega Crunch",
-   "W"
-  ],
-  [
-   67.74,
-   "Sharpedo Glass Cannon",
-   "D"
-  ],
-  [
-   67.01,
-   "Miraidon Future",
-   "MULTI"
-  ],
-  [
-   66.83,
-   "Battle-Scarred Bench",
-   "P"
-  ],
-  [
-   66.65,
-   "Prize Snowball",
-   "M"
-  ],
-  [
-   66.65,
-   "Manectric Aggro",
-   "L"
-  ],
-  [
-   66.59,
-   "Drill & Snipe",
-   "F"
-  ],
-  [
-   65.91,
+   71.34,
    "Mega Gallade Blitz",
    "F"
   ],
   [
-   65.18,
-   "Tail Spin (Turbo)",
-   "C"
-  ],
-  [
-   64.39,
-   "Bench Battery",
-   "M"
-  ],
-  [
-   64.21,
-   "Juggernaut Wall",
-   "G"
-  ],
-  [
-   64.09,
-   "Wash Out Current",
+   70.93,
+   "Starmie Tundra Fortress",
    "W"
   ],
   [
-   63.96,
+   70.53,
+   "Prize Snowball",
+   "M"
+  ],
+  [
+   69.92,
    "Mega Dragalge Poison",
    "MULTI"
   ],
   [
-   63.9,
-   "Avalanche Flood",
-   "W"
-  ],
-  [
-   63.78,
-   "Reshiram Fire Wing",
-   "R"
-  ],
-  [
-   63.48,
-   "Rotom Tool",
-   "L"
-  ],
-  [
-   63.41,
-   "TR Disruption Lock",
-   "TR"
-  ],
-  [
-   62.93,
-   "Tapu Koko Swarm",
-   "L"
-  ],
-  [
-   62.74,
-   "Erika's Garden Party",
+   69.92,
+   "Juggernaut Wall",
    "G"
   ],
   [
-   62.68,
+   69.92,
    "Detonation Coat",
    "P"
   ],
   [
-   62.38,
-   "Tail Spin (Grind)",
-   "C"
+   69.92,
+   "Battle-Scarred Bench",
+   "P"
   ],
   [
-   62.32,
-   "Galvantula Item-Lock",
-   "MULTI"
-  ],
-  [
-   62.13,
-   "Reshiram Comeback",
-   "R"
-  ],
-  [
-   61.83,
-   "Slow Burn",
+   68.5,
+   "Drill & Snipe",
    "F"
   ],
   [
-   61.52,
-   "Nurse Blissey",
-   "C"
+   68.09,
+   "Sharpedo Glass Cannon",
+   "D"
   ],
   [
-   61.28,
-   "Forest March",
-   "G"
-  ],
-  [
-   61.1,
-   "Mega Latias Nuke",
-   "MULTI"
-  ],
-  [
-   60.73,
-   "Volcanion Spread-Burn",
-   "R"
-  ],
-  [
-   60.73,
-   "Gouging Fire Pivot",
-   "R"
-  ],
-  [
-   60.67,
-   "Iono's Streamer",
+   67.48,
+   "Iron Thorns Lock",
    "L"
   ],
   [
-   60.67,
+   67.28,
+   "Croconaw Chip, Mega Crunch",
+   "W"
+  ],
+  [
+   67.28,
    "Cornerstone Fortress",
    "F"
   ],
   [
-   60.61,
-   "Burn Engine",
-   "R"
-  ],
-  [
-   60.24,
-   "Scovillain Rage",
-   "R"
-  ],
-  [
-   60.12,
-   "Absol Hand-Rip Aggro",
-   "D"
-  ],
-  [
-   59.63,
-   "Marnie's Punk Up Wheel",
-   "D"
-  ],
-  [
-   59.27,
-   "Errand Runner",
-   "C"
-  ],
-  [
-   59.15,
-   "Tusk Stampede",
-   "F"
-  ],
-  [
-   58.84,
-   "Gust & Guarantee",
-   "F"
-  ],
-  [
-   58.48,
-   "TR Persian Copycat",
-   "TR"
-  ],
-  [
-   58.48,
-   "Deep Prison",
-   "P"
-  ],
-  [
-   58.23,
-   "Flutter Lock",
-   "P"
-  ],
-  [
-   58.05,
-   "Bench Fortress",
-   "G"
-  ],
-  [
-   57.93,
-   "Flygon Anti-Ex",
-   "MULTI"
-  ],
-  [
-   57.62,
-   "Stonewall Softener",
-   "F"
-  ],
-  [
-   57.62,
-   "Champion's Call",
-   "F"
-  ],
-  [
-   57.5,
-   "TR Moltres Removal",
-   "TR"
-  ],
-  [
-   57.26,
-   "Fresh Bite",
-   "C"
-  ],
-  [
-   56.89,
-   "Marnie's Ex-Punisher",
-   "D"
-  ],
-  [
-   56.83,
-   "Mega Meganium Bouquet",
-   "G"
-  ],
-  [
-   56.71,
-   "Alolan Exeggutor KO-Flip",
-   "MULTI"
-  ],
-  [
-   56.65,
-   "Hop's Pincurchin",
-   "L"
-  ],
-  [
-   55.3,
-   "TR Nido Family",
-   "TR"
-  ],
-  [
-   55.12,
-   "Waltz of Whispers",
-   "P"
-  ],
-  [
-   54.88,
-   "TR Condition Stack",
-   "TR"
-  ],
-  [
-   54.76,
-   "Regi-Charge Attrition",
-   "M"
-  ],
-  [
-   54.39,
-   "Salazzle Toolbox",
-   "R"
-  ],
-  [
-   54.02,
-   "Payback Worm",
-   "C"
-  ],
-  [
-   53.96,
-   "Koraidon Kaiser",
-   "F"
-  ],
-  [
-   53.96,
-   "Ethan's Turbo",
-   "R"
-  ],
-  [
-   53.84,
-   "Mercy for All",
-   "P"
-  ],
-  [
-   53.6,
-   "Cyclizar Splash",
-   "C"
-  ],
-  [
-   53.41,
-   "Tyranitar Item-Lock Twins",
-   "D"
-  ],
-  [
-   53.41,
-   "Pyroar Wall",
-   "R"
-  ],
-  [
-   53.35,
-   "Full Hand Nova",
-   "P"
-  ],
-  [
-   53.23,
-   "Bottom-Deck Gambit",
-   "G"
-  ],
-  [
-   52.99,
-   "Grudge Match",
-   "F"
-  ],
-  [
-   52.93,
-   "Deep Current Overload",
+   67.07,
+   "Avalanche Flood",
    "W"
   ],
   [
-   52.32,
+   66.87,
+   "Kilowattrel Pivot",
+   "L"
+  ],
+  [
+   66.06,
    "Cinderace Snipe",
    "MULTI"
   ],
   [
-   52.2,
-   "Bait the Boulder",
-   "F"
-  ],
-  [
-   52.01,
-   "Palossand Control",
+   65.45,
+   "Miraidon Future",
    "MULTI"
   ],
   [
-   51.22,
-   "Fairy-Slayer",
-   "P"
-  ],
-  [
-   51.1,
-   "Warded Symphonia",
-   "P"
-  ],
-  [
-   51.04,
-   "Swarm of the Hive",
-   "G"
-  ],
-  [
-   50.73,
-   "Magcargo Mill-Burn",
-   "R"
-  ],
-  [
-   50.49,
-   "Steven's Steel Sanctuary",
-   "M"
-  ],
-  [
-   50.37,
-   "Scrafty Counterattack Wall",
-   "D"
-  ],
-  [
-   50.18,
-   "Coinflip Comeback",
+   65.24,
+   "Slow Burn",
    "F"
   ],
   [
-   50.0,
-   "Hydrapple Syrup Storm",
-   "G"
+   65.24,
+   "Grudge Match",
+   "F"
   ],
   [
-   49.94,
-   "Bouffalant's Wall",
-   "C"
-  ],
-  [
-   49.7,
-   "Revavroom Hit-and-Run",
-   "M"
-  ],
-  [
-   49.51,
-   "Terapagos Bench-Scale",
-   "C"
-  ],
-  [
-   49.45,
-   "Oil Salvo Sniper",
-   "G"
-  ],
-  [
-   49.09,
-   "Steeped Discard",
-   "G"
-  ],
-  [
-   48.78,
-   "TR Spread",
+   64.63,
+   "TR Disruption Lock",
    "TR"
   ],
   [
-   48.48,
-   "Solar Bank",
-   "G"
+   64.43,
+   "Miraidon Hadron",
+   "L"
   ],
   [
-   48.41,
-   "Bubble Balloon",
-   "P"
+   64.43,
+   "Luxray Nuke",
+   "L"
   ],
   [
-   48.17,
-   "Tricolor Burst \u2014 Experimental",
+   64.02,
+   "Wash Out Current",
    "W"
   ],
   [
-   48.17,
-   "Salamence Splash",
-   "MULTI"
+   63.82,
+   "Mega Meganium Bouquet",
+   "G"
   ],
   [
-   48.11,
-   "Retaliation Burn",
+   63.41,
+   "Reshiram Fire Wing",
    "R"
   ],
   [
-   48.05,
+   63.21,
+   "Eelektrik Recursion",
+   "L"
+  ],
+  [
+   63.01,
+   "Zekrom Comeback",
+   "L"
+  ],
+  [
+   63.01,
+   "Tusk Stampede",
+   "F"
+  ],
+  [
+   63.01,
+   "Flygon Anti-Ex",
+   "MULTI"
+  ],
+  [
+   62.8,
+   "Forest March",
+   "G"
+  ],
+  [
+   62.6,
+   "Tapu Koko Swarm",
+   "L"
+  ],
+  [
+   62.6,
+   "Mega Latias Nuke",
+   "MULTI"
+  ],
+  [
+   62.6,
+   "Bench Battery",
+   "M"
+  ],
+  [
+   61.59,
+   "Reshiram Comeback",
+   "R"
+  ],
+  [
+   61.18,
+   "Stonewall Softener",
+   "F"
+  ],
+  [
+   61.18,
+   "Galvantula Item-Lock",
+   "MULTI"
+  ],
+  [
+   61.18,
+   "Errand Runner",
+   "C"
+  ],
+  [
+   60.98,
+   "Manectric Aggro",
+   "L"
+  ],
+  [
+   60.37,
+   "TR Condition Stack",
+   "TR"
+  ],
+  [
+   60.37,
+   "Gouging Fire Pivot",
+   "R"
+  ],
+  [
+   60.16,
+   "Erika's Garden Party",
+   "G"
+  ],
+  [
+   59.76,
+   "Volcanion Spread-Burn",
+   "R"
+  ],
+  [
+   59.55,
    "Rock Battery",
    "F"
   ],
   [
-   47.74,
-   "Wild Growth Overdrive",
-   "G"
+   59.55,
+   "Absol Hand-Rip Aggro",
+   "D"
   ],
   [
-   47.68,
-   "Curtain-Riser",
-   "P"
+   59.35,
+   "Tail Spin (Turbo)",
+   "C"
   ],
   [
-   47.38,
-   "Misty's Deep Freeze",
-   "W"
+   59.35,
+   "Tail Spin (Grind)",
+   "C"
   ],
   [
-   46.95,
-   "Symphonia Flood",
-   "P"
+   59.35,
+   "Cyclizar Splash",
+   "C"
   ],
   [
-   46.95,
-   "Metallic Signal Toolbox",
-   "M"
-  ],
-  [
-   46.83,
-   "Zero to Hero",
-   "W"
-  ],
-  [
-   46.77,
-   "TR Rocket Rush Swarm",
-   "TR"
-  ],
-  [
-   46.46,
-   "Vengeful Attrition",
-   "G"
-  ],
-  [
-   46.4,
-   "Emperor's Stance Wall",
-   "M"
-  ],
-  [
-   46.1,
-   "Prize Blizzard",
-   "W"
-  ],
-  [
-   45.91,
-   "Alloy Overdrive",
-   "M"
-  ],
-  [
-   45.79,
-   "Alloy Bulwark",
-   "M"
-  ],
-  [
-   45.43,
-   "Stuck in the Mud",
+   59.35,
+   "Coinflip Comeback",
    "F"
   ],
   [
-   45.37,
-   "Emboar Overload",
+   59.15,
+   "Scattergun Ward",
+   "P"
+  ],
+  [
+   58.94,
+   "Waltz of Whispers",
+   "P"
+  ],
+  [
+   58.74,
+   "Bench Fortress",
+   "G"
+  ],
+  [
+   58.74,
+   "Alolan Exeggutor KO-Flip",
+   "MULTI"
+  ],
+  [
+   58.33,
+   "Regi-Charge Attrition",
+   "M"
+  ],
+  [
+   57.32,
+   "Steven's Steel Sanctuary",
+   "M"
+  ],
+  [
+   57.11,
+   "Champion's Call",
+   "F"
+  ],
+  [
+   57.11,
+   "Bait the Boulder",
+   "F"
+  ],
+  [
+   56.91,
+   "TR Persian Copycat",
+   "TR"
+  ],
+  [
+   56.71,
+   "Fairy-Slayer",
+   "P"
+  ],
+  [
+   56.5,
+   "Salamence Splash",
+   "MULTI"
+  ],
+  [
+   56.3,
+   "Palossand Control",
+   "MULTI"
+  ],
+  [
+   56.1,
+   "Fresh Bite",
+   "C"
+  ],
+  [
+   55.69,
+   "Gust & Guarantee",
+   "F"
+  ],
+  [
+   55.49,
+   "Nurse Blissey",
+   "C"
+  ],
+  [
+   55.49,
+   "Deep Current Overload",
+   "W"
+  ],
+  [
+   55.08,
+   "Scovillain Rage",
    "R"
   ],
   [
-   42.32,
-   "Hydreigon Basic Bounty",
+   55.08,
+   "Iono's Streamer",
+   "L"
+  ],
+  [
+   54.88,
+   "Tyranitar Item-Lock Twins",
    "D"
   ],
   [
-   42.26,
-   "Mandibuzz Bench Snipe",
-   "D"
+   54.88,
+   "Terapagos Bench-Scale",
+   "C"
   ],
   [
-   42.2,
+   54.47,
+   "Rotom Tool",
+   "L"
+  ],
+  [
+   54.27,
+   "Mercy for All",
+   "P"
+  ],
+  [
+   53.86,
+   "Koraidon Kaiser",
+   "F"
+  ],
+  [
+   53.86,
+   "Hydrapple Syrup Storm",
+   "G"
+  ],
+  [
+   53.86,
+   "Flutter Lock",
+   "P"
+  ],
+  [
+   53.05,
+   "TR Spread",
+   "TR"
+  ],
+  [
+   53.05,
+   "TR Moltres Removal",
+   "TR"
+  ],
+  [
+   53.05,
+   "Payback Worm",
+   "C"
+  ],
+  [
+   53.05,
    "Incineroar Bench-Punish",
    "R"
   ],
   [
-   42.13,
-   "Frozen Fortress",
-   "W"
-  ],
-  [
-   42.07,
-   "Sonic Wall",
-   "C"
-  ],
-  [
-   41.65,
-   "Dondozo's Gambit",
-   "W"
-  ],
-  [
-   40.67,
-   "Sweet Stall",
+   52.64,
+   "Symphonia Flood",
    "P"
   ],
   [
-   39.63,
-   "Spore Lock",
+   52.64,
+   "Pyroar Wall",
+   "R"
+  ],
+  [
+   52.64,
+   "Bubble Balloon",
+   "P"
+  ],
+  [
+   52.44,
+   "Vengeful Attrition",
    "G"
   ],
   [
-   39.33,
-   "Scizor Flex",
-   "M"
+   52.24,
+   "Steeped Discard",
+   "G"
   ],
   [
-   39.33,
-   "Krookodile Revenge Lockdown",
-   "D"
-  ],
-  [
-   38.6,
+   52.24,
    "Buzzing Boost Shuttle",
    "G"
   ],
   [
-   38.54,
-   "Frostbite Recoil",
-   "W"
+   52.24,
+   "Burn Engine",
+   "R"
   ],
   [
-   38.35,
-   "Larry's Sleepover",
-   "C"
+   51.42,
+   "Salazzle Toolbox",
+   "R"
   ],
   [
-   38.17,
-   "Okidogi Self-Poison Burst",
+   51.42,
+   "Retaliation Burn",
+   "R"
+  ],
+  [
+   51.42,
+   "Marnie's Ex-Punisher",
    "D"
   ],
   [
-   38.11,
-   "Hop's Champion Rush",
+   51.22,
+   "Magcargo Mill-Burn",
+   "R"
+  ],
+  [
+   51.22,
+   "Ethan's Turbo",
+   "R"
+  ],
+  [
+   51.22,
+   "Bouffalant's Wall",
+   "C"
+  ],
+  [
+   51.02,
+   "Stuck in the Mud",
+   "F"
+  ],
+  [
+   50.61,
+   "Bottom-Deck Gambit",
+   "G"
+  ],
+  [
+   50.61,
+   "Alloy Overdrive",
    "M"
   ],
   [
-   36.89,
-   "Melmetal Axe",
+   50.41,
+   "Marnie's Punk Up Wheel",
+   "D"
+  ],
+  [
+   50.2,
+   "Hop's Pincurchin",
+   "L"
+  ],
+  [
+   50.2,
+   "Emperor's Stance Wall",
    "M"
   ],
   [
-   36.65,
-   "Samurott's Ambush",
+   49.8,
+   "Full Hand Nova",
+   "P"
+  ],
+  [
+   49.39,
+   "Zero to Hero",
    "W"
   ],
   [
-   36.65,
+   49.39,
+   "Metallic Signal Toolbox",
+   "M"
+  ],
+  [
+   48.78,
+   "TR Nido Family",
+   "TR"
+  ],
+  [
+   48.78,
+   "Emboar Overload",
+   "R"
+  ],
+  [
+   48.58,
+   "Prize Blizzard",
+   "W"
+  ],
+  [
+   48.17,
+   "Warded Symphonia",
+   "P"
+  ],
+  [
+   48.17,
+   "Scrafty Counterattack Wall",
+   "D"
+  ],
+  [
+   47.15,
+   "Alloy Bulwark",
+   "M"
+  ],
+  [
+   46.95,
+   "Swarm of the Hive",
+   "G"
+  ],
+  [
+   46.54,
+   "Curtain-Riser",
+   "P"
+  ],
+  [
+   45.93,
+   "Wild Growth Overdrive",
+   "G"
+  ],
+  [
+   45.93,
+   "Solar Bank",
+   "G"
+  ],
+  [
+   45.73,
+   "Vibrant Wall",
+   "W"
+  ],
+  [
+   45.33,
+   "Tricolor Burst \u2014 Experimental",
+   "W"
+  ],
+  [
+   45.12,
    "Arrow of Denial",
    "G"
   ],
   [
-   36.1,
-   "Hydro Turn Hit-and-Run",
-   "W"
+   44.92,
+   "Sweet Stall",
+   "P"
   ],
   [
-   36.04,
-   "Tenacious Tail",
-   "C"
-  ],
-  [
-   35.55,
-   "Purge and Plunder",
-   "W"
-  ],
-  [
-   34.39,
-   "Clodsire Poison Lockdown",
-   "D"
-  ],
-  [
-   34.27,
-   "Tatsugiri Toolbox",
-   "MULTI"
-  ],
-  [
-   33.48,
-   "Mirror Beak",
-   "C"
-  ],
-  [
-   32.13,
-   "Wellspring Reload",
-   "W"
-  ],
-  [
-   32.01,
-   "Blood Moon Rising",
-   "C"
-  ],
-  [
-   31.83,
-   "Chrono Draw Engine",
-   "M"
-  ],
-  [
-   30.91,
-   "Ball Lightning",
-   "C"
-  ],
-  [
-   30.3,
+   44.31,
    "Rapid Vernier Nova",
    "G"
   ],
   [
-   29.88,
-   "Metal Maker Ramp",
+   44.31,
+   "Deep Prison",
+   "P"
+  ],
+  [
+   43.9,
+   "TR Rocket Rush Swarm",
+   "TR"
+  ],
+  [
+   43.9,
+   "Revavroom Hit-and-Run",
    "M"
   ],
   [
-   29.39,
-   "Regal Cheer Aggro",
-   "G"
-  ],
-  [
-   28.9,
-   "Paradox Sandman",
+   43.09,
+   "Dondozo's Gambit",
    "W"
   ],
   [
-   28.23,
-   "Hearthflame Anti-Evolution",
-   "R"
+   42.28,
+   "Scizor Flex",
+   "M"
   ],
   [
-   27.38,
+   42.07,
+   "Oil Salvo Sniper",
+   "G"
+  ],
+  [
+   41.26,
+   "Frostbite Recoil",
+   "W"
+  ],
+  [
+   41.06,
+   "Okidogi Self-Poison Burst",
+   "D"
+  ],
+  [
+   41.06,
+   "Melmetal Axe",
+   "M"
+  ],
+  [
+   40.85,
+   "Purge and Plunder",
+   "W"
+  ],
+  [
+   40.65,
+   "Hop's Champion Rush",
+   "M"
+  ],
+  [
+   40.45,
+   "Serene Slumber",
+   "W"
+  ],
+  [
+   40.04,
+   "Hydro Turn Hit-and-Run",
+   "W"
+  ],
+  [
+   39.63,
+   "Hydreigon Basic Bounty",
+   "D"
+  ],
+  [
+   39.43,
+   "Spore Lock",
+   "G"
+  ],
+  [
+   39.43,
+   "Krookodile Revenge Lockdown",
+   "D"
+  ],
+  [
+   39.23,
+   "Sonic Wall",
+   "C"
+  ],
+  [
+   39.02,
+   "Samurott's Ambush",
+   "W"
+  ],
+  [
+   39.02,
+   "Mandibuzz Bench Snipe",
+   "D"
+  ],
+  [
+   38.01,
+   "Tatsugiri Toolbox",
+   "MULTI"
+  ],
+  [
+   37.6,
+   "Clodsire Poison Lockdown",
+   "D"
+  ],
+  [
+   37.4,
    "Yveltal Soul Reap",
    "D"
   ],
   [
-   27.38,
-   "Coin-Flip Reaper",
-   "P"
-  ],
-  [
-   26.4,
-   "Static Cling Combo",
-   "M"
-  ],
-  [
-   25.79,
-   "Oricorio Support-Trap",
+   37.4,
+   "Hearthflame Anti-Evolution",
    "R"
   ],
   [
-   25.24,
-   "Quick Draw",
+   37.2,
+   "Wellspring Reload",
+   "W"
+  ],
+  [
+   36.99,
+   "Chrono Draw Engine",
+   "M"
+  ],
+  [
+   36.79,
+   "Larry's Sleepover",
    "C"
   ],
   [
-   24.21,
+   36.79,
+   "Frozen Fortress",
+   "W"
+  ],
+  [
+   35.16,
    "Silent Scream",
    "P"
   ],
   [
-   23.66,
-   "Steel Armament Blitz",
+   35.16,
+   "Mirror Beak",
+   "C"
+  ],
+  [
+   34.55,
+   "Blood Moon Rising",
+   "C"
+  ],
+  [
+   34.35,
+   "Ball Lightning",
+   "C"
+  ],
+  [
+   33.54,
+   "Metal Maker Ramp",
    "M"
   ],
   [
-   23.17,
+   32.52,
+   "Regal Cheer Aggro",
+   "G"
+  ],
+  [
+   32.52,
+   "Paradox Sandman",
+   "W"
+  ],
+  [
+   30.49,
+   "Oricorio Support-Trap",
+   "R"
+  ],
+  [
+   29.88,
+   "Tenacious Tail",
+   "C"
+  ],
+  [
+   29.07,
+   "Misty's Deep Freeze",
+   "W"
+  ],
+  [
+   28.86,
    "Munkidori Vanilla Beats",
    "D"
   ],
   [
-   15.79,
+   28.66,
    "Energy Gift Express",
    "G"
   ],
   [
-   15.18,
+   27.44,
+   "Coin-Flip Reaper",
+   "P"
+  ],
+  [
+   26.22,
+   "Quick Draw",
+   "C"
+  ],
+  [
+   23.37,
+   "Steel Armament Blitz",
+   "M"
+  ],
+  [
+   22.76,
+   "Static Cling Combo",
+   "M"
+  ],
+  [
+   20.33,
    "Cobalt Crossfire",
    "P"
   ],
   [
-   5.61,
+   10.57,
    "Mega Skarmory Snipe",
    "M"
   ]

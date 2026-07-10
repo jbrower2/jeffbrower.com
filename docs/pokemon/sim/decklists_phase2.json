@@ -5,10 +5,10 @@
 "cards": {
 "P|WHT:#077/086": 1,
 "P|SV07:#044/142": 1,
-"P|SV07:#043/142": 2,
+"P|SV07:#043/142": 3,
 "P|SV09:#018/159": 1,
-"P|ASH:#054/217": 3,
-"P|SV05:#044/162": 2,
+"P|ASH:#054/217": 4,
+"P|SV05:#044/162": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
@@ -20,11 +20,9 @@
 "T|Cyrano": 2,
 "T|Rare Candy": 4,
 "T|Dawn": 2,
-"E|Water": 17,
-"S|Prism Energy": 2,
-"T|Fennel": 1,
-"T|Jacinthe": 3,
-"S|Mist Energy": 1
+"E|Water": 18,
+"S|Prism Energy": 1,
+"P|ME01:#044/132": 1
 }
 },
 "Rabbit Punch": {
@@ -33,26 +31,25 @@
 "cards": {
 "P|ME02:#084/094": 1,
 "P|PRE:#083/131": 4,
+"P|ME01:#028/132": 1,
 "P|SV07:#044/142": 1,
+"P|ASH:#054/217": 1,
+"P|SV09:#032/159": 2,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 3,
 "T|Pok\u00e9 Ball": 3,
 "T|Switch": 1,
-"T|Night Stretcher": 2,
+"T|Night Stretcher": 1,
 "T|Earthen Vessel": 3,
 "T|Mega Signal": 2,
 "T|Rare Candy": 4,
 "T|Dawn": 2,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Water": 15,
+"E|Water": 16,
 "T|Pok\u00e9 Pad": 1,
-"P|ME01:#044/132": 4,
-"T|Lt. Surge's Bargain": 1,
-"S|Prism Energy": 1,
-"T|Team Rocket's Archer": 1,
-"S|Bubbly Water Energy": 1
+"P|ME01:#044/132": 4
 }
 },
 "Tail Spin (Turbo)": {
@@ -63,8 +60,8 @@
 "P|BLK:#075/086": 4,
 "P|ME01:#028/132": 1,
 "P|SV09:#107/159": 1,
-"P|ASH:#054/217": 1,
-"P|SV05:#044/162": 3,
+"P|ASH:#054/217": 2,
+"P|SV05:#044/162": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
@@ -76,13 +73,11 @@
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
-"E|Water": 15,
-"P|ME01:#044/132": 2,
+"E|Water": 16,
+"P|ME01:#044/132": 1,
 "S|Prism Energy": 1,
 "T|Ultra Ball": 1,
-"T|Energy Search": 1,
-"T|Pok\u00e9 Pad": 1,
-"T|Drasna": 1
+"T|Energy Search": 1
 }
 },
 "Tail Spin (Grind)": {
@@ -94,25 +89,22 @@
 "P|SV07:#044/142": 1,
 "P|SV07:#043/142": 1,
 "P|PRE:#080/131": 1,
-"P|ASH:#054/217": 2,
-"P|SV05:#044/162": 3,
-"T|Professor's Research": 3,
+"P|ASH:#054/217": 1,
+"P|SV09:#032/159": 2,
+"P|SV05:#044/162": 4,
+"T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 2,
 "T|Pok\u00e9 Ball": 3,
 "T|Switch": 1,
-"T|Night Stretcher": 2,
+"T|Night Stretcher": 1,
 "T|Earthen Vessel": 1,
 "T|Cyrano": 1,
-"E|Water": 19,
+"E|Water": 22,
 "T|Ultra Ball": 2,
-"P|ME01:#044/132": 2,
-"T|Energy Search": 1,
-"T|Jacinthe": 1,
-"T|TM Machine": 1,
-"T|Brock's Scouting": 1,
-"T|Professor Sada's Vitality": 1
+"P|ME01:#044/132": 3,
+"T|Energy Search": 1
 }
 },
 "Nurse Blissey": {
@@ -123,23 +115,19 @@
 "P|SV06:#133/167": 4,
 "P|SV09:#107/159": 1,
 "P|PRE:#080/131": 1,
-"P|ASH:#054/217": 2,
+"P|ASH:#054/217": 3,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 4,
 "T|Pok\u00e9 Ball": 4,
-"T|Switch": 2,
+"T|Switch": 1,
 "T|Night Stretcher": 3,
 "T|Earthen Vessel": 1,
 "T|Cyrano": 3,
-"E|Water": 20,
-"P|ME01:#044/132": 1,
-"T|Ultra Ball": 1,
-"T|Glass Trumpet": 1,
-"S|Spiky Energy": 1,
-"P|SV10:#046/182": 1,
-"T|Harlequin": 1
+"E|Water": 21,
+"P|ME01:#044/132": 4,
+"T|Ultra Ball": 1
 }
 },
 "Tenacious Tail": {
@@ -148,13 +136,15 @@
 "cards": {
 "P|SV09:#121/159": 1,
 "P|SV05:#128/162": 3,
+"P|PRE:#080/131": 1,
 "P|SV09:#018/159": 1,
-"P|SV05:#044/162": 3,
-"T|Professor's Research": 3,
+"P|ASH:#054/217": 1,
+"P|SV05:#044/162": 4,
+"T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 2,
-"T|Pok\u00e9 Ball": 3,
+"T|Pok\u00e9 Ball": 2,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 2,
@@ -162,10 +152,8 @@
 "T|Rare Candy": 4,
 "T|Dawn": 1,
 "E|Water": 21,
-"P|ME01:#044/132": 2,
-"T|Energy Search": 1,
-"S|Bubbly Water Energy": 1,
-"T|Jacinthe": 2
+"P|ME01:#044/132": 4,
+"T|Energy Search": 1
 }
 },
 "Errand Runner": {
@@ -174,27 +162,25 @@
 "cards": {
 "P|MEP:#025": 1,
 "P|ME01:#028/132": 1,
+"P|ASH:#037/217": 2,
+"P|PRE:#080/131": 1,
 "P|ASH:#054/217": 4,
 "P|SV09:#032/159": 2,
-"P|SV05:#044/162": 3,
+"P|SV05:#044/162": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 2,
 "T|Pok\u00e9 Ball": 4,
 "T|Switch": 1,
-"T|Night Stretcher": 2,
+"T|Night Stretcher": 3,
 "T|Earthen Vessel": 4,
 "T|Mega Signal": 3,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
 "E|Water": 12,
 "T|Energy Search": 2,
-"S|Prism Energy": 1,
-"T|Professor Sada's Vitality": 1,
-"T|Glass Trumpet": 2,
-"S|Bubbly Water Energy": 1,
-"T|N's PP Up": 1
+"S|Prism Energy": 1
 }
 },
 "Larry's Sleepover": {
@@ -203,13 +189,15 @@
 "cards": {
 "P|ASH:#164/217": 1,
 "P|ASH:#170/217": 1,
+"P|ASH:#168/217": 2,
 "P|SV09:#107/159": 1,
-"P|WHT:#024/086": 1,
-"P|ASH:#054/217": 2,
+"P|WHT:#024/086": 2,
+"P|ASH:#054/217": 3,
+"P|SV05:#044/162": 1,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
-"T|Buddy-Buddy Poffin": 4,
+"T|Buddy-Buddy Poffin": 3,
 "T|Pok\u00e9 Ball": 1,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
@@ -217,12 +205,9 @@
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
-"E|Water": 24,
+"E|Water": 23,
 "P|ME01:#044/132": 4,
-"T|Energy Search": 1,
-"S|Spiky Energy": 1,
-"T|Drasna": 1,
-"P|SV10:#046/182": 1
+"T|Energy Search": 1
 }
 },
 "Payback Worm": {
@@ -231,26 +216,23 @@
 "cards": {
 "P|SV07:#110/142": 1,
 "P|SV07:#044/142": 1,
-"P|SV07:#043/142": 2,
+"P|SV07:#043/142": 3,
 "P|SV09:#107/159": 1,
-"P|SV08:#129/191": 2,
+"P|SV08:#129/191": 4,
 "P|SFA:#040/064": 4,
-"T|Professor's Research": 3,
+"T|Professor's Research": 2,
 "T|Cheren": 4,
-"T|Boss's Orders": 3,
-"T|Buddy-Buddy Poffin": 3,
+"T|Boss's Orders": 2,
+"T|Buddy-Buddy Poffin": 2,
 "T|Pok\u00e9 Ball": 3,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 2,
 "T|Cyrano": 2,
 "T|Philippe": 4,
-"E|Metal": 15,
+"E|Metal": 19,
 "T|Ultra Ball": 3,
-"S|Prism Energy": 1,
-"T|Glass Trumpet": 2,
-"T|Crispin": 1,
-"T|Team Rocket's Archer": 1
+"S|Prism Energy": 1
 }
 },
 "Blood Moon Rising": {
@@ -260,8 +242,9 @@
 "P|SV06:#141/167": 1,
 "P|SV09:#107/159": 1,
 "P|PRE:#080/131": 1,
-"P|ASH:#054/217": 3,
-"P|SV05:#044/162": 3,
+"P|ASH:#054/217": 4,
+"P|SV09:#032/159": 1,
+"P|SV05:#044/162": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 2,
 "T|Boss's Orders": 2,
@@ -271,14 +254,9 @@
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 3,
 "T|Cyrano": 1,
-"E|Water": 23,
-"P|ME01:#044/132": 3,
-"T|Fennel": 1,
-"T|Judge": 2,
-"T|Glass Trumpet": 1,
-"T|Professor Sada's Vitality": 1,
-"P|SV10:#046/182": 1,
-"T|Rosa's Encouragement": 1
+"E|Water": 25,
+"P|ME01:#044/132": 4,
+"T|Fennel": 1
 }
 },
 "Sonic Wall": {
@@ -288,22 +266,20 @@
 "P|PRE:#091/131": 1,
 "P|PRE:#090/131": 4,
 "P|SV09:#041/159": 2,
-"P|ASH:#054/217": 3,
-"P|SV05:#044/162": 2,
+"P|ASH:#054/217": 4,
+"P|SV05:#044/162": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
-"T|Buddy-Buddy Poffin": 4,
+"T|Buddy-Buddy Poffin": 3,
 "T|Pok\u00e9 Ball": 4,
 "T|Switch": 1,
 "T|Night Stretcher": 2,
 "T|Earthen Vessel": 2,
 "T|Cyrano": 2,
-"E|Water": 18,
-"T|Fennel": 2,
-"S|Prism Energy": 1,
-"P|SV10:#046/182": 1,
-"T|Glass Trumpet": 3
+"E|Water": 20,
+"P|ME01:#044/132": 1,
+"T|Fennel": 2
 }
 },
 "Quick Draw": {
@@ -312,26 +288,25 @@
 "cards": {
 "P|ASH:#167/217": 1,
 "P|ME01:#028/132": 1,
+"P|ASH:#037/217": 2,
 "P|SV07:#044/142": 1,
-"P|SV07:#043/142": 2,
+"P|SV07:#043/142": 3,
 "P|ASH:#054/217": 4,
-"P|SV05:#044/162": 3,
+"P|SV09:#032/159": 1,
+"P|SV05:#044/162": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 3,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 2,
 "T|Pok\u00e9 Ball": 1,
-"T|Switch": 2,
+"T|Switch": 1,
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 3,
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
 "E|Water": 18,
-"P|ME01:#044/132": 4,
-"T|Glass Trumpet": 2,
-"T|Dragon Elixir": 1,
-"T|Rosa's Encouragement": 1
+"P|ME01:#044/132": 4
 }
 },
 "Fresh Bite": {
@@ -342,23 +317,21 @@
 "P|SV10:#138/182": 4,
 "P|SV10:#159/182": 1,
 "P|SV07:#044/142": 1,
-"P|SV05:#044/162": 1,
-"T|Professor's Research": 3,
+"P|ASH:#054/217": 2,
+"P|SV05:#044/162": 4,
+"T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 3,
 "T|Pok\u00e9 Ball": 4,
 "T|Switch": 1,
-"T|Night Stretcher": 3,
+"T|Night Stretcher": 2,
 "T|Earthen Vessel": 4,
-"T|Cyrano": 2,
+"T|Cyrano": 1,
 "T|Arven's Sandwich": 2,
-"E|Water": 15,
+"E|Water": 17,
 "P|ME01:#044/132": 4,
-"T|Ultra Ball": 2,
-"T|Energy Search": 1,
-"T|N's PP Up": 1,
-"T|Harlequin": 1
+"T|Ultra Ball": 1
 }
 },
 "Ball Lightning": {
@@ -366,13 +339,16 @@
 "ace": "P|ASH:#058/217",
 "cards": {
 "P|ASH:#058/217": 1,
+"P|ME01:#028/132": 1,
 "P|SV09:#107/159": 1,
-"T|Professor's Research": 3,
+"P|ASH:#054/217": 4,
+"P|SV05:#044/162": 1,
+"T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 3,
 "T|Buddy-Buddy Poffin": 2,
 "T|Pok\u00e9 Ball": 1,
-"T|Switch": 3,
+"T|Switch": 2,
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 3,
 "T|Cyrano": 1,
@@ -380,11 +356,7 @@
 "T|Dawn": 2,
 "E|Water": 20,
 "T|Energy Search": 3,
-"P|ME01:#044/132": 4,
-"T|N's PP Up": 1,
-"T|TM Machine": 1,
-"S|Mist Energy": 1,
-"S|Bubbly Water Energy": 1
+"P|ME01:#044/132": 4
 }
 },
 "Great Swing": {
@@ -394,25 +366,25 @@
 "P|SV08:#147/191": 1,
 "P|SV08:#145/191": 4,
 "P|SV08:#146/191": 2,
+"P|SV07:#044/142": 1,
+"P|ME01:#028/132": 1,
+"P|ASH:#054/217": 1,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 4,
-"T|Pok\u00e9 Ball": 4,
+"T|Pok\u00e9 Ball": 3,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 1,
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
-"T|Dawn": 2,
+"T|Dawn": 1,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Water": 14,
+"E|Water": 17,
 "P|ME01:#044/132": 4,
 "T|Ultra Ball": 1,
-"T|Energy Search": 2,
-"S|Bubbly Water Energy": 2,
-"T|Team Rocket's Archer": 1,
-"T|Lillie's Determination": 1
+"T|Energy Search": 2
 }
 },
 "Mirror Beak": {
@@ -422,6 +394,8 @@
 "P|SV08:#160/191": 1,
 "P|SV09:#107/159": 1,
 "P|SV09:#018/159": 1,
+"P|ASH:#054/217": 3,
+"P|SV05:#044/162": 2,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
@@ -435,15 +409,9 @@
 "T|Dawn": 1,
 "E|Water": 21,
 "T|Energy Search": 1,
-"P|ME01:#044/132": 3,
+"P|ME01:#044/132": 4,
 "T|Fennel": 2,
-"S|Prism Energy": 1,
-"T|Pok\u00e9 Pad": 1,
-"T|Lillie's Determination": 1,
-"T|Rosa's Encouragement": 1,
-"P|SV10:#046/182": 1,
-"T|TM Machine": 1,
-"T|Glass Trumpet": 1
+"S|Prism Energy": 1
 }
 },
 "Cyclizar Splash": {
@@ -452,16 +420,20 @@
 "cards": {
 "P|SV08:#159/191": 1,
 "P|ME01:#028/132": 1,
+"P|SV09:#107/159": 1,
 "P|SV08:#079/191": 4,
+"P|SV07:#007/142": 1,
+"P|SV05:#031/162": 2,
+"P|SV08:#088/191": 3,
 "T|Professor's Research": 2,
 "T|Cheren": 3,
 "T|Boss's Orders": 2,
-"T|Buddy-Buddy Poffin": 3,
-"T|Pok\u00e9 Ball": 3,
-"T|Switch": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Switch": 1,
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 1,
-"T|Cyrano": 3,
+"T|Cyrano": 2,
 "T|Rare Candy": 4,
 "T|Dawn": 2,
 "T|Crispin": 4,
@@ -471,11 +443,8 @@
 "T|Pok\u00e9 Pad": 1,
 "P|SV08:#015/191": 1,
 "T|Energy Search": 2,
-"S|Prism Energy": 1,
-"T|Glass Trumpet": 1,
-"P|PRE:#046/131": 1,
-"T|Drasna": 1,
-"T|N's PP Up": 1
+"P|ME01:#025/132": 1,
+"S|Prism Energy": 1
 }
 },
 "Terapagos Bench-Scale": {
@@ -483,15 +452,17 @@
 "ace": "P|ASH:#179/217",
 "cards": {
 "P|ASH:#179/217": 1,
+"P|ASH:#082/217": 1,
 "P|SV07:#044/142": 1,
-"P|SV07:#043/142": 2,
-"P|SV07:#007/142": 2,
-"P|ASH:#054/217": 3,
+"P|SV07:#043/142": 3,
+"P|WHT:#024/086": 1,
+"P|SV07:#007/142": 4,
+"P|ASH:#054/217": 4,
 "P|SV08:#015/191": 4,
 "T|Professor's Research": 3,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
-"T|Buddy-Buddy Poffin": 3,
+"T|Buddy-Buddy Poffin": 2,
 "T|Pok\u00e9 Ball": 2,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
@@ -502,12 +473,7 @@
 "T|Crispin": 4,
 "E|Grass": 4,
 "E|Lightning": 4,
-"E|Water": 4,
-"P|SV05:#057/162": 1,
-"S|Bubbly Water Energy": 1,
-"T|Glass Trumpet": 1,
-"T|Professor Sada's Vitality": 1,
-"T|Lt. Surge's Bargain": 1
+"E|Water": 4
 }
 },
 "Bouffalant Herd": {
@@ -517,7 +483,8 @@
 "P|WHT:#077/086": 1,
 "P|SV07:#119/142": 1,
 "P|SV07:#044/142": 1,
-"P|SV07:#043/142": 1,
+"P|SV07:#043/142": 2,
+"P|ASH:#054/217": 3,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
@@ -527,13 +494,9 @@
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 1,
 "T|Cyrano": 2,
-"E|Water": 23,
+"E|Water": 24,
 "T|Ultra Ball": 3,
-"T|Fennel": 4,
-"T|Pok\u00e9 Pad": 1,
-"P|SV10:#046/182": 2,
-"T|N's PP Up": 1,
-"T|Jacinthe": 1
+"T|Fennel": 4
 }
 },
 "Yveltal Soul Reap": {
@@ -552,15 +515,12 @@
 "T|Pok\u00e9 Ball": 3,
 "T|Switch": 1,
 "T|Night Stretcher": 3,
-"T|Earthen Vessel": 2,
+"T|Earthen Vessel": 1,
 "T|Cyrano": 1,
-"E|Darkness": 20,
+"E|Darkness": 25,
 "T|Pok\u00e9 Pad": 1,
 "T|Ultra Ball": 1,
-"T|Fennel": 3,
-"T|Glass Trumpet": 2,
-"T|Team Rocket's Archer": 1,
-"T|Janine's Secret Art": 1
+"T|Fennel": 3
 }
 },
 "Okidogi Self-Poison Burst": {
@@ -570,22 +530,19 @@
 "P|SFA:#036/064": 1,
 "P|ASH:#141/217": 1,
 "P|ASH:#143/217": 1,
+"P|ME02:#069/094": 3,
 "P|ME02:#062/094": 3,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 3,
-"T|Pok\u00e9 Ball": 4,
-"T|Switch": 2,
+"T|Pok\u00e9 Ball": 3,
+"T|Switch": 1,
 "T|Night Stretcher": 3,
 "T|Earthen Vessel": 1,
 "T|Cyrano": 2,
-"E|Darkness": 22,
-"T|Fennel": 4,
-"T|Energy Search": 1,
-"T|Glass Trumpet": 2,
-"T|Jacinthe": 1,
-"S|Mist Energy": 1
+"E|Darkness": 26,
+"T|Fennel": 4
 }
 },
 "Marnie's Punk Up Wheel": {
@@ -595,14 +552,15 @@
 "P|SV10:#136/182": 1,
 "P|SV10:#134/182": 4,
 "P|SV10:#135/182": 1,
+"P|ME02:#068/094": 1,
 "P|ASH:#141/217": 1,
-"P|ME02:#069/094": 2,
+"P|ME02:#069/094": 3,
 "P|ME02:#062/094": 4,
 "T|Professor's Research": 3,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 4,
-"T|Pok\u00e9 Ball": 4,
+"T|Pok\u00e9 Ball": 2,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 2,
@@ -611,12 +569,9 @@
 "T|Dawn": 1,
 "T|Pok\u00e9mon Center Lady": 2,
 "T|Janine's Secret Art": 4,
-"E|Darkness": 9,
+"E|Darkness": 12,
 "T|Ultra Ball": 1,
-"T|Energy Search": 1,
-"P|PRE:#065/131": 1,
-"T|Amarys": 1,
-"T|Glass Trumpet": 1
+"T|Energy Search": 1
 }
 },
 "Tyranitar Item-Lock Twins": {
@@ -637,19 +592,15 @@
 "T|Pok\u00e9 Ball": 4,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
-"T|Earthen Vessel": 2,
+"T|Earthen Vessel": 1,
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Darkness": 9,
+"E|Darkness": 15,
 "T|Energy Search": 3,
 "T|Pok\u00e9 Pad": 1,
-"T|Ultra Ball": 3,
-"T|Professor Sada's Vitality": 1,
-"T|Glass Trumpet": 2,
-"T|Kofu": 1,
-"T|Rosa's Encouragement": 1
+"T|Ultra Ball": 3
 }
 },
 "Scrafty Counterattack Wall": {
@@ -659,25 +610,21 @@
 "P|ASH:#135/217": 1,
 "P|WHT:#057/086": 4,
 "P|PRE:#065/131": 1,
-"P|ME02:#069/094": 1,
+"P|ASH:#143/217": 1,
+"P|ME02:#069/094": 3,
 "P|ME02:#062/094": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
-"T|Buddy-Buddy Poffin": 4,
+"T|Buddy-Buddy Poffin": 3,
 "T|Pok\u00e9 Ball": 2,
 "T|Switch": 1,
 "T|Night Stretcher": 2,
-"T|Earthen Vessel": 3,
+"T|Earthen Vessel": 2,
 "T|Mega Signal": 2,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Darkness": 17,
-"T|Ultra Ball": 3,
-"T|Glass Trumpet": 1,
-"T|Jacinthe": 1,
-"S|Mist Energy": 1,
-"P|SV06:#096/167": 1,
-"T|Tyme": 1
+"E|Darkness": 21,
+"T|Ultra Ball": 3
 }
 },
 "Krookodile Revenge Lockdown": {
@@ -689,7 +636,7 @@
 "P|ME02:#065/094": 1,
 "P|ME03:#054/088": 1,
 "P|PRE:#065/131": 1,
-"P|ME02:#069/094": 2,
+"P|ME02:#069/094": 4,
 "P|ME02:#062/094": 3,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
@@ -698,16 +645,13 @@
 "T|Pok\u00e9 Ball": 4,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
-"T|Earthen Vessel": 2,
+"T|Earthen Vessel": 1,
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Darkness": 15,
-"T|Ultra Ball": 1,
-"T|Energy Search": 1,
-"T|Janine's Secret Art": 1,
-"T|Glass Trumpet": 2
+"E|Darkness": 18,
+"T|Ultra Ball": 1
 }
 },
 "Clodsire Poison Lockdown": {
@@ -718,23 +662,21 @@
 "P|SV09:#093/159": 4,
 "P|ASH:#141/217": 1,
 "P|ASH:#143/217": 1,
-"P|ME02:#069/094": 1,
+"P|ME02:#069/094": 3,
 "P|ME02:#062/094": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
-"T|Buddy-Buddy Poffin": 4,
+"T|Buddy-Buddy Poffin": 3,
 "T|Pok\u00e9 Ball": 2,
 "T|Switch": 1,
 "T|Night Stretcher": 3,
 "T|Earthen Vessel": 1,
 "T|Cyrano": 1,
-"E|Darkness": 17,
+"E|Darkness": 22,
 "T|Ultra Ball": 3,
-"T|Fennel": 3,
-"T|Energy Search": 1,
-"T|Glass Trumpet": 3,
-"T|Lucian": 1
+"T|Fennel": 1,
+"T|Energy Search": 1
 }
 },
 "Mandibuzz Bench Snipe": {
@@ -745,7 +687,7 @@
 "P|WHT:#063/086": 4,
 "P|PRE:#065/131": 1,
 "P|ASH:#143/217": 1,
-"P|ME02:#069/094": 1,
+"P|ME02:#069/094": 2,
 "P|ME02:#062/094": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
@@ -756,12 +698,9 @@
 "T|Night Stretcher": 2,
 "T|Earthen Vessel": 1,
 "T|Cyrano": 1,
-"E|Darkness": 20,
+"E|Darkness": 22,
 "T|Ultra Ball": 4,
-"T|Pok\u00e9 Pad": 1,
-"T|Crispin": 1,
-"T|Jacinthe": 1,
-"T|Rosa's Encouragement": 1
+"T|Pok\u00e9 Pad": 1
 }
 },
 "Hydreigon Basic Bounty": {
@@ -771,14 +710,15 @@
 "P|WHT:#067/086": 1,
 "P|WHT:#065/086": 2,
 "P|WHT:#066/086": 3,
+"P|ME02:#068/094": 1,
 "P|ASH:#141/217": 1,
-"P|ME02:#069/094": 2,
+"P|ME02:#069/094": 4,
 "P|ME02:#062/094": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 4,
-"T|Pok\u00e9 Ball": 3,
+"T|Pok\u00e9 Ball": 1,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 4,
@@ -787,10 +727,7 @@
 "T|Dawn": 2,
 "T|Janine's Secret Art": 4,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Darkness": 9,
-"T|Crispin": 1,
-"T|Glass Trumpet": 2,
-"P|PRE:#065/131": 1
+"E|Darkness": 12
 }
 },
 "Sharpedo Glass Cannon": {
@@ -801,22 +738,20 @@
 "P|SV05:#042/162": 4,
 "P|ASH:#143/217": 1,
 "P|PRE:#065/131": 1,
+"P|ME02:#069/094": 3,
 "P|ME02:#062/094": 4,
-"T|Professor's Research": 3,
+"T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 4,
 "T|Pok\u00e9 Ball": 4,
 "T|Switch": 1,
-"T|Night Stretcher": 2,
+"T|Night Stretcher": 1,
 "T|Earthen Vessel": 3,
 "T|Mega Signal": 2,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Darkness": 16,
-"T|Ultra Ball": 2,
-"T|Kofu": 1,
-"T|Glass Trumpet": 2,
-"T|Lucian": 1
+"E|Darkness": 19,
+"T|Ultra Ball": 2
 }
 },
 "Marnie's Ex-Punisher": {
@@ -826,6 +761,7 @@
 "P|SV10:#136/182": 1,
 "P|SV10:#134/182": 4,
 "P|SFA:#032/064": 1,
+"P|ME03:#054/088": 1,
 "P|ME02:#069/094": 3,
 "P|ME02:#062/094": 4,
 "T|Professor's Research": 2,
@@ -834,19 +770,17 @@
 "T|Buddy-Buddy Poffin": 4,
 "T|Pok\u00e9 Ball": 2,
 "T|Switch": 1,
-"T|Night Stretcher": 1,
-"T|Earthen Vessel": 3,
+"T|Night Stretcher": 2,
+"T|Earthen Vessel": 2,
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
 "T|Pok\u00e9mon Center Lady": 2,
 "T|Janine's Secret Art": 4,
-"E|Darkness": 10,
+"E|Darkness": 12,
 "T|Ultra Ball": 1,
 "T|Pok\u00e9 Pad": 1,
-"T|Energy Search": 2,
-"T|Harlequin": 1,
-"P|ASH:#141/217": 1
+"T|Energy Search": 1
 }
 },
 "Absol Hand-Rip Aggro": {
@@ -861,17 +795,14 @@
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
-"T|Buddy-Buddy Poffin": 3,
+"T|Buddy-Buddy Poffin": 2,
 "T|Pok\u00e9 Ball": 4,
-"T|Switch": 2,
+"T|Switch": 1,
 "T|Night Stretcher": 4,
 "T|Earthen Vessel": 2,
 "T|Mega Signal": 2,
-"E|Darkness": 19,
-"T|Ultra Ball": 3,
-"T|Crispin": 1,
-"T|Jacinthe": 1,
-"T|Glass Trumpet": 2
+"E|Darkness": 25,
+"T|Ultra Ball": 3
 }
 },
 "Munkidori Vanilla Beats": {
@@ -881,7 +812,7 @@
 "P|SFA:#037/064": 1,
 "P|SFA:#032/064": 1,
 "P|ME03:#054/088": 1,
-"P|ME02:#069/094": 2,
+"P|ME02:#069/094": 4,
 "P|ME02:#062/094": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 3,
@@ -892,13 +823,10 @@
 "T|Night Stretcher": 2,
 "T|Earthen Vessel": 2,
 "T|Cyrano": 1,
-"E|Darkness": 23,
+"E|Darkness": 26,
 "T|Ultra Ball": 1,
 "T|Energy Search": 1,
-"T|Fennel": 1,
-"T|Janine's Secret Art": 3,
-"T|Crispin": 1,
-"T|Jacinthe": 1
+"T|Fennel": 1
 }
 },
 "Gust & Guarantee": {
@@ -908,9 +836,10 @@
 "P|SV07:#080/142": 1,
 "P|SV05:#082/162": 4,
 "P|ME01:#073/132": 1,
+"P|SV08:#110/191": 1,
 "P|WHT:#049/086": 4,
 "P|ASH:#106/217": 1,
-"P|BLK:#050/086": 1,
+"P|BLK:#050/086": 4,
 "P|ME01:#081/132": 3,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
@@ -921,13 +850,9 @@
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 2,
 "T|Cyrano": 1,
-"E|Fighting": 19,
-"S|Spiky Energy": 3,
-"T|Ultra Ball": 1,
-"T|Jacinthe": 1,
-"P|MEP:#071": 1,
-"T|Team Rocket's Proton": 1,
-"T|Glass Trumpet": 1
+"E|Fighting": 20,
+"S|Spiky Energy": 2,
+"T|Ultra Ball": 1
 }
 },
 "Stonewall Softener": {
@@ -936,28 +861,26 @@
 "cards": {
 "P|SV07:#080/142": 1,
 "P|SV05:#082/162": 4,
+"P|SV07:#076/142": 1,
 "P|SV08:#107/191": 1,
 "P|WHT:#049/086": 4,
+"P|ASH:#106/217": 1,
 "P|BLK:#050/086": 3,
+"P|ME01:#081/132": 2,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 2,
-"T|Pok\u00e9 Ball": 4,
+"T|Pok\u00e9 Ball": 3,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 4,
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
-"E|Fighting": 11,
+"E|Fighting": 13,
 "T|Energy Search": 3,
-"S|Spiky Energy": 2,
-"S|Prism Energy": 1,
-"T|N's PP Up": 1,
-"T|Powerglass": 1,
-"P|MEP:#071": 1,
-"T|Glass Trumpet": 1
+"S|Spiky Energy": 2
 }
 },
 "Champion's Call": {
@@ -967,29 +890,26 @@
 "P|SV10:#104/182": 1,
 "P|ASH:#109/217": 3,
 "P|SV10:#008/182": 1,
-"P|WHT:#049/086": 1,
-"P|BLK:#050/086": 3,
+"P|SV08:#110/191": 1,
+"P|WHT:#049/086": 3,
+"P|BLK:#050/086": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
-"T|Buddy-Buddy Poffin": 4,
+"T|Buddy-Buddy Poffin": 3,
 "T|Pok\u00e9 Ball": 2,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
-"T|Earthen Vessel": 4,
+"T|Earthen Vessel": 3,
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
 "T|Crispin": 4,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Fighting": 7,
+"E|Fighting": 9,
 "E|Grass": 6,
 "S|Spiky Energy": 1,
-"P|SV08:#015/191": 1,
-"T|Pok\u00e9 Pad": 1,
-"T|Team Rocket's Archer": 1,
-"P|MEP:#071": 1,
-"T|Energy Coin": 1
+"P|SV08:#015/191": 1
 }
 },
 "Rock Battery": {
@@ -997,8 +917,9 @@
 "ace": "P|ASH:#107/217",
 "cards": {
 "P|ASH:#107/217": 1,
+"P|SV09:#082/159": 1,
 "P|WHT:#054/086": 1,
-"P|WHT:#049/086": 3,
+"P|WHT:#049/086": 4,
 "P|ASH:#106/217": 2,
 "P|BLK:#050/086": 4,
 "P|ME01:#081/132": 3,
@@ -1008,15 +929,13 @@
 "T|Buddy-Buddy Poffin": 2,
 "T|Pok\u00e9 Ball": 1,
 "T|Switch": 1,
-"T|Night Stretcher": 2,
+"T|Night Stretcher": 1,
 "T|Earthen Vessel": 3,
 "T|Cyrano": 1,
 "T|Fighting Gong": 2,
-"E|Fighting": 19,
+"E|Fighting": 23,
 "T|Fennel": 1,
-"S|Spiky Energy": 3,
-"T|Glass Trumpet": 4,
-"P|MEP:#071": 1
+"S|Spiky Energy": 3
 }
 },
 "Aura Overflow": {
@@ -1025,25 +944,24 @@
 "cards": {
 "P|ME01:#077/132": 1,
 "P|ASH:#112/217": 4,
-"P|WHT:#049/086": 3,
+"P|PRE:#054/131": 1,
+"P|ASH:#122/217": 1,
+"P|WHT:#049/086": 4,
 "P|BLK:#050/086": 1,
-"P|ME01:#081/132": 3,
+"P|ME01:#081/132": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 3,
 "T|Pok\u00e9 Ball": 4,
-"T|Switch": 2,
+"T|Switch": 1,
 "T|Night Stretcher": 2,
 "T|Earthen Vessel": 2,
 "T|Mega Signal": 2,
 "T|Pok\u00e9mon Center Lady": 2,
 "E|Fighting": 17,
 "T|Ultra Ball": 2,
-"T|Pok\u00e9 Pad": 1,
-"P|MEP:#071": 1,
-"T|Harlequin": 1,
-"S|Rocky Fighting Energy": 1
+"T|Pok\u00e9 Pad": 1
 }
 },
 "Drill & Snipe": {
@@ -1052,23 +970,22 @@
 "cards": {
 "P|BLK:#046/086": 1,
 "P|BLK:#045/086": 4,
+"P|SV05:#084/162": 1,
 "P|SV06:#110/167": 1,
 "P|WHT:#049/086": 4,
-"T|Professor's Research": 3,
+"P|ME01:#081/132": 4,
+"T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 4,
-"T|Pok\u00e9 Ball": 4,
+"T|Pok\u00e9 Ball": 3,
 "T|Switch": 1,
 "T|Night Stretcher": 2,
 "T|Earthen Vessel": 1,
 "T|Cyrano": 1,
-"E|Fighting": 21,
+"E|Fighting": 22,
 "T|Ultra Ball": 2,
-"S|Spiky Energy": 1,
-"T|Crispin": 1,
-"T|Harlequin": 2,
-"S|Rocky Fighting Energy": 1
+"S|Spiky Energy": 1
 }
 },
 "Perfect Order Beatdown": {
@@ -1077,10 +994,11 @@
 "cards": {
 "P|MEP:#071": 1,
 "P|SV09:#082/159": 1,
+"P|ASH:#108/217": 1,
 "P|WHT:#049/086": 3,
-"P|BLK:#050/086": 2,
-"P|ME01:#081/132": 1,
-"T|Professor's Research": 3,
+"P|BLK:#050/086": 3,
+"P|ME01:#081/132": 3,
+"T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 2,
@@ -1091,13 +1009,8 @@
 "T|Mega Signal": 2,
 "T|Fighting Gong": 3,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Fighting": 22,
-"S|Spiky Energy": 1,
-"T|Ultra Ball": 1,
-"T|Crispin": 1,
-"S|Rocky Fighting Energy": 1,
-"T|Professor Sada's Vitality": 1,
-"T|Urbain": 1
+"E|Fighting": 24,
+"S|Spiky Energy": 1
 }
 },
 "Grudge Match": {
@@ -1106,24 +1019,22 @@
 "cards": {
 "P|SVP:#197": 1,
 "P|SV06:#100/167": 1,
+"P|WHT:#054/086": 1,
 "P|WHT:#049/086": 4,
-"P|ASH:#106/217": 1,
+"P|ASH:#106/217": 3,
 "P|BLK:#050/086": 4,
 "P|ME01:#081/132": 2,
 "T|Professor's Research": 2,
 "T|Cheren": 3,
 "T|Boss's Orders": 2,
-"T|Buddy-Buddy Poffin": 3,
+"T|Buddy-Buddy Poffin": 2,
 "T|Pok\u00e9 Ball": 2,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 2,
 "T|Cyrano": 1,
-"E|Fighting": 21,
-"S|Spiky Energy": 4,
-"P|MEP:#071": 1,
-"T|Glass Trumpet": 3,
-"T|Powerglass": 1
+"E|Fighting": 25,
+"S|Spiky Energy": 3
 }
 },
 "Cornerstone Fortress": {
@@ -1132,7 +1043,10 @@
 "cards": {
 "P|SV06:#112/167": 1,
 "P|SV07:#076/142": 1,
-"P|WHT:#049/086": 3,
+"P|SV07:#075/142": 1,
+"P|ME02:#053/094": 1,
+"P|WHT:#049/086": 4,
+"P|ASH:#106/217": 2,
 "P|BLK:#050/086": 4,
 "P|ME01:#081/132": 4,
 "T|Professor's Research": 2,
@@ -1146,15 +1060,12 @@
 "T|Cyrano": 2,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
-"E|Fighting": 11,
+"E|Fighting": 12,
 "T|Energy Search": 3,
 "T|Pok\u00e9 Pad": 1,
 "T|Ultra Ball": 1,
-"S|Prism Energy": 2,
-"S|Spiky Energy": 2,
-"T|Crispin": 3,
-"P|MEP:#071": 1,
-"T|Professor Sada's Vitality": 1
+"S|Prism Energy": 1,
+"S|Spiky Energy": 2
 }
 },
 "Stuck in the Mud": {
@@ -1162,9 +1073,11 @@
 "ace": "P|ASH:#114/217",
 "cards": {
 "P|ASH:#114/217": 1,
+"P|SV09:#082/159": 1,
+"P|SV08:#110/191": 1,
 "P|WHT:#049/086": 4,
 "P|ASH:#106/217": 4,
-"P|BLK:#050/086": 2,
+"P|BLK:#050/086": 3,
 "P|ME01:#081/132": 2,
 "T|Professor's Research": 2,
 "T|Cheren": 2,
@@ -1175,14 +1088,8 @@
 "T|Night Stretcher": 2,
 "T|Earthen Vessel": 2,
 "T|Cyrano": 1,
-"E|Fighting": 24,
-"T|Ultra Ball": 1,
-"S|Spiky Energy": 1,
-"T|Fennel": 1,
-"T|Glass Trumpet": 2,
-"S|Rocky Fighting Energy": 1,
-"P|MEP:#071": 1,
-"T|Rosa's Encouragement": 1
+"E|Fighting": 28,
+"T|Ultra Ball": 1
 }
 },
 "Bait the Boulder": {
@@ -1190,12 +1097,13 @@
 "ace": "P|SVP:#147",
 "cards": {
 "P|SVP:#147": 1,
+"P|WHT:#054/086": 1,
 "P|ASH:#122/217": 1,
 "P|WHT:#049/086": 4,
 "P|ASH:#106/217": 3,
-"P|BLK:#050/086": 2,
+"P|BLK:#050/086": 4,
 "T|Professor's Research": 2,
-"T|Cheren": 3,
+"T|Cheren": 2,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 2,
 "T|Pok\u00e9 Ball": 1,
@@ -1203,13 +1111,9 @@
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 2,
 "T|Cyrano": 1,
-"E|Fighting": 23,
+"E|Fighting": 27,
 "S|Spiky Energy": 4,
-"T|Fennel": 2,
-"T|Professor Sada's Vitality": 2,
-"T|Jacinthe": 1,
-"P|MEP:#071": 1,
-"T|Jumbo Ice Cream": 1
+"T|Fennel": 1
 }
 },
 "Slow Burn": {
@@ -1218,24 +1122,23 @@
 "cards": {
 "P|PRE:#051/131": 1,
 "P|ASH:#112/217": 4,
+"P|SV09:#082/159": 1,
 "P|SV07:#076/142": 1,
 "P|WHT:#049/086": 4,
+"P|ME01:#081/132": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 4,
 "T|Pok\u00e9 Ball": 4,
-"T|Switch": 2,
+"T|Switch": 1,
 "T|Night Stretcher": 2,
-"T|Earthen Vessel": 4,
+"T|Earthen Vessel": 3,
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
 "E|Fighting": 13,
-"T|Energy Search": 4,
-"S|Rocky Fighting Energy": 1,
-"T|TM Machine": 1,
-"T|Carmine": 1
+"T|Energy Search": 4
 }
 },
 "Tusk Stampede": {
@@ -1244,13 +1147,15 @@
 "cards": {
 "P|SV09:#079/159": 1,
 "P|ME02:#023/094": 4,
+"P|SV08:#110/191": 1,
+"P|SV05:#084/162": 1,
 "P|WHT:#049/086": 4,
-"P|BLK:#050/086": 1,
-"P|ME01:#081/132": 1,
+"P|BLK:#050/086": 3,
+"P|ME01:#081/132": 2,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
-"T|Buddy-Buddy Poffin": 4,
+"T|Buddy-Buddy Poffin": 2,
 "T|Pok\u00e9 Ball": 2,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
@@ -1259,12 +1164,8 @@
 "T|Rare Candy": 4,
 "T|Dawn": 1,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Fighting": 15,
-"T|Ultra Ball": 2,
-"T|Team Rocket's Archer": 1,
-"S|Rocky Fighting Energy": 1,
-"P|MEP:#071": 1,
-"T|Energy Coin": 1
+"E|Fighting": 16,
+"T|Ultra Ball": 2
 }
 },
 "Coinflip Comeback": {
@@ -1272,24 +1173,24 @@
 "ace": "P|ASH:#116/217",
 "cards": {
 "P|ASH:#116/217": 1,
+"P|PRE:#054/131": 1,
 "P|SV06:#110/167": 1,
-"P|WHT:#049/086": 3,
-"P|BLK:#050/086": 3,
-"P|ME01:#081/132": 3,
+"P|WHT:#049/086": 4,
+"P|ASH:#106/217": 1,
+"P|BLK:#050/086": 4,
+"P|ME01:#081/132": 4,
 "T|Professor's Research": 2,
-"T|Cheren": 4,
+"T|Cheren": 2,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 2,
 "T|Pok\u00e9 Ball": 1,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
-"T|Earthen Vessel": 3,
+"T|Earthen Vessel": 2,
 "T|Mega Signal": 3,
-"E|Fighting": 21,
+"E|Fighting": 23,
 "S|Spiky Energy": 4,
-"T|Fennel": 1,
-"P|MEP:#071": 1,
-"T|Glass Trumpet": 3
+"T|Fennel": 1
 }
 },
 "Mega Gallade Blitz": {
@@ -1299,8 +1200,10 @@
 "P|ME04:#048/086": 1,
 "P|ME01:#058/132": 4,
 "P|ME01:#073/132": 1,
+"P|SV08:#110/191": 1,
 "P|WHT:#049/086": 4,
-"P|ASH:#106/217": 1,
+"P|ASH:#106/217": 2,
+"P|BLK:#050/086": 3,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
@@ -1313,13 +1216,8 @@
 "T|Rare Candy": 4,
 "T|Dawn": 1,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Fighting": 12,
-"S|Spiky Energy": 3,
-"T|Pok\u00e9 Pad": 1,
-"T|Harlequin": 1,
-"T|Carmine": 1,
-"S|Rocky Fighting Energy": 1,
-"T|Tyme": 1
+"E|Fighting": 13,
+"S|Spiky Energy": 2
 }
 },
 "Koraidon Kaiser": {
@@ -1327,22 +1225,22 @@
 "ace": "P|SVP:#197",
 "cards": {
 "P|SVP:#197": 1,
+"P|SV08:#110/191": 1,
+"P|SV09:#082/159": 1,
 "P|WHT:#049/086": 4,
-"P|BLK:#050/086": 3,
-"P|ME01:#081/132": 2,
+"P|BLK:#050/086": 4,
+"P|ME01:#081/132": 3,
 "T|Professor's Research": 2,
 "T|Cheren": 3,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 3,
-"T|Pok\u00e9 Ball": 2,
+"T|Pok\u00e9 Ball": 1,
 "T|Switch": 2,
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 1,
 "T|Cyrano": 3,
-"E|Fighting": 24,
-"S|Spiky Energy": 4,
-"T|Crispin": 1,
-"P|MEP:#071": 2
+"E|Fighting": 25,
+"S|Spiky Energy": 3
 }
 },
 "Wild Growth Overdrive": {
@@ -1354,7 +1252,7 @@
 "P|ME01:#002/132": 1,
 "P|ME01:#010/132": 1,
 "P|SV06:#019/167": 1,
-"P|SV08:#015/191": 2,
+"P|SV08:#015/191": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
@@ -1368,11 +1266,8 @@
 "T|Dawn": 1,
 "T|Bug Catching Set": 2,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Grass": 12,
-"T|Energy Search": 3,
-"T|Ultra Ball": 1,
-"T|Drasna": 2,
-"T|Glass Trumpet": 1
+"E|Grass": 14,
+"T|Energy Search": 3
 }
 },
 "Erika's Garden Party": {
@@ -1383,26 +1278,23 @@
 "P|ASH:#001/217": 4,
 "P|ASH:#002/217": 3,
 "P|ASH:#006/217": 1,
-"P|SV08:#015/191": 3,
+"P|ME02:#003/094": 1,
+"P|SV08:#015/191": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 4,
 "T|Pok\u00e9 Ball": 4,
 "T|Switch": 1,
-"T|Night Stretcher": 2,
+"T|Night Stretcher": 1,
 "T|Earthen Vessel": 4,
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Grass": 9,
+"E|Grass": 12,
 "T|Energy Search": 3,
-"T|Ultra Ball": 1,
-"S|Mist Energy": 1,
-"T|Drasna": 1,
-"S|Growing Grass Energy": 1,
-"T|Glass Trumpet": 1
+"T|Ultra Ball": 1
 }
 },
 "Forest March": {
@@ -1412,28 +1304,26 @@
 "P|SV05:#012/162": 1,
 "P|SV05:#010/162": 4,
 "P|SV05:#011/162": 3,
+"P|ME03:#006/088": 1,
 "P|SV08:#011/191": 1,
-"P|SV08:#015/191": 2,
+"P|SV08:#015/191": 4,
+"P|SV10:#026/182": 2,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 4,
 "T|Pok\u00e9 Ball": 4,
 "T|Switch": 1,
-"T|Night Stretcher": 3,
+"T|Night Stretcher": 1,
 "T|Earthen Vessel": 2,
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Grass": 11,
+"E|Grass": 12,
 "T|Pok\u00e9 Pad": 1,
 "T|Energy Search": 2,
-"T|Ultra Ball": 1,
-"T|Team Rocket's Archer": 1,
-"T|Tyme": 1,
-"S|Growing Grass Energy": 1,
-"T|TM Machine": 1
+"T|Ultra Ball": 1
 }
 },
 "Spore Lock": {
@@ -1445,25 +1335,23 @@
 "P|ME02:#003/094": 1,
 "P|SV09:#003/159": 1,
 "P|SV09:#001/159": 1,
-"P|SV08:#015/191": 3,
+"P|SV07:#007/142": 1,
+"P|SV08:#015/191": 4,
+"P|SV10:#026/182": 2,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
-"T|Buddy-Buddy Poffin": 3,
-"T|Pok\u00e9 Ball": 4,
+"T|Buddy-Buddy Poffin": 2,
+"T|Pok\u00e9 Ball": 3,
 "T|Switch": 2,
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 2,
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
-"E|Grass": 15,
+"E|Grass": 17,
 "T|Energy Search": 3,
-"T|Ultra Ball": 1,
-"S|Spiky Energy": 1,
-"T|Energy Coin": 1,
-"T|N's PP Up": 1,
-"T|Kofu": 1
+"T|Ultra Ball": 1
 }
 },
 "Oil Salvo Sniper": {
@@ -1473,8 +1361,9 @@
 "P|SV10:#023/182": 1,
 "P|SV10:#021/182": 4,
 "P|SV10:#022/182": 3,
+"P|SV09:#003/159": 1,
 "P|SV05:#015/162": 1,
-"P|SV08:#015/191": 2,
+"P|SV08:#015/191": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
@@ -1483,17 +1372,13 @@
 "T|Switch": 1,
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 4,
-"T|Cyrano": 2,
+"T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Grass": 9,
+"E|Grass": 13,
 "T|Energy Search": 2,
-"T|Ultra Ball": 2,
-"P|ASH:#007/217": 1,
-"T|Glass Trumpet": 2,
-"S|Growing Grass Energy": 1,
-"T|Team Rocket's Archer": 1
+"T|Ultra Ball": 1
 }
 },
 "Regal Cheer Aggro": {
@@ -1505,7 +1390,8 @@
 "P|ME03:#005/088": 3,
 "P|SFA:#006/064": 1,
 "P|ME02:#003/094": 1,
-"P|SV08:#015/191": 3,
+"P|SV08:#015/191": 4,
+"P|SV10:#026/182": 1,
 "T|Professor's Research": 3,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
@@ -1519,11 +1405,8 @@
 "T|Dawn": 1,
 "T|Bug Catching Set": 2,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Grass": 8,
-"T|Energy Search": 2,
-"S|Prism Energy": 1,
-"T|Glass Trumpet": 3,
-"T|N's PP Up": 1
+"E|Grass": 11,
+"T|Energy Search": 2
 }
 },
 "Solar Bank": {
@@ -1534,7 +1417,8 @@
 "P|ME01:#001/132": 4,
 "P|ME01:#002/132": 3,
 "P|SV10:#018/182": 1,
-"P|SV08:#015/191": 3,
+"P|SV06:#019/167": 1,
+"P|SV08:#015/191": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
@@ -1548,11 +1432,8 @@
 "T|Dawn": 1,
 "T|Bug Catching Set": 2,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Grass": 10,
-"T|Energy Search": 4,
-"T|Ultra Ball": 1,
-"T|Glass Trumpet": 1,
-"S|Growing Grass Energy": 1
+"E|Grass": 11,
+"T|Energy Search": 4
 }
 },
 "Swarm of the Hive": {
@@ -1562,7 +1443,9 @@
 "P|ME04:#003/086": 1,
 "P|ME04:#001/086": 4,
 "P|ME04:#002/086": 2,
-"P|SV08:#015/191": 2,
+"P|SV09:#003/159": 1,
+"P|SV06:#019/167": 1,
+"P|SV08:#015/191": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
@@ -1570,18 +1453,15 @@
 "T|Pok\u00e9 Ball": 4,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
-"T|Earthen Vessel": 4,
+"T|Earthen Vessel": 3,
 "T|Cyrano": 2,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Grass": 11,
+"E|Grass": 13,
 "T|Energy Search": 2,
 "T|Pok\u00e9 Pad": 1,
-"T|Ultra Ball": 3,
-"S|Growing Grass Energy": 2,
-"T|Glass Trumpet": 1,
-"T|Tyme": 1
+"T|Ultra Ball": 2
 }
 },
 "Buzzing Boost Shuttle": {
@@ -1592,7 +1472,8 @@
 "P|SV10:#002/182": 4,
 "P|SVP:#187": 1,
 "P|SV08:#011/191": 1,
-"P|SV08:#015/191": 1,
+"P|SV07:#007/142": 2,
+"P|SV08:#015/191": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
@@ -1600,17 +1481,12 @@
 "T|Pok\u00e9 Ball": 4,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
-"T|Earthen Vessel": 2,
+"T|Earthen Vessel": 1,
 "T|Cyrano": 1,
 "T|Bug Catching Set": 2,
-"E|Grass": 20,
+"E|Grass": 23,
 "T|Ultra Ball": 1,
-"P|ASH:#007/217": 2,
-"T|Fennel": 1,
-"T|Glass Trumpet": 2,
-"T|Rosa's Encouragement": 1,
-"T|Crispin": 1,
-"T|Harlequin": 1
+"P|ASH:#007/217": 1
 }
 },
 "Juggernaut Wall": {
@@ -1619,27 +1495,24 @@
 "cards": {
 "P|ME02:#004/094": 1,
 "P|ME04:#007/086": 1,
+"P|ME04:#005/086": 1,
 "P|SV08:#011/191": 1,
-"P|SV08:#015/191": 3,
+"P|SV07:#007/142": 3,
+"P|SV08:#015/191": 4,
 "T|Professor's Research": 3,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
-"T|Buddy-Buddy Poffin": 3,
+"T|Buddy-Buddy Poffin": 2,
 "T|Pok\u00e9 Ball": 1,
 "T|Switch": 1,
-"T|Night Stretcher": 3,
+"T|Night Stretcher": 2,
 "T|Earthen Vessel": 4,
 "T|Mega Signal": 3,
 "T|Rare Candy": 4,
 "T|Dawn": 3,
-"E|Grass": 16,
+"E|Grass": 18,
 "T|Ultra Ball": 1,
-"S|Prism Energy": 1,
-"T|Lt. Surge's Bargain": 1,
-"T|Rosa's Encouragement": 1,
-"T|N's PP Up": 1,
-"T|Glass Trumpet": 1,
-"T|Jacinthe": 1
+"S|Prism Energy": 1
 }
 },
 "Energy Gift Express": {
@@ -1649,10 +1522,12 @@
 "P|WHT:#005/086": 1,
 "P|SFA:#006/064": 1,
 "P|ME01:#010/132": 1,
+"P|ASH:#008/217": 1,
+"P|ASH:#009/217": 1,
 "P|SV07:#007/142": 4,
 "P|SV08:#015/191": 4,
-"P|SV10:#026/182": 1,
-"P|SV09:#015/159": 3,
+"P|SV10:#026/182": 2,
+"P|SV09:#015/159": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 3,
 "T|Boss's Orders": 2,
@@ -1664,13 +1539,10 @@
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
-"E|Grass": 14,
+"E|Grass": 15,
 "T|Fennel": 1,
 "T|Energy Search": 2,
-"P|ASH:#007/217": 1,
-"T|Professor Sada's Vitality": 2,
-"T|Rosa's Encouragement": 1,
-"T|Glass Trumpet": 2
+"P|ASH:#007/217": 1
 }
 },
 "Arrow of Denial": {
@@ -1679,8 +1551,10 @@
 "cards": {
 "P|ME03:#012/088": 1,
 "P|ME03:#010/088": 2,
+"P|SV06:#022/167": 1,
 "P|SV06:#019/167": 1,
-"P|SV08:#015/191": 3,
+"P|SV07:#007/142": 1,
+"P|SV08:#015/191": 4,
 "T|Professor's Research": 3,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
@@ -1691,14 +1565,11 @@
 "T|Earthen Vessel": 4,
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
-"T|Dawn": 3,
+"T|Dawn": 2,
 "T|Bug Catching Set": 2,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Grass": 11,
-"T|Energy Search": 3,
-"T|Glass Trumpet": 3,
-"T|Team Rocket's Archer": 1,
-"P|WHT:#010/086": 1
+"E|Grass": 15,
+"T|Energy Search": 2
 }
 },
 "Rapid Vernier Nova": {
@@ -1707,7 +1578,9 @@
 "cards": {
 "P|SVP:#128": 1,
 "P|SV06:#019/167": 2,
+"P|SV07:#007/142": 2,
 "P|SV08:#015/191": 4,
+"P|SV09:#015/159": 3,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
@@ -1717,11 +1590,7 @@
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 1,
 "T|Cyrano": 3,
-"E|Grass": 25,
-"T|Fennel": 1,
-"T|Ultra Ball": 2,
-"T|Glass Trumpet": 4,
-"T|Jacinthe": 1
+"E|Grass": 28
 }
 },
 "Bottom-Deck Gambit": {
@@ -1731,12 +1600,12 @@
 "P|SV10:#025/182": 1,
 "P|SV10:#024/182": 3,
 "P|SV09:#003/159": 2,
-"P|SV09:#001/159": 2,
+"P|SV09:#001/159": 3,
 "P|SV08:#015/191": 4,
 "T|Professor's Research": 3,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
-"T|Buddy-Buddy Poffin": 4,
+"T|Buddy-Buddy Poffin": 3,
 "T|Pok\u00e9 Ball": 2,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
@@ -1744,14 +1613,11 @@
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
-"E|Grass": 15,
+"E|Grass": 19,
 "T|Pok\u00e9 Pad": 1,
 "T|Ultra Ball": 1,
 "S|Prism Energy": 1,
-"P|ASH:#007/217": 1,
-"T|Glass Trumpet": 2,
-"T|Jacinthe": 1,
-"S|Mist Energy": 1
+"P|ASH:#007/217": 1
 }
 },
 "Steeped Discard": {
@@ -1760,8 +1626,9 @@
 "cards": {
 "P|SV06:#023/167": 1,
 "P|SV06:#021/167": 4,
+"P|SV06:#022/167": 1,
 "P|SV05:#015/162": 1,
-"P|SV08:#015/191": 3,
+"P|SV08:#015/191": 4,
 "T|Professor's Research": 4,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
@@ -1771,14 +1638,9 @@
 "T|Night Stretcher": 2,
 "T|Earthen Vessel": 1,
 "T|Cyrano": 1,
-"E|Grass": 17,
+"E|Grass": 21,
 "T|Ultra Ball": 4,
-"T|Fennel": 1,
-"S|Prism Energy": 1,
-"T|Glass Trumpet": 2,
-"T|Energy Coin": 1,
-"T|Harlequin": 1,
-"S|Growing Grass Energy": 1
+"T|Fennel": 1
 }
 },
 "Vengeful Attrition": {
@@ -1788,23 +1650,22 @@
 "P|SV08:#004/191": 1,
 "P|SV06:#019/167": 1,
 "P|SV08:#011/191": 1,
-"P|SV08:#015/191": 3,
+"P|SV07:#007/142": 2,
+"P|SV08:#015/191": 4,
+"P|SV09:#015/159": 3,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
-"T|Buddy-Buddy Poffin": 4,
-"T|Pok\u00e9 Ball": 4,
+"T|Buddy-Buddy Poffin": 3,
+"T|Pok\u00e9 Ball": 3,
 "T|Switch": 1,
 "T|Night Stretcher": 2,
 "T|Earthen Vessel": 2,
 "T|Cyrano": 2,
-"E|Grass": 22,
+"E|Grass": 24,
 "T|Pok\u00e9 Pad": 1,
 "T|Ultra Ball": 1,
-"T|Fennel": 1,
-"P|ASH:#007/217": 1,
-"T|Glass Trumpet": 3,
-"T|Rosa's Encouragement": 2
+"T|Fennel": 1
 }
 },
 "Mega Meganium Bouquet": {
@@ -1814,6 +1675,7 @@
 "P|MEP:#034": 1,
 "P|ASH:#008/217": 4,
 "P|ASH:#009/217": 1,
+"P|ME01:#010/132": 1,
 "P|SFA:#006/064": 1,
 "P|SV08:#015/191": 4,
 "T|Professor's Research": 2,
@@ -1828,13 +1690,9 @@
 "T|Rare Candy": 4,
 "T|Dawn": 1,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Grass": 12,
+"E|Grass": 16,
 "T|Energy Search": 1,
-"T|Ultra Ball": 1,
-"T|Glass Trumpet": 2,
-"T|Team Rocket's Archer": 1,
-"T|Rosa's Encouragement": 1,
-"S|Growing Grass Energy": 1
+"T|Ultra Ball": 1
 }
 },
 "Hydrapple Syrup Storm": {
@@ -1845,11 +1703,12 @@
 "P|PRE:#009/131": 4,
 "P|SV06:#127/167": 2,
 "P|ME01:#010/132": 1,
+"P|SFA:#006/064": 1,
 "P|SV08:#015/191": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
-"T|Buddy-Buddy Poffin": 4,
+"T|Buddy-Buddy Poffin": 3,
 "T|Pok\u00e9 Ball": 3,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
@@ -1858,13 +1717,10 @@
 "T|Rare Candy": 4,
 "T|Dawn": 1,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Grass": 12,
+"E|Grass": 17,
 "T|Pok\u00e9 Pad": 1,
-"T|Ultra Ball": 2,
-"P|ASH:#007/217": 1,
-"T|Glass Trumpet": 2,
-"S|Growing Grass Energy": 1,
-"T|Carmine": 1
+"T|Ultra Ball": 1,
+"P|ASH:#007/217": 1
 }
 },
 "Bench Fortress": {
@@ -1874,8 +1730,10 @@
 "P|SV05:#012/162": 1,
 "P|SV05:#010/162": 4,
 "P|SV05:#011/162": 3,
+"P|SV10:#012/182": 1,
 "P|ME01:#010/132": 1,
-"P|SV08:#015/191": 2,
+"P|SV07:#007/142": 3,
+"P|SV08:#015/191": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
@@ -1883,18 +1741,13 @@
 "T|Pok\u00e9 Ball": 4,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
-"T|Earthen Vessel": 3,
+"T|Earthen Vessel": 2,
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Grass": 11,
-"T|Ultra Ball": 4,
-"T|Energy Search": 1,
-"T|Energy Retrieval": 1,
-"T|Harlequin": 1,
-"T|Carmine": 1,
-"P|WHT:#010/086": 1
+"E|Grass": 12,
+"T|Ultra Ball": 3
 }
 },
 "Eelektrik Recursion": {
@@ -1906,8 +1759,8 @@
 "P|ASH:#060/217": 4,
 "P|SV06:#065/167": 1,
 "P|ME03:#028/088": 1,
-"P|SV05:#057/162": 1,
-"P|SV07:#054/142": 2,
+"P|SV05:#057/162": 2,
+"P|SV07:#054/142": 3,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
@@ -1915,15 +1768,13 @@
 "T|Pok\u00e9 Ball": 2,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
-"T|Earthen Vessel": 2,
+"T|Earthen Vessel": 1,
 "T|Mega Signal": 2,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Lightning": 14,
-"T|Ultra Ball": 1,
-"T|Glass Trumpet": 1,
-"T|Drasna": 3
+"E|Lightning": 17,
+"T|Ultra Ball": 1
 }
 },
 "Overvolt Overload": {
@@ -1932,9 +1783,11 @@
 "cards": {
 "P|SV10:#069/182": 1,
 "P|SV07:#046/142": 4,
+"P|ME01:#048/132": 1,
+"P|ME03:#028/088": 1,
 "P|ME03:#027/088": 2,
 "P|SV05:#057/162": 4,
-"P|SV07:#054/142": 2,
+"P|SV07:#054/142": 3,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
@@ -1942,16 +1795,13 @@
 "T|Pok\u00e9 Ball": 2,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
-"T|Earthen Vessel": 2,
+"T|Earthen Vessel": 1,
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
-"E|Lightning": 17,
+"E|Lightning": 19,
 "T|Pok\u00e9 Pad": 1,
-"S|Prism Energy": 1,
-"S|Mist Energy": 1,
-"P|SV06:#065/167": 2,
-"T|Jacinthe": 1
+"S|Prism Energy": 1
 }
 },
 "Iono's Streamer": {
@@ -1976,13 +1826,8 @@
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
-"E|Lightning": 13,
-"S|Prism Energy": 2,
-"T|N's PP Up": 1,
-"T|Jacinthe": 1,
-"S|Mist Energy": 1,
-"T|Glass Trumpet": 1,
-"T|Energy Coin": 1
+"E|Lightning": 18,
+"S|Prism Energy": 2
 }
 },
 "Manectric Aggro": {
@@ -1991,8 +1836,9 @@
 "cards": {
 "P|ME01:#050/132": 1,
 "P|SV10:#075/182": 4,
+"P|BLK:#033/086": 1,
 "P|ME02:#034/094": 1,
-"P|SV05:#057/162": 3,
+"P|SV05:#057/162": 4,
 "P|SV07:#054/142": 3,
 "T|Professor's Research": 2,
 "T|Cheren": 2,
@@ -2001,16 +1847,13 @@
 "T|Pok\u00e9 Ball": 1,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
-"T|Earthen Vessel": 3,
+"T|Earthen Vessel": 2,
 "T|Mega Signal": 2,
 "T|Rare Candy": 4,
 "T|Dawn": 2,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Lightning": 20,
-"T|Energy Search": 1,
-"P|SV06:#065/167": 1,
-"T|Powerglass": 1,
-"T|Drasna": 1
+"E|Lightning": 22,
+"T|Energy Search": 1
 }
 },
 "Luxray Nuke": {
@@ -2020,8 +1863,9 @@
 "P|SV06:#068/167": 1,
 "P|SV06:#066/167": 2,
 "P|ME03:#027/088": 3,
+"P|ME03:#028/088": 1,
 "P|SV06:#065/167": 1,
-"P|SV05:#057/162": 2,
+"P|SV05:#057/162": 4,
 "P|SV07:#054/142": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
@@ -2033,12 +1877,9 @@
 "T|Earthen Vessel": 1,
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
-"T|Dawn": 2,
+"T|Dawn": 1,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Lightning": 21,
-"S|Prism Energy": 1,
-"P|SV05:#121/162": 1,
-"T|Drasna": 1
+"E|Lightning": 22
 }
 },
 "Iron Thorns Lock": {
@@ -2046,22 +1887,22 @@
 "ace": "P|SV06:#077/167",
 "cards": {
 "P|SV06:#077/167": 1,
+"P|SV05:#062/162": 1,
+"P|BLK:#033/086": 1,
+"P|SV05:#057/162": 3,
 "P|SV07:#054/142": 4,
 "T|Professor's Research": 2,
-"T|Cheren": 4,
+"T|Cheren": 3,
 "T|Boss's Orders": 2,
-"T|Buddy-Buddy Poffin": 3,
+"T|Buddy-Buddy Poffin": 2,
 "T|Pok\u00e9 Ball": 1,
-"T|Switch": 3,
+"T|Switch": 2,
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 1,
 "T|Cyrano": 1,
-"E|Lightning": 27,
+"E|Lightning": 29,
 "T|Pok\u00e9 Pad": 2,
-"T|Fennel": 4,
-"T|Ultra Ball": 1,
-"P|SV06:#065/167": 2,
-"T|Jacinthe": 1
+"T|Fennel": 4
 }
 },
 "Kilowattrel Pivot": {
@@ -2071,10 +1912,11 @@
 "P|SV08:#068/191": 1,
 "P|SV08:#066/191": 4,
 "P|ME04:#029/086": 1,
-"P|SV05:#057/162": 2,
+"P|ME01:#048/132": 1,
+"P|SV05:#057/162": 4,
 "P|SV07:#054/142": 4,
 "T|Professor's Research": 2,
-"T|Cheren": 4,
+"T|Cheren": 3,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 2,
 "T|Pok\u00e9 Ball": 3,
@@ -2084,11 +1926,8 @@
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 2,
-"E|Lightning": 19,
-"T|Energy Search": 2,
-"P|SV06:#065/167": 1,
-"T|Lillie's Determination": 1,
-"T|Glass Trumpet": 1
+"E|Lightning": 20,
+"T|Energy Search": 2
 }
 },
 "Hop's Pincurchin": {
@@ -2097,23 +1936,22 @@
 "cards": {
 "P|ASH:#068/217": 1,
 "P|SV09:#117/159": 1,
+"P|ME01:#048/132": 1,
 "P|SV05:#057/162": 4,
-"P|SV07:#054/142": 3,
+"P|SV07:#054/142": 4,
 "T|Professor's Research": 4,
 "T|Cheren": 2,
-"T|Boss's Orders": 3,
-"T|Buddy-Buddy Poffin": 3,
+"T|Boss's Orders": 2,
+"T|Buddy-Buddy Poffin": 2,
 "T|Pok\u00e9 Ball": 1,
 "T|Switch": 2,
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 2,
 "T|Cyrano": 1,
 "T|Hop's Bag": 2,
-"E|Lightning": 24,
+"E|Lightning": 27,
 "T|Fennel": 2,
-"S|Prism Energy": 1,
-"P|SV06:#065/167": 1,
-"T|Glass Trumpet": 2
+"S|Prism Energy": 1
 }
 },
 "Tapu Koko Swarm": {
@@ -2121,23 +1959,24 @@
 "ace": "P|SV09:#051/159",
 "cards": {
 "P|SV09:#051/159": 1,
+"P|SV08:#065/191": 1,
 "P|ME02:#034/094": 1,
-"P|SV05:#057/162": 3,
+"P|ME02:#033/094": 2,
+"P|SV05:#057/162": 4,
+"P|SV08:#069/191": 1,
 "P|SV07:#054/142": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 2,
 "T|Boss's Orders": 2,
-"T|Buddy-Buddy Poffin": 4,
+"T|Buddy-Buddy Poffin": 3,
 "T|Pok\u00e9 Ball": 1,
-"T|Switch": 2,
+"T|Switch": 1,
 "T|Night Stretcher": 1,
-"T|Earthen Vessel": 3,
+"T|Earthen Vessel": 2,
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
-"T|Dawn": 2,
-"E|Lightning": 25,
-"T|Drasna": 1,
-"P|SV06:#065/167": 1
+"T|Dawn": 1,
+"E|Lightning": 26
 }
 },
 "Zekrom Comeback": {
@@ -2158,13 +1997,8 @@
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 2,
 "T|Cyrano": 1,
-"E|Lightning": 24,
-"T|Fennel": 3,
-"S|Mist Energy": 1,
-"T|Lacey": 1,
-"T|Lillie's Determination": 1,
-"T|Friends in Paldea": 1,
-"T|Jumbo Ice Cream": 1
+"E|Lightning": 29,
+"T|Fennel": 3
 }
 },
 "Rotom Tool": {
@@ -2175,24 +2009,21 @@
 "P|SV06:#065/167": 1,
 "P|ME03:#028/088": 1,
 "P|ME03:#027/088": 3,
+"P|SV05:#057/162": 3,
 "P|SV07:#054/142": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 2,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 2,
 "T|Pok\u00e9 Ball": 1,
-"T|Switch": 3,
+"T|Switch": 2,
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 3,
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
-"E|Lightning": 22,
-"S|Prism Energy": 1,
-"T|Glass Trumpet": 2,
-"T|Drasna": 1,
-"T|Hop's Bag": 1,
-"S|Spiky Energy": 1
+"E|Lightning": 25,
+"S|Prism Energy": 1
 }
 },
 "Miraidon Hadron": {
@@ -2200,6 +2031,8 @@
 "ace": "P|SV05:#122/162",
 "cards": {
 "P|SV05:#122/162": 1,
+"P|ME01:#048/132": 1,
+"P|BLK:#033/086": 1,
 "P|SV05:#057/162": 4,
 "T|Professor's Research": 3,
 "T|Cheren": 4,
@@ -2211,11 +2044,9 @@
 "T|Earthen Vessel": 1,
 "T|Cyrano": 1,
 "T|Crispin": 4,
-"E|Lightning": 12,
-"E|Psychic": 13,
-"T|Ultra Ball": 2,
-"T|Lillie's Determination": 2,
-"P|SV06:#065/167": 2
+"E|Lightning": 13,
+"E|Psychic": 14,
+"T|Ultra Ball": 2
 }
 },
 "Steven's Steel Sanctuary": {
@@ -2225,10 +2056,14 @@
 "P|SV10:#145/182": 1,
 "P|SV10:#143/182": 3,
 "P|SV10:#144/182": 4,
+"P|BLK:#063/086": 1,
+"P|ASH:#148/217": 1,
+"P|BLK:#065/086": 1,
+"P|SV08:#079/191": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
-"T|Buddy-Buddy Poffin": 4,
+"T|Buddy-Buddy Poffin": 3,
 "T|Pok\u00e9 Ball": 3,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
@@ -2239,12 +2074,9 @@
 "T|Crispin": 4,
 "T|Pok\u00e9mon Center Lady": 2,
 "E|Metal": 5,
-"E|Psychic": 8,
+"E|Psychic": 6,
 "T|Ultra Ball": 2,
-"T|Pok\u00e9 Pad": 1,
-"P|PRE:#046/131": 2,
-"T|Drasna": 1,
-"T|Glass Trumpet": 1
+"T|Pok\u00e9 Pad": 1
 }
 },
 "Alloy Bulwark": {
@@ -2255,6 +2087,7 @@
 "P|SV08:#129/191": 4,
 "P|BLK:#063/086": 1,
 "P|SV10:#146/182": 1,
+"P|PRE:#068/131": 2,
 "P|SFA:#040/064": 4,
 "T|Professor's Research": 3,
 "T|Cheren": 4,
@@ -2267,12 +2100,8 @@
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
-"E|Metal": 12,
-"T|Energy Search": 4,
-"T|Rosa's Encouragement": 2,
-"T|Jacinthe": 1,
-"T|Carmine": 1,
-"T|Glass Trumpet": 1
+"E|Metal": 15,
+"T|Energy Search": 4
 }
 },
 "Regi-Charge Attrition": {
@@ -2283,22 +2112,20 @@
 "P|ME01:#093/132": 1,
 "P|ME01:#070/132": 4,
 "P|SV08:#132/191": 1,
+"P|SV08:#129/191": 4,
 "P|SFA:#040/064": 3,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 2,
 "T|Pok\u00e9 Ball": 2,
-"T|Switch": 3,
+"T|Switch": 1,
 "T|Night Stretcher": 1,
-"T|Earthen Vessel": 2,
+"T|Earthen Vessel": 1,
 "T|Cyrano": 2,
 "T|Philippe": 4,
-"E|Metal": 17,
-"T|Ultra Ball": 4,
-"T|Glass Trumpet": 3,
-"T|Crispin": 1,
-"T|Energy Coin": 1
+"E|Metal": 21,
+"T|Ultra Ball": 4
 }
 },
 "Emperor's Stance Wall": {
@@ -2310,8 +2137,9 @@
 "P|ME02:#028/094": 1,
 "P|SV10:#146/182": 1,
 "P|SV07:#104/142": 1,
-"P|SV08:#129/191": 1,
+"P|SV08:#129/191": 2,
 "P|SFA:#040/064": 2,
+"P|ASH:#144/217": 2,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
@@ -2319,18 +2147,14 @@
 "T|Pok\u00e9 Ball": 1,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
-"T|Earthen Vessel": 3,
+"T|Earthen Vessel": 2,
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Metal": 14,
+"E|Metal": 17,
 "T|Ultra Ball": 3,
-"S|Prism Energy": 1,
-"T|Carmine": 1,
-"T|Glass Trumpet": 2,
-"T|Drasna": 1,
-"T|Team Rocket's Archer": 1
+"S|Prism Energy": 1
 }
 },
 "Alloy Overdrive": {
@@ -2341,6 +2165,7 @@
 "P|SV08:#129/191": 4,
 "P|BLK:#066/086": 1,
 "P|ASH:#148/217": 1,
+"P|PRE:#068/131": 3,
 "P|SFA:#040/064": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
@@ -2349,16 +2174,14 @@
 "T|Pok\u00e9 Ball": 3,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
-"T|Earthen Vessel": 4,
+"T|Earthen Vessel": 3,
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
-"T|Dawn": 2,
-"E|Metal": 11,
+"T|Dawn": 1,
+"E|Metal": 14,
 "T|Ultra Ball": 2,
 "T|Energy Search": 4,
-"T|Glass Trumpet": 3,
-"T|Philippe": 1,
-"T|Jacinthe": 1
+"P|SV08:#125/191": 1
 }
 },
 "Bench Battery": {
@@ -2368,22 +2191,20 @@
 "P|ME04:#064/086": 1,
 "P|BLK:#066/086": 1,
 "P|ME01:#093/132": 1,
-"P|SV08:#129/191": 3,
+"P|PRE:#068/131": 2,
+"P|SV08:#129/191": 4,
 "P|SFA:#040/064": 3,
-"T|Professor's Research": 3,
-"T|Cheren": 4,
+"T|Professor's Research": 2,
+"T|Cheren": 3,
 "T|Boss's Orders": 2,
-"T|Buddy-Buddy Poffin": 3,
+"T|Buddy-Buddy Poffin": 2,
 "T|Pok\u00e9 Ball": 2,
 "T|Switch": 3,
 "T|Night Stretcher": 4,
 "T|Earthen Vessel": 1,
 "T|Cyrano": 4,
-"E|Metal": 19,
-"T|Pok\u00e9 Pad": 2,
-"T|Glass Trumpet": 1,
-"T|Philippe": 2,
-"T|Harlequin": 1
+"E|Metal": 23,
+"T|Pok\u00e9 Pad": 2
 }
 },
 "Hop's Champion Rush": {
@@ -2398,20 +2219,15 @@
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
-"T|Buddy-Buddy Poffin": 2,
+"T|Buddy-Buddy Poffin": 3,
 "T|Pok\u00e9 Ball": 1,
 "T|Switch": 2,
 "T|Night Stretcher": 2,
-"T|Earthen Vessel": 3,
+"T|Earthen Vessel": 4,
 "T|Cyrano": 2,
 "T|Philippe": 4,
 "T|Hop's Bag": 2,
-"E|Metal": 18,
-"T|Crispin": 1,
-"T|Carmine": 1,
-"T|Glass Trumpet": 1,
-"T|Jacinthe": 1,
-"T|Powerglass": 1
+"E|Metal": 21
 }
 },
 "Steel Armament Blitz": {
@@ -2421,6 +2237,7 @@
 "P|SVP:#198": 1,
 "P|SV10:#146/182": 1,
 "P|ASH:#148/217": 1,
+"P|SV08:#129/191": 4,
 "P|SFA:#040/064": 2,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
@@ -2436,11 +2253,7 @@
 "E|Metal": 24,
 "T|Energy Search": 1,
 "T|Fennel": 3,
-"P|SV08:#125/191": 1,
-"T|Harlequin": 1,
-"T|Rosa's Encouragement": 1,
-"T|Dragon Elixir": 1,
-"S|Mist Energy": 1
+"P|SV08:#125/191": 1
 }
 },
 "Metallic Signal Toolbox": {
@@ -2450,27 +2263,23 @@
 "P|BLK:#067/086": 1,
 "P|BLK:#063/086": 1,
 "P|ASH:#148/217": 1,
-"P|PRE:#068/131": 1,
-"P|SV08:#129/191": 2,
+"P|PRE:#068/131": 3,
+"P|SV08:#129/191": 4,
 "P|SFA:#040/064": 4,
+"P|ASH:#144/217": 1,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 2,
 "T|Pok\u00e9 Ball": 4,
 "T|Switch": 1,
-"T|Night Stretcher": 3,
+"T|Night Stretcher": 2,
 "T|Earthen Vessel": 4,
 "T|Cyrano": 2,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
-"E|Metal": 12,
-"T|Energy Search": 3,
-"T|Fennel": 1,
-"T|Glass Trumpet": 2,
-"T|Jacinthe": 1,
-"T|Philippe": 1,
-"T|Rosa's Encouragement": 1
+"E|Metal": 14,
+"T|Energy Search": 3
 }
 },
 "Chrono Draw Engine": {
@@ -2480,9 +2289,10 @@
 "P|SVP:#180": 1,
 "P|ME01:#095/132": 1,
 "P|BLK:#063/086": 1,
-"P|PRE:#068/131": 1,
-"P|SV08:#129/191": 3,
+"P|PRE:#068/131": 2,
+"P|SV08:#129/191": 4,
 "P|SFA:#040/064": 4,
+"P|ASH:#144/217": 1,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
@@ -2494,13 +2304,9 @@
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 2,
-"E|Metal": 16,
+"E|Metal": 19,
 "T|Ultra Ball": 1,
-"T|Energy Search": 2,
-"T|Professor Sada's Vitality": 1,
-"T|Crispin": 2,
-"T|Glass Trumpet": 1,
-"T|Jacinthe": 1
+"T|Energy Search": 1
 }
 },
 "Prize Snowball": {
@@ -2509,6 +2315,9 @@
 "cards": {
 "P|ME01:#094/132": 1,
 "P|ASH:#148/217": 1,
+"P|ASH:#146/217": 1,
+"P|SV10:#146/182": 1,
+"P|SV08:#129/191": 3,
 "P|SFA:#040/064": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
@@ -2524,11 +2333,7 @@
 "E|Metal": 17,
 "T|Ultra Ball": 1,
 "T|Energy Search": 1,
-"S|Prism Energy": 1,
-"P|SV08:#125/191": 1,
-"T|Glass Trumpet": 2,
-"T|Team Rocket's Archer": 1,
-"P|ME01:#095/132": 1
+"S|Prism Energy": 1
 }
 },
 "Static Cling Combo": {
@@ -2538,22 +2343,21 @@
 "P|ASH:#149/217": 1,
 "P|SV10:#146/182": 1,
 "P|SV08:#132/191": 1,
+"P|SV08:#129/191": 2,
 "P|SFA:#040/064": 4,
 "T|Professor's Research": 2,
-"T|Cheren": 3,
+"T|Cheren": 2,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 2,
 "T|Pok\u00e9 Ball": 1,
 "T|Switch": 2,
-"T|Night Stretcher": 3,
+"T|Night Stretcher": 2,
 "T|Earthen Vessel": 1,
 "T|Cyrano": 3,
-"E|Metal": 27,
-"P|SV08:#125/191": 2,
+"E|Metal": 28,
+"P|SV08:#125/191": 4,
 "T|Fennel": 1,
-"T|Ultra Ball": 2,
-"T|Glass Trumpet": 1,
-"T|Philippe": 1
+"T|Ultra Ball": 1
 }
 },
 "Cinderace Snipe": {
@@ -2562,7 +2366,10 @@
 "cards": {
 "P|ASH:#038/217": 1,
 "P|SV07:#026/142": 4,
-"P|BLK:#050/086": 3,
+"P|ME01:#028/132": 1,
+"P|PRE:#065/131": 1,
+"P|WHT:#049/086": 2,
+"P|BLK:#050/086": 4,
 "P|ME01:#081/132": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
@@ -2572,20 +2379,16 @@
 "T|Switch": 1,
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 1,
-"T|Cyrano": 2,
+"T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
 "T|Crispin": 4,
 "T|Pok\u00e9mon Center Lady": 2,
 "E|Darkness": 3,
-"E|Fighting": 6,
+"E|Fighting": 7,
 "E|Fire": 3,
 "T|Energy Search": 1,
-"S|Spiky Energy": 1,
-"P|MEP:#071": 1,
-"T|Glass Trumpet": 2,
-"S|Rocky Fighting Energy": 1,
-"T|Harlequin": 1
+"S|Spiky Energy": 1
 }
 },
 "Salamence Splash": {
@@ -2595,12 +2398,14 @@
 "P|SV09:#114/159": 1,
 "P|SV09:#112/159": 2,
 "P|SV09:#113/159": 2,
-"P|SV05:#031/162": 1,
-"P|ME01:#025/132": 3,
+"P|ME02:#014/094": 1,
+"P|ME01:#034/132": 1,
+"P|SV05:#031/162": 2,
+"P|ME01:#025/132": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
-"T|Buddy-Buddy Poffin": 3,
+"T|Buddy-Buddy Poffin": 2,
 "T|Pok\u00e9 Ball": 4,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
@@ -2610,11 +2415,9 @@
 "T|Dawn": 1,
 "T|Crispin": 4,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Fire": 6,
+"E|Fire": 8,
 "E|Water": 7,
-"T|Energy Search": 1,
-"S|Bubbly Water Energy": 2,
-"T|Harlequin": 3
+"T|Energy Search": 1
 }
 },
 "Galvantula Item-Lock": {
@@ -2623,25 +2426,25 @@
 "cards": {
 "P|SV07:#051/142": 1,
 "P|WHT:#033/086": 4,
-"P|WHT:#049/086": 1,
-"P|ME01:#081/132": 3,
+"P|ME01:#048/132": 1,
+"P|SV08:#110/191": 1,
+"P|WHT:#049/086": 2,
+"P|BLK:#050/086": 3,
+"P|ME01:#081/132": 2,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
-"T|Buddy-Buddy Poffin": 4,
+"T|Buddy-Buddy Poffin": 2,
 "T|Pok\u00e9 Ball": 1,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 1,
 "T|Cyrano": 2,
 "T|Crispin": 4,
-"E|Fighting": 7,
+"E|Fighting": 8,
 "E|Grass": 7,
 "E|Lightning": 7,
-"P|SV05:#057/162": 4,
-"S|Spiky Energy": 1,
-"S|Rocky Fighting Energy": 2,
-"T|Iris's Fighting Spirit": 1
+"P|SV05:#057/162": 4
 }
 },
 "Alolan Exeggutor KO-Flip": {
@@ -2651,12 +2454,13 @@
 "P|SV08:#133/191": 1,
 "P|PRE:#001/131": 4,
 "P|SV07:#038/142": 1,
+"P|SFA:#006/064": 1,
 "P|WHT:#049/086": 2,
 "P|BLK:#050/086": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
-"T|Buddy-Buddy Poffin": 3,
+"T|Buddy-Buddy Poffin": 4,
 "T|Pok\u00e9 Ball": 3,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
@@ -2665,16 +2469,12 @@
 "T|Rare Candy": 4,
 "T|Dawn": 1,
 "T|Crispin": 4,
-"E|Fighting": 3,
-"E|Grass": 4,
+"E|Fighting": 4,
+"E|Grass": 5,
 "E|Water": 4,
 "T|Energy Search": 1,
 "T|Ultra Ball": 1,
-"P|SV08:#015/191": 1,
-"S|Bubbly Water Energy": 1,
-"T|Tera Orb": 1,
-"T|Tyme": 1,
-"T|Carmine": 1
+"P|SV08:#015/191": 1
 }
 },
 "Miraidon Future": {
@@ -2683,26 +2483,24 @@
 "cards": {
 "P|SV05:#122/162": 1,
 "P|PRE:#046/131": 1,
+"P|SV05:#062/162": 1,
+"P|SV08:#079/191": 2,
 "P|SV05:#057/162": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 4,
-"T|Pok\u00e9 Ball": 3,
+"T|Pok\u00e9 Ball": 1,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 1,
 "T|Cyrano": 2,
 "T|Crispin": 4,
-"E|Lightning": 11,
-"E|Psychic": 12,
+"E|Lightning": 13,
+"E|Psychic": 13,
 "T|Fennel": 1,
 "S|Prism Energy": 1,
-"T|Judge": 1,
-"T|Energy Search": 1,
-"S|Telepathic Psychic Energy": 1,
-"T|Rosa's Encouragement": 1,
-"T|Drasna": 1
+"T|Judge": 1
 }
 },
 "Flygon Anti-Ex": {
@@ -2712,28 +2510,28 @@
 "P|SV08:#106/191": 1,
 "P|SV08:#104/191": 4,
 "P|ME02:#052/094": 1,
-"P|BLK:#050/086": 3,
+"P|SV08:#110/191": 1,
+"P|SV07:#076/142": 1,
+"P|WHT:#049/086": 2,
+"P|BLK:#050/086": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
-"T|Buddy-Buddy Poffin": 3,
+"T|Buddy-Buddy Poffin": 2,
 "T|Pok\u00e9 Ball": 4,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
-"T|Earthen Vessel": 2,
+"T|Earthen Vessel": 1,
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
 "T|Crispin": 3,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Fighting": 8,
+"E|Fighting": 9,
 "E|Metal": 4,
 "E|Water": 3,
 "T|Ultra Ball": 1,
-"S|Spiky Energy": 1,
-"T|Team Rocket's Archer": 1,
-"P|MEP:#071": 2,
-"T|Drasna": 1
+"S|Spiky Energy": 1
 }
 },
 "Mega Dragalge Poison": {
@@ -2743,25 +2541,25 @@
 "P|ME04:#065/086": 1,
 "P|ME04:#058/086": 4,
 "P|ME02:#068/094": 1,
-"P|ME02:#069/094": 3,
+"P|SV06:#053/167": 1,
+"P|ME02:#069/094": 4,
+"P|ASH:#054/217": 4,
 "P|ME02:#062/094": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
-"T|Buddy-Buddy Poffin": 3,
-"T|Pok\u00e9 Ball": 4,
+"T|Buddy-Buddy Poffin": 2,
+"T|Pok\u00e9 Ball": 3,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
-"T|Earthen Vessel": 3,
+"T|Earthen Vessel": 2,
 "T|Mega Signal": 2,
 "T|Crispin": 4,
 "T|Pok\u00e9mon Center Lady": 2,
 "E|Darkness": 7,
 "E|Water": 6,
 "T|Energy Search": 2,
-"T|Ultra Ball": 1,
-"T|Carmine": 2,
-"S|Bubbly Water Energy": 1
+"T|Ultra Ball": 1
 }
 },
 "Palossand Control": {
@@ -2770,9 +2568,11 @@
 "cards": {
 "P|SV08:#091/191": 1,
 "P|SV08:#090/191": 4,
+"P|SFA:#020/064": 1,
 "P|SFA:#019/064": 2,
-"P|WHT:#049/086": 2,
-"P|SV08:#079/191": 2,
+"P|SV06:#082/167": 1,
+"P|WHT:#049/086": 3,
+"P|SV08:#079/191": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
@@ -2785,15 +2585,10 @@
 "T|Rare Candy": 4,
 "T|Dawn": 1,
 "T|Crispin": 4,
-"E|Fighting": 3,
+"E|Fighting": 4,
 "E|Psychic": 4,
-"E|Water": 4,
-"T|Energy Search": 1,
-"P|PRE:#046/131": 1,
-"T|Professor Sada's Vitality": 1,
-"S|Rocky Fighting Energy": 1,
-"T|Carmine": 1,
-"T|Harlequin": 1
+"E|Water": 3,
+"T|Energy Search": 1
 }
 },
 "Tatsugiri Toolbox": {
@@ -2803,10 +2598,10 @@
 "P|SV08:#142/191": 1,
 "P|ME01:#034/132": 1,
 "P|PRE:#065/131": 1,
-"P|SV05:#031/162": 2,
-"P|ME01:#025/132": 3,
+"P|SV05:#031/162": 3,
+"P|ME01:#025/132": 4,
 "P|ME02:#069/094": 4,
-"T|Professor's Research": 3,
+"T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 2,
@@ -2816,15 +2611,10 @@
 "T|Earthen Vessel": 2,
 "T|Cyrano": 1,
 "T|Crispin": 4,
-"E|Darkness": 5,
-"E|Fire": 6,
-"E|Water": 6,
-"S|Prism Energy": 4,
-"T|Rosa's Encouragement": 1,
-"T|Professor Sada's Vitality": 1,
-"T|Kofu": 1,
-"T|Carmine": 1,
-"T|Glass Trumpet": 1
+"E|Darkness": 7,
+"E|Fire": 7,
+"E|Water": 7,
+"S|Prism Energy": 4
 }
 },
 "Mega Latias Nuke": {
@@ -2834,7 +2624,8 @@
 "P|MEP:#011": 1,
 "P|SV09:#107/159": 1,
 "P|ME04:#013/086": 1,
-"P|SV08:#079/191": 1,
+"P|SV08:#079/191": 2,
+"P|ME01:#025/132": 3,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
@@ -2845,16 +2636,12 @@
 "T|Earthen Vessel": 4,
 "T|Mega Signal": 2,
 "T|Rare Candy": 4,
-"T|Dawn": 3,
+"T|Dawn": 2,
 "T|Crispin": 4,
 "E|Fire": 8,
-"E|Psychic": 8,
+"E|Psychic": 9,
 "S|Prism Energy": 3,
-"T|Fennel": 1,
-"T|Lillie's Determination": 1,
-"T|Glass Trumpet": 1,
-"P|SV05:#032/162": 1,
-"S|Spiky Energy": 1
+"T|Fennel": 1
 }
 },
 "Mega Skarmory Snipe": {
@@ -2863,28 +2650,25 @@
 "cards": {
 "P|ME03:#055/088": 1,
 "P|ASH:#148/217": 1,
-"P|ASH:#146/217": 1,
+"P|ASH:#146/217": 2,
 "P|BLK:#066/086": 1,
 "P|PRE:#068/131": 4,
 "P|SV08:#129/191": 3,
 "P|SFA:#040/064": 4,
-"P|ASH:#144/217": 3,
+"P|ASH:#144/217": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 2,
 "T|Boss's Orders": 2,
-"T|Buddy-Buddy Poffin": 3,
+"T|Buddy-Buddy Poffin": 2,
 "T|Pok\u00e9 Ball": 1,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
-"T|Earthen Vessel": 2,
+"T|Earthen Vessel": 1,
 "T|Mega Signal": 2,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
-"E|Metal": 16,
-"P|SV08:#125/191": 2,
-"T|Professor Sada's Vitality": 1,
-"T|Glass Trumpet": 1,
-"T|Energy Coin": 1
+"E|Metal": 18,
+"P|SV08:#125/191": 3
 }
 },
 "Revavroom Hit-and-Run": {
@@ -2895,6 +2679,7 @@
 "P|SV06:#124/167": 4,
 "P|ASH:#148/217": 1,
 "P|SV10:#146/182": 1,
+"P|SV08:#129/191": 2,
 "P|SFA:#040/064": 4,
 "T|Professor's Research": 3,
 "T|Cheren": 4,
@@ -2902,17 +2687,14 @@
 "T|Buddy-Buddy Poffin": 4,
 "T|Pok\u00e9 Ball": 4,
 "T|Switch": 1,
-"T|Night Stretcher": 3,
+"T|Night Stretcher": 2,
 "T|Earthen Vessel": 4,
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
-"E|Metal": 12,
+"E|Metal": 14,
 "T|Energy Search": 2,
-"T|Ultra Ball": 1,
-"T|Carmine": 1,
-"T|Glass Trumpet": 1,
-"T|Jumbo Ice Cream": 1
+"T|Ultra Ball": 1
 }
 },
 "Scizor Flex": {
@@ -2922,7 +2704,8 @@
 "P|SV05:#111/162": 1,
 "P|SV05:#001/162": 4,
 "P|BLK:#063/086": 1,
-"P|ME01:#070/132": 1,
+"P|ME01:#093/132": 1,
+"P|ME01:#070/132": 3,
 "P|SFA:#040/064": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
@@ -2935,14 +2718,10 @@
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
-"E|Metal": 9,
-"T|Energy Search": 2,
+"E|Metal": 12,
+"T|Energy Search": 1,
 "T|Ultra Ball": 1,
-"S|Prism Energy": 4,
-"T|Professor Sada's Vitality": 1,
-"T|Glass Trumpet": 2,
-"T|Philippe": 1,
-"S|Magnetic Metal Energy": 1
+"S|Prism Energy": 4
 }
 },
 "Melmetal Axe": {
@@ -2954,24 +2733,21 @@
 "P|SV07:#104/142": 1,
 "P|ME01:#093/132": 1,
 "P|ME01:#070/132": 4,
-"P|SV08:#129/191": 3,
+"P|PRE:#068/131": 1,
+"P|SV08:#129/191": 4,
 "P|SFA:#040/064": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
-"T|Buddy-Buddy Poffin": 4,
+"T|Buddy-Buddy Poffin": 3,
 "T|Pok\u00e9 Ball": 1,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 2,
 "T|Cyrano": 1,
 "T|Philippe": 4,
-"E|Metal": 14,
-"T|Energy Search": 2,
-"T|Fennel": 1,
-"T|Professor Sada's Vitality": 1,
-"T|Lt. Surge's Bargain": 1,
-"T|Glass Trumpet": 2
+"E|Metal": 18,
+"T|Energy Search": 2
 }
 },
 "Metal Maker Ramp": {
@@ -2982,8 +2758,8 @@
 "P|BLK:#063/086": 1,
 "P|BLK:#061/086": 1,
 "P|ASH:#148/217": 1,
-"P|PRE:#068/131": 2,
-"P|SV08:#129/191": 3,
+"P|PRE:#068/131": 4,
+"P|SV08:#129/191": 4,
 "P|SFA:#040/064": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
@@ -2996,12 +2772,9 @@
 "T|Cyrano": 2,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
-"E|Metal": 12,
+"E|Metal": 14,
 "T|Energy Search": 2,
-"T|Fennel": 1,
-"T|Glass Trumpet": 2,
-"T|Philippe": 1,
-"T|Rosa's Encouragement": 2
+"T|Fennel": 1
 }
 },
 "Symphonia Flood": {
@@ -3010,7 +2783,10 @@
 "cards": {
 "P|ME01:#060/132": 1,
 "P|ME01:#058/132": 4,
+"P|SV08:#092/191": 1,
+"P|ME02:#045/094": 1,
 "P|SV08:#079/191": 4,
+"P|SV08:#088/191": 2,
 "P|SV05:#079/162": 1,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
@@ -3024,12 +2800,8 @@
 "T|Rare Candy": 4,
 "T|Dawn": 1,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Psychic": 12,
-"T|Ultra Ball": 1,
-"T|Rosa's Encouragement": 1,
-"T|Harlequin": 1,
-"P|PRE:#046/131": 2,
-"T|Carmine": 1
+"E|Psychic": 13,
+"T|Ultra Ball": 1
 }
 },
 "Warded Symphonia": {
@@ -3039,13 +2811,14 @@
 "P|ME01:#060/132": 1,
 "P|ME01:#058/132": 4,
 "P|ASH:#088/217": 1,
+"P|SV06:#082/167": 1,
 "P|ME01:#055/132": 1,
 "P|SFA:#020/064": 1,
 "P|SFA:#019/064": 1,
-"P|SV08:#079/191": 2,
+"P|SV08:#079/191": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
-"T|Boss's Orders": 3,
+"T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 4,
 "T|Pok\u00e9 Ball": 2,
 "T|Switch": 1,
@@ -3055,12 +2828,9 @@
 "T|Rare Candy": 4,
 "T|Dawn": 1,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Psychic": 11,
+"E|Psychic": 12,
 "T|Energy Search": 3,
-"T|Ultra Ball": 1,
-"P|PRE:#046/131": 1,
-"T|Team Rocket's Archer": 1,
-"P|SV05:#063/162": 1
+"T|Ultra Ball": 1
 }
 },
 "Scattergun Ward": {
@@ -3069,8 +2839,9 @@
 "cards": {
 "P|SV05:#108/162": 1,
 "P|SV05:#066/162": 4,
+"P|SV06:#082/167": 1,
 "P|ASH:#099/217": 1,
-"P|SV08:#079/191": 2,
+"P|SV08:#079/191": 4,
 "P|ME02:#069/094": 4,
 "P|ME02:#062/094": 3,
 "T|Professor's Research": 3,
@@ -3085,13 +2856,11 @@
 "T|Rare Candy": 4,
 "T|Dawn": 1,
 "T|Crispin": 4,
-"E|Darkness": 6,
-"E|Psychic": 6,
+"E|Darkness": 7,
+"E|Psychic": 5,
 "T|Pok\u00e9 Pad": 1,
 "T|Ultra Ball": 1,
-"T|Energy Search": 1,
-"P|SV06:#096/167": 1,
-"T|Glass Trumpet": 2
+"T|Energy Search": 1
 }
 },
 "Cobalt Crossfire": {
@@ -3102,21 +2871,20 @@
 "P|PRE:#046/131": 1,
 "P|ME02:#045/094": 1,
 "P|SV08:#079/191": 4,
-"P|SV08:#088/191": 1,
-"P|SV05:#079/162": 2,
-"T|Professor's Research": 3,
+"P|SV08:#088/191": 3,
+"P|SV05:#079/162": 4,
+"P|SV08:#077/191": 1,
+"T|Professor's Research": 2,
 "T|Cheren": 2,
 "T|Boss's Orders": 2,
-"T|Buddy-Buddy Poffin": 4,
+"T|Buddy-Buddy Poffin": 3,
 "T|Pok\u00e9 Ball": 1,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
-"T|Earthen Vessel": 2,
+"T|Earthen Vessel": 1,
 "T|Cyrano": 1,
-"E|Psychic": 27,
-"T|Fennel": 3,
-"T|Glass Trumpet": 2,
-"T|Crispin": 1
+"E|Psychic": 29,
+"T|Fennel": 2
 }
 },
 "Waltz of Whispers": {
@@ -3125,8 +2893,10 @@
 "cards": {
 "P|ME02:#036/094": 1,
 "P|ASH:#085/217": 4,
+"P|ASH:#086/217": 1,
+"P|SV08:#092/191": 1,
 "P|SV08:#079/191": 4,
-"P|SV05:#079/162": 1,
+"P|SV05:#079/162": 2,
 "T|Professor's Research": 3,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
@@ -3136,12 +2906,8 @@
 "T|Night Stretcher": 2,
 "T|Earthen Vessel": 1,
 "T|Cyrano": 1,
-"E|Psychic": 21,
-"T|Pok\u00e9 Pad": 2,
-"T|Glass Trumpet": 1,
-"P|PRE:#046/131": 2,
-"T|Rosa's Encouragement": 1,
-"T|Jacinthe": 1
+"E|Psychic": 23,
+"T|Pok\u00e9 Pad": 2
 }
 },
 "Deep Prison": {
@@ -3153,24 +2919,23 @@
 "P|SFA:#020/064": 1,
 "P|SFA:#019/064": 1,
 "P|WHT:#040/086": 1,
-"P|SV08:#079/191": 3,
+"P|SV08:#079/191": 2,
 "P|SV05:#079/162": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 4,
-"T|Pok\u00e9 Ball": 3,
+"T|Pok\u00e9 Ball": 4,
 "T|Switch": 1,
 "T|Night Stretcher": 2,
 "T|Earthen Vessel": 4,
 "T|Cyrano": 2,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
-"E|Psychic": 11,
+"E|Psychic": 12,
 "T|Ultra Ball": 1,
 "T|Energy Search": 2,
-"T|Pok\u00e9 Pad": 1,
-"S|Mist Energy": 1
+"T|Pok\u00e9 Pad": 1
 }
 },
 "Fairy-Slayer": {
@@ -3178,8 +2943,10 @@
 "ace": "P|SVP:#179",
 "cards": {
 "P|SVP:#179": 1,
-"P|SV08:#079/191": 1,
-"P|SV05:#079/162": 2,
+"P|ME02:#045/094": 1,
+"P|SV06:#093/167": 1,
+"P|SV08:#079/191": 2,
+"P|SV05:#079/162": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
@@ -3188,13 +2955,10 @@
 "T|Switch": 1,
 "T|Night Stretcher": 4,
 "T|Earthen Vessel": 2,
-"T|Cyrano": 4,
-"E|Psychic": 24,
+"T|Cyrano": 3,
+"E|Psychic": 25,
 "T|Ultra Ball": 1,
-"T|Fennel": 1,
-"T|Glass Trumpet": 2,
-"S|Mist Energy": 1,
-"P|PRE:#046/131": 2
+"T|Fennel": 1
 }
 },
 "Full Hand Nova": {
@@ -3204,8 +2968,9 @@
 "P|ME03:#031/088": 1,
 "P|ME03:#030/088": 4,
 "P|PRE:#046/131": 1,
+"P|ASH:#098/217": 1,
 "P|SV08:#079/191": 3,
-"P|SV05:#079/162": 2,
+"P|SV05:#079/162": 3,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
@@ -3216,12 +2981,8 @@
 "T|Earthen Vessel": 2,
 "T|Mega Signal": 2,
 "T|Pok\u00e9mon Center Lady": 3,
-"E|Psychic": 17,
-"T|Ultra Ball": 1,
-"T|Professor Sada's Vitality": 2,
-"T|Harlequin": 1,
-"T|Jacinthe": 1,
-"S|Telepathic Psychic Energy": 1
+"E|Psychic": 20,
+"T|Ultra Ball": 1
 }
 },
 "Curtain-Riser": {
@@ -3229,25 +2990,22 @@
 "ace": "P|BLK:#044/086",
 "cards": {
 "P|BLK:#044/086": 1,
+"P|ME02:#045/094": 1,
 "P|SV08:#092/191": 1,
-"P|SV08:#079/191": 3,
-"P|SV05:#079/162": 2,
+"P|SV08:#079/191": 4,
+"P|SV08:#088/191": 2,
+"P|SV05:#079/162": 3,
 "T|Professor's Research": 2,
-"T|Cheren": 4,
+"T|Cheren": 3,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 2,
 "T|Pok\u00e9 Ball": 3,
 "T|Switch": 3,
-"T|Night Stretcher": 4,
+"T|Night Stretcher": 3,
 "T|Earthen Vessel": 1,
 "T|Cyrano": 3,
-"E|Psychic": 23,
-"T|Ultra Ball": 1,
-"T|Glass Trumpet": 1,
-"T|Crispin": 1,
-"T|Jacinthe": 1,
-"T|Rosa's Encouragement": 1,
-"P|PRE:#046/131": 1
+"E|Psychic": 25,
+"T|Ultra Ball": 1
 }
 },
 "Silent Scream": {
@@ -3255,13 +3013,15 @@
 "ace": "P|SV06:#094/167",
 "cards": {
 "P|SV06:#094/167": 1,
+"P|SFA:#020/064": 1,
 "P|SFA:#019/064": 2,
+"P|ME02:#045/094": 1,
 "P|SV08:#079/191": 4,
-"P|SV05:#079/162": 2,
+"P|SV05:#079/162": 4,
 "T|Professor's Research": 3,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
-"T|Buddy-Buddy Poffin": 3,
+"T|Buddy-Buddy Poffin": 2,
 "T|Pok\u00e9 Ball": 1,
 "T|Switch": 1,
 "T|Night Stretcher": 2,
@@ -3269,11 +3029,9 @@
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
-"E|Psychic": 18,
+"E|Psychic": 20,
 "T|Energy Search": 2,
-"T|Fennel": 1,
-"T|Glass Trumpet": 3,
-"P|PRE:#046/131": 2
+"T|Fennel": 1
 }
 },
 "Sweet Stall": {
@@ -3284,25 +3042,25 @@
 "P|ME02:#043/094": 4,
 "P|WHT:#043/086": 1,
 "P|ASH:#098/217": 1,
-"P|SV08:#079/191": 3,
+"P|SV08:#079/191": 4,
+"P|SV08:#088/191": 2,
+"P|SV05:#079/162": 3,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 2,
-"T|Pok\u00e9 Ball": 4,
+"T|Pok\u00e9 Ball": 3,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 3,
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
-"T|Dawn": 2,
+"T|Dawn": 1,
 "E|Psychic": 16,
 "T|Ultra Ball": 1,
 "T|Energy Search": 1,
 "T|Pok\u00e9 Pad": 1,
-"S|Prism Energy": 2,
-"P|SV05:#063/162": 2,
-"T|Jacinthe": 1
+"S|Prism Energy": 1
 }
 },
 "Detonation Coat": {
@@ -3310,9 +3068,11 @@
 "ace": "P|ME02:#041/094",
 "cards": {
 "P|ME02:#041/094": 1,
+"P|ASH:#098/217": 1,
 "P|SV06:#093/167": 1,
-"P|SV08:#079/191": 3,
-"P|SV05:#079/162": 1,
+"P|SV08:#079/191": 4,
+"P|SV08:#088/191": 1,
+"P|SV05:#079/162": 2,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
@@ -3322,13 +3082,8 @@
 "T|Night Stretcher": 3,
 "T|Earthen Vessel": 1,
 "T|Mega Signal": 3,
-"E|Psychic": 25,
-"T|Fennel": 1,
-"T|Pok\u00e9 Pad": 1,
-"T|Rosa's Encouragement": 2,
-"T|Crispin": 1,
-"P|PRE:#046/131": 1,
-"T|Drasna": 1
+"E|Psychic": 27,
+"T|Fennel": 1
 }
 },
 "Coin-Flip Reaper": {
@@ -3339,8 +3094,8 @@
 "P|ME01:#065/132": 3,
 "P|PRE:#046/131": 1,
 "P|SV06:#093/167": 1,
-"P|SV08:#079/191": 3,
-"P|SV05:#079/162": 3,
+"P|SV08:#079/191": 4,
+"P|SV05:#079/162": 4,
 "T|Professor's Research": 4,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
@@ -3350,14 +3105,9 @@
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 1,
 "T|Cyrano": 1,
-"E|Psychic": 20,
-"T|Fennel": 2,
-"T|Ultra Ball": 1,
-"T|Rosa's Encouragement": 1,
-"T|Wondrous Patch": 1,
-"S|Spiky Energy": 1,
-"S|Mist Energy": 1,
-"T|Glass Trumpet": 1
+"E|Psychic": 24,
+"T|Fennel": 1,
+"T|Ultra Ball": 1
 }
 },
 "Mercy for All": {
@@ -3365,9 +3115,11 @@
 "ace": "P|ME04:#035/086",
 "cards": {
 "P|ME04:#035/086": 1,
+"P|WHT:#043/086": 1,
+"P|WHT:#041/086": 1,
 "P|SV06:#093/167": 1,
-"P|SV08:#079/191": 1,
-"P|SV08:#088/191": 2,
+"P|SV08:#079/191": 3,
+"P|SV08:#088/191": 3,
 "P|SV05:#079/162": 2,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
@@ -3382,11 +3134,7 @@
 "T|Dawn": 1,
 "E|Psychic": 20,
 "T|Ultra Ball": 1,
-"S|Prism Energy": 1,
-"T|Fennel": 1,
-"T|Glass Trumpet": 2,
-"T|Energy Coin": 1,
-"P|PRE:#046/131": 1
+"S|Prism Energy": 1
 }
 },
 "Battle-Scarred Bench": {
@@ -3395,26 +3143,25 @@
 "cards": {
 "P|ME04:#041/086": 1,
 "P|ME04:#040/086": 4,
+"P|SFA:#020/064": 1,
+"P|ME02:#045/094": 1,
 "P|SV08:#079/191": 4,
+"P|SV08:#088/191": 2,
+"P|SV05:#079/162": 2,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 4,
 "T|Pok\u00e9 Ball": 4,
 "T|Switch": 1,
-"T|Night Stretcher": 3,
+"T|Night Stretcher": 2,
 "T|Earthen Vessel": 3,
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
-"E|Psychic": 12,
+"E|Psychic": 13,
 "T|Ultra Ball": 3,
-"T|Energy Search": 2,
-"T|TM Machine": 1,
-"S|Telepathic Psychic Energy": 1,
-"T|Carmine": 1,
-"T|Glass Trumpet": 1,
-"P|PRE:#046/131": 1
+"T|Energy Search": 1
 }
 },
 "Flutter Lock": {
@@ -3424,6 +3171,7 @@
 "P|ME01:#060/132": 1,
 "P|ME01:#058/132": 4,
 "P|ASH:#088/217": 2,
+"P|PRE:#043/131": 1,
 "P|PRE:#040/131": 1,
 "P|SV08:#143/191": 3,
 "P|SV08:#079/191": 2,
@@ -3434,15 +3182,14 @@
 "T|Pok\u00e9 Ball": 2,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
-"T|Earthen Vessel": 2,
+"T|Earthen Vessel": 1,
 "T|Mega Signal": 2,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Psychic": 15,
+"E|Psychic": 16,
 "T|Ultra Ball": 3,
-"T|Energy Search": 1,
-"P|PRE:#046/131": 1
+"T|Energy Search": 1
 }
 },
 "Bubble Balloon": {
@@ -3451,8 +3198,11 @@
 "cards": {
 "P|ASH:#084/217": 1,
 "P|SV05:#064/162": 4,
-"P|SV08:#079/191": 2,
-"P|SV08:#088/191": 1,
+"P|ASH:#098/217": 1,
+"P|SV06:#093/167": 1,
+"P|SV08:#079/191": 4,
+"P|SV08:#088/191": 2,
+"P|SV05:#079/162": 2,
 "T|Professor's Research": 3,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
@@ -3460,13 +3210,9 @@
 "T|Pok\u00e9 Ball": 4,
 "T|Switch": 1,
 "T|Night Stretcher": 2,
-"T|Earthen Vessel": 3,
+"T|Earthen Vessel": 2,
 "T|Cyrano": 1,
-"E|Psychic": 22,
-"T|Pok\u00e9 Pad": 1,
-"P|PRE:#046/131": 2,
-"T|Glass Trumpet": 2,
-"T|Harlequin": 1
+"E|Psychic": 22
 }
 },
 "Burn Engine": {
@@ -3477,7 +3223,7 @@
 "P|ME01:#021/132": 4,
 "P|SV05:#029/162": 1,
 "P|SV09:#021/159": 1,
-"P|SV05:#031/162": 1,
+"P|SV05:#031/162": 3,
 "P|ME01:#025/132": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
@@ -3486,16 +3232,13 @@
 "T|Pok\u00e9 Ball": 4,
 "T|Switch": 1,
 "T|Night Stretcher": 3,
-"T|Earthen Vessel": 2,
+"T|Earthen Vessel": 1,
 "T|Mega Signal": 2,
 "T|Firebreather": 4,
-"T|Pok\u00e9mon Center Lady": 4,
-"E|Fire": 10,
+"T|Pok\u00e9mon Center Lady": 3,
+"E|Fire": 13,
 "T|Energy Search": 2,
-"S|Prism Energy": 1,
-"T|Team Rocket's Archer": 1,
-"T|Glass Trumpet": 1,
-"T|Crispin": 1
+"S|Prism Energy": 1
 }
 },
 "Ethan's Turbo": {
@@ -3506,8 +3249,8 @@
 "P|ASH:#024/217": 1,
 "P|SV10:#034/182": 1,
 "P|SV10:#032/182": 1,
-"P|SV05:#031/162": 2,
-"P|ME01:#025/132": 2,
+"P|SV05:#031/162": 3,
+"P|ME01:#025/132": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
@@ -3521,13 +3264,9 @@
 "T|Dawn": 2,
 "T|Firebreather": 4,
 "T|Ethan's Adventure": 3,
-"E|Fire": 14,
+"E|Fire": 15,
 "T|Energy Search": 1,
-"S|Prism Energy": 1,
-"T|Crispin": 1,
-"T|Professor Sada's Vitality": 1,
-"S|Mist Energy": 1,
-"T|Glass Trumpet": 1
+"S|Prism Energy": 1
 }
 },
 "Emboar Overload": {
@@ -3538,6 +3277,7 @@
 "P|WHT:#011/086": 3,
 "P|ASH:#030/217": 1,
 "P|WHT:#013/086": 2,
+"P|SV05:#031/162": 2,
 "P|ME01:#025/132": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
@@ -3551,14 +3291,9 @@
 "T|Rare Candy": 4,
 "T|Dawn": 1,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Fire": 11,
+"E|Fire": 14,
 "T|Energy Search": 3,
-"T|Ultra Ball": 1,
-"S|Prism Energy": 1,
-"T|Rosa's Encouragement": 1,
-"T|Glass Trumpet": 1,
-"T|Professor Sada's Vitality": 1,
-"T|Harlequin": 1
+"T|Ultra Ball": 1
 }
 },
 "Pyroar Wall": {
@@ -3569,7 +3304,8 @@
 "P|PRE:#015/131": 4,
 "P|SV08:#031/191": 1,
 "P|ME04:#013/086": 1,
-"P|ME01:#025/132": 2,
+"P|SV05:#031/162": 1,
+"P|ME01:#025/132": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
@@ -3581,15 +3317,10 @@
 "T|Mega Signal": 2,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
-"T|Pok\u00e9mon Center Lady": 3,
-"E|Fire": 10,
+"T|Pok\u00e9mon Center Lady": 2,
+"E|Fire": 13,
 "T|Energy Search": 3,
-"T|Ultra Ball": 1,
-"T|Harlequin": 1,
-"T|Carmine": 1,
-"S|Mist Energy": 1,
-"T|Glass Trumpet": 1,
-"T|Professor Sada's Vitality": 1
+"T|Ultra Ball": 1
 }
 },
 "Volcanion Spread-Burn": {
@@ -3597,14 +3328,16 @@
 "ace": "P|SV09:#031/159",
 "cards": {
 "P|SV09:#031/159": 1,
+"P|SV09:#021/159": 1,
 "P|SV06:#033/167": 1,
+"P|SV06:#032/167": 1,
 "P|WHT:#049/086": 4,
 "P|BLK:#050/086": 4,
-"P|ME01:#081/132": 3,
+"P|ME01:#081/132": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
-"T|Buddy-Buddy Poffin": 3,
+"T|Buddy-Buddy Poffin": 2,
 "T|Pok\u00e9 Ball": 2,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
@@ -3613,13 +3346,10 @@
 "T|Rare Candy": 4,
 "T|Dawn": 2,
 "T|Crispin": 4,
-"E|Fighting": 5,
+"E|Fighting": 6,
 "E|Fire": 6,
 "S|Spiky Energy": 2,
-"T|Energy Search": 1,
-"T|Harlequin": 1,
-"T|Rosa's Encouragement": 1,
-"S|Rocky Fighting Energy": 1
+"T|Energy Search": 1
 }
 },
 "Reshiram Comeback": {
@@ -3629,22 +3359,20 @@
 "P|WHT:#020/086": 1,
 "P|ASH:#025/217": 1,
 "P|ME02:#014/094": 1,
-"P|ME01:#025/132": 3,
+"P|ME01:#025/132": 4,
+"P|WHT:#071/086": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 2,
-"T|Pok\u00e9 Ball": 4,
+"T|Pok\u00e9 Ball": 3,
 "T|Switch": 1,
 "T|Night Stretcher": 4,
-"T|Earthen Vessel": 2,
+"T|Earthen Vessel": 1,
 "T|Cyrano": 3,
-"E|Fire": 23,
-"T|Ultra Ball": 2,
-"S|Prism Energy": 1,
-"T|Rosa's Encouragement": 2,
-"T|Professor Sada's Vitality": 1,
-"S|Mist Energy": 1
+"E|Fire": 25,
+"T|Ultra Ball": 1,
+"S|Prism Energy": 1
 }
 },
 "Incineroar Bench-Punish": {
@@ -3656,13 +3384,14 @@
 "P|SV05:#033/162": 1,
 "P|SV09:#021/159": 1,
 "P|SV05:#029/162": 1,
-"P|ME01:#025/132": 1,
+"P|SV05:#031/162": 2,
+"P|ME01:#025/132": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 2,
 "T|Pok\u00e9 Ball": 1,
-"T|Switch": 2,
+"T|Switch": 1,
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 3,
 "T|Cyrano": 1,
@@ -3670,14 +3399,8 @@
 "T|Dawn": 1,
 "T|Firebreather": 4,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Fire": 13,
-"T|Energy Search": 3,
-"S|Prism Energy": 1,
-"T|Fennel": 1,
-"T|Glass Trumpet": 1,
-"T|Rosa's Encouragement": 1,
-"S|Mist Energy": 1,
-"T|Drasna": 1
+"E|Fire": 15,
+"T|Energy Search": 3
 }
 },
 "Salazzle Toolbox": {
@@ -3687,25 +3410,25 @@
 "P|ME03:#016/088": 1,
 "P|SV07:#023/142": 4,
 "P|SV09:#021/159": 1,
+"P|SV06:#038/167": 1,
+"P|SV05:#031/162": 1,
 "P|ME01:#025/132": 4,
+"P|WHT:#071/086": 2,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 4,
-"T|Pok\u00e9 Ball": 4,
+"T|Pok\u00e9 Ball": 3,
 "T|Switch": 1,
 "T|Night Stretcher": 2,
 "T|Earthen Vessel": 4,
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
-"E|Fire": 11,
+"E|Fire": 13,
 "T|Ultra Ball": 2,
 "T|Energy Search": 2,
-"S|Prism Energy": 1,
-"T|Pok\u00e9 Pad": 1,
-"T|Glass Trumpet": 3,
-"P|BLK:#012/086": 1
+"S|Prism Energy": 1
 }
 },
 "Hearthflame Anti-Evolution": {
@@ -3715,8 +3438,9 @@
 "P|SV06:#040/167": 1,
 "P|ME02:#014/094": 1,
 "P|ASH:#025/217": 1,
+"P|SV05:#031/162": 1,
 "P|ME01:#025/132": 4,
-"P|SFA:#009/064": 1,
+"P|SFA:#009/064": 3,
 "T|Professor's Research": 3,
 "T|Cheren": 4,
 "T|Boss's Orders": 3,
@@ -3724,13 +3448,9 @@
 "T|Pok\u00e9 Ball": 1,
 "T|Switch": 2,
 "T|Night Stretcher": 3,
-"T|Earthen Vessel": 2,
-"T|Cyrano": 3,
-"E|Fire": 22,
-"T|Crispin": 2,
-"T|Professor Sada's Vitality": 1,
-"S|Mist Energy": 1,
-"T|Glass Trumpet": 1
+"T|Earthen Vessel": 1,
+"T|Cyrano": 2,
+"E|Fire": 26
 }
 },
 "Magcargo Mill-Burn": {
@@ -3741,6 +3461,7 @@
 "P|SV05:#028/162": 4,
 "P|SV09:#021/159": 1,
 "P|SV05:#029/162": 1,
+"P|SV05:#031/162": 3,
 "P|ME01:#025/132": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
@@ -3751,11 +3472,8 @@
 "T|Night Stretcher": 2,
 "T|Earthen Vessel": 2,
 "T|Cyrano": 1,
-"E|Fire": 20,
-"T|Ultra Ball": 3,
-"T|Crispin": 1,
-"T|Tyme": 1,
-"T|Glass Trumpet": 2
+"E|Fire": 22,
+"T|Ultra Ball": 2
 }
 },
 "Scovillain Rage": {
@@ -3768,7 +3486,7 @@
 "P|ME02:#014/094": 1,
 "P|SV05:#031/162": 2,
 "P|ME01:#025/132": 4,
-"P|SV08:#015/191": 3,
+"P|SV08:#015/191": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
@@ -3777,15 +3495,12 @@
 "T|Switch": 1,
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 2,
-"T|Cyrano": 3,
+"T|Cyrano": 2,
 "T|Crispin": 4,
-"E|Fire": 8,
-"E|Grass": 8,
+"E|Fire": 10,
+"E|Grass": 9,
 "T|Energy Search": 1,
-"T|Ultra Ball": 2,
-"T|Kofu": 1,
-"T|Team Rocket's Archer": 1,
-"T|Harlequin": 1
+"T|Ultra Ball": 2
 }
 },
 "Gouging Fire Pivot": {
@@ -3795,7 +3510,7 @@
 "P|SV05:#038/162": 1,
 "P|SV08:#038/191": 1,
 "P|SV06:#033/167": 1,
-"P|BLK:#050/086": 3,
+"P|BLK:#050/086": 4,
 "P|ME01:#081/132": 4,
 "T|Professor's Research": 3,
 "T|Cheren": 4,
@@ -3809,15 +3524,11 @@
 "T|Rare Candy": 4,
 "T|Dawn": 1,
 "T|Crispin": 4,
-"E|Fighting": 7,
-"E|Fire": 7,
+"E|Fighting": 8,
+"E|Fire": 9,
 "T|Energy Search": 1,
 "S|Spiky Energy": 2,
-"S|Prism Energy": 1,
-"T|Judge": 1,
-"T|Carmine": 1,
-"T|Rosa's Encouragement": 1,
-"T|Professor Sada's Vitality": 1
+"S|Prism Energy": 1
 }
 },
 "Oricorio Support-Trap": {
@@ -3827,23 +3538,20 @@
 "P|ME02:#018/094": 1,
 "P|ASH:#025/217": 1,
 "P|ME02:#014/094": 1,
-"P|SV05:#031/162": 2,
-"P|ME01:#025/132": 3,
-"P|WHT:#071/086": 1,
+"P|SV05:#031/162": 4,
+"P|ME01:#025/132": 4,
+"P|WHT:#071/086": 3,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 3,
 "T|Pok\u00e9 Ball": 1,
-"T|Switch": 2,
+"T|Switch": 1,
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 1,
 "T|Cyrano": 2,
 "E|Fire": 28,
-"T|Ultra Ball": 1,
-"T|Glass Trumpet": 1,
-"T|Crispin": 2,
-"T|Professor Sada's Vitality": 1
+"T|Ultra Ball": 1
 }
 },
 "Reshiram Fire Wing": {
@@ -3853,8 +3561,8 @@
 "P|WHT:#020/086": 1,
 "P|ASH:#025/217": 1,
 "P|ME02:#014/094": 1,
-"P|ME01:#025/132": 3,
-"T|Professor's Research": 3,
+"P|ME01:#025/132": 4,
+"T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 3,
@@ -3863,12 +3571,8 @@
 "T|Night Stretcher": 4,
 "T|Earthen Vessel": 1,
 "T|Cyrano": 2,
-"E|Fire": 23,
-"T|Ultra Ball": 3,
-"T|Energy Search": 1,
-"T|Kofu": 1,
-"S|Mist Energy": 1,
-"T|Crispin": 1
+"E|Fire": 27,
+"T|Ultra Ball": 3
 }
 },
 "Retaliation Burn": {
@@ -3878,8 +3582,9 @@
 "P|SV09:#031/159": 1,
 "P|SV09:#021/159": 1,
 "P|SV05:#029/162": 1,
-"P|SV05:#031/162": 1,
+"P|SV05:#031/162": 2,
 "P|ME01:#025/132": 4,
+"P|SFA:#009/064": 2,
 "T|Professor's Research": 3,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
@@ -3889,13 +3594,10 @@
 "T|Night Stretcher": 2,
 "T|Earthen Vessel": 2,
 "T|Cyrano": 3,
-"E|Fire": 20,
+"E|Fire": 22,
 "S|Prism Energy": 1,
 "T|Ultra Ball": 2,
-"T|Energy Search": 1,
-"T|Professor Sada's Vitality": 2,
-"T|Glass Trumpet": 1,
-"T|Rosa's Encouragement": 2
+"T|Energy Search": 1
 }
 },
 "TR Spread": {
@@ -3905,17 +3607,18 @@
 "P|SV10:#122/182": 1,
 "P|SV10:#120/182": 3,
 "P|SV10:#121/182": 2,
+"P|SV10:#128/182": 1,
 "P|SV10:#096/182": 1,
-"P|WHT:#049/086": 2,
-"P|ASH:#106/217": 1,
-"T|Professor's Research": 3,
+"P|WHT:#049/086": 3,
+"P|ASH:#106/217": 3,
+"T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 3,
 "T|Pok\u00e9 Ball": 1,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
-"T|Earthen Vessel": 2,
+"T|Earthen Vessel": 1,
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
@@ -3923,14 +3626,11 @@
 "T|Pok\u00e9mon Center Lady": 2,
 "T|Team Rocket's Great Ball": 3,
 "T|Team Rocket's Transceiver": 1,
-"E|Darkness": 4,
+"E|Darkness": 5,
 "E|Fighting": 5,
 "T|Energy Search": 3,
 "S|Team Rocket's Energy": 1,
-"S|Prism Energy": 1,
-"P|MEP:#071": 1,
-"T|Professor Sada's Vitality": 1,
-"T|Harlequin": 1
+"S|Prism Energy": 1
 }
 },
 "TR Nido Family": {
@@ -3940,6 +3640,7 @@
 "P|SV10:#119/182": 1,
 "P|SV10:#117/182": 4,
 "P|SV10:#118/182": 2,
+"P|SV10:#128/182": 1,
 "P|ASH:#127/217": 1,
 "P|ME02:#069/094": 3,
 "P|ME02:#062/094": 4,
@@ -3958,11 +3659,10 @@
 "T|Pok\u00e9mon Center Lady": 2,
 "T|Team Rocket's Great Ball": 2,
 "T|Team Rocket's Transceiver": 1,
-"E|Darkness": 8,
-"T|Energy Search": 3,
+"E|Darkness": 9,
+"T|Energy Search": 2,
 "S|Team Rocket's Energy": 2,
-"T|Ultra Ball": 1,
-"P|ASH:#141/217": 1
+"T|Ultra Ball": 1
 }
 },
 "TR Persian Copycat": {
@@ -3973,6 +3673,7 @@
 "P|SV10:#149/182": 4,
 "P|ASH:#127/217": 1,
 "P|SV10:#128/182": 1,
+"P|ME02:#069/094": 2,
 "P|ME02:#062/094": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
@@ -3985,13 +3686,9 @@
 "T|Cyrano": 1,
 "T|Team Rocket's Great Ball": 4,
 "T|Team Rocket's Transceiver": 1,
-"E|Darkness": 13,
+"E|Darkness": 16,
 "S|Team Rocket's Energy": 4,
-"T|Ultra Ball": 1,
-"P|SV10:#112/182": 2,
-"T|Jacinthe": 1,
-"S|Mist Energy": 1,
-"T|Team Rocket's Archer": 1
+"T|Ultra Ball": 1
 }
 },
 "TR Rocket Rush Swarm": {
@@ -4019,11 +3716,10 @@
 "T|Pok\u00e9mon Center Lady": 2,
 "T|Team Rocket's Great Ball": 2,
 "T|Team Rocket's Transceiver": 1,
-"E|Darkness": 7,
+"E|Darkness": 9,
 "E|Grass": 5,
-"S|Team Rocket's Energy": 1,
-"T|Harlequin": 2,
-"T|Glass Trumpet": 1
+"P|SV08:#015/191": 1,
+"S|Team Rocket's Energy": 1
 }
 },
 "TR Condition Stack": {
@@ -4033,7 +3729,9 @@
 "P|SV10:#119/182": 1,
 "P|SV10:#117/182": 4,
 "P|SV10:#118/182": 2,
-"P|SV08:#079/191": 1,
+"P|ASH:#078/217": 1,
+"P|SV10:#128/182": 1,
+"P|SV08:#079/191": 2,
 "P|SV08:#088/191": 3,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
@@ -4050,12 +3748,9 @@
 "T|Pok\u00e9mon Center Lady": 2,
 "T|Team Rocket's Great Ball": 4,
 "T|Team Rocket's Transceiver": 1,
-"E|Darkness": 4,
+"E|Darkness": 5,
 "E|Psychic": 5,
-"S|Team Rocket's Energy": 2,
-"T|Team Rocket's Archer": 1,
-"P|PRE:#046/131": 2,
-"T|Carmine": 1
+"S|Team Rocket's Energy": 2
 }
 },
 "TR Disruption Lock": {
@@ -4064,9 +3759,11 @@
 "cards": {
 "P|SV10:#150/182": 1,
 "P|SV10:#149/182": 4,
-"P|SV08:#079/191": 1,
-"P|ME02:#069/094": 3,
-"T|Professor's Research": 3,
+"P|SV10:#082/182": 1,
+"P|SV10:#128/182": 1,
+"P|SV08:#079/191": 2,
+"P|ME02:#069/094": 4,
+"T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 4,
@@ -4078,15 +3775,10 @@
 "T|Crispin": 4,
 "T|Team Rocket's Great Ball": 2,
 "T|Team Rocket's Transceiver": 1,
-"E|Darkness": 6,
-"E|Psychic": 7,
+"E|Darkness": 8,
+"E|Psychic": 8,
 "S|Team Rocket's Energy": 2,
-"T|Ultra Ball": 1,
-"T|Energy Search": 1,
-"P|SV06:#096/167": 2,
-"T|Glass Trumpet": 1,
-"T|Tyme": 1,
-"S|Mist Energy": 1
+"T|Ultra Ball": 1
 }
 },
 "TR Moltres Removal": {
@@ -4094,10 +3786,11 @@
 "ace": "P|SV10:#031/182",
 "cards": {
 "P|SV10:#031/182": 1,
+"P|SV10:#128/182": 1,
 "P|ASH:#127/217": 1,
-"P|SV05:#031/162": 3,
+"P|SV05:#031/162": 2,
 "P|ME01:#025/132": 4,
-"P|ME02:#069/094": 2,
+"P|ME02:#069/094": 4,
 "P|ME02:#062/094": 1,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
@@ -4106,19 +3799,15 @@
 "T|Pok\u00e9 Ball": 1,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
-"T|Earthen Vessel": 3,
+"T|Earthen Vessel": 2,
 "T|Cyrano": 2,
 "T|Crispin": 4,
-"T|Team Rocket's Great Ball": 4,
+"T|Team Rocket's Great Ball": 3,
 "T|Team Rocket's Transceiver": 1,
-"E|Darkness": 7,
-"E|Fire": 7,
+"E|Darkness": 9,
+"E|Fire": 9,
 "S|Team Rocket's Energy": 2,
-"T|Fennel": 1,
-"T|Energy Search": 1,
-"T|Glass Trumpet": 1,
-"P|SV08:#141/191": 1,
-"T|Rosa's Encouragement": 1
+"T|Fennel": 1
 }
 },
 "Starmie Jetstream Rush": {
@@ -4127,26 +3816,25 @@
 "cards": {
 "P|ME03:#021/088": 1,
 "P|ME03:#020/088": 4,
+"P|WHT:#023/086": 1,
+"P|ME01:#038/132": 1,
+"P|ASH:#054/217": 3,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 4,
-"T|Pok\u00e9 Ball": 4,
+"T|Pok\u00e9 Ball": 3,
 "T|Switch": 1,
 "T|Night Stretcher": 3,
 "T|Earthen Vessel": 2,
-"T|Mega Signal": 4,
+"T|Mega Signal": 3,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Water": 11,
+"E|Water": 13,
 "T|Ultra Ball": 2,
 "P|ME01:#044/132": 3,
-"T|Energy Search": 1,
-"T|Drasna": 1,
-"T|Harlequin": 1,
-"S|Mist Energy": 1,
-"S|Bubbly Water Energy": 2
+"T|Energy Search": 1
 }
 },
 "Croconaw Chip, Mega Crunch": {
@@ -4156,11 +3844,13 @@
 "P|MEP:#036": 1,
 "P|ASH:#041/217": 4,
 "P|ASH:#042/217": 3,
+"P|SV05:#041/162": 1,
+"P|SV07:#038/142": 1,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
-"T|Buddy-Buddy Poffin": 4,
-"T|Pok\u00e9 Ball": 3,
+"T|Buddy-Buddy Poffin": 3,
+"T|Pok\u00e9 Ball": 2,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 1,
@@ -4168,13 +3858,10 @@
 "T|Rare Candy": 4,
 "T|Dawn": 2,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Water": 14,
+"E|Water": 18,
 "P|ME01:#044/132": 4,
 "T|Energy Search": 1,
-"T|Ultra Ball": 1,
-"S|Bubbly Water Energy": 2,
-"T|Carmine": 1,
-"T|Team Rocket's Archer": 1
+"T|Ultra Ball": 1
 }
 },
 "Starmie Tundra Fortress": {
@@ -4185,7 +3872,9 @@
 "P|ME03:#020/088": 4,
 "P|ME03:#024/088": 1,
 "P|BLK:#026/086": 1,
-"P|ASH:#054/217": 1,
+"P|WHT:#024/086": 2,
+"P|ASH:#054/217": 4,
+"P|SV09:#032/159": 1,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
@@ -4198,13 +3887,9 @@
 "T|Rare Candy": 4,
 "T|Dawn": 1,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Water": 14,
-"P|ME01:#044/132": 3,
-"T|Ultra Ball": 1,
-"T|Team Rocket's Archer": 1,
-"T|Kofu": 1,
-"S|Boomerang Energy": 1,
-"T|Energy Retrieval": 1
+"E|Water": 13,
+"P|ME01:#044/132": 2,
+"T|Ultra Ball": 1
 }
 },
 "Samurott's Ambush": {
@@ -4215,13 +3900,14 @@
 "P|WHT:#023/086": 1,
 "P|WHT:#021/086": 1,
 "P|ME03:#024/088": 1,
-"P|WHT:#024/086": 2,
-"P|ASH:#054/217": 3,
-"P|SV05:#044/162": 1,
+"P|ME03:#023/088": 2,
+"P|WHT:#024/086": 3,
+"P|ASH:#054/217": 4,
+"P|SV05:#044/162": 2,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
-"T|Buddy-Buddy Poffin": 3,
+"T|Buddy-Buddy Poffin": 2,
 "T|Pok\u00e9 Ball": 2,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
@@ -4229,11 +3915,9 @@
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
-"E|Water": 19,
+"E|Water": 18,
 "T|Energy Search": 2,
-"P|ME01:#044/132": 4,
-"T|Glass Trumpet": 2,
-"T|Jacinthe": 1
+"P|ME01:#044/132": 4
 }
 },
 "Frozen Fortress": {
@@ -4244,8 +3928,9 @@
 "P|SV08:#053/191": 3,
 "P|ME03:#024/088": 1,
 "P|BLK:#026/086": 1,
-"P|SV05:#044/162": 3,
-"T|Professor's Research": 3,
+"P|ASH:#054/217": 1,
+"P|SV05:#044/162": 4,
+"T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 2,
@@ -4253,16 +3938,14 @@
 "T|Switch": 1,
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 4,
-"T|Cyrano": 2,
+"T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
-"E|Water": 14,
-"P|ME01:#044/132": 3,
-"T|Energy Search": 3,
+"E|Water": 16,
+"P|ME01:#044/132": 4,
+"T|Energy Search": 2,
 "S|Prism Energy": 1,
-"T|Fennel": 1,
-"T|Pok\u00e9 Pad": 1,
-"T|Glass Trumpet": 1
+"T|Fennel": 1
 }
 },
 "Hydro Turn Hit-and-Run": {
@@ -4270,10 +3953,11 @@
 "ace": "P|ME03:#022/088",
 "cards": {
 "P|ME03:#022/088": 1,
+"P|SV10:#056/182": 1,
 "P|ME01:#038/132": 1,
-"P|WHT:#024/086": 1,
+"P|WHT:#024/086": 2,
 "P|ASH:#054/217": 4,
-"P|SV09:#032/159": 1,
+"P|SV09:#032/159": 3,
 "P|SV05:#044/162": 4,
 "T|Professor's Research": 3,
 "T|Cheren": 4,
@@ -4284,12 +3968,9 @@
 "T|Night Stretcher": 2,
 "T|Earthen Vessel": 1,
 "T|Cyrano": 1,
-"E|Water": 20,
+"E|Water": 21,
 "T|Ultra Ball": 1,
-"T|Fennel": 1,
-"T|Rosa's Encouragement": 2,
-"T|Crispin": 2,
-"S|Bubbly Water Energy": 1
+"T|Fennel": 1
 }
 },
 "Deep Current Overload": {
@@ -4301,12 +3982,13 @@
 "P|SFA:#011/064": 1,
 "P|SV10:#056/182": 1,
 "P|ME01:#038/132": 1,
+"P|WHT:#024/086": 2,
 "P|ASH:#054/217": 3,
-"P|SV09:#032/159": 1,
+"P|SV09:#032/159": 3,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
-"T|Buddy-Buddy Poffin": 4,
+"T|Buddy-Buddy Poffin": 2,
 "T|Pok\u00e9 Ball": 2,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
@@ -4315,14 +3997,10 @@
 "T|Rare Candy": 4,
 "T|Dawn": 1,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Water": 12,
-"P|ME01:#044/132": 3,
+"E|Water": 14,
+"P|ME01:#044/132": 4,
 "T|Ultra Ball": 1,
-"T|Energy Search": 1,
-"T|Glass Trumpet": 2,
-"T|Lucian": 1,
-"T|Carmine": 1,
-"T|Crispin": 1
+"T|Energy Search": 1
 }
 },
 "Serene Slumber": {
@@ -4332,7 +4010,9 @@
 "P|SV08:#042/191": 1,
 "P|SV06:#049/167": 4,
 "P|BLK:#026/086": 1,
-"P|ASH:#054/217": 1,
+"P|ME03:#024/088": 1,
+"P|WHT:#024/086": 2,
+"P|ASH:#054/217": 4,
 "P|SV05:#044/162": 3,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
@@ -4341,17 +4021,12 @@
 "T|Pok\u00e9 Ball": 4,
 "T|Switch": 2,
 "T|Night Stretcher": 1,
-"T|Earthen Vessel": 2,
+"T|Earthen Vessel": 1,
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 2,
 "E|Water": 12,
-"T|Ultra Ball": 4,
-"T|Professor Sada's Vitality": 1,
-"T|Rosa's Encouragement": 1,
-"S|Mist Energy": 1,
-"S|Bubbly Water Energy": 1,
-"P|SV10:#046/182": 1
+"T|Ultra Ball": 4
 }
 },
 "Purge and Plunder": {
@@ -4359,23 +4034,24 @@
 "ace": "P|SV09:#043/159",
 "cards": {
 "P|SV09:#043/159": 1,
+"P|ME01:#034/132": 1,
+"P|SV07:#038/142": 1,
+"P|ASH:#054/217": 1,
+"P|SV05:#044/162": 1,
 "T|Professor's Research": 3,
-"T|Cheren": 4,
+"T|Cheren": 3,
 "T|Boss's Orders": 2,
-"T|Buddy-Buddy Poffin": 4,
+"T|Buddy-Buddy Poffin": 3,
 "T|Pok\u00e9 Ball": 1,
 "T|Switch": 3,
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 3,
-"T|Cyrano": 2,
+"T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
-"E|Water": 23,
-"P|ME01:#044/132": 2,
-"T|Fennel": 2,
-"T|Energy Search": 1,
-"S|Bubbly Water Energy": 2,
-"P|SV10:#046/182": 1
+"E|Water": 24,
+"P|ME01:#044/132": 4,
+"T|Fennel": 2
 }
 },
 "Misty's Deep Freeze": {
@@ -4386,6 +4062,8 @@
 "P|SV10:#049/182": 1,
 "P|SV10:#048/182": 3,
 "P|BLK:#026/086": 1,
+"P|ASH:#054/217": 3,
+"P|SV05:#044/162": 1,
 "T|Professor's Research": 3,
 "T|Cheren": 2,
 "T|Boss's Orders": 2,
@@ -4395,13 +4073,10 @@
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 3,
 "T|Cyrano": 1,
-"E|Water": 25,
-"P|ME01:#044/132": 3,
+"E|Water": 26,
+"P|ME01:#044/132": 2,
 "T|Fennel": 2,
-"S|Prism Energy": 2,
-"T|Professor Sada's Vitality": 2,
-"P|SV10:#046/182": 1,
-"T|Lucian": 1
+"S|Prism Energy": 2
 }
 },
 "Avalanche Flood": {
@@ -4410,8 +4085,10 @@
 "cards": {
 "P|ME01:#036/132": 1,
 "P|ME01:#035/132": 4,
-"P|ASH:#054/217": 1,
-"P|SV05:#044/162": 1,
+"P|ME01:#034/132": 1,
+"P|BLK:#026/086": 1,
+"P|ASH:#054/217": 2,
+"P|SV05:#044/162": 3,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
@@ -4421,13 +4098,11 @@
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 1,
 "T|Mega Signal": 3,
-"T|Pok\u00e9mon Center Lady": 3,
-"E|Water": 19,
+"T|Pok\u00e9mon Center Lady": 2,
+"E|Water": 20,
 "T|Ultra Ball": 2,
-"P|ME01:#044/132": 4,
-"T|Energy Search": 2,
-"S|Bubbly Water Energy": 2,
-"P|SV10:#046/182": 1
+"P|ME01:#044/132": 2,
+"T|Energy Search": 2
 }
 },
 "Wellspring Reload": {
@@ -4436,10 +4111,11 @@
 "cards": {
 "P|PRE:#027/131": 1,
 "P|SV07:#038/142": 1,
+"P|SV07:#037/142": 2,
 "P|BLK:#026/086": 1,
 "P|BLK:#025/086": 1,
 "P|ASH:#054/217": 4,
-"P|SV09:#032/159": 1,
+"P|SV09:#032/159": 2,
 "P|SV05:#044/162": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
@@ -4447,17 +4123,14 @@
 "T|Buddy-Buddy Poffin": 2,
 "T|Pok\u00e9 Ball": 3,
 "T|Switch": 1,
-"T|Night Stretcher": 2,
+"T|Night Stretcher": 1,
 "T|Earthen Vessel": 1,
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
-"E|Water": 17,
+"E|Water": 19,
 "T|Energy Search": 2,
-"T|Crispin": 2,
-"T|Glass Trumpet": 1,
-"T|Harlequin": 1,
-"T|Amarys": 1
+"P|ME01:#044/132": 1
 }
 },
 "Dondozo's Gambit": {
@@ -4467,10 +4140,10 @@
 "P|SV10:#066/182": 1,
 "P|BLK:#026/086": 1,
 "P|SV07:#038/142": 1,
-"P|SV07:#037/142": 1,
+"P|SV07:#037/142": 2,
 "P|ASH:#054/217": 4,
-"P|SV09:#032/159": 1,
-"P|SV05:#044/162": 2,
+"P|SV09:#032/159": 3,
+"P|SV05:#044/162": 3,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
@@ -4484,10 +4157,8 @@
 "T|Dawn": 1,
 "E|Water": 17,
 "T|Pok\u00e9 Pad": 1,
-"T|Energy Search": 2,
-"T|Professor Sada's Vitality": 1,
-"T|Glass Trumpet": 2,
-"T|Team Rocket's Archer": 1
+"P|ME01:#044/132": 1,
+"T|Energy Search": 1
 }
 },
 "Paradox Sandman": {
@@ -4495,12 +4166,14 @@
 "ace": "P|SVP:#127",
 "cards": {
 "P|SVP:#127": 1,
+"P|SV06:#063/167": 1,
 "P|SV07:#038/142": 1,
+"P|SV07:#037/142": 1,
 "P|ASH:#054/217": 3,
-"P|SV09:#032/159": 1,
+"P|SV09:#032/159": 3,
 "P|SV05:#044/162": 4,
 "T|Professor's Research": 2,
-"T|Cheren": 3,
+"T|Cheren": 4,
 "T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 2,
 "T|Pok\u00e9 Ball": 1,
@@ -4512,11 +4185,7 @@
 "T|Dawn": 1,
 "E|Water": 20,
 "P|ME01:#044/132": 3,
-"T|Energy Search": 1,
-"T|Glass Trumpet": 2,
-"S|Bubbly Water Energy": 1,
-"P|SV10:#046/182": 1,
-"T|N's PP Up": 1
+"T|Energy Search": 1
 }
 },
 "Prize Blizzard": {
@@ -4526,7 +4195,8 @@
 "P|BLK:#028/086": 1,
 "P|ME03:#024/088": 1,
 "P|BLK:#026/086": 1,
-"P|ASH:#054/217": 3,
+"P|ASH:#054/217": 4,
+"P|SV09:#032/159": 1,
 "P|SV05:#044/162": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
@@ -4539,12 +4209,11 @@
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
-"E|Water": 15,
+"E|Water": 17,
 "T|Pok\u00e9 Pad": 1,
+"P|ME01:#044/132": 1,
 "S|Prism Energy": 1,
-"T|Energy Search": 1,
-"T|Glass Trumpet": 4,
-"T|Crispin": 1
+"T|Energy Search": 1
 }
 },
 "Frostbite Recoil": {
@@ -4554,7 +4223,7 @@
 "P|SV08:#048/191": 1,
 "P|ME03:#024/088": 1,
 "P|SV06:#053/167": 1,
-"P|ASH:#054/217": 2,
+"P|ASH:#054/217": 4,
 "P|SV05:#044/162": 3,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
@@ -4567,14 +4236,11 @@
 "T|Cyrano": 2,
 "T|Rare Candy": 4,
 "T|Dawn": 2,
-"E|Water": 15,
+"E|Water": 16,
 "T|Energy Search": 2,
-"P|ME01:#044/132": 1,
+"P|ME01:#044/132": 2,
 "T|Fennel": 1,
-"T|Pok\u00e9 Pad": 1,
-"T|Rosa's Encouragement": 1,
-"T|Professor Sada's Vitality": 2,
-"T|Jacinthe": 1
+"T|Pok\u00e9 Pad": 1
 }
 },
 "Tricolor Burst \u2014 Experimental": {
@@ -4584,10 +4250,11 @@
 "P|SV05:#060/162": 1,
 "P|SV05:#047/162": 4,
 "P|SV07:#038/142": 2,
-"P|SV05:#044/162": 1,
+"P|ASH:#054/217": 2,
+"P|SV05:#044/162": 3,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
-"T|Boss's Orders": 3,
+"T|Boss's Orders": 2,
 "T|Buddy-Buddy Poffin": 2,
 "T|Pok\u00e9 Ball": 3,
 "T|Switch": 1,
@@ -4596,13 +4263,9 @@
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
-"E|Water": 20,
+"E|Water": 21,
 "P|ME01:#044/132": 4,
-"T|Pok\u00e9 Pad": 1,
-"T|Ultra Ball": 1,
-"T|Carmine": 1,
-"P|SV10:#046/182": 1,
-"T|Glass Trumpet": 1
+"T|Pok\u00e9 Pad": 1
 }
 },
 "Zero to Hero": {
@@ -4613,13 +4276,15 @@
 "P|SV05:#048/162": 4,
 "P|WHT:#023/086": 1,
 "P|WHT:#021/086": 1,
+"P|ME01:#038/132": 1,
+"P|WHT:#024/086": 1,
 "P|ASH:#054/217": 4,
-"P|SV09:#032/159": 1,
+"P|SV09:#032/159": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
-"T|Buddy-Buddy Poffin": 3,
-"T|Pok\u00e9 Ball": 3,
+"T|Buddy-Buddy Poffin": 2,
+"T|Pok\u00e9 Ball": 2,
 "T|Switch": 2,
 "T|Night Stretcher": 1,
 "T|Earthen Vessel": 2,
@@ -4627,12 +4292,9 @@
 "T|Rare Candy": 4,
 "T|Dawn": 1,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Water": 10,
+"E|Water": 12,
 "P|ME01:#044/132": 4,
-"T|Ultra Ball": 3,
-"T|Energy Search": 1,
-"T|Glass Trumpet": 2,
-"S|Bubbly Water Energy": 1
+"T|Ultra Ball": 2
 }
 },
 "Wash Out Current": {
@@ -4643,6 +4305,8 @@
 "P|SFA:#010/064": 4,
 "P|SFA:#011/064": 3,
 "P|ME03:#019/088": 1,
+"P|ME01:#038/132": 1,
+"P|ASH:#054/217": 2,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
@@ -4650,20 +4314,15 @@
 "T|Pok\u00e9 Ball": 3,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
-"T|Earthen Vessel": 3,
+"T|Earthen Vessel": 2,
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
 "T|Pok\u00e9mon Center Lady": 2,
-"E|Water": 12,
+"E|Water": 15,
 "T|Ultra Ball": 2,
 "T|Energy Search": 1,
-"P|ME01:#044/132": 3,
-"T|Pok\u00e9 Pad": 1,
-"T|Harlequin": 1,
-"T|Techno Radar": 1,
-"T|Glass Trumpet": 1,
-"S|Bubbly Water Energy": 1
+"P|ME01:#044/132": 3
 }
 },
 "Vibrant Wall": {
@@ -4672,9 +4331,11 @@
 "cards": {
 "P|SV08:#042/191": 1,
 "P|SV06:#049/167": 4,
+"P|SV09:#037/159": 1,
 "P|ME03:#024/088": 1,
 "P|ASH:#054/217": 4,
-"P|SV05:#044/162": 3,
+"P|SV09:#032/159": 4,
+"P|SV05:#044/162": 4,
 "T|Professor's Research": 2,
 "T|Cheren": 4,
 "T|Boss's Orders": 2,
@@ -4682,19 +4343,14 @@
 "T|Pok\u00e9 Ball": 4,
 "T|Switch": 1,
 "T|Night Stretcher": 1,
-"T|Earthen Vessel": 4,
+"T|Earthen Vessel": 3,
 "T|Cyrano": 1,
 "T|Rare Candy": 4,
 "T|Dawn": 1,
 "E|Water": 11,
 "T|Pok\u00e9 Pad": 1,
 "T|Ultra Ball": 1,
-"P|ME01:#044/132": 1,
-"S|Prism Energy": 1,
-"T|Glass Trumpet": 1,
-"T|Jacinthe": 1,
-"S|Bubbly Water Energy": 1,
-"T|Crispin": 1
+"P|ME01:#044/132": 1
 }
 }
 }

@@ -123,40 +123,38 @@ KNOWN_ENGINES = {'Eelektrik', 'Magneton', 'Barbaracle', 'Grumpig', 'Aromatisse',
                  'Metang', 'Dewgong', 'Chansey', 'Fan Rotom', "Larry's Komala", 'Rabsca', 'Bibarel'}
 
 
-def _free_money_slots(counts):
-    used = sum(n for r, n in counts.items() if ref_cat_price(r)[0] in ('yellow', 'red'))
-    return 3 - used
-
-
-def special_candidates(ace, sups, types, arch, counts):
-    """Standard-legal special energy worth offering this deck: Prism (universal fixer),
-    Team Rocket's Energy (TR decks), Spiky (Fighting/Lycanroc), and — only if a money slot
-    is free — the Rare typed special energy matching the deck's type."""
-    out = [('S', 'Prism Energy')]
-    if _family_of([arch.get('premium', '')] + arch.get('supports', [])) == "Team Rocket's":
-        out.append(('S', "Team Rocket's Energy"))
-    if 'Fighting' in types:
-        out.append(('S', 'Spiky Energy'))
-    if counts is not None and _free_money_slots(counts) > 0:
-        for t in types:
-            if t in SE.TYPED_SPECIAL:
-                out.append(('S', SE.TYPED_SPECIAL[t]))
+def money_pokemon(types, exclude):
+    """Rare (≤$0.50) Basic attacker Pokémon of the deck's types — legal support-slot candidates."""
+    out = []
+    for name, plist in BY_NAME.items():
+        if name in exclude:
+            continue
+        for c in plist:
+            if (c.cat == 'cat-yellow' and (c.price or 1.0) <= 0.50 and c.stage == 0
+                    and c.energy and L2T.get(c.energy[0]) in types
+                    and any(a['dmg'] > 0 or a.get('scaling') for a in c.attacks)):
+                out.append(('P', c.key)); break
     return out
 
 
 def candidates(arch, ace_ref, counts=None):
-    """On-theme add pool for a deck: its Trainer package + generic staples, C/U backup
-    attackers of the deck's types, basic energy, and legal special energy."""
+    """(free_adds, money_adds, types). free_adds = the full legal C/U pool — ALL Trainers, ALL C/U
+    type-attackers, basic energy, free special energy (unlimited adds). money_adds = the ≤$0.50
+    'support category' (Rare Pokémon of the types + Rare typed special energy) that a support slot
+    can be swapped to."""
     ace = BY_KEY[ace_ref[1]]
     sups = [c for c in (support_card(s) for s in arch.get('supports', [])) if c]
     types = deck_types(ace, sups)
-    tnames = {d['name'] for _, d in trainer_package(arch, ace, sups)} | GENERIC_EXTRAS
-    add_t = [('T', n) for n in sorted(tnames) if n in TRAINERS]
     excl = {ace.name} | {s.name for s in sups} | {p.name for p in preevo_chain(ace)}
-    add_p = [('P', c.key) for c in backup_attackers(types, excl, k=12)]
+    add_t = [('T', n) for n in TRAINERS]                                    # full legal C/U Trainer set (~197)
+    add_p = [('P', c.key) for c in backup_attackers(types, excl, k=250)]    # ALL C/U type attackers
     add_e = [('E', t) for t in types]
-    add_s = special_candidates(ace, sups, types, arch, counts)
-    return add_t + add_p + add_e + add_s, types
+    free_s = [n for n in SE.FREE_SPECIAL if n != "Team Rocket's Energy"]
+    if _family_of([arch.get('premium', '')] + arch.get('supports', [])) == "Team Rocket's":
+        free_s.append("Team Rocket's Energy")
+    free_adds = add_t + add_p + add_e + [('S', n) for n in free_s]
+    money_adds = money_pokemon(types, excl) + [('S', SE.TYPED_SPECIAL[t]) for t in types if t in SE.TYPED_SPECIAL]
+    return free_adds, money_adds, types
 
 
 def protected_refs(counts, ace_ref, arch):
@@ -185,23 +183,28 @@ def _pdmg(ref):
     return max((a['dmg'] for a in BY_KEY[ref[1]].attacks), default=0) if ref[0] == 'P' else 0
 
 
-def mutations(counts, ace_ref, arch, cap=40, rng=random):
-    """Enumerate small legal on-theme single-card swaps (rules a–e). The premium, the two
-    ≤$0.50 supports, the ace's evolution line, free engines and named-family signatures are
-    protected; basic energy won't be cut below a floor that keeps the ace powerable."""
-    adds, _types = candidates(arch, ace_ref, counts)
+def mutations(counts, ace_ref, arch, cap=250, rng=random):
+    """A wide pool of legal on-theme swaps. FREE swaps trade a removable free card (unprotected C/U
+    Pokémon / Trainer / basic energy / free special energy) for anything in the full legal C/U pool.
+    MONEY swaps trade a ≤$0.50 support-slot card for another ≤$0.50 card (Rare Pokémon / Rare special
+    energy) — the premium and protected engine/family/line pieces are never touched. Returns up to
+    `cap` swaps, with the fewer money swaps guaranteed a share."""
+    free_adds, money_adds, types = candidates(arch, ace_ref, counts)
     prot = protected_refs(counts, ace_ref, arch)
     free_pokes = [r for r in counts if r[0] == 'P' and BY_KEY[r[1]].cat == 'cat-green' and r not in prot]
-    weak = sorted(free_pokes, key=_pdmg)[:5]                     # cheapest to cut
-    strong = sorted(free_pokes, key=_pdmg, reverse=True)[:3]
+    weak = sorted(free_pokes, key=_pdmg)[:8]                     # cheapest to cut
+    strong = sorted(free_pokes, key=_pdmg, reverse=True)[:4]
     energies = sorted([r for r in counts if r[0] == 'E'], key=lambda r: -counts[r])
     most_e = energies[0] if energies else None
     total_e = sum(counts[r] for r in counts if r[0] == 'E')
     ace_cost = max((len(a['cost']) for a in BY_KEY[ace_ref[1]].attacks), default=2)
     e_floor = max(7, ace_cost + 4)                              # basic energy needed to fund the ace
-    muts, seen = [], set()
+    # ≤$0.50 support-slot cards currently in the deck (the premium is the ace, held fixed)
+    money_rem = [r for r in counts if r != ace_ref
+                 and ref_cat_price(r)[0] == 'yellow' and ref_cat_price(r)[1] <= 0.50]
+    seen = set()
 
-    def addmut(rem, add):
+    def make(rem, add, sink):
         if rem is None or add is None or rem == add or (rem, add) in seen:
             return
         if counts.get(rem, 0) < 1 or rem in prot:
@@ -216,22 +219,27 @@ def mutations(counts, ace_ref, arch, cap=40, rng=random):
         if not is_legal(m):
             return
         seen.add((rem, add))
-        muts.append((f'-1 {ref_name(rem)} +1 {ref_name(add)}', m))
+        sink.append((f'-1 {ref_name(rem)} +1 {ref_name(add)}', m))
 
-    for a in adds:
+    free_muts, money_muts = [], []
+    for a in free_adds:                                         # free swaps across the full legal pool
         if a[0] == 'E':
-            for w in weak:                      # add energy by cutting a weak backup
-                addmut(w, a)
-        else:                                   # add Trainer/Pokémon by cutting energy or a weak line
-            addmut(most_e, a)
-            for w in weak[:2]:
-                addmut(w, a)
-    for s in strong:                            # redistribute counts toward strong existing cards
-        addmut(most_e, s)
+            for w in weak:
+                make(w, a, free_muts)
+        else:
+            make(most_e, a, free_muts)
+            for w in weak[:3]:
+                make(w, a, free_muts)
+    for s in strong:                                            # redistribute toward strong existing cards
+        make(most_e, s, free_muts)
         for w in weak:
-            addmut(w, s)
-    rng.shuffle(muts)
-    return muts[:cap]
+            make(w, s, free_muts)
+    for rem in money_rem:                                       # swap a support for another ≤$0.50 card
+        for a in money_adds:
+            make(rem, a, money_muts)
+
+    rng.shuffle(free_muts); rng.shuffle(money_muts)
+    return (money_muts + free_muts)[:cap]                       # money swaps guaranteed inclusion
 
 
 # ---------------- parallel gauntlet evaluation ----------------
