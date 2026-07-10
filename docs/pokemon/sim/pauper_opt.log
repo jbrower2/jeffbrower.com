@@ -1,1112 +1,131 @@
-pauper-optimizing 110 decks | 5 games/pairing | cap=200 | 10 rounds | target 20/25/15 penalty(slack 4, k 0.5)
-[r1   1/110     17s] ACCEPT Decidueye                   57.4 ->  75.2  (21/26/13)  swap chain Lurantis -> Hop's Cramo
-[r1   2/110     33s] ACCEPT Lurantis                    57.6 ->  65.5  (19/26/15)  swap chain Decidueye -> Onix
-[r1   3/110     51s] ACCEPT Rillaboom                   43.3 ->  62.8  (18/26/16)  swap chain Rillaboom -> Erika's Ta
-[r1   4/110     72s] ACCEPT Beautifly                   44.6 ->  58.8  (24/26/10)  swap chain Farfetch'd -> Wo-Chien
-[r1   5/110     90s] ACCEPT Vivillon                    36.3 ->  56.7  (21/26/13)  swap chain Vivillon -> Lurantis
-[r1   6/110    107s] ACCEPT Shiftry                     41.3 ->  69.0  (21/26/13)  swap chain Decidueye -> Hop's Cram
-[r1   7/110    124s] ACCEPT Ludicolo                    38.9 ->  56.0  (21/26/13)  swap chain Ludicolo -> Lurantis
-[r1   8/110    142s] ACCEPT Exeggutor                   33.9 ->  58.7  (19/26/15)  swap chain Decidueye -> Wo-Chien
-[r1   9/110    159s] ACCEPT Breloom                     42.2 ->  61.7  (22/26/12)  swap chain Farfetch'd -> Hop's Cra
-[r1  10/110    176s] ACCEPT Ninjask                     42.9 ->  62.9  (19/26/15)  swap chain Decidueye -> Wo-Chien
-[r1  11/110    193s] ACCEPT Sawsbuck                    41.8 ->  62.2  (19/26/15)  swap chain Decidueye -> Wo-Chien
-[r1  12/110    210s] ACCEPT Sunflora                    38.0 ->  66.4  (19/26/15)  swap chain Decidueye -> Hop's Cram
-[r1  13/110    225s] ACCEPT Ceruledge                   69.0 ->  82.8  (21/23/16)  swap chain Charmeleon -> Hop's Cra
-[r1  14/110    240s] ACCEPT Centiskorch                 65.9 ->  81.3  (21/23/16)  swap chain Charmeleon -> Hop's Cra
-[r1  15/110    255s] ACCEPT Camerupt                    63.1 ->  79.1  (21/23/16)  swap chain Charmeleon -> Hop's Cra
-[r1  16/110    270s] ACCEPT Darmanitan                  51.0 ->  61.7  (19/23/18)  swap chain Darmanitan -> Tornadus
-[r1  17/110    285s] ACCEPT Simisear                    55.6 ->  68.3  (19/23/18)  swap chain Simisear -> Onix
-[r1  18/110    302s] ACCEPT Team Rocket's Houndoom      63.7 ->  76.7  (19/23/18)  swap chain Team Rocket's Houndoom 
-[r1  19/110    317s] ACCEPT Talonflame                  46.3 ->  65.0  (23/26/11)  swap chain Charmeleon -> Hop's Cra
-[r1  20/110    333s] ACCEPT Ninetales                   53.2 ->  76.5  (21/23/16)  swap chain Charmeleon -> Hop's Cra
-[r1  21/110    348s] ACCEPT Charmeleon                  49.4 ->  67.9  (19/23/18)  swap chain Charmeleon -> Onix
-[r1  22/110    364s] ACCEPT Ethan's Quilava             50.8 ->  76.1  (19/23/18)  swap chain Ethan's Quilava -> Hop'
-[r1  23/110    380s] ACCEPT Volcarona                   50.3 ->  62.8  (21/23/16)  swap chain Diggersby -> Hop's Cram
-[r1  24/110    396s] ACCEPT Rapidash                    48.4 ->  62.4  (19/23/18)  swap chain Rapidash -> Volcanion
-[r1  25/110    412s] ACCEPT Inteleon                    51.7 ->  61.5  (23/26/11)  swap chain Farfetch'd -> Keldeo
-[r1  26/110    430s] ACCEPT Walrein                     36.5 ->  69.5  (18/26/16)  swap chain Walrein -> Hop's Cramor
-[r1  27/110    448s] ACCEPT Quaquaval                   44.4 ->  54.1  (18/26/16)  swap chain Quaquaval -> Tauros
-[r1  28/110    466s] ACCEPT Poliwrath                   42.9 ->  69.4  (18/26/16)  swap chain Poliwrath -> Hop's Cram
-[r1  29/110    483s] ACCEPT Octillery                   42.6 ->  70.6  (18/23/19)  swap chain Octillery -> Hop's Cram
-[r1  30/110    502s] ACCEPT Avalugg                     32.7 ->  50.1  (18/23/19)  swap chain Avalugg -> Drampa
-[r1  31/110    518s] ACCEPT Iron Bundle                 49.7 ->  53.0  (21/23/16)  swap chain Inteleon -> Ethan's Pic
-[r1  32/110    534s] ACCEPT Frosmoth                    43.3 ->  64.0  (22/23/15)  swap chain Farfetch'd -> Hop's Cra
-[r1  33/110    551s] ACCEPT Crawdaunt                   37.6 ->  69.2  (18/23/19)  swap chain Crawdaunt -> Eiscue
-[r1  34/110    569s] ACCEPT Mamoswine                   32.8 ->  42.0  (18/26/16)  swap chain Mamoswine -> Cyclizar
-[r1  35/110    586s] ACCEPT Misty's Starmie             45.5 ->  70.1  (18/23/19)  swap chain Misty's Starmie -> Hop'
-[r1  36/110    604s] ACCEPT Crabominable                29.9 ->  56.9  (18/23/19)  swap chain Crabominable -> Miltank
-[r1  37/110    621s] ACCEPT Electivire                  50.6 ->  70.5  (21/26/13)  swap chain Magnezone -> Hop's Cram
-[r1  38/110    638s] ACCEPT Magnezone                   42.8 ->  62.9  (21/26/13)  swap chain Electivire -> Hop's Cra
-[r1  39/110    652s] ACCEPT Vikavolt                    44.4 ->  57.7  (15/26/19)  swap chain Vikavolt -> Miltank
-[r1  40/110    667s] ACCEPT Eelektross                  48.3 ->  73.2  (18/26/16)  swap chain Magnezone -> Hop's Cram
-[r1  41/110    681s] ACCEPT Alolan Golem                41.8 ->  70.9  (15/26/19)  swap chain Alolan Golem -> Zeraora
-[r1  42/110    697s] ACCEPT Manectric                   38.9 ->  59.8  (20/26/14)  swap chain Manectric -> Zeraora
-[r1  43/110    715s] ACCEPT Lanturn                     35.2 ->  47.3  (23/26/11)  swap chain Lanturn -> Alolan Dugtr
-[r1  44/110    731s] ACCEPT Bellibolt                   40.2 ->  62.8  (20/26/14)  swap chain Bellibolt -> Hop's Cram
-[r1  45/110    747s] ACCEPT Kilowattrel                 34.1 ->  51.0  (21/26/13)  swap chain Magnezone -> Zeraora
-[r1  46/110    764s] ACCEPT Raichu                      31.9 ->  50.1  (20/26/14)  swap chain Raichu -> Fan Rotom
-[r1  47/110    779s] ACCEPT Team Rocket's Ampharos      36.0 ->  69.2  (15/26/19)  swap chain Team Rocket's Ampharos 
-[r1  48/110    800s] ACCEPT Zeraora                     65.0 ->  67.9  (20/27/13)  -1 Lightning Energy +1 Carmine
-[r1  49/110    818s] ACCEPT Steven's Claydol            46.4 ->  59.4  (21/23/16)  swap chain Diggersby -> Hop's Cram
-[r1  50/110    833s] ACCEPT Grimmsnarl                  36.9 ->  55.4  (19/26/15)  swap chain Grimmsnarl -> Miltank
-[r1  51/110    847s] ACCEPT Mesprit                     69.5 ->  72.7  (22/24/14)  -1 Psychic Energy +1 Lt. Surge's B
-[r1  52/110    862s] ACCEPT Florges                     34.7 ->  54.1  (19/26/15)  swap chain Florges -> Onix
-[r1  53/110    878s] ACCEPT Musharna                    46.6 ->  59.9  (25/23/12)  add chain Hop's Cramorant
-[r1  54/110    893s] ACCEPT Reuniclus                   33.8 ->  54.9  (19/26/15)  swap chain Reuniclus -> Miltank
-[r1  55/110    907s] ACCEPT Azumarill                   30.3 ->  57.2  (21/23/16)  swap chain Kadabra -> Hop's Cramor
-[r1  56/110    922s] ACCEPT Slurpuff                    43.5 ->  55.4  (19/23/18)  swap chain Slurpuff -> Onix
-[r1  57/110    938s] ACCEPT Drifblim                    39.3 ->  59.3  (21/23/16)  swap chain Alolan Dugtrio -> Hop's
-[r1  58/110    953s] ACCEPT Espathra                    40.4 ->  54.5  (19/23/18)  swap chain Espathra -> Onix
-[r1  59/110    969s] ACCEPT Iron Valiant                62.0 ->  67.9  (22/23/15)  +1 Hop's Cramorant / -1 Iron Valia
-[r1  60/110    983s] ACCEPT Deoxys                      58.7 ->  65.3  (22/23/15)  swap chain Deoxys -> Mesprit
-[r1  61/110    997s] ACCEPT Medicham                    54.7 ->  66.1  (22/23/15)  swap chain Farfetch'd -> Throh
-[r1  62/110   1012s] ACCEPT Annihilape                  47.0 ->  66.8  (17/26/17)  swap chain Annihilape -> Hop's Cra
-[r1  63/110   1028s] ACCEPT Conkeldurr                  41.8 ->  57.1  (21/26/13)  swap chain Medicham -> Hop's Cramo
-[r1  64/110   1043s] ACCEPT Sawk                        65.1 ->  74.3  (21/23/16)  swap chain Annihilape -> Throh
-[r1  65/110   1059s] ACCEPT Excadrill                   42.0 ->  55.8  (19/23/18)  swap chain Medicham -> Hop's Cramo
-[r1  66/110   1073s] ACCEPT Toxicroak                   52.7 ->  65.0  (17/23/20)  swap chain Toxicroak -> Throh
-[r1  67/110   1088s] ACCEPT Probopass                   45.9 ->  64.8  (17/23/20)  swap chain Probopass -> Throh
-[r1  68/110   1103s] ACCEPT Solrock                     59.3 ->  69.4  (21/23/16)  swap chain Annihilape -> Hop's Cra
-[r1  69/110   1118s] ACCEPT Garganacl                   41.3 ->  65.1  (17/26/17)  swap chain Garganacl -> Hop's Cram
-[r1  70/110   1133s] ACCEPT Throh                       66.2 ->  69.9  (21/23/16)  swap chain Annihilape -> Solrock
-[r1  71/110   1150s] ACCEPT Gigalith                    36.7 ->  52.3  (17/26/17)  swap chain Gigalith -> Hitmontop
-[r1  72/110   1164s] ACCEPT Sandslash                   49.9 ->  63.3  (21/23/16)  swap chain Farfetch'd -> Hop's Cra
-[r1  73/110   1179s] ACCEPT Crobat                      40.4 ->  57.8  (21/26/13)  swap chain Alolan Dugtrio -> Hop's
-[r1  74/110   1192s] ACCEPT Team Rocket's Nidoqueen     36.5 ->  48.4  (23/26/11)  add chain Hop's Cramorant
-[r1  75/110   1207s] ACCEPT Krookodile                  33.0 ->  47.9  (15/26/19)  swap chain Krookodile -> Onix
-[r1  76/110   1221s] ACCEPT Galarian Obstagoon          32.7 ->  47.9  (15/26/19)  swap chain Galarian Obstagoon -> O
-[r1  77/110   1235s] ACCEPT Lokix                       37.1 ->  62.2  (20/26/14)  swap chain Lokix -> Hop's Cramoran
-[r1  78/110   1251s] ACCEPT Pangoro                     32.3 ->  62.0  (20/26/14)  swap chain Pangoro -> Hop's Cramor
-[r1  79/110   1265s] ACCEPT Seviper                     41.1 ->  61.8  (20/26/14)  swap chain Seviper -> Hop's Cramor
-[r1  80/110   1279s] ACCEPT Marnie's Scrafty            30.6 ->  54.7  (21/26/13)  swap chain Crobat -> Hop's Cramora
-[r1  81/110   1293s] ACCEPT Scolipede                   33.8 ->  48.7  (15/26/19)  swap chain Scolipede -> Miltank
-[r1  82/110   1307s] ACCEPT Liepard                     35.4 ->  58.5  (21/26/13)  swap chain Crobat -> Hop's Cramora
-[r1  83/110   1323s] ACCEPT Eternatus                   49.7 ->  62.0  (18/26/16)  swap chain Crobat -> Hop's Cramora
-[r1  84/110   1338s] ACCEPT Team Rocket's Muk           36.7 ->  61.5  (20/26/14)  swap chain Team Rocket's Muk -> Ho
-[r1  85/110   1353s] ACCEPT Tinkaton                    45.5 ->  63.5  (17/26/17)  swap chain Tinkaton -> Hop's Cramo
-[r1  86/110   1368s] ACCEPT Escavalier                  31.2 ->  46.2  (18/26/16)  swap chain Escavalier -> Registeel
-[r1  87/110   1385s] ACCEPT Metagross                   30.6 ->  59.1  (18/26/16)  swap chain Metagross -> Hop's Cram
-[r1  88/110   1400s] ACCEPT Hop's Corviknight           31.4 ->  47.2  (22/26/12)  swap chain Diggersby -> Hop's Cram
-[r1  89/110   1416s] ACCEPT Aegislash                   19.1 ->  41.1  (21/26/13)  swap chain Aegislash -> Alolan Dug
-[r1  90/110   1432s] ACCEPT Aggron                      23.3 ->  36.7  (18/26/16)  swap chain Aggron -> Tornadus
-[r1  91/110   1448s] ACCEPT N's Klinklang               29.5 ->  37.3  (24/26/10)  swap chain Farfetch'd -> Fan Rotom
-[r1  92/110   1463s] ACCEPT Bisharp                     32.3 ->  58.2  (18/26/16)  swap chain Bisharp -> Hop's Cramor
-[r1  93/110   1480s] ACCEPT Iron Treads                 36.1 ->  39.6  (23/26/11)  swap chain Iron Treads -> Fan Roto
-[r1  94/110   1495s] ACCEPT Copperajah                  30.3 ->  40.2  (18/26/16)  swap chain Copperajah -> Fan Rotom
-[r1  95/110   1512s] ACCEPT Archaludon                  33.6 ->  43.3  (18/26/16)  swap chain Archaludon -> Onix
-[r1  96/110   1527s] ACCEPT Forretress                  26.8 ->  46.8  (18/26/16)  swap chain Forretress -> Miltank
-[r1  97/110   1541s] ACCEPT Diggersby (Colorless)       59.3 ->  61.3  (24/24/12)  -1 Psychic Energy +1 Friends in Pa
-[r1  98/110   1556s] ACCEPT Alolan Dugtrio (Colorless)  54.5 ->  62.6  (24/23/13)  +1 Hop's Cramorant / -1 Unfezant
-[r1  99/110   1570s] ACCEPT Hop's Cramorant (Colorless  62.2 ->  64.4  (23/23/14)  +1 Bunnelby / -1 Farfetch'd
-[r1 100/110   1585s] ACCEPT Unfezant (Colorless)        31.7 ->  40.0  (17/26/17)  swap chain Unfezant -> Tauros
-[r1 101/110   1598s] ACCEPT Team Rocket's Raticate (Co  33.4 ->  56.0  (17/23/20)  swap chain Team Rocket's Raticate 
-[r1 102/110   1612s] ACCEPT Fan Rotom (Colorless)       60.6 ->  67.0  (20/24/16)  -1 Psychic Energy +1 Cheren
-[r1 103/110   1626s] ACCEPT Watchog (Colorless)         41.5 ->  44.4  (20/24/16)  -1 Psychic Energy +1 Brock's Scout
-[r1 104/110   1640s] ACCEPT Linoone (Colorless)         40.7 ->  54.3  (21/23/16)  swap chain Farfetch'd -> Mesprit
-[r1 105/110   1654s] ACCEPT Seaking (Colorless)         42.6 ->  58.2  (19/23/18)  swap chain Alolan Dugtrio -> Hop's
-[r1 106/110   1673s] ACCEPT Snorlax (Colorless)         44.0 ->  58.7  (20/23/17)  swap chain Snorlax -> Tauros
-[r1 107/110   1687s] ACCEPT Miltank (Colorless)         61.1 ->  63.7  (20/23/17)  +1 Hop's Cramorant / -1 Miltank
-[r1 108/110   1701s] ACCEPT Lycanroc (Colorless)        38.0 ->  59.4  (21/23/16)  swap chain Farfetch'd -> Hop's Cra
-[r1 109/110   1715s] ACCEPT Boltund (Colorless)         38.2 ->  60.6  (21/23/16)  swap chain Farfetch'd -> Hop's Cra
-[r1 110/110   1729s] ACCEPT Cinccino (Colorless)        35.6 ->  47.0  (19/23/18)  swap chain Alolan Dugtrio -> Mespr
-=== round 1 done: 110 changes | top Centiskorch 68.99 | median 51.38 ===
-[r2   1/110   1751s] ACCEPT Decidueye                   57.2 ->  63.1  (21/27/12)  -1 Grass Energy +1 Team Rocket's A
-[r2   2/110   1767s] ACCEPT Lurantis                    45.7 ->  58.5  (19/26/15)  swap chain Onix -> Hop's Cramorant
-[r2   3/110   1784s] ACCEPT Rillaboom                   40.2 ->  49.0  (21/26/13)  add chain Wo-Chien
-[r2   4/110   1800s] ACCEPT Beautifly                   47.0 ->  56.7  (19/26/15)  swap chain Beautifly -> Onix
-[r2   5/110   1814s] ACCEPT Vivillon                    36.9 ->  46.8  (19/26/15)  swap chain Decidueye -> Onix
-[r2   6/110   1829s] ACCEPT Shiftry                     52.8 ->  60.6  (16/26/18)  swap chain Shiftry -> Fan Rotom
-[r2   7/110   1843s] ACCEPT Ludicolo                    36.7 ->  45.9  (22/26/12)  swap chain Decidueye -> Alolan Dug
-[r2   8/110   1858s] ACCEPT Exeggutor                   42.9 ->  61.3  (16/26/18)  swap chain Exeggutor -> Miltank
-[r2   9/110   1872s] ACCEPT Breloom                     46.2 ->  58.9  (15/26/19)  remove chain Breloom
-[r2  10/110   1887s] ACCEPT Ninjask                     45.7 ->  56.5  (16/26/18)  swap chain Ninjask -> Drampa
-[r2  11/110   1901s] ACCEPT Sawsbuck                    43.9 ->  62.9  (19/26/15)  swap chain Sawsbuck -> Alolan Dugt
-[r2  12/110   1915s] ACCEPT Sunflora                    49.2 ->  65.3  (19/26/15)  swap chain Sunflora -> Alolan Dugt
-[r2  13/110   1928s] ACCEPT Ceruledge                   68.3 ->  72.5  (21/24/15)  -1 Fire Energy +1 Tyme
-[r2  14/110   1941s] ACCEPT Centiskorch                 67.5 ->  71.7  (21/22/17)  -1 Professor's Research +1 Fire En
-[r2  15/110   1955s] ACCEPT Camerupt                    66.1 ->  70.8  (21/24/15)  -1 Fire Energy +1 Cheren
-[r2  16/110   1970s] ACCEPT Darmanitan                  42.6 ->  61.5  (18/23/19)  swap chain Charmeleon -> Hop's Cra
-[r2  17/110   1986s] ACCEPT Simisear                    51.6 ->  55.4  (19/24/17)  -1 Fire Energy +1 Lt. Surge's Barg
-[r2  18/110   1999s] ACCEPT Team Rocket's Houndoom      62.9 ->  69.0  (19/24/17)  -1 Fire Energy +1 Team Rocket's Ar
-[r2  19/110   2013s] ACCEPT Talonflame                  50.8 ->  62.5  (14/26/20)  remove chain Talonflame
-[r2  20/110   2026s] ACCEPT Ninetales                   59.6 ->  65.0  (18/23/19)  swap chain Ninetales -> Kecleon
-[r2  21/110   2043s] ACCEPT Charmeleon                  51.0 ->  62.4  (19/23/18)  swap chain Onix -> Hop's Cramorant
-[r2  22/110   2056s] ACCEPT Ethan's Quilava             62.6 ->  68.4  (19/24/17)  -1 Fire Energy +1 Harlequin
-[r2  23/110   2070s] ACCEPT Volcarona                   49.2 ->  57.2  (21/23/16)  swap chain Volcarona -> Camerupt
-[r2  24/110   2086s] ACCEPT Rapidash                    44.6 ->  52.7  (19/24/17)  -1 Fire Energy +1 Lt. Surge's Barg
-[r2  25/110   2102s] ACCEPT Inteleon                    44.0 ->  48.3  (23/27/10)  -1 Water Energy +1 Lt. Surge's Bar
-[r2  26/110   2116s] ACCEPT Walrein                     51.2 ->  57.8  (18/27/15)  -1 Water Energy +1 Amarys
-[r2  27/110   2132s] ACCEPT Quaquaval                   31.9 ->  56.0  (16/26/18)  swap chain Inteleon -> Hop's Cramo
-[r2  28/110   2146s] ACCEPT Poliwrath                   50.8 ->  58.0  (16/26/18)  swap chain Inteleon -> Fan Rotom
-[r2  29/110   2159s] ACCEPT Octillery                   53.6 ->  62.6  (18/24/18)  -1 Water Energy +1 Team Rocket's A
-[r2  30/110   2175s] ACCEPT Avalugg                     30.5 ->  46.6  (16/23/21)  swap chain Inteleon -> Hop's Cramo
-[r2  31/110   2190s] ACCEPT Iron Bundle                 31.9 ->  53.6  (21/23/16)  swap chain Iron Bundle -> Eiscue
-[r2  32/110   2203s] ACCEPT Frosmoth                    49.2 ->  54.5  (20/23/17)  swap chain Inteleon -> Kecleon
-[r2  33/110   2222s] ACCEPT Crawdaunt                   51.9 ->  55.0  (18/24/18)  -1 Water Energy +1 Emcee's Hype
-[r2  34/110   2237s] ACCEPT Mamoswine                   21.1 ->  35.6  (17/26/17)  swap chain Diggersby -> Hop's Cram
-[r2  35/110   2250s] ACCEPT Misty's Starmie             52.7 ->  64.0  (19/23/18)  swap chain Farfetch'd -> Eiscue
-[r2  36/110   2266s] ACCEPT Crabominable                38.5 ->  54.3  (19/23/18)  swap chain Farfetch'd -> Hop's Cra
-[r2  37/110   2281s] ACCEPT Electivire                  52.1 ->  56.9  (21/27/12)  -1 Lightning Energy +1 Harlequin
-[r2  38/110   2295s] ACCEPT Magnezone                   48.4 ->  55.0  (16/26/18)  swap chain Magnezone -> Falinks
-[r2  39/110   2310s] ACCEPT Vikavolt                    42.4 ->  48.6  (18/26/16)  add chain Zeraora
-[r2  40/110   2322s] ACCEPT Eelektross                  60.4 ->  69.7  (17/26/17)  swap chain Diggersby -> Zeraora
-[r2  41/110   2340s] ACCEPT Alolan Golem                55.5 ->  66.1  (14/26/20)  swap chain Diggersby -> Hop's Cram
-[r2  42/110   2360s] ACCEPT Manectric                   49.4 ->  61.7  (19/26/15)  swap chain Electivire -> Hop's Cra
-[r2  43/110   2374s] ACCEPT Lanturn                     30.8 ->  43.3  (21/26/13)  swap chain Magnezone -> Miltank
-[r2  44/110   2389s] ACCEPT Bellibolt                   47.9 ->  63.5  (19/26/15)  swap chain Electivire -> Zeraora
-[r2  45/110   2409s] ACCEPT Kilowattrel                 34.7 ->  63.3  (18/26/16)  swap chain Kilowattrel -> Hop's Cr
-[r2  46/110   2424s] ACCEPT Raichu                      32.8 ->  52.1  (18/26/16)  swap chain Magnezone -> Zeraora
-[r2  47/110   2441s] ACCEPT Team Rocket's Ampharos      54.9 ->  60.6  (15/27/18)  -1 Lightning Energy +1 Buddy-Buddy
-[r2  48/110   2462s] ACCEPT Zeraora                     53.0 ->  61.3  (15/27/18)  remove chain Electivire
-[r2  49/110   2478s] ACCEPT Steven's Claydol            43.1 ->  53.6  (20/23/17)  swap chain Kadabra -> Fan Rotom
-[r2  50/110   2493s] ACCEPT Grimmsnarl                  39.1 ->  55.8  (19/26/15)  swap chain Miltank -> Hop's Cramor
-[r2  51/110   2508s] ACCEPT Mesprit                     56.9 ->  62.2  (22/24/14)  +1 Hop's Cramorant / -1 Mesprit
-[r2  52/110   2524s] ACCEPT Florges                     36.3 ->  55.4  (19/26/15)  swap chain Onix -> Hop's Cramorant
-[r2  53/110   2539s] ACCEPT Musharna                    42.4 ->  52.7  (22/23/15)  swap chain Musharna -> Fan Rotom
-[r2  54/110   2554s] ACCEPT Reuniclus                   39.3 ->  45.0  (19/27/14)  -1 Psychic Energy +1 Team Rocket's
-[r2  55/110   2567s] ACCEPT Azumarill                   42.9 ->  60.7  (18/23/19)  swap chain Azumarill -> Audino
-[r2  56/110   2583s] ACCEPT Slurpuff                    39.3 ->  47.3  (19/23/18)  swap chain Onix -> Mesprit
-[r2  57/110   2597s] ACCEPT Drifblim                    44.2 ->  54.5  (23/23/14)  swap chain Kadabra -> Alolan Dugtr
-[r2  58/110   2614s] ACCEPT Espathra                    38.5 ->  47.5  (22/23/15)  add chain Hop's Cramorant
-[r2  59/110   2629s] ACCEPT Iron Valiant                54.9 ->  58.2  (22/24/14)  -1 Psychic Energy +1 Harlequin
-[r2  60/110   2643s] ACCEPT Deoxys                      52.7 ->  56.6  (17/23/20)  remove chain Kadabra
-[r2  61/110   2658s] ACCEPT Medicham                    54.5 ->  65.7  (20/23/17)  swap chain Annihilape -> Hitmontop
-[r2  62/110   2671s] ACCEPT Annihilape                  53.4 ->  58.2  (17/27/16)  -1 Fighting Energy +1 TM Machine
-[r2  63/110   2686s] ACCEPT Conkeldurr                  44.0 ->  58.2  (16/26/18)  swap chain Conkeldurr -> Throh
-[r2  64/110   2701s] ACCEPT Sawk                        60.2 ->  63.1  (21/24/15)  -1 Fighting Energy +1 Harlequin
-[r2  65/110   2717s] ACCEPT Excadrill                   42.9 ->  55.4  (16/23/21)  swap chain Excadrill -> Hitmontop
-[r2  66/110   2731s] ACCEPT Toxicroak                   57.5 ->  62.0  (18/23/19)  swap chain Farfetch'd -> Tauros
-[r2  67/110   2746s] ACCEPT Probopass                   57.7 ->  67.2  (18/23/19)  swap chain Farfetch'd -> Sawk
-[r2  68/110   2761s] ACCEPT Solrock                     56.7 ->  64.8  (18/23/19)  remove chain Farfetch'd
-[r2  69/110   2774s] ACCEPT Garganacl                   53.0 ->  58.7  (18/26/16)  swap chain Farfetch'd -> Sawk
-[r2  70/110   2790s] ACCEPT Throh                       55.8 ->  59.1  (22/23/15)  swap chain Farfetch'd -> Ethan's P
-[r2  71/110   2805s] ACCEPT Gigalith                    36.5 ->  52.3  (16/26/18)  swap chain Medicham -> Throh
-[r2  72/110   2819s] ACCEPT Sandslash                   50.8 ->  64.0  (18/23/19)  swap chain Sandslash -> Hitmontop
-[r2  73/110   2832s] ACCEPT Crobat                      47.2 ->  51.6  (16/26/18)  swap chain Crobat -> Fan Rotom
-[r2  74/110   2846s] ACCEPT Team Rocket's Nidoqueen     39.3 ->  42.8  (21/26/13)  swap chain Crobat -> Furfrou
-[r2  75/110   2860s] ACCEPT Krookodile                  34.2 ->  37.7  (15/27/18)  -1 Darkness Energy +1 Carmine
-[r2  76/110   2875s] ACCEPT Galarian Obstagoon          34.0 ->  36.9  (15/27/18)  -1 Darkness Energy +1 Team Rocket'
-[r2  77/110   2887s] ACCEPT Lokix                       53.9 ->  58.2  (20/27/13)  -1 Darkness Energy +1 Ethan's Adve
-[r2  78/110   2900s] ACCEPT Pangoro                     53.8 ->  57.6  (20/27/13)  -1 Darkness Energy +1 Kofu
-[r2  79/110   2913s] ACCEPT Seviper                     53.8 ->  57.4  (20/27/13)  -1 Darkness Energy +1 Tyme
-[r2  80/110   2927s] ACCEPT Marnie's Scrafty            42.2 ->  56.3  (18/26/16)  swap chain Marnie's Scrafty -> N's
-[r2  81/110   2941s] ACCEPT Scolipede                   40.2 ->  44.8  (18/26/16)  add chain Hop's Cramorant
-[r2  82/110   2954s] ACCEPT Liepard                     47.3 ->  57.2  (18/26/16)  swap chain Liepard -> Audino
-[r2  83/110   2970s] ACCEPT Eternatus                   53.4 ->  57.8  (18/27/15)  -1 Darkness Energy +1 Professor Sa
-[r2  84/110   2983s] ACCEPT Team Rocket's Muk           54.1 ->  59.1  (20/27/13)  -1 Darkness Energy +1 Team Rocket'
-[r2  85/110   2997s] ACCEPT Tinkaton                    53.6 ->  59.1  (17/27/16)  -1 Metal Energy +1 Poké Ball
-[r2  86/110   3012s] ACCEPT Escavalier                  39.8 ->  42.4  (18/27/15)  -1 Metal Energy +1 Team Rocket's A
-[r2  87/110   3026s] ACCEPT Metagross                   52.3 ->  55.4  (18/27/15)  -1 Metal Energy +1 Lt. Surge's Bar
-[r2  88/110   3040s] ACCEPT Hop's Corviknight           35.4 ->  46.6  (23/26/11)  swap chain Tinkaton -> Alolan Dugt
-[r2  89/110   3054s] ACCEPT Aegislash                   31.4 ->  46.8  (20/26/14)  swap chain Diggersby -> Hop's Cram
-[r2  90/110   3069s] ACCEPT Aggron                      27.2 ->  46.8  (19/26/15)  swap chain Farfetch'd -> Hop's Cra
-[r2  91/110   3084s] ACCEPT N's Klinklang               28.7 ->  36.0  (19/26/15)  swap chain N's Klinklang -> Onix
-[r2  92/110   3097s] ACCEPT Bisharp                     52.1 ->  56.5  (18/27/15)  -1 Metal Energy +1 Harlequin
-[r2  93/110   3112s] ACCEPT Iron Treads                 31.9 ->  48.5  (24/26/10)  swap chain Farfetch'd -> Hop's Cra
-[r2  94/110   3126s] ACCEPT Copperajah                  34.3 ->  51.6  (18/26/16)  swap chain Fan Rotom -> Hop's Cram
-[r2  95/110   3142s] ACCEPT Archaludon                  33.2 ->  40.0  (19/26/15)  swap chain Farfetch'd -> Registeel
-[r2  96/110   3158s] ACCEPT Forretress                  36.9 ->  48.6  (16/26/18)  swap chain Tinkaton -> Hop's Cramo
-[r2  97/110   3173s] ACCEPT Diggersby (Colorless)       51.2 ->  57.6  (22/24/14)  swap chain Unfezant -> Fan Rotom
-[r2  98/110   3187s] ACCEPT Alolan Dugtrio (Colorless)  50.3 ->  54.5  (23/23/14)  swap chain Unfezant -> Mesprit
-[r2  99/110   3202s] ACCEPT Hop's Cramorant (Colorless  53.2 ->  55.2  (23/24/13)  -1 Psychic Energy +1 Billy & O'Nar
-[r2 100/110   3218s] ACCEPT Unfezant (Colorless)        31.4 ->  42.4  (17/26/17)  swap chain Tauros -> Mesprit
-[r2 101/110   3232s] ACCEPT Team Rocket's Raticate (Co  46.7 ->  54.9  (16/23/21)  swap chain Alolan Dugtrio -> Hop's
-[r2 102/110   3246s] ACCEPT Fan Rotom (Colorless)       55.8 ->  61.3  (20/25/15)  -1 Psychic Energy +1 Carmine
-[r2 103/110   3261s] ACCEPT Watchog (Colorless)         35.4 ->  59.1  (17/24/19)  swap chain Watchog -> Hop's Cramor
-[r2 104/110   3274s] ACCEPT Linoone (Colorless)         42.4 ->  53.2  (20/23/17)  swap chain Diggersby -> Hop's Cram
-[r2 105/110   3288s] ACCEPT Seaking (Colorless)         49.9 ->  56.3  (20/23/17)  swap chain Farfetch'd -> Mr. Mime
-[r2 106/110   3304s] ACCEPT Snorlax (Colorless)         47.3 ->  56.3  (20/23/17)  +1 Hop's Cramorant / -1 Tauros
-[r2 107/110   3319s] ACCEPT Miltank (Colorless)         55.0 ->  59.3  (20/24/16)  -1 Psychic Energy +1 Team Rocket's
-[r2 108/110   3332s] ACCEPT Lycanroc (Colorless)        49.9 ->  58.2  (18/23/19)  swap chain Lycanroc -> Fan Rotom
-[r2 109/110   3345s] ACCEPT Boltund (Colorless)         50.5 ->  54.9  (18/23/19)  swap chain Boltund -> Dedenne
-[r2 110/110   3359s] ACCEPT Cinccino (Colorless)        38.0 ->  41.5  (19/24/17)  -1 Psychic Energy +1 Harlequin
-=== round 2 done: 110 changes | top Ceruledge 66.42 | median 52.89 ===
-[r3   1/110   3382s] ACCEPT Decidueye                   52.1 ->  61.3  (21/28/11)  -1 Grass Energy +1 Carmine
-[r3   2/110   3395s] ACCEPT Lurantis                    52.3 ->  58.3  (19/26/15)  swap chain Lurantis -> Alolan Dugt
-[r3   3/110   3412s] ACCEPT Rillaboom                   42.8 ->  46.4  (21/26/13)  swap chain Erika's Tangela -> Milt
-[r3   4/110   3427s] ACCEPT Beautifly                   49.9 ->  60.0  (17/26/17)  swap chain Decidueye -> Hop's Cram
-[r3   5/110   3443s] ACCEPT Vivillon                    39.1 ->  51.4  (19/26/15)  swap chain Onix -> Wo-Chien
-[r3   6/110   3457s] ACCEPT Shiftry                     48.6 ->  53.4  (16/27/17)  -1 Grass Energy +1 Team Rocket's A
-[r3   7/110   3471s] ACCEPT Ludicolo                    35.4 ->  54.3  (19/26/15)  swap chain Lurantis -> Hop's Cramo
-[r3   8/110   3487s] ACCEPT Exeggutor                   56.9 ->  62.2  (16/27/17)  -1 Grass Energy +1 Powerglass
-[r3   9/110   3499s] ACCEPT Breloom                     54.0 ->  57.8  (15/27/18)  -1 Grass Energy +1 Buddy-Buddy Pof
-[r3  10/110   3515s] ACCEPT Ninjask                     52.7 ->  59.3  (16/27/17)  -1 Grass Energy +1 Glass Trumpet
-[r3  11/110   3529s] ACCEPT Sawsbuck                    56.7 ->  60.7  (19/27/14)  -1 Grass Energy +1 Cheren
-[r3  12/110   3543s] ACCEPT Sunflora                    56.3 ->  65.1  (20/26/14)  swap chain Farfetch'd -> Wo-Chien
-[r3  13/110   3557s] ACCEPT Ceruledge                   66.2 ->  69.7  (20/24/16)  swap chain Centiskorch -> Fan Roto
-[r3  14/110   3570s] ACCEPT Centiskorch                 63.5 ->  68.8  (21/23/16)  -1 Fire Energy +1 Cheren
-[r3  15/110   3584s] ACCEPT Camerupt                    64.8 ->  67.0  (21/25/14)  -1 Fire Energy +1 Ethan's Adventur
-[r3  16/110   3598s] ACCEPT Darmanitan                  52.3 ->  59.3  (18/23/19)  swap chain Tornadus -> Miltank
-[r3  17/110   3615s] ACCEPT Simisear                    43.3 ->  54.1  (18/24/18)  swap chain Charmeleon -> Tauros
-[r3  18/110   3629s] ACCEPT Team Rocket's Houndoom      60.7 ->  63.3  (18/24/18)  swap chain Charmeleon -> Fan Rotom
-[r3  19/110   3642s] ACCEPT Talonflame                  53.3 ->  58.7  (14/27/19)  -1 Fire Energy +1 Friends in Palde
-[r3  20/110   3657s] ACCEPT Ninetales                   57.4 ->  58.5  (18/24/18)  -1 Fire Energy +1 Energy Retrieval
-[r3  21/110   3670s] ACCEPT Charmeleon                  55.8 ->  60.4  (19/24/17)  -1 Fire Energy +1 Kofu
-[r3  22/110   3684s] ACCEPT Ethan's Quilava             60.9 ->  62.0  (19/23/18)  -1 Ultra Ball +1 Fire Energy
-[r3  23/110   3698s] ACCEPT Volcarona                   49.5 ->  54.9  (21/24/15)  -1 Fire Energy +1 Carmine
-[r3  24/110   3715s] ACCEPT Rapidash                    43.9 ->  47.5  (19/25/16)  -1 Fire Energy +1 Kofu
-[r3  25/110   3731s] ACCEPT Inteleon                    37.1 ->  45.0  (23/27/10)  swap chain Keldeo -> Hop's Cramora
-[r3  26/110   3746s] ACCEPT Walrein                     49.2 ->  50.8  (18/26/16)  -1 Boss's Orders +1 Water Energy
-[r3  27/110   3761s] ACCEPT Quaquaval                   42.6 ->  47.2  (16/26/18)  swap chain Tauros -> Miltank
-[r3  28/110   3776s] ACCEPT Poliwrath                   46.2 ->  55.2  (16/26/18)  swap chain Fan Rotom -> Eiscue
-[r3  29/110   3790s] ACCEPT Octillery                   51.4 ->  61.1  (19/24/17)  swap chain Farfetch'd -> Eiscue
-[r3  30/110   3806s] ACCEPT Avalugg                     35.4 ->  46.1  (19/23/18)  swap chain Drampa -> Swellow
-[r3  31/110   3825s] ACCEPT Iron Bundle                 44.4 ->  49.9  (21/24/15)  -1 Water Energy +1 Harlequin
-[r3  32/110   3840s] ACCEPT Frosmoth                    45.5 ->  53.6  (20/23/17)  swap chain Frosmoth -> Alolan Dugt
-[r3  33/110   3859s] ACCEPT Crawdaunt                   44.8 ->  48.8  (18/25/17)  -1 Water Energy +1 Kofu
-[r3  34/110   3873s] ACCEPT Mamoswine                   28.1 ->  42.4  (18/26/16)  swap chain Inteleon -> Diggersby
-[r3  35/110   3890s] ACCEPT Misty's Starmie             54.9 ->  59.6  (19/24/17)  -1 Water Energy +1 Carmine
-[r3  36/110   3905s] ACCEPT Crabominable                46.6 ->  52.3  (19/23/18)  +1 Bunnelby / -1 Miltank
-[r3  37/110   3920s] ACCEPT Electivire                  48.1 ->  57.8  (18/27/15)  swap chain Electivire -> Fan Rotom
-[r3  38/110   3935s] ACCEPT Magnezone                   44.4 ->  47.5  (16/26/18)  swap chain Falinks -> Miltank
-[r3  39/110   3955s] ACCEPT Vikavolt                    38.5 ->  45.0  (18/27/15)  -1 Lightning Energy +1 Ultra Ball
-[r3  40/110   3973s] ACCEPT Eelektross                  57.8 ->  67.2  (15/26/19)  swap chain Eelektross -> Diggersby
-[r3  41/110   3991s] ACCEPT Alolan Golem                53.3 ->  69.8  (15/26/19)  swap chain Magnezone -> Diggersby
-[r3  42/110   4010s] ACCEPT Manectric                   53.0 ->  58.9  (17/26/17)  swap chain Magnezone -> N's Joltik
-[r3  43/110   4026s] ACCEPT Lanturn                     34.1 ->  46.1  (21/26/13)  swap chain Miltank -> Hop's Cramor
-[r3  44/110   4045s] ACCEPT Bellibolt                   51.6 ->  58.5  (19/26/15)  +1 Bunnelby / -1 Hop's Cramorant
-[r3  45/110   4064s] ACCEPT Kilowattrel                 56.0 ->  57.9  (13/26/21)  remove chain Electivire
-[r3  46/110   4084s] ACCEPT Raichu                      40.6 ->  45.3  (17/26/17)  swap chain Electivire -> N's Jolti
-[r3  47/110   4103s] ACCEPT Team Rocket's Ampharos      53.4 ->  57.4  (16/27/17)  swap chain Magnezone -> Alolan Dug
-[r3  48/110   4121s] ACCEPT Zeraora                     54.9 ->  60.9  (18/27/15)  add chain Hop's Cramorant
-[r3  49/110   4137s] ACCEPT Steven's Claydol            41.5 ->  56.7  (20/23/17)  swap chain Steven's Claydol -> Dig
-[r3  50/110   4151s] ACCEPT Grimmsnarl                  46.6 ->  51.2  (19/27/14)  -1 Psychic Energy +1 Harlequin
-[r3  51/110   4166s] ACCEPT Mesprit                     55.0 ->  62.0  (17/24/19)  remove chain Kadabra
-[r3  52/110   4179s] ACCEPT Florges                     46.2 ->  49.0  (19/27/14)  -1 Psychic Energy +1 Emcee's Hype
-[r3  53/110   4193s] ACCEPT Musharna                    41.5 ->  48.3  (17/23/20)  remove chain Kadabra
-[r3  54/110   4209s] ACCEPT Reuniclus                   37.1 ->  51.6  (19/27/14)  swap chain Miltank -> Hop's Cramor
-[r3  55/110   4223s] ACCEPT Azumarill                   54.3 ->  56.3  (18/24/18)  -1 Psychic Energy +1 Team Rocket's
-[r3  56/110   4236s] ACCEPT Slurpuff                    36.0 ->  48.4  (19/23/18)  swap chain Mesprit -> Hop's Cramor
-[r3  57/110   4250s] ACCEPT Drifblim                    48.8 ->  55.6  (20/23/17)  swap chain Drifblim -> Audino
-[r3  58/110   4266s] ACCEPT Espathra                    37.4 ->  42.6  (22/23/15)  +1 Bunnelby / -1 Onix
-[r3  59/110   4282s] ACCEPT Iron Valiant                50.1 ->  52.8  (22/25/13)  -1 Psychic Energy +1 Lt. Surge's B
-[r3  60/110   4295s] ACCEPT Deoxys                      50.7 ->  56.2  (17/23/20)  +1 Hop's Cramorant / -1 Mesprit
-[r3  61/110   4311s] ACCEPT Medicham                    53.9 ->  60.4  (20/23/17)  swap chain Throh -> Hop's Cramoran
-[r3  62/110   4325s] ACCEPT Annihilape                  51.6 ->  58.0  (17/28/15)  -1 Fighting Energy +1 Harlequin
-[r3  63/110   4340s] ACCEPT Conkeldurr                  49.2 ->  52.7  (16/27/17)  -1 Fighting Energy +1 Energy Coin
-[r3  64/110   4356s] ACCEPT Sawk                        53.9 ->  59.3  (21/24/15)  +1 Meditite / -1 Sawk
-[r3  65/110   4371s] ACCEPT Excadrill                   46.3 ->  55.8  (20/23/17)  swap chain Farfetch'd -> Medicham
-[r3  66/110   4387s] ACCEPT Toxicroak                   55.6 ->  58.0  (18/24/18)  -1 Fighting Energy +1 Kofu
-[r3  67/110   4401s] ACCEPT Probopass                   59.4 ->  62.9  (18/24/18)  -1 Fighting Energy +1 Tyme
-[r3  68/110   4415s] ACCEPT Solrock                     56.5 ->  58.7  (18/23/19)  +1 Bunnelby / -1 Solrock
-[r3  69/110   4428s] ACCEPT Garganacl                   47.5 ->  53.0  (18/26/16)  swap chain Sawk -> Throh
-[r3  70/110   4444s] ACCEPT Throh                       47.9 ->  54.0  (17/23/20)  remove chain Medicham
-[r3  71/110   4460s] ACCEPT Gigalith                    44.6 ->  49.9  (17/26/17)  swap chain Farfetch'd -> Hop's Cra
-[r3  72/110   4474s] ACCEPT Sandslash                   53.6 ->  58.3  (18/24/18)  -1 Fighting Energy +1 Harlequin
-[r3  73/110   4488s] ACCEPT Crobat                      44.2 ->  51.4  (19/26/15)  swap chain Fan Rotom -> Alolan Dug
-[r3  74/110   4503s] ACCEPT Team Rocket's Nidoqueen     31.9 ->  41.8  (19/26/15)  swap chain Team Rocket's Nidoqueen
-[r3  75/110   4518s] ACCEPT Krookodile                  31.2 ->  53.6  (15/27/18)  swap chain Onix -> Hop's Cramorant
-[r3  76/110   4533s] ACCEPT Galarian Obstagoon          29.4 ->  34.4  (15/28/17)  -1 Darkness Energy +1 Carmine
-[r3  77/110   4547s] ACCEPT Lokix                       50.8 ->  52.1  (18/27/15)  swap chain Crobat -> Fan Rotom
-[r3  78/110   4560s] ACCEPT Pangoro                     50.5 ->  53.2  (18/27/15)  swap chain Crobat -> Fan Rotom
-[r3  79/110   4574s] ACCEPT Seviper                     50.5 ->  53.9  (20/28/12)  -1 Darkness Energy +1 Carmine
-[r3  80/110   4588s] ACCEPT Marnie's Scrafty            46.8 ->  49.7  (18/27/15)  -1 Darkness Energy +1 Billy & O'Na
-[r3  81/110   4603s] ACCEPT Scolipede                   41.8 ->  44.4  (18/27/15)  -1 Darkness Energy +1 Harlequin
-[r3  82/110   4617s] ACCEPT Liepard                     47.7 ->  50.3  (18/27/15)  -1 Darkness Energy +1 Tyme
-[r3  83/110   4633s] ACCEPT Eternatus                   48.3 ->  50.8  (18/28/14)  -1 Darkness Energy +1 Tyme
-[r3  84/110   4647s] ACCEPT Team Rocket's Muk           52.3 ->  54.5  (20/28/12)  -1 Darkness Energy +1 Cheren
-[r3  85/110   4661s] ACCEPT Tinkaton                    53.2 ->  55.2  (17/28/15)  -1 Metal Energy +1 Team Rocket's A
-[r3  86/110   4677s] ACCEPT Escavalier                  33.2 ->  39.1  (18/28/14)  -1 Metal Energy +1 Carmine
-[r3  87/110   4691s] ACCEPT Metagross                   46.4 ->  51.6  (18/28/14)  -1 Metal Energy +1 Harlequin
-[r3  88/110   4706s] ACCEPT Hop's Corviknight           37.8 ->  41.5  (23/27/10)  -1 Metal Energy +1 Carmine
-[r3  89/110   4719s] ACCEPT Aegislash                   40.2 ->  47.7  (17/26/17)  remove chain Farfetch'd
-[r3  90/110   4734s] ACCEPT Aggron                      37.8 ->  50.5  (15/26/19)  remove chain Tornadus
-[r3  91/110   4750s] ACCEPT N's Klinklang               28.1 ->  38.9  (17/26/17)  swap chain Tinkaton -> Hop's Cramo
-[r3  92/110   4764s] ACCEPT Bisharp                     47.7 ->  52.7  (18/28/14)  -1 Metal Energy +1 Carmine
-[r3  93/110   4779s]   ---- Iron Treads                 41.2 ->  40.8  (24/26/10)  
-[r3  94/110   4792s] ACCEPT Copperajah                  43.5 ->  47.5  (18/27/15)  -1 Metal Energy +1 Carmine
-[r3  95/110   4810s] ACCEPT Archaludon                  32.5 ->  41.8  (19/26/15)  swap chain Onix -> Hop's Cramorant
-[r3  96/110   4825s] ACCEPT Forretress                  41.7 ->  46.6  (16/27/17)  -1 Metal Energy +1 Lt. Surge's Bar
-[r3  97/110   4841s] ACCEPT Diggersby (Colorless)       49.9 ->  53.9  (22/25/13)  -1 Psychic Energy +1 Team Rocket's
-[r3  98/110   4856s] ACCEPT Alolan Dugtrio (Colorless)  45.5 ->  53.6  (23/22/15)  -1 Professor's Research +1 Psychic
-[r3  99/110   4871s] ACCEPT Hop's Cramorant (Colorless  44.2 ->  49.7  (23/25/12)  -1 Psychic Energy +1 Carmine
-[r3 100/110   4885s] ACCEPT Unfezant (Colorless)        34.5 ->  44.6  (16/26/18)  swap chain Diggersby -> Hop's Cram
-[r3 101/110   4899s] ACCEPT Team Rocket's Raticate (Co  44.1 ->  52.3  (20/23/17)  swap chain Farfetch'd -> Alolan Du
-[r3 102/110   4915s] ACCEPT Fan Rotom (Colorless)       54.7 ->  57.1  (20/26/14)  -1 Psychic Energy +1 Kofu
-[r3 103/110   4929s] ACCEPT Watchog (Colorless)         51.7 ->  57.8  (17/25/18)  -1 Psychic Energy +1 Cheren
-[r3 104/110   4943s] ACCEPT Linoone (Colorless)         43.3 ->  46.3  (17/23/20)  swap chain Linoone -> Mr. Mime
-[r3 105/110   4958s] ACCEPT Seaking (Colorless)         49.0 ->  52.1  (20/24/16)  -1 Psychic Energy +1 Team Rocket's
-[r3 106/110   4974s] ACCEPT Snorlax (Colorless)         49.4 ->  51.2  (20/23/17)  +1 Bunnelby / -1 Farfetch'd
-[r3 107/110   4990s] ACCEPT Miltank (Colorless)         51.2 ->  55.0  (20/25/15)  -1 Psychic Energy +1 Carmine
-[r3 108/110   5003s] ACCEPT Lycanroc (Colorless)        50.1 ->  54.7  (18/24/18)  -1 Psychic Energy +1 Ethan's Adven
-[r3 109/110   5017s] ACCEPT Boltund (Colorless)         47.9 ->  52.8  (18/24/18)  -1 Psychic Energy +1 Team Rocket's
-[r3 110/110   5032s] ACCEPT Cinccino (Colorless)        31.4 ->  39.1  (16/24/20)  swap chain Cinccino -> Tauros
-=== round 3 done: 109 changes | top Centiskorch 66.06 | median 50.83 ===
-[r4   1/110   5055s] ACCEPT Decidueye                   60.7 ->  62.8  (21/29/10)  -1 Grass Energy +1 Carmine
-[r4   2/110   5068s] ACCEPT Lurantis                    47.5 ->  49.7  (19/27/14)  -1 Grass Energy +1 Team Rocket's A
-[r4   3/110   5085s] ACCEPT Rillaboom                   40.2 ->  50.8  (18/26/16)  remove chain Farfetch'd
-[r4   4/110   5100s] ACCEPT Beautifly                   53.8 ->  57.2  (17/25/18)  -1 Professor's Research +1 Grass E
-[r4   5/110   5114s] ACCEPT Vivillon                    45.0 ->  51.4  (16/26/18)  swap chain Lurantis -> Tauros
-[r4   6/110   5129s] ACCEPT Shiftry                     44.4 ->  51.4  (16/28/16)  -1 Grass Energy +1 Love Ball
-[r4   7/110   5142s] ACCEPT Ludicolo                    48.6 ->  55.6  (16/26/18)  remove chain Farfetch'd
-[r4   8/110   5158s] ACCEPT Exeggutor                   54.1 ->  60.7  (16/28/16)  -1 Grass Energy +1 Team Rocket's A
-[r4   9/110   5171s] ACCEPT Breloom                     53.1 ->  56.9  (15/28/17)  -1 Grass Energy +1 Brock's Scoutin
-[r4  10/110   5187s] ACCEPT Ninjask                     52.3 ->  56.7  (17/27/16)  swap chain Farfetch'd -> Hop's Cra
-[r4  11/110   5202s] ACCEPT Sawsbuck                    57.1 ->  61.3  (19/28/13)  -1 Grass Energy +1 Carmine
-[r4  12/110   5216s] ACCEPT Sunflora                    58.0 ->  62.9  (20/25/15)  -1 Professor's Research +1 Grass E
-[r4  13/110   5230s] ACCEPT Ceruledge                   63.3 ->  67.5  (20/25/15)  -1 Fire Energy +1 Urbain
-[r4  14/110   5244s] ACCEPT Centiskorch                 64.8 ->  70.5  (21/24/15)  -1 Fire Energy +1 Carmine
-[r4  15/110   5259s] ACCEPT Camerupt                    61.5 ->  65.3  (21/26/13)  -1 Fire Energy +1 Carmine
-[r4  16/110   5274s] ACCEPT Darmanitan                  54.5 ->  57.6  (18/24/18)  -1 Fire Energy +1 Team Rocket's Ar
-[r4  17/110   5292s]   ---- Simisear                    47.5 ->  48.4  (18/24/18)  
-[r4  18/110   5306s] ACCEPT Team Rocket's Houndoom      59.3 ->  60.9  (18/25/17)  -1 Fire Energy +1 Team Rocket's Ar
-[r4  19/110   5319s] ACCEPT Talonflame                  52.5 ->  56.2  (14/28/18)  -1 Fire Energy +1 Tyme
-[r4  20/110   5334s] ACCEPT Ninetales                   52.1 ->  53.8  (18/25/17)  -1 Fire Energy +1 TM Machine
-[r4  21/110   5348s] ACCEPT Charmeleon                  54.5 ->  58.2  (21/24/15)  swap chain Rapidash -> Centiskorch
-[r4  22/110   5362s] ACCEPT Ethan's Quilava             56.1 ->  59.3  (19/24/17)  -1 Fire Energy +1 Harlequin
-[r4  23/110   5376s] ACCEPT Volcarona                   49.5 ->  54.1  (21/25/14)  -1 Fire Energy +1 Cheren
-[r4  24/110   5393s] ACCEPT Rapidash                    40.4 ->  47.5  (19/25/16)  swap chain Volcanion -> Miltank
-[r4  25/110   5407s] ACCEPT Inteleon                    37.7 ->  49.9  (18/27/15)  swap chain Inteleon -> Fan Rotom
-[r4  26/110   5421s] ACCEPT Walrein                     45.1 ->  51.7  (19/26/15)  swap chain Farfetch'd -> Eiscue
-[r4  27/110   5437s] ACCEPT Quaquaval                   40.4 ->  48.3  (16/26/18)  swap chain Miltank -> Eiscue
-[r4  28/110   5454s] ACCEPT Poliwrath                   48.3 ->  51.4  (16/27/17)  -1 Water Energy +1 Urbain
-[r4  29/110   5471s] ACCEPT Octillery                   55.8 ->  59.4  (19/24/17)  +1 Bunnelby / -1 Eiscue
-[r4  30/110   5484s] ACCEPT Avalugg                     38.5 ->  50.1  (16/23/21)  swap chain Swellow -> Eiscue
-[r4  31/110   5504s] ACCEPT Iron Bundle                 47.3 ->  51.6  (21/25/14)  -1 Water Energy +1 Tyme
-[r4  32/110   5519s] ACCEPT Frosmoth                    46.8 ->  53.2  (20/24/16)  -1 Water Energy +1 Cheren
-[r4  33/110   5539s] ACCEPT Crawdaunt                   45.0 ->  47.7  (18/25/17)  +1 Bunnelby / -1 Farfetch'd
-[r4  34/110   5553s] ACCEPT Mamoswine                   38.9 ->  50.3  (19/26/15)  swap chain Farfetch'd -> Eiscue
-[r4  35/110   5570s] ACCEPT Misty's Starmie             55.0 ->  58.7  (19/25/16)  -1 Water Energy +1 TM Machine
-[r4  36/110   5585s] ACCEPT Crabominable                45.7 ->  48.3  (19/24/17)  -1 Water Energy +1 Lt. Surge's Bar
-[r4  37/110   5599s] ACCEPT Electivire                  50.3 ->  53.0  (18/28/14)  -1 Lightning Energy +1 Buddy-Buddy
-[r4  38/110   5614s] ACCEPT Magnezone                   40.9 ->  44.2  (16/27/17)  -1 Lightning Energy +1 Cheren
-[r4  39/110   5635s] ACCEPT Vikavolt                    38.3 ->  42.9  (21/27/12)  swap chain Magnezone -> Eelektross
-[r4  40/110   5652s] ACCEPT Eelektross                  63.0 ->  67.4  (15/27/18)  -1 Lightning Energy +1 Cheren
-[r4  41/110   5668s] ACCEPT Alolan Golem                60.6 ->  64.5  (15/27/18)  -1 Lightning Energy +1 Team Rocket
-[r4  42/110   5687s] ACCEPT Manectric                   51.7 ->  53.4  (17/27/16)  -1 Lightning Energy +1 Powerglass
-[r4  43/110   5702s] ACCEPT Lanturn                     41.3 ->  45.1  (21/25/14)  -1 Professor's Research +1 Lightni
-[r4  44/110   5720s] ACCEPT Bellibolt                   51.2 ->  57.2  (13/26/21)  remove chain Magnezone
-[r4  45/110   5737s] ACCEPT Kilowattrel                 55.5 ->  60.5  (13/27/20)  -1 Lightning Energy +1 Team Rocket
-[r4  46/110   5757s] ACCEPT Raichu                      39.3 ->  44.0  (20/26/14)  swap chain N's Joltik -> Alolan Du
-[r4  47/110   5774s] ACCEPT Team Rocket's Ampharos      50.6 ->  56.9  (16/28/16)  -1 Lightning Energy +1 Harlequin
-[r4  48/110   5795s] ACCEPT Zeraora                     52.7 ->  62.0  (18/28/14)  -1 Lightning Energy +1 Harlequin
-[r4  49/110   5809s] ACCEPT Steven's Claydol            53.8 ->  59.1  (20/24/16)  -1 Psychic Energy +1 Carmine
-[r4  50/110   5823s] ACCEPT Grimmsnarl                  45.0 ->  50.3  (19/28/13)  -1 Psychic Energy +1 Carmine
-[r4  51/110   5837s] ACCEPT Mesprit                     54.9 ->  57.4  (17/25/18)  -1 Psychic Energy +1 Friends in Pa
-[r4  52/110   5851s] ACCEPT Florges                     42.0 ->  43.5  (18/27/15)  swap chain Kadabra -> Miltank
-[r4  53/110   5864s] ACCEPT Musharna                    41.9 ->  45.0  (17/24/19)  -1 Psychic Energy +1 Friends in Pa
-[r4  54/110   5878s] ACCEPT Reuniclus                   44.0 ->  50.5  (19/28/13)  -1 Psychic Energy +1 Harlequin
-[r4  55/110   5893s] ACCEPT Azumarill                   49.9 ->  56.1  (18/25/17)  -1 Psychic Energy +1 TM Machine
-[r4  56/110   5906s] ACCEPT Slurpuff                    42.0 ->  47.7  (19/24/17)  -1 Psychic Energy +1 Urbain
-[r4  57/110   5920s]   ---- Drifblim                    50.6 ->  50.7  (20/23/17)  
-[r4  58/110   5936s] ACCEPT Espathra                    37.4 ->  42.6  (22/24/14)  -1 Psychic Energy +1 Tyme
-[r4  59/110   5953s] ACCEPT Iron Valiant                45.7 ->  49.4  (22/26/12)  -1 Psychic Energy +1 Team Rocket's
-[r4  60/110   5967s] ACCEPT Deoxys                      50.0 ->  52.8  (17/24/19)  -1 Psychic Energy +1 Carmine
-[r4  61/110   5981s] ACCEPT Medicham                    52.3 ->  56.1  (20/24/16)  -1 Fighting Energy +1 Team Rocket'
-[r4  62/110   5996s] ACCEPT Annihilape                  49.4 ->  56.0  (17/29/14)  -1 Fighting Energy +1 Carmine
-[r4  63/110   6012s] ACCEPT Conkeldurr                  45.0 ->  49.7  (16/28/16)  -1 Fighting Energy +1 Carmine
-[r4  64/110   6028s] ACCEPT Sawk                        49.7 ->  54.7  (18/24/18)  remove chain Farfetch'd
-[r4  65/110   6043s] ACCEPT Excadrill                   48.4 ->  51.7  (20/24/16)  -1 Fighting Energy +1 Buddy-Buddy 
-[r4  66/110   6060s] ACCEPT Toxicroak                   53.8 ->  57.2  (18/23/19)  -1 Professor's Research +1 Fightin
-[r4  67/110   6075s] ACCEPT Probopass                   55.4 ->  60.0  (18/25/17)  -1 Fighting Energy +1 Carmine
-[r4  68/110   6089s] ACCEPT Solrock                     49.9 ->  55.4  (18/24/18)  -1 Fighting Energy +1 Harlequin
-[r4  69/110   6104s] ACCEPT Garganacl                   44.2 ->  47.9  (18/27/15)  -1 Fighting Energy +1 Harlequin
-[r4  70/110   6119s] ACCEPT Throh                       48.9 ->  52.7  (17/24/19)  -1 Fighting Energy +1 Harlequin
-[r4  71/110   6135s] ACCEPT Gigalith                    39.8 ->  46.6  (17/27/16)  -1 Fighting Energy +1 Team Rocket'
-[r4  72/110   6150s] ACCEPT Sandslash                   52.3 ->  56.7  (18/25/17)  -1 Fighting Energy +1 Lt. Surge's 
-[r4  73/110   6164s] ACCEPT Crobat                      45.9 ->  50.1  (16/26/18)  remove chain Farfetch'd
-[r4  74/110   6178s] ACCEPT Team Rocket's Nidoqueen     35.2 ->  41.5  (19/26/15)  swap chain Furfrou -> Audino
-[r4  75/110   6190s] ACCEPT Krookodile                  44.6 ->  48.1  (15/28/17)  -1 Darkness Energy +1 Kofu
-[r4  76/110   6207s] ACCEPT Galarian Obstagoon          28.9 ->  39.8  (18/28/14)  add chain Hop's Cramorant
-[r4  77/110   6221s] ACCEPT Lokix                       42.6 ->  47.9  (18/28/14)  -1 Darkness Energy +1 Harlequin
-[r4  78/110   6236s] ACCEPT Pangoro                     44.6 ->  50.3  (18/26/16)  -1 Professor's Research +1 Darknes
-[r4  79/110   6250s]   ---- Seviper                     50.5 ->  50.5  (20/28/12)  
-[r4  80/110   6265s] ACCEPT Marnie's Scrafty            42.8 ->  49.4  (18/28/14)  -1 Darkness Energy +1 Carmine
-[r4  81/110   6280s] ACCEPT Scolipede                   36.0 ->  42.8  (18/28/14)  -1 Darkness Energy +1 Amarys
-[r4  82/110   6295s] ACCEPT Liepard                     44.0 ->  51.0  (18/28/14)  -1 Darkness Energy +1 Carmine
-[r4  83/110   6312s] ACCEPT Eternatus                   45.5 ->  49.7  (18/29/13)  -1 Darkness Energy +1 Team Rocket'
-[r4  84/110   6327s] ACCEPT Team Rocket's Muk           50.8 ->  52.5  (18/28/14)  swap chain Crobat -> N's Joltik
-[r4  85/110   6342s] ACCEPT Tinkaton                    49.5 ->  52.1  (17/29/14)  -1 Metal Energy +1 Tyme
-[r4  86/110   6360s] ACCEPT Escavalier                  35.4 ->  40.9  (18/29/13)  -1 Metal Energy +1 Harlequin
-[r4  87/110   6375s] ACCEPT Metagross                   45.9 ->  51.4  (18/29/13)  -1 Metal Energy +1 Cheren
-[r4  88/110   6390s] ACCEPT Hop's Corviknight           37.1 ->  39.5  (23/28/9)  -1 Metal Energy +1 Cheren
-[r4  89/110   6403s] ACCEPT Aegislash                   41.7 ->  43.7  (17/27/16)  -1 Metal Energy +1 Cheren
-[r4  90/110   6415s] ACCEPT Aggron                      43.7 ->  50.3  (15/27/18)  -1 Metal Energy +1 Carmine
-[r4  91/110   6431s] ACCEPT N's Klinklang               30.5 ->  36.5  (17/27/16)  -1 Metal Energy +1 Harlequin
-[r4  92/110   6446s] ACCEPT Bisharp                     49.4 ->  54.3  (18/29/13)  -1 Metal Energy +1 Team Rocket's A
-[r4  93/110   6461s] ACCEPT Iron Treads                 31.8 ->  37.1  (24/25/11)  -1 Ultra Ball +1 Metal Energy
-[r4  94/110   6476s] ACCEPT Copperajah                  40.4 ->  45.3  (18/28/14)  -1 Metal Energy +1 Ethan's Adventu
-[r4  95/110   6490s] ACCEPT Archaludon                  35.2 ->  39.3  (19/27/14)  -1 Metal Energy +1 Billy & O'Nare
-[r4  96/110   6507s] ACCEPT Forretress                  42.0 ->  46.2  (16/28/16)  -1 Metal Energy +1 Carmine
-[r4  97/110   6523s] ACCEPT Diggersby (Colorless)       47.5 ->  53.9  (17/25/18)  remove chain Alolan Dugtrio
-[r4  98/110   6539s] ACCEPT Alolan Dugtrio (Colorless)  43.1 ->  44.4  (23/21/16)  -1 Professor's Research +1 Psychic
-[r4  99/110   6555s] ACCEPT Hop's Cramorant (Colorless  45.1 ->  50.3  (21/25/14)  swap chain Unfezant -> Audino
-[r4 100/110   6569s] ACCEPT Unfezant (Colorless)        38.7 ->  42.9  (20/26/14)  swap chain Farfetch'd -> Diggersby
-[r4 101/110   6583s] ACCEPT Team Rocket's Raticate (Co  47.5 ->  52.1  (20/24/16)  -1 Psychic Energy +1 Harlequin
-[r4 102/110   6600s] ACCEPT Fan Rotom (Colorless)       52.5 ->  59.3  (20/26/14)  +1 Hop's Cramorant / -1 Farfetch'd
-[r4 103/110   6614s] ACCEPT Watchog (Colorless)         54.7 ->  59.3  (17/26/17)  -1 Psychic Energy +1 Carmine
-[r4 104/110   6629s] ACCEPT Linoone (Colorless)         41.7 ->  44.8  (17/24/19)  -1 Psychic Energy +1 Hop's Bag
-[r4 105/110   6646s] ACCEPT Seaking (Colorless)         46.4 ->  51.4  (20/25/15)  -1 Psychic Energy +1 Friends in Pa
-[r4 106/110   6662s] ACCEPT Snorlax (Colorless)         46.2 ->  47.5  (20/24/16)  -1 Psychic Energy +1 Techno Radar
-[r4 107/110   6679s] ACCEPT Miltank (Colorless)         50.1 ->  55.8  (20/26/14)  -1 Psychic Energy +1 Team Rocket's
-[r4 108/110   6693s] ACCEPT Lycanroc (Colorless)        47.9 ->  52.5  (18/25/17)  -1 Psychic Energy +1 Lt. Surge's B
-[r4 109/110   6708s] ACCEPT Boltund (Colorless)         47.9 ->  53.6  (18/25/17)  -1 Psychic Energy +1 Team Rocket's
-[r4 110/110   6725s] ACCEPT Cinccino (Colorless)        34.2 ->  39.6  (16/25/19)  -1 Psychic Energy +1 Team Rocket's
-=== round 4 done: 107 changes | top Centiskorch 65.87 | median 50.83 ===
-[r5   1/110   6750s] ACCEPT Decidueye                   58.2 ->  65.5  (16/29/15)  swap chain Decidueye -> Wo-Chien
-[r5   2/110   6765s] ACCEPT Lurantis                    43.7 ->  62.0  (18/27/15)  swap chain Diggersby -> Wo-Chien
-[r5   3/110   6780s] ACCEPT Rillaboom                   46.4 ->  51.0  (18/27/15)  -1 Grass Energy +1 Lt. Surge's Bar
-[r5   4/110   6795s] ACCEPT Beautifly                   51.7 ->  55.6  (17/24/19)  -1 Professor's Research +1 Grass E
-[r5   5/110   6811s] ACCEPT Vivillon                    50.5 ->  54.1  (16/27/17)  -1 Grass Energy +1 Carmine
-[r5   6/110   6827s] ACCEPT Shiftry                     46.4 ->  52.7  (16/28/16)  swap chain Hop's Cramorant -> Wo-C
-[r5   7/110   6839s] ACCEPT Ludicolo                    49.2 ->  55.8  (16/27/17)  -1 Grass Energy +1 Team Rocket's P
-[r5   8/110   6856s] ACCEPT Exeggutor                   60.6 ->  62.0  (16/29/15)  -1 Grass Energy +1 Kofu
-[r5   9/110   6870s] ACCEPT Breloom                     55.5 ->  57.8  (15/29/16)  -1 Grass Energy +1 Harlequin
-[r5  10/110   6885s] ACCEPT Ninjask                     52.8 ->  59.3  (17/27/16)  swap chain Drampa -> Ethan's Pichu
-[r5  11/110   6901s] ACCEPT Sawsbuck                    59.1 ->  64.0  (19/29/12)  -1 Grass Energy +1 Carmine
-[r5  12/110   6915s] ACCEPT Sunflora                    60.4 ->  63.9  (20/24/16)  -1 Professor's Research +1 Grass E
-[r5  13/110   6931s] ACCEPT Ceruledge                   64.4 ->  67.5  (20/26/14)  -1 Fire Energy +1 Team Rocket's Ar
-[r5  14/110   6946s]   ---- Centiskorch                 65.9 ->  66.6  (21/24/15)  
-[r5  15/110   6963s] ACCEPT Camerupt                    59.4 ->  65.9  (21/27/12)  -1 Fire Energy +1 Carmine
-[r5  16/110   6978s] ACCEPT Darmanitan                  52.1 ->  56.3  (18/25/17)  -1 Fire Energy +1 Lucian
-[r5  17/110   6997s] ACCEPT Simisear                    43.9 ->  50.6  (18/24/18)  swap chain Tauros -> Hop's Cramora
-[r5  18/110   7013s] ACCEPT Team Rocket's Houndoom      57.2 ->  64.4  (18/26/16)  -1 Fire Energy +1 Team Rocket's Ar
-[r5  19/110   7026s] ACCEPT Talonflame                  53.4 ->  55.4  (14/29/17)  -1 Fire Energy +1 Brock's Scouting
-[r5  20/110   7042s] ACCEPT Ninetales                   51.2 ->  56.9  (18/26/16)  -1 Fire Energy +1 Drasna
-[r5  21/110   7057s] ACCEPT Charmeleon                  55.2 ->  61.5  (21/25/14)  -1 Fire Energy +1 Amarys
-[r5  22/110   7072s] ACCEPT Ethan's Quilava             56.5 ->  63.7  (19/25/16)  -1 Fire Energy +1 Tyme
-[r5  23/110   7087s] ACCEPT Volcarona                   51.2 ->  52.3  (21/26/13)  -1 Fire Energy +1 Harlequin
-[r5  24/110   7104s] ACCEPT Rapidash                    42.9 ->  46.6  (19/26/15)  -1 Fire Energy +1 Drasna
-[r5  25/110   7118s] ACCEPT Inteleon                    45.9 ->  52.7  (18/28/14)  -1 Water Energy +1 Carmine
-[r5  26/110   7136s] ACCEPT Walrein                     47.7 ->  51.7  (17/26/17)  swap chain Inteleon -> Kecleon
-[r5  27/110   7153s] ACCEPT Quaquaval                   47.3 ->  49.2  (16/27/17)  -1 Water Energy +1 Lucian
-[r5  28/110   7171s] ACCEPT Poliwrath                   49.2 ->  51.4  (16/28/16)  -1 Water Energy +1 Hop's Bag
-[r5  29/110   7188s] ACCEPT Octillery                   51.6 ->  57.1  (19/25/16)  -1 Water Energy +1 Tyme
-[r5  30/110   7205s] ACCEPT Avalugg                     47.5 ->  52.3  (16/24/20)  -1 Water Energy +1 TM Machine
-[r5  31/110   7227s] ACCEPT Iron Bundle                 46.6 ->  53.2  (17/25/18)  remove chain Ethan's Pichu
-[r5  32/110   7243s] ACCEPT Frosmoth                    50.1 ->  52.3  (20/25/15)  -1 Water Energy +1 Carmine
-[r5  33/110   7263s] ACCEPT Crawdaunt                   43.7 ->  49.5  (18/26/16)  -1 Water Energy +1 Amarys
-[r5  34/110   7281s] ACCEPT Mamoswine                   42.6 ->  48.6  (19/26/15)  swap chain Cyclizar -> Tyrogue
-[r5  35/110   7299s] ACCEPT Misty's Starmie             55.0 ->  57.1  (19/26/15)  -1 Water Energy +1 Carmine
-[r5  36/110   7314s] ACCEPT Crabominable                43.7 ->  52.5  (20/24/16)  swap chain Miltank -> Eiscue
-[r5  37/110   7329s] ACCEPT Electivire                  50.8 ->  54.9  (18/29/13)  -1 Lightning Energy +1 Carmine
-[r5  38/110   7345s] ACCEPT Magnezone                   39.4 ->  53.9  (16/27/17)  swap chain Miltank -> Zeraora
-[r5  39/110   7366s] ACCEPT Vikavolt                    39.6 ->  46.4  (21/28/11)  -1 Lightning Energy +1 Cheren
-[r5  40/110   7385s] ACCEPT Eelektross                  61.5 ->  67.8  (15/28/17)  -1 Lightning Energy +1 Judge
-[r5  41/110   7403s] ACCEPT Alolan Golem                60.2 ->  67.9  (15/28/17)  -1 Lightning Energy +1 Lt. Surge's
-[r5  42/110   7424s] ACCEPT Manectric                   50.8 ->  57.2  (17/28/15)  -1 Lightning Energy +1 Lt. Surge's
-[r5  43/110   7438s] ACCEPT Lanturn                     41.7 ->  50.1  (20/25/15)  swap chain Electivire -> Zeraora
-[r5  44/110   7456s] ACCEPT Bellibolt                   51.1 ->  57.8  (13/27/20)  -1 Lightning Energy +1 TM Machine
-[r5  45/110   7474s] ACCEPT Kilowattrel                 58.1 ->  62.8  (13/28/19)  -1 Lightning Energy +1 Kofu
-[r5  46/110   7493s] ACCEPT Raichu                      38.9 ->  48.1  (20/27/13)  -1 Lightning Energy +1 Team Rocket
-[r5  47/110   7512s] ACCEPT Team Rocket's Ampharos      51.4 ->  59.6  (16/29/15)  -1 Lightning Energy +1 Drasna
-[r5  48/110   7533s] ACCEPT Zeraora                     54.3 ->  62.2  (19/28/13)  swap chain Magnezone -> Alolan Dug
-[r5  49/110   7548s] ACCEPT Steven's Claydol            54.5 ->  59.3  (20/25/15)  -1 Psychic Energy +1 Carmine
-[r5  50/110   7564s] ACCEPT Grimmsnarl                  45.3 ->  52.9  (14/28/18)  remove chain Kadabra
-[r5  51/110   7579s] ACCEPT Mesprit                     53.4 ->  56.0  (17/26/17)  -1 Psychic Energy +1 Team Rocket's
-[r5  52/110   7594s] ACCEPT Florges                     38.5 ->  42.0  (18/27/15)  swap chain Miltank -> Fan Rotom
-[r5  53/110   7608s] ACCEPT Musharna                    40.9 ->  48.8  (17/25/18)  -1 Psychic Energy +1 Harlequin
-[r5  54/110   7623s] ACCEPT Reuniclus                   47.7 ->  49.7  (18/28/14)  swap chain Kadabra -> N's Joltik
-[r5  55/110   7639s] ACCEPT Azumarill                   51.4 ->  55.6  (18/26/16)  -1 Psychic Energy +1 Team Rocket's
-[r5  56/110   7653s] ACCEPT Slurpuff                    43.9 ->  46.1  (19/25/16)  -1 Psychic Energy +1 Cheren
-[r5  57/110   7667s] ACCEPT Drifblim                    43.9 ->  45.3  (20/23/17)  +1 Bunnelby / -1 Alolan Dugtrio
-[r5  58/110   7684s] ACCEPT Espathra                    36.9 ->  43.7  (22/25/13)  -1 Psychic Energy +1 Carmine
-[r5  59/110   7702s] ACCEPT Iron Valiant                43.7 ->  51.9  (19/26/15)  remove chain Iron Valiant
-[r5  60/110   7717s] ACCEPT Deoxys                      48.4 ->  50.3  (18/24/18)  swap chain Mesprit -> Fan Rotom
-[r5  61/110   7733s] ACCEPT Medicham                    51.6 ->  58.3  (20/25/15)  -1 Fighting Energy +1 Harlequin
-[r5  62/110   7749s] ACCEPT Annihilape                  52.7 ->  58.4  (17/30/13)  -1 Fighting Energy +1 Kofu
-[r5  63/110   7765s] ACCEPT Conkeldurr                  46.6 ->  50.1  (16/29/15)  -1 Fighting Energy +1 Harlequin
-[r5  64/110   7782s] ACCEPT Sawk                        53.0 ->  56.3  (18/25/17)  -1 Fighting Energy +1 Carmine
-[r5  65/110   7797s]   ---- Excadrill                   49.9 ->  50.1  (20/24/16)  
-[r5  66/110   7814s]   ---- Toxicroak                   53.2 ->  53.6  (18/23/19)  
-[r5  67/110   7831s] ACCEPT Probopass                   54.9 ->  59.8  (18/26/16)  -1 Fighting Energy +1 Rosa's Encou
-[r5  68/110   7846s] ACCEPT Solrock                     51.4 ->  53.6  (19/24/17)  swap chain Solrock -> Hitmontop
-[r5  69/110   7861s] ACCEPT Garganacl                   44.2 ->  48.4  (18/28/14)  -1 Fighting Energy +1 N's PP Up
-[r5  70/110   7878s] ACCEPT Throh                       49.5 ->  53.2  (17/25/18)  -1 Fighting Energy +1 Carmine
-[r5  71/110   7895s] ACCEPT Gigalith                    44.6 ->  47.3  (17/27/16)  swap chain Hitmontop -> Regigigas
-[r5  72/110   7911s] ACCEPT Sandslash                   53.0 ->  55.0  (18/26/16)  -1 Fighting Energy +1 TM Machine
-[r5  73/110   7923s] ACCEPT Crobat                      44.2 ->  48.6  (16/27/17)  -1 Darkness Energy +1 Harlequin
-[r5  74/110   7937s] ACCEPT Team Rocket's Nidoqueen     36.5 ->  41.1  (19/27/14)  -1 Darkness Energy +1 Carmine
-[r5  75/110   7951s] ACCEPT Krookodile                  46.3 ->  51.6  (15/29/16)  -1 Darkness Energy +1 Cheren
-[r5  76/110   7968s] ACCEPT Galarian Obstagoon          33.8 ->  40.4  (18/29/13)  -1 Darkness Energy +1 Urbain
-[r5  77/110   7983s] ACCEPT Lokix                       43.1 ->  46.4  (18/27/15)  -1 Professor's Research +1 Darknes
-[r5  78/110   7998s]   ---- Pangoro                     44.6 ->  44.8  (18/26/16)  
-[r5  79/110   8013s] ACCEPT Seviper                     48.4 ->  52.1  (20/29/11)  -1 Darkness Energy +1 Carmine
-[r5  80/110   8028s] ACCEPT Marnie's Scrafty            45.7 ->  49.5  (18/29/13)  -1 Darkness Energy +1 Friends in P
-[r5  81/110   8044s] ACCEPT Scolipede                   37.2 ->  42.8  (18/29/13)  -1 Darkness Energy +1 Carmine
-[r5  82/110   8060s] ACCEPT Liepard                     43.9 ->  52.1  (18/29/13)  -1 Darkness Energy +1 Harlequin
-[r5  83/110   8078s] ACCEPT Eternatus                   42.9 ->  47.8  (18/30/12)  -1 Darkness Energy +1 Crispin
-[r5  84/110   8094s] ACCEPT Team Rocket's Muk           47.9 ->  51.9  (18/29/13)  -1 Darkness Energy +1 Carmine
-[r5  85/110   8110s] ACCEPT Tinkaton                    46.8 ->  50.7  (17/30/13)  -1 Metal Energy +1 Team Rocket's A
-[r5  86/110   8129s] ACCEPT Escavalier                  38.9 ->  46.8  (19/29/12)  swap chain Farfetch'd -> Hop's Cra
-[r5  87/110   8146s] ACCEPT Metagross                   44.4 ->  52.7  (19/29/12)  swap chain Farfetch'd -> Kecleon
-[r5  88/110   8161s] ACCEPT Hop's Corviknight           32.7 ->  34.7  (23/28/9)  swap chain Hop's Corviknight -> Ti
-[r5  89/110   8174s] ACCEPT Aegislash                   37.8 ->  42.4  (17/28/15)  -1 Metal Energy +1 Buddy-Buddy Pof
-[r5  90/110   8187s] ACCEPT Aggron                      47.9 ->  51.2  (15/28/17)  -1 Metal Energy +1 TM Machine
-[r5  91/110   8204s] ACCEPT N's Klinklang               33.0 ->  38.9  (17/28/15)  -1 Metal Energy +1 Harlequin
-[r5  92/110   8221s] ACCEPT Bisharp                     48.4 ->  54.5  (18/30/12)  -1 Metal Energy +1 Harlequin
-[r5  93/110   8235s] ACCEPT Iron Treads                 31.4 ->  32.5  (24/26/10)  -1 Metal Energy +1 Team Rocket's A
-[r5  94/110   8251s] ACCEPT Copperajah                  41.1 ->  45.3  (18/29/13)  -1 Metal Energy +1 Carmine
-[r5  95/110   8267s] ACCEPT Archaludon                  33.8 ->  40.2  (15/27/18)  remove chain Registeel
-[r5  96/110   8284s] ACCEPT Forretress                  38.9 ->  42.6  (16/29/15)  -1 Metal Energy +1 Team Rocket's A
-[r5  97/110   8300s] ACCEPT Diggersby (Colorless)       44.8 ->  52.1  (17/26/17)  -1 Psychic Energy +1 Harlequin
-[r5  98/110   8316s]   ---- Alolan Dugtrio (Colorless)  41.3 ->  41.8  (23/21/16)  
-[r5  99/110   8333s] ACCEPT Hop's Cramorant (Colorless  43.3 ->  47.9  (21/26/13)  -1 Psychic Energy +1 Amarys
-[r5 100/110   8347s]   ---- Unfezant (Colorless)        36.1 ->  36.9  (20/26/14)  
-[r5 101/110   8363s] ACCEPT Team Rocket's Raticate (Co  45.9 ->  48.1  (20/23/17)  -1 Professor's Research +1 Psychic
-[r5 102/110   8380s] ACCEPT Fan Rotom (Colorless)       51.6 ->  54.7  (20/27/13)  -1 Psychic Energy +1 Lt. Surge's B
-[r5 103/110   8395s] ACCEPT Watchog (Colorless)         51.7 ->  53.9  (17/27/16)  -1 Psychic Energy +1 Ethan's Adven
-[r5 104/110   8411s] ACCEPT Linoone (Colorless)         36.7 ->  38.9  (17/25/18)  -1 Psychic Energy +1 Glass Trumpet
-[r5 105/110   8428s]   ---- Seaking (Colorless)         45.0 ->  45.9  (20/25/15)  
-[r5 106/110   8445s] ACCEPT Snorlax (Colorless)         39.1 ->  46.2  (17/24/19)  remove chain Tauros
-[r5 107/110   8463s] ACCEPT Miltank (Colorless)         48.6 ->  52.8  (20/26/14)  +1 Bunnelby / -1 Miltank
-[r5 108/110   8478s] ACCEPT Lycanroc (Colorless)        45.1 ->  47.7  (18/26/16)  -1 Psychic Energy +1 Cheren
-[r5 109/110   8493s] ACCEPT Boltund (Colorless)         44.0 ->  50.1  (18/25/17)  swap chain Dedenne -> N's Joltik
-[r5 110/110   8511s] ACCEPT Cinccino (Colorless)        31.9 ->  36.5  (21/25/14)  add chain Alolan Dugtrio
-=== round 5 done: 103 changes | top Alolan Golem 67.39 | median 49.72 ===
-[r6   1/110   8538s] ACCEPT Decidueye                   63.7 ->  66.5  (16/30/14)  -1 Grass Energy +1 Jacinthe
-[r6   2/110   8552s] ACCEPT Lurantis                    57.2 ->  63.5  (18/26/16)  -1 Professor's Research +1 Grass E
-[r6   3/110   8569s] ACCEPT Rillaboom                   51.0 ->  55.2  (18/28/14)  -1 Grass Energy +1 Tyme
-[r6   4/110   8584s] ACCEPT Beautifly                   51.2 ->  58.0  (17/24/19)  swap chain Onix -> Ethan's Pichu
-[r6   5/110   8602s] ACCEPT Vivillon                    55.0 ->  61.7  (16/28/16)  -1 Grass Energy +1 Lt. Surge's Bar
-[r6   6/110   8618s] ACCEPT Shiftry                     51.6 ->  53.0  (16/29/15)  -1 Grass Energy +1 Professor Sada'
-[r6   7/110   8632s] ACCEPT Ludicolo                    49.4 ->  52.4  (13/27/20)  swap chain Alolan Dugtrio -> Wo-Ch
-[r6   8/110   8649s] ACCEPT Exeggutor                   57.6 ->  59.7  (16/30/14)  -1 Grass Energy +1 Amarys
-[r6   9/110   8664s] ACCEPT Breloom                     53.3 ->  58.1  (15/30/15)  -1 Grass Energy +1 Harlequin
-[r6  10/110   8679s] ACCEPT Ninjask                     57.6 ->  60.4  (17/28/15)  -1 Grass Energy +1 Carmine
-[r6  11/110   8696s] ACCEPT Sawsbuck                    60.4 ->  62.8  (19/28/13)  -1 Boss's Orders +1 Grass Energy
-[r6  12/110   8710s]   ---- Sunflora                    61.3 ->  62.2  (20/24/16)  
-[r6  13/110   8727s] ACCEPT Ceruledge                   62.9 ->  67.0  (20/25/15)  -1 Boss's Orders +1 Fire Energy
-[r6  14/110   8743s] ACCEPT Centiskorch                 59.4 ->  62.9  (21/25/14)  -1 Fire Energy +1 Tyme
-[r6  15/110   8760s]   ---- Camerupt                    62.8 ->  62.9  (21/27/12)  
-[r6  16/110   8777s] ACCEPT Darmanitan                  51.6 ->  56.3  (21/25/14)  swap chain Miltank -> Centiskorch
-[r6  17/110   8793s] ACCEPT Simisear                    45.3 ->  49.9  (18/24/18)  swap chain Onix -> N's Joltik
-[r6  18/110   8809s]   ---- Team Rocket's Houndoom      61.1 ->  60.6  (18/26/16)  
-[r6  19/110   8824s] ACCEPT Talonflame                  54.5 ->  57.1  (14/28/18)  -1 Professor's Research +1 Fire En
-[r6  20/110   8841s] ACCEPT Ninetales                   51.6 ->  57.1  (18/27/15)  -1 Fire Energy +1 Carmine
-[r6  21/110   8857s] ACCEPT Charmeleon                  58.0 ->  59.6  (21/24/15)  -1 Boss's Orders +1 Fire Energy
-[r6  22/110   8873s] ACCEPT Ethan's Quilava             55.8 ->  63.3  (21/25/14)  swap chain Charmeleon -> Centiskor
-[r6  23/110   8890s] ACCEPT Volcarona                   48.6 ->  56.0  (23/26/11)  swap chain Charmeleon -> Alolan Du
-[r6  24/110   8908s] ACCEPT Rapidash                    42.6 ->  53.0  (19/26/15)  swap chain Miltank -> Hop's Cramor
-[r6  25/110   8924s]   ---- Inteleon                    47.7 ->  46.1  (18/28/14)  
-[r6  26/110   8943s] ACCEPT Walrein                     50.8 ->  52.7  (17/27/16)  -1 Water Energy +1 Carmine
-[r6  27/110   8962s] ACCEPT Quaquaval                   43.1 ->  49.9  (16/28/16)  -1 Water Energy +1 Carmine
-[r6  28/110   8981s] ACCEPT Poliwrath                   46.2 ->  50.6  (16/29/15)  -1 Water Energy +1 Carmine
-[r6  29/110   8999s] ACCEPT Octillery                   54.3 ->  59.3  (19/26/15)  -1 Water Energy +1 Harlequin
-[r6  30/110   9017s] ACCEPT Avalugg                     47.2 ->  51.6  (16/25/19)  -1 Water Energy +1 Carmine
-[r6  31/110   9038s] ACCEPT Iron Bundle                 49.2 ->  52.3  (17/26/17)  -1 Water Energy +1 Brock's Scoutin
-[r6  32/110   9055s] ACCEPT Frosmoth                    49.0 ->  56.7  (20/26/14)  -1 Water Energy +1 Carmine
-[r6  33/110   9076s] ACCEPT Crawdaunt                   45.9 ->  53.8  (18/27/15)  -1 Water Energy +1 Team Rocket's A
-[r6  34/110   9094s] ACCEPT Mamoswine                   45.3 ->  47.2  (19/27/14)  -1 Water Energy +1 Carmine
-[r6  35/110   9113s] ACCEPT Misty's Starmie             51.9 ->  53.9  (19/27/14)  -1 Water Energy +1 Lt. Surge's Bar
-[r6  36/110   9131s] ACCEPT Crabominable                47.7 ->  51.7  (20/25/15)  -1 Water Energy +1 Carmine
-[r6  37/110   9148s] ACCEPT Electivire                  48.6 ->  51.0  (18/29/13)  +1 Alolan Diglett / -1 Fan Rotom
-[r6  38/110   9168s] ACCEPT Magnezone                   50.1 ->  54.9  (16/28/16)  -1 Lightning Energy +1 Harlequin
-[r6  39/110   9190s] ACCEPT Vikavolt                    42.2 ->  47.2  (21/28/11)  swap chain Miltank -> Hop's Cramor
-[r6  40/110   9209s] ACCEPT Eelektross                  62.1 ->  67.9  (15/29/16)  -1 Lightning Energy +1 Carmine
-[r6  41/110   9229s] ACCEPT Alolan Golem                64.8 ->  68.1  (15/29/16)  -1 Lightning Energy +1 Carmine
-[r6  42/110   9251s] ACCEPT Manectric                   49.2 ->  56.9  (17/29/14)  -1 Lightning Energy +1 Team Rocket
-[r6  43/110   9270s] ACCEPT Lanturn                     45.7 ->  48.8  (20/26/14)  -1 Lightning Energy +1 Drasna
-[r6  44/110   9289s] ACCEPT Bellibolt                   53.9 ->  57.7  (13/28/19)  -1 Lightning Energy +1 Carmine
-[r6  45/110   9308s] ACCEPT Kilowattrel                 58.3 ->  62.1  (13/29/18)  -1 Lightning Energy +1 Harlequin
-[r6  46/110   9329s] ACCEPT Raichu                      45.3 ->  48.1  (20/28/12)  -1 Lightning Energy +1 Harlequin
-[r6  47/110   9349s]   ---- Team Rocket's Ampharos      57.4 ->  58.2  (16/29/15)  
-[r6  48/110   9368s]   ---- Zeraora                     59.3 ->  58.3  (19/28/13)  
-[r6  49/110   9385s] ACCEPT Steven's Claydol            56.1 ->  62.0  (20/26/14)  -1 Psychic Energy +1 Friends in Pa
-[r6  50/110   9399s] ACCEPT Grimmsnarl                  45.0 ->  51.2  (14/29/17)  -1 Psychic Energy +1 Team Rocket's
-[r6  51/110   9415s] ACCEPT Mesprit                     50.8 ->  53.9  (17/26/17)  +1 Bunnelby / -1 Mesprit
-[r6  52/110   9430s] ACCEPT Florges                     36.0 ->  38.5  (18/28/14)  -1 Psychic Energy +1 Professor's R
-[r6  53/110   9445s] ACCEPT Musharna                    44.6 ->  47.5  (17/26/17)  -1 Psychic Energy +1 Harlequin
-[r6  54/110   9461s] ACCEPT Reuniclus                   44.6 ->  49.0  (17/28/15)  swap chain Alolan Dugtrio -> Kecle
-[r6  55/110   9478s] ACCEPT Azumarill                   49.2 ->  55.0  (18/27/15)  -1 Psychic Energy +1 Team Rocket's
-[r6  56/110   9493s] ACCEPT Slurpuff                    43.5 ->  47.2  (19/24/17)  -1 Boss's Orders +1 Psychic Energy
-[r6  57/110   9508s] ACCEPT Drifblim                    41.5 ->  43.5  (20/24/16)  -1 Psychic Energy +1 Night Stretch
-[r6  58/110   9525s] ACCEPT Espathra                    39.1 ->  42.6  (17/25/18)  remove chain Kadabra
-[r6  59/110   9542s] ACCEPT Iron Valiant                49.4 ->  54.9  (19/27/14)  -1 Psychic Energy +1 Harlequin
-[r6  60/110   9557s] ACCEPT Deoxys                      45.5 ->  49.9  (18/25/17)  -1 Psychic Energy +1 Lt. Surge's B
-[r6  61/110   9573s]   ---- Medicham                    56.7 ->  57.6  (20/25/15)  
-[r6  62/110   9590s] ACCEPT Annihilape                  53.1 ->  56.7  (17/29/14)  -1 Boss's Orders +1 Fighting Energ
-[r6  63/110   9608s] ACCEPT Conkeldurr                  46.6 ->  52.9  (16/30/14)  -1 Fighting Energy +1 Team Rocket'
-[r6  64/110   9625s] ACCEPT Sawk                        52.3 ->  55.6  (18/26/16)  -1 Fighting Energy +1 N's PP Up
-[r6  65/110   9641s] ACCEPT Excadrill                   41.5 ->  48.3  (20/25/15)  -1 Fighting Energy +1 Tyme
-[r6  66/110   9658s] ACCEPT Toxicroak                   47.2 ->  51.0  (18/24/18)  -1 Fighting Energy +1 TM Machine
-[r6  67/110   9675s]   ---- Probopass                   56.1 ->  56.1  (18/26/16)  
-[r6  68/110   9691s] ACCEPT Solrock                     48.1 ->  54.9  (19/25/16)  -1 Fighting Energy +1 Harlequin
-[r6  69/110   9707s] ACCEPT Garganacl                   42.6 ->  47.3  (18/29/13)  -1 Fighting Energy +1 Harlequin
-[r6  70/110   9725s] ACCEPT Throh                       50.1 ->  56.1  (17/26/17)  -1 Fighting Energy +1 Powerglass
-[r6  71/110   9743s] ACCEPT Gigalith                    43.1 ->  47.9  (17/28/15)  -1 Fighting Energy +1 Harlequin
-[r6  72/110   9760s] ACCEPT Sandslash                   49.7 ->  56.7  (18/26/16)  +1 Bunnelby / -1 Hitmontop
-[r6  73/110   9774s] ACCEPT Crobat                      43.1 ->  51.7  (16/28/16)  -1 Darkness Energy +1 Kofu
-[r6  74/110   9789s] ACCEPT Team Rocket's Nidoqueen     39.8 ->  43.5  (19/27/14)  +1 Hop's Cramorant / -1 Audino
-[r6  75/110   9804s] ACCEPT Krookodile                  46.3 ->  50.7  (15/30/15)  -1 Darkness Energy +1 Buddy-Buddy 
-[r6  76/110   9821s] ACCEPT Galarian Obstagoon          37.1 ->  42.2  (14/29/17)  remove chain Onix
-[r6  77/110   9837s] ACCEPT Lokix                       43.9 ->  46.2  (18/28/14)  -1 Darkness Energy +1 Kofu
-[r6  78/110   9852s] ACCEPT Pangoro                     40.6 ->  44.8  (18/27/15)  -1 Darkness Energy +1 Harlequin
-[r6  79/110   9868s]   ---- Seviper                     48.4 ->  48.8  (20/29/11)  
-[r6  80/110   9884s] ACCEPT Marnie's Scrafty            43.7 ->  46.7  (18/30/12)  -1 Darkness Energy +1 Team Rocket'
-[r6  81/110   9902s] ACCEPT Scolipede                   41.1 ->  45.6  (18/30/12)  -1 Darkness Energy +1 Cheren
-[r6  82/110   9918s] ACCEPT Liepard                     47.0 ->  50.1  (18/30/12)  -1 Darkness Energy +1 Carmine
-[r6  83/110   9937s] ACCEPT Eternatus                   44.6 ->  46.8  (18/31/11)  -1 Darkness Energy +1 Harlequin
-[r6  84/110   9955s] ACCEPT Team Rocket's Muk           48.1 ->  53.3  (18/30/12)  -1 Darkness Energy +1 Team Rocket'
-[r6  85/110   9972s] ACCEPT Tinkaton                    47.4 ->  50.3  (17/31/12)  -1 Metal Energy +1 Kofu
-[r6  86/110   9990s] ACCEPT Escavalier                  46.1 ->  56.0  (15/29/16)  remove chain Registeel
-[r6  87/110  10008s] ACCEPT Metagross                   47.3 ->  50.7  (19/30/11)  -1 Metal Energy +1 Carmine
-[r6  88/110  10024s] ACCEPT Hop's Corviknight           33.4 ->  36.2  (23/27/10)  -1 Professor's Research +1 Metal E
-[r6  89/110  10038s] ACCEPT Aegislash                   38.9 ->  43.3  (17/29/14)  -1 Metal Energy +1 Lt. Surge's Bar
-[r6  90/110  10052s] ACCEPT Aggron                      49.8 ->  51.1  (15/29/16)  -1 Metal Energy +1 Kofu
-[r6  91/110  10070s] ACCEPT N's Klinklang               35.4 ->  42.8  (13/28/19)  remove chain Onix
-[r6  92/110  10087s] ACCEPT Bisharp                     53.6 ->  57.3  (15/30/15)  remove chain Farfetch'd
-[r6  93/110  10103s] ACCEPT Iron Treads                 31.4 ->  37.6  (18/26/16)  remove chain Tinkaton
-[r6  94/110  10120s] ACCEPT Copperajah                  44.4 ->  47.8  (18/30/12)  -1 Metal Energy +1 Team Rocket's A
-[r6  95/110  10134s] ACCEPT Archaludon                  39.7 ->  46.5  (15/28/17)  -1 Metal Energy +1 Carmine
-[r6  96/110  10152s] ACCEPT Forretress                  40.9 ->  47.5  (19/29/12)  swap chain Miltank -> Alolan Dugtr
-[r6  97/110  10169s] ACCEPT Diggersby (Colorless)       49.2 ->  52.5  (17/27/16)  -1 Psychic Energy +1 Amarys
-[r6  98/110  10185s] ACCEPT Alolan Dugtrio (Colorless)  36.9 ->  38.2  (23/20/17)  -1 Ultra Ball +1 Psychic Energy
-[r6  99/110  10203s] ACCEPT Hop's Cramorant (Colorless  43.9 ->  46.6  (21/27/12)  -1 Psychic Energy +1 Amarys
-[r6 100/110  10218s] ACCEPT Unfezant (Colorless)        32.8 ->  37.1  (20/27/13)  -1 Psychic Energy +1 Harlequin
-[r6 101/110  10233s] ACCEPT Team Rocket's Raticate (Co  43.5 ->  44.6  (20/24/16)  -1 Psychic Energy +1 Harlequin
-[r6 102/110  10251s] ACCEPT Fan Rotom (Colorless)       53.0 ->  54.3  (20/27/13)  +1 Bunnelby / -1 Fan Rotom
-[r6 103/110  10268s] ACCEPT Watchog (Colorless)         50.1 ->  55.4  (17/28/15)  -1 Psychic Energy +1 Lucian
-[r6 104/110  10284s] ACCEPT Linoone (Colorless)         33.6 ->  36.9  (17/25/18)  swap chain Mr. Mime -> Fan Rotom
-[r6 105/110  10301s] ACCEPT Seaking (Colorless)         40.7 ->  43.1  (16/25/19)  remove chain Mr. Mime
-[r6 106/110  10316s] ACCEPT Snorlax (Colorless)         44.0 ->  46.2  (17/25/18)  -1 Psychic Energy +1 Lt. Surge's B
-[r6 107/110  10334s] ACCEPT Miltank (Colorless)         48.4 ->  52.8  (20/27/13)  -1 Psychic Energy +1 Perrin
-[r6 108/110  10350s] ACCEPT Lycanroc (Colorless)        45.1 ->  50.3  (18/27/15)  -1 Psychic Energy +1 Carmine
-[r6 109/110  10366s] ACCEPT Boltund (Colorless)         45.1 ->  49.0  (18/26/16)  -1 Psychic Energy +1 Harlequin
-[r6 110/110  10385s]   ---- Cinccino (Colorless)        31.2 ->  31.7  (21/25/14)  
-=== round 6 done: 100 changes | top Eelektross 65.92 | median 49.91 ===
-[r7   1/110  10411s] ACCEPT Decidueye                   59.9 ->  64.6  (17/30/13)  swap chain Farfetch'd -> Ethan's P
-[r7   2/110  10426s] ACCEPT Lurantis                    60.9 ->  64.6  (18/27/15)  -1 Grass Energy +1 Amarys
-[r7   3/110  10443s] ACCEPT Rillaboom                   54.5 ->  59.1  (18/27/15)  -1 Professor's Research +1 Grass E
-[r7   4/110  10458s] ACCEPT Beautifly                   55.6 ->  59.1  (17/25/18)  -1 Grass Energy +1 Harlequin
-[r7   5/110  10476s] ACCEPT Vivillon                    56.0 ->  60.0  (16/29/15)  -1 Grass Energy +1 Carmine
-[r7   6/110  10492s] ACCEPT Shiftry                     49.9 ->  54.1  (17/29/14)  swap chain Farfetch'd -> Miltank
-[r7   7/110  10507s] ACCEPT Ludicolo                    49.1 ->  58.0  (18/27/15)  add chain Alolan Dugtrio
-[r7   8/110  10525s] ACCEPT Exeggutor                   58.6 ->  63.3  (16/31/13)  -1 Grass Energy +1 Harlequin
-[r7   9/110  10540s] ACCEPT Breloom                     55.5 ->  60.1  (15/31/14)  -1 Grass Energy +1 Harlequin
-[r7  10/110  10556s] ACCEPT Ninjask                     55.6 ->  60.9  (17/27/16)  -1 Boss's Orders +1 Grass Energy
-[r7  11/110  10573s]   ---- Sawsbuck                    63.5 ->  64.2  (19/28/13)  
-[r7  12/110  10587s] ACCEPT Sunflora                    58.2 ->  61.5  (20/23/17)  -1 Poké Ball +1 Grass Energy
-[r7  13/110  10603s] ACCEPT Ceruledge                   62.4 ->  69.7  (20/26/14)  -1 Fire Energy +1 Carmine
-[r7  14/110  10620s] ACCEPT Centiskorch                 60.4 ->  62.8  (21/26/13)  -1 Fire Energy +1 Carmine
-[r7  15/110  10637s] ACCEPT Camerupt                    58.9 ->  60.4  (18/27/15)  swap chain Camerupt -> Ethan's Pic
-[r7  16/110  10653s] ACCEPT Darmanitan                  54.3 ->  60.0  (21/26/13)  -1 Fire Energy +1 Harlequin
-[r7  17/110  10668s] ACCEPT Simisear                    45.1 ->  48.1  (18/25/17)  -1 Fire Energy +1 Harlequin
-[r7  18/110  10685s] ACCEPT Team Rocket's Houndoom      56.0 ->  59.3  (18/27/15)  -1 Fire Energy +1 Cheren
-[r7  19/110  10699s] ACCEPT Talonflame                  54.1 ->  59.5  (14/29/17)  -1 Fire Energy +1 Team Rocket's Ar
-[r7  20/110  10717s] ACCEPT Ninetales                   51.2 ->  54.7  (18/28/14)  -1 Fire Energy +1 Perrin
-[r7  21/110  10733s] ACCEPT Charmeleon                  54.3 ->  62.6  (21/25/14)  -1 Fire Energy +1 Amarys
-[r7  22/110  10749s] ACCEPT Ethan's Quilava             59.8 ->  63.9  (21/24/15)  -1 Boss's Orders +1 Fire Energy
-[r7  23/110  10765s] ACCEPT Volcarona                   50.5 ->  53.1  (23/27/10)  -1 Fire Energy +1 Colress's Tenaci
-[r7  24/110  10782s] ACCEPT Rapidash                    48.4 ->  54.1  (19/27/14)  -1 Fire Energy +1 Carmine
-[r7  25/110  10797s] ACCEPT Inteleon                    44.0 ->  45.9  (18/28/14)  +1 Bunnelby / -1 Fan Rotom
-[r7  26/110  10817s] ACCEPT Walrein                     47.3 ->  51.6  (17/28/15)  -1 Water Energy +1 Jacinthe
-[r7  27/110  10837s] ACCEPT Quaquaval                   42.6 ->  45.7  (16/29/15)  -1 Water Energy +1 Friends in Pald
-[r7  28/110  10858s] ACCEPT Poliwrath                   45.5 ->  47.9  (16/29/15)  +1 Bunnelby / -1 Farfetch'd
-[r7  29/110  10877s] ACCEPT Octillery                   53.8 ->  56.5  (17/26/17)  swap chain Inteleon -> Kecleon
-[r7  30/110  10897s] ACCEPT Avalugg                     44.4 ->  50.1  (16/26/18)  -1 Water Energy +1 Team Rocket's A
-[r7  31/110  10918s] ACCEPT Iron Bundle                 47.0 ->  52.5  (18/26/16)  swap chain Farfetch'd -> Hop's Cra
-[r7  32/110  10935s] ACCEPT Frosmoth                    50.8 ->  55.4  (20/27/13)  -1 Water Energy +1 Harlequin
-[r7  33/110  10958s]   ---- Crawdaunt                   52.1 ->  52.8  (18/27/15)  
-[r7  34/110  10977s] ACCEPT Mamoswine                   43.5 ->  49.0  (19/28/13)  -1 Water Energy +1 Earthen Vessel
-[r7  35/110  10996s] ACCEPT Misty's Starmie             50.5 ->  54.7  (19/28/13)  -1 Water Energy +1 Switch
-[r7  36/110  11015s] ACCEPT Crabominable                49.0 ->  56.0  (20/26/14)  -1 Water Energy +1 Carmine
-[r7  37/110  11031s] ACCEPT Electivire                  46.6 ->  52.3  (18/30/12)  -1 Lightning Energy +1 Carmine
-[r7  38/110  11053s] ACCEPT Magnezone                   50.8 ->  56.3  (16/29/15)  -1 Lightning Energy +1 Team Rocket
-[r7  39/110  11072s] ACCEPT Vikavolt                    41.8 ->  52.3  (21/28/11)  +1 Bunnelby / -1 Eelektross
-[r7  40/110  11092s]   ---- Eelektross                  65.0 ->  65.2  (15/29/16)  
-[r7  41/110  11113s] ACCEPT Alolan Golem                65.2 ->  66.9  (15/30/15)  -1 Lightning Energy +1 Buddy-Buddy
-[r7  42/110  11136s] ACCEPT Manectric                   54.3 ->  55.8  (17/28/15)  -1 Professor's Research +1 Lightni
-[r7  43/110  11155s] ACCEPT Lanturn                     45.3 ->  51.0  (17/26/17)  swap chain Alolan Dugtrio -> Kecle
-[r7  44/110  11175s] ACCEPT Bellibolt                   57.2 ->  59.9  (13/29/18)  -1 Lightning Energy +1 Cheren
-[r7  45/110  11196s] ACCEPT Kilowattrel                 60.1 ->  62.7  (13/30/17)  -1 Lightning Energy +1 Ethan's Adv
-[r7  46/110  11218s] ACCEPT Raichu                      43.5 ->  51.2  (20/28/12)  swap chain Fan Rotom -> Hop's Cram
-[r7  47/110  11238s] ACCEPT Team Rocket's Ampharos      51.6 ->  57.1  (16/30/14)  -1 Lightning Energy +1 Perrin
-[r7  48/110  11258s] ACCEPT Zeraora                     53.6 ->  57.1  (19/27/14)  -1 Professor's Research +1 Lightni
-[r7  49/110  11275s]   ---- Steven's Claydol            57.8 ->  58.7  (20/26/14)  
-[r7  50/110  11290s] ACCEPT Grimmsnarl                  47.7 ->  53.5  (14/30/16)  -1 Psychic Energy +1 Cheren
-[r7  51/110  11306s] ACCEPT Mesprit                     51.0 ->  55.8  (17/27/16)  -1 Psychic Energy +1 Tyme
-[r7  52/110  11321s] ACCEPT Florges                     32.8 ->  35.8  (18/29/13)  -1 Psychic Energy +1 Cheren
-[r7  53/110  11337s] ACCEPT Musharna                    42.2 ->  46.8  (17/27/16)  -1 Psychic Energy +1 Brock's Scout
-[r7  54/110  11357s] ACCEPT Reuniclus                   42.8 ->  45.5  (17/29/14)  -1 Psychic Energy +1 Emcee's Hype
-[r7  55/110  11374s] ACCEPT Azumarill                   49.0 ->  54.7  (18/27/15)  +1 Bunnelby / -1 Audino
-[r7  56/110  11389s]   ---- Slurpuff                    42.9 ->  42.2  (19/24/17)  
-[r7  57/110  11404s] ACCEPT Drifblim                    39.3 ->  43.1  (20/25/15)  -1 Psychic Energy +1 Cheren
-[r7  58/110  11421s] ACCEPT Espathra                    37.8 ->  43.9  (18/25/17)  swap chain Onix -> Ethan's Pichu
-[r7  59/110  11438s] ACCEPT Iron Valiant                51.0 ->  55.8  (19/28/13)  -1 Psychic Energy +1 Jacinthe
-[r7  60/110  11453s] ACCEPT Deoxys                      46.1 ->  50.8  (18/26/16)  -1 Psychic Energy +1 Team Rocket's
-[r7  61/110  11470s] ACCEPT Medicham                    47.5 ->  51.2  (20/26/14)  -1 Fighting Energy +1 Tyme
-[r7  62/110  11487s] ACCEPT Annihilape                  48.6 ->  54.5  (17/30/13)  -1 Fighting Energy +1 Kofu
-[r7  63/110  11505s] ACCEPT Conkeldurr                  48.7 ->  52.1  (16/31/13)  -1 Fighting Energy +1 Energy Coin
-[r7  64/110  11523s] ACCEPT Sawk                        50.3 ->  55.2  (18/27/15)  -1 Fighting Energy +1 Harlequin
-[r7  65/110  11539s] ACCEPT Excadrill                   41.5 ->  44.8  (20/24/16)  -1 Boss's Orders +1 Fighting Energ
-[r7  66/110  11558s] ACCEPT Toxicroak                   44.6 ->  46.6  (18/25/17)  -1 Fighting Energy +1 Team Rocket'
-[r7  67/110  11575s]   ---- Probopass                   53.6 ->  52.8  (18/26/16)  
-[r7  68/110  11592s] ACCEPT Solrock                     49.2 ->  51.6  (19/25/16)  swap chain Hitmontop -> Sawk
-[r7  69/110  11608s] ACCEPT Garganacl                   42.6 ->  49.0  (18/30/12)  -1 Fighting Energy +1 Kofu
-[r7  70/110  11626s] ACCEPT Throh                       47.7 ->  51.2  (17/27/16)  -1 Fighting Energy +1 Cheren
-[r7  71/110  11645s] ACCEPT Gigalith                    43.9 ->  50.5  (17/29/14)  -1 Fighting Energy +1 Harlequin
-[r7  72/110  11662s] ACCEPT Sandslash                   53.2 ->  55.4  (18/27/15)  -1 Fighting Energy +1 Ethan's Adve
-[r7  73/110  11676s] ACCEPT Crobat                      48.4 ->  51.7  (16/29/15)  -1 Darkness Energy +1 Techno Radar
-[r7  74/110  11692s]   ---- Team Rocket's Nidoqueen     39.3 ->  39.6  (19/27/14)  
-[r7  75/110  11707s]   ---- Krookodile                  48.5 ->  46.7  (15/30/15)  
-[r7  76/110  11722s] ACCEPT Galarian Obstagoon          39.8 ->  44.2  (19/29/12)  add chain Alolan Dugtrio
-[r7  77/110  11739s] ACCEPT Lokix                       41.8 ->  47.3  (18/27/15)  -1 Boss's Orders +1 Darkness Energ
-[r7  78/110  11755s] ACCEPT Pangoro                     39.1 ->  45.5  (18/28/14)  -1 Darkness Energy +1 Amarys
-[r7  79/110  11771s]   ---- Seviper                     45.5 ->  45.4  (20/29/11)  
-[r7  80/110  11787s]   ---- Marnie's Scrafty            43.5 ->  43.9  (18/30/12)  
-[r7  81/110  11806s]   ---- Scolipede                   41.9 ->  42.1  (18/30/12)  
-[r7  82/110  11823s] ACCEPT Liepard                     45.2 ->  48.5  (18/30/12)  +1 Bunnelby / -1 Hop's Cramorant
-[r7  83/110  11843s] ACCEPT Eternatus                   42.6 ->  47.9  (18/30/12)  -1 Boss's Orders +1 Darkness Energ
-[r7  84/110  11860s] ACCEPT Team Rocket's Muk           47.8 ->  51.6  (18/30/12)  +1 Bunnelby / -1 Alolan Dugtrio
-[r7  85/110  11878s]   ---- Tinkaton                    47.2 ->  47.0  (17/31/12)  
-[r7  86/110  11893s] ACCEPT Escavalier                  51.4 ->  53.1  (15/30/15)  -1 Metal Energy +1 Tyme
-[r7  87/110  11913s] ACCEPT Metagross                   45.4 ->  49.4  (19/30/11)  +1 Bunnelby / -1 Kecleon
-[r7  88/110  11928s] ACCEPT Hop's Corviknight           35.5 ->  37.3  (23/28/9)  -1 Metal Energy +1 Team Rocket's A
-[r7  89/110  11943s] ACCEPT Aegislash                   38.5 ->  44.1  (17/30/13)  -1 Metal Energy +1 Team Rocket's A
-[r7  90/110  11958s] ACCEPT Aggron                      48.7 ->  52.4  (15/30/15)  -1 Metal Energy +1 Harlequin
-[r7  91/110  11973s] ACCEPT N's Klinklang               38.1 ->  46.1  (18/28/14)  swap chain Fan Rotom -> Tinkaton
-[r7  92/110  11989s] ACCEPT Bisharp                     53.1 ->  56.9  (15/31/14)  -1 Metal Energy +1 Kofu
-[r7  93/110  12004s] ACCEPT Iron Treads                 36.7 ->  40.0  (18/27/15)  -1 Metal Energy +1 Drasna
-[r7  94/110  12022s] ACCEPT Copperajah                  44.3 ->  46.1  (18/31/11)  -1 Metal Energy +1 Amarys
-[r7  95/110  12036s] ACCEPT Archaludon                  41.7 ->  45.6  (15/29/16)  -1 Metal Energy +1 Carmine
-[r7  96/110  12053s]   ---- Forretress                  49.2 ->  50.1  (19/29/12)  
-[r7  97/110  12071s] ACCEPT Diggersby (Colorless)       49.9 ->  53.6  (17/28/15)  -1 Psychic Energy +1 Jacinthe
-[r7  98/110  12086s] ACCEPT Alolan Dugtrio (Colorless)  35.3 ->  36.4  (23/20/17)  +1 Bunnelby / -1 Farfetch'd
-[r7  99/110  12105s] ACCEPT Hop's Cramorant (Colorless  44.2 ->  46.6  (21/28/11)  -1 Psychic Energy +1 Lucian
-[r7 100/110  12121s] ACCEPT Unfezant (Colorless)        34.3 ->  40.2  (20/27/13)  swap chain Mesprit -> Kecleon
-[r7 101/110  12137s] ACCEPT Team Rocket's Raticate (Co  43.1 ->  45.0  (20/25/15)  -1 Psychic Energy +1 Crispin
-[r7 102/110  12155s] ACCEPT Fan Rotom (Colorless)       49.0 ->  51.0  (20/28/12)  -1 Psychic Energy +1 Tyme
-[r7 103/110  12173s] ACCEPT Watchog (Colorless)         47.7 ->  51.4  (17/29/14)  -1 Psychic Energy +1 Harlequin
-[r7 104/110  12188s] ACCEPT Linoone (Colorless)         34.9 ->  36.5  (17/24/19)  -1 Boss's Orders +1 Psychic Energy
-[r7 105/110  12204s] ACCEPT Seaking (Colorless)         38.0 ->  40.0  (16/26/18)  -1 Psychic Energy +1 Team Rocket's
-[r7 106/110  12219s] ACCEPT Snorlax (Colorless)         41.5 ->  45.3  (17/26/17)  -1 Psychic Energy +1 Carmine
-[r7 107/110  12238s] ACCEPT Miltank (Colorless)         48.3 ->  49.7  (20/27/13)  +1 Farfetch'd / -1 Miltank
-[r7 108/110  12255s] ACCEPT Lycanroc (Colorless)        48.3 ->  52.5  (18/28/14)  -1 Psychic Energy +1 Poké Ball
-[r7 109/110  12272s] ACCEPT Boltund (Colorless)         44.8 ->  50.5  (18/26/16)  +1 Bunnelby / -1 N's Joltik
-[r7 110/110  12291s] ACCEPT Cinccino (Colorless)        27.3 ->  30.5  (21/25/14)  swap chain Tauros -> Fan Rotom
-=== round 7 done: 97 changes | top Ceruledge 69.72 | median 50.11 ===
-[r8   1/110  12317s] ACCEPT Decidueye                   62.3 ->  63.5  (17/29/14)  -1 Cheren +1 Grass Energy
-[r8   2/110  12333s] ACCEPT Lurantis                    60.9 ->  64.8  (18/28/14)  -1 Grass Energy +1 Energy Coin
-[r8   3/110  12350s] ACCEPT Rillaboom                   57.4 ->  58.9  (18/26/16)  -1 Professor's Research +1 Grass E
-[r8   4/110  12365s] ACCEPT Beautifly                   56.7 ->  62.4  (19/25/16)  swap chain Diggersby -> Alolan Dug
-[r8   5/110  12383s] ACCEPT Vivillon                    57.6 ->  62.8  (16/30/14)  -1 Grass Energy +1 Kofu
-[r8   6/110  12400s] ACCEPT Shiftry                     52.1 ->  56.7  (17/30/13)  -1 Grass Energy +1 Carmine
-[r8   7/110  12416s] ACCEPT Ludicolo                    52.7 ->  54.9  (18/28/14)  -1 Grass Energy +1 Glass Trumpet
-[r8   8/110  12435s] ACCEPT Exeggutor                   60.4 ->  64.1  (13/31/16)  remove chain Farfetch'd
-[r8   9/110  12451s] ACCEPT Breloom                     56.4 ->  60.0  (18/31/11)  add chain Wo-Chien
-[r8  10/110  12466s] ACCEPT Ninjask                     58.0 ->  63.9  (17/28/15)  -1 Grass Energy +1 Amarys
-[r8  11/110  12483s]   ---- Sawsbuck                    60.0 ->  59.3  (19/28/13)  
-[r8  12/110  12497s] ACCEPT Sunflora                    57.4 ->  59.6  (20/24/16)  -1 Grass Energy +1 Team Rocket's A
-[r8  13/110  12515s]   ---- Ceruledge                   68.4 ->  67.0  (20/26/14)  
-[r8  14/110  12532s]   ---- Centiskorch                 61.3 ->  62.2  (21/26/13)  
-[r8  15/110  12549s] ACCEPT Camerupt                    56.3 ->  58.5  (18/26/16)  -1 Boss's Orders +1 Fire Energy
-[r8  16/110  12566s] ACCEPT Darmanitan                  54.9 ->  58.3  (21/27/12)  -1 Fire Energy +1 Urbain
-[r8  17/110  12582s] ACCEPT Simisear                    44.4 ->  52.1  (18/26/16)  -1 Fire Energy +1 Harlequin
-[r8  18/110  12599s] ACCEPT Team Rocket's Houndoom      58.7 ->  60.9  (18/28/14)  -1 Fire Energy +1 Carmine
-[r8  19/110  12615s] ACCEPT Talonflame                  55.8 ->  57.1  (14/30/16)  -1 Fire Energy +1 Team Rocket's Gr
-[r8  20/110  12634s] ACCEPT Ninetales                   50.6 ->  57.6  (18/29/13)  -1 Fire Energy +1 Friends in Palde
-[r8  21/110  12651s] ACCEPT Charmeleon                  59.1 ->  61.8  (21/26/13)  -1 Fire Energy +1 Carmine
-[r8  22/110  12668s] ACCEPT Ethan's Quilava             60.6 ->  62.8  (21/25/14)  -1 Fire Energy +1 Amarys
-[r8  23/110  12685s] ACCEPT Volcarona                   45.2 ->  48.3  (16/27/17)  remove chain Camerupt
-[r8  24/110  12702s] ACCEPT Rapidash                    47.5 ->  55.2  (21/27/12)  swap chain Charmeleon -> Alolan Du
-[r8  25/110  12718s] ACCEPT Inteleon                    42.2 ->  48.6  (18/29/13)  -1 Water Energy +1 Cheren
-[r8  26/110  12739s] ACCEPT Walrein                     46.4 ->  51.9  (17/29/14)  -1 Water Energy +1 Lt. Surge's Bar
-[r8  27/110  12759s] ACCEPT Quaquaval                   42.2 ->  44.0  (16/29/15)  +1 Farfetch'd / -1 Hop's Cramorant
-[r8  28/110  12779s]   ---- Poliwrath                   45.9 ->  45.7  (16/29/15)  
-[r8  29/110  12800s] ACCEPT Octillery                   51.9 ->  54.9  (17/27/16)  -1 Water Energy +1 Carmine
-[r8  30/110  12820s] ACCEPT Avalugg                     44.8 ->  50.1  (16/27/17)  -1 Water Energy +1 Team Rocket's A
-[r8  31/110  12839s] ACCEPT Iron Bundle                 49.0 ->  52.7  (18/27/15)  -1 Water Energy +1 Tyme
-[r8  32/110  12857s] ACCEPT Frosmoth                    51.7 ->  54.1  (20/28/12)  -1 Water Energy +1 Carmine
-[r8  33/110  12879s]   ---- Crawdaunt                   49.7 ->  48.4  (18/27/15)  
-[r8  34/110  12899s] ACCEPT Mamoswine                   47.2 ->  50.6  (19/28/13)  swap chain Tyrogue -> Kecleon
-[r8  35/110  12919s] ACCEPT Misty's Starmie             50.3 ->  56.5  (19/28/13)  +1 Bunnelby / -1 Hop's Cramorant
-[r8  36/110  12939s] ACCEPT Crabominable                51.4 ->  55.0  (20/27/13)  -1 Water Energy +1 Team Rocket's A
-[r8  37/110  12956s] ACCEPT Electivire                  46.7 ->  53.6  (19/30/11)  swap chain Fan Rotom -> Zeraora
-[r8  38/110  12979s] ACCEPT Magnezone                   53.4 ->  55.9  (13/29/18)  remove chain Farfetch'd
-[r8  39/110  12999s] ACCEPT Vikavolt                    48.6 ->  53.8  (21/29/10)  -1 Lightning Energy +1 Carmine
-[r8  40/110  13020s] ACCEPT Eelektross                  59.5 ->  62.7  (15/30/15)  -1 Lightning Energy +1 Amarys
-[r8  41/110  13042s] ACCEPT Alolan Golem                63.0 ->  65.9  (16/30/14)  -1 Lightning Energy +1 Alolan Digl
-[r8  42/110  13065s] ACCEPT Manectric                   49.9 ->  53.9  (17/29/14)  -1 Lightning Energy +1 Poké Ball
-[r8  43/110  13087s] ACCEPT Lanturn                     45.5 ->  51.9  (17/27/16)  -1 Lightning Energy +1 Carmine
-[r8  44/110  13108s] ACCEPT Bellibolt                   54.6 ->  60.0  (14/29/17)  -1 Lightning Energy +1 Meowth
-[r8  45/110  13130s] ACCEPT Kilowattrel                 59.2 ->  60.3  (14/30/16)  -1 Lightning Energy +1 Alolan Digl
-[r8  46/110  13151s] ACCEPT Raichu                      49.5 ->  50.8  (20/28/12)  +1 Bunnelby / -1 Alolan Dugtrio
-[r8  47/110  13172s]   ---- Team Rocket's Ampharos      54.4 ->  52.1  (16/30/14)  
-[r8  48/110  13192s] ACCEPT Zeraora                     53.6 ->  55.8  (19/28/13)  -1 Lightning Energy +1 Carmine
-[r8  49/110  13210s]   ---- Steven's Claydol            54.5 ->  53.8  (20/26/14)  
-[r8  50/110  13226s] ACCEPT Grimmsnarl                  50.3 ->  52.0  (14/31/15)  -1 Psychic Energy +1 Carmine
-[r8  51/110  13243s]   ---- Mesprit                     52.5 ->  53.4  (17/27/16)  
-[r8  52/110  13259s] ACCEPT Florges                     34.5 ->  37.2  (18/28/14)  -1 Professor's Research +1 Psychic
-[r8  53/110  13276s] ACCEPT Musharna                    40.7 ->  46.8  (17/28/15)  -1 Psychic Energy +1 Kofu
-[r8  54/110  13296s] ACCEPT Reuniclus                   39.4 ->  40.8  (17/30/13)  -1 Psychic Energy +1 Tyme
-[r8  55/110  13314s] ACCEPT Azumarill                   51.6 ->  58.3  (18/28/14)  -1 Psychic Energy +1 Cheren
-[r8  56/110  13329s] ACCEPT Slurpuff                    38.3 ->  41.1  (19/25/16)  -1 Psychic Energy +1 Team Rocket's
-[r8  57/110  13345s] ACCEPT Drifblim                    39.1 ->  45.1  (20/26/14)  -1 Psychic Energy +1 Carmine
-[r8  58/110  13361s] ACCEPT Espathra                    39.1 ->  47.2  (18/26/16)  -1 Psychic Energy +1 Team Rocket's
-[r8  59/110  13379s] ACCEPT Iron Valiant                50.8 ->  54.1  (19/29/12)  -1 Psychic Energy +1 Kofu
-[r8  60/110  13396s] ACCEPT Deoxys                      44.4 ->  49.0  (18/27/15)  -1 Psychic Energy +1 Kofu
-[r8  61/110  13414s] ACCEPT Medicham                    49.2 ->  56.3  (20/26/14)  swap chain Hitmontop -> Kecleon
-[r8  62/110  13432s] ACCEPT Annihilape                  48.7 ->  49.9  (17/31/12)  -1 Fighting Energy +1 Harlequin
-[r8  63/110  13451s] ACCEPT Conkeldurr                  48.8 ->  51.1  (16/32/12)  -1 Fighting Energy +1 Glass Trumpe
-[r8  64/110  13470s] ACCEPT Sawk                        51.6 ->  54.7  (18/28/14)  -1 Fighting Energy +1 Energy Coin
-[r8  65/110  13486s] ACCEPT Excadrill                   39.1 ->  43.3  (20/25/15)  -1 Fighting Energy +1 Harlequin
-[r8  66/110  13506s] ACCEPT Toxicroak                   44.6 ->  50.3  (18/25/17)  swap chain Tauros -> Miltank
-[r8  67/110  13523s]   ---- Probopass                   49.9 ->  49.2  (18/26/16)  
-[r8  68/110  13540s] ACCEPT Solrock                     47.2 ->  50.8  (19/26/15)  -1 Fighting Energy +1 Carmine
-[r8  69/110  13558s] ACCEPT Garganacl                   43.4 ->  45.7  (18/29/13)  -1 Boss's Orders +1 Fighting Energ
-[r8  70/110  13577s] ACCEPT Throh                       45.5 ->  49.9  (17/28/15)  -1 Fighting Energy +1 Energy Coin
-[r8  71/110  13597s]   ---- Gigalith                    46.2 ->  43.7  (17/29/14)  
-[r8  72/110  13615s] ACCEPT Sandslash                   48.6 ->  52.7  (18/27/15)  +1 Meditite / -1 Hitmontop
-[r8  73/110  13631s] ACCEPT Crobat                      43.9 ->  49.8  (16/30/14)  -1 Darkness Energy +1 Friends in P
-[r8  74/110  13646s] ACCEPT Team Rocket's Nidoqueen     33.8 ->  37.2  (19/28/13)  -1 Darkness Energy +1 Brock's Scou
-[r8  75/110  13663s] ACCEPT Krookodile                  45.4 ->  47.2  (15/31/14)  -1 Darkness Energy +1 Carmine
-[r8  76/110  13679s] ACCEPT Galarian Obstagoon          42.0 ->  44.3  (19/30/11)  -1 Darkness Energy +1 Urbain
-[r8  77/110  13696s] ACCEPT Lokix                       41.5 ->  44.0  (18/28/14)  -1 Darkness Energy +1 Friends in P
-[r8  78/110  13713s] ACCEPT Pangoro                     44.0 ->  47.2  (18/29/13)  -1 Darkness Energy +1 Carmine
-[r8  79/110  13729s] ACCEPT Seviper                     42.0 ->  43.1  (18/29/13)  swap chain Crobat -> Larry's Dunsp
-[r8  80/110  13746s] ACCEPT Marnie's Scrafty            39.7 ->  44.8  (18/30/12)  +1 Bunnelby / -1 Alolan Dugtrio
-[r8  81/110  13765s]   ---- Scolipede                   37.3 ->  38.2  (18/30/12)  
-[r8  82/110  13783s] ACCEPT Liepard                     45.4 ->  49.2  (18/30/12)  swap chain Audino -> Fan Rotom
-[r8  83/110  13803s] ACCEPT Eternatus                   46.1 ->  47.3  (18/29/13)  -1 Ultra Ball +1 Darkness Energy
-[r8  84/110  13821s] ACCEPT Team Rocket's Muk           46.5 ->  48.0  (14/30/16)  remove chain N's Joltik
-[r8  85/110  13839s] ACCEPT Tinkaton                    43.3 ->  48.3  (17/30/13)  -1 Professor's Research +1 Metal E
-[r8  86/110  13856s] ACCEPT Escavalier                  50.2 ->  51.4  (18/30/12)  add chain Kecleon
-[r8  87/110  13875s]   ---- Metagross                   48.1 ->  47.6  (19/30/11)  
-[r8  88/110  13892s] ACCEPT Hop's Corviknight           31.8 ->  40.8  (23/28/9)  swap chain Alolan Dugtrio -> Digge
-[r8  89/110  13907s] ACCEPT Aegislash                   42.1 ->  50.9  (17/30/13)  swap chain Alolan Dugtrio -> Digge
-[r8  90/110  13924s] ACCEPT Aggron                      49.1 ->  54.9  (15/31/14)  -1 Metal Energy +1 TM Machine
-[r8  91/110  13939s] ACCEPT N's Klinklang               42.8 ->  46.2  (18/29/13)  -1 Metal Energy +1 Cheren
-[r8  92/110  13956s] ACCEPT Bisharp                     52.4 ->  54.8  (15/32/13)  -1 Metal Energy +1 Techno Radar
-[r8  93/110  13972s] ACCEPT Iron Treads                 33.4 ->  36.5  (18/28/14)  -1 Metal Energy +1 Harlequin
-[r8  94/110  13991s] ACCEPT Copperajah                  42.4 ->  49.1  (15/31/14)  remove chain Farfetch'd
-[r8  95/110  14007s] ACCEPT Archaludon                  40.6 ->  47.1  (15/30/15)  -1 Metal Energy +1 Carmine
-[r8  96/110  14024s] ACCEPT Forretress                  41.8 ->  43.7  (19/30/11)  -1 Metal Energy +1 Harlequin
-[r8  97/110  14042s] ACCEPT Diggersby (Colorless)       50.6 ->  53.2  (17/29/14)  -1 Psychic Energy +1 Buddy-Buddy P
-[r8  98/110  14058s] ACCEPT Alolan Dugtrio (Colorless)  32.0 ->  33.8  (23/20/17)  swap chain Mesprit -> N's Joltik
-[r8  99/110  14077s] ACCEPT Hop's Cramorant (Colorless  42.2 ->  50.6  (17/28/15)  remove chain Audino
-[r8 100/110  14095s] ACCEPT Unfezant (Colorless)        37.1 ->  40.0  (20/28/12)  -1 Psychic Energy +1 Harlequin
-[r8 101/110  14112s] ACCEPT Team Rocket's Raticate (Co  40.7 ->  44.8  (20/26/14)  -1 Psychic Energy +1 Lt. Surge's B
-[r8 102/110  14131s] ACCEPT Fan Rotom (Colorless)       48.4 ->  51.6  (20/29/11)  -1 Psychic Energy +1 Harlequin
-[r8 103/110  14149s]   ---- Watchog (Colorless)         49.5 ->  50.1  (17/29/14)  
-[r8 104/110  14165s] ACCEPT Linoone (Colorless)         31.2 ->  33.0  (17/24/19)  swap chain Fan Rotom -> Kecleon
-[r8 105/110  14181s] ACCEPT Seaking (Colorless)         39.4 ->  46.2  (16/27/17)  -1 Psychic Energy +1 Harlequin
-[r8 106/110  14198s] ACCEPT Snorlax (Colorless)         42.9 ->  45.9  (17/27/16)  -1 Psychic Energy +1 Team Rocket's
-[r8 107/110  14217s] ACCEPT Miltank (Colorless)         44.2 ->  45.7  (20/27/13)  swap chain Farfetch'd -> Audino
-[r8 108/110  14235s] ACCEPT Lycanroc (Colorless)        48.1 ->  50.8  (18/29/13)  -1 Psychic Energy +1 Carmine
-[r8 109/110  14253s] ACCEPT Boltund (Colorless)         49.2 ->  51.2  (18/27/15)  -1 Psychic Energy +1 Buddy-Buddy P
-[r8 110/110  14271s] ACCEPT Cinccino (Colorless)        26.4 ->  29.5  (17/25/18)  remove chain Fan Rotom
-=== round 8 done: 97 changes | top Decidueye 65.14 | median 49.59 ===
-[r9   1/110  14297s]   ---- Decidueye                   65.1 ->  66.1  (17/29/14)  
-[r9   2/110  14313s] ACCEPT Lurantis                    62.2 ->  64.6  (18/29/13)  -1 Grass Energy +1 Amarys
-[r9   3/110  14330s] ACCEPT Rillaboom                   55.2 ->  57.6  (16/26/18)  swap chain Decidueye -> Hop's Cram
-[r9   4/110  14345s] ACCEPT Beautifly                   60.0 ->  62.0  (19/24/17)  -1 Boss's Orders +1 Grass Energy
-[r9   5/110  14365s] ACCEPT Vivillon                    57.5 ->  60.2  (16/30/14)  +1 Bunnelby / -1 Tauros
-[r9   6/110  14383s] ACCEPT Shiftry                     52.2 ->  57.6  (17/29/14)  -1 Professor's Research +1 Grass E
-[r9   7/110  14398s] ACCEPT Ludicolo                    53.4 ->  57.6  (18/29/13)  -1 Grass Energy +1 Carmine
-[r9   8/110  14416s]   ---- Exeggutor                   63.6 ->  64.0  (13/31/16)  
-[r9   9/110  14435s]   ---- Breloom                     61.3 ->  61.9  (18/31/11)  
-[r9  10/110  14451s]   ---- Ninjask                     64.8 ->  65.7  (17/28/15)  
-[r9  11/110  14468s]   ---- Sawsbuck                    58.5 ->  58.5  (19/28/13)  
-[r9  12/110  14483s]   ---- Sunflora                    61.5 ->  62.4  (20/24/16)  
-[r9  13/110  14501s] ACCEPT Ceruledge                   64.2 ->  67.0  (20/27/13)  -1 Fire Energy +1 Harlequin
-[r9  14/110  14519s] ACCEPT Centiskorch                 58.9 ->  62.6  (21/27/12)  -1 Fire Energy +1 Cheren
-[r9  15/110  14536s] ACCEPT Camerupt                    55.0 ->  59.6  (18/26/16)  +1 Charcadet / -1 Ethan's Pichu
-[r9  16/110  14554s] ACCEPT Darmanitan                  55.8 ->  60.2  (21/28/11)  -1 Fire Energy +1 Cheren
-[r9  17/110  14571s]   ---- Simisear                    53.0 ->  52.7  (18/26/16)  
-[r9  18/110  14590s] ACCEPT Team Rocket's Houndoom      56.5 ->  61.7  (18/29/13)  -1 Fire Energy +1 Switch
-[r9  19/110  14607s] ACCEPT Talonflame                  56.4 ->  57.7  (14/31/15)  -1 Fire Energy +1 Carmine
-[r9  20/110  14626s] ACCEPT Ninetales                   54.1 ->  58.4  (18/30/12)  -1 Fire Energy +1 Love Ball
-[r9  21/110  14644s] ACCEPT Charmeleon                  59.4 ->  62.9  (21/27/12)  -1 Fire Energy +1 Harlequin
-[r9  22/110  14661s] ACCEPT Ethan's Quilava             60.0 ->  61.1  (21/26/13)  -1 Fire Energy +1 Switch
-[r9  23/110  14676s] ACCEPT Volcarona                   45.9 ->  52.8  (21/27/12)  add chain Diggersby
-[r9  24/110  14694s] ACCEPT Rapidash                    52.3 ->  57.2  (21/28/11)  -1 Fire Energy +1 Carmine
-[r9  25/110  14711s] ACCEPT Inteleon                    44.6 ->  48.1  (18/30/12)  -1 Water Energy +1 TM Machine
-[r9  26/110  14733s]   ---- Walrein                     47.9 ->  48.3  (17/29/14)  
-[r9  27/110  14754s] ACCEPT Quaquaval                   42.2 ->  43.7  (16/29/15)  swap chain Farfetch'd -> Kecleon
-[r9  28/110  14775s] ACCEPT Poliwrath                   42.4 ->  43.5  (16/30/14)  -1 Water Energy +1 Team Rocket's A
-[r9  29/110  14796s]   ---- Octillery                   54.9 ->  55.8  (17/27/16)  
-[r9  30/110  14818s]   ---- Avalugg                     47.7 ->  48.4  (16/27/17)  
-[r9  31/110  14837s] ACCEPT Iron Bundle                 48.4 ->  52.8  (18/27/15)  +1 Bunnelby / -1 Hop's Cramorant
-[r9  32/110  14857s]   ---- Frosmoth                    53.9 ->  54.9  (20/28/12)  
-[r9  33/110  14880s]   ---- Crawdaunt                   48.4 ->  48.1  (18/27/15)  
-[r9  34/110  14901s] ACCEPT Mamoswine                   43.5 ->  48.1  (15/28/17)  remove chain Hop's Cramorant
-[r9  35/110  14922s]   ---- Misty's Starmie             51.9 ->  52.8  (19/28/13)  
-[r9  36/110  14943s]   ---- Crabominable                50.3 ->  50.6  (20/27/13)  
-[r9  37/110  14965s] ACCEPT Electivire                  51.2 ->  53.8  (19/29/12)  -1 Professor's Research +1 Lightni
-[r9  38/110  14987s] ACCEPT Magnezone                   54.9 ->  56.5  (14/29/17)  -1 Lightning Energy +1 Alolan Digl
-[r9  39/110  15008s]   ---- Vikavolt                    51.2 ->  50.9  (21/29/10)  
-[r9  40/110  15030s] ACCEPT Eelektross                  61.2 ->  63.4  (15/31/14)  -1 Lightning Energy +1 Carmine
-[r9  41/110  15053s]   ---- Alolan Golem                63.9 ->  63.8  (16/30/14)  
-[r9  42/110  15077s] ACCEPT Manectric                   50.3 ->  54.5  (17/30/13)  -1 Lightning Energy +1 Kofu
-[r9  43/110  15101s] ACCEPT Lanturn                     55.0 ->  58.3  (17/28/15)  -1 Lightning Energy +1 Carmine
-[r9  44/110  15123s]   ---- Bellibolt                   58.0 ->  57.3  (14/29/17)  
-[r9  45/110  15146s]   ---- Kilowattrel                 59.2 ->  58.5  (14/30/16)  
-[r9  46/110  15168s]   ---- Raichu                      49.9 ->  50.5  (20/28/12)  
-[r9  47/110  15189s] ACCEPT Team Rocket's Ampharos      51.6 ->  53.2  (16/29/15)  -1 Professor's Research +1 Lightni
-[r9  48/110  15211s] ACCEPT Zeraora                     52.8 ->  55.4  (16/28/16)  swap chain Alolan Dugtrio -> Dunsp
-[r9  49/110  15229s] ACCEPT Steven's Claydol            52.1 ->  53.9  (20/27/13)  -1 Psychic Energy +1 Lucian
-[r9  50/110  15246s]   ---- Grimmsnarl                  50.3 ->  51.1  (14/31/15)  
-[r9  51/110  15264s] ACCEPT Mesprit                     49.2 ->  50.6  (19/27/14)  swap chain Mesprit -> N's Joltik
-[r9  52/110  15280s] ACCEPT Florges                     33.8 ->  37.2  (18/29/13)  -1 Psychic Energy +1 Team Rocket's
-[r9  53/110  15298s] ACCEPT Musharna                    45.3 ->  50.1  (17/29/14)  -1 Psychic Energy +1 Glass Trumpet
-[r9  54/110  15319s]   ---- Reuniclus                   39.5 ->  40.5  (17/30/13)  
-[r9  55/110  15339s] ACCEPT Azumarill                   53.6 ->  57.1  (18/29/13)  -1 Psychic Energy +1 Switch
-[r9  56/110  15355s] ACCEPT Slurpuff                    38.3 ->  44.2  (19/26/15)  -1 Psychic Energy +1 Carmine
-[r9  57/110  15373s] ACCEPT Drifblim                    42.4 ->  46.1  (20/27/13)  -1 Psychic Energy +1 Team Rocket's
-[r9  58/110  15390s] ACCEPT Espathra                    45.1 ->  46.2  (18/26/16)  +1 Alolan Diglett / -1 Ethan's Pic
-[r9  59/110  15409s] ACCEPT Iron Valiant                52.3 ->  53.4  (19/30/11)  -1 Psychic Energy +1 Wondrous Patc
-[r9  60/110  15427s] ACCEPT Deoxys                      46.1 ->  52.7  (18/28/14)  -1 Psychic Energy +1 Team Rocket's
-[r9  61/110  15446s] ACCEPT Medicham                    53.4 ->  56.1  (20/27/13)  -1 Fighting Energy +1 Carmine
-[r9  62/110  15465s]   ---- Annihilape                  50.8 ->  49.8  (17/31/12)  
-[r9  63/110  15484s]   ---- Conkeldurr                  46.9 ->  47.6  (16/32/12)  
-[r9  64/110  15504s] ACCEPT Sawk                        52.3 ->  58.0  (18/29/13)  -1 Fighting Energy +1 N's PP Up
-[r9  65/110  15521s] ACCEPT Excadrill                   40.6 ->  48.3  (20/26/14)  -1 Fighting Energy +1 Lt. Surge's 
-[r9  66/110  15541s] ACCEPT Toxicroak                   47.7 ->  49.9  (18/26/16)  -1 Fighting Energy +1 Glass Trumpe
-[r9  67/110  15559s] ACCEPT Probopass                   45.9 ->  47.7  (18/27/15)  -1 Fighting Energy +1 Team Rocket'
-[r9  68/110  15576s] ACCEPT Solrock                     46.6 ->  48.4  (19/26/15)  swap chain Sawk -> Hitmontop
-[r9  69/110  15595s] ACCEPT Garganacl                   46.4 ->  49.4  (18/30/12)  -1 Fighting Energy +1 Team Rocket'
-[r9  70/110  15614s] ACCEPT Throh                       49.2 ->  52.8  (17/29/14)  -1 Fighting Energy +1 Energy Coin
-[r9  71/110  15635s]   ---- Gigalith                    45.3 ->  45.7  (17/29/14)  
-[r9  72/110  15653s] ACCEPT Sandslash                   49.9 ->  52.8  (18/28/14)  -1 Fighting Energy +1 Carmine
-[r9  73/110  15670s]   ---- Crobat                      48.1 ->  47.0  (16/30/14)  
-[r9  74/110  15686s] ACCEPT Team Rocket's Nidoqueen     33.6 ->  36.0  (19/29/12)  -1 Darkness Energy +1 Cheren
-[r9  75/110  15703s]   ---- Krookodile                  44.7 ->  44.4  (15/31/14)  
-[r9  76/110  15720s] ACCEPT Galarian Obstagoon          40.6 ->  44.1  (19/30/11)  +1 Hop's Cramorant / -1 Alolan Dug
-[r9  77/110  15738s] ACCEPT Lokix                       43.3 ->  48.1  (18/28/14)  swap chain Fan Rotom -> Ethan's Pi
-[r9  78/110  15756s] ACCEPT Pangoro                     45.3 ->  51.2  (18/29/13)  +1 Bunnelby / -1 Fan Rotom
-[r9  79/110  15773s] ACCEPT Seviper                     42.4 ->  46.1  (18/30/12)  -1 Darkness Energy +1 Carmine
-[r9  80/110  15791s]   ---- Marnie's Scrafty            41.9 ->  42.6  (18/30/12)  
-[r9  81/110  15810s]   ---- Scolipede                   35.3 ->  34.0  (18/30/12)  
-[r9  82/110  15829s] ACCEPT Liepard                     47.4 ->  49.4  (18/30/12)  +1 Hop's Cramorant / -1 Fan Rotom
-[r9  83/110  15849s] ACCEPT Eternatus                   44.0 ->  51.4  (18/30/12)  -1 Darkness Energy +1 Team Rocket'
-[r9  84/110  15866s]   ---- Team Rocket's Muk           48.1 ->  47.9  (14/30/16)  
-[r9  85/110  15885s] ACCEPT Tinkaton                    47.0 ->  50.1  (17/30/13)  +1 Bunnelby / -1 Farfetch'd
-[r9  86/110  15904s] ACCEPT Escavalier                  47.2 ->  48.7  (15/30/15)  remove chain Kecleon
-[r9  87/110  15924s]   ---- Metagross                   48.3 ->  45.4  (19/30/11)  
-[r9  88/110  15942s]   ---- Hop's Corviknight           40.6 ->  38.3  (23/28/9)  
-[r9  89/110  15960s] ACCEPT Aegislash                   49.2 ->  52.3  (17/29/14)  -1 Professor's Research +1 Metal E
-[r9  90/110  15978s] ACCEPT Aggron                      51.4 ->  53.7  (15/32/13)  -1 Metal Energy +1 Hop's Bag
-[r9  91/110  15994s] ACCEPT N's Klinklang               45.0 ->  49.2  (18/30/12)  -1 Metal Energy +1 Kofu
-[r9  92/110  16012s]   ---- Bisharp                     54.3 ->  52.7  (15/32/13)  
-[r9  93/110  16030s] ACCEPT Iron Treads                 35.0 ->  41.1  (18/28/14)  +1 Bunnelby / -1 Hop's Cramorant
-[r9  94/110  16047s] ACCEPT Copperajah                  47.8 ->  50.2  (15/30/15)  -1 Boss's Orders +1 Metal Energy
-[r9  95/110  16064s] ACCEPT Archaludon                  47.1 ->  49.1  (15/31/14)  -1 Metal Energy +1 Perrin
-[r9  96/110  16082s] ACCEPT Forretress                  43.9 ->  45.0  (16/30/14)  remove chain Farfetch'd
-[r9  97/110  16102s]   ---- Diggersby (Colorless)       53.2 ->  53.8  (17/29/14)  
-[r9  98/110  16119s] ACCEPT Alolan Dugtrio (Colorless)  32.3 ->  38.0  (23/21/16)  -1 Psychic Energy +1 Carmine
-[r9  99/110  16137s] ACCEPT Hop's Cramorant (Colorless  52.5 ->  55.4  (17/29/14)  -1 Psychic Energy +1 Kofu
-[r9 100/110  16156s] ACCEPT Unfezant (Colorless)        38.5 ->  42.0  (20/29/11)  -1 Psychic Energy +1 Lt. Surge's B
-[r9 101/110  16174s]   ---- Team Rocket's Raticate (Co  43.1 ->  43.5  (20/26/14)  
-[r9 102/110  16194s]   ---- Fan Rotom (Colorless)       48.6 ->  49.5  (20/29/11)  
-[r9 103/110  16213s] ACCEPT Watchog (Colorless)         47.7 ->  50.0  (17/30/13)  -1 Psychic Energy +1 Amarys
-[r9 104/110  16231s] ACCEPT Linoone (Colorless)         30.6 ->  34.1  (17/25/18)  -1 Psychic Energy +1 Carmine
-[r9 105/110  16249s] ACCEPT Seaking (Colorless)         43.5 ->  46.4  (16/28/16)  -1 Psychic Energy +1 Ethan's Adven
-[r9 106/110  16267s] ACCEPT Snorlax (Colorless)         45.0 ->  47.3  (17/28/15)  -1 Psychic Energy +1 Team Rocket's
-[r9 107/110  16286s]   ---- Miltank (Colorless)         45.3 ->  44.6  (20/27/13)  
-[r9 108/110  16305s]   ---- Lycanroc (Colorless)        48.4 ->  49.4  (18/29/13)  
-[r9 109/110  16324s] ACCEPT Boltund (Colorless)         52.1 ->  55.0  (18/28/14)  -1 Psychic Energy +1 Carmine
-[r9 110/110  16341s] ACCEPT Cinccino (Colorless)        28.8 ->  31.9  (17/26/17)  -1 Psychic Energy +1 Team Rocket's
-=== round 9 done: 73 changes | top Ceruledge 64.95 | median 49.91 ===
-[r10   1/110  16368s]   ---- Decidueye                   64.4 ->  63.7  (17/29/14)  
-[r10   2/110  16384s] ACCEPT Lurantis                    64.8 ->  67.6  (18/30/12)  -1 Grass Energy +1 Friends in Pald
-[r10   3/110  16401s] ACCEPT Rillaboom                   57.4 ->  61.5  (16/27/17)  -1 Grass Energy +1 Lt. Surge's Bar
-[r10   4/110  16416s] ACCEPT Beautifly                   62.2 ->  65.7  (19/25/16)  -1 Grass Energy +1 Carmine
-[r10   5/110  16436s] ACCEPT Vivillon                    60.2 ->  62.4  (17/30/13)  swap chain Farfetch'd -> Miltank
-[r10   6/110  16454s] ACCEPT Shiftry                     55.6 ->  58.7  (17/29/14)  swap chain Fan Rotom -> Hop's Cram
-[r10   7/110  16471s] ACCEPT Ludicolo                    56.0 ->  60.7  (17/29/14)  swap chain Alolan Dugtrio -> Iron 
-[r10   8/110  16489s]   ---- Exeggutor                   63.4 ->  63.5  (13/31/16)  
-[r10   9/110  16507s] ACCEPT Breloom                     58.9 ->  61.3  (18/31/11)  +1 Wo-Chien / -1 Hop's Cramorant
-[r10  10/110  16523s]   ---- Ninjask                     62.9 ->  62.4  (17/28/15)  
-[r10  11/110  16540s]   ---- Sawsbuck                    58.7 ->  59.6  (19/28/13)  
-[r10  12/110  16556s] ACCEPT Sunflora                    60.6 ->  64.2  (20/25/15)  -1 Grass Energy +1 Harlequin
-[r10  13/110  16574s] ACCEPT Ceruledge                   64.2 ->  65.9  (20/28/12)  -1 Fire Energy +1 Team Rocket's Ar
-[r10  14/110  16593s] ACCEPT Centiskorch                 58.7 ->  60.0  (21/28/11)  -1 Fire Energy +1 Team Rocket's Ar
-[r10  15/110  16610s] ACCEPT Camerupt                    55.8 ->  57.6  (18/27/15)  -1 Fire Energy +1 Boss's Orders
-[r10  16/110  16629s] ACCEPT Darmanitan                  57.6 ->  60.1  (21/29/10)  -1 Fire Energy +1 Carmine
-[r10  17/110  16647s] ACCEPT Simisear                    49.4 ->  51.9  (18/26/16)  +1 Charcadet / -1 N's Joltik
-[r10  18/110  16666s] ACCEPT Team Rocket's Houndoom      59.8 ->  61.7  (18/30/12)  -1 Fire Energy +1 Urbain
-[r10  19/110  16684s] ACCEPT Talonflame                  54.7 ->  59.2  (14/30/16)  -1 Ultra Ball +1 Fire Energy
-[r10  20/110  16704s]   ---- Ninetales                   56.0 ->  52.8  (18/30/12)  
-[r10  21/110  16722s]   ---- Charmeleon                  61.7 ->  62.2  (21/27/12)  
-[r10  22/110  16741s] ACCEPT Ethan's Quilava             58.2 ->  60.2  (21/27/12)  -1 Fire Energy +1 Team Rocket's Pr
-[r10  23/110  16758s] ACCEPT Volcarona                   50.3 ->  58.9  (21/28/11)  -1 Fire Energy +1 Team Rocket's Ar
-[r10  24/110  16777s] ACCEPT Rapidash                    55.8 ->  58.9  (21/29/10)  -1 Fire Energy +1 Lucian
-[r10  25/110  16796s] ACCEPT Inteleon                    44.5 ->  46.6  (18/31/11)  -1 Water Energy +1 Lt. Surge's Bar
-[r10  26/110  16818s] ACCEPT Walrein                     45.9 ->  47.6  (17/30/13)  -1 Water Energy +1 Amarys
-[r10  27/110  16841s] ACCEPT Quaquaval                   40.4 ->  46.8  (16/30/14)  -1 Water Energy +1 Jacinthe
-[r10  28/110  16862s] ACCEPT Poliwrath                   43.2 ->  45.7  (16/29/15)  -1 Professor's Research +1 Water E
-[r10  29/110  16884s]   ---- Octillery                   53.4 ->  53.6  (17/27/16)  
-[r10  30/110  16906s] ACCEPT Avalugg                     47.7 ->  49.9  (20/27/13)  swap chain Farfetch'd -> Alolan Du
-[r10  31/110  16927s] ACCEPT Iron Bundle                 51.2 ->  55.6  (18/28/14)  -1 Water Energy +1 Switch
-[r10  32/110  16947s] ACCEPT Frosmoth                    49.9 ->  52.5  (20/29/11)  -1 Water Energy +1 Tyme
-[r10  33/110  16970s]   ---- Crawdaunt                   45.0 ->  45.7  (18/27/15)  
-[r10  34/110  16993s] ACCEPT Mamoswine                   47.6 ->  54.7  (15/29/16)  -1 Water Energy +1 Cheren
-[r10  35/110  17014s] ACCEPT Misty's Starmie             51.2 ->  52.3  (19/29/12)  -1 Water Energy +1 Team Rocket's A
-[r10  36/110  17035s] ACCEPT Crabominable                47.3 ->  49.5  (21/27/12)  swap chain Inteleon -> Alolan Dugt
-[r10  37/110  17058s] ACCEPT Electivire                  51.7 ->  55.5  (19/30/11)  -1 Lightning Energy +1 Switch
-[r10  38/110  17081s] ACCEPT Magnezone                   55.6 ->  57.1  (14/29/17)  +1 Bunnelby / -1 Alolan Diglett
-[r10  39/110  17102s] ACCEPT Vikavolt                    47.2 ->  49.7  (17/29/14)  swap chain Eelektross -> Kecleon
-[r10  40/110  17124s]   ---- Eelektross                  61.5 ->  61.0  (15/31/14)  
-[r10  41/110  17148s] ACCEPT Alolan Golem                58.6 ->  62.9  (16/29/15)  -1 Professor's Research +1 Lightni
-[r10  42/110  17173s]   ---- Manectric                   52.3 ->  52.3  (17/30/13)  
-[r10  43/110  17197s] ACCEPT Lanturn                     55.6 ->  57.4  (17/29/14)  -1 Lightning Energy +1 Tyme
-[r10  44/110  17219s]   ---- Bellibolt                   56.5 ->  56.6  (14/29/17)  
-[r10  45/110  17242s] ACCEPT Kilowattrel                 56.6 ->  58.0  (14/29/17)  -1 Boss's Orders +1 Lightning Ener
-[r10  46/110  17265s] ACCEPT Raichu                      48.1 ->  50.1  (20/27/13)  -1 Professor's Research +1 Lightni
-[r10  47/110  17286s] ACCEPT Team Rocket's Ampharos      49.2 ->  53.4  (16/30/14)  -1 Lightning Energy +1 Lt. Surge's
-[r10  48/110  17309s] ACCEPT Zeraora                     51.7 ->  55.2  (16/29/15)  -1 Lightning Energy +1 Emcee's Hyp
-[r10  49/110  17328s]   ---- Steven's Claydol            51.2 ->  51.2  (20/27/13)  
-[r10  50/110  17345s]   ---- Grimmsnarl                  47.6 ->  48.0  (14/31/15)  
-[r10  51/110  17364s] ACCEPT Mesprit                     46.1 ->  48.8  (19/28/13)  -1 Psychic Energy +1 Team Rocket's
-[r10  52/110  17381s] ACCEPT Florges                     34.3 ->  36.7  (18/29/13)  +1 Alolan Diglett / -1 Fan Rotom
-[r10  53/110  17399s] ACCEPT Musharna                    45.0 ->  47.8  (17/30/13)  -1 Psychic Energy +1 Boss's Orders
-[r10  54/110  17421s]   ---- Reuniclus                   38.4 ->  39.0  (17/30/13)  
-[r10  55/110  17440s] ACCEPT Azumarill                   53.6 ->  55.3  (18/30/12)  -1 Psychic Energy +1 Jacinthe
-[r10  56/110  17457s] ACCEPT Slurpuff                    40.0 ->  42.9  (19/25/16)  -1 Boss's Orders +1 Psychic Energy
-[r10  57/110  17475s] ACCEPT Drifblim                    42.6 ->  48.1  (20/27/13)  swap chain Audino -> Larry's Dunsp
-[r10  58/110  17493s] ACCEPT Espathra                    44.6 ->  47.3  (18/27/15)  -1 Psychic Energy +1 Cheren
-[r10  59/110  17512s] ACCEPT Iron Valiant                49.6 ->  55.3  (18/30/12)  swap chain Kadabra -> Ethan's Pich
-[r10  60/110  17531s]   ---- Deoxys                      48.8 ->  49.2  (18/28/14)  
-[r10  61/110  17550s] ACCEPT Medicham                    52.5 ->  56.5  (20/28/12)  -1 Fighting Energy +1 Kofu
-[r10  62/110  17569s]   ---- Annihilape                  46.8 ->  46.6  (17/31/12)  
-[r10  63/110  17589s] ACCEPT Conkeldurr                  42.8 ->  46.8  (16/31/13)  -1 Boss's Orders +1 Fighting Energ
-[r10  64/110  17608s] ACCEPT Sawk                        52.3 ->  56.2  (18/30/12)  -1 Fighting Energy +1 Colress's Te
-[r10  65/110  17626s] ACCEPT Excadrill                   43.5 ->  47.7  (20/27/13)  -1 Fighting Energy +1 Perrin
-[r10  66/110  17646s] ACCEPT Toxicroak                   47.0 ->  50.8  (18/26/16)  +1 Bunnelby / -1 Throh
-[r10  67/110  17665s] ACCEPT Probopass                   46.1 ->  48.6  (18/28/14)  -1 Fighting Energy +1 Lt. Surge's 
-[r10  68/110  17683s] ACCEPT Solrock                     46.6 ->  48.8  (19/27/14)  -1 Fighting Energy +1 Harlequin
-[r10  69/110  17702s] ACCEPT Garganacl                   46.8 ->  48.5  (14/30/16)  remove chain Throh
-[r10  70/110  17721s]   ---- Throh                       53.4 ->  53.8  (17/29/14)  
-[r10  71/110  17742s] ACCEPT Gigalith                    42.8 ->  44.8  (17/30/13)  -1 Fighting Energy +1 Glass Trumpe
-[r10  72/110  17761s] ACCEPT Sandslash                   51.7 ->  55.0  (18/29/13)  -1 Fighting Energy +1 Harlequin
-[r10  73/110  17777s]   ---- Crobat                      45.6 ->  45.9  (16/30/14)  
-[r10  74/110  17794s] ACCEPT Team Rocket's Nidoqueen     34.7 ->  38.6  (19/30/11)  -1 Darkness Energy +1 Team Rocket'
-[r10  75/110  17811s] ACCEPT Krookodile                  41.9 ->  44.8  (16/31/13)  swap chain Crobat -> Alolan Dugtri
-[r10  76/110  17829s]   ---- Galarian Obstagoon          40.6 ->  40.4  (19/30/11)  
-[r10  77/110  17846s]   ---- Lokix                       46.4 ->  46.6  (18/28/14)  
-[r10  78/110  17864s]   ---- Pangoro                     46.6 ->  47.0  (18/29/13)  
-[r10  79/110  17882s] ACCEPT Seviper                     43.5 ->  44.6  (18/31/11)  -1 Darkness Energy +1 TM Machine
-[r10  80/110  17901s]   ---- Marnie's Scrafty            40.1 ->  41.0  (18/30/12)  
-[r10  81/110  17919s]   ---- Scolipede                   33.8 ->  31.6  (18/30/12)  
-[r10  82/110  17938s] ACCEPT Liepard                     44.8 ->  48.4  (15/30/15)  remove chain Fan Rotom
-[r10  83/110  17959s] ACCEPT Eternatus                   48.5 ->  50.8  (18/29/13)  -1 Boss's Orders +1 Darkness Energ
-[r10  84/110  17976s] ACCEPT Team Rocket's Muk           44.7 ->  47.4  (15/30/15)  -1 Darkness Energy +1 Team Rocket'
-[r10  85/110  17995s]   ---- Tinkaton                    47.8 ->  48.7  (17/30/13)  
-[r10  86/110  18012s]   ---- Escavalier                  46.9 ->  47.8  (15/30/15)  
-[r10  87/110  18031s] ACCEPT Metagross                   43.9 ->  45.0  (19/29/12)  -1 Ultra Ball +1 Metal Energy
-[r10  88/110  18050s] ACCEPT Hop's Corviknight           38.0 ->  43.5  (23/27/10)  -1 Boss's Orders +1 Metal Energy
-[r10  89/110  18068s] ACCEPT Aegislash                   49.9 ->  52.7  (17/30/13)  -1 Metal Energy +1 Harlequin
-[r10  90/110  18086s] ACCEPT Aggron                      51.1 ->  52.7  (15/31/14)  -1 Professor's Research +1 Metal E
-[r10  91/110  18104s] ACCEPT N's Klinklang               48.1 ->  51.4  (18/31/11)  -1 Metal Energy +1 Team Rocket's A
-[r10  92/110  18122s]   ---- Bisharp                     51.7 ->  50.7  (15/32/13)  
-[r10  93/110  18139s] ACCEPT Iron Treads                 36.5 ->  40.7  (18/29/13)  -1 Metal Energy +1 Amarys
-[r10  94/110  18157s] ACCEPT Copperajah                  46.5 ->  48.7  (15/31/14)  -1 Metal Energy +1 Kofu
-[r10  95/110  18174s] ACCEPT Archaludon                  44.3 ->  47.4  (15/30/15)  -1 Boss's Orders +1 Metal Energy
-[r10  96/110  18191s] ACCEPT Forretress                  44.5 ->  48.7  (18/30/12)  swap chain Alolan Dugtrio -> Tinka
-[r10  97/110  18211s] ACCEPT Diggersby (Colorless)       47.9 ->  53.4  (17/29/14)  +1 Hop's Cramorant / -1 Farfetch'd
-[r10  98/110  18229s] ACCEPT Alolan Dugtrio (Colorless)  34.5 ->  38.0  (23/22/15)  -1 Psychic Energy +1 Ethan's Adven
-[r10  99/110  18248s] ACCEPT Hop's Cramorant (Colorless  49.0 ->  53.1  (17/30/13)  -1 Psychic Energy +1 Harlequin
-[r10 100/110  18267s] ACCEPT Unfezant (Colorless)        38.7 ->  44.7  (20/30/10)  -1 Psychic Energy +1 Harlequin
-[r10 101/110  18285s] ACCEPT Team Rocket's Raticate (Co  40.6 ->  43.7  (20/26/14)  swap chain Mesprit -> Ethan's Pich
-[r10 102/110  18305s] ACCEPT Fan Rotom (Colorless)       43.5 ->  50.1  (18/29/13)  remove chain Farfetch'd
-[r10 103/110  18325s] ACCEPT Watchog (Colorless)         47.8 ->  49.8  (17/30/13)  +1 Bunnelby / -1 Farfetch'd
-[r10 104/110  18343s] ACCEPT Linoone (Colorless)         31.6 ->  32.8  (17/26/17)  -1 Psychic Energy +1 Professor Sad
-[r10 105/110  18361s] ACCEPT Seaking (Colorless)         41.5 ->  44.8  (16/29/15)  -1 Psychic Energy +1 Cheren
-[r10 106/110  18380s] ACCEPT Snorlax (Colorless)         44.2 ->  47.9  (15/28/17)  remove chain Farfetch'd
-[r10 107/110  18399s] ACCEPT Miltank (Colorless)         38.7 ->  39.8  (20/27/13)  swap chain Audino -> Lillie's Comf
-[r10 108/110  18418s] ACCEPT Lycanroc (Colorless)        44.6 ->  48.5  (14/29/17)  remove chain Fan Rotom
-[r10 109/110  18437s]   ---- Boltund (Colorless)         51.0 ->  51.9  (18/28/14)  
-[r10 110/110  18455s] ACCEPT Cinccino (Colorless)        27.5 ->  29.5  (17/27/16)  -1 Psychic Energy +1 Powerglass
-=== round 10 done: 83 changes | top Lurantis 65.19 | median 49.54 ===
-=== ALL ROUNDS COMPLETE ===
+pauper-optimizing 117 decks | 5 games/pairing | cap=200 | 10 rounds | target 20/25/15 penalty(slack 4, k 0.5) | diversity(cubic: 5%~1.25pt 10%=10pt 20%=80pt)
+[r1   1/117     18s] ACCEPT Decidueye                   68.7 ->  84.1  (19/26/15)  swap chain Diggersby -> Hop's Cram
+[r1   2/117     34s] ACCEPT Lurantis                    86.8 ->  89.7  (21/27/12)  -1 Grass Energy +1 Cheren
+[r1   3/117     54s] ACCEPT Rillaboom                   37.2 ->  80.1  (18/26/16)  swap chain Unfezant -> Hop's Cramo
+[r1   4/117     82s] ACCEPT Beautifly                   53.6 ->  69.0  (22/26/12)  swap chain Vivillon -> Wo-Chien
+[r1   5/117    102s] ACCEPT Vivillon                    32.2 ->  70.0  (24/26/10)  swap chain Ninjask -> Hop's Cramor
+[r1   6/117    125s] ACCEPT Shiftry                     38.7 ->  61.4  (23/26/11)  swap chain Sawsbuck -> Wo-Chien
+[r1   7/117    148s] ACCEPT Ludicolo                    48.7 ->  80.3  (21/26/13)  swap chain Breloom -> Hop's Cramor
+[r1   8/117    173s] ACCEPT Exeggutor                   27.8 ->  52.9  (24/23/13)  swap chain Farfetch'd -> Lurantis
+[r1   9/117    198s] ACCEPT Breloom                     60.2 ->  75.6  (18/23/19)  remove chain Snorlax
+[r1  10/117    218s] ACCEPT Ninjask                     42.3 ->  68.7  (24/23/13)  swap chain Lilligant -> Alolan Dug
+[r1  11/117    240s] ACCEPT Sawsbuck                    42.2 ->  70.0  (19/23/18)  swap chain Cinccino -> Wo-Chien
+[r1  12/117    262s] ACCEPT Sunflora                    19.0 ->  52.3  (22/26/12)  swap chain Team Rocket's Porygon-Z
+[r1  13/117    279s] ACCEPT Ceruledge                   82.3 ->  89.4  (21/23/16)  swap chain Centiskorch -> Hop's Cr
+[r1  14/117    298s] ACCEPT Centiskorch                 65.4 ->  83.0  (21/23/16)  swap chain Darmanitan -> Miltank
+[r1  15/117    318s] ACCEPT Camerupt                    69.4 ->  84.7  (21/23/16)  swap chain Talonflame -> Miltank
+[r1  16/117    341s] ACCEPT Darmanitan                  40.2 ->  75.5  (19/23/18)  swap chain Volcarona -> Hop's Cram
+[r1  17/117    365s] ACCEPT Simisear                    47.1 ->  66.4  (25/23/12)  swap chain Bewear -> Centiskorch
+[r1  18/117    392s] ACCEPT Team Rocket's Houndoom      40.1 ->  59.4  (24/26/10)  swap chain Unfezant -> Ceruledge
+[r1  19/117    416s] ACCEPT Talonflame                  38.9 ->  62.1  (22/26/12)  swap chain Arven's Toedscruel -> C
+[r1  20/117    438s] ACCEPT Ninetales                   49.8 ->  66.5  (22/23/15)  swap chain Larry's Braviary -> Tea
+[r1  21/117    461s] ACCEPT Charmeleon                  41.2 ->  64.3  (24/23/13)  swap chain Ethan's Quilava -> Alol
+[r1  22/117    484s] ACCEPT Ethan's Quilava             34.8 ->  60.4  (21/23/16)  swap chain Swanna -> Onix
+[r1  23/117    511s] ACCEPT Volcarona                   37.5 ->  66.6  (20/23/17)  swap chain Oinkologne -> Hop's Cra
+[r1  24/117    543s] ACCEPT Rapidash                    18.2 ->  41.7  (23/26/11)  swap chain Team Rocket's Porygon-Z
+[r1  25/117    565s] ACCEPT Inteleon                    46.9 ->  74.1  (19/26/15)  swap chain Walrein -> Eiscue
+[r1  26/117    587s] ACCEPT Walrein                     42.0 ->  56.7  (19/26/15)  swap chain Frosmoth -> Keldeo
+[r1  27/117    612s] ACCEPT Quaquaval                   27.0 ->  59.6  (23/26/11)  swap chain Avalugg -> Eiscue
+[r1  28/117    635s] ACCEPT Poliwrath                   43.5 ->  60.3  (24/26/10)  swap chain Palafin -> Alolan Dugtr
+[r1  29/117    661s] ACCEPT Octillery                   31.2 ->  39.4  (22/26/12)  swap chain Frosmoth -> Tornadus
+[r1  30/117    688s] ACCEPT Avalugg                     25.4 ->  45.5  (24/23/13)  swap chain Glastrier -> Alolan Dug
+[r1  31/117    709s] ACCEPT Iron Bundle                 43.5 ->  59.5  (19/26/15)  swap chain Palafin -> Onix
+[r1  32/117    731s] ACCEPT Frosmoth                    31.3 ->  66.2  (19/23/18)  swap chain Glalie -> Hop's Cramora
+[r1  33/117    756s] ACCEPT Crawdaunt                   26.6 ->  51.3  (23/26/11)  swap chain Floatzel -> Hop's Cramo
+[r1  34/117    782s] ACCEPT Mamoswine                   31.1 ->  64.2  (21/26/13)  swap chain Unfezant -> Eiscue
+[r1  35/117    805s] ACCEPT Misty's Starmie             53.0 ->  69.9  (21/23/16)  swap chain Fan Rotom -> Hop's Cram
+[r1  36/117    830s] ACCEPT Crabominable                19.0 ->  55.0  (21/23/16)  swap chain Raticate -> Eiscue
+[r1  37/117    852s] ACCEPT Electivire                  47.9 ->  63.5  (23/26/11)  swap chain Vikavolt -> Miltank
+[r1  38/117    873s] ACCEPT Magnezone                   35.1 ->  62.6  (19/26/15)  swap chain Heliolisk -> Miltank
+[r1  39/117    890s] ACCEPT Vikavolt                    58.3 ->  73.1  (23/26/11)  add chain Zeraora
+[r1  40/117    915s] ACCEPT Eelektross                  41.4 ->  57.3  (23/26/11)  swap chain Heliolisk -> Tropius
+[r1  41/117    934s] ACCEPT Alolan Golem                44.7 ->  73.4  (19/26/15)  swap chain Kilowattrel -> Zeraora
+[r1  42/117    957s] ACCEPT Manectric                   36.9 ->  60.5  (20/23/17)  swap chain Raichu -> Hop's Cramora
+[r1  43/117    991s] ACCEPT Lanturn                     58.9 ->  74.4  (22/23/15)  swap chain Heliolisk -> Diggersby
+[r1  44/117   1013s] ACCEPT Bellibolt                   39.6 ->  69.1  (22/26/12)  swap chain Dubwool -> Zeraora
+[r1  45/117   1033s] ACCEPT Kilowattrel                 34.8 ->  58.3  (21/23/16)  swap chain Larry's Komala -> Hop's
+[r1  46/117   1057s] ACCEPT Raichu                      24.0 ->  53.3  (21/26/13)  swap chain Magnezone -> Zeraora
+[r1  47/117   1075s] ACCEPT Team Rocket's Ampharos      61.3 ->  76.7  (19/26/15)  swap chain Diggersby -> Zeraora
+[r1  48/117   1101s] ACCEPT Zeraora                     74.4 ->  77.6  (18/26/16)  swap chain Unfezant -> Arven's Mas
+[r1  49/117   1128s] ACCEPT Steven's Claydol            49.5 ->  62.6  (22/26/12)  swap chain Grimmsnarl -> Alolan Du
+[r1  50/117   1147s] ACCEPT Grimmsnarl                  36.7 ->  62.0  (19/26/15)  swap chain Aromatisse -> Mesprit
+[r1  51/117   1164s] ACCEPT Mesprit                     60.9 ->  76.9  (18/23/19)  swap chain Reuniclus -> Mr. Mime
+[r1  52/117   1185s] ACCEPT Florges                     19.2 ->  43.5  (23/26/11)  swap chain Azumarill -> Onix
+[r1  53/117   1211s] ACCEPT Musharna                    27.4 ->  66.3  (21/23/16)  swap chain Espathra -> Mesprit
+[r1  54/117   1232s] ACCEPT Reuniclus                   38.0 ->  46.1  (15/26/19)  remove chain Grumpig
+[r1  55/117   1256s] ACCEPT Azumarill                   22.8 ->  41.2  (24/23/13)  swap chain Kadabra -> Diggersby
+[r1  56/117   1282s] ACCEPT Slurpuff                    35.6 ->  55.7  (22/23/15)  swap chain Aromatisse -> Alolan Du
+[r1  57/117   1305s] ACCEPT Drifblim                    28.2 ->  50.5  (24/23/13)  swap chain Grumpig -> Diggersby
+[r1  58/117   1325s] ACCEPT Espathra                    43.9 ->  66.4  (19/23/18)  swap chain Hypno -> Mesprit
+[r1  59/117   1351s] ACCEPT Iron Valiant                46.6 ->  49.9  (20/23/17)  +1 Hop's Cramorant / -1 Steven's C
+[r1  60/117   1369s] ACCEPT Deoxys                      49.1 ->  59.3  (21/23/16)  swap chain Team Rocket's Raticate 
+[r1  61/117   1390s] ACCEPT Medicham                    43.7 ->  60.1  (23/26/11)  swap chain Excadrill -> Onix
+[r1  62/117   1411s] ACCEPT Annihilape                  56.2 ->  69.7  (21/26/13)  swap chain Garganacl -> Solrock
+[r1  63/117   1436s] ACCEPT Conkeldurr                  48.2 ->  56.5  (24/26/10)  swap chain Probopass -> Medicham
+[r1  64/117   1459s] ACCEPT Sawk                        63.0 ->  75.0  (24/23/13)  swap chain Gigalith -> Diggersby
+[r1  65/117   1484s] ACCEPT Excadrill                   31.6 ->  50.9  (22/26/12)  swap chain Garganacl -> Medicham
+[r1  66/117   1505s] ACCEPT Toxicroak                   49.4 ->  73.0  (21/23/16)  swap chain Cynthia's Gabite -> Saw
+[r1  67/117   1531s] ACCEPT Probopass                   29.3 ->  56.5  (21/23/16)  swap chain Donphan -> Throh
+[r1  68/117   1555s] ACCEPT Solrock                     46.9 ->  67.4  (15/26/19)  remove chain Excadrill
+[r1  69/117   1580s] ACCEPT Garganacl                   35.1 ->  43.0  (23/26/11)  swap chain Slither Wing -> Onix
+[r1  70/117   1605s] ACCEPT Throh                       53.9 ->  61.2  (22/23/15)  swap chain Great Tusk -> Hisuian G
+[r1  71/117   1629s] ACCEPT Gigalith                    32.0 ->  47.1  (23/26/11)  swap chain Mienshao -> Solrock
+[r1  72/117   1650s] ACCEPT Sandslash                   40.2 ->  59.6  (22/26/12)  swap chain Seaking -> Sawk
+[r1  73/117   1671s] ACCEPT Crobat                      37.3 ->  45.2  (22/26/12)  swap chain Krookodile -> Tauros
+[r1  74/117   1691s] ACCEPT Team Rocket's Nidoqueen     39.7 ->  63.8  (18/26/16)  swap chain Galarian Obstagoon -> O
+[r1  75/117   1712s] ACCEPT Krookodile                  37.7 ->  55.9  (18/26/16)  swap chain Crobat -> Eternatus
+[r1  76/117   1738s] ACCEPT Galarian Obstagoon          23.8 ->  38.8  (24/26/10)  swap chain Pangoro -> Diggersby
+[r1  77/117   1760s] ACCEPT Lokix                       24.2 ->  46.8  (22/26/12)  swap chain Team Rocket's Weezing -
+[r1  78/117   1785s] ACCEPT Pangoro                     30.4 ->  38.7  (20/26/14)  swap chain Mightyena -> Komala
+[r1  79/117   1807s] ACCEPT Seviper                     30.8 ->  45.5  (23/23/14)  swap chain Grafaiai -> Eternatus
+[r1  80/117   1829s] ACCEPT Marnie's Scrafty            23.8 ->  39.6  (21/26/13)  swap chain Crobat -> Hop's Cramora
+[r1  81/117   1856s] ACCEPT Scolipede                   27.4 ->  37.1  (18/26/16)  remove chain Snorlax
+[r1  82/117   1879s] ACCEPT Liepard                     21.4 ->  52.3  (21/23/16)  swap chain Team Rocket's Weezing -
+[r1  83/117   1901s] ACCEPT Eternatus                   37.1 ->  52.3  (21/26/13)  swap chain Team Rocket's Porygon-Z
+[r1  84/117   1929s] ACCEPT Team Rocket's Muk           40.1 ->  51.3  (19/23/18)  swap chain Mightyena -> Tornadus
+[r1  85/117   1947s] ACCEPT Tinkaton                    39.9 ->  56.3  (18/26/16)  swap chain Metagross -> Onix
+[r1  86/117   1969s] ACCEPT Escavalier                  31.7 ->  45.8  (20/26/14)  swap chain Aegislash -> Miltank
+[r1  87/117   1995s] ACCEPT Metagross                   30.7 ->  44.5  (25/26/9)  swap chain N's Klinklang -> Digger
+[r1  88/117   2014s] ACCEPT Hop's Corviknight           45.8 ->  56.1  (21/26/13)  swap chain Metagross -> Diggersby
+[r1  89/117   2039s] ACCEPT Aegislash                   27.5 ->  30.8  (22/25/13)  -1 Professor's Research +1 Metal E
+[r1  90/117   2060s] ACCEPT Aggron                      32.1 ->  44.5  (19/26/15)  swap chain Forretress -> Registeel
+[r1  91/117   2088s] ACCEPT N's Klinklang               34.3 ->  54.1  (22/26/12)  swap chain Ferrothorn -> Diggersby
+[r1  92/117   2109s] ACCEPT Bisharp                     25.5 ->  45.7  (23/26/11)  swap chain Steven's Metang -> Onix
+[r1  93/117   2135s] ACCEPT Iron Treads                 32.2 ->  42.8  (22/26/12)  swap chain Archaludon -> Diggersby
+[r1  94/117   2160s] ACCEPT Copperajah                  39.1 ->  43.7  (23/24/13)  -1 Metal Energy +1 Glass Trumpet
+[r1  95/117   2186s] ACCEPT Archaludon                  31.4 ->  39.8  (18/23/19)  remove chain Larry's Braviary
+[r1  96/117   2208s] ACCEPT Forretress                  16.5 ->  33.1  (21/26/13)  swap chain Team Rocket's Porygon-Z
+[r1  97/117   2227s] ACCEPT Diggersby (Colorless)       50.9 ->  69.8  (21/23/16)  swap chain Larry's Komala -> Mespr
+[r1  98/117   2251s] ACCEPT Alolan Dugtrio (Colorless)  41.5 ->  59.9  (22/26/12)  swap chain Unfezant -> Mesprit
+[r1  99/117   2270s] ACCEPT Hop's Cramorant (Colorless  67.2 ->  74.5  (21/23/16)  swap chain Roserade -> Mesprit
+[r1 100/117   2292s] ACCEPT Unfezant (Colorless)        18.6 ->  36.9  (23/26/11)  swap chain Farfetch'd -> Mesprit
+[r1 101/117   2309s] ACCEPT Team Rocket's Raticate (Co   6.6 ->  26.9  (24/26/10)  swap chain Team Rocket's Porygon-Z
+[r1 102/117   2331s] ACCEPT Fan Rotom (Colorless)       42.5 ->  60.4  (21/23/16)  swap chain Watchog -> Mesprit
+[r1 103/117   2357s] ACCEPT Watchog (Colorless)         33.0 ->  36.8  (22/23/15)  swap chain Snorlax -> Tropius
+[r1 104/117   2378s] ACCEPT Linoone (Colorless)         18.9 ->  38.6  (22/26/12)  swap chain Boltund -> Mesprit
+[r1 105/117   2402s] ACCEPT Seaking (Colorless)         33.8 ->  50.3  (22/23/15)  swap chain Bewear -> Diggersby
+[r1 106/117   2428s] ACCEPT Snorlax (Colorless)         26.8 ->  28.4  (18/26/16)  swap chain Unfezant -> Drampa
+[r1 107/117   2453s] ACCEPT Miltank (Colorless)         36.6 ->  50.1  (17/23/20)  remove chain Drampa
+[r1 108/117   2476s] ACCEPT Lycanroc (Colorless)        23.8 ->  45.0  (19/23/18)  swap chain Swanna -> Onix
+[r1 109/117   2501s] ACCEPT Boltund (Colorless)         11.3 ->  27.7  (22/26/12)  swap chain Bouffalant -> Hop's Cra
+[r1 110/117   2523s] ACCEPT Cinccino (Colorless)        20.2 ->  40.5  (22/23/15)  swap chain Delcatty -> Mesprit
+[r1 111/117   2546s] ACCEPT Eon Dragons                 39.9 ->  41.0  (19/23/18)  swap chain Glaceon -> Meloetta
+[r1 112/117   2572s] ACCEPT Ember Dragons               21.4 ->  51.8  (21/23/16)  swap chain Pelipper -> Eiscue
+[r1 113/117   2597s] ACCEPT Frost Dragons               24.6 ->  45.8  (22/23/15)  swap chain Inteleon -> Diggersby
+[r1 114/117   2621s] ACCEPT Storm Dragons               17.5 ->  45.5  (19/23/18)  swap chain N's Vanilluxe -> Eiscue
+[r1 115/117   2643s] ACCEPT Iron Dragons                31.4 ->  45.5  (19/23/18)  swap chain Hippowdon -> Sawk
+[r1 116/117   2667s] ACCEPT Dusk Dragons                24.5 ->  30.9  (19/23/18)  swap chain Houndstone -> Fan Rotom
+[r1 117/117   2687s] ACCEPT Phantom Dragons             40.8 ->  51.1  (22/23/15)  swap chain Lampent -> Camerupt
+=== round 1 done: 117 changes | top Ceruledge 82.07 | median 49.31 | 217 distinct chains ===
+[r2   1/117   2717s] ACCEPT Decidueye                   42.4 ->  54.2  (19/26/15)  swap chain Hop's Cramorant -> Milt
+[r2   2/117   2734s] ACCEPT Lurantis                    48.3 ->  64.8  (22/27/11)  swap chain Hop's Cramorant -> Wo-C
+[r2   3/117   2752s] ACCEPT Rillaboom                   44.9 ->  52.5  (18/27/15)  -1 Grass Energy +1 Harlequin
+[r2   4/117   2774s] ACCEPT Beautifly                   50.7 ->  58.0  (20/26/14)  swap chain Shiftry -> N's Joltik
+[r2   5/117   2793s] ACCEPT Vivillon                    32.2 ->  39.7  (22/26/12)  swap chain Ludicolo -> Tauros
+[r2   6/117   2813s] ACCEPT Shiftry                     48.2 ->  50.5  (23/27/10)  -1 Grass Energy +1 Carmine
+[r2   7/117   2833s] ACCEPT Ludicolo                    44.3 ->  46.0  (21/27/12)  -1 Grass Energy +1 Urbain
+[r2   8/117   2857s] ACCEPT Exeggutor                   35.1 ->  48.0  (23/23/14)  swap chain Tangrowth -> Heracross
+[r2   9/117   2877s] ACCEPT Breloom                     54.5 ->  60.8  (20/23/17)  swap chain Galvantula -> Alolan Du
+[r2  10/117   2899s] ACCEPT Ninjask                     35.4 ->  48.1  (23/23/14)  swap chain Lycanroc -> Tauros
+[r2  11/117   2920s] ACCEPT Sawsbuck                    52.6 ->  62.7  (18/23/19)  swap chain Accelgor -> Tauros
+[r2  12/117   2941s] ACCEPT Sunflora                    39.8 ->  52.4  (23/26/11)  swap chain Leavanny -> Lurantis

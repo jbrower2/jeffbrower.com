@@ -18,6 +18,7 @@ from concurrent.futures import ProcessPoolExecutor
 from cards import load_cards
 from engine import run_match, Game
 from pauper_chains import load_chains, L2T
+import special_energy as SE
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 BY_KEY, BY_NAME = load_cards()
@@ -28,6 +29,12 @@ T2L = {v: k for k, v in L2T.items()}
 TARGET = {'P': 20, 'T': 25, 'E': 15}
 SLACK, PEN_K = 4, 0.5
 THRESH = 1.0
+EPS = 2.5          # accept randomly among moves within this many score points of the best (exploration; breaks pile-on)
+# diversity pressure: penalty (in score points) for holding a chain that sits in `freq` of the
+# field, rising CUBICALLY — 5% share is a small nudge (~1.25), 10% is large (10), and anything
+# near 35% is effectively forbidden (~430). Forces Pokémon lines to spread thin across the field.
+# A deck's own no-trade core lines are exempt (see diversity_penalty).
+DIV_AT10, DIV_REF = 10.0, 0.10
 
 
 # ---------------- refs ----------------
@@ -40,7 +47,7 @@ def deser(s):
 def ref_name(ref):
     if ref[0] == 'E':
         return ref[1] + ' Energy'
-    if ref[0] == 'T':
+    if ref[0] in ('T', 'S'):                          # trainer / special-energy names are literal
         return ref[1]
     return BY_KEY[ref[1]].name
 
@@ -49,6 +56,8 @@ def item_of(ref):
         return ref[1]
     if ref[0] == 'T':
         return dict(TRAINERS[ref[1]], name=ref[1])
+    if ref[0] == 'S':
+        return {'special_energy': ref[1]}
     return BY_KEY[ref[1]]
 
 def counts_to_spec(counts):
@@ -62,7 +71,8 @@ def as_deck(counts):
 def kind_counts(counts):
     c = {'P': 0, 'T': 0, 'E': 0}
     for r, n in counts.items():
-        c[r[0]] = c.get(r[0], 0) + n
+        k = 'E' if r[0] in ('E', 'S') else r[0]           # special energy counts toward the energy bucket
+        c[k] = c.get(k, 0) + n
     return c
 
 def penalty(counts):
@@ -82,9 +92,11 @@ def is_legal(counts):
             return False
         if r[0] == 'E':
             continue
+        if r[0] == 'S' and SE.SPECIAL_ENERGY.get(r[1], {}).get('cat') != 'green':
+            return False                                      # fully-pauper: only free special energy
         if r[0] == 'P' and BY_KEY[r[1]].cat != 'cat-green':   # pauper: C/U only
             return False
-        byname[ref_name(r)] += n
+        byname[ref_name(r)] += n                              # special energy counts toward ≤4-by-name
     return all(v <= 4 for v in byname.values())
 
 def canon(counts):
@@ -116,6 +128,29 @@ def compatible_chains(counts):
     return [ch for ch in CHAINS if set(ch['energy']) <= letters]
 
 
+def field_chain_freq(decks):
+    """Fraction of decks in the current population that contain each chain (keyed by root id)."""
+    freq = defaultdict(int)
+    n = max(1, len(decks))
+    for d in decks.values():
+        for cid in {ch['id'] for ch, _ in deck_chains(d['counts'])}:
+            freq[cid] += 1
+    return {cid: c / n for cid, c in freq.items()}
+
+
+def diversity_penalty(counts, chain_freq, notrade=frozenset()):
+    """Squared-excess penalty for holding chains that already saturate the field (0 if under slack).
+    A deck's own no-trade core lines are exempt — the penalty only pushes off incidental shared filler."""
+    if not chain_freq:
+        return 0.0
+    pen = 0.0
+    for ch, _ in deck_chains(counts):
+        if any(('P', key) in notrade for (nm, key, st) in ch['stages']):
+            continue
+        pen += (chain_freq.get(ch['id'], 0.0) / DIV_REF) ** 3
+    return DIV_AT10 * pen
+
+
 def rebalance(counts, etype):
     """Adjust energy (then trainers) to bring the deck back to exactly 60 (operator d)."""
     diff = 60 - sum(counts.values())
@@ -138,8 +173,9 @@ def rebalance(counts, etype):
 
 
 # ---------------- mutation generator ----------------
-def mutations(counts, cap=200, rng=random):
+def mutations(counts, cap=200, rng=random, notrade=frozenset()):
     etype = primary_etype(counts)
+    nt_active = [r for r in notrade if counts.get(r, 0) >= 1]   # core refs that must stay present
     compat = compatible_chains(counts)
     present = deck_chains(counts)
     present_ids = {ch['id'] for ch, _ in present}
@@ -151,7 +187,8 @@ def mutations(counts, cap=200, rng=random):
     muts, seen = [], set()
 
     def emit(m, desc):
-        if sum(v for v in m.values() if v > 0) and is_legal(m):
+        if (sum(v for v in m.values() if v > 0) and is_legal(m)
+                and all(m.get(r, 0) >= 1 for r in nt_active)):     # never drop a no-trade core card
             k = canon(m)
             if k not in seen and k != canon(counts):
                 seen.add(k); muts.append((desc, m))
@@ -171,9 +208,17 @@ def mutations(counts, cap=200, rng=random):
             micro(t, a)
     for ch in add_chains[:20]:                                # +1 of a compatible chain's basic, -1 energy
         micro(energies[0] if energies else None, chain_line(ch)[0][0])
+    for a in [('S', n) for n in SE.FREE_SPECIAL if n != "Team Rocket's Energy"]:
+        micro(energies[0] if energies else None, a)           # basic energy -> a free special energy
+    if any("Team Rocket's" in BY_KEY[r[1]].name for r in pokes):
+        micro(energies[0] if energies else None, ('S', "Team Rocket's Energy"))   # TR-only: where it works
+    for s in [r for r in counts if r[0] == 'S']:              # a special energy -> back to basic
+        micro(s, ('E', etype))
 
     # ---- (a) swap a whole chain for a compatible chain ----
     for ch_in, members in present:
+        if any(r in notrade for r in members):                # keep the core line — don't swap it out
+            continue
         for ch_new in add_chains:
             m = Counter(counts)
             for r in list(members):
@@ -205,8 +250,8 @@ def mutations(counts, cap=200, rng=random):
         rebalance(m, etype)
         emit(m, f'add chain {ch_new["top"]}')
     for ch_in, members in present:
-        if len(present) <= 2:
-            continue                                          # keep at least a couple lines
+        if len(present) <= 2 or any(r in notrade for r in members):
+            continue                                          # keep at least a couple lines; never the core
         m = Counter(counts)
         for r in list(members):
             del m[r]
@@ -240,13 +285,15 @@ def winrate(counts, gaunt, games, ex, seed0):
         wa += x; wb += y
     return 100.0 * wa / max(1, wa + wb)
 
-def score(counts, gaunt, games, ex, seed0):
-    return winrate(counts, gaunt, games, ex, seed0) - penalty(counts)
+def score(counts, gaunt, games, ex, seed0, chain_freq=None, notrade=frozenset()):
+    return (winrate(counts, gaunt, games, ex, seed0) - penalty(counts)
+            - diversity_penalty(counts, chain_freq, notrade))
 
 
 # ---------------- persistence ----------------
 def save(decks, path='pauper_decklists.json'):
-    out = {n: {'cards': {ser(r): c for r, c in d['counts'].items() if c > 0}} for n, d in decks.items()}
+    out = {n: {'cards': {ser(r): c for r, c in d['counts'].items() if c > 0},
+               'notrade': [ser(r) for r in d.get('notrade', ())]} for n, d in decks.items()}
     json.dump(out, open(os.path.join(HERE, path), 'w'), indent=0)
 
 def save_archive(decks):
@@ -265,7 +312,8 @@ def load_state():
     for n, e in raw.items():
         counts = Counter({deser(k): v for k, v in e['cards'].items()})
         arc = [Counter({deser(k): v for k, v in v0.items()}) for v0 in archive.get(n, [])]
-        decks[n] = {'counts': counts, 'archive': arc or [Counter(counts)]}
+        decks[n] = {'counts': counts, 'archive': arc or [Counter(counts)],
+                    'notrade': set(deser(k) for k in e.get('notrade', []))}
     return decks
 
 
@@ -297,7 +345,8 @@ def run(games=5, rounds=10, cap=200, workers=9, seed0=1):
                 pass
     t0 = time.time()
     print(f"pauper-optimizing {len(names)} decks | {games} games/pairing | cap={cap} | {rounds} rounds | "
-          f"target {TARGET['P']}/{TARGET['T']}/{TARGET['E']} penalty(slack {SLACK}, k {PEN_K})", flush=True)
+          f"target {TARGET['P']}/{TARGET['T']}/{TARGET['E']} penalty(slack {SLACK}, k {PEN_K}) | "
+          f"diversity(cubic: 5%~{DIV_AT10*0.125:.2f}pt 10%={DIV_AT10:.0f}pt 20%={DIV_AT10*8:.0f}pt)", flush=True)
     try:
         for rnd in range(1, rounds + 1):
             accepts = 0
@@ -305,41 +354,49 @@ def run(games=5, rounds=10, cap=200, workers=9, seed0=1):
                 if (rnd, name) in done:
                     continue
                 d = decks[name]
+                chain_freq = field_chain_freq(decks)      # LIVE field frequency (recomputed per deck) — no lag, no pile-on oscillation
                 gaunt = build_gauntlet(decks, name)
-                base = score(d['counts'], gaunt, games, ex, seed0)
-                cands = list(mutations(d['counts'], cap))
+                base = score(d['counts'], gaunt, games, ex, seed0, chain_freq, d['notrade'])
+                cands = list(mutations(d['counts'], cap, notrade=d['notrade']))
                 for vi, av in enumerate(d.get('archive', [])):
                     if canon(av) != canon(d['counts']):
                         cands.append((f'revert->v{vi}', Counter(av)))
-                best, seen = None, {canon(d['counts'])}
+                scored, seen = [], {canon(d['counts'])}
                 for desc, mc in cands:
                     k = canon(mc)
                     if k in seen:
                         continue
                     seen.add(k)
-                    sc = score(mc, gaunt, games, ex, seed0)
-                    if best is None or sc > best[1]:
-                        best = (desc, sc, mc)
-                accepted = best is not None and best[1] > base + THRESH
+                    scored.append((desc, score(mc, gaunt, games, ex, seed0, chain_freq, d['notrade']), mc))
+                # accept: pick RANDOMLY among moves within EPS of the best viable one — decks spread
+                # instead of all piling onto the single highest-scoring line
+                viable = [c for c in scored if c[1] > base + THRESH]
+                if viable:
+                    cutoff = max(c[1] for c in viable) - EPS
+                    pick = random.choice([c for c in viable if c[1] >= cutoff]); accepted = True
+                else:
+                    pick = max(scored, key=lambda c: c[1]) if scored else None; accepted = False
                 append_jsonl(hist, {'round': rnd, 'deck': name, 'base': round(base, 2),
-                                    'best': round(best[1], 2) if best else None,
-                                    'delta': round(best[1] - base, 2) if best else None,
-                                    'mutation': best[0] if best else None,
-                                    'revert': bool(accepted and best[0].startswith('revert')),
+                                    'best': round(pick[1], 2) if pick else None,
+                                    'delta': round(pick[1] - base, 2) if pick else None,
+                                    'mutation': pick[0] if pick else None,
+                                    'divpen': round(diversity_penalty(d['counts'], chain_freq, d['notrade']), 2),
+                                    'revert': bool(accepted and pick[0].startswith('revert')),
                                     'accepted': accepted, 'ts': time.time()})
                 if accepted:
-                    d['counts'] = best[2]; accepts += 1
-                    if canon(best[2]) not in {canon(a) for a in d['archive']}:
-                        d['archive'].append(Counter(best[2])); d['archive'] = d['archive'][-25:]
+                    d['counts'] = pick[2]; accepts += 1
+                    if canon(pick[2]) not in {canon(a) for a in d['archive']}:
+                        d['archive'].append(Counter(pick[2])); d['archive'] = d['archive'][-25:]
                     save(decks); save_archive(decks)
                 kc = kind_counts(d['counts'])
                 tag = 'ACCEPT' if accepted else '  ----'
                 print(f"[r{rnd} {i:3}/{len(names)} {time.time()-t0:6.0f}s] {tag} {name[:26]:26} "
-                      f"{base:5.1f} -> {(best[1] if best else base):5.1f}  ({kc['P']}/{kc['T']}/{kc['E']})  "
-                      f"{best[0][:34] if accepted else ''}", flush=True)
+                      f"{base:5.1f} -> {(pick[1] if pick else base):5.1f}  ({kc['P']}/{kc['T']}/{kc['E']})  "
+                      f"{pick[0][:34] if accepted else ''}", flush=True)
             b = leaderboard(decks, games, ex, rnd, seed0)
+            distinct = len({ch['top'] for d in decks.values() for ch, _ in deck_chains(d['counts'])})
             print(f"=== round {rnd} done: {accepts} changes | top {b[0][2]} {b[0][0]} | "
-                  f"median {b[len(b)//2][0]} ===", flush=True)
+                  f"median {b[len(b)//2][0]} | {distinct} distinct chains ===", flush=True)
         open(donef, 'w').write(str(time.time()))
         print("=== ALL ROUNDS COMPLETE ===", flush=True)
     finally:

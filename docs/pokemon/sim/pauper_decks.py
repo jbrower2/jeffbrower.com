@@ -22,6 +22,19 @@ SHELL = [("Professor's Research", 2), ("Cheren", 2), ("Boss's Orders", 2), ("Ult
          ("Pokégear 3.0", 2), ("Night Stretcher", 1), ("Judge", 1), ("Professor Turo's Scenario", 1),
          ("Carmine", 1), ("Ciphermaniac's Codebreaking", 1)]
 
+# Targeted MULTI-energy decks around the pool's 2-type Dragon chains (they pay with two other-typed
+# energies since no basic Dragon energy exists). (deck name, core top, two-letter energy combo);
+# same-combo Dragons are auto-added as supports, the rest padded on-theme.
+MULTI_GROUPS = [
+    ("Eon Dragons", "Latios", ['P', 'W']),        # + Sliggoo — Latios 130HP basic, 130 for WPC
+    ("Ember Dragons", "Druddigon", ['R', 'W']),   # + Shelgon, Tatsugiri — three R/W dragons
+    ("Frost Dragons", "Altaria", ['M', 'W']),     # + Kyurem — Altaria 100 for WM, Kyurem spread
+    ("Storm Dragons", "Dragonair", ['L', 'W']),   # Dragonair self-accelerates (accel/engine ability)
+    ("Iron Dragons", "Fraxure", ['F', 'M']),      # Fraxure 80 for FM, wall ability
+    ("Dusk Dragons", "Noivern", ['D', 'P']),      # Noivern 70 for PD + colorless fallback
+    ("Phantom Dragons", "Drakloak", ['P', 'R']),  # Drakloak 70 for RP, ability
+]
+
 
 def ser(ref):
     return '|'.join(ref)
@@ -50,8 +63,14 @@ def _npoke(counts):
     return sum(v for r, v in counts.items() if r[0] == 'P')
 
 
-def build_deck(name, core, supports, energy_type, pad_pool):
-    """core/supports are chain dicts; pad_pool is compatible attacker chains used to reach ~20 Pokémon."""
+def _chain_refs(ch):
+    """Pokémon refs for every member of a chain (used as a deck's no-trade / core-identity list)."""
+    return [('P', key) for (nm, key, st) in ch['stages']]
+
+
+def build_deck(name, core, supports, energy_type, pad_pool, pad_usage=None):
+    """core/supports are chain dicts; pad_pool is compatible attacker chains used to reach ~20 Pokémon.
+    pad_usage (a shared Counter) round-robins padding across decks so no fill line lands in nearly all."""
     counts = Counter()
     has_s2 = core['length'] == 3
     for ref, n in _line(core, [4, 3, 2][:core['length']]):
@@ -61,13 +80,16 @@ def build_deck(name, core, supports, energy_type, pad_pool):
             counts[ref] += n
         has_s2 = has_s2 or sup['length'] == 3
     used = {core['id']} | {s['id'] for s in supports}
-    # pad Pokémon toward ~20 with compatible backup attacker lines
-    for pad in pad_pool:
+    # pad Pokémon toward ~20 with the least-globally-used compatible lines (spread, not the same top pick)
+    pool = pad_pool if pad_usage is None else sorted(pad_pool, key=lambda ch: (pad_usage.get(ch['id'], 0), -_interest(ch)))
+    for pad in pool:
         if _npoke(counts) >= 20:
             break
         if pad['id'] in used:
             continue
         used.add(pad['id'])
+        if pad_usage is not None:
+            pad_usage[pad['id']] += 1
         for ref, n in _line(pad, [3, 2, 1][:pad['length']]):
             counts[ref] += n
     for r in list(counts):                                   # ≤4 of any card
@@ -80,6 +102,51 @@ def build_deck(name, core, supports, energy_type, pad_pool):
     counts[('E', energy_type)] += (60 - total)
     if counts[('E', energy_type)] <= 0:
         del counts[('E', energy_type)]
+    return counts
+
+
+def _multi_compatible(chains, combo):
+    """Attacker chains legal in a two-type deck (energy ⊆ combo), on-theme (uses a combo letter) first."""
+    cs = set(combo)
+    pool = [ch for ch in chains if set(ch['energy']) <= cs and 'attacker' in ch['tags']]
+    pool.sort(key=lambda ch: (0 if set(ch['energy']) & cs else 1, -_interest(ch)))
+    return pool
+
+
+def build_multi_deck(name, core, supports, combo, pad_pool, pad_usage=None):
+    """Two-type deck: core Dragon + same-combo Dragon supports, padded on-theme, energy split across both."""
+    counts = Counter()
+    has_s2 = core['length'] == 3
+    for ref, n in _line(core, [4, 3, 2][:core['length']]):
+        counts[ref] += n
+    for sup in supports:
+        for ref, n in _line(sup, [3, 2, 1][:sup['length']]):
+            counts[ref] += n
+        has_s2 = has_s2 or sup['length'] == 3
+    used = {core['id']} | {s['id'] for s in supports}
+    pool = pad_pool if pad_usage is None else sorted(pad_pool, key=lambda ch: (pad_usage.get(ch['id'], 0), -_interest(ch)))
+    for pad in pool:                                        # pad toward ~20 Pokémon, least-used-globally first
+        if _npoke(counts) >= 20:
+            break
+        if pad['id'] in used:
+            continue
+        used.add(pad['id'])
+        if pad_usage is not None:
+            pad_usage[pad['id']] += 1
+        for ref, n in _line(pad, [3, 2, 1][:pad['length']]):
+            counts[ref] += n
+    for r in list(counts):
+        counts[r] = min(4, counts[r])
+    counts += _shell(has_s2)
+    n_poke = _npoke(counts)
+    n_tr = sum(v for r, v in counts.items() if r[0] == 'T')
+    n_en = max(8, 60 - n_poke - n_tr)
+    t1, t2 = L2T[combo[0]], L2T[combo[1]]                    # split energy across the two types
+    counts[('E', t1)] += (n_en + 1) // 2
+    counts[('E', t2)] += n_en // 2
+    counts[('E', t1)] += (60 - sum(counts.values()))        # exact-60 fixup on the primary type
+    if counts[('E', t1)] <= 0:
+        counts.pop(('E', t1), None)
     return counts
 
 
@@ -100,11 +167,18 @@ def compatible(ch, tletter):
     return set(ch['energy']) <= {tletter}
 
 
+def _pick_least_used(cands, pad_usage, exclude_ids):
+    """Choose the least-globally-used candidate (tie-break by interest) so support slots spread too."""
+    opts = [c for c in cands if c['id'] not in exclude_ids]
+    return min(opts, key=lambda ch: (pad_usage.get(ch['id'], 0), -_interest(ch))) if opts else None
+
+
 def generate_catalog():
     chains = load_chains()
     for c in chains:
         c['eletter'] = c['energy'][0] if len(c['energy']) == 1 else ('' if not c['energy'] else None)
-    catalog = {}
+    catalog, notrade_map = {}, {}
+    pad_usage = Counter()                                    # global fill-usage so padding round-robins across decks
     used_cores = set()
     for T in TYPES:
         tl = [k for k, v in L2T.items() if v == T][0]
@@ -120,15 +194,18 @@ def generate_catalog():
             if made >= 12 or core['top'] in used_cores:
                 continue
             used_cores.add(core['top'])
-            # pick a distinct engine support + a distinct backup attacker
-            eng = next((e for e in engines if e['top'] not in (core['top'],) and e['id'] != core['id']), None)
-            bk = next((a for a in attackers if a['top'] not in (core['top'], eng['top'] if eng else None)
-                       and a['id'] != core['id']), None)
+            # pick a distinct engine support + backup attacker — least-used-globally so they spread
+            eng = _pick_least_used(engines, pad_usage, {core['id']})
+            bk = _pick_least_used(attackers, pad_usage, {core['id']} | ({eng['id']} if eng else set()))
             sups = [s for s in (eng, bk) if s]
+            for s in sups:
+                pad_usage[s['id']] += 1
             nm = f"{core['top']}"
             if nm in catalog:
                 nm = f"{core['top']} ({T})"
-            catalog[nm] = build_deck(nm, core, sups, T, attackers)
+            catalog[nm] = build_deck(nm, core, sups, T, attackers, pad_usage)
+            pad_usage[core['id']] += 1                    # count the core so it isn't also padded everywhere
+            notrade_map[nm] = _chain_refs(core)          # the namesake core line = the deck's identity
             made += 1
     # colorless-core decks: a strong colorless attacker + engine, splashed into a few types
     col_attackers = sorted([c for c in chains if c['energy'] == [] and 'attacker' in c['tags']],
@@ -137,17 +214,43 @@ def generate_catalog():
         if core['top'] in used_cores:
             continue
         used_cores.add(core['top'])
-        eng = next((c for c in chains if c['energy'] == [] and {'engine', 'accel'} & set(c['tags'])
-                    and c['top'] != core['top']), None)
-        bk = next((c for c in col_attackers if c['top'] not in (core['top'], eng['top'] if eng else None)), None)
+        col_engines = [c for c in chains if c['energy'] == [] and {'engine', 'accel'} & set(c['tags'])]
+        eng = _pick_least_used(col_engines, pad_usage, {core['id']})
+        bk = _pick_least_used(col_attackers, pad_usage, {core['id']} | ({eng['id']} if eng else set()))
+        sups = [s for s in (eng, bk) if s]
+        for s in sups:
+            pad_usage[s['id']] += 1
         nm = f"{core['top']} (Colorless)"
-        catalog[nm] = build_deck(nm, core, [s for s in (eng, bk) if s], 'Psychic', col_attackers)
-    return catalog
+        catalog[nm] = build_deck(nm, core, sups, 'Psychic', col_attackers, pad_usage)
+        pad_usage[core['id']] += 1
+        notrade_map[nm] = _chain_refs(core)
+    # multi-energy Dragon decks: cores needing two energy types (never selected by the mono passes)
+    for dname, core_top, combo in MULTI_GROUPS:
+        combo = sorted(combo)
+        core = next((ch for ch in chains if ch['top'] == core_top and ch['energy'] == combo), None)
+        if core is None:
+            continue
+        used_cores.add(core_top)
+        sups = [ch for ch in chains if ch['energy'] == combo and ch['top'] != core_top][:2]
+        catalog[dname] = build_multi_deck(dname, core, sups, combo, _multi_compatible(chains, combo), pad_usage)
+        for _seed in (core, *sups):
+            pad_usage[_seed['id']] += 1
+        notrade_map[dname] = _chain_refs(core) + [r for s in sups for r in _chain_refs(s)]  # all the dragons
+    # seed Team Rocket's Energy (2 wild each, TR-only) into the Team Rocket decks, keeping some basic
+    for nm, counts in catalog.items():
+        if "Team Rocket" in nm:
+            ebasic = [r for r in counts if r[0] == 'E']
+            if ebasic and counts[ebasic[0]] > 6:
+                swap = min(4, counts[ebasic[0]] - 6)          # special energy is non-basic: ≤4 copies
+                counts[ebasic[0]] -= swap
+                counts[('S', "Team Rocket's Energy")] = swap
+    return catalog, notrade_map
 
 
 if __name__ == '__main__':
-    cat = generate_catalog()
-    out = {nm: {'cards': {ser(r): c for r, c in counts.items() if c > 0}} for nm, counts in cat.items()}
+    cat, notrade = generate_catalog()
+    out = {nm: {'cards': {ser(r): c for r, c in counts.items() if c > 0},
+                'notrade': [ser(r) for r in notrade.get(nm, [])]} for nm, counts in cat.items()}
     json.dump(out, open(os.path.join(HERE, 'pauper_decklists.json'), 'w'), indent=0)
     # stats
     ratios = []
