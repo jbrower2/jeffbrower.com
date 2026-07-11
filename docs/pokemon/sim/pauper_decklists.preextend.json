@@ -1,0 +1,3488 @@
+{
+"Decidueye": {
+"cards": {
+"P|ME03:#010/088": 4,
+"P|SFA:#004/064": 3,
+"P|SFA:#005/064": 2,
+"P|SV06:#014/167": 3,
+"P|SV06:#015/167": 2,
+"P|SV06:#016/167": 1,
+"P|ME03:#064/088": 3,
+"P|ME03:#065/088": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 1,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Grass": 14,
+"T|Clemont's Quick Wit": 1
+},
+"notrade": [
+"P|ME03:#010/088",
+"P|SFA:#004/064",
+"P|SFA:#005/064"
+]
+},
+"Lurantis": {
+"cards": {
+"P|SV10:#013/182": 4,
+"P|SV10:#014/182": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Grass": 12,
+"P|ME04:#038/086": 4,
+"P|SV06:#013/167": 3,
+"P|SV09:#015/159": 4,
+"P|ASH:#176/217": 4
+},
+"notrade": [
+"P|SV10:#013/182",
+"P|SV10:#014/182"
+]
+},
+"Rillaboom": {
+"cards": {
+"P|SV06:#014/167": 4,
+"P|SV06:#015/167": 3,
+"P|SV06:#016/167": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Grass": 16,
+"P|SV05:#139/162": 4,
+"P|SV09:#015/159": 4,
+"T|Lana's Aid": 1
+},
+"notrade": [
+"P|SV06:#016/167",
+"P|SV06:#015/167",
+"P|SV06:#014/167"
+]
+},
+"Beautifly": {
+"cards": {
+"P|ASH:#011/217": 4,
+"P|ASH:#012/217": 3,
+"P|ASH:#013/217": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 1,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Grass": 17,
+"P|SV06:#008/167": 4,
+"P|SV10:#152/182": 4,
+"T|Energy Retrieval": 1
+},
+"notrade": [
+"P|ASH:#012/217",
+"P|ASH:#013/217",
+"P|ASH:#011/217"
+]
+},
+"Vivillon": {
+"cards": {
+"P|ME03:#007/088": 4,
+"P|SV08:#006/191": 3,
+"P|ME03:#009/088": 2,
+"P|ME01:#016/132": 3,
+"P|ME01:#017/132": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Grass": 12,
+"P|SV09:#129/159": 4,
+"P|ASH:#133/217": 4
+},
+"notrade": [
+"P|ME03:#007/088",
+"P|SV08:#006/191",
+"P|ME03:#009/088"
+]
+},
+"Shiftry": {
+"cards": {
+"P|ME01:#013/132": 4,
+"P|ME01:#014/132": 3,
+"P|SV05:#005/162": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Grass": 16,
+"P|SV07:#120/142": 4,
+"T|Dawn": 1,
+"P|SV10:#001/182": 4
+},
+"notrade": [
+"P|ME01:#014/132",
+"P|SV05:#005/162",
+"P|ME01:#013/132"
+]
+},
+"Ludicolo": {
+"cards": {
+"P|SV09:#035/159": 4,
+"P|SV09:#036/159": 3,
+"P|ME02:#007/094": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Grass": 12,
+"P|ASH:#176/217": 4,
+"P|SV09:#008/159": 4,
+"P|SV10:#071/182": 4,
+"S|Spiky Energy": 1
+},
+"notrade": [
+"P|ME02:#007/094",
+"P|SV09:#035/159",
+"P|SV09:#036/159"
+]
+},
+"Exeggutor": {
+"cards": {
+"P|PRE:#001/131": 4,
+"P|SV08:#003/191": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 1,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Grass": 19,
+"P|SV07:#120/142": 4,
+"P|SV05:#008/162": 4,
+"P|SV05:#009/162": 3,
+"T|Jumbo Ice Cream": 1
+},
+"notrade": [
+"P|PRE:#001/131",
+"P|SV08:#003/191"
+]
+},
+"Breloom": {
+"cards": {
+"P|SV10:#005/182": 4,
+"P|SV05:#007/162": 3,
+"P|ME03:#063/088": 3,
+"P|PRE:#081/131": 4,
+"T|Professor's Research": 1,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Grass": 18,
+"T|Potion": 1,
+"P|ME01:#071/132": 3,
+"T|Team Rocket's Hypnotizer": 1,
+"T|Billy & O'Nare": 1
+},
+"notrade": [
+"P|SV10:#005/182",
+"P|SV05:#007/162"
+]
+},
+"Ninjask": {
+"cards": {
+"P|ME01:#016/132": 4,
+"P|ME01:#017/132": 3,
+"P|SV05:#058/162": 3,
+"P|SV05:#059/162": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 1,
+"T|Ultra Ball": 1,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Grass": 19,
+"P|SV09:#129/159": 4,
+"P|SV07:#066/142": 4
+},
+"notrade": [
+"P|ME01:#016/132",
+"P|ME01:#017/132"
+]
+},
+"Sawsbuck": {
+"cards": {
+"P|WHT:#006/086": 4,
+"P|SV05:#017/162": 3,
+"P|WHT:#008/086": 3,
+"P|WHT:#009/086": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 3,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Grass": 18,
+"P|SV09:#129/159": 4,
+"P|SV10:#137/182": 4
+},
+"notrade": [
+"P|WHT:#006/086",
+"P|SV05:#017/162"
+]
+},
+"Sunflora": {
+"cards": {
+"P|SV06:#006/167": 4,
+"P|SV06:#007/167": 3,
+"T|Professor's Research": 1,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Grass": 19,
+"P|SV09:#129/159": 4,
+"P|SV08:#150/191": 4,
+"S|Mist Energy": 1
+},
+"notrade": [
+"P|SV06:#007/167",
+"P|SV06:#006/167"
+]
+},
+"Ceruledge": {
+"cards": {
+"P|SV08:#033/191": 4,
+"P|ME02:#020/094": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Fire": 15,
+"P|SV10:#010/182": 4,
+"P|SV10:#037/182": 4,
+"P|SV10:#038/182": 3,
+"P|SV08:#019/191": 4
+},
+"notrade": [
+"P|SV08:#033/191",
+"P|ME02:#020/094"
+]
+},
+"Centiskorch": {
+"cards": {
+"P|SV05:#036/162": 4,
+"P|SV08:#028/191": 3,
+"T|Professor's Research": 1,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Fire": 18,
+"P|ME03:#063/088": 4,
+"P|SV07:#022/142": 4,
+"P|PRE:#086/131": 4,
+"T|Bianca's Devotion": 1
+},
+"notrade": [
+"P|SV05:#036/162",
+"P|SV08:#028/191"
+]
+},
+"Camerupt": {
+"cards": {
+"P|ASH:#027/217": 4,
+"P|ASH:#028/217": 3,
+"P|SV10:#037/182": 3,
+"P|SV10:#038/182": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 1,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Fire": 18,
+"P|ME03:#017/088": 4,
+"P|ME01:#031/132": 4
+},
+"notrade": [
+"P|ASH:#027/217",
+"P|ASH:#028/217"
+]
+},
+"Darmanitan": {
+"cards": {
+"P|SV06:#034/167": 4,
+"P|SV06:#035/167": 3,
+"P|SV08:#024/191": 3,
+"P|SV08:#025/191": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Fire": 20,
+"P|ME01:#025/132": 4,
+"T|Tera Orb": 1
+},
+"notrade": [
+"P|SV06:#034/167",
+"P|SV06:#035/167"
+]
+},
+"Simisear": {
+"cards": {
+"P|SV08:#022/191": 4,
+"P|SV08:#023/191": 3,
+"P|ME01:#025/132": 3,
+"P|SFA:#052/064": 3,
+"P|SFA:#053/064": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Fire": 11,
+"P|SV08:#152/191": 4,
+"P|BLK:#078/086": 3,
+"P|PRE:#081/131": 4
+},
+"notrade": [
+"P|SV08:#023/191",
+"P|SV08:#022/191"
+]
+},
+"Team Rocket's Houndoom": {
+"cards": {
+"P|SV10:#037/182": 4,
+"P|SV10:#038/182": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Fire": 14,
+"S|Team Rocket's Energy": 4,
+"P|ME03:#017/088": 4,
+"P|ME01:#031/132": 4,
+"T|Energy Retrieval": 1
+},
+"notrade": [
+"P|SV10:#038/182",
+"P|SV10:#037/182"
+]
+},
+"Talonflame": {
+"cards": {
+"P|SV07:#121/142": 4,
+"P|ME03:#013/088": 3,
+"P|ME03:#014/088": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Fire": 17,
+"P|SV09:#129/159": 4,
+"P|SV06:#009/167": 4
+},
+"notrade": [
+"P|SV07:#121/142",
+"P|ME03:#013/088",
+"P|ME03:#014/088"
+]
+},
+"Ninetales": {
+"cards": {
+"P|SV08:#016/191": 4,
+"P|SV08:#017/191": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 1,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Fire": 16,
+"P|SV10:#149/182": 4,
+"P|ME01:#031/132": 4,
+"P|SV10:#037/182": 4,
+"P|SV10:#038/182": 3
+},
+"notrade": [
+"P|SV08:#017/191",
+"P|SV08:#016/191"
+]
+},
+"Charmeleon": {
+"cards": {
+"P|ME02:#011/094": 4,
+"P|ME02:#012/094": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 1,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Fire": 20,
+"P|SV10:#037/182": 4,
+"P|SV10:#038/182": 3,
+"P|ME01:#070/132": 4
+},
+"notrade": [
+"P|ME02:#012/094",
+"P|ME02:#011/094"
+]
+},
+"Ethan's Quilava": {
+"cards": {
+"P|SV10:#032/182": 4,
+"P|SV10:#033/182": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Fire": 19,
+"P|SV10:#152/182": 4,
+"P|SV10:#037/182": 4,
+"P|SV10:#038/182": 3
+},
+"notrade": [
+"P|SV10:#033/182",
+"P|SV10:#032/182"
+]
+},
+"Volcarona": {
+"cards": {
+"P|SV08:#024/191": 4,
+"P|SV08:#025/191": 3,
+"P|SFA:#009/064": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Fire": 20,
+"P|SV10:#037/182": 4,
+"P|SV10:#038/182": 3
+},
+"notrade": [
+"P|SV08:#024/191",
+"P|SV08:#025/191"
+]
+},
+"Rapidash": {
+"cards": {
+"P|SV07:#019/142": 4,
+"P|SV10:#030/182": 3,
+"T|Professor's Research": 1,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Fire": 13,
+"P|SV10:#037/182": 4,
+"P|SV10:#038/182": 3,
+"P|SV08:#150/191": 4,
+"P|SV09:#129/159": 4
+},
+"notrade": [
+"P|SV10:#030/182",
+"P|SV07:#019/142"
+]
+},
+"Inteleon": {
+"cards": {
+"P|ME01:#039/132": 4,
+"P|ME01:#040/132": 3,
+"P|ME01:#041/132": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 1,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Water": 17,
+"P|SV05:#139/162": 4,
+"P|SV08:#049/191": 4,
+"T|Energy Retrieval": 1
+},
+"notrade": [
+"P|ME01:#041/132",
+"P|ME01:#040/132",
+"P|ME01:#039/132"
+]
+},
+"Walrein": {
+"cards": {
+"P|SV08:#043/191": 4,
+"P|SV08:#044/191": 3,
+"P|SV08:#045/191": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Water": 14,
+"P|SV08:#152/191": 4,
+"P|BLK:#078/086": 3,
+"P|SV08:#049/191": 4
+},
+"notrade": [
+"P|SV08:#043/191",
+"P|SV08:#044/191",
+"P|SV08:#045/191"
+]
+},
+"Quaquaval": {
+"cards": {
+"P|SV08:#050/191": 4,
+"P|SV08:#051/191": 3,
+"P|SV08:#052/191": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Water": 17,
+"P|SV08:#049/191": 4,
+"P|SV07:#120/142": 4
+},
+"notrade": [
+"P|SV08:#052/191",
+"P|SV08:#050/191",
+"P|SV08:#051/191"
+]
+},
+"Poliwrath": {
+"cards": {
+"P|SV06:#041/167": 4,
+"P|SV06:#042/167": 3,
+"P|SV06:#043/167": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Water": 12,
+"P|SV07:#031/142": 4,
+"T|Energy Retrieval": 1,
+"P|ME01:#044/132": 4,
+"P|ME01:#071/132": 4
+},
+"notrade": [
+"P|SV06:#041/167",
+"P|SV06:#043/167",
+"P|SV06:#042/167"
+]
+},
+"Octillery": {
+"cards": {
+"P|ME04:#016/086": 4,
+"P|ME04:#017/086": 3,
+"T|Professor's Research": 1,
+"T|Cheren": 2,
+"T|Boss's Orders": 1,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Water": 20,
+"P|SV09:#129/159": 4,
+"T|Harlequin": 1,
+"P|BLK:#025/086": 4
+},
+"notrade": [
+"P|ME04:#016/086",
+"P|ME04:#017/086"
+]
+},
+"Avalugg": {
+"cards": {
+"P|ME04:#023/086": 4,
+"P|ME04:#024/086": 3,
+"P|ASH:#054/217": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 1,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Water": 18,
+"P|ASH:#177/217": 4,
+"T|Brock's Scouting": 1,
+"T|Drayton": 1,
+"P|BLK:#025/086": 4
+},
+"notrade": [
+"P|ME04:#023/086",
+"P|ME04:#024/086"
+]
+},
+"Iron Bundle": {
+"cards": {
+"P|SV08:#055/191": 4,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 1,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Water": 18,
+"P|SV09:#129/159": 4,
+"P|ME03:#020/088": 4,
+"T|Waitress": 1,
+"P|SV07:#066/142": 4
+},
+"notrade": [
+"P|SV08:#055/191"
+]
+},
+"Frosmoth": {
+"cards": {
+"P|ASH:#052/217": 4,
+"P|ASH:#053/217": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Water": 19,
+"P|SV07:#031/142": 4,
+"P|SV08:#152/191": 4,
+"P|BLK:#078/086": 3
+},
+"notrade": [
+"P|ASH:#053/217",
+"P|ASH:#052/217"
+]
+},
+"Crawdaunt": {
+"cards": {
+"P|SV06:#047/167": 4,
+"P|SV06:#048/167": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Water": 14,
+"P|SV09:#123/159": 4,
+"S|Spiky Energy": 1,
+"P|SV07:#066/142": 4,
+"P|ME03:#063/088": 4
+},
+"notrade": [
+"P|SV06:#047/167",
+"P|SV06:#048/167"
+]
+},
+"Mamoswine": {
+"cards": {
+"P|ME02:#023/094": 4,
+"P|SV09:#078/159": 3,
+"P|ME02:#025/094": 2,
+"P|WHT:#024/086": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Water": 13,
+"S|Spiky Energy": 1,
+"P|ME01:#044/132": 4,
+"P|SV08:#049/191": 4
+},
+"notrade": [
+"P|SV09:#078/159",
+"P|ME02:#023/094",
+"P|ME02:#025/094"
+]
+},
+"Misty's Starmie": {
+"cards": {
+"P|SV10:#046/182": 4,
+"P|SV10:#047/182": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Water": 18,
+"P|SV05:#139/162": 4,
+"P|SV08:#149/191": 4,
+"P|SV08:#049/191": 4
+},
+"notrade": [
+"P|SV10:#047/182",
+"P|SV10:#046/182"
+]
+},
+"Crabominable": {
+"cards": {
+"P|SV07:#087/142": 4,
+"P|SV07:#042/142": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Water": 17,
+"P|SV09:#032/159": 4,
+"P|ME03:#064/088": 4,
+"P|ME03:#065/088": 3,
+"S|Spiky Energy": 1,
+"T|Rescue Board": 1
+},
+"notrade": [
+"P|SV07:#087/142",
+"P|SV07:#042/142"
+]
+},
+"Electivire": {
+"cards": {
+"P|SV10:#068/182": 4,
+"P|SV07:#047/142": 3,
+"P|ASH:#059/217": 3,
+"P|ASH:#060/217": 2,
+"P|BLK:#032/086": 1,
+"T|Professor's Research": 1,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Lightning": 14,
+"P|SV05:#061/162": 4,
+"P|SV05:#057/162": 4
+},
+"notrade": [
+"P|SV07:#047/142",
+"P|SV10:#068/182"
+]
+},
+"Magnezone": {
+"cards": {
+"P|SV08:#058/191": 4,
+"P|SV08:#059/191": 3,
+"P|ME01:#047/132": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Lightning": 12,
+"P|SV05:#057/162": 4,
+"P|ASH:#059/217": 4,
+"P|ASH:#060/217": 3,
+"P|BLK:#032/086": 2
+},
+"notrade": [
+"P|SV08:#058/191",
+"P|SV08:#059/191",
+"P|ME01:#047/132"
+]
+},
+"Vikavolt": {
+"cards": {
+"P|SV05:#018/162": 4,
+"P|SV05:#055/162": 3,
+"P|ASH:#066/217": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Lightning": 17,
+"P|BLK:#074/086": 4,
+"P|SV05:#057/162": 4
+},
+"notrade": [
+"P|SV05:#055/162",
+"P|ASH:#066/217",
+"P|SV05:#018/162"
+]
+},
+"Eelektross": {
+"cards": {
+"P|ASH:#059/217": 4,
+"P|ASH:#060/217": 3,
+"P|BLK:#032/086": 2,
+"P|SV06:#073/167": 3,
+"P|SV06:#074/167": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Lightning": 12,
+"P|SV07:#127/142": 4,
+"P|SV05:#061/162": 4
+},
+"notrade": [
+"P|ASH:#059/217",
+"P|BLK:#032/086",
+"P|ASH:#060/217"
+]
+},
+"Alolan Golem": {
+"cards": {
+"P|SV09:#044/159": 4,
+"P|SV09:#045/159": 3,
+"P|SV09:#046/159": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Lightning": 16,
+"P|SV09:#129/159": 4,
+"S|Mist Energy": 1,
+"P|ASH:#163/217": 4
+},
+"notrade": [
+"P|SV09:#044/159",
+"P|SV09:#045/159",
+"P|SV09:#046/159"
+]
+},
+"Manectric": {
+"cards": {
+"P|ME01:#049/132": 4,
+"P|SV10:#076/182": 3,
+"P|ASH:#055/217": 3,
+"P|ASH:#056/217": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Lightning": 19,
+"P|SV09:#129/159": 4,
+"T|Energy Coin": 1,
+"T|Brock's Scouting": 1
+},
+"notrade": [
+"P|SV10:#076/182",
+"P|ME01:#049/132"
+]
+},
+"Lanturn": {
+"cards": {
+"P|SV07:#048/142": 4,
+"P|SV07:#049/142": 3,
+"P|SV05:#057/162": 3,
+"T|Professor's Research": 1,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Lightning": 15,
+"P|ASH:#059/217": 4,
+"P|ASH:#060/217": 3,
+"P|BLK:#032/086": 2,
+"P|SV08:#069/191": 4
+},
+"notrade": [
+"P|SV07:#048/142",
+"P|SV07:#049/142"
+]
+},
+"Bellibolt": {
+"cards": {
+"P|SV06:#073/167": 4,
+"P|SV06:#074/167": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Lightning": 17,
+"P|SV09:#129/159": 4,
+"T|Bianca's Devotion": 1,
+"P|SV10:#160/182": 4,
+"T|Lacey": 1
+},
+"notrade": [
+"P|SV06:#074/167",
+"P|SV06:#073/167"
+]
+},
+"Kilowattrel": {
+"cards": {
+"P|SV08:#066/191": 4,
+"P|SV08:#067/191": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 2,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Lightning": 16,
+"P|SV05:#061/162": 4,
+"P|SV05:#139/162": 4,
+"S|Mist Energy": 1,
+"P|ME04:#030/086": 4
+},
+"notrade": [
+"P|SV08:#066/191",
+"P|SV08:#067/191"
+]
+},
+"Raichu": {
+"cards": {
+"P|ASH:#055/217": 4,
+"P|ASH:#056/217": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Lightning": 18,
+"P|SV05:#057/162": 4,
+"P|ME01:#071/132": 4,
+"T|Pok\u00e9mon Center Lady": 1
+},
+"notrade": [
+"P|ASH:#056/217",
+"P|ASH:#055/217"
+]
+},
+"Team Rocket's Ampharos": {
+"cards": {
+"P|SV10:#072/182": 4,
+"P|SV10:#073/182": 3,
+"P|SV10:#074/182": 2,
+"P|ASH:#059/217": 3,
+"P|ASH:#060/217": 2,
+"P|BLK:#032/086": 1,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 1,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Lightning": 10,
+"S|Team Rocket's Energy": 4,
+"P|SV05:#139/162": 4,
+"T|Pok\u00e9 Pad": 1,
+"T|Lumiose City": 1
+},
+"notrade": [
+"P|SV10:#073/182",
+"P|SV10:#072/182",
+"P|SV10:#074/182"
+]
+},
+"Zeraora": {
+"cards": {
+"P|SV05:#057/162": 4,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Lightning": 17,
+"P|PRE:#081/131": 4,
+"P|ASH:#059/217": 4,
+"P|ASH:#060/217": 3,
+"P|BLK:#032/086": 2
+},
+"notrade": [
+"P|SV05:#057/162"
+]
+},
+"Steven's Claydol": {
+"cards": {
+"P|SV10:#083/182": 4,
+"P|SV10:#084/182": 3,
+"T|Professor's Research": 1,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Psychic": 15,
+"P|SV05:#079/162": 4,
+"P|SV10:#086/182": 4,
+"T|Drasna": 1,
+"P|SV08:#096/191": 4
+},
+"notrade": [
+"P|SV10:#084/182",
+"P|SV10:#083/182"
+]
+},
+"Grimmsnarl": {
+"cards": {
+"P|SV09:#071/159": 4,
+"P|SV09:#072/159": 3,
+"P|SV09:#073/159": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 1,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Psychic": 17,
+"P|SV09:#129/159": 4,
+"P|SV10:#137/182": 4,
+"T|Dawn": 1
+},
+"notrade": [
+"P|SV09:#071/159",
+"P|SV09:#073/159",
+"P|SV09:#072/159"
+]
+},
+"Mesprit": {
+"cards": {
+"P|SV08:#079/191": 4,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Psychic": 14,
+"P|ME01:#070/132": 4,
+"P|SV10:#083/182": 4,
+"P|SV10:#084/182": 3,
+"P|SV10:#086/182": 4,
+"P|SV09:#008/159": 4
+},
+"notrade": [
+"P|SV08:#079/191"
+]
+},
+"Florges": {
+"cards": {
+"P|SV06:#086/167": 4,
+"P|SV06:#087/167": 3,
+"P|SV06:#088/167": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Psychic": 13,
+"P|ME02:#039/094": 4,
+"P|SV07:#120/142": 4,
+"P|ASH:#077/217": 4
+},
+"notrade": [
+"P|SV06:#086/167",
+"P|SV06:#088/167",
+"P|SV06:#087/167"
+]
+},
+"Musharna": {
+"cards": {
+"P|BLK:#035/086": 4,
+"P|BLK:#036/086": 3,
+"T|Professor's Research": 1,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Psychic": 18,
+"P|SV05:#063/162": 4,
+"P|SV08:#150/191": 4,
+"S|Mist Energy": 1,
+"P|SV09:#129/159": 4
+},
+"notrade": [
+"P|BLK:#035/086",
+"P|BLK:#036/086"
+]
+},
+"Reuniclus": {
+"cards": {
+"P|SV05:#070/162": 4,
+"P|SV05:#071/162": 3,
+"P|SV05:#072/162": 2,
+"P|ME04:#032/086": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 1,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Psychic": 19,
+"P|SV07:#059/142": 4
+},
+"notrade": [
+"P|SV05:#070/162",
+"P|SV05:#071/162",
+"P|SV05:#072/162"
+]
+},
+"Azumarill": {
+"cards": {
+"P|SV08:#073/191": 4,
+"P|SV08:#074/191": 3,
+"T|Professor's Research": 1,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Psychic": 19,
+"P|ME03:#063/088": 4,
+"P|ME03:#064/088": 4,
+"P|ME03:#065/088": 3,
+"T|Team Rocket's Petrel": 1
+},
+"notrade": [
+"P|SV08:#074/191",
+"P|SV08:#073/191"
+]
+},
+"Slurpuff": {
+"cards": {
+"P|SV06:#089/167": 4,
+"P|SV06:#090/167": 3,
+"T|Professor's Research": 1,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Psychic": 18,
+"P|ME01:#071/132": 4,
+"P|SV05:#063/162": 4,
+"T|Crushing Hammer": 1,
+"P|ME03:#063/088": 4
+},
+"notrade": [
+"P|SV06:#090/167",
+"P|SV06:#089/167"
+]
+},
+"Drifblim": {
+"cards": {
+"P|SV07:#060/142": 4,
+"P|SV07:#061/142": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Psychic": 21,
+"P|ME04:#032/086": 4,
+"P|SV10:#152/182": 4,
+"T|Fennel": 1
+},
+"notrade": [
+"P|SV07:#060/142",
+"P|SV07:#061/142"
+]
+},
+"Espathra": {
+"cards": {
+"P|SV08:#094/191": 4,
+"P|SV07:#069/142": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 1,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Psychic": 19,
+"P|ME04:#032/086": 4,
+"P|SV05:#063/162": 4,
+"P|ME02:#035/094": 4
+},
+"notrade": [
+"P|SV08:#094/191",
+"P|SV07:#069/142"
+]
+},
+"Iron Valiant": {
+"cards": {
+"P|SV05:#079/162": 4,
+"P|SV08:#096/191": 3,
+"P|SV10:#083/182": 3,
+"P|SV10:#084/182": 2,
+"T|Professor's Research": 1,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Psychic": 18,
+"P|SV08:#151/191": 4,
+"P|SV10:#086/182": 4
+},
+"notrade": [
+"P|SV05:#079/162"
+]
+},
+"Deoxys": {
+"cards": {
+"P|ME04:#032/086": 4,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Psychic": 17,
+"P|ME01:#070/132": 4,
+"P|SV05:#008/162": 4,
+"P|SV05:#009/162": 3,
+"P|ME02:#040/094": 4,
+"T|Lillie's Determination": 1
+},
+"notrade": [
+"P|ME04:#032/086"
+]
+},
+"Medicham": {
+"cards": {
+"P|SV07:#078/142": 4,
+"P|ASH:#104/217": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Fighting": 12,
+"P|SV05:#098/162": 4,
+"P|PRE:#052/131": 4,
+"P|SV10:#106/182": 3,
+"P|ASH:#175/217": 4
+},
+"notrade": [
+"P|SV07:#078/142",
+"P|ASH:#104/217"
+]
+},
+"Annihilape": {
+"cards": {
+"P|SV10:#090/182": 4,
+"P|SV08:#099/191": 3,
+"P|SV08:#100/191": 2,
+"P|WHT:#049/086": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 1,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Fighting": 19,
+"P|SV08:#116/191": 4
+},
+"notrade": [
+"P|SV08:#099/191",
+"P|SV08:#100/191",
+"P|SV10:#090/182"
+]
+},
+"Conkeldurr": {
+"cards": {
+"P|SV06:#103/167": 4,
+"P|BLK:#048/086": 3,
+"P|SV06:#105/167": 2,
+"P|ASH:#106/217": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Fighting": 12,
+"P|SV08:#116/191": 4,
+"P|SV10:#111/182": 4,
+"T|Lacey": 1,
+"T|Pok\u00e9mon Center Lady": 1
+},
+"notrade": [
+"P|BLK:#048/086",
+"P|SV06:#103/167",
+"P|SV06:#105/167"
+]
+},
+"Sawk": {
+"cards": {
+"P|WHT:#049/086": 4,
+"P|BLK:#050/086": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 1,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Fighting": 20,
+"P|PRE:#052/131": 4,
+"P|SV10:#106/182": 3,
+"P|ME04:#043/086": 4
+},
+"notrade": [
+"P|WHT:#049/086"
+]
+},
+"Excadrill": {
+"cards": {
+"P|SV05:#085/162": 4,
+"P|SV05:#086/162": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Fighting": 14,
+"P|SV08:#150/191": 4,
+"P|SV09:#129/159": 4,
+"P|ME01:#071/132": 4,
+"S|Prism Energy": 1
+},
+"notrade": [
+"P|SV05:#085/162",
+"P|SV05:#086/162"
+]
+},
+"Toxicroak": {
+"cards": {
+"P|ME01:#078/132": 4,
+"P|ME01:#079/132": 3,
+"P|PRE:#052/131": 3,
+"P|SV10:#106/182": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Fighting": 17,
+"P|SV05:#139/162": 4,
+"P|SV05:#098/162": 4
+},
+"notrade": [
+"P|ME01:#079/132",
+"P|ME01:#078/132"
+]
+},
+"Probopass": {
+"cards": {
+"P|SV06:#101/167": 4,
+"P|ME03:#038/088": 3,
+"T|Professor's Research": 1,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Fighting": 19,
+"P|ME01:#081/132": 4,
+"P|BLK:#050/086": 4,
+"P|ASH:#163/217": 4
+},
+"notrade": [
+"P|ME03:#038/088",
+"P|SV06:#101/167"
+]
+},
+"Solrock": {
+"cards": {
+"P|ASH:#106/217": 4,
+"P|SV10:#107/182": 3,
+"P|SV10:#108/182": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Fighting": 16,
+"P|SV08:#116/191": 4,
+"P|WHT:#049/086": 4,
+"T|Urbain": 1
+},
+"notrade": [
+"P|ASH:#106/217"
+]
+},
+"Garganacl": {
+"cards": {
+"P|ME01:#082/132": 4,
+"P|ME01:#083/132": 3,
+"P|ME01:#084/132": 2,
+"P|SFA:#026/064": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 1,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Fighting": 19,
+"P|SV10:#152/182": 4
+},
+"notrade": [
+"P|ME01:#083/132",
+"P|ME01:#082/132",
+"P|ME01:#084/132"
+]
+},
+"Throh": {
+"cards": {
+"P|BLK:#050/086": 4,
+"P|SV05:#097/162": 3,
+"P|SV07:#086/142": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Fighting": 19,
+"P|ME01:#081/132": 4,
+"P|PRE:#086/131": 4
+},
+"notrade": [
+"P|BLK:#050/086"
+]
+},
+"Gigalith": {
+"cards": {
+"P|WHT:#046/086": 4,
+"P|WHT:#047/086": 3,
+"P|WHT:#048/086": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Fighting": 17,
+"P|ME01:#071/132": 4,
+"P|SV09:#129/159": 4
+},
+"notrade": [
+"P|WHT:#046/086",
+"P|WHT:#048/086",
+"P|WHT:#047/086"
+]
+},
+"Sandslash": {
+"cards": {
+"P|SV06:#097/167": 4,
+"P|SV06:#098/167": 3,
+"P|ME02:#049/094": 3,
+"P|ME02:#050/094": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Fighting": 17,
+"T|Tarragon": 1,
+"P|ME03:#046/088": 4
+},
+"notrade": [
+"P|SV06:#098/167",
+"P|SV06:#097/167"
+]
+},
+"Crobat": {
+"cards": {
+"P|SFA:#027/064": 4,
+"P|SFA:#028/064": 3,
+"P|SFA:#029/064": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 1,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Darkness": 13,
+"P|SV07:#120/142": 4,
+"P|ME01:#071/132": 4,
+"P|ME04:#052/086": 4,
+"S|Spiky Energy": 1
+},
+"notrade": [
+"P|SFA:#027/064",
+"P|SFA:#029/064",
+"P|SFA:#028/064"
+]
+},
+"Team Rocket's Nidoqueen": {
+"cards": {
+"P|SV10:#114/182": 4,
+"P|SV10:#115/182": 3,
+"P|SV10:#116/182": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Darkness": 11,
+"S|Team Rocket's Energy": 4,
+"P|ME02:#069/094": 4,
+"P|SV06:#118/167": 4,
+"T|Punk Helmet": 1,
+"T|Team Rocket's Proton": 1
+},
+"notrade": [
+"P|SV10:#116/182",
+"P|SV10:#114/182",
+"P|SV10:#115/182"
+]
+},
+"Krookodile": {
+"cards": {
+"P|BLK:#057/086": 4,
+"P|ME02:#065/094": 3,
+"P|ME02:#066/094": 2,
+"T|Professor's Research": 1,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Darkness": 17,
+"P|SV10:#071/182": 4,
+"T|Hassel": 1,
+"P|ME02:#069/094": 4
+},
+"notrade": [
+"P|ME02:#066/094",
+"P|ME02:#065/094",
+"P|BLK:#057/086"
+]
+},
+"Galarian Obstagoon": {
+"cards": {
+"P|ASH:#130/217": 4,
+"P|ASH:#131/217": 3,
+"P|ASH:#132/217": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 1,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Darkness": 17,
+"P|ME02:#069/094": 4,
+"S|Prism Energy": 1,
+"P|ME04:#052/086": 4
+},
+"notrade": [
+"P|ASH:#132/217",
+"P|ASH:#130/217",
+"P|ASH:#131/217"
+]
+},
+"Lokix": {
+"cards": {
+"P|SV09:#019/159": 4,
+"P|SV09:#100/159": 3,
+"T|Professor's Research": 1,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Darkness": 10,
+"P|ME04:#052/086": 4,
+"P|SV05:#100/162": 4,
+"P|SV05:#101/162": 3,
+"P|SV10:#123/182": 4,
+"P|SV10:#124/182": 3
+},
+"notrade": [
+"P|SV09:#100/159",
+"P|SV09:#019/159"
+]
+},
+"Pangoro": {
+"cards": {
+"P|ASH:#115/217": 4,
+"P|SV09:#099/159": 3,
+"P|ME02:#069/094": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 1,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Darkness": 17,
+"P|ASH:#177/217": 4,
+"P|SV10:#151/182": 4
+},
+"notrade": [
+"P|SV09:#099/159",
+"P|ASH:#115/217"
+]
+},
+"Seviper": {
+"cards": {
+"P|ME02:#062/094": 4,
+"P|ME04:#053/086": 3,
+"P|ME04:#054/086": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Darkness": 20,
+"P|ME04:#052/086": 4,
+"P|ME01:#087/132": 4
+},
+"notrade": [
+"P|ME02:#062/094"
+]
+},
+"Marnie's Scrafty": {
+"cards": {
+"P|SV10:#132/182": 4,
+"P|SV10:#133/182": 3,
+"P|SV05:#100/162": 3,
+"P|SV05:#101/162": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Darkness": 17,
+"P|ME04:#052/086": 4,
+"T|Energy Coin": 1
+},
+"notrade": [
+"P|SV10:#133/182",
+"P|SV10:#132/182"
+]
+},
+"Scolipede": {
+"cards": {
+"P|SV06:#115/167": 4,
+"P|BLK:#055/086": 3,
+"P|BLK:#056/086": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 1,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Darkness": 14,
+"P|ME02:#069/094": 4,
+"P|ME01:#087/132": 4,
+"P|ME04:#052/086": 4
+},
+"notrade": [
+"P|BLK:#055/086",
+"P|SV06:#115/167",
+"P|BLK:#056/086"
+]
+},
+"Liepard": {
+"cards": {
+"P|WHT:#055/086": 4,
+"P|WHT:#056/086": 3,
+"P|SV05:#089/162": 3,
+"P|SV05:#090/162": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Darkness": 13,
+"P|ME02:#069/094": 4,
+"P|SV09:#091/159": 4,
+"P|SV09:#092/159": 3,
+"T|Bianca's Devotion": 1
+},
+"notrade": [
+"P|WHT:#055/086",
+"P|WHT:#056/086"
+]
+},
+"Eternatus": {
+"cards": {
+"P|ME02:#069/094": 4,
+"P|SFA:#052/064": 3,
+"P|SFA:#053/064": 2,
+"T|Professor's Research": 1,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Darkness": 17,
+"P|SV06:#118/167": 4,
+"T|Tera Orb": 1,
+"P|ME04:#052/086": 4
+},
+"notrade": [
+"P|ME02:#069/094"
+]
+},
+"Team Rocket's Muk": {
+"cards": {
+"P|SV10:#123/182": 4,
+"P|SV10:#124/182": 3,
+"P|ASH:#175/217": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Darkness": 15,
+"S|Team Rocket's Energy": 4,
+"P|SV09:#129/159": 4,
+"P|SV10:#137/182": 4
+},
+"notrade": [
+"P|SV10:#124/182",
+"P|SV10:#123/182"
+]
+},
+"Tinkaton": {
+"cards": {
+"P|ME01:#096/132": 4,
+"P|ME01:#097/132": 3,
+"P|ME01:#098/132": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 1,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Metal": 17,
+"P|SV08:#125/191": 4,
+"P|SV10:#071/182": 4,
+"T|Tyme": 1
+},
+"notrade": [
+"P|ME01:#096/132",
+"P|ME01:#097/132",
+"P|ME01:#098/132"
+]
+},
+"Escavalier": {
+"cards": {
+"P|BLK:#009/086": 4,
+"P|BLK:#060/086": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 2,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Metal": 19,
+"P|ME02:#073/094": 3,
+"P|SV08:#125/191": 4
+},
+"notrade": [
+"P|BLK:#009/086",
+"P|BLK:#060/086"
+]
+},
+"Metagross": {
+"cards": {
+"P|SV05:#113/162": 4,
+"P|SV05:#114/162": 3,
+"P|ME04:#061/086": 2,
+"P|SV05:#118/162": 3,
+"T|Professor's Research": 1,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 3,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Metal": 17,
+"P|SV05:#139/162": 4,
+"T|Firebreather": 1
+},
+"notrade": [
+"P|SV05:#114/162",
+"P|ME04:#061/086",
+"P|SV05:#113/162"
+]
+},
+"Hop's Corviknight": {
+"cards": {
+"P|SV09:#133/159": 4,
+"P|SV09:#134/159": 3,
+"P|SV09:#108/159": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Metal": 16,
+"P|SV08:#125/191": 4,
+"P|SV07:#120/142": 4,
+"S|Mist Energy": 1
+},
+"notrade": [
+"P|SV09:#133/159",
+"P|SV09:#108/159",
+"P|SV09:#134/159"
+]
+},
+"Aegislash": {
+"cards": {
+"P|ME03:#056/088": 4,
+"P|ME03:#057/088": 3,
+"P|ME03:#058/088": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 1,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Metal": 18,
+"P|SV08:#125/191": 4,
+"P|SV10:#158/182": 4
+},
+"notrade": [
+"P|ME03:#056/088",
+"P|ME03:#058/088",
+"P|ME03:#057/088"
+]
+},
+"Aggron": {
+"cards": {
+"P|SV06:#120/167": 4,
+"P|SV06:#121/167": 3,
+"P|SV06:#122/167": 2,
+"T|Professor's Research": 1,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Metal": 17,
+"P|SV08:#125/191": 4,
+"S|Boomerang Energy": 1,
+"P|SV08:#150/191": 4
+},
+"notrade": [
+"P|SV06:#120/167",
+"P|SV06:#121/167",
+"P|SV06:#122/167"
+]
+},
+"N's Klinklang": {
+"cards": {
+"P|SV09:#103/159": 4,
+"P|SV09:#104/159": 3,
+"P|SV09:#105/159": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 1,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Metal": 17,
+"P|ME03:#063/088": 4,
+"P|SV08:#156/191": 4,
+"S|Mist Energy": 1
+},
+"notrade": [
+"P|SV09:#105/159",
+"P|SV09:#104/159",
+"P|SV09:#103/159"
+]
+},
+"Bisharp": {
+"cards": {
+"P|ASH:#146/217": 4,
+"P|ASH:#147/217": 3,
+"P|SV05:#113/162": 4,
+"P|SV05:#114/162": 2,
+"P|ME04:#061/086": 1,
+"T|Professor's Research": 2,
+"T|Cheren": 1,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Metal": 11,
+"P|ASH:#176/217": 3,
+"P|SV09:#109/159": 4,
+"P|SV09:#110/159": 3
+},
+"notrade": [
+"P|ASH:#146/217",
+"P|ASH:#147/217"
+]
+},
+"Iron Treads": {
+"cards": {
+"P|SV05:#118/162": 4,
+"P|SV09:#109/159": 3,
+"P|SV09:#110/159": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Metal": 18,
+"P|ME03:#064/088": 4,
+"P|ME03:#065/088": 3
+},
+"notrade": [
+"P|SV05:#118/162"
+]
+},
+"Copperajah": {
+"cards": {
+"P|SV09:#109/159": 4,
+"P|SV09:#110/159": 3,
+"P|SV05:#002/162": 3,
+"P|SV05:#110/162": 2,
+"P|PRE:#068/131": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 1,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Metal": 15,
+"P|ME01:#071/132": 4,
+"P|SV09:#135/159": 4
+},
+"notrade": [
+"P|SV09:#110/159",
+"P|SV09:#109/159"
+]
+},
+"Archaludon": {
+"cards": {
+"P|SV08:#129/191": 4,
+"P|ME02:#075/094": 3,
+"T|Professor's Research": 1,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Metal": 18,
+"P|SV09:#133/159": 4,
+"P|SV09:#134/159": 3,
+"P|SV09:#108/159": 2,
+"P|SV08:#125/191": 4
+},
+"notrade": [
+"P|ME02:#075/094",
+"P|SV08:#129/191"
+]
+},
+"Forretress": {
+"cards": {
+"P|SV05:#002/162": 4,
+"P|SV05:#110/162": 3,
+"T|Professor's Research": 1,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 1,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Metal": 18,
+"P|ME03:#063/088": 4,
+"P|SV09:#109/159": 4,
+"P|SV09:#110/159": 3
+},
+"notrade": [
+"P|SV05:#002/162",
+"P|SV05:#110/162"
+]
+},
+"Diggersby (Colorless)": {
+"cards": {
+"P|ME03:#064/088": 4,
+"P|ME03:#065/088": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 1,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 3,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Psychic": 18,
+"P|ASH:#176/217": 4,
+"P|PRE:#081/131": 4,
+"P|SV05:#079/162": 4
+},
+"notrade": [
+"P|ME03:#065/088",
+"P|ME03:#064/088"
+]
+},
+"Alolan Dugtrio (Colorless)": {
+"cards": {
+"P|SV08:#122/191": 4,
+"P|SV08:#123/191": 3,
+"P|SV08:#151/191": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Psychic": 16,
+"P|ME03:#063/088": 4,
+"P|ME02:#039/094": 4
+},
+"notrade": [
+"P|SV08:#123/191",
+"P|SV08:#122/191"
+]
+},
+"Hop's Cramorant (Colorless)": {
+"cards": {
+"P|ASH:#177/217": 4,
+"P|SV05:#008/162": 3,
+"P|SV05:#009/162": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Psychic": 20,
+"P|SV09:#070/159": 4,
+"P|SV05:#063/162": 4
+},
+"notrade": [
+"P|ASH:#177/217"
+]
+},
+"Unfezant (Colorless)": {
+"cards": {
+"P|SV05:#133/162": 4,
+"P|BLK:#072/086": 3,
+"P|SV05:#135/162": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Psychic": 14,
+"P|SV05:#008/162": 4,
+"P|SV05:#009/162": 3,
+"P|SV10:#152/182": 4
+},
+"notrade": [
+"P|SV05:#135/162",
+"P|SV05:#133/162",
+"P|BLK:#072/086"
+]
+},
+"Team Rocket's Raticate (Colorless)": {
+"cards": {
+"P|SV10:#147/182": 4,
+"P|SV10:#148/182": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Psychic": 15,
+"S|Team Rocket's Energy": 4,
+"P|SV07:#120/142": 4,
+"P|SV09:#008/159": 4
+},
+"notrade": [
+"P|SV10:#148/182",
+"P|SV10:#147/182"
+]
+},
+"Fan Rotom (Colorless)": {
+"cards": {
+"P|ASH:#171/217": 4,
+"P|PRE:#020/131": 3,
+"P|PRE:#021/131": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 1,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Psychic": 17,
+"P|SV07:#120/142": 4,
+"P|ME04:#032/086": 4,
+"P|SV06:#133/167": 4
+},
+"notrade": [
+"P|ASH:#171/217"
+]
+},
+"Watchog (Colorless)": {
+"cards": {
+"P|ME04:#070/086": 4,
+"P|WHT:#073/086": 2,
+"P|ME03:#063/088": 4,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Psychic": 19,
+"P|SV08:#096/191": 4,
+"P|SV05:#079/162": 4
+},
+"notrade": [
+"P|ME04:#070/086",
+"P|WHT:#073/086"
+]
+},
+"Linoone (Colorless)": {
+"cards": {
+"P|ME02:#081/094": 4,
+"P|ME02:#082/094": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Psychic": 17,
+"P|SV05:#139/162": 4,
+"T|Battle Cage": 1,
+"T|Energy Search": 1,
+"P|SV10:#152/182": 4
+},
+"notrade": [
+"P|ME02:#082/094",
+"P|ME02:#081/094"
+]
+},
+"Seaking (Colorless)": {
+"cards": {
+"P|PRE:#020/131": 4,
+"P|PRE:#021/131": 3,
+"P|SFA:#052/064": 3,
+"P|SFA:#053/064": 2,
+"P|SV08:#152/191": 3,
+"P|BLK:#078/086": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Psychic": 13,
+"S|Mist Energy": 2,
+"P|ASH:#176/217": 4,
+"S|Spiky Energy": 1
+},
+"notrade": [
+"P|PRE:#021/131",
+"P|PRE:#020/131"
+]
+},
+"Snorlax (Colorless)": {
+"cards": {
+"P|ME03:#063/088": 4,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Psychic": 20,
+"P|SV05:#079/162": 4,
+"P|SV07:#066/142": 4,
+"P|SV05:#063/162": 4
+},
+"notrade": [
+"P|ME03:#063/088"
+]
+},
+"Miltank (Colorless)": {
+"cards": {
+"P|PRE:#081/131": 4,
+"P|ASH:#171/217": 3,
+"P|ASH:#176/217": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Psychic": 19,
+"P|SV09:#070/159": 4,
+"P|SV05:#079/162": 4
+},
+"notrade": [
+"P|PRE:#081/131"
+]
+},
+"Lycanroc (Colorless)": {
+"cards": {
+"P|SV05:#089/162": 4,
+"P|SV05:#090/162": 3,
+"P|SV06:#132/167": 3,
+"P|SV07:#116/142": 3,
+"P|SV07:#117/142": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Psychic": 18,
+"P|SV10:#152/182": 4
+},
+"notrade": [
+"P|SV05:#089/162",
+"P|SV05:#090/162"
+]
+},
+"Boltund (Colorless)": {
+"cards": {
+"P|SV05:#058/162": 4,
+"P|SV05:#059/162": 3,
+"P|SV07:#126/142": 3,
+"P|SV09:#140/159": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"T|Rare Candy": 3,
+"E|Psychic": 14,
+"P|SV05:#139/162": 4,
+"P|SV07:#088/142": 4
+},
+"notrade": [
+"P|SV05:#058/162",
+"P|SV05:#059/162"
+]
+},
+"Cinccino (Colorless)": {
+"cards": {
+"P|ME04:#072/086": 4,
+"P|SV09:#126/159": 3,
+"P|ASH:#175/217": 3,
+"P|SV05:#139/162": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Psychic": 19,
+"P|ME04:#032/086": 4,
+"T|Lana's Aid": 1
+},
+"notrade": [
+"P|SV09:#126/159",
+"P|ME04:#072/086"
+]
+},
+"Eon Dragons": {
+"cards": {
+"P|ME01:#101/132": 4,
+"P|ME04:#066/086": 3,
+"P|ME04:#067/086": 2,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Psychic": 12,
+"E|Water": 8,
+"P|PRE:#081/131": 4,
+"P|ASH:#095/217": 4
+},
+"notrade": [
+"P|ME01:#101/132",
+"P|ME04:#067/086",
+"P|ME04:#066/086"
+]
+},
+"Ember Dragons": {
+"cards": {
+"P|WHT:#071/086": 4,
+"P|SV09:#112/159": 3,
+"P|SV09:#113/159": 2,
+"P|SV06:#131/167": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 2,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Fire": 6,
+"E|Water": 10,
+"P|ME03:#017/088": 4,
+"P|SV07:#120/142": 4
+},
+"notrade": [
+"P|SV09:#113/159",
+"P|SV09:#112/159",
+"P|WHT:#071/086",
+"P|SV06:#131/167"
+]
+},
+"Frost Dragons": {
+"cards": {
+"P|SV08:#148/191": 4,
+"P|SV08:#134/191": 3,
+"P|SFA:#047/064": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 1,
+"T|Boss's Orders": 1,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Metal": 13,
+"E|Water": 8,
+"P|SV08:#049/191": 4,
+"P|SV05:#139/162": 4
+},
+"notrade": [
+"P|SV08:#148/191",
+"P|SV08:#134/191",
+"P|SFA:#047/064"
+]
+},
+"Storm Dragons": {
+"cards": {
+"P|ASH:#150/217": 4,
+"P|ASH:#151/217": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Lightning": 5,
+"E|Water": 12,
+"P|SV08:#152/191": 4,
+"P|BLK:#078/086": 3,
+"S|Spiky Energy": 1,
+"P|ME01:#044/132": 4,
+"T|Energy Coin": 1
+},
+"notrade": [
+"P|ASH:#150/217",
+"P|ASH:#151/217"
+]
+},
+"Iron Dragons": {
+"cards": {
+"P|SFA:#044/064": 4,
+"P|SFA:#045/064": 3,
+"P|ME01:#081/132": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 3,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Fighting": 10,
+"E|Metal": 8,
+"P|ME03:#063/088": 4,
+"P|ASH:#177/217": 4
+},
+"notrade": [
+"P|SFA:#045/064",
+"P|SFA:#044/064"
+]
+},
+"Dusk Dragons": {
+"cards": {
+"P|PRE:#090/131": 4,
+"P|ASH:#157/217": 3,
+"T|Professor's Research": 1,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 3,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Darkness": 8,
+"E|Psychic": 4,
+"P|SV05:#100/162": 4,
+"P|SV05:#101/162": 3,
+"P|SV05:#008/162": 4,
+"P|SV05:#009/162": 3,
+"P|SV05:#063/162": 4
+},
+"notrade": [
+"P|PRE:#090/131",
+"P|ASH:#157/217"
+]
+},
+"Phantom Dragons": {
+"cards": {
+"P|ASH:#158/217": 4,
+"P|ASH:#159/217": 3,
+"T|Professor's Research": 2,
+"T|Cheren": 2,
+"T|Boss's Orders": 2,
+"T|Ultra Ball": 2,
+"T|Pok\u00e9 Ball": 2,
+"T|Buddy-Buddy Poffin": 2,
+"T|Earthen Vessel": 2,
+"T|Switch": 2,
+"T|Pok\u00e9gear 3.0": 2,
+"T|Night Stretcher": 1,
+"T|Judge": 1,
+"T|Professor Turo's Scenario": 1,
+"T|Carmine": 1,
+"T|Ciphermaniac's Codebreaking": 1,
+"E|Psychic": 5,
+"E|Fire": 13,
+"P|ME01:#070/132": 4,
+"P|SV05:#008/162": 4,
+"P|SV05:#009/162": 3,
+"S|Mist Energy": 1
+},
+"notrade": [
+"P|ASH:#159/217",
+"P|ASH:#158/217"
+]
+}
+}

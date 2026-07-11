@@ -1,0 +1,48 @@
+{
+ "groups": [
+  {
+   "id": "trk_0",
+   "files": [
+    "abilities_gen/batch_ab_activated_0.py",
+    "abilities_gen/batch_ab_energy_accel_0.py",
+    "abilities_gen/batch_ab_lock_0.py",
+    "abilities_gen/batch_ab_other_1.py"
+   ]
+  },
+  {
+   "id": "trk_1",
+   "files": [
+    "abilities_gen/batch_ab_passive_dr_0.py",
+    "abilities_gen/batch_ab_search_0.py",
+    "effects_gen/batch_conditional_damage_0.py",
+    "effects_gen/batch_conditional_damage_1.py"
+   ]
+  },
+  {
+   "id": "trk_2",
+   "files": [
+    "effects_gen/batch_conditional_damage_2.py",
+    "effects_gen/batch_conditional_damage_3.py",
+    "effects_gen/batch_discard_energy_0.py",
+    "effects_gen/batch_heal_0.py"
+   ]
+  },
+  {
+   "id": "trk_3",
+   "files": [
+    "effects_gen/batch_mill_0.py",
+    "effects_gen/batch_misc_0.py",
+    "effects_gen/batch_search_0.py",
+    "effects_gen/batch_search_1.py"
+   ]
+  },
+  {
+   "id": "trk_4",
+   "files": [
+    "effects_gen/batch_status_0.py",
+    "effects_gen/batch_switch_retreat_0.py",
+    "effects_gen/batch_tool_0.py"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1205 @@
+{
+ "total_distinct": 98,
+ "batches": [
+  {
+   "id": "ab_passive_dr_0",
+   "kind_hint": "passive_dr",
+   "abilities": [
+    {
+     "key": "- This Pok\u00e9mon takes 30 less damage from attacks from your opponent's {R} or {W} Pok\u00e9mon (after applying Weakness and Resistance).",
+     "count": 1,
+     "kind_hint": "passive_dr",
+     "examples": [
+      {
+       "card": "Dewgong",
+       "ability": "Thick Fat"
+      }
+     ]
+    },
+    {
+     "key": "- All of your Pok\u00e9mon take 10 less damage from attacks from your opponent's Pok\u00e9mon (after applying Weakness and Resistance).",
+     "count": 1,
+     "kind_hint": "passive_dr",
+     "examples": [
+      {
+       "card": "Bronzong",
+       "ability": "Protective Bell"
+      }
+     ]
+    },
+    {
+     "key": "- Attacks used by your opponent's Active Pok\u00e9mon that has a Pok\u00e9mon Tool attached do 20 less damage (before applying Weakness and Resistance).",
+     "count": 1,
+     "kind_hint": "passive_dr",
+     "examples": [
+      {
+       "card": "Garbodor",
+       "ability": "Gloomy Garbage"
+      }
+     ]
+    },
+    {
+     "key": "- As long as this Pok\u00e9mon is in the Active Spot, attacks used by your opponent's Active Pok\u00e9mon do 30 less damage (before applying Weakness and Resistance).",
+     "count": 1,
+     "kind_hint": "passive_dr",
+     "examples": [
+      {
+       "card": "Pyroar",
+       "ability": "Intimidating Fang"
+      }
+     ]
+    },
+    {
+     "key": "- As long as this Pok\u00e9mon is on your Bench, all of your Steven's Pok\u00e9mon take 30 less damage from attacks from your opponent's Pok\u00e9mon (after applying Weakness and Resistance). The effect of Stone Palace doesn't stack.",
+     "count": 1,
+     "kind_hint": "passive_dr",
+     "examples": [
+      {
+       "card": "Steven's Carbink",
+       "ability": "Stone Palace"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ab_immunity_0",
+   "kind_hint": "immunity",
+   "abilities": [
+    {
+     "key": "- As long as this Pok\u00e9mon is on your Bench, prevent all damage from and effects of attacks from your opponent's Pok\u00e9mon done to this Pok\u00e9mon.",
+     "count": 2,
+     "kind_hint": "immunity",
+     "examples": [
+      {
+       "card": "Misty's Magikarp",
+       "ability": "So Submerged"
+      },
+      {
+       "card": "Poltchageist",
+       "ability": "Storehouse Hideaway"
+      }
+     ]
+    },
+    {
+     "key": "- This Pok\u00e9mon can't be Asleep.",
+     "count": 1,
+     "kind_hint": "immunity",
+     "examples": [
+      {
+       "card": "Hoothoot",
+       "ability": "Insomnia"
+      }
+     ]
+    },
+    {
+     "key": "- Your opponent's Pok\u00e9mon in play and all attached cards can't be put into your opponent's hand.",
+     "count": 1,
+     "kind_hint": "immunity",
+     "examples": [
+      {
+       "card": "Milotic",
+       "ability": "Mentally Calm"
+      }
+     ]
+    },
+    {
+     "key": "- Prevent all damage done to your Benched Pok\u00e9mon that don't have a Rule Box by attacks from your opponent's Pok\u00e9mon. (Pok\u00e9mon ex, Pok\u00e9mon V, etc. have Rule Boxes.)",
+     "count": 1,
+     "kind_hint": "immunity",
+     "examples": [
+      {
+       "card": "Shaymin",
+       "ability": "Flower Curtain"
+      }
+     ]
+    },
+    {
+     "key": "- Damage counters on each Pok\u00e9mon (both yours and your opponent's) can't be moved to other Pok\u00e9mon.",
+     "count": 1,
+     "kind_hint": "immunity",
+     "examples": [
+      {
+       "card": "Patrat",
+       "ability": "Watchful Eye"
+      }
+     ]
+    },
+    {
+     "key": "- Prevent all damage from and effects of attacks from your opponent's Pok\u00e9mon done to your Benched Pok\u00e9mon.",
+     "count": 1,
+     "kind_hint": "immunity",
+     "examples": [
+      {
+       "card": "Rabsca",
+       "ability": "Spherical Shield"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ab_attack_buff_0",
+   "kind_hint": "attack_buff",
+   "abilities": [
+    {
+     "key": "- If you have any {D} Mega Evolution Pok\u00e9mon ex in play, attacks used by this Pok\u00e9mon do 120 more damage to your opponent's Active Pok\u00e9mon (before applying Weakness and Resistance).",
+     "count": 1,
+     "kind_hint": "attack_buff",
+     "examples": [
+      {
+       "card": "Seviper",
+       "ability": "Excited Power"
+      }
+     ]
+    },
+    {
+     "key": "- Attacks used by your Evolution {R} Pok\u00e9mon do 10 more damage to your opponent's Active Pok\u00e9mon (before applying Weakness and Resistance).",
+     "count": 1,
+     "kind_hint": "attack_buff",
+     "examples": [
+      {
+       "card": "Victini",
+       "ability": "Victory Cheer"
+      }
+     ]
+    },
+    {
+     "key": "- Attacks used by your {G} Pok\u00e9mon and {R} Pok\u00e9mon do 20 more damage to your opponent's Active Pok\u00e9mon (before applying Weakness and Resistance).",
+     "count": 1,
+     "kind_hint": "attack_buff",
+     "examples": [
+      {
+       "card": "Lilligant",
+       "ability": "Sunny Day"
+      }
+     ]
+    },
+    {
+     "key": "- Attacks used by this Pok\u00e9mon do 50 more damage to your opponent's Active Pok\u00e9mon that has an Ability (before applying Weakness and Resistance).",
+     "count": 1,
+     "kind_hint": "attack_buff",
+     "examples": [
+      {
+       "card": "Galvantula",
+       "ability": "Compound Eyes"
+      }
+     ]
+    },
+    {
+     "key": "- Attacks used by your {F} Pok\u00e9mon do 30 more damage to your opponent's Active Pok\u00e9mon (before applying Weakness and Resistance).",
+     "count": 1,
+     "kind_hint": "attack_buff",
+     "examples": [
+      {
+       "card": "Garganacl",
+       "ability": "Powerful a-Salt"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ab_retreat_mod_0",
+   "kind_hint": "retreat_mod",
+   "abilities": [
+    {
+     "key": "- If this Pok\u00e9mon has no Energy attached, it has no Retreat Cost.",
+     "count": 1,
+     "kind_hint": "retreat_mod",
+     "examples": [
+      {
+       "card": "Charmander",
+       "ability": "Agile"
+      }
+     ]
+    },
+    {
+     "key": "- Your opponent's Active Evolution Pok\u00e9mon's Retreat Cost is {C} more.",
+     "count": 1,
+     "kind_hint": "retreat_mod",
+     "examples": [
+      {
+       "card": "Ariados",
+       "ability": "Big Net"
+      }
+     ]
+    },
+    {
+     "key": "- As long as this Pok\u00e9mon is on your Bench, your Active Pok\u00e9mon's Retreat Cost is {C}{C} less.",
+     "count": 1,
+     "kind_hint": "retreat_mod",
+     "examples": [
+      {
+       "card": "Toedscruel",
+       "ability": "Secret Forest Path"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ab_lock_0",
+   "kind_hint": "lock",
+   "abilities": [
+    {
+     "key": "- Pok\u00e9mon in play (both yours and your opponent's) lose any Ability that requires the Pok\u00e9mon using it to Knock Out itself.",
+     "count": 2,
+     "kind_hint": "lock",
+     "examples": [
+      {
+       "card": "Psyduck",
+       "ability": "Damp"
+      },
+      {
+       "card": "Golduck",
+       "ability": "Damp"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ab_on_damaged_0",
+   "kind_hint": "on_damaged",
+   "abilities": [
+    {
+     "key": "- If this Pok\u00e9mon is in the Active Spot and is damaged by an attack from your opponent's Pok\u00e9mon (even if this Pok\u00e9mon is Knocked Out), put 3 damage counters on the Attacking Pok\u00e9mon.",
+     "count": 2,
+     "kind_hint": "on_damaged",
+     "examples": [
+      {
+       "card": "Bruxish",
+       "ability": "Counterattack"
+      },
+      {
+       "card": "Iron Jugulis",
+       "ability": "Automated Combat"
+      }
+     ]
+    },
+    {
+     "key": "- If this Pok\u00e9mon is in the Active Spot and is damaged by an attack from your opponent's Pok\u00e9mon (even if this Pok\u00e9mon is Knocked Out), search your deck for up to 2 Pok\u00e9mon that have \"Koffing\" in their name and put them onto your Bench. Then, shuffle your deck.",
+     "count": 1,
+     "kind_hint": "on_damaged",
+     "examples": [
+      {
+       "card": "Team Rocket's Koffing",
+       "ability": "Smog Signals"
+      }
+     ]
+    },
+    {
+     "key": "- If this Pok\u00e9mon is in the Active Spot and is damaged by an attack from your opponent's Pok\u00e9mon (even if this Pok\u00e9mon is Knocked Out), the Attacking Pok\u00e9mon is now Burned.",
+     "count": 1,
+     "kind_hint": "on_damaged",
+     "examples": [
+      {
+       "card": "Numel",
+       "ability": "Incandescent Body"
+      }
+     ]
+    },
+    {
+     "key": "- If your Active {D} Pok\u00e9mon is damaged by an attack from your opponent's Pok\u00e9mon (even if your Active {D} Pok\u00e9mon is Knocked Out), place 1 damage counter on the Attacking Pok\u00e9mon.",
+     "count": 1,
+     "kind_hint": "on_damaged",
+     "examples": [
+      {
+       "card": "Spiritomb",
+       "ability": "Spiteful Swirl"
+      }
+     ]
+    },
+    {
+     "key": "- If this Pok\u00e9mon is in the Active Spot and is damaged by an attack from your opponent's Pok\u00e9mon (even if this Pok\u00e9mon is Knocked Out), discard an Energy from the Attacking Pok\u00e9mon.",
+     "count": 1,
+     "kind_hint": "on_damaged",
+     "examples": [
+      {
+       "card": "Turtonator",
+       "ability": "Shell Spikes"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ab_energy_accel_0",
+   "kind_hint": "energy_accel",
+   "abilities": [
+    {
+     "key": "- Once during your turn, you may attach a Basic {L} Energy card from your discard pile to 1 of your Benched Pok\u00e9mon.",
+     "count": 2,
+     "kind_hint": "energy_accel",
+     "examples": [
+      {
+       "card": "Eelektrik",
+       "ability": "Dynamotor"
+      },
+      {
+       "card": "Eelektrik",
+       "ability": "Dynamotor"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, you may attach up to 3 Basic Energy cards from your discard pile to your {L} Pok\u00e9mon in any way you like. If you use this Ability, this Pok\u00e9mon is Knocked Out.",
+     "count": 1,
+     "kind_hint": "energy_accel",
+     "examples": [
+      {
+       "card": "Magneton",
+       "ability": "Overvolt Discharge"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, if this Pok\u00e9mon has any Energy attached, you may use this Ability. Search your deck for an Evolution Pok\u00e9mon, reveal it, and put it into your hand. Then, shuffle your deck.",
+     "count": 1,
+     "kind_hint": "energy_accel",
+     "examples": [
+      {
+       "card": "Dragonair",
+       "ability": "Evolutionary Guidance"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, if this Pok\u00e9mon has any {G} Energy attached, you may use this Ability. Heal 30 damage from 1 of your Pok\u00e9mon.",
+     "count": 1,
+     "kind_hint": "energy_accel",
+     "examples": [
+      {
+       "card": "Shuckle",
+       "ability": "Fermented Juice"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, you may use this Ability. Flip a coin. If heads, put an Energy attached to your opponent's Active Pok\u00e9mon into their hand.",
+     "count": 1,
+     "kind_hint": "energy_accel",
+     "examples": [
+      {
+       "card": "Dustox",
+       "ability": "Boisterous Wind"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, when you play this Pok\u00e9mon from your hand to evolve 1 of your Pok\u00e9mon, you may use this Ability. Look at the top 4 cards of your deck and attach any number of Basic Energy cards you find there to your Pok\u00e9mon in any way you like. Shuffle the other cards back into your deck.",
+     "count": 1,
+     "kind_hint": "energy_accel",
+     "examples": [
+      {
+       "card": "Grumpig",
+       "ability": "Energized Steps"
+      }
+     ]
+    },
+    {
+     "key": "- When 1 of your {W} Pok\u00e9mon is Knocked Out by damage from an attack from your opponent's Pok\u00e9mon, you may put all Basic {W} Energy attached to that Pok\u00e9mon into your hand instead of the discard pile.",
+     "count": 1,
+     "kind_hint": "energy_accel",
+     "examples": [
+      {
+       "card": "Huntail",
+       "ability": "Diver's Catch"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, you may look at the top 4 cards of your deck and attach any number of Basic {M} Energy cards you find there to your Pok\u00e9mon in any way you like. Shuffle the other cards and put them on the bottom of your deck.",
+     "count": 1,
+     "kind_hint": "energy_accel",
+     "examples": [
+      {
+       "card": "Metang",
+       "ability": "Metal Maker"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, you may use this Ability. Attach a Basic {F} Energy card from your hand to 1 of your {F} Pok\u00e9mon.",
+     "count": 1,
+     "kind_hint": "energy_accel",
+     "examples": [
+      {
+       "card": "Barbaracle",
+       "ability": "Stone Arms"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, if you played Canari from your hand this turn, you may use this Ability. Search your deck for up to 2 Basic {L} Energy cards and attach them to this Pok\u00e9mon. Then, shuffle your deck.",
+     "count": 1,
+     "kind_hint": "energy_accel",
+     "examples": [
+      {
+       "card": "Heliolisk",
+       "ability": "Frilled Generator"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, if this Pok\u00e9mon is on your Bench, you may use this Ability. Attach an Energy card from your hand to your Active Larry's Pok\u00e9mon.",
+     "count": 1,
+     "kind_hint": "energy_accel",
+     "examples": [
+      {
+       "card": "Larry's Komala",
+       "ability": "Lethargic Charge"
+      }
+     ]
+    },
+    {
+     "key": "- As long as this Pok\u00e9mon has a Future Booster Energy Capsule attached, it is {F} and {M} type.",
+     "count": 1,
+     "kind_hint": "energy_accel",
+     "examples": [
+      {
+       "card": "Iron Treads",
+       "ability": "Dual Core"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ab_search_0",
+   "kind_hint": "search",
+   "abilities": [
+    {
+     "key": "- Once during your first turn, you may search your deck for up to 3 {C} Pok\u00e9mon with 100 HP or less, reveal them, and put them into your hand. Then, shuffle your deck. You can't use more than 1 Fan Call Ability during your turn.",
+     "count": 3,
+     "kind_hint": "search",
+     "examples": [
+      {
+       "card": "Fan Rotom",
+       "ability": "Fan Call"
+      },
+      {
+       "card": "Fan Rotom",
+       "ability": "Fan Call"
+      },
+      {
+       "card": "Fan Rotom",
+       "ability": "Fan Call"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, you may search your deck for a Cynthia's Pok\u00e9mon, reveal it, and put it into your hand. Then, shuffle your deck.",
+     "count": 2,
+     "kind_hint": "search",
+     "examples": [
+      {
+       "card": "Cynthia's Gabite",
+       "ability": "Champion's Call"
+      },
+      {
+       "card": "Cynthia's Gabite",
+       "ability": "Champion's Call"
+      }
+     ]
+    },
+    {
+     "key": "- When you play this Pok\u00e9mon from your hand onto your Bench during your turn, you may search your deck for a Pok\u00e9mon Tool card and attach it to this Pok\u00e9mon. Then, shuffle your deck.",
+     "count": 1,
+     "kind_hint": "search",
+     "examples": [
+      {
+       "card": "Farfetch'd",
+       "ability": "Impromptu Carrier"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, you may use this Ability. Search your deck for an Erika's Pok\u00e9mon, reveal it, and put it into your hand. Then, shuffle your deck.",
+     "count": 1,
+     "kind_hint": "search",
+     "examples": [
+      {
+       "card": "Erika's Tangela",
+       "ability": "Gathering of Blossoms"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, you may search your deck for an Ethan's Adventure card, reveal it, and put it into your hand. Then, shuffle your deck.",
+     "count": 1,
+     "kind_hint": "search",
+     "examples": [
+      {
+       "card": "Ethan's Quilava",
+       "ability": "Bonded by the Journey"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, when you play this Pok\u00e9mon from your hand to evolve 1 of your Pok\u00e9mon, you may use this Ability. Search your deck for a Silcoon or a Cascoon and put it onto your Bench. Then, shuffle your deck.",
+     "count": 1,
+     "kind_hint": "search",
+     "examples": [
+      {
+       "card": "Silcoon",
+       "ability": "Multiplying Cocoon"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, when you play this Pok\u00e9mon from your hand to evolve 1 of your Pok\u00e9mon, you may use this Ability. Search your deck for a Shedinja and put it onto your Bench. Then, shuffle your deck.",
+     "count": 1,
+     "kind_hint": "search",
+     "examples": [
+      {
+       "card": "Ninjask",
+       "ability": "Cast-Off Shell"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, if this Pok\u00e9mon's remaining HP is 30 or less, you may search your deck for an Unfezant or Unfezant ex and put it onto this Pidove to evolve it. Then, shuffle your deck.",
+     "count": 1,
+     "kind_hint": "search",
+     "examples": [
+      {
+       "card": "Pidove",
+       "ability": "Emergency Evolution"
+      }
+     ]
+    },
+    {
+     "key": "- When you play this Pok\u00e9mon from your hand onto your Bench during your turn, you may search your deck for up to 3 Basic {F} Energy cards and discard them. Then, shuffle your deck.",
+     "count": 1,
+     "kind_hint": "search",
+     "examples": [
+      {
+       "card": "Drilbur",
+       "ability": "Dig Dig Dig"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, you may search your deck for a Stadium card, reveal it, and put it into your hand. Then, shuffle your deck.",
+     "count": 1,
+     "kind_hint": "search",
+     "examples": [
+      {
+       "card": "Sawsbuck",
+       "ability": "Changing Seasons"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, you may use this Ability. Search your deck for up to 2 Basic {P} Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",
+     "count": 1,
+     "kind_hint": "search",
+     "examples": [
+      {
+       "card": "Aromatisse",
+       "ability": "Scent Collection"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, if your Active Pok\u00e9mon has the Festival Lead Ability, you may search your deck for a card and put it into your hand. Then, shuffle your deck.",
+     "count": 1,
+     "kind_hint": "search",
+     "examples": [
+      {
+       "card": "Thwackey",
+       "ability": "Boom Boom Groove"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, when this Pok\u00e9mon moves from the Active Spot to the Bench, you may search your deck for a Palafin ex and switch it with this Pok\u00e9mon. Any attached cards, damage counters, Special Conditions, turns in play, and any other effects remain on the new Pok\u00e9mon. If you switched a Pok\u00e9mon in this way, put this card into your deck. Then, shuffle your deck.",
+     "count": 1,
+     "kind_hint": "search",
+     "examples": [
+      {
+       "card": "Palafin",
+       "ability": "Zero to Hero"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ab_draw_0",
+   "kind_hint": "draw",
+   "abilities": [
+    {
+     "key": "- Once during your turn, if you played Janine's Secret Art from your hand this turn, you may draw cards until you have 8 cards in your hand.",
+     "count": 1,
+     "kind_hint": "draw",
+     "examples": [
+      {
+       "card": "Crobat",
+       "ability": "Shadowy Envoy"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, when you play this Pok\u00e9mon from your hand to evolve 1 of your Pok\u00e9mon, you may use this Ability. Draw 2 cards.",
+     "count": 1,
+     "kind_hint": "draw",
+     "examples": [
+      {
+       "card": "Kadabra",
+       "ability": "Psychic Draw"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, you may draw a card.",
+     "count": 1,
+     "kind_hint": "draw",
+     "examples": [
+      {
+       "card": "Rapidash",
+       "ability": "Hurried Gait"
+      }
+     ]
+    },
+    {
+     "key": "- You must discard 2 cards from your hand in order to use this Ability. Once during your turn, you may draw a card.",
+     "count": 1,
+     "kind_hint": "draw",
+     "examples": [
+      {
+       "card": "Team Rocket's Porygon-Z",
+       "ability": "Reconstitute"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, you may use this Ability. Your opponent shuffles their hand and puts it on the bottom of their deck. If they put any cards on the bottom of their deck in this way, they draw 4 cards.",
+     "count": 1,
+     "kind_hint": "draw",
+     "examples": [
+      {
+       "card": "Vivillon",
+       "ability": "Grand Wing"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, if this Pok\u00e9mon is in the Active Spot, you may use this Ability. Each player draws a card.",
+     "count": 1,
+     "kind_hint": "draw",
+     "examples": [
+      {
+       "card": "Frosmoth",
+       "ability": "Alluring Wings"
+      }
+     ]
+    },
+    {
+     "key": "- You must put a card from your hand on the bottom of your deck in order to use this Ability. Once during your turn, you may draw cards until you have 5 cards in your hand.",
+     "count": 1,
+     "kind_hint": "draw",
+     "examples": [
+      {
+       "card": "Quaquaval",
+       "ability": "Up-Tempo"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ab_activated_0",
+   "kind_hint": "activated",
+   "abilities": [
+    {
+     "key": "- If Festival Grounds is in play, this Pok\u00e9mon may use an attack it has twice. If the first attack Knocks Out your opponent's Active Pok\u00e9mon, you may attack again after your opponent chooses a new Active Pok\u00e9mon.",
+     "count": 6,
+     "kind_hint": "activated",
+     "examples": [
+      {
+       "card": "Goldeen",
+       "ability": "Festival Lead"
+      },
+      {
+       "card": "Goldeen",
+       "ability": "Festival Lead"
+      },
+      {
+       "card": "Seaking",
+       "ability": "Festival Lead"
+      }
+     ]
+    },
+    {
+     "key": "- When you play this Pok\u00e9mon from your hand to evolve 1 of your Pok\u00e9mon during your turn, you may put 2 damage counters on 1 of your opponent's Pok\u00e9mon.",
+     "count": 1,
+     "kind_hint": "activated",
+     "examples": [
+      {
+       "card": "Team Rocket's Golbat",
+       "ability": "Sneaky Bite"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, if this Pok\u00e9mon is on your Bench, you may discard the bottom card of your deck. If you do, discard all cards from this Pok\u00e9mon and put this Pok\u00e9mon on top of your deck.",
+     "count": 1,
+     "kind_hint": "activated",
+     "examples": [
+      {
+       "card": "Misty's Psyduck",
+       "ability": "Flustered Leap"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, if this Pok\u00e9mon is in the Active Spot, you may shuffle it and all attached cards into your deck.",
+     "count": 1,
+     "kind_hint": "activated",
+     "examples": [
+      {
+       "card": "Abra",
+       "ability": "Teleporter"
+      }
+     ]
+    },
+    {
+     "key": "- When you play this Pok\u00e9mon from your hand to evolve 1 of your Pok\u00e9mon during your turn, you may flip 2 coins. For each heads, choose a random card from your opponent's hand. Your opponent reveals those cards and shuffles them into their deck.",
+     "count": 1,
+     "kind_hint": "activated",
+     "examples": [
+      {
+       "card": "Ambipom",
+       "ability": "Wicked Tail"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, if this Pok\u00e9mon is on your Bench, and if you have any Mega Evolution Pok\u00e9mon ex in play, you may use this Ability. Switch this Pok\u00e9mon with your Active Pok\u00e9mon.",
+     "count": 1,
+     "kind_hint": "activated",
+     "examples": [
+      {
+       "card": "Linoone",
+       "ability": "Excited Dash"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, if you have any {G} Mega Evolution Pok\u00e9mon ex in play, you may use this Ability. Heal 60 damage from 1 of your Pok\u00e9mon.",
+     "count": 1,
+     "kind_hint": "activated",
+     "examples": [
+      {
+       "card": "Ludicolo",
+       "ability": "Excited Heal"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, when your Mega Latias ex moves from your Bench to the Active Spot, you may use this Ability. Move any amount of Energy from your Benched Pok\u00e9mon to your Active Pok\u00e9mon.",
+     "count": 1,
+     "kind_hint": "activated",
+     "examples": [
+      {
+       "card": "Latios",
+       "ability": "Lustrous Assist"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, you may heal 20 damage from your Active Pok\u00e9mon.",
+     "count": 1,
+     "kind_hint": "activated",
+     "examples": [
+      {
+       "card": "Swadloon",
+       "ability": "Healing Leaves"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, if this Pok\u00e9mon is in the Active Spot, you may put a Basic Pok\u00e9mon with 70 HP or less from your discard pile onto your Bench.",
+     "count": 1,
+     "kind_hint": "activated",
+     "examples": [
+      {
+       "card": "Alomomola",
+       "ability": "Gentle Fin"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, you may use this Ability. Your opponent reveals their hand, and you put a Basic Pok\u00e9mon with 70 HP or less that you find there onto your opponent's Bench.",
+     "count": 1,
+     "kind_hint": "activated",
+     "examples": [
+      {
+       "card": "Mandibuzz",
+       "ability": "Look for Prey"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, you may use this Ability. Flip a coin. If heads, discard a random card from your opponent's hand.",
+     "count": 1,
+     "kind_hint": "activated",
+     "examples": [
+      {
+       "card": "Talonflame",
+       "ability": "Sky Hunt"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, you may flip a coin. If heads, switch in 1 of your opponent's Benched Pok\u00e9mon to the Active Spot, and the new Active Pok\u00e9mon is now Confused.",
+     "count": 1,
+     "kind_hint": "activated",
+     "examples": [
+      {
+       "card": "Florges",
+       "ability": "Captivating Invitation"
+      }
+     ]
+    },
+    {
+     "key": "- You must discard a Chill Teaser Toy card from your hand in order to use this Ability. Once during your turn, you may switch in 1 of your opponent's Benched Pok\u00e9mon to the Active Spot.",
+     "count": 1,
+     "kind_hint": "activated",
+     "examples": [
+      {
+       "card": "Meowstic",
+       "ability": "Beckoning Tail"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ab_activated_1",
+   "kind_hint": "activated",
+   "abilities": [
+    {
+     "key": "- Once during your turn, you may use this Ability. Choose a card in your hand that evolves from this Pok\u00e9mon and put it onto this Pok\u00e9mon to evolve it. If you do, place 2 damage counters on the Pok\u00e9mon you evolved in this way. You can't use this Ability during your first turn.",
+     "count": 1,
+     "kind_hint": "activated",
+     "examples": [
+      {
+       "card": "Phantump",
+       "ability": "Spiteful Evolution"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, you may use this Ability. Switch a card from your hand with the top card of your deck.",
+     "count": 1,
+     "kind_hint": "activated",
+     "examples": [
+      {
+       "card": "Gumshoos",
+       "ability": "Evidence Gathering"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, if this Pok\u00e9mon is in the Active Spot, you may make your opponent's Active Pok\u00e9mon Asleep.",
+     "count": 1,
+     "kind_hint": "activated",
+     "examples": [
+      {
+       "card": "Shiinotic",
+       "ability": "Calming Light"
+      }
+     ]
+    },
+    {
+     "key": "- As often as you like during your turn, you may move 1 damage counter from 1 of your Team Rocket's Pok\u00e9mon to another of your Pok\u00e9mon.",
+     "count": 1,
+     "kind_hint": "activated",
+     "examples": [
+      {
+       "card": "Team Rocket's Orbeetle",
+       "ability": "Rocket Brain"
+      }
+     ]
+    },
+    {
+     "key": "- When you play this Pok\u00e9mon from your hand onto your Bench during your turn, you may heal 30 damage from your Active Pok\u00e9mon and have it recover from a Special Condition.",
+     "count": 1,
+     "kind_hint": "activated",
+     "examples": [
+      {
+       "card": "Indeedee",
+       "ability": "Obliging Heal"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, you may look at the top card of your deck. You may discard that card.",
+     "count": 1,
+     "kind_hint": "activated",
+     "examples": [
+      {
+       "card": "Morpeko",
+       "ability": "Snack Seek"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, when you play this Pok\u00e9mon from your hand to evolve 1 of your Pok\u00e9mon, you may use this Ability. Make your opponent's Active Pok\u00e9mon Confused.",
+     "count": 1,
+     "kind_hint": "activated",
+     "examples": [
+      {
+       "card": "Brambleghast",
+       "ability": "Prison Panic"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, when you play this Pok\u00e9mon from your hand to evolve 1 of your Pok\u00e9mon, you may use this Ability. Flip a coin. If heads, discard an Energy from your opponent's Active Pok\u00e9mon.",
+     "count": 1,
+     "kind_hint": "activated",
+     "examples": [
+      {
+       "card": "Tinkatuff",
+       "ability": "Haphazard Hammer"
+      }
+     ]
+    },
+    {
+     "key": "- Once during your turn, if this Pok\u00e9mon is in the Active Spot, you may look at the top 6 cards of your deck, reveal a Supporter card you find there, and put it into your hand. Shuffle the other cards back into your deck.",
+     "count": 1,
+     "kind_hint": "activated",
+     "examples": [
+      {
+       "card": "Tatsugiri",
+       "ability": "Attract Customers"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ab_other_0",
+   "kind_hint": "other",
+   "abilities": [
+    {
+     "key": "- As long as this Pok\u00e9mon is in the Active Spot, it can evolve during your first turn or the turn you play it.",
+     "count": 2,
+     "kind_hint": "other",
+     "examples": [
+      {
+       "card": "Eevee",
+       "ability": "Boosted Evolution"
+      },
+      {
+       "card": "Eevee",
+       "ability": "Boosted Evolution"
+      }
+     ]
+    },
+    {
+     "key": "- Attacks used by this Pok\u00e9mon cost {C} less for each Kofu card in your discard pile.",
+     "count": 2,
+     "kind_hint": "other",
+     "examples": [
+      {
+       "card": "Crabominable",
+       "ability": "Food Prep"
+      },
+      {
+       "card": "Veluza",
+       "ability": "Food Prep"
+      }
+     ]
+    },
+    {
+     "key": "- As long as this Pok\u00e9mon is in the Active Spot, your opponent can't play any Pok\u00e9mon that has an Ability from their hand, except for Team Rocket's Pok\u00e9mon.",
+     "count": 1,
+     "kind_hint": "other",
+     "examples": [
+      {
+       "card": "Team Rocket's Arbok",
+       "ability": "Potent Glare"
+      }
+     ]
+    },
+    {
+     "key": "- Whenever your opponent's Active Pok\u00e9mon moves to the Bench during their turn, place 2 damage counters on that Pok\u00e9mon.",
+     "count": 1,
+     "kind_hint": "other",
+     "examples": [
+      {
+       "card": "Team Rocket's Dugtrio",
+       "ability": "Holes"
+      }
+     ]
+    },
+    {
+     "key": "- Whenever your opponent plays a Pok\u00e9mon from their hand to evolve 1 of their Pok\u00e9mon, put 4 damage counters on that Pok\u00e9mon. The effect of Darkest Impulse doesn't stack.",
+     "count": 1,
+     "kind_hint": "other",
+     "examples": [
+      {
+       "card": "Team Rocket's Ampharos",
+       "ability": "Darkest Impulse"
+      }
+     ]
+    },
+    {
+     "key": "- If you have any Tera Pok\u00e9mon in play, this Pok\u00e9mon can use the Double-Edge attack for {P}.",
+     "count": 1,
+     "kind_hint": "other",
+     "examples": [
+      {
+       "card": "Azumarill",
+       "ability": "Glistening Bubbles"
+      }
+     ]
+    },
+    {
+     "key": "- If this Pok\u00e9mon is Knocked Out by damage from an attack from your opponent's Pok\u00e9mon ex, your opponent can't take any Prize cards for it.",
+     "count": 1,
+     "kind_hint": "other",
+     "examples": [
+      {
+       "card": "Shedinja",
+       "ability": "Fragile Husk"
+      }
+     ]
+    },
+    {
+     "key": "- If any damage is done to this Pok\u00e9mon by attacks, flip a coin. If heads, prevent that damage.",
+     "count": 1,
+     "kind_hint": "other",
+     "examples": [
+      {
+       "card": "Kecleon",
+       "ability": "Expert Hider"
+      }
+     ]
+    },
+    {
+     "key": "- If your opponent's Active Pok\u00e9mon is a Pok\u00e9mon ex, this Pok\u00e9mon can evolve during your first turn or the turn you play it.",
+     "count": 1,
+     "kind_hint": "other",
+     "examples": [
+      {
+       "card": "Luxio",
+       "ability": "Fighting Roar"
+      }
+     ]
+    },
+    {
+     "key": "- If this Pok\u00e9mon is in the Active Spot and is Knocked Out by damage from an attack from your opponent's Pok\u00e9mon, put 6 damage counters on the Attacking Pok\u00e9mon.",
+     "count": 1,
+     "kind_hint": "other",
+     "examples": [
+      {
+       "card": "Maractus",
+       "ability": "Exploding Needles"
+      }
+     ]
+    },
+    {
+     "key": "- If this Pok\u00e9mon has full HP and would be Knocked Out by damage from an attack, it is not Knocked Out, and its remaining HP becomes 10.",
+     "count": 1,
+     "kind_hint": "other",
+     "examples": [
+      {
+       "card": "Crustle",
+       "ability": "Sturdy"
+      }
+     ]
+    },
+    {
+     "key": "- If you have Shelmet in play, this Pok\u00e9mon can evolve during your first turn or the turn you play it.",
+     "count": 1,
+     "kind_hint": "other",
+     "examples": [
+      {
+       "card": "Karrablast",
+       "ability": "Stimulated Evolution"
+      }
+     ]
+    },
+    {
+     "key": "- During your opponent's turn, if this Pok\u00e9mon is discarded from your deck by an effect of an attack or Ability from your opponent's Pok\u00e9mon, or by an effect of your opponent's Item or Supporter cards, discard the top 8 cards of your opponent's deck.",
+     "count": 1,
+     "kind_hint": "other",
+     "examples": [
+      {
+       "card": "Ferrothorn",
+       "ability": "Startling Drop"
+      }
+     ]
+    },
+    {
+     "key": "- Whenever your opponent plays an Item or Supporter card from their hand, prevent all effects of that card done to this Pok\u00e9mon.",
+     "count": 1,
+     "kind_hint": "other",
+     "examples": [
+      {
+       "card": "Fraxure",
+       "ability": "Unnerve"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ab_other_1",
+   "kind_hint": "other",
+   "abilities": [
+    {
+     "key": "- If you have Karrablast in play, this Pok\u00e9mon can evolve during your first turn or the turn you play it.",
+     "count": 1,
+     "kind_hint": "other",
+     "examples": [
+      {
+       "card": "Shelmet",
+       "ability": "Stimulated Evolution"
+      }
+     ]
+    },
+    {
+     "key": "- If your opponent has any cards in their discard pile that have \"Colress\" in the name, this Pok\u00e9mon can use the Trifrost attack for {C}.",
+     "count": 1,
+     "kind_hint": "other",
+     "examples": [
+      {
+       "card": "Kyurem",
+       "ability": "Plasma Bane"
+      }
+     ]
+    },
+    {
+     "key": "- If this Pok\u00e9mon has a Pok\u00e9mon Tool attached, your opponent can't play any ACE SPEC cards from their hand.",
+     "count": 1,
+     "kind_hint": "other",
+     "examples": [
+      {
+       "card": "Genesect",
+       "ability": "ACE Nullifier"
+      }
+     ]
+    },
+    {
+     "key": "- As long as this Pok\u00e9mon is in play, it is {F} and {P} type.",
+     "count": 1,
+     "kind_hint": "other",
+     "examples": [
+      {
+       "card": "Carbink",
+       "ability": "Double Type"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

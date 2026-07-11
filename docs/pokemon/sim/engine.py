@@ -14,11 +14,17 @@ Scope of v1 — NOT yet modeled (base-combat baseline; see EFFECTS registry to e
 Deck spec: list of (count:int, item) where item is a Card or an energy type string
 like 'Grass'. Basic energy is unlimited; every other card is capped at 4 by the builder.
 """
-import random, re
+import json, os, random, re
 from collections import Counter
 from cards import load_cards
 import effects
+import attack_effects
+import ability_effects
+import trainer_effects
 import special_energy as SE
+# NOTE: the generated effect batches are loaded at the BOTTOM of this module (see _load_registries),
+# after Mon/Player/Game are defined — some batches do `from engine import Mon`, so loading them up
+# here would hit a partially-initialized module and silently drop the whole registry.
 
 BY_KEY, BY_NAME = load_cards()
 TYPE_OF_ENERGY = {'Grass': 'Grass', 'Fire': 'Fire', 'Water': 'Water', 'Lightning': 'Lightning',
@@ -27,6 +33,7 @@ TYPE_OF_ENERGY = {'Grass': 'Grass', 'Fire': 'Fire', 'Water': 'Water', 'Lightning
 L2T = {'G': 'Grass', 'R': 'Fire', 'W': 'Water', 'L': 'Lightning', 'P': 'Psychic',
        'F': 'Fighting', 'D': 'Darkness', 'M': 'Metal', 'C': 'Colorless'}
 T2L = {v: k for k, v in L2T.items()}
+TRAINER_THRESH = 1.0     # min estimated board-position gain to play a Trainer (competitive-ish selection)
 
 
 class Mon:
@@ -45,6 +52,10 @@ class Mon:
         self.dr_turn = -9            # game turn the temp reduction was set (applies the turn after)
         self.special = []            # names of attached Special Energy (for riders/provision)
         self.ramp = {}               # attack name -> accumulated "next turn does N more" bonus (Echoed Voice)
+        self.last_atk = None         # last attack name this Pokémon used (+ the game turn it used it)
+        self.last_atk_turn = -9
+        self.evolved_turn = -9       # game turn this Pokémon evolved (for "if it evolved this turn")
+        self.tools = []              # names of Pokémon Tools attached
     @property
     def bonus_hp(self):
         return 20 * self.special.count('Growing Grass Energy')   # Growing Grass: +20 HP
@@ -87,6 +98,8 @@ class Player:
         self.prizes = []
         self.prizes_taken = 0
         self.lost = False
+        self.last_ko_turn = -9       # game turn this player last had a Pokémon KO'd by damage
+        self.played = []             # names of Trainer cards this player played THIS turn (reset each turn)
 
     def draw(self, n=1):
         for _ in range(n):
@@ -133,6 +146,35 @@ class Player:
         self.active.came_from_bench = True
 
 
+def _clone_mon(m):
+    if m is None:
+        return None
+    n = Mon.__new__(Mon)
+    n.__dict__.update(m.__dict__)
+    n.energy = Counter(m.energy); n.status = dict(m.status); n.special = list(m.special)
+    n.ramp = dict(m.ramp); n.tools = list(m.tools)
+    return n
+
+
+def _clone_player(p):
+    n = Player.__new__(Player)
+    n.__dict__.update(p.__dict__)
+    n.hand = list(p.hand); n.deck = list(p.deck); n.discard = list(p.discard)
+    n.disc_energy = Counter(p.disc_energy); n.prizes = list(p.prizes); n.played = list(p.played)
+    n.active = _clone_mon(p.active); n.bench = [_clone_mon(b) for b in p.bench]
+    return n
+
+
+class _EstGame:
+    """Throwaway Game stand-in for a non-mutating attack-damage estimate (best_attack). Carries only
+    an rng + turn; effects that reach for real Game helper methods raise and fall back to the heuristic."""
+    __slots__ = ('rng', 'turn', 'verbose', 'stats', 'stadium')
+
+    def __init__(self, turn, stadium=None):
+        self.rng = random.Random(turn * 2654435761 & 0xFFFFFFFF)
+        self.turn = turn; self.verbose = False; self.stats = None; self.stadium = stadium
+
+
 def cost_met(mon, cost):
     """Can `mon`'s attached energy pay `cost` (a letter string like 'GGGG'/'RC')?
     Pool keys are types plus two special-energy pseudo-types: 'Colorless' (pays {C} only)
@@ -159,6 +201,7 @@ class Game:
         self.players = [Player('A', deck_a, self.rng), Player('B', deck_b, self.rng)]
         self.verbose = verbose
         self.turn = 0
+        self.stadium = None          # (name, owner_idx) of the Stadium in play, or None
         self.stats = [self._newstat(), self._newstat()] if stats else None
 
     @staticmethod
@@ -174,7 +217,10 @@ class Game:
             p.setup()
 
     def is_ko(self, mon, owner):
-        return mon.damage >= mon.card.hp + effects.team_hp_bonus(owner)
+        extra = (effects.team_hp_bonus(owner) + mon.bonus_hp                 # ability HP auras + Growing Grass
+                 + ability_effects.hp_bonus(mon, owner, self)               # registry passive-HP abilities
+                 + trainer_effects.tool_hp(mon, owner, self))               # Tool +HP (e.g. Defender)
+        return mon.damage >= mon.card.hp + extra
 
     def winner(self):
         for i, p in enumerate(self.players):
@@ -222,11 +268,15 @@ class Game:
                         ev = Mon(t[1])
                         ev.damage = mon.damage; ev.energy = mon.energy; ev.turns = mon.turns
                         ev.status = mon.status; ev.poison_amt = mon.poison_amt
+                        ev.special = mon.special; ev.ramp = mon.ramp; ev.tools = mon.tools   # keep attached/accumulated state
+                        ev.last_atk = mon.last_atk; ev.last_atk_turn = mon.last_atk_turn
+                        ev.evolved_turn = self.turn
                         me.hand.remove(t)
                         if mon is me.active:
                             me.active = ev
                         else:
                             me.bench[me.bench.index(mon)] = ev
+                        self.log(f"    evolve {mon.card.name} -> {ev.card.name}")
                         changed = True
                         break
                 if changed:
@@ -260,6 +310,7 @@ class Game:
         pick = pick or (etoks[0] if etoks else None)
         if pick is not None:
             target.energy[pick[1]] += 1; me.hand.remove(pick)
+            self.log(f"    attach {pick[1]} Energy -> {target.card.name} (now {target.total_energy()} energy)")
             return
         # 3) only special energy left in hand — attach the first legal one
         for t in stoks:
@@ -513,51 +564,64 @@ class Game:
         while changed:
             changed = False
             for t in [x for x in me.hand if x[0] == 'T' and x[1]['trainerType'] in ('Item', 'Tool')]:
-                eff = t[1].get('effect', ''); cat = self._tcat(t[1]['name'], eff); done = False
-                if cat == 'CANDY': done = self._rare_candy(me)
-                elif cat == 'BENCH': done = len(me.bench) < 5 and self._do_search_poke(me, eff, to_bench=True)
-                elif cat == 'SEARCHPOKE': done = (not self.primary(me) or len(me.bench) < 3) and self._do_search_poke(me, eff)
-                elif cat == 'SEARCHNRG': done = sum(1 for x in me.hand if x[0] == 'E') < 2 and self._search_deck_to_hand(me, lambda x: x[0] == 'E', 2) > 0
-                elif cat == 'ACCEL': done = ((self.primary(me) and not self._fundable(self.primary(me))) or (me.active and not self._fundable(me.active))) and self._do_accel(me, eff)
-                elif cat == 'HEAL': done = me.active and me.active.damage >= 60 and self._do_heal(me, eff)
-                elif cat == 'RECOVER': done = any(x[0] == 'P' for x in me.discard) and self._do_recover(me)
-                if done:
-                    me.hand.remove(t); changed = True; break
+                nm = t[1]['name']; eff = t[1].get('effect', ''); cat = self._tcat(nm, eff)
+                if t[1]['trainerType'] == 'Tool':            # attach a Tool to the readiest attacker
+                    tgt = self.primary(me) or me.active
+                    if tgt and not tgt.tools:
+                        tgt.tools.append(nm); me.hand.remove(t); me.played.append(nm); changed = True; break
+                    continue
+                if cat == 'CANDY':                           # Rare Candy: evolution mechanic, not a text effect
+                    if self._rare_candy(me):
+                        me.hand.remove(t); me.played.append(nm); changed = True; break
+                    continue
+                # fast category gate for common kinds; benefit-estimate ONLY the uncategorized/diverse ones
+                if cat == 'BENCH': play = len(me.bench) < 5
+                elif cat == 'SEARCHPOKE': play = (not self.primary(me) or len(me.bench) < 3)
+                elif cat == 'SEARCHNRG': play = sum(1 for x in me.hand if x[0] == 'E') < 2
+                elif cat == 'ACCEL': play = (self.primary(me) and not self._fundable(self.primary(me))) or (me.active and not self._fundable(me.active))
+                elif cat == 'HEAL': play = me.active and me.active.damage >= 60
+                elif cat == 'RECOVER': play = any(x[0] == 'P' for x in me.discard)
+                else: play = self._trainer_benefit(me, opp, eff) > TRAINER_THRESH
+                if play:
+                    me.hand.remove(t); me.played.append(nm)                 # play the card FIRST, then resolve
+                    trainer_effects.resolve_action(me, opp, self, eff)
+                    changed = True; break
+        # ---- STADIUM (one on the board; play the most useful new one) ----
+        stads = [x for x in me.hand if x[0] == 'T' and x[1]['trainerType'] == 'Stadium'
+                 and (self.stadium is None or self.stadium[0] != x[1]['name'])]
+        if stads:
+            stad = max(stads, key=lambda x: self._trainer_benefit(me, opp, x[1].get('effect', '')))
+            if self._trainer_benefit(me, opp, stad[1].get('effect', '')) > TRAINER_THRESH - 0.5:
+                self.stadium = (stad[1]['name'], self.players.index(me))
+                me.hand.remove(stad); me.played.append(stad[1]['name'])
+                trainer_effects.resolve_action(me, opp, self, stad[1].get('effect', ''))   # once-per-turn action
         # ---- SUPPORTER (one per turn) ----
         sup = [t for t in me.hand if t[0] == 'T' and t[1]['trainerType'] == 'Supporter']
         if not sup:
             return
+        # Boss's Orders-style gust: enabling a KO isn't captured by board value -> targeted special-case
         boss = next((t for t in sup if self._tcat(t[1]['name'], t[1].get('effect', '')) == 'GUST'), None)
         if boss and self._gust(me, opp):
-            me.hand.remove(boss); return
-        ace = self.primary(me)
-        underfunded = (ace and not self._fundable(ace)) or (me.active and not self._fundable(me.active))
+            me.hand.remove(boss); me.played.append(boss[1]['name']); return
         hurt = me.active and me.active.damage >= 80
-        need_poke = (not ace) or len(me.bench) < 3
+        need_poke = (not self.primary(me)) or len(me.bench) < 3
         short_nrg = sum(1 for x in me.hand if x[0] == 'E') < 2
+        underfunded = (self.primary(me) and not self._fundable(self.primary(me))) or (me.active and not self._fundable(me.active))
 
-        def score(t):
-            eff = t[1].get('effect', '').lower(); c = self._tcat(t[1]['name'], eff)
-            if c == 'DRAW':
-                if 'discard your hand and draw 7' in eff: return 30 if len(me.hand) <= 3 else 0
-                return 20 if len(me.hand) <= 4 else 6
+        def sup_score(t):
+            eff = t[1].get('effect', ''); c = self._tcat(t[1]['name'], eff)
+            if c == 'DRAW': return 30 if ('discard your hand' in eff.lower() and len(me.hand) <= 3) else (20 if len(me.hand) <= 4 else 6)
             if c == 'ACCEL': return 25 if underfunded else 4
             if c == 'HEAL': return 22 if hurt else 0
             if c == 'SEARCHPOKE': return 16 if need_poke else 3
             if c == 'SEARCHNRG': return 12 if short_nrg else 2
             if c == 'BENCH': return 11 if len(me.bench) < 4 else 0
-            return 0
-        best = max(sup, key=score)
-        if score(best) <= 0:
-            return
-        eff = best[1].get('effect', ''); c = self._tcat(best[1]['name'], eff)
-        me.hand.remove(best)                                # commit the supporter, then resolve
-        if c == 'DRAW': self._do_draw(me, eff)
-        elif c == 'ACCEL': self._do_accel(me, eff)
-        elif c == 'HEAL': self._do_heal(me, eff)
-        elif c == 'SEARCHPOKE': self._do_search_poke(me, eff)
-        elif c == 'SEARCHNRG': self._search_deck_to_hand(me, lambda x: x[0] == 'E', 2)
-        elif c == 'BENCH': self._do_search_poke(me, eff, to_bench=True)
+            b = self._trainer_benefit(me, opp, eff)              # OTHER supporter: benefit-estimate
+            return b if b > TRAINER_THRESH else 0
+        s_val, best = max(((sup_score(t), t) for t in sup), key=lambda z: z[0])
+        if s_val > 0:
+            me.hand.remove(best); me.played.append(best[1]['name'])
+            trainer_effects.resolve_action(me, opp, self, best[1].get('effect', ''))
 
     def ai_main(self, me, opp):
         for m in me.all_mons():
@@ -578,6 +642,60 @@ class Game:
         self.attach_energy(me)                              # fund the ace / active
         self.maybe_retreat(me, opp)                         # promote the best attacker
 
+    def _est_game(self):
+        """A throwaway clone of the game (both players cloned + a fresh rng) for non-mutating estimates.
+        Carries the real Game methods, so effects that search/gust/etc. resolve correctly on the copy."""
+        g = Game.__new__(Game)
+        g.rng = random.Random((self.turn * 2654435761) & 0xFFFFFFFF)
+        g.turn = self.turn; g.verbose = False; g.stats = None; g.stadium = self.stadium
+        g.players = [_clone_player(self.players[0]), _clone_player(self.players[1])]
+        return g
+
+    def _est_damage(self, me, opp, a):
+        """Estimate an attack's raw damage for AI attack-selection. The fast scaling heuristic is used
+        for ordinary attacks; only CONDITIONAL-GATE attacks (which the heuristic over-estimates, e.g.
+        Fickle Spitting's phantom 120) are resolved on a non-mutating clone to get the honest value."""
+        txt = (a.get('text') or '').lower()
+        if not ('does nothing' in txt or 'only if' in txt or 'only during' in txt or "can use this attack only" in txt):
+            return max(0, effects.scaling_damage((me, opp, me.active, opp.active, self), a))
+        try:
+            g2 = self._est_game(); mi = self.players.index(me)
+            me2, opp2 = g2.players[mi], g2.players[1 - mi]
+            return max(0, attack_effects.resolve(me2, opp2, me2.active, opp2.active, g2, a))
+        except Exception:
+            return max(0, effects.scaling_damage((me, opp, me.active, opp.active, self), a))
+
+    def _position(self, pl, opp):
+        """Heuristic value of a player's board (higher = better): attacker energy-readiness (the ACTIVE
+        weighted most, since it does the attacking), a bonus for an Active that can attack RIGHT NOW,
+        bench development, hand/card advantage, prizes taken, and durability. Used to score trainer plays."""
+        if not pl.all_mons():
+            return -200.0
+        s = len(pl.bench) * 3.0 + len(pl.hand) * 1.5 + pl.prizes_taken * 18.0
+        for m in pl.all_mons():
+            active = m is pl.active
+            cost = self._cheapest_cost(m) or ''
+            if cost:
+                s += min(m.total_energy(), len(cost)) * (5.0 if active else 3.0)   # energy toward attacking
+                if active and cost_met(m, cost):
+                    s += 8.0                                                        # Active can attack NOW
+            s += max(0, m.max_hp - m.damage) * (0.06 if active else 0.03)          # durability (Active matters more)
+        return s
+
+    def _trainer_benefit(self, me, opp, text):
+        """Net position gain from playing a trainer, estimated on a clone (my gain minus the opponent's).
+        Large-negative if it can't be evaluated or is a no-op, so it won't be played."""
+        mi = self.players.index(me)
+        before = self._position(me, opp) - self._position(opp, me)
+        try:
+            g2 = self._est_game(); me2, opp2 = g2.players[mi], g2.players[1 - mi]
+            did, _ = trainer_effects.resolve_action(me2, opp2, g2, text)
+        except Exception:
+            return -999.0
+        if not did:
+            return -999.0
+        return (self._position(me2, opp2) - self._position(opp2, me2)) - before
+
     def best_attack(self, me, opp, mon, defender):
         """Best affordable, non-cooldowned attack -> (attack, actual_damage, value) or None.
         Selection uses `value` (damage + a bonus for status-inflicting attacks) so pure
@@ -589,7 +707,7 @@ class Game:
             if mon.cd_turn + 2 == self.turn and mon.cd_name in ('ALL', a['name']):
                 continue
             ctx = (me, opp, mon, defender, self)
-            dmg = effects.scaling_damage(ctx, a) + mon.ramp.get(a['name'], 0)
+            dmg = self._est_damage(me, opp, a) + mon.ramp.get(a['name'], 0)   # real, gate-aware estimate
             if dmg > 0:
                 dmg += effects.team_attack_bonus(ctx, a)     # Regal Cheer / Cobalt Command / etc.
             if dmg and defender and defender.card.weakness and defender.card.weakness == mon.card.ptype:
@@ -603,10 +721,63 @@ class Game:
                 best = (a, dmg, value)
         return best
 
+    def _resolve_kos(self, me, opp):
+        """After an attack: KO every Pokémon at/over its HP on either side (active OR bench — covers
+        spread, recoil, self-damage), award prizes to the other player, and promote where the Active fell."""
+        for pl, taker in ((opp, me), (me, opp)):                 # defender's KOs score for the attacker first
+            for mon in [m for m in pl.all_mons() if m and self.is_ko(m, pl)]:
+                pl.last_ko_turn = self.turn                  # for "if any of your Pokémon were KO'd last turn"
+                for t, n in mon.energy.items():
+                    pl.disc_energy[t] += n
+                pl.discard.append(('P', mon.card))
+                spot = 'Active' if mon is pl.active else 'Bench'
+                if mon is pl.active:
+                    pl.active = None
+                elif mon in pl.bench:
+                    pl.bench.remove(mon)
+                taker.take_prize(2 if mon.card.is_ex else 1)
+                self.log(f"    KO {mon.card.name} ({spot}) — {taker.name} prizes {taker.prizes_taken}/6")
+            if pl.active is None:
+                pl.promote()
+
+    def _log_attack(self, me, opp, attacker, a, raw, dmg, weak, immune, b):
+        """One structured line auditing an attack: raw → weakness/immunity/DR → final, plus side effects."""
+        d = opp.active
+        pre = raw * 2 if weak else raw
+        mods = []
+        if weak:
+            mods.append('x2WEAK')
+        if immune:
+            mods.append('IMMUNE->0')
+        elif pre != dmg:
+            mods.append(f'DR-{pre - dmg}')
+        fx = []
+        if d:
+            newst = [s for s in d.status if s not in b['dst'] and s != 'CantRetreat']
+            if newst:
+                fx.append('status+' + ','.join(newst))
+            if d.total_energy() < b['den']:
+                fx.append(f'-{b["den"] - d.total_energy()}E')
+        for (nm, dm), m in zip(b['obench'], opp.bench):
+            if m.card.name == nm and m.damage != dm:
+                fx.append(f'{nm}(bench)+{m.damage - dm}')
+        if len(me.hand) > b['hand']:
+            fx.append(f'draw+{len(me.hand) - b["hand"]}')
+        if attacker.damage > b['sdmg']:
+            fx.append(f'selfDmg+{attacker.damage - b["sdmg"]}')
+        hp = f"{max(0, d.hp_left)}/{d.max_hp}HP" if d else '-'
+        self.log(f"  T{self.turn} {me.name}: {attacker.card.name} -> {a['name']}  raw={raw}"
+                 f"{' ' + ' '.join(mods) if mods else ''} => {dmg}  |  vs {b['dname']} {hp}"
+                 f"{'  [' + ', '.join(fx) + ']' if fx else ''}")
+
     def take_turn(self, idx, first_turn=False):
         me, opp = self.players[idx], self.players[1 - idx]
+        me.played = []                                   # reset "played this turn" history
         if not me.draw(1):
             me.lost = True; self.log(f"{me.name} decks out"); return
+        self.log(f"-- Turn {self.turn}: {me.name} draws (hand {len(me.hand)}, deck {len(me.deck)}, "
+                 f"prizes {me.prizes_taken}/6) active={me.active.card.name if me.active else '-'}"
+                 f" {sorted(me.active.status) if me.active and me.active.status else ''}")
         self.ai_main(me, opp)
         # attack (not on the very first turn of the game for the starting player)
         if not first_turn and me.active and opp.active:
@@ -614,55 +785,45 @@ class Game:
         if not first_turn and me.active and opp.active and effects.can_attack(me.active, self.rng):
             atk = self.best_attack(me, opp, me.active, opp.active)
             if atk and atk[2] > 0:
-                a, dmg, _ = atk
-                ctx = (me, opp, me.active, opp.active, self)
-                dmg = effects.incoming_damage(dmg, me.active, opp.active, opp, self)
-                opp.active.damage += dmg
+                a = atk[0]
+                attacker = me.active
+                defender = opp.active                             # capture before any switch effect
+                _b = None
+                if self.verbose:                                  # snapshot for move-auditing
+                    _b = {'dst': dict(defender.status) if defender else {}, 'den': defender.total_energy() if defender else 0,
+                          'obench': [(m.card.name, m.damage) for m in opp.bench], 'hand': len(me.hand),
+                          'dname': defender.card.name if defender else '-', 'sdmg': attacker.damage}
+                ctxb = (me, opp, attacker, defender, self)
+                raw = attack_effects.resolve(me, opp, attacker, defender, self, a)    # registry: damage + ALL side effects
+                attacker.last_atk, attacker.last_atk_turn = a['name'], self.turn      # record AFTER resolving (so gates see prior turn)
+                if raw > 0:                                       # attacker-side buffs (ability + tool + team + ramp)
+                    raw += (attacker.ramp.get(a['name'], 0) + effects.team_attack_bonus(ctxb, a)
+                            + ability_effects.attack_bonus(attacker, defender, a, self)
+                            + trainer_effects.tool_attack_bonus(attacker, defender, a, self))
+                dmg, immune, weak = 0, False, False
+                if raw > 0 and defender is not None:
+                    weak = bool(defender.card.weakness and defender.card.weakness == attacker.card.ptype)
+                    dmg = raw * 2 if weak else raw
+                    if ability_effects.is_immune(attacker, defender, opp, self):
+                        dmg = 0; immune = True                        # ability immunity (registry, team-aware)
+                    else:
+                        dmg = ability_effects.reduce_damage(dmg, attacker, defender, opp, self)    # ability DR
+                        dmg = trainer_effects.tool_reduce(dmg, attacker, defender, opp, self)      # Tool DR (Defender &c.)
+                        if getattr(defender, 'dr_turn', -9) + 1 == self.turn:                     # attack-set "-N next turn"
+                            dmg = max(0, dmg - getattr(defender, 'dr_amount', 0))
+                    if dmg > 0:
+                        ability_effects.on_damaged(attacker, defender, opp, self)                  # Poison Point &c.
+                        trainer_effects.tool_on_damaged(attacker, defender, opp, self)             # Tool reactions (Lucky Helmet &c.)
+                    defender.damage += dmg
+                    if 'Spiky Energy' in defender.special:
+                        attacker.damage += 20                    # Spiky Energy counters the attacker
                 if self.stats is not None:
                     self.stats[idx]['attacks'] += 1
-                    self.stats[idx]['dmg_dealt'] += dmg + effects.spread_value(ctx, a)
+                    self.stats[idx]['dmg_dealt'] += dmg
                     self.stats[1 - idx]['dmg_taken'] += dmg
-                if dmg > 0 and 'Spiky Energy' in opp.active.special:
-                    me.active.damage += 20                       # Spiky Energy counters the attacker
-                self.log(f"  {me.name}'s {me.active.card.name} uses {a['name']} for {dmg} "
-                         f"({opp.active.card.name} {max(0,opp.active.hp_left)}/{opp.active.max_hp})")
-                effects.attack_side_effects(ctx, a)
-                if not opp.active.effect_immune():               # Mist/Rocky/Bubbly block attack effects
-                    effects.apply_attack_status(ctx, a)
-                effects.apply_attack_utility(ctx, a)
-                for b in effects.apply_spread(ctx, a):           # bench spread KOs
-                    if b in opp.bench:
-                        for t, n in b.energy.items():
-                            opp.disc_energy[t] += n
-                        opp.discard.append(('P', b.card)); opp.bench.remove(b)
-                        me.take_prize(2 if b.card.is_ex else 1)
-                ka, wipe_bench = effects.conditional_ko(ctx, a)  # board-wipe KO (Soul Destroyer)
-                for b in wipe_bench:
-                    if b in opp.bench:
-                        for t, n in b.energy.items():
-                            opp.disc_energy[t] += n
-                        opp.discard.append(('P', b.card)); opp.bench.remove(b)
-                        me.take_prize(2 if b.card.is_ex else 1)
-                if ka and opp.active:
-                    opp.active.damage = opp.active.max_hp         # force lethal; is_ko below promotes
-                cd = effects.attack_cooldown(a)
-                if cd:
-                    me.active.cd_name = cd; me.active.cd_turn = self.turn
-                if self.is_ko(opp.active, opp):                  # defender KO
-                    ko = opp.active
-                    self.log(f"    KO {ko.card.name}!")
-                    for t, n in ko.energy.items():
-                        opp.disc_energy[t] += n
-                    opp.discard.append(('P', ko.card))
-                    me.take_prize(2 if ko.card.is_ex else 1)
-                    opp.promote()
-                if me.active and self.is_ko(me.active, me):       # attacker self-KO (recoil)
-                    ko = me.active
-                    for t, n in ko.energy.items():
-                        me.disc_energy[t] += n
-                    me.discard.append(('P', ko.card))
-                    opp.take_prize(2 if ko.card.is_ex else 1)
-                    me.promote()
+                if self.verbose:
+                    self._log_attack(me, opp, attacker, a, raw, dmg, weak, immune, _b)
+                self._resolve_kos(me, opp)                        # KO/prizes/promote both sides (spread, recoil, self-KO)
         # end of turn: age, clear my paralysis, run Pokémon Checkup on both actives
         for m in me.all_mons():
             m.turns += 1
@@ -681,13 +842,22 @@ class Game:
             other = self.players[1 - i]
             if not p.active:
                 continue
+            for m in p.all_mons():
+                ability_effects.run_between_turns(m, p, self)    # e.g. Insomnia clears Asleep each checkup
+            _cbefore = p.active.damage
             effects.checkup(p.active, self.rng)
+            if p.active.damage > _cbefore:
+                self.log(f"    checkup: {p.active.card.name} +{p.active.damage - _cbefore} "
+                         f"({','.join(sorted(p.active.status)) or 'none'})")
             if self.is_ko(p.active, p):
                 ko = p.active
+                p.last_ko_turn = self.turn
                 for t, n in ko.energy.items():
                     p.disc_energy[t] += n
                 p.discard.append(('P', ko.card))
                 other.take_prize(2 if ko.card.is_ex else 1)
+                self.log(f"    KO {ko.card.name} (checkup: {','.join(sorted(ko.status)) or 'condition'}) "
+                         f"— {other.name} prizes {other.prizes_taken}/6")
                 p.promote()
 
     def play(self, max_turns=200):
@@ -719,6 +889,23 @@ def run_match(deck_a, deck_b, games=200, base_seed=1):
             actual = w if g % 2 == 0 else 1 - w
             wins[actual] += 1
     return wins
+
+
+def _load_registries():
+    """Load every generated effect/ability/trainer batch into its registry. Called at import time BELOW,
+    after Mon/Player/Game exist — some generated batches do `from engine import Mon`, so this must run
+    after the classes are defined, not at the top of the module."""
+    try:
+        import effects_gen; effects_gen.load_all()
+        import abilities_gen; abilities_gen.load_all()
+        import trainers_gen; trainers_gen.load_all()
+        tj = json.load(open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'deckgen', 'trainers.json')))
+        trainer_effects.register_tool_texts({n: v.get('effect', '') for n, v in tj.items() if v.get('trainerType') == 'Tool'})
+    except Exception:
+        import traceback; traceback.print_exc()
+
+
+_load_registries()
 
 
 if __name__ == '__main__':
