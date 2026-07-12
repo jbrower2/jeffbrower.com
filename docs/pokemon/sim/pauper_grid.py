@@ -106,12 +106,15 @@ def build():
                 pk.append((c, v))
         pk.sort(key=lambda x: (-x[1], -x[0].stage, x[0].name))
         poke_html = ''.join(thumb(card_img(c), v, c.name) for c, v in pk)
-        # energy badge(s)
+        # energy badges: basic (typed + colored) then Special Energy (distinct gold), full names
         en_html = ''
         for k, v in e['cards'].items():
             if k.startswith('E|'):
                 t = k[2:]
-                en_html += f'<span class="en" style="background:{ETYPE_COLOR.get(t,"#888")}">{v}&times; {t[:1]}</span>'
+                en_html += f'<span class="en" style="background:{ETYPE_COLOR.get(t,"#888")}">{v}&times; {t} Energy</span>'
+        for k, v in e['cards'].items():
+            if k.startswith('S|'):                       # Special Energy: named card, no basic-type color
+                en_html += f'<span class="en sp">{v}&times; {k[2:]}</span>'
         # trainer cells (aligned columns)
         tc = {k[2:]: v for k, v in e['cards'].items() if k.startswith('T|')}
         tds = []
@@ -147,21 +150,22 @@ thead .dname,thead .poke,thead .en-h{{z-index:4}}
 .cc{{color:#7f8798;font-weight:400;margin-left:5px}}
 .poke{{position:sticky;left:150px;z-index:2;background:#14161c;min-width:360px;max-width:360px}}
 .poke .card{{display:inline-flex;flex-direction:column;align-items:center;margin:1px}}
-.en-cell,.en-h{{position:sticky;left:510px;z-index:2;background:#14161c;min-width:52px}}
+.en-cell,.en-h{{position:sticky;left:510px;z-index:2;background:#14161c;min-width:150px;max-width:150px}}
 .card{{display:inline-flex;flex-direction:column;align-items:center;cursor:zoom-in}}
 .card img{{width:42px;border-radius:3px;display:block}}
 .card b{{font-size:10px;color:#ffd66b;line-height:1;min-height:10px}}
 #imgpop{{position:fixed;display:none;z-index:100;pointer-events:none}}
 #imgpop img{{width:340px;border-radius:11px;box-shadow:0 12px 40px rgba(0,0,0,.6);display:block}}
 .card.noimg .nm{{font-size:8px;width:40px;height:56px;display:flex;align-items:center;text-align:center;border:1px solid #333;border-radius:3px;padding:2px}}
-.en{{display:inline-block;color:#fff;border-radius:4px;padding:1px 5px;margin:1px;font-size:11px;font-weight:600}}
+.en{{display:block;width:fit-content;color:#fff;border-radius:4px;padding:1px 6px;margin:2px 1px;font-size:11px;font-weight:600}}
+.en.sp{{background:#333846;color:#ffd66b;border:1px solid #b9954a}}
 tbody tr:hover td,tbody tr:hover th{{background:#1e2430}}
 tbody tr:hover .poke,tbody tr:hover .dname,tbody tr:hover .en-cell{{background:#1e2430}}
 </style></head><body>
 <h1>Pauper decks — card grid</h1>
 <div class="sub">{len(decks)} decks, ranked by score. Pokémon (left, frozen) &middot; energy &middot; {len(trainers)} trainer columns aligned down the field. Multiples shown as <b style="color:#ffd66b">N&times;</b>. Scroll right for trainers.</div>
 <div class="wrap"><table>
-<thead><tr><th class="dname">Deck</th><th class="poke">Pok&eacute;mon</th><th class="en-h">En</th>{thead}</tr></thead>
+<thead><tr><th class="dname">Deck</th><th class="poke">Pok&eacute;mon</th><th class="en-h">Energy</th>{thead}</tr></thead>
 <tbody>
 {chr(10).join(rows)}
 </tbody></table></div>
