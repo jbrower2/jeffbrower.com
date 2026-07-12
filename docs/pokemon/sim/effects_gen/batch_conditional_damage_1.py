@@ -216,10 +216,10 @@ def _three_dark_plus_50(ctx):
 
 @effect("During your next turn, this Pokémon's Meteor Mash attack does 60 more damage (before applying Weakness and Resistance).")
 def _meteor_mash_ramp(ctx):
-    # Metagross (SV05) Meteor Mash — [60]; ramps its OWN Meteor Mash +60 for next turn (stacks),
-    # via mon.ramp keyed by attack name (the engine adds mon.ramp[name] before Weakness).
-    nm = ctx.attack['name']
-    ctx.attacker.ramp[nm] = ctx.attacker.ramp.get(nm, 0) + 60
+    # Metagross (SV05) Meteor Mash — [60]; "during your next turn, this attack does 60 more." This is a
+    # ONE-SHOT +60 for the immediately-following turn, NOT a stacking pile: using it every turn steadies
+    # at 60 -> 120 -> 120, not 60 -> 120 -> 180. buff_next_turn overwrites and expires it.
+    ctx.buff_next_turn(60)
     return ctx.base
 
 

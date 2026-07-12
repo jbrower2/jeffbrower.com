@@ -14,7 +14,7 @@ def module_name(path):
     return rel[:-3].replace(os.sep, '.')
 
 
-mods = (['test_effects', 'test_abilities', 'test_trainers']
+mods = (['test_effects', 'test_abilities', 'test_trainers', 'test_ramp_expiry']
         + [module_name(f) for f in sorted(glob.glob(os.path.join(HERE, 'effects_gen', 'test_batch_*.py')))]
         + [module_name(f) for f in sorted(glob.glob(os.path.join(HERE, 'abilities_gen', 'test_batch_*.py')))]
         + [module_name(f) for f in sorted(glob.glob(os.path.join(HERE, 'trainers_gen', 'test_batch_*.py')))])

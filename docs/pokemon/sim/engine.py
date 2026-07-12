@@ -51,7 +51,8 @@ class Mon:
         self.dr_amount = 0           # temporary damage reduction amount
         self.dr_turn = -9            # game turn the temp reduction was set (applies the turn after)
         self.special = []            # names of attached Special Energy (for riders/provision)
-        self.ramp = {}               # attack name -> accumulated "next turn does N more" bonus (Echoed Voice)
+        self.ramp = {}               # attack name -> "during your next turn, this attack does N more" bonus
+        self.ramp_turn = {}          # attack name -> turn that bonus was set (Game.ramp_bonus expires it after 1 turn)
         self.last_atk = None         # last attack name this Pokémon used (+ the game turn it used it)
         self.last_atk_turn = -9
         self.evolved_turn = -9       # game turn this Pokémon evolved (for "if it evolved this turn")
@@ -152,7 +153,7 @@ def _clone_mon(m):
     n = Mon.__new__(Mon)
     n.__dict__.update(m.__dict__)
     n.energy = Counter(m.energy); n.status = dict(m.status); n.special = list(m.special)
-    n.ramp = dict(m.ramp); n.tools = list(m.tools)
+    n.ramp = dict(m.ramp); n.ramp_turn = dict(m.ramp_turn); n.tools = list(m.tools)
     return n
 
 
@@ -268,7 +269,7 @@ class Game:
                         ev = Mon(t[1])
                         ev.damage = mon.damage; ev.energy = mon.energy; ev.turns = mon.turns
                         ev.status = mon.status; ev.poison_amt = mon.poison_amt
-                        ev.special = mon.special; ev.ramp = mon.ramp; ev.tools = mon.tools   # keep attached/accumulated state
+                        ev.special = mon.special; ev.ramp = mon.ramp; ev.ramp_turn = mon.ramp_turn; ev.tools = mon.tools   # keep attached/accumulated state
                         ev.last_atk = mon.last_atk; ev.last_atk_turn = mon.last_atk_turn
                         ev.evolved_turn = self.turn
                         me.hand.remove(t)
@@ -651,6 +652,15 @@ class Game:
         g.players = [_clone_player(self.players[0]), _clone_player(self.players[1])]
         return g
 
+    def ramp_bonus(self, mon, name):
+        """A "during your next turn, this attack does +N" buff is valid ONLY on the player's very next
+        turn (set_turn + 2, since turns alternate). Return the bonus if we're within that window, else
+        expire it — a buff whose turn was slept/passed through is gone, not banked."""
+        if self.turn - mon.ramp_turn.get(name, -99) <= 2:
+            return mon.ramp.get(name, 0)
+        mon.ramp.pop(name, None); mon.ramp_turn.pop(name, None)      # expired: clear so it can't resurface
+        return 0
+
     def _est_damage(self, me, opp, a):
         """Estimate an attack's raw damage for AI attack-selection. The fast scaling heuristic is used
         for ordinary attacks; only CONDITIONAL-GATE attacks (which the heuristic over-estimates, e.g.
@@ -707,7 +717,7 @@ class Game:
             if mon.cd_turn + 2 == self.turn and mon.cd_name in ('ALL', a['name']):
                 continue
             ctx = (me, opp, mon, defender, self)
-            dmg = self._est_damage(me, opp, a) + mon.ramp.get(a['name'], 0)   # real, gate-aware estimate
+            dmg = self._est_damage(me, opp, a) + self.ramp_bonus(mon, a['name'])   # real, gate-aware estimate (ramp expires)
             if dmg > 0:
                 dmg += effects.team_attack_bonus(ctx, a)     # Regal Cheer / Cobalt Command / etc.
             if dmg and defender and defender.card.weakness and defender.card.weakness == mon.card.ptype:
@@ -794,10 +804,15 @@ class Game:
                           'obench': [(m.card.name, m.damage) for m in opp.bench], 'hand': len(me.hand),
                           'dname': defender.card.name if defender else '-', 'sdmg': attacker.damage}
                 ctxb = (me, opp, attacker, defender, self)
+                pre_ramp = self.ramp_bonus(attacker, a['name'])   # capture BEFORE resolve(): a "during your next
+                #   turn, this attack does N more" buff sets ramp[name] as a side effect. Reading it back AFTER
+                #   resolve would apply that buff on the SAME turn (Slumbering Smack/Meteor Mash/Hyper Fang would
+                #   hit for the buffed amount immediately). ramp_bonus returns only a PRIOR-turn buff, and expires
+                #   any buff whose next turn has already passed (e.g. Komala slept through it).
                 raw = attack_effects.resolve(me, opp, attacker, defender, self, a)    # registry: damage + ALL side effects
                 attacker.last_atk, attacker.last_atk_turn = a['name'], self.turn      # record AFTER resolving (so gates see prior turn)
                 if raw > 0:                                       # attacker-side buffs (ability + tool + team + ramp)
-                    raw += (attacker.ramp.get(a['name'], 0) + effects.team_attack_bonus(ctxb, a)
+                    raw += (pre_ramp + effects.team_attack_bonus(ctxb, a)
                             + ability_effects.attack_bonus(attacker, defender, a, self)
                             + trainer_effects.tool_attack_bonus(attacker, defender, a, self))
                 dmg, immune, weak = 0, False, False

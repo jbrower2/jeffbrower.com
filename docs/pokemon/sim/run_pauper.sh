@@ -19,7 +19,7 @@ for i in $(seq 1 500); do
   fi
   echo "[daemon $(date '+%m-%d %H:%M:%S')] launch #$i" >> "$DLOG"
   start=$(date +%s)
-  python3 "$SIM/pauper_optimize.py" --games 3 --rounds 15 --cap 120 --workers 9 >> "$LOG" 2>&1
+  python3 "$SIM/pauper_optimize.py" --games 3 --rounds 5 --cap 120 --workers 9 >> "$LOG" 2>&1
   rc=$?; dur=$(( $(date +%s) - start ))
   echo "[daemon $(date '+%m-%d %H:%M:%S')] optimizer exited rc=$rc after ${dur}s" >> "$DLOG"
   if [ "$dur" -lt 60 ] && [ "$rc" -ne 0 ]; then

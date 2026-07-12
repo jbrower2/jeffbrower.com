@@ -185,16 +185,12 @@ def _heavy_confuse_8(ctx):
 def _slumbering_smack(ctx):
     ctx.status('Asleep', mon=ctx.attacker)     # this Pokémon
     ctx.status('Asleep')                        # opponent's Active
-    # Komala's Slumbering Smack is its ONLY attack, so — unlike _buff_next_turn_120 (whose payoff is a
-    # SEPARATE attack) — the "+100 to attacks used by this Pokémon" must land on Slumbering Smack itself.
-    # Overwrite (not the sibling's accumulating +=) so the sleep-loop stabilizes at a flat +100 instead
-    # of running away (the engine never clears ramp). Set both the current attack and every card attack
-    # so it works live (name='Slumbering Smack') and under the test RNG (name='TestAtk').
-    atk = ctx.attacker
-    names = {ctx.attack.get('name')} | {a['name'] for a in atk.card.attacks}
-    for nm in names:
-        if nm:
-            atk.ramp[nm] = 100
+    # "+100 to attacks used by this Pokémon during your NEXT turn." Komala's only attack is Slumbering
+    # Smack, so buff it (plus every card attack, and the test's synthetic name). buff_next_turn overwrites
+    # (flat +100, never cumulative) and stamps the turn so it EXPIRES if Komala sleeps through its next
+    # turn — no more banking +100 indefinitely.
+    names = {ctx.attack.get('name')} | {a['name'] for a in ctx.attacker.card.attacks}
+    ctx.buff_next_turn(100, names)
     return ctx.base
 
 

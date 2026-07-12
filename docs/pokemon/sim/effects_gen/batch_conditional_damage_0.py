@@ -234,14 +234,11 @@ def _salazzle_sudden_scorching(ctx):
 
 @effect("During your next turn, attacks used by this Pokémon do 120 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).")
 def _buff_next_turn_120(ctx):
-    # Model the one-shot next-turn buff via the engine's mon.ramp "next turn does N more" hook
-    # (added to damage BEFORE weakness, matching the parenthetical). Applied to this Pokémon's
-    # OTHER attacks — the payoff hit it will use next turn — not the (small) buff attack itself.
-    atk = ctx.attacker
+    # Donphan No Reprieve / Kilowattrel Wind Power Charge — one-shot "during your next turn, attacks used
+    # by this Pokémon do 120 more" (BEFORE weakness). Buff this Pokémon's OTHER attacks (the payoff hit it
+    # uses next turn), not the small buff attack itself; flat +120, expiring after that turn.
     cur = ctx.attack.get('name')
-    for a in atk.card.attacks:
-        if a.get('name') != cur:
-            atk.ramp[a['name']] = atk.ramp.get(a['name'], 0) + 120
+    ctx.buff_next_turn(120, [a['name'] for a in ctx.attacker.card.attacks if a.get('name') != cur])
     return ctx.base
 
 

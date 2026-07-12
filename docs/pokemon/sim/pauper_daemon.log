@@ -9,3 +9,6 @@
 [daemon 07-11 01:47:47] launch #2
 [daemon 07-11 08:43:06] optimizer exited rc=0 after 24919s
 [daemon 07-11 08:43:11] PAUPER_DONE present — all rounds complete (after 3 checks)
+[daemon 07-11 10:29:41] launch #1
+[daemon 07-11 14:20:58] optimizer exited rc=0 after 13877s
+[daemon 07-11 14:21:03] PAUPER_DONE present — all rounds complete (after 2 checks)

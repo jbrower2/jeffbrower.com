@@ -258,8 +258,9 @@ def t_meteor_mash_ramp():
     ctx, at, df, me, opp = mk(base=60, text=T)
     assert _call(T, ctx) == 60
     assert at.ramp[ctx.attack['name']] == 60
-    assert _call(T, ctx) == 60                                  # stacks on repeat use
-    assert at.ramp[ctx.attack['name']] == 120
+    assert at.ramp_turn[ctx.attack['name']] == ctx.game.turn    # stamped so the engine expires it after 1 turn
+    assert _call(T, ctx) == 60                                  # one-shot: a repeat use does NOT accumulate
+    assert at.ramp[ctx.attack['name']] == 60                    # flat +60 (was 120 under the += bug)
 
 
 # ---------------------------------------------------------------- 22. +20 per defender energy

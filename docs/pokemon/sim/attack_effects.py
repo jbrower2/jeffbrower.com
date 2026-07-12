@@ -119,6 +119,18 @@ class EffectCtx:
     def cant_attack_next(self):
         self.attacker.cd_name = 'ALL'; self.attacker.cd_turn = self.game.turn
 
+    def buff_next_turn(self, amount, names=None):
+        """Register a one-shot "during your NEXT turn, <attack> does +amount" damage buff.
+        Overwrite (flat — these buffs never accumulate across uses) and STAMP the turn so the
+        engine (Game.ramp_bonus) applies it only on the immediately-following turn, then expires
+        it — a slept-through or unused buff does NOT linger. `names` defaults to the current attack;
+        pass a set to buff several attacks (e.g. "attacks used by this Pokémon")."""
+        at = self.attacker
+        for nm in (names if names is not None else [self.attack.get('name')]):
+            if nm:
+                at.ramp[nm] = amount
+                at.ramp_turn[nm] = self.game.turn
+
     def defender_cant_retreat(self):
         self.defender.status['CantRetreat'] = self.game.turn
 

@@ -29,6 +29,10 @@ T2L = {v: k for k, v in L2T.items()}
 TARGET = {'P': 20, 'T': 25, 'E': 15}
 SLACK, PEN_K = 4, 0.5
 THRESH = 1.0
+# Trainers that only do something if the deck runs a Stage-2 Pokémon: Rare Candy (Basic->Stage 2 skip)
+# and Dawn (fetches a Basic+Stage 1+Stage 2). Never add them to a Stage-2-less deck — there they're
+# dead cards. The mutation generator filters these out (and proposes removing any that got stranded).
+STAGE2_TRAINERS = {'Rare Candy', 'Dawn'}
 EPS = 2.5          # accept randomly among moves within this many score points of the best (exploration; breaks pile-on)
 # diversity pressure: penalty (in score points) for holding a chain that sits in `freq` of the
 # field, rising CUBICALLY — 5% share is a small nudge (~1.25), 10% is large (10), and anything
@@ -183,7 +187,8 @@ def mutations(counts, cap=200, rng=random, notrade=frozenset()):
     trainers = [r for r in counts if r[0] == 'T']
     energies = [r for r in counts if r[0] == 'E']
     pokes = [r for r in counts if r[0] == 'P']
-    trainer_adds = [('T', n) for n in TRAINERS]
+    has_s2 = any(BY_KEY[r[1]].stage == 2 for r in pokes)          # deck runs a Stage-2 line?
+    trainer_adds = [('T', n) for n in TRAINERS if has_s2 or n not in STAGE2_TRAINERS]
     muts, seen = [], set()
 
     def emit(m, desc):
@@ -206,6 +211,10 @@ def mutations(counts, cap=200, rng=random, notrade=frozenset()):
     for a in [('E', etype)]:                                  # add energy by cutting a trainer
         for t in trainers[:4]:
             micro(t, a)
+    if not has_s2:                                            # strand-cleanup: dump dead Rare Candy / Dawn
+        for t in trainers:
+            if t[1] in STAGE2_TRAINERS:
+                micro(t, ('E', etype))                        # -> primary basic energy (always at least as useful)
     for ch in add_chains[:20]:                                # +1 of a compatible chain's basic, -1 energy
         micro(energies[0] if energies else None, chain_line(ch)[0][0])
     for a in [('S', n) for n in SE.FREE_SPECIAL if n != "Team Rocket's Energy"]:

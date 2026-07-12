@@ -328,11 +328,11 @@ def _cd_all_own(ctx):
 # ================================================================ next-turn self damage buff
 @effect("During your next turn, this Pokémon's Hyper Fang attack's base damage is 240.")
 def _buff_hyper_fang_240(ctx):
-    # Set Hyper Fang's base to 240 next turn via the ramp channel (best_attack adds mon.ramp[name]
-    # to the attack's damage): ramp = 240 - Hyper Fang's printed base.
+    # Watchog Focus Energy — "during your next turn, Hyper Fang's base damage is 240." One-shot buff of
+    # (240 - Hyper Fang's printed base) on the Hyper Fang payoff attack; expires after that turn.
     hf = next((a for a in ctx.attacker.card.attacks if a.get('name') == 'Hyper Fang'), None)
     cur = hf['dmg'] if hf else 0
-    ctx.attacker.ramp['Hyper Fang'] = 240 - cur
+    ctx.buff_next_turn(240 - cur, ['Hyper Fang'])
     return ctx.base
 
 
